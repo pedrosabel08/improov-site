@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.dist/
+dist/
+build/
+.out/
+.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+
+# XAMPP / local
+.htaccess

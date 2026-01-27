@@ -69,6 +69,41 @@ Este repositório serve como:
 
 ---
 
+## 📁 Estrutura de Pastas (sugestão)
+
+Estrutura inicial criada para manter **conteúdo** separado do **código** e facilitar evolução de stack (sem travar agora em Next/Astro/Vite/etc):
+
+```
+improov-site/
+	content/
+		cases/               # dados dos projetos (sem CMS)
+		i18n/                # textos globais por idioma
+	public/
+		media/               # imagens/vídeos servidos como estáticos
+	src/
+		pages/               # páginas (home, lista de cases, detalhe)
+		layouts/             # layouts/base de páginas
+		components/          # componentes reutilizáveis
+		features/            # módulos por domínio (ex: cases)
+		styles/              # estilos globais/tokens
+		i18n/                # infra de i18n (carregar/selecionar idioma)
+		lib/                 # helpers e utilitários
+		types/               # contratos/tipos
+	docs/
+		adr/                 # decisões técnicas (ADRs)
+	scripts/               # scripts auxiliares (validação/otimização/etc)
+	config/                # configs (dependendo da stack)
+```
+
+### Onde colocar os cases
+
+- Conteúdo (metadados, blocos, galerias): `content/cases/<slug>/...`
+- Mídia (imagens/vídeos): `public/media/cases/<slug>/...`
+
+Os detalhes e exemplos de estrutura estão nos READMEs dentro das próprias pastas.
+
+---
+
 ## 🚧 Status
 
 Projeto em desenvolvimento.
