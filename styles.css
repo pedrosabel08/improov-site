@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.096);
+  z-index: 1000;
+}
+
+.navbar-left img {
+  width: 170px;
+}
+
+.menu a {
+  font-size: 12px;
+}
+
+.navbar-left img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  color: #f0f0f0;
+}
+
+.links img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.links img:hover {
+  transform: scale(1.1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+section {
+  display: flex;
+}
+
+.intro {
+  flex-direction: column;
+  padding: 20px 24px 0;
+  gap: 12px;
+  color: #fff;
+}
+
+.intro-text h2 {
+  font-size: 28px;
+  letter-spacing: 0.5px;
+}
+
+.intro-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  max-width: 820px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.intro-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.intro-badges span {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+.galeria {
+  display: block;
+  padding: 10px 20px 60px;
+}
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 1fr));
+  grid-auto-rows: 160px;
+  gap: 18px;
+  width: 100%;
+}
+
+.galeria-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  transform: translateZ(0);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition:
+    transform 0.4s ease,
+    filter 0.4s ease;
+}
+
+.galeria-item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.75) 100%
+  );
+  opacity: 0.8;
+}
+
+.galeria-item:hover img {
+  transform: scale(1.05) rotate(-0.5deg);
+  filter: saturate(1.1);
+}
+
+.project-name {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  z-index: 2;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.item--tall {
+  grid-row: span 2;
+}
+
+.item--wide {
+  grid-column: span 2;
+}
+
+.item--big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .galeria-grid {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-auto-rows: 140px;
+  }
+}
+
+@media (max-width: 600px) {
+  .intro-text h2 {
+    font-size: 22px;
+  }
+
+  .galeria-grid {
+    grid-template-columns: repeat(1, minmax(140px, 1fr));
+    grid-auto-rows: 180px;
+  }
+
+  .item--big,
+  .item--wide,
+  .item--tall {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.096);
+  z-index: 1000;
+}
+
+footer a {
+  color: white;
+  margin-right: 20px;
+}
+
+.autoShow {
+  animation: autoShowAnimation both;
+  animation-timeline: view(100% 5%);
+}
+
+@keyframes autoShowAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}

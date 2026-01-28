@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleDetails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Slider de Vídeos</title>
+
+</head>
+
+<body>
+    <section class="videoPrincipal">
+
+        <h1 id="nome">Nome do Projeto</h1>
+        <video id="videoPlayer" autoplay muted playsinline>
+            <source id="videoSource" src="../assets/Render_Suite_Mata.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <main>
+
+        <div class="desc">
+            <div>
+                <h2>Localidade</h2>
+                <p>Itapema, SC</p>
+            </div>
+            <div>
+                <h2>Ano</h2>
+                <p>2024</p>
+            </div>
+        </div>
+
+        <div class="fachadas">
+            <img src="../assets/BHE_INF_Fachada_Extra.jpg" alt="">
+            <img src="../assets/BHE_INF_Fachada_EF.jpg" alt="">
+        </div>
+
+        <div class="filme">
+            <div class="desc-filme">
+                <h1>Filme</h1>
+            </div>
+            <video id="videoPlayer" playsinline controls>
+                <source src="../assets/2021_0607 Infinita - Director Cut vFINAL.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="animas">
+            <video id="videoAnima" playsinline autoplay muted>
+                <source src="animas/Infinita/1.mp4" type="video/mp4">
+                Seu navegador não suporta o vídeo.
+            </video>
+
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-container">
+                <div class="carousel-images">
+                    <img src="../assets/BHE_INF_Golfe_EF.jpg" alt="Imagem 1">
+                    <img src="../assets/BHE_INF_Jogos_EF.jpg" alt="Imagem 2">
+                    <img src="../assets/BHE_INF_Suíte Master_EF.jpg" alt="Imagem 3">
+                </div>
+                <!-- Botões de navegação -->
+                <button class="carousel-button prev"><i class="fa-solid fa-left-long"></i></button>
+                <button class="carousel-button next"><i class="fa-solid fa-right-long"></i></button>
+            </div>
+        </div>
+    </main>
+
+    <script src="scriptDetails.js"></script>
+
+</body>
+
+</html>
