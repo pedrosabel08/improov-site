@@ -30,7 +30,7 @@
 
     <main>
       <section class="autoShow">
-        <video id="videoPlayer" autoplay muted playsinline>
+        <video id="videoPlayer" autoplay muted playsinline loop>
           <source
             id="videoSource"
             src="assets/Render_Suite_Mata.mp4"
@@ -39,7 +39,7 @@
         </video>
       </section>
 
-      <section class="intro autoShow">
+      <section class="intro">
         <div class="intro-text">
           <h2>Improov é energia criativa em movimento</h2>
           <p>
@@ -57,7 +57,7 @@
         </div>
       </section>
 
-      <section class="galeria autoShow">
+      <section class="galeria">
         <div class="galeria-grid">
           <figure class="galeria-item item--big">
             <img src="assets/BHE_INF_Academia_EF.jpg" alt="Projeto Academia" />
@@ -95,10 +95,15 @@
             <figcaption class="project-name">Lobby — Boas-vindas</figcaption>
           </figure>
           <figure class="galeria-item item--tall">
-            <img
-              src="assets/BHE_INF_Academia_EF.jpg"
-              alt="Projeto Academia 2"
-            />
+            <video
+              class="hover-video"
+              muted
+              playsinline
+              loop
+              poster="assets/BHE_INF_Academia_EF.jpg"
+            >
+              <source src="ALT_TER_Tracking_1.mp4" type="video/mp4" />
+            </video>
             <figcaption class="project-name">
               Academia — Versão Noturna
             </figcaption>
@@ -115,5 +120,6 @@
         <a href="#"><i class="fas fa-envelope"></i></a>
       </div>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
