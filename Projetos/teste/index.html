@@ -3,31 +3,290 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Teste - Projeto</title>
+    <title>Projeto — Detalhes</title>
+
+    <!-- site styles and icons (use root-relative paths so friendly URLs work) -->
+    <link rel="stylesheet" href="/improov-site/styles.css" />
+    <link
+      rel="stylesheet"
+      href="/improov-site/Projetos/teste/style-project.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <style>
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 40px;
+      /* CSS-only infinite carousel styles */
+      .carousel {
+        width: 100%;
+        height: 360px;
+        overflow-x: auto;
+        border-radius: 12px;
+        background: #111;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        touch-action: pan-y;
+        cursor: grab;
+      }
+
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
+
+      .carousel-track {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        height: 100%;
+        width: 100%;
+      }
+
+      .carousel-item {
+        flex: 0 0 70%;
+        min-width: 320px;
+        height: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #111;
+      }
+
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .carousel:hover .carousel-track {
+        animation-play-state: paused;
+      }
+
+      .carousel.draggable {
+        cursor: grab;
+      }
+      .carousel.draggable:active {
+        cursor: grabbing;
+      }
+
+      @keyframes carousel-scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (max-width: 900px) {
+        .carousel {
+          height: 260px;
+        }
+        .carousel-item {
+          flex: 0 0 80%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .carousel {
+          height: 200px;
+        }
+        .carousel-item {
+          flex: 0 0 90%;
+        }
       }
     </style>
   </head>
+
   <body>
-    <h1>Projeto de Teste</h1>
-    <p>
-      Se você vê esta página acessando <strong>/improov-site/teste</strong>, o
-      rewrite está funcionando.
-    </p>
-    <p><a href="/improov-site/">Voltar</a></p>
-  </body>
-</html>
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>teste</title>
-  </head>
-  <body>
-    <h1>teste</h1>
+    <!-- Header copied from root (paths adjusted) -->
+    <header>
+      <div class="navbar-left">
+        <a href="/improov-site/"
+          ><img
+            src="/improov-site/assets/LOGO_WHITE_IMPROOV-LOOP.gif"
+            alt="Improov"
+        /></a>
+      </div>
+      <div class="navbar-right">
+        <div class="menu">
+          <a href="#">Quem Somos</a>
+          <a href="#">Contato</a>
+          <a href="/improov-site/Projetos/">Projetos</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section
+        class="project-hero"
+        style="
+          background-image: url(&quot;/improov-site/assets/BHE_INF_Academia_EF.jpg&quot;);
+        "
+      >
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Academia — Energia Urbana</h1>
+          <p class="hero-sub">Branding, Arquitetura, Experiência — 2025</p>
+        </div>
+      </section>
+
+      <!-- Description + Info -->
+      <section class="project-grid">
+        <div class="project-desc">
+          <h3>Descrição do Projeto</h3>
+          <p>
+            Este projeto explora a integração de identidade visual com o espaço
+            arquitetônico, criando uma experiência fluida para os usuários. A
+            intervenção considera luz, cor e materiais para transmitir energia e
+            movimento, reforçando a marca em cada ponto de contato.
+          </p>
+
+          <p>
+            A proposta incluiu estudo de layout, sinalização, aplicações de
+            identidade em mídia física e digital, além de soluções de iluminação
+            cenográfica para criar atmosferas distintas ao longo do dia.
+          </p>
+        </div>
+
+        <aside class="project-info">
+          <dl>
+            <dt>Localização</dt>
+            <dd>São Paulo, SP</dd>
+            <dt>Cliente</dt>
+            <dd>Academia Energia</dd>
+            <dt>Arquiteto</dt>
+            <dd>Estúdio Exemplar</dd>
+            <dt>Ano</dt>
+            <dd>2025</dd>
+          </dl>
+        </aside>
+      </section>
+
+      <!-- Carousel (CSS-only infinite) -->
+      <section class="project-carousel">
+        <div class="carousel">
+          <div class="carousel-track">
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Academia_EF.jpg"
+                alt="slide 1"
+              />
+            </figure>
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
+                alt="slide 2"
+              />
+            </figure>
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
+                alt="slide 3"
+              />
+            </figure>
+            <!-- duplicated for seamless loop -->
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Academia_EF.jpg"
+                alt="slide 1"
+              />
+            </figure>
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
+                alt="slide 2"
+              />
+            </figure>
+            <figure class="carousel-item">
+              <img
+                src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
+                alt="slide 3"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Related projects (two) -->
+      <section class="related-projects">
+        <h3>Projetos Relacionados</h3>
+        <div class="projects">
+          <figure class="galeria-item">
+            <img
+              src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
+              alt="Projeto Adega"
+            />
+            <figcaption class="project-name">Adega — Luz & Sombra</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <img
+              src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
+              alt="Brinquedoteca"
+            />
+            <figcaption class="project-name">
+              Brinquedoteca — Cor & Movimento
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer copied from root -->
+    <footer>
+      <div class="links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scripts: keep global site script -->
+    <script src="/improov-site/script.js"></script>
+    <script>
+      // Enable pointer drag-to-scroll for the CSS carousel
+      (function () {
+        var carousel = document.querySelector(".carousel");
+        if (!carousel) return;
+
+        var isDown = false;
+        var startX = 0;
+        var scrollLeft = 0;
+
+        carousel.classList.add("draggable");
+
+        carousel.addEventListener("pointerdown", function (e) {
+          isDown = true;
+          carousel.setPointerCapture(e.pointerId);
+          startX = e.clientX;
+          scrollLeft = carousel.scrollLeft;
+          carousel.style.cursor = "grabbing";
+          e.preventDefault();
+        });
+
+        carousel.addEventListener("pointermove", function (e) {
+          if (!isDown) return;
+          var x = e.clientX;
+          var walk = startX - x;
+          carousel.scrollLeft = scrollLeft + walk;
+        });
+
+        function up(e) {
+          if (!isDown) return;
+          isDown = false;
+          try {
+            carousel.releasePointerCapture(e.pointerId);
+          } catch (err) {}
+          carousel.style.cursor = "grab";
+        }
+
+        carousel.addEventListener("pointerup", up);
+        carousel.addEventListener("pointercancel", up);
+        carousel.addEventListener("pointerleave", up);
+      })();
+    </script>
   </body>
 </html>
