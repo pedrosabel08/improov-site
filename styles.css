@@ -36,6 +36,79 @@ header.hidden {
   pointer-events: none;
 }
 
+/* Hamburger (mobile) */
+.hamburger {
+  display: none;
+  position: absolute;
+  right: 18px;
+  top: 14px;
+  width: 40px;
+  height: 34px;
+  padding: 6px 6px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 1200;
+}
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition:
+    transform 260ms ease,
+    opacity 260ms ease;
+}
+.hamburger.is-active span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+.hamburger.is-active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.is-active span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Mobile nav panel */
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.95);
+  transform: translateY(-120%);
+  transition: transform 280ms ease;
+  z-index: 1105;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 18px;
+  gap: 6px;
+}
+.mobile-nav.open {
+  transform: translateY(0);
+}
+.mobile-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 6px;
+  border-radius: 6px;
+}
+.mobile-nav a:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
 .navbar-left img {
   width: 170px;
 }
