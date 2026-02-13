@@ -131,16 +131,11 @@
 
     <main>
       <!-- Hero -->
-      <section
-        class="project-hero"
-        style="
-          background-image: url(&quot;/improov-site/assets/BHE_INF_Academia_EF.jpg&quot;);
-        "
-      >
+      <section class="project-hero" id="projectHero">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-          <h1 class="hero-title">Academia — Energia Urbana</h1>
-          <p class="hero-sub">Branding, Arquitetura, Experiência — 2025</p>
+          <h1 class="hero-title" id="heroTitle">Projeto</h1>
+          <p class="hero-sub" id="heroSub"></p>
         </div>
       </section>
 
@@ -148,100 +143,41 @@
       <section class="project-grid">
         <div class="project-desc">
           <h3>Descrição do Projeto</h3>
-          <p>
-            Este projeto explora a integração de identidade visual com o espaço
-            arquitetônico, criando uma experiência fluida para os usuários. A
-            intervenção considera luz, cor e materiais para transmitir energia e
-            movimento, reforçando a marca em cada ponto de contato.
-          </p>
-
-          <p>
-            A proposta incluiu estudo de layout, sinalização, aplicações de
-            identidade em mídia física e digital, além de soluções de iluminação
-            cenográfica para criar atmosferas distintas ao longo do dia.
-          </p>
+          <div id="projectDescription"></div>
         </div>
 
         <aside class="project-info">
-          <dl>
-            <dt>Localização</dt>
-            <dd>São Paulo, SP</dd>
-            <dt>Cliente</dt>
-            <dd>Academia Energia</dd>
-            <dt>Arquiteto</dt>
-            <dd>Estúdio Exemplar</dd>
-            <dt>Ano</dt>
-            <dd>2025</dd>
-          </dl>
+          <dl id="projectInfo"></dl>
         </aside>
+      </section>
+
+      <!-- Film (single sample) -->
+      <section class="filme">
+        <div class="desc-filme">
+          <h1>Filme</h1>
+        </div>
+        <div id="projectFilm"></div>
+      </section>
+
+      <!-- Animations gallery -->
+      <section class="animas">
+        <div class="desc-filme">
+          <h1>Animações</h1>
+        </div>
+        <div id="animationsList" class="animations-list"></div>
       </section>
 
       <!-- Carousel (CSS-only infinite) -->
       <section class="project-carousel">
         <div class="carousel">
-          <div class="carousel-track">
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Academia_EF.jpg"
-                alt="slide 1"
-              />
-            </figure>
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
-                alt="slide 2"
-              />
-            </figure>
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
-                alt="slide 3"
-              />
-            </figure>
-            <!-- duplicated for seamless loop -->
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Academia_EF.jpg"
-                alt="slide 1"
-              />
-            </figure>
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
-                alt="slide 2"
-              />
-            </figure>
-            <figure class="carousel-item">
-              <img
-                src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
-                alt="slide 3"
-              />
-            </figure>
-          </div>
+          <div class="carousel-track" id="carouselTrack"></div>
         </div>
       </section>
 
       <!-- Related projects (two) -->
       <section class="related-projects">
         <h3>Projetos Relacionados</h3>
-        <div class="projects">
-          <figure class="galeria-item">
-            <img
-              src="/improov-site/assets/BHE_INF_Adega_EF.jpg"
-              alt="Projeto Adega"
-            />
-            <figcaption class="project-name">Adega — Luz & Sombra</figcaption>
-          </figure>
-          <figure class="galeria-item">
-            <img
-              src="/improov-site/assets/BHE_INF_Brinquedoteca_EF.jpg"
-              alt="Brinquedoteca"
-            />
-            <figcaption class="project-name">
-              Brinquedoteca — Cor & Movimento
-            </figcaption>
-          </figure>
-        </div>
+        <div class="projects" id="relatedProjects"></div>
       </section>
     </main>
 
@@ -257,47 +193,17 @@
 
     <!-- Scripts: keep global site script -->
     <script src="/improov-site/script.js"></script>
-    <script>
-      // Enable pointer drag-to-scroll for the CSS carousel
-      (function () {
-        var carousel = document.querySelector(".carousel");
-        if (!carousel) return;
+    <script src="/improov-site/Projetos/teste/project-details.js"></script>
 
-        var isDown = false;
-        var startX = 0;
-        var scrollLeft = 0;
-
-        carousel.classList.add("draggable");
-
-        carousel.addEventListener("pointerdown", function (e) {
-          isDown = true;
-          carousel.setPointerCapture(e.pointerId);
-          startX = e.clientX;
-          scrollLeft = carousel.scrollLeft;
-          carousel.style.cursor = "grabbing";
-          e.preventDefault();
-        });
-
-        carousel.addEventListener("pointermove", function (e) {
-          if (!isDown) return;
-          var x = e.clientX;
-          var walk = startX - x;
-          carousel.scrollLeft = scrollLeft + walk;
-        });
-
-        function up(e) {
-          if (!isDown) return;
-          isDown = false;
-          try {
-            carousel.releasePointerCapture(e.pointerId);
-          } catch (err) {}
-          carousel.style.cursor = "grab";
-        }
-
-        carousel.addEventListener("pointerup", up);
-        carousel.addEventListener("pointercancel", up);
-        carousel.addEventListener("pointerleave", up);
-      })();
-    </script>
+    <!-- Modal for media preview -->
+    <div id="mediaModal" class="media-modal" aria-hidden="true">
+      <div id="modalBackdrop" class="media-modal__backdrop"></div>
+      <div class="media-modal__content" role="dialog" aria-modal="true">
+        <button id="modalClose" class="modal-close" aria-label="Fechar">
+          ×
+        </button>
+        <video id="modalVideo" controls playsinline></video>
+      </div>
+    </div>
   </body>
 </html>

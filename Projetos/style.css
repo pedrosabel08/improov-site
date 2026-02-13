@@ -1,56 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 @font-face {
-    font-family: 'Graphik';
-    src: url('fonts/Graphik-Regular-Trial.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Graphik";
+  src: url("fonts/Graphik-Regular-Trial.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Graphik', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Graphik", sans-serif;
 }
 
 body {
-    background-color: #ececec;
+  background-color: #ececec;
 }
 
 h1,
 h2 {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .project video {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    transition: transform 0.3s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
 
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .project h3 {
-    margin-top: 20px;
-    text-align: center;
-    padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
 }
 
 .project video:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.project img:hover {
+  transform: scale(1.1);
 }
