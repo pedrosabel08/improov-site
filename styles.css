@@ -172,13 +172,14 @@ main {
 }
 
 .intro-text h2 {
-  font-size: 28px;
+  font-size: clamp(1.55rem, 6vw, 2rem);
   letter-spacing: 0.5px;
+  line-height: 1.15;
 }
 
 .intro-text p {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: clamp(0.98rem, 3.9vw, 1.1rem);
+  line-height: 1.65;
   max-width: 820px;
   color: rgba(255, 255, 255, 0.85);
 }
@@ -192,9 +193,9 @@ main {
 .intro-badges span {
   background: rgba(255, 255, 255, 0.12);
   border: 1px solid rgba(255, 255, 255, 0.25);
-  padding: 6px 14px;
+  padding: clamp(6px, 1.5vw, 8px) clamp(10px, 2.5vw, 14px);
   border-radius: 999px;
-  font-size: 12px;
+  font-size: clamp(0.72rem, 2.6vw, 0.78rem);
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
@@ -296,7 +297,15 @@ video {
 
 @media (max-width: 600px) {
   .intro-text h2 {
-    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  .intro {
+    padding: 18px;
+  }
+
+  .intro-text p {
+    max-width: 95%;
   }
 
   .galeria-grid {

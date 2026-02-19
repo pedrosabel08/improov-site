@@ -26,14 +26,16 @@
 }
 
 .hero-title {
-  font-size: 46px;
+  font-size: clamp(1.8rem, 6.6vw, 2.875rem);
   letter-spacing: 0.6px;
   margin-bottom: 8px;
+  line-height: 1.1;
 }
 
 .hero-sub {
-  font-size: 16px;
+  font-size: clamp(0.95rem, 3.2vw, 1rem);
   opacity: 0.9;
+  line-height: 1.45;
 }
 
 .project-grid {
@@ -46,9 +48,19 @@
 }
 
 .project-desc {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: clamp(1rem, 3.8vw, 1.25rem);
+  line-height: 1.65;
   color: rgba(255, 255, 255, 0.92);
+}
+
+.project-desc h3 {
+  font-size: clamp(1.4rem, 5vw, 1.9rem);
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.project-desc p {
+  font-size: clamp(1rem, 3.6vw, 1.2rem);
 }
 
 .project-info {
@@ -56,12 +68,24 @@
   border: 1px solid rgba(255, 255, 255, 0.06);
   padding: 20px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: clamp(0.98rem, 3.3vw, 1.125rem);
 }
 
 .project-info dt {
   font-weight: 700;
   margin-top: 12px;
+  font-size: clamp(1rem, 3.5vw, 1.2rem);
+}
+
+.project-info dd {
+  font-size: clamp(1rem, 3.4vw, 1.14rem);
+  line-height: 1.35;
+}
+
+.desc-filme h1 {
+  font-size: clamp(1.3rem, 4.8vw, 2rem);
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
 
 .project-carousel {
@@ -206,6 +230,22 @@
 @media (max-width: 900px) {
   .project-grid {
     grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 30px 16px;
+  }
+
+  .project-desc {
+    font-size: clamp(1rem, 4.1vw, 1.12rem);
+  }
+
+  .project-info {
+    padding: 16px;
+  }
+
+  .animations-list {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: min(100%, 420px);
   }
 
   .swiper {

@@ -267,7 +267,7 @@
       const project =
         projects.find((item) => item.slug === slug) || projects[0];
 
-      document.title = `${project.title} — Detalhes`;
+      document.title = `Improov - ${project.title}`;
       heroTitle.textContent = project.title || "Projeto";
       heroSub.textContent = project.subtitle || "";
 
