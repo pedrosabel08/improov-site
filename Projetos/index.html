@@ -1,21 +1,216 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projeto — Detalhes</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
+    <!-- site styles and icons (use root-relative paths so friendly URLs work) -->
+    <link rel="stylesheet" href="/improov-site/styles.css" />
+    <link rel="stylesheet" href="/improov-site/Projetos/style-project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1Xb7btbNV33nmxv08I1X4u9QTDNIKwrMyw&s"
+      type="image/x-icon"
+    />
 
-<body>
-    <h1>Projetos Improov</h1>
+    <style>
+      /* CSS-only infinite carousel styles */
+      .carousel {
+        width: 100%;
+        height: 360px;
+        overflow-x: auto;
+        border-radius: 12px;
+        background: #111;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        touch-action: pan-y;
+        cursor: grab;
+      }
 
-    <section class="projects">
-        <!-- Os projetos serão adicionados dinamicamente aqui -->
-    </section>
+      .carousel::-webkit-scrollbar {
+        display: none;
+      }
 
-    <script src="script.js"></script>
-</body>
+      .carousel-track {
+        display: flex;
+        gap: 20px;
+        align-items: stretch;
+        height: 100%;
+        width: 100%;
+      }
 
+      .carousel-item {
+        flex: 0 0 70%;
+        min-width: 320px;
+        height: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #111;
+      }
+
+      .carousel-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .carousel:hover .carousel-track {
+        animation-play-state: paused;
+      }
+
+      .carousel.draggable {
+        cursor: grab;
+      }
+      .carousel.draggable:active {
+        cursor: grabbing;
+      }
+
+      @keyframes carousel-scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (max-width: 900px) {
+        .carousel {
+          height: 260px;
+        }
+        .carousel-item {
+          flex: 0 0 80%;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .carousel {
+          height: 200px;
+        }
+        .carousel-item {
+          flex: 0 0 90%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header copied from root (paths adjusted) -->
+    <header>
+      <div class="navbar-left">
+        <a href="/improov-site/"
+          ><img
+            src="/improov-site/assets/LOGO_WHITE_IMPROOV-LOOP.gif"
+            alt="Improov"
+        /></a>
+      </div>
+      <div class="navbar-right">
+        <div class="menu">
+          <a href="/improov-site/#galeria">Projetos</a>
+          <a href="/improov-site/#contato">Contato</a>
+        </div>
+      </div>
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="mobile-nav" aria-hidden="true">
+        <a href="/improov-site/">Home</a>
+        <a href="/improov-site/#galeria">Projetos</a>
+        <a href="/improov-site/#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="project-hero" id="projectHero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title" id="heroTitle">Projeto</h1>
+          <p class="hero-sub" id="heroSub"></p>
+        </div>
+      </section>
+
+      <!-- Description + Info -->
+      <section class="project-grid">
+        <div class="project-desc">
+          <div id="projectDescription"></div>
+        </div>
+
+        <aside class="project-info">
+          <dl id="projectInfo"></dl>
+        </aside>
+      </section>
+
+      <!-- Film (single sample) -->
+      <section class="filme">
+        <div class="desc-filme">
+          <h1>Filme</h1>
+        </div>
+        <div id="projectFilm"></div>
+      </section>
+
+      <!-- Animations gallery -->
+      <section class="animas">
+        <div class="desc-filme">
+          <h1>Animações</h1>
+        </div>
+        <div id="animationsList" class="animations-list"></div>
+      </section>
+
+      <!-- Carousel (CSS-only infinite) -->
+      <section class="project-carousel">
+        <div class="carousel">
+          <div class="carousel-track" id="carouselTrack"></div>
+        </div>
+      </section>
+
+      <!-- Related projects (two) -->
+      <section class="related-projects">
+        <h3>Projetos Relacionados</h3>
+        <div class="projects" id="relatedProjects"></div>
+      </section>
+    </main>
+
+    <!-- Footer copied from root -->
+    <footer>
+      <div class="links">
+        <a href="https://instagram.com/improovbr" target="_blank" rel="noopener"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/5547991968080" target="_blank" rel="noopener"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
+        <a href="https://facebook.com/improovbr" target="_blank" rel="noopener"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="mailto:contato@improov.com.br"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+
+    <!-- Scripts: keep global site script -->
+    <script src="/improov-site/script.js"></script>
+    <script src="/improov-site/Projetos/project-details.js"></script>
+
+    <!-- Modal for media preview -->
+    <div id="mediaModal" class="media-modal" aria-hidden="true">
+      <div id="modalBackdrop" class="media-modal__backdrop"></div>
+      <div class="media-modal__content" role="dialog" aria-modal="true">
+        <button id="modalClose" class="modal-close" aria-label="Fechar">
+          ×
+        </button>
+        <video id="modalVideo" controls playsinline></video>
+      </div>
+    </div>
+  </body>
 </html>

@@ -29,14 +29,15 @@ document
 
   if ("IntersectionObserver" in window) {
     var obs = new IntersectionObserver(
-      function (entries, observer) {
+      function (entries) {
         entries.forEach(function (entry) {
+          var el = entry.target;
+          var idx = Array.prototype.indexOf.call(items, el);
           if (entry.isIntersecting) {
-            var el = entry.target;
-            var idx = Array.prototype.indexOf.call(items, el);
             el.style.setProperty("--reveal-delay", idx * 80 + "ms");
             el.classList.add("in-view");
-            observer.unobserve(el);
+          } else {
+            el.classList.remove("in-view");
           }
         });
       },
@@ -121,11 +122,14 @@ document
       if (!ticking) {
         window.requestAnimationFrame(function () {
           var delta = current - lastScroll;
+          var doc = document.documentElement || document.body;
+          var atBottom = window.innerHeight + current >= doc.scrollHeight - 2;
+
           if (Math.abs(delta) > threshold) {
             if (delta > 0) {
               // scrolling down
               header.classList.add("hidden");
-              footer.classList.add("show-footer");
+              if (!atBottom) footer.classList.add("show-footer");
             } else {
               // scrolling up
               header.classList.remove("hidden");
@@ -133,6 +137,12 @@ document
             }
             lastScroll = current;
           }
+
+          // always hide footer when at the absolute bottom
+          if (atBottom) {
+            footer.classList.remove("show-footer");
+          }
+
           ticking = false;
         });
         ticking = true;

@@ -26,8 +26,8 @@
       </div>
       <div class="navbar-right">
         <div class="menu">
-          <a href="#">Quem Somos</a>
-          <a href="#">Contato</a>
+          <a href="#galeria">Projetos</a>
+          <a href="#contato">Contato</a>
         </div>
       </div>
       <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
@@ -36,8 +36,8 @@
         <span></span>
       </button>
       <nav class="mobile-nav" aria-hidden="true">
-        <a href="#">Quem Somos</a>
-        <a href="#">Contato</a>
+        <a href="#galeria">Projetos</a>
+        <a href="#contato">Contato</a>
       </nav>
     </header>
 
@@ -46,7 +46,7 @@
         <video id="videoPlayer" autoplay muted playsinline loop>
           <source
             id="videoSource"
-            src="assets/Render_Suite_Mata.mp4"
+            src="assets/projetos/AYA_KAR/6.AYA_KAR Piscina Maior.mp4"
             type="video/mp4"
           />
         </video>
@@ -54,60 +54,73 @@
 
       <section class="intro">
         <div class="intro-text">
-          <h2>Improov é energia criativa em movimento</h2>
+          <h2>+ Heartmade +</h2>
           <p>
-            Somos uma agência que mistura estratégia, design e inovação para
-            transformar ideias em experiências visuais marcantes. Da primeira
-            conversa ao último detalhe, a Improov cria projetos com identidade,
-            ritmo e personalidade.
+            “Heartmade” é a nossa filosofia de trabalho; é o nosso selo de
+            customização. Trabalho feito por seres humanos e feito com Coração!
+          </p>
+          <p>
+            Essa é a fórmula que usamos para que cada cliente tenha materiais
+            sensoriais originais capazes de conectar seu produto ao seu cliente
+            de forma única.
+          </p>
+          <p>
+            É o contrário de simplificar o desenvolvimento padronizando ou
+            utilizando Inteligência Artificial para criar; Nós usamos o coração!
+            É conexão emocional e entusiasmo genuíno pelo trabalho.
+          </p>
+          <p>
+            É a sutileza dos detalhes que sopram vida em tudo o que é criado
+            pela Improov.
           </p>
         </div>
-        <div class="intro-badges">
+        <!-- <div class="intro-badges">
           <span>Branding</span>
           <span>Arquitetura</span>
           <span>Experiência</span>
           <span>Conteúdo</span>
-        </div>
+        </div> -->
       </section>
 
-      <section class="galeria">
+      <section class="galeria" id="galeria">
         <div class="galeria-grid">
-          <figure class="galeria-item item--tall">
-            <img src="assets/BHE_INF_Academia_EF.jpg" alt="Projeto Academia" />
-            <figcaption class="project-name">
-              Academia — Energia Urbana
-            </figcaption>
-          </figure>
-          <figure class="galeria-item item--tall">
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/aya-kar"
+          >
+            <img src="assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg" alt="Projeto Aya Kar" />
+            <span class="project-name">Aya Karioó</span>
+          </a>
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/adega-luz-sombra"
+          >
             <img src="assets/BHE_INF_Adega_EF.jpg" alt="Projeto Adega" />
-            <figcaption class="project-name">Adega — Luz & Sombra</figcaption>
-          </figure>
-          <figure class="galeria-item item--tall">
+            <span class="project-name">Adega — Luz & Sombra</span>
+          </a>
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/brinquedoteca-cor-movimento"
+          >
             <img
               src="assets/BHE_INF_Brinquedoteca_EF.jpg"
               alt="Projeto Brinquedoteca"
             />
-            <figcaption class="project-name">
-              Brinquedoteca — Cor & Movimento
-            </figcaption>
-          </figure>
-          <figure class="galeria-item">
+            <span class="project-name">Brinquedoteca — Cor & Movimento</span>
+          </a>
+          <a class="galeria-item" href="/improov-site/Projetos/iluminacao-foco-criativo">
             <img src="1.jpg" alt="Projeto Iluminação" />
-            <figcaption class="project-name">
-              Iluminação — Foco Criativo
-            </figcaption>
-          </figure>
-          <figure class="galeria-item">
+            <span class="project-name">Iluminação — Foco Criativo</span>
+          </a>
+          <a class="galeria-item" href="/improov-site/Projetos/espaco-minimal-vivo">
             <img src="2.jpg" alt="Projeto Espaço" />
-            <figcaption class="project-name">
-              Espaço — Minimal & Vivo
-            </figcaption>
-          </figure>
-          <figure class="galeria-item item--tall">
+            <span class="project-name">Espaço — Minimal & Vivo</span>
+          </a>
+          <a class="galeria-item item--tall" href="/improov-site/Projetos/lobby-boas-vindas">
             <img src="3.jpg" alt="Projeto Lobby" />
-            <figcaption class="project-name">Lobby — Boas-vindas</figcaption>
-          </figure>
-          <figure class="galeria-item item--tall">
+            <span class="project-name">Lobby — Boas-vindas</span>
+          </a>
+          <a class="galeria-item item--tall" href="/improov-site/Projetos/academia-versao-noturna">
             <video
               class="hover-video"
               muted
@@ -117,10 +130,63 @@
             >
               <source src="ALT_TER_Tracking_1.mp4" type="video/mp4" />
             </video>
-            <figcaption class="project-name">
-              Academia — Versão Noturna
-            </figcaption>
-          </figure>
+            <span class="project-name">Academia — Versão Noturna</span>
+          </a>
+        </div>
+      </section>
+      <section class="contato-section" id="contato">
+        <div class="contato-inner">
+          <h2>Vamos criar juntos?</h2>
+          <p class="contato-slogan">
+            Trabalho feito com coração, para conectar marcas e pessoas de forma
+            única.
+          </p>
+          <ul class="contato-list">
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:contato@improov.com.br">contato@improov.com.br</a>
+            </li>
+            <li>
+              <i class="fab fa-whatsapp"></i>
+              <a
+                href="https://wa.me/5547991968080"
+                target="_blank"
+                rel="noopener"
+                >+55 (47) 99196-8080</a
+              >
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i>
+              <a
+                href="https://instagram.com/improov"
+                target="_blank"
+                rel="noopener"
+                >@improov</a
+              >
+            </li>
+          </ul>
+          <p class="contato-location">
+            <i class="fas fa-map-marker-alt"></i> Blumenau, SC — Brasil
+          </p>
+        </div>
+        <div class="contato-footer-bar">
+          <div class="links">
+            <a
+              href="https://instagram.com/improovbr"
+              target="_blank"
+              rel="noopener"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://wa.me/5547991968080" target="_blank" rel="noopener"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+            <a href="mailto:contato@improov.com.br"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <p class="contato-copy">
+            © 2025 Improov. Todos os direitos reservados.
+          </p>
         </div>
       </section>
     </main>

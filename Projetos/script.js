@@ -35,7 +35,7 @@ function displayProjects(projetos) {
     const projectDiv = document.createElement("div");
     projectDiv.classList.add("project");
     projectDiv.onclick = () => {
-      window.location.href = `/improov-site/Projetos/teste/?slug=${slug}`;
+      window.location.href = `/improov-site/Projetos/${slug}`;
     };
 
     projectDiv.innerHTML = `

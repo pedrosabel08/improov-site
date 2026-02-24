@@ -21,7 +21,13 @@
   }
 
   function getSlugFromUrl() {
-    const params = new URLSearchParams(window.location.search);
+    // Path-based: /improov-site/Projetos/slug
+    var pathMatch = window.location.pathname.match(/\/Projetos\/([^\/]+)\/?$/i);
+    if (pathMatch && pathMatch[1] && pathMatch[1] !== "index.html") {
+      return pathMatch[1];
+    }
+    // Fallback: ?slug= query string
+    var params = new URLSearchParams(window.location.search);
     return params.get("slug");
   }
 
@@ -206,9 +212,9 @@
     relatedProjects.innerHTML = related
       .map(
         (project) => `
-          <a class="galeria-item" href="/improov-site/Projetos/teste/?slug=${project.slug}">
+          <a class="galeria-item" href="/improov-site/Projetos/${project.slug}">
             <img src="${project.thumbnail || project.heroImage}" alt="${project.title}" loading="lazy" />
-            <figcaption class="project-name">${project.title}</figcaption>
+            <span class="project-name">${project.title}</span>
           </a>`,
       )
       .join("");
