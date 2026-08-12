@@ -11,6 +11,20 @@
   const projectFilm = document.getElementById("projectFilm");
   const animationsList = document.getElementById("animationsList");
 
+  function tr(key) {
+    return window.ImproovI18n
+      ? window.ImproovI18n.translate(key)
+      : key;
+  }
+
+  function localizeProject(project) {
+    if (!window.ImproovI18n || !project) return project;
+    const language = window.ImproovI18n.getLanguage();
+    const translations = window.ImproovI18n.projectTranslations || {};
+    const localized = translations[project.slug] && translations[project.slug][language];
+    return localized ? { ...project, ...localized } : project;
+  }
+
   function getModalElements() {
     return {
       mediaModal: document.getElementById("mediaModal"),
@@ -39,15 +53,15 @@
 
   function renderInfo(info = {}) {
     const labelMap = {
-      localizacao: "Localização",
-      cliente: "Cliente",
-      arquiteto: "Arquiteto",
-      ano: "Ano",
+      localizacao: tr("project.location"),
+      cliente: tr("project.client"),
+      arquiteto: tr("project.architect"),
+      ano: tr("project.year"),
     };
 
     const entries = Object.entries(info).filter(([, value]) => value);
     if (!entries.length) {
-      projectInfo.innerHTML = "<dt>Informações</dt><dd>Em breve</dd>";
+      projectInfo.innerHTML = `<dt>${tr("project.info")}</dt><dd>${tr("project.comingSoon")}</dd>`;
       return;
     }
 
@@ -61,7 +75,7 @@
 
   function renderDescription(description = []) {
     if (!Array.isArray(description) || !description.length) {
-      projectDescription.innerHTML = "<p>Descrição em breve.</p>";
+      projectDescription.innerHTML = `<p>${tr("project.descriptionSoon")}</p>`;
       return;
     }
 
@@ -81,7 +95,7 @@
       .map(
         (imageSrc, index) => `
           <figure class="carousel-item">
-            <img src="${imageSrc}" alt="Imagem ${index + 1}" loading="lazy" />
+            <img src="${imageSrc}" alt="${tr("project.image")} ${index + 1}" loading="lazy" />
           </figure>`,
       )
       .join("");
@@ -89,20 +103,20 @@
 
   function renderFilm(videoSrc) {
     if (!videoSrc) {
-      projectFilm.innerHTML = "<p>Filme indisponível.</p>";
+      projectFilm.innerHTML = `<p>${tr("project.videoUnavailable")}</p>`;
       return;
     }
 
     projectFilm.innerHTML = `
       <video controls playsinline preload="metadata">
         <source src="${videoSrc}" type="video/mp4">
-        Seu navegador não suporta vídeo.
+        ${tr("project.browserUnsupported")}
       </video>`;
   }
 
   function renderAnimations(animations = []) {
     if (!Array.isArray(animations) || !animations.length) {
-      animationsList.innerHTML = "<p>Sem animações disponíveis.</p>";
+      animationsList.innerHTML = `<p>${tr("project.animationsUnavailable")}</p>`;
       return;
     }
 
@@ -112,7 +126,7 @@
         <div class="animation-item">
           <video playsinline muted preload="metadata" width="320">
             <source src="${src}" type="video/mp4">
-            Seu navegador não suporta vídeo.
+          ${tr("project.browserUnsupported")}
           </video>
         </div>
       `,
@@ -205,7 +219,7 @@
 
     if (!related.length) {
       relatedProjects.innerHTML =
-        "<p>Nenhum projeto relacionado no momento.</p>";
+        `<p>${tr("project.noRelated")}</p>`;
       return;
     }
 
@@ -270,8 +284,10 @@
       if (!projects.length) throw new Error("Nenhum projeto encontrado");
 
       const slug = getSlugFromUrl();
-      const project =
+      const sourceProject =
         projects.find((item) => item.slug === slug) || projects[0];
+      const project = localizeProject(sourceProject);
+      const localizedProjects = projects.map(localizeProject);
 
       document.title = `Improov - ${project.title}`;
       heroTitle.textContent = project.title || "Projeto";
@@ -295,16 +311,17 @@
       document.addEventListener("keydown", (e) => {
         if (e.key === "Escape") closeModal();
       });
-      renderRelated(project, projects);
+      renderRelated(project, localizedProjects);
       enableCarouselDrag();
     } catch (error) {
       console.error(error);
-      heroTitle.textContent = "Projeto indisponível";
-      heroSub.textContent = "Não foi possível carregar os dados.";
+      heroTitle.textContent = tr("project.unavailable");
+      heroSub.textContent = tr("project.loadError");
       projectDescription.innerHTML =
-        "<p>Verifique o arquivo de dados em assets/projetos/projetos.json.</p>";
+        `<p>${tr("project.loadError")}</p>`;
     }
   }
 
   init();
+  document.addEventListener("improov:languagechange", init);
 })();
