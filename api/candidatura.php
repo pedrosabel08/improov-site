@@ -305,6 +305,11 @@ if (!insertEvent($db, $candidateId, 'recebida', 'Candidatura registrada.')) {
 
 $db->commit();
 
+// O worker do systemd processa o e-mail em segundo plano.
+$db->close();
+respond(200, ['success' => true, 'emailSent' => false, 'emailQueued' => true]);
+
+/* O envio síncrono anterior foi substituído pelo worker do systemd.
 $mailTo = envValue('MAIL_TO', 'pedrosabel08@gmail.com') ?: 'pedrosabel08@gmail.com';
 $mailFrom = envValue('MAIL_FROM') ?: 'pedrosabel08@gmail.com';
 $subject = 'Nova candidatura | Improov | ' . safeHeaderValue($data['nome']);
@@ -522,3 +527,4 @@ if (!insertEvent($db, $candidateId, $eventType, $eventDescription)) {
 
 $db->close();
 respond(200, ['success' => true, 'emailSent' => $emailSent]);
+*/

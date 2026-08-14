@@ -1,0 +1,17 @@
+[Unit]
+Description=Improov - Worker de envio de candidaturas
+After=network.target mysql.service
+
+[Service]
+Type=simple
+User=improov
+Group=improov
+WorkingDirectory=/home/improov/web/improov.com.br/public_html/improov-site
+ExecStart=/usr/bin/php /home/improov/web/improov.com.br/public_html/improov-site/api/email-worker.php
+Restart=always
+RestartSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
