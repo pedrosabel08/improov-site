@@ -9,7 +9,10 @@ function normalizeProjects(data) {
 function createMediaMarkup(projeto) {
   const thumb = projeto.thumbnail || projeto.heroImage;
   if (thumb) {
-    return `<img src="${thumb}" alt="${projeto.title || projeto.nome || "Projeto"}">`;
+    const optimizedThumb = window.ImproovMedia
+      ? window.ImproovMedia.thumb(thumb, 700, 78)
+      : thumb;
+    return `<img src="${optimizedThumb}" loading="lazy" alt="${projeto.title || projeto.nome || "Projeto"}">`;
   }
 
   if (projeto.media?.video || projeto.video) {

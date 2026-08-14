@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+vendor/
 
 # Build outputs
 .dist/
@@ -17,6 +18,7 @@ pnpm-debug.log*
 # Local env files
 .env
 .env.*
+!.env.example
 
 # OS / editor
 .DS_Store
@@ -33,3 +35,5 @@ Thumbs.db
 assets/
 *.jpg
 *.mp4
+cache/thumbs/
+uploads/candidaturas/*

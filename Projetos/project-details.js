@@ -12,16 +12,15 @@
   const animationsList = document.getElementById("animationsList");
 
   function tr(key) {
-    return window.ImproovI18n
-      ? window.ImproovI18n.translate(key)
-      : key;
+    return window.ImproovI18n ? window.ImproovI18n.translate(key) : key;
   }
 
   function localizeProject(project) {
     if (!window.ImproovI18n || !project) return project;
     const language = window.ImproovI18n.getLanguage();
     const translations = window.ImproovI18n.projectTranslations || {};
-    const localized = translations[project.slug] && translations[project.slug][language];
+    const localized =
+      translations[project.slug] && translations[project.slug][language];
     return localized ? { ...project, ...localized } : project;
   }
 
@@ -95,7 +94,7 @@
       .map(
         (imageSrc, index) => `
           <figure class="carousel-item">
-            <img src="${imageSrc}" alt="${tr("project.image")} ${index + 1}" loading="lazy" />
+            <img src="${window.ImproovMedia ? window.ImproovMedia.thumb(imageSrc, 1200, 80) : imageSrc}" alt="${tr("project.image")} ${index + 1}" loading="lazy" />
           </figure>`,
       )
       .join("");
@@ -218,8 +217,7 @@
       .filter(Boolean);
 
     if (!related.length) {
-      relatedProjects.innerHTML =
-        `<p>${tr("project.noRelated")}</p>`;
+      relatedProjects.innerHTML = `<p>${tr("project.noRelated")}</p>`;
       return;
     }
 
@@ -227,7 +225,7 @@
       .map(
         (project) => `
           <a class="galeria-item" href="/improov-site/Projetos/${project.slug}">
-            <img src="${project.thumbnail || project.heroImage}" alt="${project.title}" loading="lazy" />
+            <img src="${window.ImproovMedia ? window.ImproovMedia.thumb(project.thumbnail || project.heroImage, 700, 78) : project.thumbnail || project.heroImage}" alt="${project.title}" loading="lazy" />
             <span class="project-name">${project.title}</span>
           </a>`,
       )
@@ -294,7 +292,10 @@
       heroSub.textContent = project.subtitle || "";
 
       if (project.heroImage) {
-        projectHero.style.backgroundImage = `url('${project.heroImage}')`;
+        const heroImage = window.ImproovMedia
+          ? window.ImproovMedia.thumb(project.heroImage, 1920, 82)
+          : project.heroImage;
+        projectHero.style.backgroundImage = `url('${heroImage}')`;
       }
 
       renderDescription(project.description);
@@ -317,8 +318,7 @@
       console.error(error);
       heroTitle.textContent = tr("project.unavailable");
       heroSub.textContent = tr("project.loadError");
-      projectDescription.innerHTML =
-        `<p>${tr("project.loadError")}</p>`;
+      projectDescription.innerHTML = `<p>${tr("project.loadError")}</p>`;
     }
   }
 

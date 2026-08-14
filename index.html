@@ -3,111 +3,860 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Improov — experiências e materiais criados com coração." />
+    <meta
+      name="description"
+      content="Improov — experiências e materiais criados com coração."
+    />
     <title>Improov</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <div class="navbar-left"><a href="/improov-site/" aria-label="Improov"><img src="assets/LOGO_WHITE_IMPROOV-LOOP.gif" alt="Improov" /></a></div>
+      <div class="navbar-left">
+        <a href="/improov-site/" aria-label="Improov"
+          ><img src="assets/LOGO_WHITE_IMPROOV-LOOP.gif" alt="Improov"
+        /></a>
+      </div>
       <div class="navbar-right">
         <div class="menu" aria-label="Navegação principal">
           <a href="#intro" data-i18n="nav.about">Quem somos</a>
           <a href="#galeria" data-i18n="nav.projects">Projetos</a>
           <a href="#contato" data-i18n="nav.contact">Contato</a>
         </div>
-        <div class="language-switcher" aria-label="Selecionar idioma" data-i18n-aria="language.label">
-          <button type="button" data-language="pt-BR" aria-pressed="true">PT</button>
-          <button type="button" data-language="en" aria-pressed="false">EN</button>
-          <button type="button" data-language="es" aria-pressed="false">ES</button>
+        <div
+          class="language-switcher"
+          aria-label="Selecionar idioma"
+          data-i18n-aria="language.label"
+        >
+          <button type="button" data-language="pt-BR" aria-pressed="true">
+            PT
+          </button>
+          <button type="button" data-language="en" aria-pressed="false">
+            EN
+          </button>
+          <button type="button" data-language="es" aria-pressed="false">
+            ES
+          </button>
         </div>
       </div>
-      <button class="hamburger" aria-label="Abrir menu" data-i18n-aria="menu.open" aria-expanded="false"><span></span><span></span><span></span></button>
+      <button
+        class="hamburger"
+        aria-label="Abrir menu"
+        data-i18n-aria="menu.open"
+        aria-expanded="false"
+      >
+        <span></span><span></span><span></span>
+      </button>
       <nav class="mobile-nav" aria-hidden="true">
         <a href="#intro" data-i18n="nav.about">Quem somos</a>
         <a href="#galeria" data-i18n="nav.projects">Projetos</a>
         <a href="#contato" data-i18n="nav.contact">Contato</a>
-        <div class="language-switcher language-switcher--mobile" aria-label="Selecionar idioma" data-i18n-aria="language.label">
-          <button type="button" data-language="pt-BR" aria-pressed="true">PT</button>
-          <button type="button" data-language="en" aria-pressed="false">EN</button>
-          <button type="button" data-language="es" aria-pressed="false">ES</button>
+        <div
+          class="language-switcher language-switcher--mobile"
+          aria-label="Selecionar idioma"
+          data-i18n-aria="language.label"
+        >
+          <button type="button" data-language="pt-BR" aria-pressed="true">
+            PT
+          </button>
+          <button type="button" data-language="en" aria-pressed="false">
+            EN
+          </button>
+          <button type="button" data-language="es" aria-pressed="false">
+            ES
+          </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="autoShow" aria-label="Vídeo de projetos" data-i18n-aria="hero.label">
-        <video id="videoPlayer" autoplay muted playsinline loop><source id="videoSource" src="assets/projetos/AYA_KAR/6.AYA_KAR Piscina Maior.mp4" type="video/mp4" /></video>
+      <section
+        class="autoShow"
+        aria-label="Vídeo de projetos"
+        data-i18n-aria="hero.label"
+      >
+        <video id="videoPlayer" autoplay muted playsinline loop>
+          <source
+            id="videoSource"
+            src="assets/projetos/AYA_KAR/6.AYA_KAR Piscina Maior.mp4"
+            type="video/mp4"
+          />
+        </video>
       </section>
 
       <section class="intro" id="intro">
         <div class="intro-text">
           <h2 data-i18n="about.title">+ Heartmade +</h2>
-          <p data-i18n="about.p1">“Heartmade” é a nossa filosofia de trabalho; é o nosso selo de customização. Trabalho feito por seres humanos e feito com coração!</p>
-          <p data-i18n="about.p2">Essa é a fórmula que usamos para que cada cliente tenha materiais sensoriais originais capazes de conectar seu produto ao seu cliente de forma única.</p>
-          <p data-i18n="about.p3">É o contrário de simplificar o desenvolvimento padronizando ou utilizando Inteligência Artificial para criar; nós usamos o coração! É conexão emocional e entusiasmo genuíno pelo trabalho.</p>
-          <p data-i18n="about.p4">É a sutileza dos detalhes que sopram vida em tudo o que é criado pela Improov.</p>
+          <p data-i18n="about.p1">
+            “Heartmade” é a nossa filosofia de trabalho; é o nosso selo de
+            customização. Trabalho feito por seres humanos e feito com coração!
+          </p>
+          <p data-i18n="about.p2">
+            Essa é a fórmula que usamos para que cada cliente tenha materiais
+            sensoriais originais capazes de conectar seu produto ao seu cliente
+            de forma única.
+          </p>
+          <p data-i18n="about.p3">
+            É o contrário de simplificar o desenvolvimento padronizando ou
+            utilizando Inteligência Artificial para criar; nós usamos o coração!
+            É conexão emocional e entusiasmo genuíno pelo trabalho.
+          </p>
+          <p data-i18n="about.p4">
+            É a sutileza dos detalhes que sopram vida em tudo o que é criado
+            pela Improov.
+          </p>
         </div>
       </section>
 
-      <section class="galeria" id="galeria" aria-label="Projetos" data-i18n-aria="projects.label">
+      <section
+        class="galeria"
+        id="galeria"
+        aria-label="Projetos"
+        data-i18n-aria="projects.label"
+      >
         <div class="galeria-grid">
-          <a class="galeria-item item--tall" href="/improov-site/Projetos/aya-kar"><img src="assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg" alt="Projeto Aya Kar" data-i18n-alt="projects.ayaAlt" /><span class="project-name">Aya Karioó</span></a>
-          <a class="galeria-item item--tall" href="/improov-site/Projetos/adega-luz-sombra"><img src="assets/BHE_INF_Adega_EF.jpg" alt="Projeto Adega" data-i18n-alt="projects.cellarAlt" /><span class="project-name">Adega — Luz &amp; Sombra</span></a>
-          <a class="galeria-item item--tall" href="/improov-site/Projetos/brinquedoteca-cor-movimento"><img src="assets/BHE_INF_Brinquedoteca_EF.jpg" alt="Projeto Brinquedoteca" data-i18n-alt="projects.playroomAlt" /><span class="project-name">Brinquedoteca — Cor &amp; Movimento</span></a>
-          <a class="galeria-item" href="/improov-site/Projetos/iluminacao-foco-criativo"><img src="1.jpg" alt="Projeto Iluminação" data-i18n-alt="projects.lightAlt" /><span class="project-name">Iluminação — Foco Criativo</span></a>
-          <a class="galeria-item" href="/improov-site/Projetos/espaco-minimal-vivo"><img src="2.jpg" alt="Projeto Espaço" data-i18n-alt="projects.spaceAlt" /><span class="project-name">Espaço — Minimal &amp; Vivo</span></a>
-          <a class="galeria-item item--tall" href="/improov-site/Projetos/lobby-boas-vindas"><img src="3.jpg" alt="Projeto Lobby" data-i18n-alt="projects.lobbyAlt" /><span class="project-name">Lobby — Boas-vindas</span></a>
-          <a class="galeria-item item--tall" href="/improov-site/Projetos/academia-versao-noturna"><video class="hover-video" muted playsinline loop poster="assets/BHE_INF_Academia_EF.jpg"><source src="ALT_TER_Tracking_1.mp4" type="video/mp4" /></video><span class="project-name">Academia — Versão Noturna</span></a>
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/aya-kar"
+            ><img
+              src="assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
+              alt="Projeto Aya Kar"
+              data-i18n-alt="projects.ayaAlt"
+            /><span class="project-name">Aya Karioó</span></a
+          >
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/adega-luz-sombra"
+            ><img
+              src="assets/BHE_INF_Adega_EF.jpg"
+              alt="Projeto Adega"
+              data-i18n-alt="projects.cellarAlt"
+            /><span class="project-name">Adega — Luz &amp; Sombra</span></a
+          >
+          <a
+            class="galeria-item item--tall"
+            href="/improov-site/Projetos/academia-versao-noturna"
+            ><video
+              class="hover-video"
+              muted
+              playsinline
+              loop
+              poster="assets/BHE_INF_Academia_EF.jpg"
+            >
+              <source src="ALT_TER_Tracking_1.mp4" type="video/mp4" /></video
+            ><span class="project-name">Academia — Versão Noturna</span></a
+          >
+          <a
+            class="galeria-item"
+            href="/improov-site/Projetos/iluminacao-foco-criativo"
+            ><img
+              src="1.jpg"
+              alt="Projeto Iluminação"
+              data-i18n-alt="projects.lightAlt"
+            /><span class="project-name">Iluminação — Foco Criativo</span></a
+          >
+          <a
+            class="galeria-item"
+            href="/improov-site/Projetos/espaco-minimal-vivo"
+            ><img
+              src="2.jpg"
+              alt="Projeto Espaço"
+              data-i18n-alt="projects.spaceAlt"
+            /><span class="project-name">Espaço — Minimal &amp; Vivo</span></a
+          >
         </div>
       </section>
 
-      <section class="contato-section" id="contato">
-        <div class="contato-inner">
-          <h2 data-i18n="contact.title">Vamos criar juntos?</h2>
-          <p class="contato-slogan" data-i18n="contact.slogan">Trabalho feito com coração, para conectar marcas e pessoas de forma única.</p>
-          <ul class="contato-list">
-            <li><i class="fas fa-envelope" aria-hidden="true"></i><a href="mailto:contato@improov.com.br">contato@improov.com.br</a></li>
-            <li><i class="fas fa-phone" aria-hidden="true"></i><a href="tel:+5547991087014">+55 47 99108-7014</a></li>
-            <li><i class="fab fa-whatsapp" aria-hidden="true"></i><a href="https://wa.me/5547991087014" target="_blank" rel="noopener">+55 47 99108-7014</a></li>
-            <li><i class="fab fa-instagram" aria-hidden="true"></i><a href="https://instagram.com/improovbr" target="_blank" rel="noopener">@improovbr</a></li>
-          </ul>
-          <p class="contato-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i><span data-i18n="contact.location">Blumenau, SC — Brasil</span></p>
+      <section class="contato-section careers-page" id="contato">
+        <div class="contato-inner careers-heading">
+          <!-- <p class="eyebrow" data-i18n="careers.eyebrow">FAÇA PARTE DO TIME</p> -->
+          <h1 data-i18n="careers.title">Trabalhe Conosco</h1>
+          <p class="contato-slogan" data-i18n="careers.description">
+            Conte-nos como seu olhar pode fazer parte das próximas histórias que
+            criaremos.
+          </p>
         </div>
-
-        <div class="careers" id="trabalhe-conosco">
-          <div class="careers-intro"><p class="eyebrow" data-i18n="careers.eyebrow">FAÇA PARTE DO TIME</p><h2 data-i18n="careers.title">Trabalhe Conosco</h2><p data-i18n="careers.description">Conte-nos como seu olhar pode fazer parte das próximas histórias que criaremos.</p></div>
-          <form class="careers-form" id="careersForm" method="post">
-            <input type="hidden" name="_subject" value="Nova candidatura — Improov" />
-            <input type="hidden" name="idioma" id="formLanguage" value="pt-BR" />
+        <div class="contato-layout careers-layout">
+          <form
+            class="careers-form careers-card"
+            id="careersForm"
+            method="post"
+            enctype="multipart/form-data"
+            novalidate
+          >
+            <input
+              type="hidden"
+              name="subject"
+              value="Nova candidatura — Improov"
+            />
+            <input
+              type="hidden"
+              name="idioma"
+              id="formLanguage"
+              value="pt-BR"
+            />
+            <input
+              type="text"
+              name="website"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
+              class="honeypot"
+            />
             <div class="form-grid">
-              <label><span data-i18n="form.name">Nome completo</span><input name="nome" type="text" autocomplete="name" required /></label>
-              <label><span data-i18n="form.email">E-mail</span><input name="email" type="email" autocomplete="email" required /></label>
-              <label><span data-i18n="form.phone">Telefone / WhatsApp</span><input name="telefone" type="tel" autocomplete="tel" required /></label>
-              <label><span data-i18n="form.city">Cidade e estado onde reside</span><input name="cidade_uf" type="text" autocomplete="address-level2" required /></label>
-              <label><span data-i18n="form.role">Área ou cargo de interesse</span><input name="area_cargo" type="text" required /></label>
-              <label><span data-i18n="form.start">Disponibilidade para início</span><input name="disponibilidade_inicio" type="text" data-i18n-placeholder="form.startPlaceholder" placeholder="Ex.: imediata ou setembro/2026" /></label>
+              <label
+                ><span data-i18n="form.name">Nome completo</span
+                ><input
+                  name="nome"
+                  type="text"
+                  autocomplete="name"
+                  required
+                  data-i18n-placeholder="form.namePlaceholder"
+                  placeholder="Seu nome"
+              /></label>
+              <label
+                ><span data-i18n="form.email">E-mail</span
+                ><input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  data-i18n-placeholder="form.emailPlaceholder"
+                  placeholder="seu@email.com"
+              /></label>
+              <label
+                ><span data-i18n="form.phone">Telefone / WhatsApp</span
+                ><input
+                  name="telefone"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                  data-i18n-placeholder="form.phonePlaceholder"
+                  placeholder="(47) 99999-9999"
+              /></label>
+              <label
+                ><span data-i18n="form.city">Cidade e estado onde reside</span
+                ><input
+                  name="cidade_uf"
+                  type="text"
+                  autocomplete="address-level2"
+                  required
+                  data-i18n-placeholder="form.cityPlaceholder"
+                  placeholder="Blumenau, SC"
+              /></label>
+              <label
+                ><span data-i18n="form.role">Área ou cargo de interesse</span
+                ><select name="area_cargo" required>
+                  <option
+                    value=""
+                    selected
+                    disabled
+                    data-i18n="form.selectArea"
+                  >
+                    Selecione sua área
+                  </option>
+                  <option
+                    value="Direção de arte"
+                    data-i18n="form.areaArtDirection"
+                  >
+                    Direção de arte
+                  </option>
+                  <option value="Design" data-i18n="form.areaDesign">
+                    Design
+                  </option>
+                  <option value="Motion e 3D" data-i18n="form.areaMotion">
+                    Motion e 3D
+                  </option>
+                  <option value="Arquitetura" data-i18n="form.areaArchitecture">
+                    Arquitetura
+                  </option>
+                  <option value="Produção" data-i18n="form.areaProduction">
+                    Produção
+                  </option>
+                  <option value="Outra área" data-i18n="form.areaOther">
+                    Outra área
+                  </option>
+                </select></label
+              >
+              <label
+                ><span data-i18n="form.start">Disponibilidade para início</span
+                ><select name="disponibilidade_inicio" required>
+                  <option
+                    value=""
+                    selected
+                    disabled
+                    data-i18n="form.selectAvailability"
+                  >
+                    Selecione
+                  </option>
+                  <option value="Imediata" data-i18n="form.availabilityNow">
+                    Imediata
+                  </option>
+                  <option
+                    value="Em até 30 dias"
+                    data-i18n="form.availability30"
+                  >
+                    Em até 30 dias
+                  </option>
+                  <option
+                    value="Em até 60 dias"
+                    data-i18n="form.availability60"
+                  >
+                    Em até 60 dias
+                  </option>
+                  <option value="Outra data" data-i18n="form.availabilityOther">
+                    Outra data
+                  </option>
+                </select></label
+              >
             </div>
-            <fieldset><legend data-i18n="form.workModel">Modelos de trabalho possíveis</legend><div class="choice-row"><label><input type="checkbox" name="modelo_trabalho" value="Presencial" /> <span data-i18n="form.inPerson">Presencial</span></label><label><input type="checkbox" name="modelo_trabalho" value="Híbrido" /> <span data-i18n="form.hybrid">Híbrido</span></label><label><input type="checkbox" name="modelo_trabalho" value="Remoto" /> <span data-i18n="form.remote">Remoto</span></label></div></fieldset>
-            <div class="form-grid">
-              <label><span data-i18n="form.portfolio">Link do portfólio</span><input name="portfolio" type="url" inputmode="url" placeholder="https://" required /></label>
-              <label><span data-i18n="form.resume">Link do currículo</span><input name="curriculo" type="url" inputmode="url" placeholder="https://" required /></label>
-              <label class="form-wide"><span data-i18n="form.linkedin">LinkedIn (opcional)</span><input name="linkedin" type="url" inputmode="url" placeholder="https://linkedin.com/in/..." /></label>
-              <label class="form-wide"><span data-i18n="form.experience">Experiência ou resumo profissional (opcional)</span><textarea name="experiencia" rows="3"></textarea></label>
-              <label class="form-wide"><span data-i18n="form.message">Mensagem de apresentação (opcional)</span><textarea name="mensagem" rows="4"></textarea></label>
+            <fieldset class="work-model-fieldset">
+              <legend data-i18n="form.workModel">
+                Modelos de trabalho possíveis
+              </legend>
+              <div class="work-options" role="radiogroup" aria-required="true">
+                <label class="work-option"
+                  ><input
+                    type="radio"
+                    name="modelo_trabalho"
+                    value="Presencial"
+                    required /><span class="work-option-icon"
+                    ><i class="fas fa-building" aria-hidden="true"></i></span
+                  ><span class="work-option-copy"
+                    ><strong data-i18n="form.inPerson">Presencial</strong></span
+                  ><span class="work-option-check" aria-hidden="true"
+                    ><i class="fas fa-check"></i></span
+                ></label>
+                <label class="work-option"
+                  ><input
+                    type="radio"
+                    name="modelo_trabalho"
+                    value="Híbrido" /><span class="work-option-icon"
+                    ><i
+                      class="fas fa-house-laptop"
+                      aria-hidden="true"
+                    ></i></span
+                  ><span class="work-option-copy"
+                    ><strong data-i18n="form.hybrid">Híbrido</strong></span
+                  ><span class="work-option-check" aria-hidden="true"
+                    ><i class="fas fa-check"></i></span
+                ></label>
+                <label class="work-option"
+                  ><input
+                    type="radio"
+                    name="modelo_trabalho"
+                    value="Remoto" /><span class="work-option-icon"
+                    ><i class="fas fa-laptop" aria-hidden="true"></i></span
+                  ><span class="work-option-copy"
+                    ><strong data-i18n="form.remote">Remoto</strong></span
+                  ><span class="work-option-check" aria-hidden="true"
+                    ><i class="fas fa-check"></i></span
+                ></label>
+              </div>
+            </fieldset>
+            <div class="form-grid materials-grid">
+              <label class="input-with-icon"
+                ><span data-i18n="form.portfolio">Link do portfólio</span
+                ><span class="input-icon" aria-hidden="true"
+                  ><i class="fas fa-link"></i></span
+                ><input
+                  name="portfolio"
+                  type="url"
+                  inputmode="url"
+                  required
+                  data-i18n-placeholder="form.portfolioPlaceholder"
+                  placeholder="https://seuportfolio.com"
+              /></label>
+              <label class="input-with-icon"
+                ><span data-i18n="form.linkedin">LinkedIn (opcional)</span
+                ><span class="input-icon" aria-hidden="true"
+                  ><i class="fab fa-linkedin"></i></span
+                ><input
+                  name="linkedin"
+                  type="url"
+                  inputmode="url"
+                  data-i18n-placeholder="form.linkedinPlaceholder"
+                  placeholder="https://linkedin.com/in/seuperfil"
+              /></label>
             </div>
-            <label class="privacy-check"><input name="lgpd" type="checkbox" value="Aceito" required /><span data-i18n-html="form.privacy">Autorizo o uso destes dados para avaliação da minha candidatura, conforme a <a href="privacidade.html">Política de Privacidade</a>.</span></label>
-            <button class="form-submit" type="submit" data-i18n="form.submit">Enviar candidatura</button>
+            <div class="form-field form-wide">
+              <label for="resumeFile" data-i18n="form.resume"
+                >Currículo (PDF até 10MB)</label
+              ><label class="file-dropzone" for="resumeFile" tabindex="0"
+                ><span class="file-dropzone-icon" aria-hidden="true"
+                  ><i class="fas fa-paperclip"></i></span
+                ><span class="file-dropzone-copy"
+                  ><strong data-i18n="form.resumePrompt"
+                    >Clique para anexar seu currículo</strong
+                  ><small data-i18n="form.resumeHint">PDF até 10MB</small></span
+                ><input
+                  id="resumeFile"
+                  name="curriculo"
+                  type="file"
+                  accept="application/pdf,.pdf"
+                  required
+              /></label>
+              <div class="file-selected" id="fileSelected" hidden>
+                <span
+                  ><i class="fas fa-file-pdf" aria-hidden="true"></i
+                  ><span id="fileName"></span
+                  ><small id="fileSize"></small></span
+                ><button
+                  type="button"
+                  class="file-remove"
+                  id="fileRemove"
+                  data-i18n="form.removeFile"
+                >
+                  Remover
+                </button>
+              </div>
+              <p class="field-error" id="fileError" role="alert"></p>
+            </div>
+            <label class="form-wide textarea-field"
+              ><span data-i18n="form.experience"
+                >Conte um pouco sobre você e sua experiência</span
+              ><textarea
+                name="experiencia"
+                rows="4"
+                maxlength="2000"
+                required
+                data-i18n-placeholder="form.experiencePlaceholder"
+                placeholder="Fale sobre sua trajetória, experiências e o que te motiva a fazer parte do nosso time..."
+              ></textarea
+              ><span class="character-count" id="characterCount"
+                >0/2000</span
+              ></label
+            >
+            <label class="privacy-check"
+              ><input
+                name="lgpd"
+                type="checkbox"
+                value="Aceito"
+                required
+              /><span data-i18n-html="form.privacy"
+                >Autorizo o uso destes dados para avaliação da minha
+                candidatura, conforme a
+                <a href="privacidade.html">Política de Privacidade</a>.</span
+              ></label
+            >
+            <div class="form-bottom-row">
+              <p class="privacy-note">
+                <i class="fas fa-shield-halved" aria-hidden="true"></i
+                ><span data-i18n="form.privacyNote"
+                  >Seus dados estão protegidos e serão utilizados apenas para
+                  processos seletivos.</span
+                >
+              </p>
+              <button class="form-submit" type="submit">
+                <span data-i18n="form.submit">Enviar candidatura</span
+                ><i class="fas fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </div>
             <p class="form-status" id="formStatus" aria-live="polite"></p>
           </form>
+          <aside class="contato-info contact-card">
+            <!-- <p class="eyebrow" data-i18n="contact.detailsEyebrow">
+              FALE COM A GENTE
+            </p> -->
+            <h2 data-i18n="contact.detailsTitle">Contato</h2>
+            <ul class="contato-list">
+              <li>
+                <i class="fas fa-envelope" aria-hidden="true"></i
+                ><span
+                  ><a href="mailto:contato@improov.com.br"
+                    >contato@improov.com.br</a
+                  ><small data-i18n="contact.emailHint"
+                    >Responderemos em até 24h</small
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fas fa-phone" aria-hidden="true"></i
+                ><span
+                  ><a href="tel:+5547991087014">+55 47 99108-7014</a
+                  ><small data-i18n="contact.phoneHint"
+                    >Seg a sex, 8h às 18h</small
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fab fa-whatsapp" aria-hidden="true"></i
+                ><span
+                  ><a
+                    href="https://wa.me/5547991087014"
+                    target="_blank"
+                    rel="noopener"
+                    >+55 47 99108-7014</a
+                  ><small data-i18n="contact.whatsappHint"
+                    >WhatsApp</small
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fab fa-instagram" aria-hidden="true"></i
+                ><span
+                  ><a
+                    href="https://instagram.com/improovbr"
+                    target="_blank"
+                    rel="noopener"
+                    >@improovbr</a
+                  ><small data-i18n="contact.instagramHint"
+                    >Acompanhe nosso trabalho</small
+                  ></span
+                >
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i
+                ><span
+                  ><span data-i18n="contact.location"
+                    >Blumenau, SC — Brasil</span
+                  ><small data-i18n="contact.locationHint"
+                    >Nossa base criativa</small
+                  ></span
+                >
+              </li>
+            </ul>
+            <div class="contact-callout">
+              <i class="fas fa-users" aria-hidden="true"></i
+              ><strong data-i18n="contact.calloutTitle"
+                >Junte-se a quem transforma ideias em experiências</strong
+              >
+              <p data-i18n="contact.calloutText">
+                Buscamos pessoas apaixonadas por criar imagens que conectam
+                marcas e pessoas.
+              </p>
+            </div>
+          </aside>
         </div>
 
-        <div class="contato-footer-bar"><div class="links social-links" aria-label="Redes sociais" data-i18n-aria="social.label"><a href="https://instagram.com/improovbr" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://wa.me/5547991087014" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a><a href="https://br.linkedin.com/company/improovbr" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="https://www.facebook.com/improovbr/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/@ImproovBR" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a><a href="mailto:contato@improov.com.br" aria-label="E-mail"><i class="fas fa-envelope"></i></a></div><p class="contato-copy" data-i18n="footer.copy">© 2026 Improov. Todos os direitos reservados.</p></div>
+        <div class="legacy-contact-content" aria-hidden="true" hidden>
+          <div class="contato-inner">
+            <h2 data-i18n="contact.title">Vamos criar juntos?</h2>
+            <p class="contato-slogan" data-i18n="contact.slogan">
+              Trabalho feito com coração, para conectar marcas e pessoas de
+              forma única.
+            </p>
+          </div>
+
+          <div class="contato-layout">
+            <aside class="contato-info">
+              <!-- <p class="eyebrow" data-i18n="contact.detailsEyebrow">
+                FALE COM A GENTE
+              </p> -->
+              <h3 data-i18n="contact.detailsTitle">Contato</h3>
+              <ul class="contato-list">
+                <li>
+                  <i class="fas fa-envelope" aria-hidden="true"></i
+                  ><a href="mailto:contato@improov.com.br"
+                    >contato@improov.com.br</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-phone" aria-hidden="true"></i
+                  ><a href="tel:+5547991087014">+55 47 99108-7014</a>
+                </li>
+                <li>
+                  <i class="fab fa-whatsapp" aria-hidden="true"></i
+                  ><a
+                    href="https://wa.me/5547991087014"
+                    target="_blank"
+                    rel="noopener"
+                    >+55 47 99108-7014</a
+                  >
+                </li>
+                <li>
+                  <i class="fab fa-instagram" aria-hidden="true"></i
+                  ><a
+                    href="https://instagram.com/improovbr"
+                    target="_blank"
+                    rel="noopener"
+                    >@improovbr</a
+                  >
+                </li>
+              </ul>
+              <p class="contato-location">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i
+                ><span data-i18n="contact.location">Blumenau, SC — Brasil</span>
+              </p>
+            </aside>
+
+            <div class="careers" id="trabalhe-conosco">
+              <div class="careers-intro">
+                <!-- <p class="eyebrow" data-i18n="careers.eyebrow">
+                  FAÇA PARTE DO TIME
+                </p> -->
+                <h2 data-i18n="careers.title">Trabalhe Conosco</h2>
+                <p data-i18n="careers.description">
+                  Conte-nos como seu olhar pode fazer parte das próximas
+                  histórias que criaremos.
+                </p>
+              </div>
+              <form class="careers-form" id="legacyCareersForm" method="post">
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="Nova candidatura — Improov"
+                />
+                <input
+                  type="hidden"
+                  name="idioma"
+                  id="legacyFormLanguage"
+                  value="pt-BR"
+                />
+                <input
+                  type="text"
+                  name="website"
+                  tabindex="-1"
+                  autocomplete="off"
+                  aria-hidden="true"
+                  style="
+                    position: absolute;
+                    left: -9999px;
+                    width: 1px;
+                    height: 1px;
+                    opacity: 0;
+                  "
+                />
+                <div class="form-grid">
+                  <label
+                    ><span data-i18n="form.name">Nome completo</span
+                    ><input
+                      name="nome"
+                      type="text"
+                      autocomplete="name"
+                      required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.email">E-mail</span
+                    ><input
+                      name="email"
+                      type="email"
+                      autocomplete="email"
+                      required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.phone">Telefone / WhatsApp</span
+                    ><input
+                      name="telefone"
+                      type="tel"
+                      autocomplete="tel"
+                      required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.city"
+                      >Cidade e estado onde reside</span
+                    ><input
+                      name="cidade_uf"
+                      type="text"
+                      autocomplete="address-level2"
+                      required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.role"
+                      >Área ou cargo de interesse</span
+                    ><input name="area_cargo" type="text" required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.start"
+                      >Disponibilidade para início</span
+                    ><input
+                      name="disponibilidade_inicio"
+                      type="text"
+                      data-i18n-placeholder="form.startPlaceholder"
+                      placeholder="Ex.: imediata ou setembro/2026"
+                  /></label>
+                </div>
+                <fieldset>
+                  <legend data-i18n="form.workModel">
+                    Modelos de trabalho possíveis
+                  </legend>
+                  <div class="choice-row">
+                    <label
+                      ><input
+                        type="checkbox"
+                        name="modelo_trabalho"
+                        value="Presencial"
+                      />
+                      <span data-i18n="form.inPerson">Presencial</span></label
+                    ><label
+                      ><input
+                        type="checkbox"
+                        name="modelo_trabalho"
+                        value="Híbrido"
+                      />
+                      <span data-i18n="form.hybrid">Híbrido</span></label
+                    ><label
+                      ><input
+                        type="checkbox"
+                        name="modelo_trabalho"
+                        value="Remoto"
+                      />
+                      <span data-i18n="form.remote">Remoto</span></label
+                    >
+                  </div>
+                </fieldset>
+                <div class="form-grid">
+                  <label
+                    ><span data-i18n="form.portfolio">Link do portfólio</span
+                    ><input
+                      name="portfolio"
+                      type="url"
+                      inputmode="url"
+                      placeholder="https://"
+                      required
+                  /></label>
+                  <label
+                    ><span data-i18n="form.resume">Link do currículo</span
+                    ><input
+                      name="curriculo"
+                      type="url"
+                      inputmode="url"
+                      placeholder="https://"
+                      required
+                  /></label>
+                  <label class="form-wide"
+                    ><span data-i18n="form.linkedin">LinkedIn (opcional)</span
+                    ><input
+                      name="linkedin"
+                      type="url"
+                      inputmode="url"
+                      placeholder="https://linkedin.com/in/..."
+                  /></label>
+                  <label class="form-wide"
+                    ><span data-i18n="form.experience"
+                      >Experiência ou resumo profissional (opcional)</span
+                    ><textarea name="experiencia" rows="3"></textarea>
+                  </label>
+                  <label class="form-wide"
+                    ><span data-i18n="form.message"
+                      >Mensagem de apresentação (opcional)</span
+                    ><textarea name="mensagem" rows="4"></textarea>
+                  </label>
+                </div>
+                <label class="privacy-check"
+                  ><input
+                    name="lgpd"
+                    type="checkbox"
+                    value="Aceito"
+                    required
+                  /><span data-i18n-html="form.privacy"
+                    >Autorizo o uso destes dados para avaliação da minha
+                    candidatura, conforme a
+                    <a href="privacidade.html">Política de Privacidade</a
+                    >.</span
+                  ></label
+                >
+                <button
+                  class="form-submit"
+                  type="submit"
+                  data-i18n="form.submit"
+                >
+                  Enviar candidatura
+                </button>
+                <p
+                  class="form-status"
+                  id="legacyFormStatus"
+                  aria-live="polite"
+                ></p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="contato-footer-bar">
+          <div
+            class="links social-links"
+            aria-label="Redes sociais"
+            data-i18n-aria="social.label"
+          >
+            <a
+              href="https://instagram.com/improovbr"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              ><i class="fab fa-instagram"></i></a
+            ><a
+              href="https://wa.me/5547991087014"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+              ><i class="fab fa-whatsapp"></i></a
+            ><a
+              href="https://br.linkedin.com/company/improovbr"
+              target="_blank"
+              rel="noopener"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i></a
+            ><a
+              href="https://www.facebook.com/improovbr/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i></a
+            ><a
+              href="https://www.youtube.com/@ImproovBR"
+              target="_blank"
+              rel="noopener"
+              aria-label="YouTube"
+              ><i class="fab fa-youtube"></i></a
+            ><a href="mailto:contato@improov.com.br" aria-label="E-mail"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <p class="contato-copy" data-i18n="footer.copy">
+            © 2026 Improov. Todos os direitos reservados.
+          </p>
+        </div>
       </section>
     </main>
 
-    <footer><div class="links social-links" aria-label="Redes sociais" data-i18n-aria="social.label"><a href="https://instagram.com/improovbr" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://wa.me/5547991087014" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a><a href="https://br.linkedin.com/company/improovbr" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="https://www.facebook.com/improovbr/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.youtube.com/@ImproovBR" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a><a href="mailto:contato@improov.com.br" aria-label="E-mail"><i class="fas fa-envelope"></i></a></div></footer>
+    <footer>
+      <div
+        class="links social-links"
+        aria-label="Redes sociais"
+        data-i18n-aria="social.label"
+      >
+        <a
+          href="https://instagram.com/improovbr"
+          target="_blank"
+          rel="noopener"
+          aria-label="Instagram"
+          ><i class="fab fa-instagram"></i></a
+        ><a
+          href="https://wa.me/5547991087014"
+          target="_blank"
+          rel="noopener"
+          aria-label="WhatsApp"
+          ><i class="fab fa-whatsapp"></i></a
+        ><a
+          href="https://br.linkedin.com/company/improovbr"
+          target="_blank"
+          rel="noopener"
+          aria-label="LinkedIn"
+          ><i class="fab fa-linkedin-in"></i></a
+        ><a
+          href="https://www.facebook.com/improovbr/"
+          target="_blank"
+          rel="noopener"
+          aria-label="Facebook"
+          ><i class="fab fa-facebook-f"></i></a
+        ><a
+          href="https://www.youtube.com/@ImproovBR"
+          target="_blank"
+          rel="noopener"
+          aria-label="YouTube"
+          ><i class="fab fa-youtube"></i></a
+        ><a href="mailto:contato@improov.com.br" aria-label="E-mail"
+          ><i class="fas fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
     <script src="config/site-config.js"></script>
     <script src="script.js"></script>
   </body>
