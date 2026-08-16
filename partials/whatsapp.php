@@ -1,0 +1,1 @@
+<a class="whatsapp-float" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener" aria-label="Falar com a Improov no WhatsApp" data-i18n-aria="whatsapp.label"><span aria-hidden="true">◔</span></a>

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "widths": [640, 1024, 1440, 1920],
+  "formats": ["avif", "webp", "jpg"],
+  "projects": [
+    {
+      "slug": "aya-kar",
+      "mediaVersion": 1,
+      "media": [
+        { "name": "hero", "source": "aya-kar/hero.jpg" },
+        { "name": "card", "source": "aya-kar/hero.jpg" }
+      ]
+    },
+    {
+      "slug": "academia-energia-urbana",
+      "mediaVersion": 1,
+      "media": [
+        { "name": "hero", "source": "academia-energia-urbana/hero.jpg" },
+        { "name": "card", "source": "academia-energia-urbana/hero.jpg" }
+      ]
+    },
+    {
+      "slug": "adega-luz-sombra",
+      "mediaVersion": 1,
+      "media": [
+        { "name": "hero", "source": "adega-luz-sombra/hero.jpg" },
+        { "name": "card", "source": "adega-luz-sombra/hero.jpg" }
+      ]
+    },
+    {
+      "slug": "brinquedoteca-cor-movimento",
+      "mediaVersion": 1,
+      "media": [
+        { "name": "hero", "source": "brinquedoteca-cor-movimento/hero.jpg" },
+        { "name": "card", "source": "brinquedoteca-cor-movimento/hero.jpg" }
+      ]
+    },
+    {
+      "slug": "ars-vie",
+      "mediaVersion": 1,
+      "media": [
+        { "name": "hero", "source": "ars-vie/hero.jpg" },
+        { "name": "card", "source": "ars-vie/hero.jpg" }
+      ]
+    }
+  ]
+}

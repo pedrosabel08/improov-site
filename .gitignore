@@ -28,12 +28,21 @@ Thumbs.db
 !.vscode/extensions.json
 !.vscode/launch.json
 
-# XAMPP / local
+# Apache runtime configuration (new rules are versioned intentionally)
 .htaccess
+!/.htaccess
+!/app/.htaccess
+!/uploads/.htaccess
+!/legacy/.htaccess
 
 
-assets/
+assets/*
+!assets/css/
+!assets/css/**
+!assets/js/
+!assets/js/**
 *.jpg
 *.mp4
 cache/thumbs/
 uploads/candidaturas/*
+uploads/contatos/*
