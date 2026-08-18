@@ -1,0 +1,13 @@
+Options -MultiViews -Indexes
+RewriteEngine On
+RewriteBase /improov-site/Projetos/
+
+# The physical legacy directory must not win over the new /projetos route.
+# An empty path here represents /improov-site/projetos/ after DirectorySlash.
+RewriteRule ^$ ../index.php [L]
+
+# Keep direct access to legacy files only while the archive is still present.
+# Any slug must be handled by the new PHP router.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ ../index.php [L]

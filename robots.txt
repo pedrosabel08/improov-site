@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /improov-site/api/
+Disallow: /improov-site/uploads/
+Disallow: /improov-site/legacy/
+Sitemap: https://improov.com.br/improov-site/sitemap.xml

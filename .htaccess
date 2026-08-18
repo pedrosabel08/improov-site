@@ -1,0 +1,39 @@
+Options -MultiViews
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /improov-site/
+
+  RewriteCond %{THE_REQUEST} \s/+improov-site/index\.html(?:[?\s]) [NC]
+  RewriteRule ^index\.html$ ./ [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+improov-site/privacidade\.html(?:[?\s]) [NC]
+  RewriteRule ^privacidade\.html$ privacidade [R=301,L]
+  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/index\.html(?:[?\s]) [NC]
+  RewriteRule ^Projetos/index\.html$ projetos [R=301,L]
+
+  # Confirmed legacy project URLs only.
+  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/(aya-kar|adega-luz-sombra|academia-energia-urbana|brinquedoteca-cor-movimento|ars-vie)/?(?:[?\s]) [NC]
+  RewriteRule ^Projetos/(aya-kar|adega-luz-sombra|academia-energia-urbana|brinquedoteca-cor-movimento|ars-vie)/?$ projetos/$1 [R=301,L,NE]
+  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/detalhes\.html\? [NC]
+  RewriteCond %{QUERY_STRING} (?:^|&)id=(aya-kar|adega-luz-sombra|academia-energia-urbana|brinquedoteca-cor-movimento|ars-vie)(?:&|$) [NC]
+  RewriteRule ^Projetos/detalhes\.html$ projetos/%1? [R=301,L,NE]
+  RewriteRule ^(aya-kar|adega-luz-sombra|academia-energia-urbana|brinquedoteca-cor-movimento|ars-vie)/?$ projetos/$1 [R=301,L,NE]
+
+  # New routes precede the physical Projetos directory on case-insensitive systems.
+  RewriteRule ^(?:quem-somos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|privacidade)/?$ index.php [END,QSA,NC]
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteRule ^ index.php [END,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(?:avif|webp|jpg|jpeg|png|gif|woff2|mp4)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
+
+AddType image/avif .avif
+AddType image/webp .webp

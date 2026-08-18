@@ -1,5 +1,5 @@
 [Unit]
-Description=Improov - Worker de envio de candidaturas
+Description=Improov - Worker de e-mails de candidaturas e contatos
 After=network.target mysql.service
 
 [Service]
