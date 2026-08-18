@@ -16,3 +16,13 @@
 6. Publicar o código somente após o validador confirmar todos os caminhos do manifesto.
 
 Os derivados usam cache imutável de um ano. A mudança de `mediaVersion` invalida o cache pela URL. `thumb.php` permanece como fallback para o acervo legado até não haver referências ou acessos relevantes.
+
+## Conversor atual
+
+O ambiente local desta migração não possui ImageMagick, mas possui Pillow com suporte a JPEG, WebP e AVIF. O conversor executável é:
+
+```powershell
+& "C:\Users\pedro\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" deploy/generate-media.py
+```
+
+Ele lê os masters em `C:\improov-media-masters`, gera o pacote em `assets/media`, atualiza `data/media-map.json` e atualiza o manifesto. Os arquivos gerados em `assets/media` são pacote de deploy e permanecem fora do Git conforme o `.gitignore`.

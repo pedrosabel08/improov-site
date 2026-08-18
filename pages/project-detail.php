@@ -3,7 +3,7 @@
   <section class="project-detail-hero"><?= responsive_image($hero['src'], translated($hero['alt']), (int)$hero['width'], (int)$hero['height'], 'project-detail-hero__image', '100vw', true) ?><div class="project-detail-hero__shade"></div>
     <div class="project-detail-hero__title container"><span class="eyebrow" data-i18n="projects.project">Projeto</span>
       <h1 data-project-title><?= escape(translated($project['title'])) ?></h1>
-      <p data-project-location><?= escape(translated($project['location'])) ?></p>
+      <p data-project-location><span class="project-card__location-icon"><?= site_icon('pin') ?></span><span data-project-location-text><?= escape(translated($project['location'])) ?></span></p>
     </div>
   </section>
   <section class="project-overview section container">

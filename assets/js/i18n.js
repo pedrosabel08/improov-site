@@ -11,7 +11,7 @@
       "contact.optionOther": "Outro",
       "contact.attachmentHint": "PDF, JPG, PNG ou ZIP — até 20 MB",
       "contact.address":
-        "Rua 7 de Setembro, 1234 — Bairro Victor Konder — Blumenau, SC — 89012-050 — Brasil",
+        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
       "contact.hours": "Segunda a sexta, das 9h às 18h",
       "form.roleArt": "Direção de arte",
       "form.roleArchitecture": "Arquitetura",
@@ -71,16 +71,31 @@
       "projects.label": "Projetos da Improov",
       "projects.project": "Projeto",
       "about.eyebrow": "Quem Somos",
-      "about.title": "Imaginação com intenção. Imagem com propósito.",
+      "about.title": "Quem Somos",
       "about.intro":
-        "Unimos tecnologia, sensibilidade e direção de arte para transformar ideias em experiências visuais.",
-      "about.manifestoEyebrow": "Manifesto",
+        "A Improov nasceu da convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.",
+      "about.manifestoEyebrow": "Nossa essência",
       "about.manifestoTitle":
-        "Cada projeto carrega uma história, um lugar e um propósito únicos.",
+        "Grandes empreendimentos conquistam pessoas pelas emoções que despertam.",
       "about.manifestoP1":
-        "A Improov existe para traduzir tudo isso em imagens que despertam emoção e valorizam o essencial.",
+        "Somos uma empresa especializada em comunicação para o mercado imobiliário, criando imagens, filmes, animações e experiências visuais capazes de transformar projetos em desejo.",
       "about.manifestoP2":
-        "Acreditamos que a melhor imagem não mostra apenas o que se vê, mas o que se sente.",
+        "Mais do que representar aquilo que ainda será construído, traduzimos a essência de cada empreendimento. Buscamos revelar sua identidade, sua atmosfera e a história que existe por trás da arquitetura.",
+      "about.heartmadeIntro":
+        "Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.",
+      "about.heartmadeDetails":
+        "Cada detalhe é pensado para comunicar com verdade. Cada enquadramento, cada luz, cada movimento e cada narrativa existem para despertar sentimentos.",
+      "about.heartmadeLead": "Chamamos essa filosofia de",
+      "about.heartmadeTitle": "Heartmade",
+      "about.heartmadeBelief":
+        "Porque acreditamos que a tecnologia, por si só, impressiona. Mas é o olhar humano que emociona.",
+      "about.heartmadeTeam":
+        "Ao longo da nossa trajetória, reunimos uma equipe multidisciplinar apaixonada por excelência e comprometida em entregar materiais que elevam o posicionamento de incorporadoras, construtoras e empreendimentos.",
+      "about.heartmadeExperience": "Não produzimos apenas imagens.",
+      "about.heartmadeClosing":
+        "Criamos experiências que fazem pessoas imaginarem, desejarem e acreditarem em um lugar antes mesmo de ele existir.",
+      "about.heartmadeFinal":
+        "É assim que transformamos arquitetura em comunicação. E comunicação em valor.",
       "about.studioEyebrow": "Nosso Estúdio",
       "about.studioTitle": "O lugar onde as ideias ganham vida.",
       "about.studioText":
@@ -186,7 +201,7 @@
       "contact.optionOther": "Other",
       "contact.attachmentHint": "PDF, JPG, PNG or ZIP — up to 20 MB",
       "contact.address":
-        "Rua 7 de Setembro, 1234 — Victor Konder — Blumenau, SC — 89012-050 — Brazil",
+        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brazil",
       "contact.hours": "Monday to Friday, 9am to 6pm",
       "form.roleArt": "Art direction",
       "form.roleArchitecture": "Architecture",
@@ -246,16 +261,31 @@
       "projects.label": "Improov projects",
       "projects.project": "Project",
       "about.eyebrow": "About Us",
-      "about.title": "Imagination with intention. Images with purpose.",
+      "about.title": "About Us",
       "about.intro":
-        "We bring technology, sensitivity and art direction together to transform ideas into visual experiences.",
-      "about.manifestoEyebrow": "Manifesto",
+        "Improov was born from the conviction that great developments are not sold by their features alone. They win people over through the emotions they awaken.",
+      "about.manifestoEyebrow": "Our essence",
       "about.manifestoTitle":
-        "Every project carries a unique story, place and purpose.",
+        "Great developments win people over through the emotions they awaken.",
       "about.manifestoP1":
-        "Improov translates all of this into images that spark emotion and value what is essential.",
+        "We specialize in communication for the real estate market, creating images, films, animations and visual experiences capable of turning projects into desire.",
       "about.manifestoP2":
-        "We believe the best image shows not only what can be seen, but what can be felt.",
+        "More than representing what has yet to be built, we translate the essence of each development. We seek to reveal its identity, atmosphere and the story behind its architecture.",
+      "about.heartmadeIntro":
+        "Our methodology combines creative direction, art, strategy and technology to develop materials that strengthen brands, delight clients and enhance commercial results.",
+      "about.heartmadeDetails":
+        "Every detail is designed to communicate truthfully. Every frame, light, movement and narrative exists to awaken feelings.",
+      "about.heartmadeLead": "We call this philosophy",
+      "about.heartmadeTitle": "Heartmade",
+      "about.heartmadeBelief":
+        "Because we believe technology alone impresses. It is the human eye that moves us.",
+      "about.heartmadeTeam":
+        "Throughout our journey, we have built a multidisciplinary team passionate about excellence and committed to delivering materials that elevate the positioning of developers, builders and developments.",
+      "about.heartmadeExperience": "We do not simply produce images.",
+      "about.heartmadeClosing":
+        "We create experiences that make people imagine, desire and believe in a place before it even exists.",
+      "about.heartmadeFinal":
+        "This is how we transform architecture into communication. And communication into value.",
       "about.studioEyebrow": "Our Studio",
       "about.studioTitle": "The place where ideas come to life.",
       "about.studioText":
@@ -361,7 +391,7 @@
       "contact.optionOther": "Otro",
       "contact.attachmentHint": "PDF, JPG, PNG o ZIP — hasta 20 MB",
       "contact.address":
-        "Rua 7 de Setembro, 1234 — Barrio Victor Konder — Blumenau, SC — 89012-050 — Brasil",
+        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
       "contact.hours": "Lunes a viernes, de 9h a 18h",
       "form.roleArt": "Dirección de arte",
       "form.roleArchitecture": "Arquitectura",
@@ -422,16 +452,31 @@
       "projects.label": "Proyectos de Improov",
       "projects.project": "Proyecto",
       "about.eyebrow": "Quiénes Somos",
-      "about.title": "Imaginación con intención. Imagen con propósito.",
+      "about.title": "Quiénes Somos",
       "about.intro":
-        "Unimos tecnología, sensibilidad y dirección de arte para transformar ideas en experiencias visuales.",
-      "about.manifestoEyebrow": "Manifiesto",
+        "Improov nació de la convicción de que los grandes proyectos inmobiliarios no se venden solo por sus características. Conquistan a las personas por las emociones que despiertan.",
+      "about.manifestoEyebrow": "Nuestra esencia",
       "about.manifestoTitle":
-        "Cada proyecto lleva una historia, un lugar y un propósito únicos.",
+        "Los grandes proyectos conquistan a las personas por las emociones que despiertan.",
       "about.manifestoP1":
-        "Improov traduce todo eso en imágenes que despiertan emoción y valoran lo esencial.",
+        "Somos una empresa especializada en comunicación para el mercado inmobiliario, creando imágenes, películas, animaciones y experiencias visuales capaces de transformar proyectos en deseo.",
       "about.manifestoP2":
-        "Creemos que la mejor imagen no solo muestra lo que se ve, sino lo que se siente.",
+        "Más que representar aquello que aún será construido, traducimos la esencia de cada proyecto. Buscamos revelar su identidad, su atmósfera y la historia que existe detrás de la arquitectura.",
+      "about.heartmadeIntro":
+        "Nuestra metodología une dirección creativa, arte, estrategia y tecnología para desarrollar materiales que fortalecen marcas, encantan a clientes y potencian resultados comerciales.",
+      "about.heartmadeDetails":
+        "Cada detalle está pensado para comunicar con verdad. Cada encuadre, cada luz, cada movimiento y cada narrativa existen para despertar sentimientos.",
+      "about.heartmadeLead": "Llamamos a esta filosofía",
+      "about.heartmadeTitle": "Heartmade",
+      "about.heartmadeBelief":
+        "Porque creemos que la tecnología, por sí sola, impresiona. Pero es la mirada humana la que emociona.",
+      "about.heartmadeTeam":
+        "A lo largo de nuestra trayectoria, reunimos un equipo multidisciplinario apasionado por la excelencia y comprometido con entregar materiales que elevan el posicionamiento de desarrolladores, constructoras y proyectos.",
+      "about.heartmadeExperience": "No producimos solo imágenes.",
+      "about.heartmadeClosing":
+        "Creamos experiencias que hacen que las personas imaginen, deseen y crean en un lugar incluso antes de que exista.",
+      "about.heartmadeFinal":
+        "Así transformamos la arquitectura en comunicación. Y la comunicación en valor.",
       "about.studioEyebrow": "Nuestro Estudio",
       "about.studioTitle": "El lugar donde las ideas cobran vida.",
       "about.studioText":

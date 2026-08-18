@@ -25,7 +25,8 @@
       const location = card.querySelector("[data-project-location]");
       const image = card.querySelector("img");
       if (title) title.textContent = value(project.title, lang);
-      if (location) location.textContent = "⌖ " + value(project.location, lang);
+      const locationText = location?.querySelector("[data-project-location-text]");
+      if (locationText) locationText.textContent = value(project.location, lang);
       if (image) image.alt = value(project.media.hero.alt, lang);
     });
     const detail = document.querySelector("[data-project-detail]");
@@ -38,10 +39,15 @@
       project.title,
       lang,
     );
-    detail.querySelector("[data-project-location]").textContent = value(
-      project.location,
-      lang,
+    const detailLocation = detail.querySelector("[data-project-location]");
+    const detailLocationText = detailLocation?.querySelector(
+      "[data-project-location-text]",
     );
+    if (detailLocationText) {
+      detailLocationText.textContent = value(project.location, lang);
+    } else if (detailLocation) {
+      detailLocation.textContent = value(project.location, lang);
+    }
     detail.querySelector("[data-project-subtitle]").textContent = value(
       project.detail.subtitle,
       lang,

@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 require_once __DIR__ . '/app/config.php';
+require_once __DIR__ . '/app/icons.php';
 require_once __DIR__ . '/app/content.php';
 require_once __DIR__ . '/app/projects.php';
 require_once __DIR__ . '/app/routes.php';

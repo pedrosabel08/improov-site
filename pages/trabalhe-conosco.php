@@ -11,7 +11,7 @@
     <div class="section-heading"><span class="eyebrow" data-i18n="careers.cultureEyebrow">Nossa cultura</span>
       <h2 data-i18n="careers.cultureTitle">Um ambiente para criar, aprender e evoluir.</h2>
     </div>
-    <div class="pillars__grid"><?php foreach ([['◎', 'careers.value1', 'careers.value1Text'], ['◇', 'careers.value2', 'careers.value2Text'], ['▣', 'careers.value3', 'careers.value3Text'], ['↗', 'careers.value4', 'careers.value4Text']] as [$icon, $title, $text]): ?><article class="pillar"><span class="pillar__icon" aria-hidden="true"><?= $icon ?></span>
+    <div class="pillars__grid"><?php foreach ([['users', 'careers.value1', 'careers.value1Text'], ['lightbulb', 'careers.value2', 'careers.value2Text'], ['monitor', 'careers.value3', 'careers.value3Text'], ['growth', 'careers.value4', 'careers.value4Text']] as [$icon, $title, $text]): ?><article class="pillar"><span class="pillar__icon"><?= site_icon($icon) ?></span>
           <h3 data-i18n="<?= $title ?>">Colaboração real</h3>
           <p data-i18n="<?= $text ?>">Acreditamos na força do trabalho em equipe.</p>
         </article><?php endforeach; ?></div>
@@ -50,10 +50,10 @@
     </form>
     <aside class="info-panel"><span class="eyebrow" data-i18n="careers.studioEyebrow">Por dentro do estúdio</span>
       <ul>
-        <li data-i18n="careers.studio1">Estúdio em Blumenau, SC</li>
-        <li data-i18n="careers.studio2">Ambiente criativo e colaborativo</li>
-        <li data-i18n="careers.studio3">Projetos desafiadores e autorais</li>
-        <li data-i18n="careers.studio4">Tecnologia e processos de ponta</li>
+        <li><span class="info-panel__icon"><?= site_icon('pin') ?></span><span data-i18n="careers.studio1">Estúdio em Blumenau, SC</span></li>
+        <li><span class="info-panel__icon"><?= site_icon('users') ?></span><span data-i18n="careers.studio2">Ambiente criativo e colaborativo</span></li>
+        <li><span class="info-panel__icon"><?= site_icon('spark') ?></span><span data-i18n="careers.studio3">Projetos desafiadores e autorais</span></li>
+        <li><span class="info-panel__icon"><?= site_icon('layers') ?></span><span data-i18n="careers.studio4">Tecnologia e processos de ponta</span></li>
       </ul>
       <hr>
       <h3 data-i18n="careers.where">Onde estamos</h3>

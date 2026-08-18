@@ -34,3 +34,6 @@ DirectoryIndex index.php
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
 </IfModule>
+
+AddType image/avif .avif
+AddType image/webp .webp

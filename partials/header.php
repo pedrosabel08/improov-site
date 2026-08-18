@@ -1,6 +1,6 @@
 <header class="site-header" data-site-header>
   <a class="brand" href="<?= escape(base_url()) ?>" aria-label="Improov — Início" data-i18n-aria="nav.home">
-    <span class="brand__word">IMPRO</span><span class="brand__mark" aria-hidden="true"><i></i><i></i></span>
+  <img src="<?= escape(asset_url('LOGO_WHITE_IMPROOV-LOOP.gif')) ?>" alt="Improov" id="gif-header">
   </a>
   <nav class="desktop-nav" aria-label="Navegação principal" data-i18n-aria="nav.label">
     <?php foreach (

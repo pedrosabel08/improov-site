@@ -1,47 +1,152 @@
 {
   "version": 1,
-  "widths": [640, 1024, 1440, 1920],
-  "formats": ["avif", "webp", "jpg"],
+  "widths": [
+    640,
+    1024,
+    1440,
+    1920
+  ],
+  "formats": [
+    "avif",
+    "webp",
+    "jpg"
+  ],
   "projects": [
     {
       "slug": "aya-kar",
       "mediaVersion": 1,
       "media": [
-        { "name": "hero", "source": "aya-kar/hero.jpg" },
-        { "name": "card", "source": "aya-kar/hero.jpg" }
+        {
+          "name": "hero",
+          "source": "projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg"
+        }
       ]
     },
     {
       "slug": "academia-energia-urbana",
       "mediaVersion": 1,
       "media": [
-        { "name": "hero", "source": "academia-energia-urbana/hero.jpg" },
-        { "name": "card", "source": "academia-energia-urbana/hero.jpg" }
+        {
+          "name": "hero",
+          "source": "imagens-gerais/legado/BHE_INF_Academia_EF.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "imagens-gerais/legado/BHE_INF_Academia_EF.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "imagens-gerais/legado/BHE_INF_Embasamento_EF.jpg"
+        }
       ]
     },
     {
       "slug": "adega-luz-sombra",
       "mediaVersion": 1,
       "media": [
-        { "name": "hero", "source": "adega-luz-sombra/hero.jpg" },
-        { "name": "card", "source": "adega-luz-sombra/hero.jpg" }
+        {
+          "name": "hero",
+          "source": "escritorio/ambientes/BHE_INF_Adega_EF.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "escritorio/ambientes/BHE_INF_Adega_EF.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "escritorio/ambientes/BHE_INF_Living_Diferenciado_EF.jpg"
+        }
       ]
     },
     {
       "slug": "brinquedoteca-cor-movimento",
       "mediaVersion": 1,
       "media": [
-        { "name": "hero", "source": "brinquedoteca-cor-movimento/hero.jpg" },
-        { "name": "card", "source": "brinquedoteca-cor-movimento/hero.jpg" }
+        {
+          "name": "hero",
+          "source": "imagens-gerais/legado/BHE_INF_Brinquedoteca_EF.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "imagens-gerais/legado/BHE_INF_Brinquedoteca_EF.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "imagens-gerais/legado/BHE_INF_Jogos_EF.jpg"
+        }
       ]
     },
     {
       "slug": "ars-vie",
       "mediaVersion": 1,
       "media": [
-        { "name": "hero", "source": "ars-vie/hero.jpg" },
-        { "name": "card", "source": "ars-vie/hero.jpg" }
+        {
+          "name": "hero",
+          "source": "projetos/ARS_VIE/3.ARS_VIE_Fotomontagem_Vista_de_Porto Belo_EF_2_1.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/ARS_VIE/13.ARS_VIE_area_do_Lago_ornamental_EF_2_1.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/ARS_VIE/20.ARS_VIE_Piscinas_angulo_2_EF_4_1.jpg"
+        }
       ]
+    }
+  ],
+  "site": [
+    {
+      "name": "home-hero",
+      "source": "projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
+    },
+    {
+      "name": "careers-hero",
+      "source": "escritorio/ambientes/BHE_INF_Coworking_EF.jpg"
+    },
+    {
+      "name": "contact-hero",
+      "source": "imagens-gerais/legado/BHE_INF_Fachada_Extra.jpg"
+    },
+    {
+      "name": "about-hero",
+      "source": "escritorio/ambientes/BHE_INF_Coworking_EF.jpg"
+    },
+    {
+      "name": "about-manifesto",
+      "source": "imagens-gerais/legado/BHE_INF_Piscina_EF.jpg"
+    },
+    {
+      "name": "about-studio-wide",
+      "source": "escritorio/ambientes/BHE_INF_Coworking_EF.jpg"
+    },
+    {
+      "name": "about-studio-living",
+      "source": "escritorio/ambientes/BHE_INF_Living_Diferenciado_EF.jpg"
+    },
+    {
+      "name": "about-studio-adega",
+      "source": "escritorio/ambientes/BHE_INF_Adega_EF.jpg"
+    },
+    {
+      "name": "about-studio-fireplace",
+      "source": "escritorio/ambientes/BHE_INF_Fireplace_EF.jpg"
     }
   ]
 }

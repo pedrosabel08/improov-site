@@ -14,8 +14,8 @@
       <h2 id="pillars-title" data-i18n="home.pillarsTitle">Imagem com intenção. Experiência com propósito.</h2>
     </div>
     <div class="pillars__grid">
-      <?php foreach ([['◎', 'home.pillar1', 'home.pillar1Text'], ['▣', 'home.pillar2', 'home.pillar2Text'], ['◌', 'home.pillar3', 'home.pillar3Text'], ['✣', 'home.pillar4', 'home.pillar4Text']] as [$icon, $title, $text]): ?>
-        <article class="pillar"><span class="pillar__icon" aria-hidden="true"><?= $icon ?></span>
+      <?php foreach ([['eye', 'home.pillar1', 'home.pillar1Text'], ['layers', 'home.pillar2', 'home.pillar2Text'], ['users', 'home.pillar3', 'home.pillar3Text'], ['spark', 'home.pillar4', 'home.pillar4Text']] as [$icon, $title, $text]): ?>
+        <article class="pillar"><span class="pillar__icon"><?= site_icon($icon) ?></span>
           <h3 data-i18n="<?= $title ?>">Foco no essencial</h3>
           <p data-i18n="<?= $text ?>">Valorizamos a intenção do projeto e o que realmente importa.</p>
         </article>
@@ -30,6 +30,7 @@
       </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
     </div>
     <?php $projectsForGrid = home_projects();
+    $projectGridClass = 'project-grid--home';
     require APP_ROOT . '/partials/project-grid.php'; ?>
   </section>
   <div class="container"><?php require APP_ROOT . '/partials/closing-cta.php'; ?></div>
