@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("./assets/css/tokens.css");
 
 html {
   scroll-behavior: smooth;
@@ -13,6 +14,8 @@ html {
 
 body {
   background-color: black;
+  font-size: var(--text-body);
+  line-height: 1.5;
   padding-bottom: 40px;
 }
 
@@ -112,7 +115,7 @@ header {
 }
 
 .menu a {
-  font-size: 12px;
+  font-size: var(--text-small);
 }
 
 .navbar-left img {
@@ -190,7 +193,7 @@ main {
 }
 
 .intro-text p {
-  font-size: clamp(0.98rem, 3.9vw, 1.1rem);
+  font-size: var(--text-body);
   line-height: 1.65;
   max-width: 55vw;
   color: rgba(255, 255, 255, 0.85);
@@ -207,7 +210,7 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.25);
   padding: clamp(6px, 1.5vw, 8px) clamp(10px, 2.5vw, 14px);
   border-radius: 999px;
-  font-size: clamp(0.72rem, 2.6vw, 0.78rem);
+  font-size: var(--text-caption);
   letter-spacing: 0.8px;
   text-transform: uppercase;
 }
@@ -281,7 +284,7 @@ a.galeria-item {
   bottom: 12px;
   left: 12px;
   color: #fff;
-  font-size: 13px;
+  font-size: var(--text-small);
   font-weight: 600;
   z-index: 2;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
@@ -405,7 +408,7 @@ footer a {
   border-radius: 999px;
   cursor: pointer;
   font: inherit;
-  font-size: 0.68rem;
+  font-size: var(--text-caption);
   font-weight: 700;
   line-height: 1;
   padding: 6px 7px;
@@ -440,7 +443,7 @@ footer a {
 }
 
 .eyebrow {
-  font-size: 0.69rem;
+  font-size: var(--text-caption);
   letter-spacing: 0.15em;
   color: rgba(255, 255, 255, 0.54);
 }
@@ -477,7 +480,7 @@ footer a {
 }
 .careers-form span,
 .careers-form legend {
-  font-size: 0.76rem;
+  font-size: var(--text-small);
   font-weight: 700;
   letter-spacing: 0.035em;
 }
@@ -489,7 +492,7 @@ footer a {
   background: rgba(0, 0, 0, 0.4);
   color: #fff;
   font: inherit;
-  font-size: 0.88rem;
+  font-size: var(--text-body);
   padding: 11px 12px;
 }
 .careers-form textarea {
@@ -511,7 +514,7 @@ footer a {
 .privacy-check {
   flex-direction: row !important;
   align-items: flex-start;
-  font-size: 0.85rem;
+  font-size: var(--text-body);
   color: rgba(255, 255, 255, 0.8);
 }
 .choice-row input,
@@ -544,7 +547,7 @@ footer a {
 }
 .form-status {
   min-height: 1.3em;
-  font-size: 0.85rem;
+  font-size: var(--text-small);
   line-height: 1.5;
 }
 .form-status.is-success {
@@ -604,7 +607,7 @@ footer a {
 }
 
 .contato-slogan {
-  font-size: clamp(0.95rem, 3.5vw, 1.05rem);
+  font-size: var(--text-lead);
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.65;
   max-width: 560px;
@@ -650,7 +653,7 @@ footer a {
   align-items: center;
   justify-content: flex-start;
   gap: 12px;
-  font-size: clamp(0.95rem, 3.2vw, 1rem);
+  font-size: var(--text-body);
 }
 
 .contato-list li i {
@@ -675,7 +678,7 @@ footer a {
 }
 
 .contato-location {
-  font-size: 0.85rem;
+  font-size: var(--text-small);
   color: rgba(255, 255, 255, 0.5);
   letter-spacing: 0.5px;
   display: flex;
@@ -712,7 +715,7 @@ footer a {
 }
 
 .contato-copy {
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
   color: rgba(255, 255, 255, 0.35);
   letter-spacing: 0.4px;
 }
@@ -815,7 +818,7 @@ footer a {
 
 .careers-heading .contato-slogan {
   max-width: 570px;
-  font-size: clamp(1rem, 2vw, 1.18rem);
+  font-size: var(--text-lead);
 }
 
 .careers-layout {
@@ -858,7 +861,7 @@ footer a {
 .careers-card .form-field > label,
 .careers-card .textarea-field > span:first-child {
   color: rgba(255, 255, 255, 0.92);
-  font-size: 0.78rem;
+  font-size: var(--text-small);
   font-weight: 700;
   letter-spacing: 0.01em;
 }
@@ -886,7 +889,7 @@ footer a {
   background-color: var(--careers-input);
   color: #fff;
   font: inherit;
-  font-size: 0.88rem;
+  font-size: var(--text-body);
   padding: 11px 13px;
   transition:
     border-color 180ms ease,
@@ -1019,13 +1022,13 @@ footer a {
 }
 
 .work-option-copy strong {
-  font-size: 0.86rem;
+  font-size: var(--text-small);
 }
 
 .work-option-copy small,
 .contact-card small {
   color: var(--careers-muted);
-  font-size: 0.74rem;
+  font-size: var(--text-caption);
   line-height: 1.35;
 }
 
@@ -1095,13 +1098,13 @@ footer a {
 }
 
 .file-dropzone-copy strong {
-  font-size: 0.84rem;
+  font-size: var(--text-small);
 }
 
 .file-dropzone-copy small,
 .file-selected small {
   color: var(--careers-muted);
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
 }
 
 .file-selected {
@@ -1137,7 +1140,7 @@ footer a {
   color: var(--careers-accent);
   cursor: pointer;
   font: inherit;
-  font-size: 0.76rem;
+  font-size: var(--text-small);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -1145,7 +1148,7 @@ footer a {
 .field-error {
   min-height: 1em;
   color: #ffb6b6;
-  font-size: 0.75rem;
+  font-size: var(--text-caption);
 }
 
 .textarea-field {
@@ -1163,7 +1166,7 @@ footer a {
   margin-top: -32px;
   padding-right: 12px;
   color: rgba(255, 255, 255, 0.48) !important;
-  font-size: 0.72rem !important;
+  font-size: var(--text-caption) !important;
   font-weight: 400 !important;
   pointer-events: none;
 }
@@ -1172,7 +1175,7 @@ footer a {
   flex-direction: row !important;
   align-items: flex-start;
   color: rgba(255, 255, 255, 0.64);
-  font-size: 0.75rem;
+  font-size: var(--text-body);
   line-height: 1.45;
 }
 
@@ -1199,7 +1202,7 @@ footer a {
   align-items: center;
   gap: 9px;
   color: rgba(255, 255, 255, 0.52);
-  font-size: 0.73rem;
+  font-size: var(--text-small);
   line-height: 1.4;
 }
 
@@ -1247,7 +1250,7 @@ footer a {
 .form-status {
   min-height: 1.3em;
   margin: 0;
-  font-size: 0.8rem;
+  font-size: var(--text-small);
   line-height: 1.5;
 }
 
@@ -1273,7 +1276,7 @@ footer a {
   gap: 13px;
   padding: 16px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.86rem;
+  font-size: var(--text-small);
 }
 
 .contact-card .contato-list li:first-child {
@@ -1299,7 +1302,7 @@ footer a {
 
 .contact-card .contato-list a {
   white-space: nowrap;
-  font-size: clamp(0.74rem, 1.2vw, 0.86rem);
+  font-size: var(--text-small);
 }
 
 .contact-card .contato-location {
@@ -1323,13 +1326,13 @@ footer a {
 }
 
 .contact-callout strong {
-  font-size: 0.84rem;
+  font-size: var(--text-small);
   line-height: 1.45;
 }
 
 .contact-callout p {
   color: var(--careers-muted);
-  font-size: 0.78rem;
+  font-size: var(--text-small);
   line-height: 1.65;
 }
 

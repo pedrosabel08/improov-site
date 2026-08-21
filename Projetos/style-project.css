@@ -1,3 +1,5 @@
+@import url("../assets/css/tokens.css");
+
 /* Page-specific styles */
 .project-hero {
   height: 100vh;
@@ -33,7 +35,7 @@
 }
 
 .hero-sub {
-  font-size: clamp(0.95rem, 3.2vw, 1rem);
+  font-size: var(--text-small);
   opacity: 0.9;
   line-height: 1.45;
 }
@@ -48,7 +50,7 @@
 }
 
 .project-desc {
-  font-size: clamp(1rem, 3.8vw, 1.25rem);
+  font-size: var(--text-body);
   line-height: 1.65;
   color: rgba(255, 255, 255, 0.92);
 }
@@ -60,7 +62,7 @@
 }
 
 .project-desc p {
-  font-size: clamp(1rem, 3.6vw, 1.2rem);
+  font-size: var(--text-body);
 }
 
 .project-info {
@@ -68,17 +70,17 @@
   border: 1px solid rgba(255, 255, 255, 0.06);
   padding: 20px;
   border-radius: 10px;
-  font-size: clamp(0.98rem, 3.3vw, 1.125rem);
+  font-size: var(--text-small);
 }
 
 .project-info dt {
   font-weight: 700;
   margin-top: 12px;
-  font-size: clamp(1rem, 3.5vw, 1.2rem);
+  font-size: var(--text-caption);
 }
 
 .project-info dd {
-  font-size: clamp(1rem, 3.4vw, 1.14rem);
+  font-size: var(--text-small);
   line-height: 1.35;
 }
 
@@ -235,7 +237,7 @@
   }
 
   .project-desc {
-    font-size: clamp(1rem, 4.1vw, 1.12rem);
+    font-size: var(--text-body);
   }
 
   .project-info {

@@ -9,6 +9,17 @@
   --color-border: rgba(255, 255, 255, 0.14);
   --color-border-soft: rgba(255, 255, 255, 0.08);
   --font-sans: "Montserrat", Arial, sans-serif;
+
+  /* Typography */
+  --text-caption: 0.75rem;
+  --text-small: 0.875rem;
+  --text-body: 1rem;
+  --text-lead: 1.125rem;
+  --text-large: 1.25rem;
+  --heading-small: 1.5rem;
+  --heading-medium: 2rem;
+  --heading-large: 3rem;
+
   --container: 1500px;
   --gutter: clamp(20px, 4vw, 64px);
   --section-space: clamp(72px, 9vw, 144px);

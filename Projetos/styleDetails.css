@@ -1,149 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("../assets/css/tokens.css");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-    background-color: #efefef;
+  background-color: #efefef;
+  font-size: var(--text-body);
+  line-height: 1.5;
 
-    overflow-x: hidden;
-    color: rgb(0, 0, 0);
-    scroll-behavior: smooth;
+  overflow-x: hidden;
+  color: rgb(0, 0, 0);
+  scroll-behavior: smooth;
 }
 
 .videoPrincipal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 section {
-    height: 100vh;
-    width: 100%;
-    display: flex;
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
 
 video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #nome {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    font-size: 3rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: clamp(2rem, 6vw, 3rem);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .desc {
-    margin: 50px 0;
-    padding: 30px 10px;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.603);
+  margin: 50px 0;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.603);
 }
 
 .desc h2 {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: var(--text-body);
+  font-weight: bold;
 }
 
 .fachadas {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 100px;
-    gap: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 100px;
+  gap: 100px;
 }
 
 .fachadas img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
-.filme, .animas {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    align-items: center;
-    margin: 150px 0;
+.filme,
+.animas {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  margin: 150px 0;
 }
 
 .filme video {
-    width: 80%;
+  width: 80%;
 }
 
 .animas video {
-    width: 80%;
+  width: 80%;
 }
 
 .carousel {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
 .carousel-container {
-    position: relative;
-    width: 80%;
-    height: 90vh;
-    margin: 0 auto;
-    overflow: hidden;
+  position: relative;
+  width: 80%;
+  height: 90vh;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .carousel-images {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
 .carousel-images img {
-    width: 100%;
-    max-width: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 .prev {
-    left: 10px;
+  left: 10px;
 }
 
 .next {
-    right: 10px;
+  right: 10px;
 }
 
 #autoShow {
-    animation: autoShowAnimation both;
-    animation-timeline: view(90% 5%);
+  animation: autoShowAnimation both;
+  animation-timeline: view(90% 5%);
 }
 
 @keyframes autoShowAnimation {
-    from {
-        opacity: 0;
-        transform: translateY(200px) scale(0.7);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(200px) scale(0.7);
+  }
 
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }

@@ -25,15 +25,16 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-sans);
+  font-size: var(--text-body);
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 body.menu-open {
   overflow: hidden;
 }
 #gif-header {
-  width: 150px;
+  width: 200px;
   height: auto;
 }
 img,
@@ -73,7 +74,7 @@ h2 {
   font-size: clamp(2rem, 4vw, 3.25rem);
 }
 h3 {
-  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  font-size: clamp(1.125rem, 1.8vw, 1.5rem);
 }
 p {
   color: var(--color-muted);
@@ -89,7 +90,7 @@ p {
   display: block;
   margin-bottom: 18px;
   color: var(--color-accent-strong);
-  font-size: 0.72rem;
+  font-size: var(--text-caption);
   font-weight: 500;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -173,7 +174,7 @@ p {
   position: relative;
   padding: 27px 0 21px;
   text-decoration: none;
-  font-size: 0.72rem;
+  font-size: var(--text-caption);
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -208,7 +209,7 @@ p {
   border: 0;
   background: transparent;
   color: var(--color-muted);
-  font-size: 0.7rem;
+  font-size: var(--text-caption);
   cursor: pointer;
 }
 .language-switcher button[aria-pressed="true"] {
@@ -279,7 +280,7 @@ p {
   gap: 18px;
   width: max-content;
   color: var(--color-accent-strong);
-  font-size: 0.9rem;
+  font-size: var(--text-small);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition:
@@ -378,7 +379,7 @@ button:focus-visible {
 .site-footer p {
   margin: 0;
   color: var(--color-muted);
-  font-size: 0.78rem;
+  font-size: var(--text-small);
   text-decoration: none;
 }
 .site-footer a:hover {
@@ -396,7 +397,7 @@ button:focus-visible {
 .footer-label {
   margin-bottom: 8px !important;
   color: var(--color-accent-strong) !important;
-  font-size: 0.65rem !important;
+  font-size: var(--text-caption) !important;
   letter-spacing: 0.13em;
   text-transform: uppercase;
 }
@@ -429,7 +430,7 @@ button:focus-visible {
   padding-top: 22px;
   border-top: 1px solid var(--color-border-soft);
   color: #72787c;
-  font-size: 0.68rem;
+  font-size: var(--text-caption);
 }
 .site-footer__bottom a {
   text-decoration: none;

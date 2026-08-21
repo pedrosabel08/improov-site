@@ -39,7 +39,7 @@
 .hero__content p {
   max-width: 590px;
   color: rgba(255, 255, 255, 0.78);
-  font-size: clamp(0.76rem, 1vw, 0.92rem);
+  font-size: var(--text-body);
 }
 .hero__content .text-link {
   margin-top: 22px;
@@ -48,7 +48,7 @@
 .hero--careers .hero__content h1,
 .hero--contact .hero__content h1 {
   text-transform: none;
-  font-size: clamp(2.08rem, 4vw, 4rem);
+  font-size: 4.8rem;
 }
 .section-heading {
   max-width: 760px;
@@ -97,13 +97,13 @@
 }
 .pillar h3 {
   margin-bottom: 12px;
-  font-size: 0.8rem;
+  font-size: var(--text-small);
   letter-spacing: 0;
 }
 .pillar p {
   margin: 0;
-  font-size: 0.624rem;
-  line-height: 1.75;
+  font-size: var(--text-body);
+  line-height: 1.6;
 }
 .project-grid {
   display: grid;
@@ -166,7 +166,7 @@
   gap: 3px;
 }
 .project-card__overlay strong {
-  font-size: clamp(0.8rem, 1.28vw, 1.08rem);
+  font-size: var(--text-small);
   font-weight: 500;
 }
 .project-card__overlay small {
@@ -174,7 +174,7 @@
   align-items: center;
   gap: 5px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.576rem;
+  font-size: var(--text-caption);
 }
 .project-card__location-icon {
   display: inline-flex;
@@ -207,10 +207,10 @@
   gap: 2px;
 }
 .selected-projects .project-grid--home .project-card__overlay strong {
-  font-size: clamp(0.75rem, 1vw, 0.94rem);
+  font-size: var(--text-small);
 }
 .selected-projects .project-grid--home .project-card__overlay small {
-  font-size: 0.54rem;
+  font-size: var(--text-caption);
 }
 .closing-cta {
   position: relative;
@@ -290,7 +290,7 @@
 }
 .location-section p {
   max-width: 370px;
-  font-size: 0.68rem;
+  font-size: var(--text-body);
 }
 .location-visual {
   position: relative;
@@ -383,12 +383,13 @@
 }
 .project-info dt {
   color: var(--color-muted);
-  font-size: 0.52rem;
+  font-size: var(--text-caption);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 .project-info dd {
   margin: 4px 0 0;
+  font-size: var(--text-small);
 }
 .project-gallery {
   display: grid;
@@ -464,7 +465,7 @@
 }
 .form-card label > span:first-child,
 .form-card legend {
-  font-size: 0.6rem;
+  font-size: var(--text-small);
   font-weight: 500;
 }
 .form-card input:not([type="checkbox"]):not([type="radio"]),
@@ -481,7 +482,7 @@
   transition:
     border-color var(--transition),
     box-shadow var(--transition);
-    font-size: 0.8rem;
+  font-size: var(--text-body);
 }
 .form-card textarea {
   resize: vertical;
@@ -542,7 +543,7 @@
 [data-file-name],
 .character-count {
   color: var(--color-muted);
-  font-size: 0.56rem;
+  font-size: var(--text-caption);
 }
 .character-count {
   align-self: flex-end;
@@ -558,7 +559,7 @@
 }
 .privacy-check span {
   color: var(--color-muted);
-  font-size: 0.576rem !important;
+  font-size: var(--text-small) !important;
 }
 .privacy-check a {
   color: var(--color-text);
@@ -576,7 +577,7 @@
 .form-status {
   min-height: 24px;
   margin: 0;
-  font-size: 0.64rem;
+  font-size: var(--text-small);
 }
 .form-status.is-success {
   color: #a8d5b2;
@@ -596,10 +597,10 @@
   padding: clamp(24px, 3vw, 38px);
 }
 .info-panel h2 {
-  font-size: 1.24rem;
+  font-size: var(--text-large);
 }
 .info-panel h3 {
-  font-size: 0.64rem;
+  font-size: var(--text-caption);
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -610,7 +611,7 @@
   padding: 0;
   list-style: none;
   color: var(--color-muted);
-  font-size: 0.656rem;
+  font-size: var(--text-small);
 }
 .info-panel li {
   display: flex;
@@ -632,7 +633,7 @@
   border-top: 1px solid var(--color-border);
 }
 .info-panel p {
-  font-size: 0.656rem;
+  font-size: var(--text-small);
 }
 .info-panel a {
   display: block;
@@ -668,7 +669,7 @@
 }
 .legal-page h2 {
   margin-top: 42px;
-  font-size: 1.2rem;
+  font-size: var(--text-large);
 }
 .legal-page p {
   line-height: 1.9;
@@ -759,7 +760,7 @@
     padding-bottom: 58px;
   }
   .hero__content h1 {
-    font-size: clamp(2.04rem, 10.4vw, 3.36rem);
+    font-size: clamp(2.04rem, 10.4vw, 3.36rem) !important;
   }
   .section-heading--row {
     display: block;

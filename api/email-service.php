@@ -64,7 +64,7 @@ function improovStoredFile(string $projectRoot, string $relativePath): ?string
 
 function improovEmailLayout(string $eyebrow, string $title, string $intro, string $content): string
 {
-    return '<!doctype html><html lang="pt-BR"><body style="margin:0;background:#eef0f2;font-family:Arial,sans-serif;color:#17202a"><div style="padding:28px 12px"><div style="max-width:680px;margin:auto;background:#fff;border-radius:14px;overflow:hidden"><header style="padding:30px 34px;background:#101416;color:#fff"><div style="font-size:11px;letter-spacing:2px;color:#9bb8cc">' . improovEmailHtml($eyebrow) . '</div><h1 style="font-size:26px;margin:10px 0 8px">' . improovEmailHtml($title) . '</h1><p style="margin:0;color:#bac2c8">' . improovEmailHtml($intro) . '</p></header><main style="padding:30px 34px;line-height:1.65">' . $content . '</main></div></div></body></html>';
+    return '<!doctype html><html lang="pt-BR"><body style="margin:0;background:#eef0f2;font-family:Arial,sans-serif;font-size:16px;line-height:1.5;color:#17202a"><div style="padding:28px 12px"><div style="max-width:680px;margin:auto;background:#fff;border-radius:14px;overflow:hidden"><header style="padding:30px 34px;background:#101416;color:#fff"><div style="font-size:12px;letter-spacing:2px;color:#9bb8cc">' . improovEmailHtml($eyebrow) . '</div><h1 style="font-size:26px;line-height:1.15;margin:10px 0 8px">' . improovEmailHtml($title) . '</h1><p style="margin:0;color:#bac2c8">' . improovEmailHtml($intro) . '</p></header><main style="padding:30px 34px;line-height:1.65">' . $content . '</main></div></div></body></html>';
 }
 
 function improovSendCandidateEmail(array $candidate, string $projectRoot): array
