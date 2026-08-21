@@ -21,10 +21,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="<?= escape(asset_url('css/tokens.css')) ?>">
-  <link rel="stylesheet" href="<?= escape(asset_url('css/site.css')) ?>">
-  <link rel="stylesheet" href="<?= escape(asset_url('css/pages.css')) ?>">
-  <link rel="icon" href="<?= escape(base_url('logo.jpg')) ?>" type="image/jpeg">
+  <link rel="stylesheet" href="<?= escape(asset('assets/css/tokens.css')) ?>">
+  <link rel="stylesheet" href="<?= escape(asset('assets/css/site.css')) ?>">
+  <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
+  <link rel="icon" href="<?= escape(asset('logo.jpg')) ?>" type="image/jpeg">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
   </script>

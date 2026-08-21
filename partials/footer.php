@@ -18,10 +18,10 @@
   </div>
   <div class="site-footer__bottom"><span>© <?= date('Y') ?> Improov. <span data-i18n="footer.rights">Todos os direitos reservados.</span></span><a href="<?= escape(base_url('privacidade')) ?>" data-i18n="footer.privacy">Política de Privacidade</a></div>
 </footer>
-<script src="<?= escape(asset_url('js/i18n.js')) ?>" defer></script>
-<script src="<?= escape(asset_url('js/site.js')) ?>" defer></script>
-<script src="<?= escape(asset_url('js/projects.js')) ?>" defer></script>
-<script src="<?= escape(asset_url('js/forms.js')) ?>" defer></script>
+<script src="<?= escape(asset('assets/js/i18n.js')) ?>" defer></script>
+<script src="<?= escape(asset('assets/js/site.js')) ?>" defer></script>
+<script src="<?= escape(asset('assets/js/projects.js')) ?>" defer></script>
+<script src="<?= escape(asset('assets/js/forms.js')) ?>" defer></script>
 </body>
 
 </html>

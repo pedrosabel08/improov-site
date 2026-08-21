@@ -49,9 +49,88 @@ function canonical_url(string $path = ''): string
     return APP_ORIGIN . base_url($path);
 }
 
+/**
+ * Resolve a public asset path to the matching file under APP_ROOT.
+ *
+ * The filesystem root and the public base URL are deliberately kept
+ * separate, so the application also works when APP_BASE_URL is changed to
+ * the domain root in production.
+ */
+function asset(string $path): string
+{
+    $path = trim($path);
+    if ($path === '' || str_contains($path, "\0")) {
+        return $path;
+    }
+
+    $parts = parse_url($path);
+    if ($parts === false) {
+        return $path;
+    }
+
+    $scheme = strtolower((string) ($parts['scheme'] ?? ''));
+    $rawPath = (string) ($parts['path'] ?? '');
+    if ($scheme !== '' || str_starts_with($path, '//')) {
+        return $path;
+    }
+
+    $relativePath = ltrim(str_replace('\\', '/', $rawPath), '/');
+    $basePath = trim(APP_BASE_URL, '/');
+    if ($basePath !== '' && ($relativePath === $basePath || str_starts_with($relativePath, $basePath . '/'))) {
+        $relativePath = ltrim(substr($relativePath, strlen($basePath)), '/');
+    }
+
+    if ($relativePath === '' || str_contains($relativePath, '..')) {
+        return $path;
+    }
+
+    $filesystemPath = APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
+    $version = is_file($filesystemPath) ? @filemtime($filesystemPath) : false;
+    $publicUrl = base_url($relativePath);
+
+    $query = isset($parts['query']) ? (string) $parts['query'] : '';
+    if ($version !== false) {
+        $query .= ($query === '' ? '' : '&') . 'v=' . rawurlencode((string) $version);
+    }
+    if ($query !== '') {
+        $publicUrl .= '?' . $query;
+    }
+    if (isset($parts['fragment'])) {
+        $publicUrl .= '#' . $parts['fragment'];
+    }
+
+    return $publicUrl;
+}
+
+/**
+ * Return the current mtime for a local public path without emitting PHP
+ * warnings. Used by generated thumbnail URLs, whose response is not the
+ * source file itself.
+ */
+function asset_mtime(string $path): ?int
+{
+    $parts = parse_url($path);
+    if ($parts === false || isset($parts['scheme']) || str_starts_with($path, '//')) {
+        return null;
+    }
+
+    $relativePath = ltrim(str_replace('\\', '/', (string) ($parts['path'] ?? '')), '/');
+    $basePath = trim(APP_BASE_URL, '/');
+    if ($basePath !== '' && ($relativePath === $basePath || str_starts_with($relativePath, $basePath . '/'))) {
+        $relativePath = ltrim(substr($relativePath, strlen($basePath)), '/');
+    }
+    if ($relativePath === '' || str_contains($relativePath, '..')) {
+        return null;
+    }
+
+    $filesystemPath = APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
+    $mtime = is_file($filesystemPath) ? @filemtime($filesystemPath) : false;
+    return $mtime === false ? null : (int) $mtime;
+}
+
 function asset_url(string $path): string
 {
-    return base_url('assets/' . ltrim($path, '/'));
+    return asset('assets/' . ltrim($path, '/'));
 }
 
 function api_url(string $path): string

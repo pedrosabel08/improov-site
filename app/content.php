@@ -35,7 +35,12 @@ function page_metadata(string $key): array
 
 function thumbnail_url(string $source, int $width = 1200, int $quality = 80): string
 {
-    return base_url('thumb.php?path=' . rawurlencode($source) . '&w=' . $width . '&q=' . $quality);
+    $query = 'path=' . rawurlencode($source) . '&w=' . $width . '&q=' . $quality;
+    $sourceMtime = asset_mtime($source);
+    if ($sourceMtime !== null) {
+        $query .= '&v=' . rawurlencode((string) $sourceMtime);
+    }
+    return base_url('thumb.php?' . $query);
 }
 
 function media_map(): array
@@ -74,12 +79,12 @@ function responsive_image(
             foreach (array_keys($srcsetByFormat) as $format) {
                 $path = $media['sources'][(string) $candidate][$format] ?? null;
                 if (is_string($path) && $path !== '') {
-                    $srcsetByFormat[$format][] = base_url($path) . ' ' . $candidate . 'w';
+                    $srcsetByFormat[$format][] = asset($path) . ' ' . $candidate . 'w';
                 }
             }
         }
         if (empty($srcsetByFormat['jpg'])) {
-            $srcsetByFormat['jpg'][] = base_url((string) ($media['sources'][(string) end($availableWidths)]['jpg'] ?? '')) . ' ' . end($availableWidths) . 'w';
+            $srcsetByFormat['jpg'][] = asset((string) ($media['sources'][(string) end($availableWidths)]['jpg'] ?? '')) . ' ' . end($availableWidths) . 'w';
         }
         $fallback = $media['sources'][(string) min(1440, max($availableWidths))]['jpg'] ?? $media['sources'][(string) end($availableWidths)]['jpg'];
         $loading = $priority ? 'eager' : 'lazy';
@@ -96,7 +101,7 @@ function responsive_image(
                 $picture .= sprintf('<source type="%s" srcset="%s" sizes="%s">', $mime, escape(implode(', ', $srcsetByFormat[$format])), escape($sizes));
             }
         }
-        $picture .= sprintf('<img src="%s" srcset="%s" sizes="%s" width="%d" height="%d" alt="%s" class="%s" loading="%s" decoding="async"%s%s></picture>', escape(base_url((string) $fallback)), escape(implode(', ', $srcsetByFormat['jpg'])), escape($sizes), (int) $media['width'], (int) $media['height'], escape($alt), escape($class), $loading, $fetchPriority, $extraAttributes);
+        $picture .= sprintf('<img src="%s" srcset="%s" sizes="%s" width="%d" height="%d" alt="%s" class="%s" loading="%s" decoding="async"%s%s></picture>', escape(asset((string) $fallback)), escape(implode(', ', $srcsetByFormat['jpg'])), escape($sizes), (int) $media['width'], (int) $media['height'], escape($alt), escape($class), $loading, $fetchPriority, $extraAttributes);
         return $picture;
     }
     $srcset = [];
