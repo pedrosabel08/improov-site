@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/tokens.css')) ?>">
   <link rel="stylesheet" href="<?= escape(asset('assets/css/site.css')) ?>">
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
-  <link rel="icon" href="<?= escape(asset('logo.jpg')) ?>" type="image/jpeg">
+  <?php if ($case !== null): ?><link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
+  <link rel="icon" href="<?= escape(asset('assets/favicon.jpg')) ?>" type="image/jpeg">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
   </script>
@@ -36,5 +37,5 @@
     </script><?php endif; ?>
 </head>
 
-<body class="page page--<?= escape($pageKey) ?>">
+<body class="page page--<?= escape($pageKey) ?><?= $case !== null ? ' page--case' : '' ?>">
   <a class="skip-link" href="#conteudo" data-i18n="accessibility.skip">Pular para o conteúdo</a>

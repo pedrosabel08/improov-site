@@ -1,6 +1,7 @@
 <footer class="site-footer">
   <div class="site-footer__grid">
-    <div class="footer-brand"><strong>IMPROOV</strong>
+    <div class="footer-brand">
+      <img class="footer-brand__logo" src="<?= escape(asset('assets/IMPROOV_SQUAD.gif')) ?>" alt="Improov">
       <p data-i18n="footer.description">Criamos imagens e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.</p>
     </div>
     <div>
@@ -22,6 +23,7 @@
 <script src="<?= escape(asset('assets/js/site.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/projects.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/forms.js')) ?>" defer></script>
+<?php if ($case !== null): ?><script src="<?= escape(asset('assets/js/case.js')) ?>" defer></script><?php endif; ?>
 </body>
 
 </html>

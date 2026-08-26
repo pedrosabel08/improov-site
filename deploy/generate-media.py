@@ -40,10 +40,15 @@ def resolve_master(source: str) -> Path:
     filename = source_path.name
     if source_path.parts[:2] == ("assets", "projetos"):
         slug = source_path.parts[2].lower()
+        project_roots = [
+            p for p in (MASTERS / "projetos").iterdir()
+            if p.is_dir() and normalize(p.name) == normalize(slug)
+        ]
+        project_root_texts = [str(p.resolve()).lower().rstrip("\\/") + "\\" for p in project_roots]
         candidates = [
             p
             for p in ALL_MASTERS
-            if p.parent.name.lower() == slug
+            if any(str(p.resolve()).lower().startswith(root_text) for root_text in project_root_texts)
             and normalize(p.name) == normalize(filename)
         ]
     else:

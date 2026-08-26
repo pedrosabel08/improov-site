@@ -6,14 +6,18 @@ require_once __DIR__ . '/app/config.php';
 require_once __DIR__ . '/app/icons.php';
 require_once __DIR__ . '/app/content.php';
 require_once __DIR__ . '/app/projects.php';
+require_once __DIR__ . '/app/cases.php';
 require_once __DIR__ . '/app/routes.php';
 
 $route = resolve_route($_SERVER['REQUEST_URI'] ?? base_url());
 $project = null;
+$case = null;
 if ($route['page'] === 'project-detail') {
     $project = find_project((string) $route['slug']);
     if ($project === null) {
         $route = ['page' => '404', 'active' => '', 'status' => 404];
+    } else {
+        $case = find_case_config((string) $project['slug']);
     }
 }
 

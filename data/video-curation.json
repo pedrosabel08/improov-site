@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "projects": {
+    "ars-vie": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-ars-vie-tracking-0006.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-ars-vie-tracking-0050.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-19-ars-vie-piscina-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-ars-vie-tracking-0040.mp4": {
+          "publish": false,
+          "poster": true,
+          "variants": []
+        },
+        "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-2025-ars-vie-concept-4k-v3.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": "all"
+        },
+        "pilulas/pilula-22-ars-vie-redario-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": "all"
+        },
+        "pilulas/pilula-28-ars-vie-fire-place-detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": "all"
+        },
+        "pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": "all"
+        },
+        "pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": "all"
+        }
+      }
+    }
+  }
+}

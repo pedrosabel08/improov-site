@@ -98,15 +98,131 @@
       "media": [
         {
           "name": "hero",
-          "source": "projetos/ARS_VIE/3.ARS_VIE_Fotomontagem_Vista_de_Porto Belo_EF_2_1.jpg"
+          "source": "projetos/ars-vie/imagens/imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg"
         },
         {
           "name": "gallery-01",
-          "source": "projetos/ARS_VIE/13.ARS_VIE_area_do_Lago_ornamental_EF_2_1.jpg"
+          "source": "projetos/ars-vie/imagens/imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg"
         },
         {
           "name": "gallery-02",
-          "source": "projetos/ARS_VIE/20.ARS_VIE_Piscinas_angulo_2_EF_4_1.jpg"
+          "source": "projetos/ars-vie/imagens/imagem-2-ars-vie-fotomontagem-aerea-geral-de-localizacao-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/ars-vie/imagens/imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/ars-vie/imagens/imagem-6-ars-vie-fotomontagem-vista-de-porto-belo-2-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/ars-vie/imagens/imagem-8-ars-vie-corredor-comercial-1-terreo-r01-1-1.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/ars-vie/imagens/imagem-12-ars-vie-quadra-ef-2-1.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/ars-vie/imagens/imagem-13-ars-vie-area-do-lago-ornamental-ef-2-1.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/ars-vie/imagens/imagem-16-ars-vie-playground-1-ef-2-1.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/ars-vie/imagens/imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/ars-vie/imagens/imagem-20-ars-vie-piscinas-angulo-2-ef-4-1.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/ars-vie/imagens/imagem-21-ars-vie-pool-bar-ef-4-1.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/ars-vie/imagens/imagem-22-ars-vie-redario-ef-3-1.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/ars-vie/imagens/imagem-23-ars-vie-playground-2-jatos-de-agua-ef-3-1.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/ars-vie/imagens/imagem-26-ars-vie-espaco-zen-ef-3-1.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/ars-vie/imagens/imagem-28-ars-vie-fire-place-ef-4-1.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/ars-vie/imagens/imagem-30-ars-vie-espaco-wellness-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/ars-vie/imagens/imagem-31-ars-vie-sauna-seca-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/ars-vie/imagens/imagem-32-ars-vie-wine-com-charutaria-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/ars-vie/imagens/imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/ars-vie/imagens/imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/ars-vie/imagens/imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-24",
+          "source": "projetos/ars-vie/imagens/imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-25",
+          "source": "projetos/ars-vie/imagens/imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg"
+        },
+        {
+          "name": "gallery-26",
+          "source": "projetos/ars-vie/imagens/imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg"
+        },
+        {
+          "name": "gallery-27",
+          "source": "projetos/ars-vie/plantas/planta-40-ars-vie-planta-humanizada-do-pavimento-lazer-ef.jpg"
+        },
+        {
+          "name": "gallery-28",
+          "source": "projetos/ars-vie/plantas/planta-41-ars-vie-planta-humanizada-do-apartamento-tipo-1-e-2-ef.jpg"
+        },
+        {
+          "name": "gallery-29",
+          "source": "projetos/ars-vie/plantas/planta-42-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-1-e-2-ef.jpg"
+        },
+        {
+          "name": "gallery-30",
+          "source": "projetos/ars-vie/plantas/planta-43-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-3-ef.jpg"
+        },
+        {
+          "name": "gallery-31",
+          "source": "projetos/ars-vie/plantas/planta-47-ars-vie-fotomontagem-de-topo-r00-2-1.jpg"
         }
       ]
     }
@@ -114,7 +230,7 @@
   "site": [
     {
       "name": "home-hero",
-      "source": "projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
+      "source": "projetos/aya-kar/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
     },
     {
       "name": "careers-hero",

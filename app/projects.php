@@ -32,7 +32,11 @@ function translated(array $value, string $language = 'pt-BR'): string
 
 function home_projects(): array
 {
-    $projects = array_values(array_filter(all_projects(), static fn(array $project): bool => !empty($project['showOnHome'])));
-    usort($projects, static fn(array $a, array $b): int => ($a['homeOrder'] ?? 999) <=> ($b['homeOrder'] ?? 999));
-    return $projects;
+    $projects = all_projects();
+    $featured = array_values(array_filter($projects, static fn(array $project): bool => !empty($project['showOnHome'])));
+    $remaining = array_values(array_filter($projects, static fn(array $project): bool => empty($project['showOnHome'])));
+    usort($featured, static fn(array $a, array $b): int => ($a['homeOrder'] ?? 999) <=> ($b['homeOrder'] ?? 999));
+    usort($remaining, static fn(array $a, array $b): int => ($a['order'] ?? 999) <=> ($b['order'] ?? 999));
+
+    return array_slice(array_merge($featured, $remaining), 0, 6);
 }

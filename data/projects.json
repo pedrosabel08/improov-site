@@ -590,9 +590,7 @@
           "pt-BR": [
             "Espaço lúdico com foco em composição cromática e orientação visual para diferentes faixas etárias."
           ],
-          "en": [
-            "A playful space centered on color and visual orientation."
-          ],
+          "en": ["A playful space centered on color and visual orientation."],
           "es": [
             "Un espacio lúdico centrado en el color y la orientación visual."
           ]
@@ -625,96 +623,175 @@
       },
       "media": {
         "hero": {
-          "src": "assets/projetos/ARS_VIE/3.ARS_VIE_Fotomontagem_Vista_de_Porto Belo_EF_2_1.jpg",
+          "src": "assets/projetos/ars-vie/imagens/imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg",
           "alt": {
             "pt-BR": "Vista arquitetônica do projeto ARS Vieiras",
             "en": "Architectural view of ARS Vieiras",
             "es": "Vista arquitectónica de ARS Vieiras"
           },
           "width": 5272,
-          "height": 3948,
-          "sources": {
-            "640": {
-              "avif": "assets/media/ars-vie/v1/hero-640.avif",
-              "webp": "assets/media/ars-vie/v1/hero-640.webp",
-              "jpg": "assets/media/ars-vie/v1/hero-640.jpg"
-            },
-            "1024": {
-              "avif": "assets/media/ars-vie/v1/hero-1024.avif",
-              "webp": "assets/media/ars-vie/v1/hero-1024.webp",
-              "jpg": "assets/media/ars-vie/v1/hero-1024.jpg"
-            },
-            "1440": {
-              "avif": "assets/media/ars-vie/v1/hero-1440.avif",
-              "webp": "assets/media/ars-vie/v1/hero-1440.webp",
-              "jpg": "assets/media/ars-vie/v1/hero-1440.jpg"
-            },
-            "1920": {
-              "avif": "assets/media/ars-vie/v1/hero-1920.avif",
-              "webp": "assets/media/ars-vie/v1/hero-1920.webp",
-              "jpg": "assets/media/ars-vie/v1/hero-1920.jpg"
-            }
-          }
+          "height": 3948
         },
         "gallery": [
           {
-            "src": "assets/projetos/ARS_VIE/13.ARS_VIE_area_do_Lago_ornamental_EF_2_1.jpg",
-            "width": 5000,
-            "height": 3798,
-            "sources": {
-              "640": {
-                "avif": "assets/media/ars-vie/v1/gallery-01-640.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-01-640.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-01-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/ars-vie/v1/gallery-01-1024.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-01-1024.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-01-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/ars-vie/v1/gallery-01-1440.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-01-1440.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-01-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/ars-vie/v1/gallery-01-1920.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-01-1920.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-01-1920.jpg"
-              }
-            }
+            "src": "assets/projetos/ars-vie/imagens/imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg",
+            "width": 5280,
+            "height": 2970
           },
           {
-            "src": "assets/projetos/ARS_VIE/20.ARS_VIE_Piscinas_angulo_2_EF_4_1.jpg",
+            "src": "assets/projetos/ars-vie/imagens/imagem-2-ars-vie-fotomontagem-aerea-geral-de-localizacao-ef-1-1.jpg",
+            "width": 8000,
+            "height": 5760
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg",
+            "width": 8362,
+            "height": 5526
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-6-ars-vie-fotomontagem-vista-de-porto-belo-2-ef-1-1.jpg",
+            "width": 8000,
+            "height": 5760
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg",
             "width": 5000,
-            "height": 3798,
-            "sources": {
-              "640": {
-                "avif": "assets/media/ars-vie/v1/gallery-02-640.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-02-640.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-02-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/ars-vie/v1/gallery-02-1024.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-02-1024.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-02-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/ars-vie/v1/gallery-02-1440.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-02-1440.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-02-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/ars-vie/v1/gallery-02-1920.avif",
-                "webp": "assets/media/ars-vie/v1/gallery-02-1920.webp",
-                "jpg": "assets/media/ars-vie/v1/gallery-02-1920.jpg"
-              }
-            }
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-8-ars-vie-corredor-comercial-1-terreo-r01-1-1.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-12-ars-vie-quadra-ef-2-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-13-ars-vie-area-do-lago-ornamental-ef-2-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-16-ars-vie-playground-1-ef-2-1.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-20-ars-vie-piscinas-angulo-2-ef-4-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-21-ars-vie-pool-bar-ef-4-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-22-ars-vie-redario-ef-3-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-23-ars-vie-playground-2-jatos-de-agua-ef-3-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-26-ars-vie-espaco-zen-ef-3-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-28-ars-vie-fire-place-ef-4-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-30-ars-vie-espaco-wellness-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3333
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-31-ars-vie-sauna-seca-ef-1-1.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-32-ars-vie-wine-com-charutaria-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3030
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+            "width": 5000,
+            "height": 2084
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/imagens/imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ars-vie/plantas/planta-40-ars-vie-planta-humanizada-do-pavimento-lazer-ef.jpg",
+            "width": 5000,
+            "height": 2534
+          },
+          {
+            "src": "assets/projetos/ars-vie/plantas/planta-41-ars-vie-planta-humanizada-do-apartamento-tipo-1-e-2-ef.jpg",
+            "width": 5000,
+            "height": 2675
+          },
+          {
+            "src": "assets/projetos/ars-vie/plantas/planta-42-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-1-e-2-ef.jpg",
+            "width": 5000,
+            "height": 9036
+          },
+          {
+            "src": "assets/projetos/ars-vie/plantas/planta-43-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-3-ef.jpg",
+            "width": 5000,
+            "height": 7051
+          },
+          {
+            "src": "assets/projetos/ars-vie/plantas/planta-47-ars-vie-fotomontagem-de-topo-r00-2-1.jpg",
+            "width": 7680,
+            "height": 5395
           }
         ],
         "film": {
           "src": "",
-          "poster": "assets/projetos/ARS_VIE/3.ARS_VIE_Fotomontagem_Vista_de_Porto Belo_EF_2_1.jpg"
+          "poster": "assets/projetos/ars-vie/imagens/imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg"
         },
         "animations": []
       },

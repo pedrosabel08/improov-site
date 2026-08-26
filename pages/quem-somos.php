@@ -16,7 +16,7 @@
       <p data-i18n="about.heartmadeIntro">Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.</p>
       <p data-i18n="about.heartmadeDetails">Cada detalhe é pensado para comunicar com verdade. Cada enquadramento, cada luz, cada movimento e cada narrativa existem para despertar sentimentos.</p>
       <p data-i18n="about.heartmadeLead">Chamamos essa filosofia de</p>
-      <h2 class="about-heartmade-title"><em data-i18n="about.heartmadeTitle">Heartmade</em>.</h2>
+      <h2 class="about-heartmade-title"><img class="about-heartmade-logo" src="<?= escape(asset('assets/IMPROOV_heartmade.gif')) ?>" alt="Heartmade" data-i18n-alt="about.heartmadeTitle"></h2>
       <p data-i18n="about.heartmadeBelief">Porque acreditamos que a tecnologia, por si só, impressiona. Mas é o olhar humano que emociona.</p>
       <p data-i18n="about.heartmadeTeam">Ao longo da nossa trajetória, reunimos uma equipe multidisciplinar apaixonada por excelência e comprometida em entregar materiais que elevam o posicionamento de incorporadoras, construtoras e empreendimentos.</p>
       <p data-i18n="about.heartmadeExperience">Não produzimos apenas imagens.</p>

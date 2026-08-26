@@ -5,10 +5,10 @@
   const dictionary = {
     "pt-BR": {
       "nav.home": "Improov — Início",
-      "contact.optionImages": "Imagens arquitetônicas",
-      "contact.optionFilm": "Filme / animação",
-      "contact.optionInteractive": "Experiência interativa",
-      "contact.optionOther": "Outro",
+      "contact.optionImages3d": "Imagens 3D",
+      "contact.optionAnimations3d": "Animações 3D",
+      "contact.optionFilms": "Filmes",
+      "contact.optionInteractiveExperiences": "Experiências interativas",
       "contact.attachmentHint": "PDF, JPG, PNG ou ZIP — até 20 MB",
       "contact.address":
         "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
@@ -24,6 +24,7 @@
       "home.heroAlt": "Arquitetura contemporânea integrada à paisagem",
       "about.heroAlt": "Estúdio criativo da Improov em Blumenau",
       "careers.heroAlt": "Equipe trabalhando no estúdio Improov",
+      "careers.makingAlt": "Ambiente de criação da Improov",
       "contact.heroAlt": "Residência contemporânea ao anoitecer",
       "form.careersPrivacy":
         "Autorizo o uso destes dados para avaliação da candidatura conforme a",
@@ -195,10 +196,10 @@
     },
     en: {
       "nav.home": "Improov — Home",
-      "contact.optionImages": "Architectural images",
-      "contact.optionFilm": "Film / animation",
-      "contact.optionInteractive": "Interactive experience",
-      "contact.optionOther": "Other",
+      "contact.optionImages3d": "3D images",
+      "contact.optionAnimations3d": "3D animations",
+      "contact.optionFilms": "Films",
+      "contact.optionInteractiveExperiences": "Interactive experiences",
       "contact.attachmentHint": "PDF, JPG, PNG or ZIP — up to 20 MB",
       "contact.address":
         "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brazil",
@@ -214,6 +215,7 @@
       "home.heroAlt": "Contemporary architecture integrated with the landscape",
       "about.heroAlt": "Improov creative studio in Blumenau",
       "careers.heroAlt": "Team working at the Improov studio",
+      "careers.makingAlt": "Improov creative environment",
       "contact.heroAlt": "Contemporary residence at dusk",
       "form.careersPrivacy":
         "I authorize the use of this data to assess my application according to the",
@@ -385,10 +387,10 @@
     },
     es: {
       "nav.home": "Improov — Inicio",
-      "contact.optionImages": "Imágenes arquitectónicas",
-      "contact.optionFilm": "Película / animación",
-      "contact.optionInteractive": "Experiencia interactiva",
-      "contact.optionOther": "Otro",
+      "contact.optionImages3d": "Imágenes 3D",
+      "contact.optionAnimations3d": "Animaciones 3D",
+      "contact.optionFilms": "Películas",
+      "contact.optionInteractiveExperiences": "Experiencias interactivas",
       "contact.attachmentHint": "PDF, JPG, PNG o ZIP — hasta 20 MB",
       "contact.address":
         "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
@@ -404,6 +406,7 @@
       "home.heroAlt": "Arquitectura contemporánea integrada al paisaje",
       "about.heroAlt": "Estudio creativo de Improov en Blumenau",
       "careers.heroAlt": "Equipo trabajando en el estudio Improov",
+      "careers.makingAlt": "Ambiente creativo de Improov",
       "contact.heroAlt": "Residencia contemporánea al anochecer",
       "form.careersPrivacy":
         "Autorizo el uso de estos datos para evaluar mi candidatura según la",

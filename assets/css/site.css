@@ -385,14 +385,29 @@ button:focus-visible {
 .site-footer a:hover {
   color: var(--color-text);
 }
-.footer-brand strong {
-  font-size: 1.65rem;
-  font-weight: 400;
-  letter-spacing: 0.08em;
+.footer-brand {
+  display: grid !important;
+  grid-template-columns: minmax(120px, 0.82fr) minmax(0, 1.18fr);
+  align-items: start;
+  gap: 22px;
+}
+.footer-brand__logo {
+  width: min(100%, 190px);
+  height: auto;
 }
 .footer-brand p {
   max-width: 310px;
   line-height: 1.8;
+}
+.about-heartmade-title {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+}
+.about-heartmade-logo {
+  display: block;
+  width: min(100%, 360px);
+  height: auto;
 }
 .footer-label {
   margin-bottom: 8px !important;
@@ -503,6 +518,10 @@ button:focus-visible {
   }
 }
 @media (max-width: 480px) {
+  .footer-brand {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
   .site-footer__grid {
     grid-template-columns: 1fr;
   }

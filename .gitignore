@@ -47,3 +47,9 @@ assets/*
 cache/thumbs/
 uploads/candidaturas/*
 uploads/contatos/*
+
+# Making-of video explicitly used by Trabalhe Conosco
+!assets/making-of-talls-solutions.mp4
+!assets/IMPROOV_heartmade.gif
+!assets/IMPROOV_SQUAD.gif
+!assets/IMPROOV_TOP.gif

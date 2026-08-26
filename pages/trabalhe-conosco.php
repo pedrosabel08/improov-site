@@ -1,10 +1,18 @@
 <main id="conteudo">
-  <section class="hero hero--careers">
-    <div class="hero__media"><?= responsive_image('assets/BHE_INF_Coworking_EF.jpg', 'Equipe trabalhando no estúdio Improov', 1920, 1280, 'hero__image', '100vw', true, ['data-i18n-alt' => 'careers.heroAlt']) ?></div>
-    <div class="hero__shade"></div>
-    <div class="hero__content container"><span class="eyebrow" data-i18n="careers.eyebrow">Trabalhe Conosco</span>
-      <h1 data-i18n="careers.title">Faça parte do time que transforma ideias em experiências visuais.</h1>
-      <p data-i18n="careers.intro">Somos movidos por curiosidade, colaboração e paixão por imagem.</p>
+  <section class="editorial-hero editorial-hero--careers">
+    <div class="editorial-hero__inner container">
+      <div class="editorial-hero__content"><span class="eyebrow" data-i18n="careers.eyebrow">Trabalhe Conosco</span>
+        <h1 data-i18n="careers.title">Faça parte do time que transforma ideias em experiências visuais.</h1>
+        <p data-i18n="careers.intro">Somos movidos por curiosidade, colaboração e paixão por imagem.</p>
+        <a class="text-link" href="#candidatura"><span data-i18n="careers.formEyebrow">Envie sua candidatura</span><span aria-hidden="true">→</span></a>
+      </div>
+      <div class="editorial-hero__media editorial-hero__media--careers">
+        <div class="making-of-stage">
+          <video class="making-of-video" autoplay muted loop playsinline preload="metadata" poster="<?= escape(asset('assets/BHE_INF_Coworking_EF.jpg')) ?>" aria-label="Making-of TALLS Solutions">
+            <source src="<?= escape(asset('assets/making-of-talls-solutions.mp4')) ?>" type="video/mp4">
+          </video>
+        </div>
+      </div>
     </div>
   </section>
   <section class="culture section container">
@@ -16,7 +24,7 @@
           <p data-i18n="<?= $text ?>">Acreditamos na força do trabalho em equipe.</p>
         </article><?php endforeach; ?></div>
   </section>
-  <section class="form-layout section container">
+  <section class="form-layout form-layout--careers section container" id="candidatura">
     <form class="form-card" data-async-form="careers" action="<?= escape(api_url('candidatura.php')) ?>" method="post" enctype="multipart/form-data" novalidate>
       <div class="form-card__heading"><span class="eyebrow" data-i18n="careers.formEyebrow">Envie sua candidatura</span>
         <h2 data-i18n="careers.formTitle">Queremos conhecer você.</h2>

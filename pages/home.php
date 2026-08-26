@@ -9,6 +9,17 @@
     </div>
   </section>
 
+  <section class="selected-projects section container">
+    <div class="section-heading section-heading--row">
+      <div><span class="eyebrow" data-i18n="projects.eyebrow">Projetos</span>
+        <h2 data-i18n="home.projectsTitle">Conheça alguns dos nossos trabalhos.</h2>
+      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
+    </div>
+    <?php $projectsForGrid = home_projects();
+    $projectGridClass = 'project-grid--home';
+    require APP_ROOT . '/partials/project-grid.php'; ?>
+  </section>
+
   <section class="pillars section container" aria-labelledby="pillars-title">
     <div class="section-heading"><span class="eyebrow" data-i18n="home.pillarsEyebrow">Nossa proposta</span>
       <h2 id="pillars-title" data-i18n="home.pillarsTitle">Imagem com intenção. Experiência com propósito.</h2>
@@ -23,16 +34,6 @@
     </div>
   </section>
 
-  <section class="selected-projects section container">
-    <div class="section-heading section-heading--row">
-      <div><span class="eyebrow" data-i18n="projects.eyebrow">Projetos</span>
-        <h2 data-i18n="home.projectsTitle">Conheça alguns dos nossos trabalhos.</h2>
-      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
-    </div>
-    <?php $projectsForGrid = home_projects();
-    $projectGridClass = 'project-grid--home';
-    require APP_ROOT . '/partials/project-grid.php'; ?>
-  </section>
   <div class="container"><?php require APP_ROOT . '/partials/closing-cta.php'; ?></div>
   <script type="application/json" id="projects-data">
     <?= json_encode(['projects' => all_projects()], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>

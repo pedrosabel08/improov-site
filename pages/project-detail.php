@@ -1,3 +1,6 @@
+<?php if ($case !== null): ?>
+  <?php require APP_ROOT . '/partials/case-detail.php'; ?>
+<?php else: ?>
 <?php $hero = $project['media']['hero']; ?>
 <main id="conteudo" data-project-detail="<?= escape($project['slug']) ?>">
   <section class="project-detail-hero"><?= responsive_image($hero['src'], translated($hero['alt']), (int)$hero['width'], (int)$hero['height'], 'project-detail-hero__image', '100vw', true) ?><div class="project-detail-hero__shade"></div>
@@ -35,3 +38,4 @@
     <?= json_encode(['projects' => all_projects()], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>
   </script>
 </main>
+<?php endif; ?>
