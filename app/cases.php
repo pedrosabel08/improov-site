@@ -81,16 +81,25 @@ function case_image_size(string $source): array
     ];
 }
 
-function case_next_project(string $slug): ?array
+function case_next_project(string $slug, array $rule = []): ?array
 {
+    $explicitSlug = (string) ($rule['slug'] ?? '');
+    if ($explicitSlug !== '') {
+        return find_project($explicitSlug);
+    }
+
     $projects = all_projects();
+    $mode = (string) ($rule['mode'] ?? 'editorial');
     foreach ($projects as $index => $project) {
         if (($project['slug'] ?? '') !== $slug) {
             continue;
         }
         for ($offset = 1; $offset < count($projects); $offset++) {
             $candidate = $projects[($index + $offset) % count($projects)] ?? null;
-            if (is_array($candidate) && find_case_config((string) ($candidate['slug'] ?? '')) !== null) {
+            if (!is_array($candidate)) {
+                continue;
+            }
+            if ($mode === 'catalog' || find_case_config((string) ($candidate['slug'] ?? '')) !== null) {
                 return $candidate;
             }
         }

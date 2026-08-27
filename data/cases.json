@@ -1,62 +1,399 @@
 {
-  "version": 2,
+  "version": 4,
   "cases": {
     "ars-vie": {
       "theme": "dark",
       "motion": "slow",
-      "galleryStyle": "wide",
-      "transitionStyle": "soft",
-      "hero": { "posterVideo": "animacao-ars-vie-tracking-0040", "label": "Improov / Case" },
-      "chapters": [
-        { "id": "imagens", "label": "01 / Imagens" },
-        { "id": "animacoes", "label": "02 / Animações" },
-        { "id": "filmes", "label": "03 / Filmes" },
-        { "id": "pilulas", "label": "04 / Pílulas" }
+      "hero": {
+        "video": "animacao-ars-vie-tracking-0050",
+        "posterVideo": "animacao-ars-vie-tracking-0050",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+        { "pt-BR": "Animações", "en": "Animations", "es": "Animaciones" },
+        {
+          "pt-BR": "Plantas Humanizadas",
+          "en": "Floor plans",
+          "es": "Plantas Humanizadas"
+        },
+        {
+          "pt-BR": "Pílulas sensoriais",
+          "en": "Sensory moments",
+          "es": "Píldoras sensoriales"
+        },
+        { "pt-BR": "Filme", "en": "Film", "es": "Film" }
       ],
-      "blocks": [
-        { "type": "intro" },
-        { "type": "chapter-navigation" },
+      "environments": [
         {
-          "type": "images-chapter", "chapter": "imagens",
-          "apartments": [
-            "assets/projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg"
-          ],
-          "editorial": [
-            "assets/projetos/ars-vie/imagens/imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg"
-          ],
-          "commonAreas": [
-            "assets/projetos/ars-vie/imagens/imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg",
-            "assets/projetos/ars-vie/imagens/imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-22-ars-vie-redario-ef-3-1.jpg",
-            "assets/projetos/ars-vie/imagens/imagem-28-ars-vie-fire-place-ef-4-1.jpg"
-          ],
-          "plans": [
-            "assets/projetos/ars-vie/plantas/planta-40-ars-vie-planta-humanizada-do-pavimento-lazer-ef.jpg",
-            "assets/projetos/ars-vie/plantas/planta-41-ars-vie-planta-humanizada-do-apartamento-tipo-1-e-2-ef.jpg",
-            "assets/projetos/ars-vie/plantas/planta-42-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-1-e-2-ef.jpg",
-            "assets/projetos/ars-vie/plantas/planta-43-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-3-ef.jpg"
+          "id": "piscina",
+          "label": { "pt-BR": "Piscina", "en": "Pool", "es": "Piscina" },
+          "still": "assets/projetos/ars-vie/imagens/imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg",
+          "motion": "animacao-19-ars-vie-piscina-geral",
+          "pill": "pilula-19-ars-vie-piscina-geral-v1",
+          "floorplanReference": { "planId": "lazer", "hotspotId": "piscina" }
+        },
+        {
+          "id": "suite-master",
+          "label": {
+            "pt-BR": "Suíte master",
+            "en": "Primary suite",
+            "es": "Suite principal"
+          },
+          "still": "assets/projetos/ars-vie/imagens/imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+          "motion": "animacao-36-ars-vie-suite-master-apto-tipo-1-vista",
+          "floorplanReference": {
+            "planId": "tipo-01",
+            "hotspotId": "suite-master"
+          }
+        },
+        {
+          "id": "redario",
+          "label": {
+            "pt-BR": "Redário",
+            "en": "Hammock lounge",
+            "es": "Hamacas"
+          },
+          "still": "assets/projetos/ars-vie/imagens/imagem-22-ars-vie-redario-ef-3-1.jpg",
+          "pill": "pilula-22-ars-vie-redario-geral",
+          "floorplanReference": { "planId": "lazer", "hotspotId": "redario" }
+        },
+        {
+          "id": "fire-place",
+          "label": {
+            "pt-BR": "Fire place",
+            "en": "Fire place",
+            "es": "Fire place"
+          },
+          "still": "assets/projetos/ars-vie/imagens/imagem-28-ars-vie-fire-place-ef-4-1.jpg",
+          "pill": "pilula-28-ars-vie-fire-place-detalhe",
+          "floorplanReference": { "planId": "lazer", "hotspotId": "fire-place" }
+        },
+        {
+          "id": "living",
+          "label": { "pt-BR": "Living", "en": "Living", "es": "Living" },
+          "still": "assets/projetos/ars-vie/imagens/imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
+          "pill": "pilula-44-ars-vie-living-do-apto-tipo-3-da-torre",
+          "floorplanReference": {
+            "planId": "tipo-03-torre-3",
+            "hotspotId": "living"
+          }
+        },
+        {
+          "id": "jardim-das-vieiras",
+          "label": {
+            "pt-BR": "Jardim das Vieiras",
+            "en": "Jardim das Vieiras",
+            "es": "Jardim das Vieiras"
+          },
+          "still": "assets/projetos/ars-vie/imagens/imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg",
+          "pill": "pilula-45-ars-vie-jardim-das-vieiras-vertical"
+        }
+      ],
+      "sections": [
+        {
+          "type": "gallery",
+          "id": "imagens",
+          "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+          "title": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+          "groups": [
+            {
+              "id": "areas-comuns",
+              "type": "editorial",
+              "title": {
+                "pt-BR": "Fachadas + áreas comuns",
+                "en": "Facades + common areas",
+                "es": "Fachadas + áreas comunes"
+              },
+              "items": [
+                {
+                  "layout": "composition-a",
+                  "items": [
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg",
+                      "label": {
+                        "pt-BR": "Embasamento",
+                        "en": "Podium",
+                        "es": "Basamento"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg",
+                      "label": {
+                        "pt-BR": "Piscina",
+                        "en": "Pool",
+                        "es": "Piscina"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-28-ars-vie-fire-place-ef-4-1.jpg",
+                      "label": {
+                        "pt-BR": "Fireplace",
+                        "en": "Fireplace",
+                        "es": "Fireplace"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "composition-b",
+                  "items": [
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg",
+                      "label": {
+                        "pt-BR": "Jardim das Vieiras",
+                        "en": "Jardim das Vieiras",
+                        "es": "Jardim das Vieiras"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg",
+                      "label": {
+                        "pt-BR": "Fachada",
+                        "en": "Facade",
+                        "es": "Fachada"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-22-ars-vie-redario-ef-3-1.jpg",
+                      "label": {
+                        "pt-BR": "Redário",
+                        "en": "Hammock lounge",
+                        "es": "Hamacas"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "impact",
+                  "items": [
+                    {
+                      "src": "assets/projetos/ars-vie/imagens/imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg",
+                      "label": {
+                        "pt-BR": "Entorno",
+                        "en": "Surroundings",
+                        "es": "Entorno"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "apartamentos",
+              "type": "immersiveRail",
+              "title": {
+                "pt-BR": "Apartamentos",
+                "en": "Apartments",
+                "es": "Apartamentos"
+              },
+              "items": [
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+                  "label": { "pt-BR": "Living", "en": "Living", "es": "Living" }
+                },
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+                  "label": {
+                    "pt-BR": "Living panorâmico",
+                    "en": "Panoramic living",
+                    "es": "Living panorámico"
+                  }
+                },
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+                  "label": {
+                    "pt-BR": "Suíte master",
+                    "en": "Primary suite",
+                    "es": "Suite principal"
+                  }
+                },
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
+                  "label": {
+                    "pt-BR": "Living — Torre 3",
+                    "en": "Living — Tower 3",
+                    "es": "Living — Torre 3"
+                  }
+                },
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg",
+                  "label": {
+                    "pt-BR": "Living — Tipo 03",
+                    "en": "Living — Type 03",
+                    "es": "Living — Tipo 03"
+                  }
+                }
+              ]
+            }
           ]
         },
         {
-          "type": "animations-chapter", "chapter": "animacoes",
+          "type": "motion",
+          "id": "animacoes",
+          "label": {
+            "pt-BR": "Animações",
+            "en": "Animations",
+            "es": "Animaciones"
+          },
+          "title": {
+            "pt-BR": "Animações",
+            "en": "Animations",
+            "es": "Animaciones"
+          },
           "items": [
-            { "video": "animacao-ars-vie-tracking-0006" },
-            { "video": "animacao-ars-vie-tracking-0050" },
-            { "video": "animacao-36-ars-vie-suite-master-apto-tipo-1-vista" },
-            { "video": "animacao-19-ars-vie-piscina-geral" }
+            "animacao-ars-vie-tracking-0006",
+            "animacao-36-ars-vie-suite-master-apto-tipo-1-vista",
+            "animacao-19-ars-vie-piscina-geral"
           ]
         },
-        { "type": "films-chapter", "chapter": "filmes", "concept": "filme-2025-ars-vie-concept-4k-v3", "testimonial": "filme-2025-ars-kam-vieiras-depoimento-v2-leg" },
-        { "type": "pills-chapter", "chapter": "pilulas", "items": ["pilula-19-ars-vie-piscina-geral-v1", "pilula-22-ars-vie-redario-geral", "pilula-28-ars-vie-fire-place-detalhe", "pilula-45-ars-vie-jardim-das-vieiras-vertical"] },
-        { "type": "credits" },
-        { "type": "next-project" }
-      ]
+        {
+          "type": "floorplans",
+          "id": "plantas-humanizadas",
+          "label": {
+            "pt-BR": "Plantas Humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas Humanizadas"
+          },
+          "eyebrow": {
+            "pt-BR": "Plantas Humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas Humanizadas"
+          },
+          "title": {
+            "pt-BR": "Explore o espaço.",
+            "en": "Explore the space.",
+            "es": "Explora el espacio."
+          },
+          "items": [
+            {
+              "id": "lazer",
+              "label": { "pt-BR": "Lazer", "en": "Leisure", "es": "Ocio" },
+              "src": "assets/projetos/ars-vie/plantas/planta-40-ars-vie-planta-humanizada-do-pavimento-lazer-ef.jpg"
+            },
+            {
+              "id": "tipo-01",
+              "label": { "pt-BR": "Tipo 01", "en": "Type 01", "es": "Tipo 01" },
+              "src": "assets/projetos/ars-vie/plantas/planta-41-ars-vie-planta-humanizada-do-apartamento-tipo-1-e-2-ef.jpg"
+            },
+            {
+              "id": "tipo-03-torres-1-2",
+              "label": {
+                "pt-BR": "Tipo 03 / Torres 1 e 2",
+                "en": "Type 03 / Towers 1 and 2",
+                "es": "Tipo 03 / Torres 1 y 2"
+              },
+              "src": "assets/projetos/ars-vie/plantas/planta-42-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-1-e-2-ef.jpg"
+            },
+            {
+              "id": "tipo-03-torre-3",
+              "label": {
+                "pt-BR": "Tipo 03 / Torre 3",
+                "en": "Type 03 / Tower 3",
+                "es": "Tipo 03 / Torre 3"
+              },
+              "src": "assets/projetos/ars-vie/plantas/planta-43-ars-vie-planta-humanizada-do-apartamento-tipo-3-torres-3-ef.jpg"
+            }
+          ]
+        },
+        {
+          "type": "moments",
+          "id": "pilulas-sensoriais",
+          "label": {
+            "pt-BR": "Pílulas sensoriais",
+            "en": "Sensory moments",
+            "es": "Píldoras sensoriales"
+          },
+          "title": {
+            "pt-BR": "Pílulas sensoriais",
+            "en": "Sensory moments",
+            "es": "Píldoras sensoriales"
+          },
+          "items": [
+            "piscina",
+            "redario",
+            "fire-place",
+            "living",
+            "jardim-das-vieiras"
+          ]
+        },
+        {
+          "type": "film",
+          "id": "filme",
+          "label": { "pt-BR": "Filme", "en": "Film", "es": "Film" },
+          "eyebrow": { "pt-BR": "Filme", "en": "Film", "es": "Película" },
+          "title": {
+            "pt-BR": "A experiência por inteiro.",
+            "en": "The complete experience.",
+            "es": "La experiencia completa."
+          },
+          "video": "filme-2025-ars-vie-concept-4k-v3"
+        },
+        {
+          "type": "closing",
+          "id": "fechamento",
+          "label": { "pt-BR": "Fechamento", "en": "Closing", "es": "Cierre" },
+          "title": { "pt-BR": "Fechamento", "en": "Closing", "es": "Cierre" }
+        }
+      ],
+      "credits": {
+        "eyebrow": { "pt-BR": "Créditos", "en": "Credits", "es": "Créditos" },
+        "items": [
+          {
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "ARS Vieiras"
+          },
+          {
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "ARS"
+          },
+          {
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
+            "value": "OSA"
+          },
+          {
+            "label": {
+              "pt-BR": "Direção criativa",
+              "en": "Creative direction",
+              "es": "Dirección creativa"
+            },
+            "value": "Improov"
+          },
+          {
+            "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+            "value": "Improov"
+          },
+          {
+            "label": { "pt-BR": "Filme", "en": "Film", "es": "Película" },
+            "value": "Improov"
+          },
+          {
+            "label": { "pt-BR": "Ano", "en": "Year", "es": "Año" },
+            "value": "2024"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "catalog",
+        "eyebrow": {
+          "pt-BR": "Próximo projeto",
+          "en": "Next project",
+          "es": "Próximo proyecto"
+        },
+        "allProjectsLabel": {
+          "pt-BR": "Ver todos os projetos",
+          "en": "See all projects",
+          "es": "Ver todos los proyectos"
+        }
+      }
     }
   }
 }
