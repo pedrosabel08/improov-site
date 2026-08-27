@@ -1,615 +1,12 @@
 {
   "projects": [
     {
-      "slug": "aya-kar",
-      "status": "published",
-      "order": 10,
-      "placement": "featured",
-      "showOnHome": true,
-      "homeOrder": 1,
-      "title": {
-        "pt-BR": "AYA Karioó",
-        "en": "AYA Karioó",
-        "es": "AYA Karioó"
-      },
-      "location": {
-        "pt-BR": "Praia do Estaleiro, SC",
-        "en": "Estaleiro Beach, SC",
-        "es": "Playa Estaleiro, SC"
-      },
-      "media": {
-        "hero": {
-          "src": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
-          "alt": {
-            "pt-BR": "Piscina e arquitetura do projeto AYA Karioó",
-            "en": "Pool and architecture at AYA Karioó",
-            "es": "Piscina y arquitectura de AYA Karioó"
-          },
-          "width": 5000,
-          "height": 3798,
-          "sources": {
-            "640": {
-              "avif": "assets/media/site/v1/home-hero-640.avif",
-              "webp": "assets/media/site/v1/home-hero-640.webp",
-              "jpg": "assets/media/site/v1/home-hero-640.jpg"
-            },
-            "1024": {
-              "avif": "assets/media/site/v1/home-hero-1024.avif",
-              "webp": "assets/media/site/v1/home-hero-1024.webp",
-              "jpg": "assets/media/site/v1/home-hero-1024.jpg"
-            },
-            "1440": {
-              "avif": "assets/media/site/v1/home-hero-1440.avif",
-              "webp": "assets/media/site/v1/home-hero-1440.webp",
-              "jpg": "assets/media/site/v1/home-hero-1440.jpg"
-            },
-            "1920": {
-              "avif": "assets/media/site/v1/home-hero-1920.avif",
-              "webp": "assets/media/site/v1/home-hero-1920.webp",
-              "jpg": "assets/media/site/v1/home-hero-1920.jpg"
-            }
-          }
-        },
-        "gallery": [
-          {
-            "src": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
-            "width": 5000,
-            "height": 3798,
-            "sources": {
-              "640": {
-                "avif": "assets/media/aya-kar/v1/gallery-01-640.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-01-640.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-01-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/aya-kar/v1/gallery-01-1024.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-01-1024.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-01-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/aya-kar/v1/gallery-01-1440.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-01-1440.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-01-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/aya-kar/v1/gallery-01-1920.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-01-1920.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-01-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg",
-            "width": 5000,
-            "height": 3798,
-            "sources": {
-              "640": {
-                "avif": "assets/media/aya-kar/v1/gallery-02-640.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-02-640.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-02-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/aya-kar/v1/gallery-02-1024.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-02-1024.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-02-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/aya-kar/v1/gallery-02-1440.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-02-1440.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-02-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/aya-kar/v1/gallery-02-1920.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-02-1920.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-02-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg",
-            "width": 5000,
-            "height": 5000,
-            "sources": {
-              "640": {
-                "avif": "assets/media/aya-kar/v1/gallery-03-640.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-03-640.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-03-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/aya-kar/v1/gallery-03-1024.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-03-1024.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-03-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/aya-kar/v1/gallery-03-1440.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-03-1440.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-03-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/aya-kar/v1/gallery-03-1920.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-03-1920.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-03-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg",
-            "width": 5163,
-            "height": 3000,
-            "sources": {
-              "640": {
-                "avif": "assets/media/aya-kar/v1/gallery-04-640.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-04-640.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-04-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/aya-kar/v1/gallery-04-1024.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-04-1024.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-04-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/aya-kar/v1/gallery-04-1440.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-04-1440.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-04-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/aya-kar/v1/gallery-04-1920.avif",
-                "webp": "assets/media/aya-kar/v1/gallery-04-1920.webp",
-                "jpg": "assets/media/aya-kar/v1/gallery-04-1920.jpg"
-              }
-            }
-          }
-        ],
-        "film": {
-          "src": "",
-          "poster": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
-        },
-        "animations": []
-      },
-      "detail": {
-        "subtitle": {
-          "pt-BR": "Arquitetura, paisagem e pertencimento",
-          "en": "Architecture, landscape and belonging",
-          "es": "Arquitectura, paisaje y pertenencia"
-        },
-        "description": {
-          "pt-BR": [
-            "No Karioó, conforto, serviços dedicados e segurança contínua se encontram para criar um cotidiano leve e acolhedor.",
-            "O que se construiu foi invisível. A sensação é de que tudo sempre pertenceu à natureza."
-          ],
-          "en": [
-            "At Karioó, comfort, dedicated services and continuous security create a welcoming everyday life.",
-            "What was built feels invisible, as if everything had always belonged to nature."
-          ],
-          "es": [
-            "En Karioó, comodidad, servicios dedicados y seguridad continua crean una vida cotidiana acogedora.",
-            "Lo construido se siente invisible, como si todo siempre hubiera pertenecido a la naturaleza."
-          ]
-        },
-        "info": {
-          "client": "AYA",
-          "architect": "OSA",
-          "year": "2024"
-        }
-      },
-      "mediaVersion": 1
-    },
-    {
-      "slug": "academia-energia-urbana",
-      "status": "published",
-      "order": 20,
-      "placement": "portrait",
-      "showOnHome": true,
-      "homeOrder": 2,
-      "title": {
-        "pt-BR": "Academia — Energia Urbana",
-        "en": "Gym — Urban Energy",
-        "es": "Gimnasio — Energía Urbana"
-      },
-      "location": {
-        "pt-BR": "São Paulo, SP",
-        "en": "São Paulo, Brazil",
-        "es": "São Paulo, Brasil"
-      },
-      "media": {
-        "hero": {
-          "src": "assets/BHE_INF_Academia_EF.jpg",
-          "alt": {
-            "pt-BR": "Interior de academia com iluminação noturna",
-            "en": "Gym interior with evening lighting",
-            "es": "Interior de gimnasio con iluminación nocturna"
-          },
-          "width": 5000,
-          "height": 3126,
-          "sources": {
-            "640": {
-              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
-              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
-              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
-            },
-            "1024": {
-              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
-              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
-              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
-            },
-            "1440": {
-              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
-              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
-              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
-            },
-            "1920": {
-              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
-              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
-              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
-            }
-          }
-        },
-        "gallery": [
-          {
-            "src": "assets/BHE_INF_Academia_EF.jpg",
-            "width": 5000,
-            "height": 3126,
-            "sources": {
-              "640": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/BHE_INF_Embasamento_EF.jpg",
-            "width": 5000,
-            "height": 3644,
-            "sources": {
-              "640": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-640.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-640.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1024.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1024.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1440.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1440.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1920.avif",
-                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1920.webp",
-                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1920.jpg"
-              }
-            }
-          }
-        ],
-        "film": {
-          "src": "",
-          "poster": "assets/BHE_INF_Academia_EF.jpg"
-        },
-        "animations": []
-      },
-      "detail": {
-        "subtitle": {
-          "pt-BR": "Branding, arquitetura e experiência",
-          "en": "Branding, architecture and experience",
-          "es": "Branding, arquitectura y experiencia"
-        },
-        "description": {
-          "pt-BR": [
-            "Integração de identidade visual e espaço arquitetônico por meio de luz, materiais e movimento."
-          ],
-          "en": [
-            "Visual identity and architecture come together through light, materials and movement."
-          ],
-          "es": [
-            "Identidad visual y arquitectura se integran mediante luz, materiales y movimiento."
-          ]
-        },
-        "info": {
-          "client": "Academia Energia",
-          "architect": "Estúdio Exemplar",
-          "year": "2025"
-        }
-      },
-      "mediaVersion": 1
-    },
-    {
-      "slug": "adega-luz-sombra",
-      "status": "published",
-      "order": 30,
-      "placement": "wide",
-      "showOnHome": false,
-      "homeOrder": 3,
-      "title": {
-        "pt-BR": "Adega — Luz & Sombra",
-        "en": "Wine Cellar — Light & Shadow",
-        "es": "Bodega — Luz y Sombra"
-      },
-      "location": {
-        "pt-BR": "São Paulo, SP",
-        "en": "São Paulo, Brazil",
-        "es": "São Paulo, Brasil"
-      },
-      "media": {
-        "hero": {
-          "src": "assets/BHE_INF_Adega_EF.jpg",
-          "alt": {
-            "pt-BR": "Adega contemporânea iluminada",
-            "en": "Contemporary illuminated wine cellar",
-            "es": "Bodega contemporánea iluminada"
-          },
-          "width": 5000,
-          "height": 4164,
-          "sources": {
-            "640": {
-              "avif": "assets/media/site/v1/about-studio-adega-640.avif",
-              "webp": "assets/media/site/v1/about-studio-adega-640.webp",
-              "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
-            },
-            "1024": {
-              "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
-              "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
-              "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
-            },
-            "1440": {
-              "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
-              "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
-              "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
-            },
-            "1920": {
-              "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
-              "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
-              "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
-            }
-          }
-        },
-        "gallery": [
-          {
-            "src": "assets/BHE_INF_Adega_EF.jpg",
-            "width": 5000,
-            "height": 4164,
-            "sources": {
-              "640": {
-                "avif": "assets/media/site/v1/about-studio-adega-640.avif",
-                "webp": "assets/media/site/v1/about-studio-adega-640.webp",
-                "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
-                "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
-                "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
-                "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
-                "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
-                "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
-                "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/BHE_INF_Living_Diferenciado_EF.jpg",
-            "width": 5000,
-            "height": 3798,
-            "sources": {
-              "640": {
-                "avif": "assets/media/site/v1/about-studio-living-640.avif",
-                "webp": "assets/media/site/v1/about-studio-living-640.webp",
-                "jpg": "assets/media/site/v1/about-studio-living-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/site/v1/about-studio-living-1024.avif",
-                "webp": "assets/media/site/v1/about-studio-living-1024.webp",
-                "jpg": "assets/media/site/v1/about-studio-living-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/site/v1/about-studio-living-1440.avif",
-                "webp": "assets/media/site/v1/about-studio-living-1440.webp",
-                "jpg": "assets/media/site/v1/about-studio-living-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/site/v1/about-studio-living-1920.avif",
-                "webp": "assets/media/site/v1/about-studio-living-1920.webp",
-                "jpg": "assets/media/site/v1/about-studio-living-1920.jpg"
-              }
-            }
-          }
-        ],
-        "film": {
-          "src": "",
-          "poster": "assets/BHE_INF_Adega_EF.jpg"
-        },
-        "animations": []
-      },
-      "detail": {
-        "subtitle": {
-          "pt-BR": "Interiores e iluminação",
-          "en": "Interiors and lighting",
-          "es": "Interiores e iluminación"
-        },
-        "description": {
-          "pt-BR": [
-            "Projeto de ambientação focado no contraste de materiais e na luz indireta, valorizando percurso e permanência."
-          ],
-          "en": [
-            "An interior focused on material contrast and indirect light."
-          ],
-          "es": [
-            "Un interior centrado en el contraste de materiales y la luz indirecta."
-          ]
-        },
-        "info": {
-          "client": "Cliente Exemplo",
-          "architect": "Estúdio Exemplar",
-          "year": "2025"
-        }
-      },
-      "mediaVersion": 1
-    },
-    {
-      "slug": "brinquedoteca-cor-movimento",
-      "status": "published",
-      "order": 40,
-      "placement": "landscape",
-      "showOnHome": false,
-      "homeOrder": 4,
-      "title": {
-        "pt-BR": "Brinquedoteca — Cor & Movimento",
-        "en": "Playroom — Color & Movement",
-        "es": "Ludoteca — Color y Movimiento"
-      },
-      "location": {
-        "pt-BR": "São Paulo, SP",
-        "en": "São Paulo, Brazil",
-        "es": "São Paulo, Brasil"
-      },
-      "media": {
-        "hero": {
-          "src": "assets/BHE_INF_Brinquedoteca_EF.jpg",
-          "alt": {
-            "pt-BR": "Brinquedoteca com composição colorida",
-            "en": "Playroom with a colorful composition",
-            "es": "Ludoteca con composición colorida"
-          },
-          "width": 5000,
-          "height": 3846,
-          "sources": {
-            "640": {
-              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
-              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
-              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
-            },
-            "1024": {
-              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
-              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
-              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
-            },
-            "1440": {
-              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
-              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
-              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
-            },
-            "1920": {
-              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
-              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
-              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
-            }
-          }
-        },
-        "gallery": [
-          {
-            "src": "assets/BHE_INF_Brinquedoteca_EF.jpg",
-            "width": 5000,
-            "height": 3846,
-            "sources": {
-              "640": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
-              }
-            }
-          },
-          {
-            "src": "assets/BHE_INF_Jogos_EF.jpg",
-            "width": 5000,
-            "height": 3846,
-            "sources": {
-              "640": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.jpg"
-              },
-              "1024": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.jpg"
-              },
-              "1440": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.jpg"
-              },
-              "1920": {
-                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.avif",
-                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.webp",
-                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.jpg"
-              }
-            }
-          }
-        ],
-        "film": {
-          "src": "",
-          "poster": "assets/BHE_INF_Brinquedoteca_EF.jpg"
-        },
-        "animations": []
-      },
-      "detail": {
-        "subtitle": {
-          "pt-BR": "Interiores e identidade",
-          "en": "Interiors and identity",
-          "es": "Interiores e identidad"
-        },
-        "description": {
-          "pt-BR": [
-            "Espaço lúdico com foco em composição cromática e orientação visual para diferentes faixas etárias."
-          ],
-          "en": ["A playful space centered on color and visual orientation."],
-          "es": [
-            "Un espacio lúdico centrado en el color y la orientación visual."
-          ]
-        },
-        "info": {
-          "client": "Cliente Exemplo",
-          "architect": "Estúdio Exemplar",
-          "year": "2025"
-        }
-      },
-      "mediaVersion": 1
-    },
-    {
       "slug": "ars-vie",
       "status": "published",
-      "order": 50,
+      "order": 1,
       "placement": "standard",
       "showOnHome": true,
-      "homeOrder": 99,
+      "homeOrder": 1,
       "needsEditorialReview": true,
       "title": {
         "pt-BR": "ARS Vieiras",
@@ -816,6 +213,609 @@
           "client": "ARS",
           "architect": "OSA",
           "year": "2024"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "aya-kar",
+      "status": "published",
+      "order": 2,
+      "placement": "featured",
+      "showOnHome": true,
+      "homeOrder": 2,
+      "title": {
+        "pt-BR": "AYA Karioó",
+        "en": "AYA Karioó",
+        "es": "AYA Karioó"
+      },
+      "location": {
+        "pt-BR": "Praia do Estaleiro, SC",
+        "en": "Estaleiro Beach, SC",
+        "es": "Playa Estaleiro, SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
+          "alt": {
+            "pt-BR": "Piscina e arquitetura do projeto AYA Karioó",
+            "en": "Pool and architecture at AYA Karioó",
+            "es": "Piscina y arquitectura de AYA Karioó"
+          },
+          "width": 5000,
+          "height": 3798,
+          "sources": {
+            "640": {
+              "avif": "assets/media/site/v1/home-hero-640.avif",
+              "webp": "assets/media/site/v1/home-hero-640.webp",
+              "jpg": "assets/media/site/v1/home-hero-640.jpg"
+            },
+            "1024": {
+              "avif": "assets/media/site/v1/home-hero-1024.avif",
+              "webp": "assets/media/site/v1/home-hero-1024.webp",
+              "jpg": "assets/media/site/v1/home-hero-1024.jpg"
+            },
+            "1440": {
+              "avif": "assets/media/site/v1/home-hero-1440.avif",
+              "webp": "assets/media/site/v1/home-hero-1440.webp",
+              "jpg": "assets/media/site/v1/home-hero-1440.jpg"
+            },
+            "1920": {
+              "avif": "assets/media/site/v1/home-hero-1920.avif",
+              "webp": "assets/media/site/v1/home-hero-1920.webp",
+              "jpg": "assets/media/site/v1/home-hero-1920.jpg"
+            }
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
+            "width": 5000,
+            "height": 3798,
+            "sources": {
+              "640": {
+                "avif": "assets/media/aya-kar/v1/gallery-01-640.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-01-640.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-01-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/aya-kar/v1/gallery-01-1024.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-01-1024.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-01-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/aya-kar/v1/gallery-01-1440.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-01-1440.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-01-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/aya-kar/v1/gallery-01-1920.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-01-1920.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-01-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg",
+            "width": 5000,
+            "height": 3798,
+            "sources": {
+              "640": {
+                "avif": "assets/media/aya-kar/v1/gallery-02-640.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-02-640.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-02-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/aya-kar/v1/gallery-02-1024.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-02-1024.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-02-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/aya-kar/v1/gallery-02-1440.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-02-1440.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-02-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/aya-kar/v1/gallery-02-1920.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-02-1920.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-02-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg",
+            "width": 5000,
+            "height": 5000,
+            "sources": {
+              "640": {
+                "avif": "assets/media/aya-kar/v1/gallery-03-640.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-03-640.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-03-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/aya-kar/v1/gallery-03-1024.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-03-1024.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-03-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/aya-kar/v1/gallery-03-1440.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-03-1440.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-03-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/aya-kar/v1/gallery-03-1920.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-03-1920.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-03-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg",
+            "width": 5163,
+            "height": 3000,
+            "sources": {
+              "640": {
+                "avif": "assets/media/aya-kar/v1/gallery-04-640.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-04-640.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-04-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/aya-kar/v1/gallery-04-1024.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-04-1024.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-04-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/aya-kar/v1/gallery-04-1440.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-04-1440.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-04-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/aya-kar/v1/gallery-04-1920.avif",
+                "webp": "assets/media/aya-kar/v1/gallery-04-1920.webp",
+                "jpg": "assets/media/aya-kar/v1/gallery-04-1920.jpg"
+              }
+            }
+          }
+        ],
+        "film": {
+          "src": "",
+          "poster": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg"
+        },
+        "animations": []
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "Arquitetura, paisagem e pertencimento",
+          "en": "Architecture, landscape and belonging",
+          "es": "Arquitectura, paisaje y pertenencia"
+        },
+        "description": {
+          "pt-BR": [
+            "No Karioó, conforto, serviços dedicados e segurança contínua se encontram para criar um cotidiano leve e acolhedor.",
+            "O que se construiu foi invisível. A sensação é de que tudo sempre pertenceu à natureza."
+          ],
+          "en": [
+            "At Karioó, comfort, dedicated services and continuous security create a welcoming everyday life.",
+            "What was built feels invisible, as if everything had always belonged to nature."
+          ],
+          "es": [
+            "En Karioó, comodidad, servicios dedicados y seguridad continua crean una vida cotidiana acogedora.",
+            "Lo construido se siente invisible, como si todo siempre hubiera pertenecido a la naturaleza."
+          ]
+        },
+        "info": {
+          "client": "AYA",
+          "architect": "OSA",
+          "year": "2024"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "academia-energia-urbana",
+      "status": "published",
+      "order": 3,
+      "placement": "portrait",
+      "showOnHome": true,
+      "homeOrder": 3,
+      "title": {
+        "pt-BR": "Academia — Energia Urbana",
+        "en": "Gym — Urban Energy",
+        "es": "Gimnasio — Energía Urbana"
+      },
+      "location": {
+        "pt-BR": "São Paulo, SP",
+        "en": "São Paulo, Brazil",
+        "es": "São Paulo, Brasil"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/BHE_INF_Academia_EF.jpg",
+          "alt": {
+            "pt-BR": "Interior de academia com iluminação noturna",
+            "en": "Gym interior with evening lighting",
+            "es": "Interior de gimnasio con iluminación nocturna"
+          },
+          "width": 5000,
+          "height": 3126,
+          "sources": {
+            "640": {
+              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
+              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
+              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
+            },
+            "1024": {
+              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
+              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
+              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
+            },
+            "1440": {
+              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
+              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
+              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
+            },
+            "1920": {
+              "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
+              "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
+              "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
+            }
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/BHE_INF_Academia_EF.jpg",
+            "width": 5000,
+            "height": 3126,
+            "sources": {
+              "640": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/BHE_INF_Embasamento_EF.jpg",
+            "width": 5000,
+            "height": 3644,
+            "sources": {
+              "640": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-640.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-640.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1024.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1024.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1440.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1440.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1920.avif",
+                "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1920.webp",
+                "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1920.jpg"
+              }
+            }
+          }
+        ],
+        "film": {
+          "src": "",
+          "poster": "assets/BHE_INF_Academia_EF.jpg"
+        },
+        "animations": []
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "Branding, arquitetura e experiência",
+          "en": "Branding, architecture and experience",
+          "es": "Branding, arquitectura y experiencia"
+        },
+        "description": {
+          "pt-BR": [
+            "Integração de identidade visual e espaço arquitetônico por meio de luz, materiais e movimento."
+          ],
+          "en": [
+            "Visual identity and architecture come together through light, materials and movement."
+          ],
+          "es": [
+            "Identidad visual y arquitectura se integran mediante luz, materiales y movimiento."
+          ]
+        },
+        "info": {
+          "client": "Academia Energia",
+          "architect": "Estúdio Exemplar",
+          "year": "2025"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "adega-luz-sombra",
+      "status": "published",
+      "order": 4,
+      "placement": "wide",
+      "showOnHome": false,
+      "homeOrder": 4,
+      "title": {
+        "pt-BR": "Adega — Luz & Sombra",
+        "en": "Wine Cellar — Light & Shadow",
+        "es": "Bodega — Luz y Sombra"
+      },
+      "location": {
+        "pt-BR": "São Paulo, SP",
+        "en": "São Paulo, Brazil",
+        "es": "São Paulo, Brasil"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/BHE_INF_Adega_EF.jpg",
+          "alt": {
+            "pt-BR": "Adega contemporânea iluminada",
+            "en": "Contemporary illuminated wine cellar",
+            "es": "Bodega contemporánea iluminada"
+          },
+          "width": 5000,
+          "height": 4164,
+          "sources": {
+            "640": {
+              "avif": "assets/media/site/v1/about-studio-adega-640.avif",
+              "webp": "assets/media/site/v1/about-studio-adega-640.webp",
+              "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
+            },
+            "1024": {
+              "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
+              "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
+              "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
+            },
+            "1440": {
+              "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
+              "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
+              "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
+            },
+            "1920": {
+              "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
+              "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
+              "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
+            }
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/BHE_INF_Adega_EF.jpg",
+            "width": 5000,
+            "height": 4164,
+            "sources": {
+              "640": {
+                "avif": "assets/media/site/v1/about-studio-adega-640.avif",
+                "webp": "assets/media/site/v1/about-studio-adega-640.webp",
+                "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
+                "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
+                "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
+                "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
+                "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
+                "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
+                "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/BHE_INF_Living_Diferenciado_EF.jpg",
+            "width": 5000,
+            "height": 3798,
+            "sources": {
+              "640": {
+                "avif": "assets/media/site/v1/about-studio-living-640.avif",
+                "webp": "assets/media/site/v1/about-studio-living-640.webp",
+                "jpg": "assets/media/site/v1/about-studio-living-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/site/v1/about-studio-living-1024.avif",
+                "webp": "assets/media/site/v1/about-studio-living-1024.webp",
+                "jpg": "assets/media/site/v1/about-studio-living-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/site/v1/about-studio-living-1440.avif",
+                "webp": "assets/media/site/v1/about-studio-living-1440.webp",
+                "jpg": "assets/media/site/v1/about-studio-living-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/site/v1/about-studio-living-1920.avif",
+                "webp": "assets/media/site/v1/about-studio-living-1920.webp",
+                "jpg": "assets/media/site/v1/about-studio-living-1920.jpg"
+              }
+            }
+          }
+        ],
+        "film": {
+          "src": "",
+          "poster": "assets/BHE_INF_Adega_EF.jpg"
+        },
+        "animations": []
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "Interiores e iluminação",
+          "en": "Interiors and lighting",
+          "es": "Interiores e iluminación"
+        },
+        "description": {
+          "pt-BR": [
+            "Projeto de ambientação focado no contraste de materiais e na luz indireta, valorizando percurso e permanência."
+          ],
+          "en": [
+            "An interior focused on material contrast and indirect light."
+          ],
+          "es": [
+            "Un interior centrado en el contraste de materiales y la luz indirecta."
+          ]
+        },
+        "info": {
+          "client": "Cliente Exemplo",
+          "architect": "Estúdio Exemplar",
+          "year": "2025"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "brinquedoteca-cor-movimento",
+      "status": "published",
+      "order": 5,
+      "placement": "landscape",
+      "showOnHome": false,
+      "homeOrder": 5,
+      "title": {
+        "pt-BR": "Brinquedoteca — Cor & Movimento",
+        "en": "Playroom — Color & Movement",
+        "es": "Ludoteca — Color y Movimiento"
+      },
+      "location": {
+        "pt-BR": "São Paulo, SP",
+        "en": "São Paulo, Brazil",
+        "es": "São Paulo, Brasil"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/BHE_INF_Brinquedoteca_EF.jpg",
+          "alt": {
+            "pt-BR": "Brinquedoteca com composição colorida",
+            "en": "Playroom with a colorful composition",
+            "es": "Ludoteca con composición colorida"
+          },
+          "width": 5000,
+          "height": 3846,
+          "sources": {
+            "640": {
+              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
+              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
+              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
+            },
+            "1024": {
+              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
+              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
+              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
+            },
+            "1440": {
+              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
+              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
+              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
+            },
+            "1920": {
+              "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
+              "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
+              "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
+            }
+          }
+        },
+        "gallery": [
+          {
+            "src": "assets/BHE_INF_Brinquedoteca_EF.jpg",
+            "width": 5000,
+            "height": 3846,
+            "sources": {
+              "640": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
+              }
+            }
+          },
+          {
+            "src": "assets/BHE_INF_Jogos_EF.jpg",
+            "width": 5000,
+            "height": 3846,
+            "sources": {
+              "640": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.jpg"
+              },
+              "1024": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.jpg"
+              },
+              "1440": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.jpg"
+              },
+              "1920": {
+                "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.avif",
+                "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.webp",
+                "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.jpg"
+              }
+            }
+          }
+        ],
+        "film": {
+          "src": "",
+          "poster": "assets/BHE_INF_Brinquedoteca_EF.jpg"
+        },
+        "animations": []
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "Interiores e identidade",
+          "en": "Interiors and identity",
+          "es": "Interiores e identidad"
+        },
+        "description": {
+          "pt-BR": [
+            "Espaço lúdico com foco em composição cromática e orientação visual para diferentes faixas etárias."
+          ],
+          "en": ["A playful space centered on color and visual orientation."],
+          "es": [
+            "Un espacio lúdico centrado en el color y la orientación visual."
+          ]
+        },
+        "info": {
+          "client": "Cliente Exemplo",
+          "architect": "Estúdio Exemplar",
+          "year": "2025"
         }
       },
       "mediaVersion": 1
