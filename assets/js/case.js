@@ -93,7 +93,9 @@
   }
 
   function initMedia() {
-    const videos = Array.from(document.querySelectorAll("[data-case-video]"));
+    const videos = Array.from(
+      document.querySelectorAll("[data-case-video]"),
+    ).filter((video) => video.dataset.caseMediaKind !== "animation");
     if (!supportsObserver) return;
 
     const loader = new IntersectionObserver(
@@ -144,6 +146,243 @@
     videos
       .filter((video) => video.dataset.caseMediaKind === "moment")
       .forEach((video) => momentObserver.observe(video));
+  }
+
+  function initAnimationsStorytelling() {
+    document.querySelectorAll("[data-case-animations]").forEach((section) => {
+      const scroll = section.querySelector(".case-v3-animations__scroll");
+      const steps = Array.from(
+        section.querySelectorAll("[data-case-animation-step]"),
+      );
+      const counter = section.querySelector("[data-case-animation-counter]");
+      const videos = Array.from(
+        section.querySelectorAll('[data-case-media-kind="animation"]'),
+      );
+      const mobile = window.matchMedia("(max-width: 767px)");
+      if (!scroll || !steps.length) return;
+
+      let activeIndex = -1;
+      let inView = false;
+      let frame = 0;
+
+      const pauseAllExcept = (allowed) => {
+        videos.forEach((video) => {
+          if (!allowed.has(video)) video.pause();
+        });
+      };
+
+      const setActive = (index, shouldPlay = true) => {
+        const nextIndex = Math.max(0, Math.min(index, steps.length - 1));
+        const nextStep = steps[nextIndex];
+        const nextVideos = new Set(
+          nextStep.querySelectorAll('[data-case-media-kind="animation"]'),
+        );
+        steps.forEach((step, stepIndex) => {
+          const active = stepIndex === nextIndex;
+          step.classList.toggle("is-active", active);
+          step.setAttribute("aria-hidden", String(!active));
+        });
+        if (counter) {
+          counter.textContent =
+            String(nextIndex + 1).padStart(2, "0") +
+            " — " +
+            String(steps.length).padStart(2, "0");
+        }
+        pauseAllExcept(nextVideos);
+        if (shouldPlay || activeIndex >= 0) {
+          nextVideos.forEach((video) => {
+            media.load(video);
+            if (reducedMotion.matches || !shouldPlay) return;
+            const play = video.play();
+            if (play) play.catch(() => {});
+          });
+        }
+        activeIndex = nextIndex;
+      };
+
+      const prepare = (index) => {
+        const step = steps[index];
+        if (!step) return;
+        step
+          .querySelectorAll('[data-case-media-kind="animation"]')
+          .forEach((video) => media.load(video));
+      };
+
+      const getStickyTop = () => {
+        const value = parseFloat(
+          window.getComputedStyle(
+            section.querySelector(".case-v3-animations__sticky"),
+          ).top,
+        );
+        return Number.isFinite(value) ? value : 0;
+      };
+
+      const updateDesktop = () => {
+        if (mobile.matches || !inView) return;
+        const stepDistance = window.innerHeight * 0.6;
+        const sectionTop = window.scrollY + scroll.getBoundingClientRect().top;
+        const start = sectionTop - getStickyTop();
+        const progress = Math.max(0, window.scrollY - start);
+        const index = Math.min(
+          steps.length - 1,
+          Math.floor(progress / Math.max(1, stepDistance)),
+        );
+        setActive(index);
+        if (
+          index < steps.length - 1 &&
+          progress % stepDistance > stepDistance * 0.45
+        ) {
+          prepare(index + 1);
+        }
+      };
+
+      const scheduleDesktopUpdate = () => {
+        if (frame) return;
+        frame = window.requestAnimationFrame(() => {
+          frame = 0;
+          updateDesktop();
+        });
+      };
+
+      videos.forEach((video) => {
+        if (reducedMotion.matches) video.controls = true;
+      });
+
+      if (supportsObserver) {
+        const sectionObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              inView = entry.isIntersecting;
+              if (inView) {
+                if (mobile.matches) return;
+                updateDesktop();
+              } else {
+                pauseAllExcept(new Set());
+              }
+            });
+          },
+          { threshold: [0, 0.08], rootMargin: "-5% 0px -5%" },
+        );
+        sectionObserver.observe(scroll);
+
+        const mobileObserver = new IntersectionObserver(
+          (entries) => {
+            if (!mobile.matches) return;
+            const visible = entries
+              .filter((entry) => entry.isIntersecting)
+              .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+            if (!visible) return;
+            const index = steps.indexOf(visible.target);
+            if (index >= 0) setActive(index);
+          },
+          { threshold: [0.2, 0.55, 0.8], rootMargin: "-12% 0px -12%" },
+        );
+        steps.forEach((step) => mobileObserver.observe(step));
+      } else {
+        inView = true;
+        videos.forEach((video) => {
+          media.load(video);
+          video.controls = true;
+        });
+      }
+
+      window.addEventListener("scroll", scheduleDesktopUpdate, {
+        passive: true,
+      });
+      window.addEventListener("resize", scheduleDesktopUpdate, {
+        passive: true,
+      });
+      setActive(0, false);
+    });
+  }
+
+  function initFocusScrollStories() {
+    document.querySelectorAll("[data-case-focus-scroll]").forEach((section) => {
+      const track = section.querySelector("[data-case-focus-track]");
+      const sticky = section.querySelector("[data-case-focus-sticky]");
+      const steps = Array.from(
+        section.querySelectorAll("[data-case-focus-step]"),
+      );
+      const controls = Array.from(section.querySelectorAll("[data-case-plan]"));
+      const mobile = window.matchMedia("(max-width: 767px)");
+      if (!track || !sticky || !steps.length) return;
+
+      let activeIndex = -1;
+      let inView = false;
+      let frame = 0;
+
+      const setActive = (index) => {
+        const nextIndex = Math.max(0, Math.min(index, steps.length - 1));
+        steps.forEach((step, stepIndex) => {
+          const active = stepIndex === nextIndex;
+          step.classList.toggle("is-active", active);
+          step.setAttribute("aria-hidden", String(!active));
+          if (section.hasAttribute("data-case-plans")) {
+            step.hidden = mobile.matches ? !active : false;
+          }
+        });
+        controls.forEach((control, controlIndex) => {
+          const selected = controlIndex === nextIndex;
+          control.setAttribute("aria-selected", String(selected));
+          control.tabIndex = selected ? 0 : -1;
+        });
+        activeIndex = nextIndex;
+      };
+
+      const getStickyTop = () => {
+        const value = parseFloat(window.getComputedStyle(sticky).top);
+        return Number.isFinite(value) ? value : 0;
+      };
+
+      const updateDesktop = () => {
+        if (mobile.matches || !inView) return;
+        const stepDistance = window.innerHeight * 0.6;
+        const trackTop = window.scrollY + track.getBoundingClientRect().top;
+        const start = trackTop - getStickyTop();
+        const progress = Math.max(0, window.scrollY - start);
+        const index = Math.min(
+          steps.length - 1,
+          Math.floor(progress / Math.max(1, stepDistance)),
+        );
+        setActive(index);
+      };
+
+      const scheduleDesktopUpdate = () => {
+        if (frame) return;
+        frame = window.requestAnimationFrame(() => {
+          frame = 0;
+          updateDesktop();
+        });
+      };
+
+      if (supportsObserver) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              inView = entry.isIntersecting;
+              if (inView) updateDesktop();
+            });
+          },
+          { threshold: [0, 0.08], rootMargin: "-5% 0px -5%" },
+        );
+        observer.observe(track);
+      } else {
+        inView = true;
+      }
+
+      window.addEventListener("scroll", scheduleDesktopUpdate, {
+        passive: true,
+      });
+      window.addEventListener(
+        "resize",
+        () => {
+          setActive(activeIndex < 0 ? 0 : activeIndex);
+          scheduleDesktopUpdate();
+        },
+        { passive: true },
+      );
+      setActive(0);
+    });
   }
 
   function initStillMotion() {
@@ -409,7 +648,10 @@
           if (selected && shouldFocus) control.focus();
         });
         panels.forEach((panel, panelIndex) => {
-          panel.hidden = panelIndex !== index;
+          const selected = panelIndex === index;
+          panel.hidden = !selected;
+          panel.classList.toggle("is-active", selected);
+          panel.setAttribute("aria-hidden", String(!selected));
         });
       };
       controls.forEach((control, index) => {
@@ -499,6 +741,8 @@
     initReveals();
     initHeroMedia();
     initMedia();
+    initAnimationsStorytelling();
+    initFocusScrollStories();
     initStillMotion();
     initGalleryCarousels();
     initDragRails();

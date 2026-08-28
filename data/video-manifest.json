@@ -3,20 +3,10 @@
   "projects": {
     "ars-vie": {
       "slug": "ars-vie",
-      "generatedAt": "2026-08-26T03:15:26.737960+00:00",
+      "generatedAt": "2026-08-27T23:55:14.711593+00:00",
       "pipelineVersion": 1,
       "publicRoot": "assets/media/ars-vie/v1",
       "profiles": {
-        "pilulas": {
-          "crf": 23,
-          "preset": "medium",
-          "audioBitrate": "128k"
-        },
-        "outros": {
-          "crf": 19,
-          "preset": "slow",
-          "audioBitrate": "160k"
-        },
         "animacoes": {
           "crf": 19,
           "preset": "slow",
@@ -26,6 +16,16 @@
           "crf": 21,
           "preset": "slow",
           "audioBitrate": "160k"
+        },
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
         }
       },
       "curation": {
@@ -38,30 +38,47 @@
           "animacoes/animacao-ars-vie-tracking-0006.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-ars-vie-tracking-0050.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-ars-vie-tracking-0122.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-22-ars-vie-redario-detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
           },
           "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-19-ars-vie-piscina-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-ars-vie-tracking-0040.mp4": {
             "publish": false,
@@ -71,16 +88,12 @@
           "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2025-ars-vie-concept-4k-v3.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4": {
             "publish": true,
@@ -143,7 +156,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-12-ars-vie-quadra.mp4",
@@ -178,7 +192,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-19-ars-vie-piscina-detalhe.mp4",
@@ -213,7 +228,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-19-ars-vie-piscina-geral.mp4",
@@ -247,12 +263,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-19-ars-vie-piscina-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-geral-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-22-ars-vie-redario-detalhe.mp4",
@@ -284,10 +300,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 251701338,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": []
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-detalhe-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-22-ars-vie-redario-geral.mp4",
@@ -322,7 +342,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-28-ars-vie-fire-place-detalhe.mp4",
@@ -357,7 +378,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-31-ars-vie-sauna-seca.mp4",
@@ -392,7 +414,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4",
@@ -424,10 +447,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 14644707,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": []
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4",
@@ -459,10 +486,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 247217592,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": []
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4",
@@ -496,12 +527,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4",
@@ -533,10 +564,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 14848677,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": []
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-pov-bike.mp4",
@@ -571,7 +606,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-ars-vie-pov-praia.mp4",
@@ -606,7 +642,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0006.mp4",
@@ -640,12 +677,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0006-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0006-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0040.mp4",
@@ -680,7 +717,9 @@
           "published": false,
           "publication": "poster-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0040-poster.webp",
+          "publicSources": {}
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0050.mp4",
@@ -714,12 +753,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0050-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0050-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0122.mp4",
@@ -751,10 +790,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 245497185,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": []
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0122-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0122-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0138.mp4",
@@ -789,7 +832,8 @@
           "published": false,
           "publication": "inventory-only",
           "requestedVariants": [],
-          "publicVariants": []
+          "publicVariants": [],
+          "publicSources": {}
         },
         {
           "source": "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4",
@@ -823,12 +867,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg-1080.mp4"
+          }
         },
         {
           "source": "filmes/filme-2025-ars-vie-concept-4k-v3.mp4",
@@ -862,12 +906,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/filmes/filme-2025-ars-vie-concept-4k-v3-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-vie-concept-4k-v3-1080.mp4"
+          }
         },
         {
           "source": "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4",
@@ -902,10 +946,12 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-19-ars-vie-piscina-geral-v1-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-19-ars-vie-piscina-geral-v1-1080.mp4",
+            "720": "assets/media/ars-vie/v1/videos/pilulas/pilula-19-ars-vie-piscina-geral-v1-720.mp4"
+          }
         },
         {
           "source": "pilulas/pilula-22-ars-vie-redario-geral.mp4",
@@ -940,10 +986,12 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-22-ars-vie-redario-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-22-ars-vie-redario-geral-1080.mp4",
+            "720": "assets/media/ars-vie/v1/videos/pilulas/pilula-22-ars-vie-redario-geral-720.mp4"
+          }
         },
         {
           "source": "pilulas/pilula-28-ars-vie-fire-place-detalhe.mp4",
@@ -978,10 +1026,12 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-28-ars-vie-fire-place-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-28-ars-vie-fire-place-detalhe-1080.mp4",
+            "720": "assets/media/ars-vie/v1/videos/pilulas/pilula-28-ars-vie-fire-place-detalhe-720.mp4"
+          }
         },
         {
           "source": "pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre.mp4",
@@ -1016,10 +1066,12 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-1080.mp4",
+            "720": "assets/media/ars-vie/v1/videos/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-720.mp4"
+          }
         },
         {
           "source": "pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical.mp4",
@@ -1054,10 +1106,12 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-1080.mp4",
+            "720": "assets/media/ars-vie/v1/videos/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-720.mp4"
+          }
         }
       ],
       "videos": [
@@ -1087,11 +1141,101 @@
               "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-geral-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 9.9,
-              "hasAudio": false,
-              "audioCodec": null,
-              "faststart": true,
-              "bytes": 26645523
+              "bytes": 26645523,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-22-ars-vie-redario-detalhe",
+          "source": "animacoes/animacao-22-ars-vie-redario-detalhe.mp4",
+          "sourceSha256": "a6f3494dd9cbf68ce87c7efc6b2a257a47f3e22f786afb09a04f04c19c1a3bf1",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-detalhe-poster.webp",
+          "duration": 5.005,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6919892,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral",
+          "source": "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4",
+          "sourceSha256": "20404d2009fe937e5f7fff3845127f0fa20a3ca9f3d50b6477d37766b83f1c84",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 3949567,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-36-ars-vie-suite-master-apto-tipo-1-geral",
+          "source": "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4",
+          "sourceSha256": "ee1569910282bcdbade5635443cecf4d1cd3d104218c8558a41e3d5afbbbe9ae",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 3360452,
+              "faststart": true
             }
           }
         },
@@ -1121,11 +1265,39 @@
               "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 10.0,
-              "hasAudio": false,
-              "audioCodec": null,
-              "faststart": true,
-              "bytes": 5025384
+              "bytes": 5025384,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-38-ars-vie-living-apto-tipo-3-torre-3",
+          "source": "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4",
+          "sourceSha256": "a3d0605a9f2bdd19bbefee2be6d9551ff1a248e4d17a0b00c4fee2aa31114859",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6472904,
+              "faststart": true
             }
           }
         },
@@ -1155,11 +1327,8 @@
               "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0006-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 35.333,
-              "hasAudio": false,
-              "audioCodec": null,
-              "faststart": true,
-              "bytes": 55897037
+              "bytes": 55897037,
+              "faststart": true
             }
           }
         },
@@ -1189,11 +1358,39 @@
               "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0050-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 45.5,
-              "hasAudio": false,
-              "audioCodec": null,
-              "faststart": true,
-              "bytes": 59854177
+              "bytes": 59854177,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-ars-vie-tracking-0122",
+          "source": "animacoes/animacao-ars-vie-tracking-0122.mp4",
+          "sourceSha256": "5f02d068e28cbd9a62e1f206094b0efa0bc02786d60ef54f168a3053aac8a9ee",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0122-poster.webp",
+          "duration": 15.067,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0122-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 15381987,
+              "faststart": true
             }
           }
         },
@@ -1223,11 +1420,8 @@
               "src": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 408.617,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 269818972
+              "bytes": 269818972,
+              "faststart": true
             }
           }
         },
@@ -1257,11 +1451,8 @@
               "src": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-vie-concept-4k-v3-1080.mp4",
               "width": 1920,
               "height": 1080,
-              "duration": 256.131,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 149803378
+              "bytes": 149803378,
+              "faststart": true
             }
           }
         },
@@ -1291,21 +1482,15 @@
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-19-ars-vie-piscina-geral-v1-1080.mp4",
               "width": 1080,
               "height": 1920,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 10409556
+              "bytes": 10409556,
+              "faststart": true
             },
             "720": {
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-19-ars-vie-piscina-geral-v1-720.mp4",
               "width": 720,
               "height": 1280,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 5762943
+              "bytes": 5762943,
+              "faststart": true
             }
           }
         },
@@ -1335,21 +1520,15 @@
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-22-ars-vie-redario-geral-1080.mp4",
               "width": 1080,
               "height": 1920,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 6177103
+              "bytes": 6177103,
+              "faststart": true
             },
             "720": {
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-22-ars-vie-redario-geral-720.mp4",
               "width": 720,
               "height": 1280,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 3178816
+              "bytes": 3178816,
+              "faststart": true
             }
           }
         },
@@ -1379,21 +1558,15 @@
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-28-ars-vie-fire-place-detalhe-1080.mp4",
               "width": 1080,
               "height": 1920,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 4092472
+              "bytes": 4092472,
+              "faststart": true
             },
             "720": {
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-28-ars-vie-fire-place-detalhe-720.mp4",
               "width": 720,
               "height": 1280,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 2125355
+              "bytes": 2125355,
+              "faststart": true
             }
           }
         },
@@ -1423,21 +1596,15 @@
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-1080.mp4",
               "width": 1080,
               "height": 1920,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 3082955
+              "bytes": 3082955,
+              "faststart": true
             },
             "720": {
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-720.mp4",
               "width": 720,
               "height": 1280,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 1615665
+              "bytes": 1615665,
+              "faststart": true
             }
           }
         },
@@ -1467,21 +1634,15 @@
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-1080.mp4",
               "width": 1080,
               "height": 1920,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 4622905
+              "bytes": 4622905,
+              "faststart": true
             },
             "720": {
               "src": "assets/media/ars-vie/v1/videos/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-720.mp4",
               "width": 720,
               "height": 1280,
-              "duration": 15.0,
-              "hasAudio": true,
-              "audioCodec": "aac",
-              "faststart": true,
-              "bytes": 2442973
+              "bytes": 2442973,
+              "faststart": true
             }
           }
         }
@@ -1497,20 +1658,23 @@
           "width": 3840,
           "height": 2160,
           "aspectRatio": "16:9",
-          "orientation": "landscape"
+          "orientation": "landscape",
+          "pipelineVersion": 1
         }
       ],
       "errors": [],
       "summary": {
         "found": 26,
         "inventoried": 26,
-        "processed": 0,
+        "processed": 5,
         "skipped": 16,
         "failed": 0,
-        "publishedVideos": 11,
+        "postersProcessed": 5,
+        "postersSkipped": 12,
+        "publishedVideos": 16,
         "publishedPosterOnly": 1,
-        "publishedVariants": 16,
-        "posters": 12
+        "publishedVariants": 21,
+        "posters": 17
       }
     }
   }

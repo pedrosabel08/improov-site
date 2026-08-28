@@ -18,6 +18,31 @@
           "poster": true,
           "variants": ["1080"]
         },
+        "animacoes/animacao-ars-vie-tracking-0122.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-22-ars-vie-redario-detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
         "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
           "publish": true,
           "poster": true,

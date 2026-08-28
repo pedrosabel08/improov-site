@@ -97,6 +97,20 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
     }
     return false;
   }
+  if ($type === 'animations') {
+    foreach ($section['steps'] ?? [] as $step) {
+      if (!is_array($step)) {
+        continue;
+      }
+      foreach ($step['items'] ?? [] as $item) {
+        $mediaId = is_array($item) ? ($item['mediaId'] ?? $item['id'] ?? null) : $item;
+        if ($videoFor($mediaId) !== null) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
   if ($type === 'floorplans') {
     foreach ($section['items'] ?? [] as $item) {
       if (is_array($item) && $imageExists($item['src'] ?? null)) {
@@ -117,7 +131,19 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
   if ($type === 'closing') {
     return true;
   }
-  return $type === 'film' && $videoFor($section['video'] ?? null) !== null;
+  if ($type === 'film') {
+    $filmItems = $section['videos'] ?? [];
+    if (!is_array($filmItems) || $filmItems === []) {
+      $filmItems = [['video' => $section['video'] ?? null]];
+    }
+    foreach ($filmItems as $item) {
+      $mediaId = is_array($item) ? ($item['video'] ?? $item['mediaId'] ?? null) : $item;
+      if ($videoFor($mediaId) !== null) {
+        return true;
+      }
+    }
+  }
+  return false;
 };
 $sections = [];
 foreach ($case['sections'] ?? [] as $section) {
@@ -153,8 +179,12 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
         </div>
       </div>
       <div class="case-v3-hero__footer">
-        <?php if (!empty($case['services'])): ?><p><?= escape(implode(' · ', array_filter(array_map($caseText, $case['services'])))) ?></p><?php endif; ?>
-        <a href="#case-imagens" aria-label="Ir para as imagens do case">↓</a>
+        <?php $heroFooter = $caseText($case['heroFooter'] ?? '');
+        if ($heroFooter === '') {
+          $heroFooter = implode(' · ', array_filter(array_map($caseText, $case['services'] ?? [])));
+        } ?>
+        <?php if ($heroFooter !== ''): ?><p><?= escape($heroFooter) ?></p><?php endif; ?>
+        <a href="#case-imagens" aria-label="Ir para as imagens do case"><?= site_icon('arrow-down', 'case-v3-icon') ?></a>
       </div>
     </div>
   </section>
@@ -195,12 +225,12 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
               <?php $slides = array_values(array_filter($group['items'] ?? [], static fn($item): bool => is_array($item) && $imageExists($item['src'] ?? null)));
               $firstSlide = $slides[0] ?? []; ?>
               <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
-                <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Imagem anterior">←</button>
+                <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Imagem anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
                 <div class="case-v3-gallery__rail" data-case-gallery-rail tabindex="0" aria-label="<?= escape($groupTitle) ?>. Use as setas ou deslize para explorar.">
                   <?php foreach ($slides as $slideIndex => $item): $slideLabel = $caseText($item['label'] ?? $groupTitle); ?><figure class="case-v3-gallery__rail-item" data-case-gallery-slide data-gallery-label="<?= escape($slideLabel) ?>" role="group" aria-roledescription="slide" aria-label="<?= escape(($slideIndex + 1) . ' de ' . count($slides) . ': ' . $slideLabel) ?>"><?= $renderImage((string) $item['src'], 'case-v3-image', '(max-width: 767px) 94vw, 70vw', $slideLabel) ?><figcaption><?= escape($slideLabel) ?></figcaption>
                     </figure><?php endforeach; ?>
                 </div>
-                <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--next" type="button" data-case-gallery-next aria-label="Próxima imagem">→</button>
+                <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--next" type="button" data-case-gallery-next aria-label="Próxima imagem"><?= site_icon('arrow-right', 'case-v3-icon') ?></button>
                 <div class="case-v3-gallery__carousel-meta case-v3-shell">
                   <p data-case-gallery-label><?= escape($caseText($firstSlide['label'] ?? $groupTitle)) ?></p>
                   <p data-case-gallery-count aria-live="polite">01 — <?= str_pad((string) count($slides), 2, '0', STR_PAD_LEFT) ?></p>
@@ -242,11 +272,73 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
             <button class="case-v3-still-motion__stage" type="button" data-case-still-motion aria-pressed="false" aria-label="Reproduzir animação de <?= escape($caseText($environment['label'] ?? $chapterLabel)) ?>">
               <?= $renderImage((string) $environment['still'], 'case-v3-still-motion__still', '100vw', $caseText($environment['label'] ?? $chapterLabel), 'mask') ?>
               <?= $renderVideo($motionVideo, 'case-v3-still-motion__video', 'still-motion', 'Animação de ' . $caseText($environment['label'] ?? $chapterLabel)) ?>
-              <span class="case-v3-still-motion__hint"><span>View motion</span><i aria-hidden="true">↗</i></span>
+              <span class="case-v3-still-motion__hint"><span>View motion</span><?= site_icon('arrow-up-right', 'case-v3-icon') ?></span>
             </button>
           <?php else: ?>
             <figure class="case-v3-still-motion__static"><?= $renderImage((string) $environment['still'], 'case-v3-image', '100vw', $caseText($environment['label'] ?? $chapterLabel), 'mask') ?></figure>
           <?php endif; ?>
+        </div>
+      </section>
+    <?php elseif ($type === 'animations'): ?>
+      <?php
+      $animationSteps = [];
+      foreach ($section['steps'] ?? [] as $step) {
+        if (!is_array($step)) {
+          continue;
+        }
+        $stepItems = [];
+        foreach ($step['items'] ?? [] as $item) {
+          if (!is_array($item)) {
+            $item = ['mediaId' => $item];
+          }
+          $video = $videoFor($item['mediaId'] ?? $item['id'] ?? null);
+          if ($video === null) {
+            continue;
+          }
+          $stepItems[] = [
+            'video' => $video,
+            'label' => $caseText($item['label'] ?? 'Animação'),
+          ];
+        }
+        if ($stepItems !== []) {
+          $layout = (string) ($step['layout'] ?? 'single');
+          if (!in_array($layout, ['single', 'double'], true)) {
+            $layout = count($stepItems) > 1 ? 'double' : 'single';
+          }
+          $animationSteps[] = [
+            'layout' => $layout,
+            'items' => $stepItems,
+          ];
+        }
+      }
+      $animationStepCount = count($animationSteps);
+      $animationScrollExtra = $animationStepCount > 0 ? ($animationStepCount + 1) * 60 : 0;
+      ?>
+      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-animations" data-case-chapter="<?= escape($chapterId) ?>" data-case-animations style="--case-animation-scroll-extra: <?= (int) $animationScrollExtra ?>vh">
+        <header class="case-v3-animations__header case-v3-shell" data-case-reveal="up">
+          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <div class="case-v3-animations__title-row">
+            <h2><?= escape($caseText($section['title'] ?? $chapterLabel)) ?></h2>
+            <p class="case-v3-animations__counter" data-case-animation-counter>01 — <?= str_pad((string) max(1, $animationStepCount), 2, '0', STR_PAD_LEFT) ?></p>
+          </div>
+        </header>
+        <div class="case-v3-animations__scroll">
+          <div class="case-v3-animations__sticky">
+            <div class="case-v3-animations__stage case-v3-shell" data-case-animation-stage>
+              <?php foreach ($animationSteps as $stepIndex => $animationStep): ?>
+                <article class="case-v3-animation-step case-v3-animation-step--<?= escape($animationStep['layout']) ?><?= $stepIndex === 0 ? ' is-active' : '' ?>" data-case-animation-step data-case-animation-index="<?= (int) $stepIndex ?>" data-case-animation-layout="<?= escape($animationStep['layout']) ?>" aria-hidden="<?= $stepIndex === 0 ? 'false' : 'true' ?>">
+                  <div class="case-v3-animation-step__items">
+                    <?php foreach ($animationStep['items'] as $item): ?>
+                      <figure class="case-v3-animation-card">
+                        <?= $renderVideo($item['video'], 'case-v3-animation-card__video', 'animation', $item['label']) ?>
+                        <figcaption><?= escape($item['label']) ?></figcaption>
+                      </figure>
+                    <?php endforeach; ?>
+                  </div>
+                </article>
+              <?php endforeach; ?>
+            </div>
+          </div>
         </div>
       </section>
     <?php elseif ($type === 'motion'): ?>
@@ -265,7 +357,8 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
       </section>
     <?php elseif ($type === 'floorplans'): ?>
       <?php $plans = array_values(array_filter($section['items'] ?? [], static fn($item): bool => is_array($item) && $imageExists($item['src'] ?? null))); ?>
-      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-floorplans" data-case-chapter="<?= escape($chapterId) ?>" data-case-plans>
+      <?php $floorplanScrollExtra = count($plans) > 0 ? (count($plans) + 1) * 60 : 0; ?>
+      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-floorplans" data-case-chapter="<?= escape($chapterId) ?>" data-case-plans data-case-focus-scroll style="--case-focus-scroll-extra: <?= (int) $floorplanScrollExtra ?>vh">
         <header class="case-v3-floorplans__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
           <div>
@@ -273,16 +366,18 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
             <h2><?= escape($caseText($section['title'] ?? $chapterLabel)) ?></h2>
           </div>
         </header>
-        <div class="case-v3-shell">
-          <div class="case-v3-floorplans__viewer">
-            <div class="case-v3-floorplans__tabs" role="tablist" aria-label="Selecionar planta">
-              <?php foreach ($plans as $planIndex => $plan): $planId = $chapterId . '-' . (string) $plan['id']; ?><button id="<?= escape($planId) ?>-tab" type="button" role="tab" aria-selected="<?= $planIndex === 0 ? 'true' : 'false' ?>" aria-controls="<?= escape($planId) ?>-panel" tabindex="<?= $planIndex === 0 ? '0' : '-1' ?>" data-case-plan="<?= (int) $planIndex ?>"><?= escape($caseText($plan['label'] ?? ('Planta ' . ($planIndex + 1)))) ?></button><?php endforeach; ?>
-            </div>
-            <div class="case-v3-floorplans__stage">
-              <?php foreach ($plans as $planIndex => $plan): $planId = $chapterId . '-' . (string) $plan['id']; ?><div id="<?= escape($planId) ?>-panel" class="case-v3-floorplans__panel" role="tabpanel" aria-labelledby="<?= escape($planId) ?>-tab" tabindex="0" data-case-plan-panel="<?= (int) $planIndex ?>" <?= $planIndex === 0 ? '' : ' hidden' ?>>
-                  <figure><?= $renderImage((string) $plan['src'], 'case-v3-floorplans__image', '(max-width: 767px) 100vw, 76vw', $caseText($plan['label'] ?? 'Planta')) ?><figcaption><?= escape($caseText($plan['label'] ?? 'Planta')) ?></figcaption>
-                  </figure>
-                </div><?php endforeach; ?>
+        <div class="case-v3-floorplans__scroll" data-case-focus-track>
+          <div class="case-v3-floorplans__sticky" data-case-focus-sticky>
+            <div class="case-v3-floorplans__viewer case-v3-shell" data-case-focus-stage>
+              <div class="case-v3-floorplans__tabs" role="tablist" aria-label="Selecionar planta">
+                <?php foreach ($plans as $planIndex => $plan): $planId = $chapterId . '-' . (string) $plan['id']; ?><button id="<?= escape($planId) ?>-tab" type="button" role="tab" aria-selected="<?= $planIndex === 0 ? 'true' : 'false' ?>" aria-controls="<?= escape($planId) ?>-panel" tabindex="<?= $planIndex === 0 ? '0' : '-1' ?>" data-case-plan="<?= (int) $planIndex ?>"><?= escape($caseText($plan['label'] ?? ('Planta ' . ($planIndex + 1)))) ?></button><?php endforeach; ?>
+              </div>
+              <div class="case-v3-floorplans__stage">
+                <?php foreach ($plans as $planIndex => $plan): $planId = $chapterId . '-' . (string) $plan['id']; ?><div id="<?= escape($planId) ?>-panel" class="case-v3-floorplans__panel<?= $planIndex === 0 ? ' is-active' : '' ?>" role="tabpanel" aria-labelledby="<?= escape($planId) ?>-tab" tabindex="0" data-case-plan-panel="<?= (int) $planIndex ?>" data-case-focus-step aria-hidden="<?= $planIndex === 0 ? 'false' : 'true' ?>" <?= $planIndex === 0 ? '' : ' hidden' ?>>
+                    <figure><?= $renderImage((string) $plan['src'], 'case-v3-floorplans__image', '(max-width: 767px) 100vw, 76vw', $caseText($plan['label'] ?? 'Planta')) ?><figcaption><?= escape($caseText($plan['label'] ?? 'Planta')) ?></figcaption>
+                    </figure>
+                  </div><?php endforeach; ?>
+              </div>
             </div>
           </div>
         </div>
@@ -307,29 +402,53 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
         </div>
       </section>
     <?php elseif ($type === 'film'): ?>
-      <?php $film = $videoFor($section['video'] ?? null);
-      $source = $film !== null ? case_video_source($film) : null; ?>
-      <?php if ($film !== null && $source !== null): ?>
-        <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-film" data-case-chapter="<?= escape($chapterId) ?>">
+      <?php
+      $filmItems = $section['videos'] ?? [];
+      if (!is_array($filmItems) || $filmItems === []) {
+        $filmItems = [['video' => $section['video'] ?? null]];
+      }
+      $films = [];
+      foreach ($filmItems as $filmItem) {
+        if (!is_array($filmItem)) {
+          $filmItem = ['video' => $filmItem];
+        }
+        $film = $videoFor($filmItem['video'] ?? $filmItem['mediaId'] ?? null);
+        $source = $film !== null ? case_video_source($film) : null;
+        if ($film === null || $source === null) {
+          continue;
+        }
+        $films[] = [
+          'video' => $film,
+          'source' => $source,
+          'label' => $caseText($filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+          'title' => $caseText($filmItem['title'] ?? $filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+        ];
+      }
+      ?>
+      <?php if ($films !== []): ?>
+        <?php $filmScrollExtra = (count($films) + 1) * 60; ?>
+        <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-film" data-case-chapter="<?= escape($chapterId) ?>" data-case-focus-scroll style="--case-focus-scroll-extra: <?= (int) $filmScrollExtra ?>vh">
           <header class="case-v3-film__heading case-v3-shell" data-case-reveal="up">
             <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
-            <div>
-              <p class="case-v3-kicker"><?= escape($caseText($section['eyebrow'] ?? 'Filme')) ?></p>
-              <h2><?= escape($caseText($section['title'] ?? $chapterLabel)) ?></h2>
-            </div>
           </header>
-          <div class="case-v3-film__media" data-case-reveal="mask"><button class="case-v3-film__trigger" type="button" data-case-film-open data-video-source="<?= escape(asset((string) $source['src'])) ?>" data-video-poster="<?= escape(asset((string) ($film['poster'] ?? ''))) ?>" data-video-title="<?= escape($caseText($section['eyebrow'] ?? 'Filme')) ?>"><img src="<?= escape(asset((string) ($film['poster'] ?? ''))) ?>" width="<?= (int) ($film['width'] ?? 1920) ?>" height="<?= (int) ($film['height'] ?? 1080) ?>" alt="Poster do filme <?= escape($caseTitle) ?>" loading="lazy" decoding="async"><span aria-hidden="true">▶</span><span class="sr-only">Assistir filme</span></button></div>
+          <div class="case-v3-film__scroll" data-case-focus-track>
+            <div class="case-v3-film__sticky" data-case-focus-sticky>
+              <div class="case-v3-film__medias case-v3-film__medias--<?= count($films) > 1 ? 'multiple' : 'single' ?> case-v3-shell" data-case-focus-stage data-case-reveal="mask">
+                <?php foreach ($films as $filmIndex => $film): ?><div class="case-v3-film__media case-v3-film__media--<?= $filmIndex === 0 ? 'primary' : 'secondary' ?><?= $filmIndex === 0 ? ' is-active' : '' ?>" data-case-focus-step aria-hidden="<?= $filmIndex === 0 ? 'false' : 'true' ?>">
+                    <p class="case-v3-film__label"><?= escape($film['label']) ?></p><button class="case-v3-film__trigger" type="button" data-case-film-open aria-label="Assistir <?= escape($film['label']) ?>" data-video-source="<?= escape(asset((string) $film['source']['src'])) ?>" data-video-poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" data-video-title="<?= escape($film['title']) ?>"><img src="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['video']['height'] ?? 1080) ?>" alt="Poster de <?= escape($film['label']) ?> — <?= escape($caseTitle) ?>" loading="lazy" decoding="async"><span class="case-v3-film__play" aria-hidden="true"><?= site_icon('play', 'case-v3-icon') ?></span><span class="sr-only">Assistir <?= escape($film['label']) ?></span></button>
+                  </div><?php endforeach; ?>
+              </div>
+            </div>
+          </div>
         </section>
       <?php endif; ?>
     <?php elseif ($type === 'closing'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-closing" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-closing__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
-          <h2><?= escape($caseText($section['title'] ?? $chapterLabel)) ?></h2>
         </header>
         <?php if (!empty($case['credits']['items'])): ?>
           <div class="case-v3-credits case-v3-shell" data-case-reveal="up">
-            <p class="case-v3-kicker"><?= escape($caseText($case['credits']['eyebrow'] ?? 'Créditos')) ?></p>
             <dl><?php foreach ($case['credits']['items'] as $credit): if (!is_array($credit) || $caseText($credit['value'] ?? '') === '') {
                     continue;
                   } ?><div>
@@ -341,9 +460,9 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
         <div class="case-v3-next case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($caseText($nextRule['eyebrow'] ?? 'Próximo projeto')) ?></p>
           <?php if ($nextProject !== null): ?>
-            <?php $nextHero = $nextProject['media']['hero']; ?><a class="case-v3-next__project" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
+            <?php $nextHero = $nextProject['media']['hero']; ?><a class="case-v3-next__project" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
           <?php endif; ?>
-          <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <span aria-hidden="true">→</span></a>
+          <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <?= site_icon('arrow-right', 'case-v3-icon') ?></a>
         </div>
       </section>
     <?php endif; ?>
@@ -352,6 +471,6 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
 
 <dialog class="case-v3-dialog" data-case-film-dialog aria-label="Reprodutor de filme">
   <div class="case-v3-dialog__bar">
-    <p data-case-film-title>Filme</p><button type="button" data-case-film-close aria-label="Fechar filme">×</button>
+    <p data-case-film-title>Filme</p><button type="button" data-case-film-close aria-label="Fechar filme"><?= site_icon('close', 'case-v3-icon') ?></button>
   </div><video data-case-film-player controls playsinline preload="none"></video>
 </dialog>

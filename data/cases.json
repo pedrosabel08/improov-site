@@ -28,6 +28,11 @@
         },
         { "pt-BR": "Filme", "en": "Film", "es": "Film" }
       ],
+      "heroFooter": {
+        "pt-BR": "Imagens 3D e Animações 3D",
+        "en": "3D Images and 3D Animations",
+        "es": "Imágenes 3D y Animaciones 3D"
+      },
       "environments": [
         {
           "id": "piscina",
@@ -233,7 +238,7 @@
           ]
         },
         {
-          "type": "motion",
+          "type": "animations",
           "id": "animacoes",
           "label": {
             "pt-BR": "Animações",
@@ -245,10 +250,101 @@
             "en": "Animations",
             "es": "Animaciones"
           },
-          "items": [
-            "animacao-ars-vie-tracking-0006",
-            "animacao-36-ars-vie-suite-master-apto-tipo-1-vista",
-            "animacao-19-ars-vie-piscina-geral"
+          "steps": [
+            {
+              "layout": "single",
+              "items": [
+                {
+                  "mediaId": "animacao-ars-vie-tracking-0122",
+                  "label": {
+                    "pt-BR": "Tracking 0122",
+                    "en": "Tracking 0122",
+                    "es": "Tracking 0122"
+                  }
+                }
+              ]
+            },
+            {
+              "layout": "double",
+              "items": [
+                {
+                  "mediaId": "animacao-36-ars-vie-suite-master-apto-tipo-1-geral",
+                  "label": {
+                    "pt-BR": "Suíte master",
+                    "en": "Primary suite",
+                    "es": "Suite principal"
+                  }
+                },
+                {
+                  "mediaId": "animacao-38-ars-vie-living-apto-tipo-3-torre-3",
+                  "label": {
+                    "pt-BR": "Living",
+                    "en": "Living room",
+                    "es": "Living"
+                  }
+                }
+              ]
+            },
+            {
+              "layout": "single",
+              "items": [
+                {
+                  "mediaId": "animacao-ars-vie-tracking-0006",
+                  "label": {
+                    "pt-BR": "Tracking 0006",
+                    "en": "Tracking 0006",
+                    "es": "Tracking 0006"
+                  }
+                }
+              ]
+            },
+            {
+              "layout": "double",
+              "items": [
+                {
+                  "mediaId": "animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral",
+                  "label": {
+                    "pt-BR": "Living",
+                    "en": "Living room",
+                    "es": "Living"
+                  }
+                },
+                {
+                  "mediaId": "animacao-22-ars-vie-redario-detalhe",
+                  "label": {
+                    "pt-BR": "Redário — detalhe",
+                    "en": "Hammock garden — detail",
+                    "es": "Redario — detalle"
+                  }
+                }
+              ]
+            },
+            {
+              "layout": "single",
+              "items": [
+                {
+                  "mediaId": "animacao-19-ars-vie-piscina-geral",
+                  "label": {
+                    "pt-BR": "Piscina geral",
+                    "en": "Pool — wide shot",
+                    "es": "Piscina general"
+                  }
+                }
+              ]
+            },
+            {
+              "layout": "single",
+              "items": [
+                {
+                  "mediaId": "animacao-36-ars-vie-suite-master-apto-tipo-1-vista",
+                  "label": {
+                    "pt-BR": "Suíte master — vista",
+                    "en": "Primary suite — view",
+                    "es": "Suite principal — vista"
+                  }
+                }
+              ]
+            }
           ]
         },
         {
@@ -331,7 +427,34 @@
             "en": "The complete experience.",
             "es": "La experiencia completa."
           },
-          "video": "filme-2025-ars-vie-concept-4k-v3"
+          "videos": [
+            {
+              "video": "filme-2025-ars-vie-concept-4k-v3",
+              "label": {
+                "pt-BR": "Filme do empreendimento",
+                "en": "Development film",
+                "es": "Película del proyecto"
+              },
+              "title": {
+                "pt-BR": "A experiência por inteiro.",
+                "en": "The complete experience.",
+                "es": "La experiencia completa."
+              }
+            },
+            {
+              "video": "filme-2025-ars-kam-vieiras-depoimento-v2-leg",
+              "label": {
+                "pt-BR": "Depoimento",
+                "en": "Testimonial",
+                "es": "Testimonio"
+              },
+              "title": {
+                "pt-BR": "A visão sobre o projeto.",
+                "en": "A view of the project.",
+                "es": "Una mirada al proyecto."
+              }
+            }
+          ]
         },
         {
           "type": "closing",
