@@ -21,6 +21,13 @@ function site_icon(string $name, string $class = ''): string
         'linkedin' => '<path d="M5 9v10M5 5.5v.01M10 19v-6a4 4 0 0 1 8 0v6M10 9v10"/><path d="M3 3h18v18H3z"/>',
         'youtube' => '<path d="m10 15 5-3-5-3v6Z" fill="currentColor" stroke="none"/><path d="M21 12c0 4-1 5-1 5s-1 1-5 1H9c-4 0-5-1-5-1s-1-1-1-5 1-5 1-5 1-1 5-1h6c4 0 5 1 5 1s1 1 1 5Z"/>',
         'whatsapp' => '<path d="M20.5 3.5A11 11 0 0 0 3.2 16.8L2 22l5.3-1.2A11 11 0 1 0 20.5 3.5Z"/><path d="M8.2 7.5c.3-.3.7-.3 1-.1l1.3 1.9c.2.3.2.6 0 .9l-.7.8c.8 1.5 1.9 2.6 3.4 3.4l.8-.7c.3-.2.6-.2.9 0l1.9 1.3c.3.2.3.7.1 1-.5.8-1.4 1.3-2.3 1.1-4.4-1-7.8-4.4-8.8-8.8-.2-.9.3-1.8 1.1-2.3Z"/>',
+        'arrow-down' => '<path d="M12 4v15M6.5 13.5 12 19l5.5-5.5"/>',
+        'arrow-left' => '<path d="M19 12H5M10.5 6.5 5 12l5.5 5.5"/>',
+        'arrow-right' => '<path d="M5 12h14M13.5 6.5 19 12l-5.5 5.5"/>',
+        'arrow-up-right' => '<path d="M6 18 18 6M9 6h9v9"/>',
+        'close' => '<path d="m6 6 12 12M18 6 6 18"/>',
+        'play' => '<path d="m9 6 9 6-9 6V6Z" fill="currentColor" stroke="none"/>',
+        'pause' => '<path d="M8 6v12M16 6v12"/>',
     ];
 
     $path = $paths[$name] ?? $paths['spark'];

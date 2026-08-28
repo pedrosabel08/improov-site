@@ -358,7 +358,7 @@ button:focus-visible {
   font-size: 30px;
 }
 .site-footer {
-  margin-top: var(--section-space);
+  /* margin-top: var(--section-space); */
   padding: 64px var(--gutter) 24px;
   border-top: 1px solid var(--color-border-soft);
 }
