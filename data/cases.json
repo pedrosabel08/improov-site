@@ -6,16 +6,11 @@
       "motion": "slow",
       "hero": {
         "video": "animacao-ars-vie-tracking-0050",
-        "posterVideo": "animacao-ars-vie-tracking-0050",
-        "label": {
-          "pt-BR": "Improov / Case",
-          "en": "Improov / Case",
-          "es": "Improov / Case"
-        }
+        "posterVideo": "animacao-ars-vie-tracking-0050"
       },
       "services": [
-        { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
-        { "pt-BR": "Animações", "en": "Animations", "es": "Animaciones" },
+        { "pt-BR": "Imagens 3D", "en": "Images 3D", "es": "Imágenes 3D" },
+        { "pt-BR": "Animações 3D", "en": "Animations 3D", "es": "Animaciones 3D" },
         {
           "pt-BR": "Plantas Humanizadas",
           "en": "Floor plans",
@@ -29,9 +24,9 @@
         { "pt-BR": "Filme", "en": "Film", "es": "Film" }
       ],
       "heroFooter": {
-        "pt-BR": "Imagens 3D e Animações 3D",
-        "en": "3D Images and 3D Animations",
-        "es": "Imágenes 3D y Animaciones 3D"
+        "pt-BR": "Imagens 3D · Animações 3D · Plantas · Pílulas · Filme",
+        "en": "Images 3D · Animations 3D · Floor plans · Moments · Film",
+        "es": "Imágenes 3D · Animaciones 3D · Plantas · Píldoras · Película"
       },
       "environments": [
         {
@@ -103,8 +98,8 @@
         {
           "type": "gallery",
           "id": "imagens",
-          "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
-          "title": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+          "label": { "pt-BR": "Imagens 3D", "en": "Images 3D", "es": "Imágenes 3D" },
+          "title": { "pt-BR": "Imagens 3D", "en": "Images 3D", "es": "Imágenes 3D" },
           "groups": [
             {
               "id": "areas-comuns",
@@ -241,14 +236,14 @@
           "type": "animations",
           "id": "animacoes",
           "label": {
-            "pt-BR": "Animações",
-            "en": "Animations",
-            "es": "Animaciones"
+            "pt-BR": "Animações 3D",
+            "en": "Animations 3D",
+            "es": "Animaciones 3D"
           },
           "title": {
-            "pt-BR": "Animações",
-            "en": "Animations",
-            "es": "Animaciones"
+            "pt-BR": "Animações 3D",
+            "en": "Animations 3D",
+            "es": "Animaciones 3D"
           },
           "steps": [
             {
@@ -491,7 +486,7 @@
             "value": "Improov"
           },
           {
-            "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+            "label": { "pt-BR": "Imagens 3D", "en": "Images 3D", "es": "Imágenes 3D" },
             "value": "Improov"
           },
           {

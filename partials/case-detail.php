@@ -159,7 +159,7 @@ $nextRule = is_array($case['nextProject'] ?? null) ? $case['nextProject'] : [];
 $nextProject = case_next_project((string) $project['slug'], $nextRule);
 ?>
 <main id="conteudo" class="case-v3" data-case-detail data-case-motion="<?= escape((string) ($case['motion'] ?? 'slow')) ?>">
-  <section id="case-hero" class="case-v3-hero" aria-labelledby="case-title" data-case-chapter="case-hero">
+  <section id="case-hero" class="case-v3-hero" aria-labelledby="case-title">
     <?php if ($heroSource !== null): ?>
       <video class="case-v3-hero__media" data-case-hero-video muted playsinline loop preload="auto" poster="<?= escape(asset($heroMedia)) ?>" width="<?= (int) ($heroSource['width'] ?? $heroVideo['width'] ?? 3840) ?>" height="<?= (int) ($heroSource['height'] ?? $heroVideo['height'] ?? 2160) ?>">
         <source src="<?= escape(asset((string) $heroSource['src'])) ?>" type="video/mp4">
@@ -169,7 +169,6 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
     <?php endif; ?>
     <div class="case-v3-hero__shade" aria-hidden="true"></div>
     <div class="case-v3-shell case-v3-hero__inner">
-      <p class="case-v3-kicker"><?= escape($caseText($case['hero']['label'] ?? 'Improov / Case')) ?></p>
       <div class="case-v3-hero__title">
         <h1 id="case-title"><?= escape($caseTitle) ?></h1>
         <div class="case-v3-hero__facts">
@@ -192,9 +191,8 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
   <?php if ($sections !== []): ?>
     <nav class="case-v3-nav" aria-label="Capítulos do case" data-case-chapter-navigation>
       <div class="case-v3-shell case-v3-nav__inner">
-        <a href="#case-hero" data-case-chapter-link="case-hero"><span>01</span>Hero</a>
         <?php foreach ($sections as $index => $section): ?>
-          <a href="#case-<?= escape((string) $section['id']) ?>" data-case-chapter-link="case-<?= escape((string) $section['id']) ?>"><span><?= str_pad((string) ($index + 2), 2, '0', STR_PAD_LEFT) ?></span><?= escape($caseText($section['label'] ?? $section['type'])) ?></a>
+          <a href="#case-<?= escape((string) $section['id']) ?>" data-case-chapter-link="case-<?= escape((string) $section['id']) ?>"><span><?= str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) ?></span><?= escape($caseText($section['label'] ?? $section['type'])) ?></a>
         <?php endforeach; ?>
       </div>
     </nav>
@@ -204,7 +202,7 @@ $nextProject = case_next_project((string) $project['slug'], $nextRule);
     <?php $type = (string) $section['type'];
     $chapterId = 'case-' . (string) $section['id'];
     $chapterLabel = $caseText($section['label'] ?? $type);
-    $number = str_pad((string) ($index + 2), 2, '0', STR_PAD_LEFT); ?>
+    $number = str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT); ?>
     <?php if ($type === 'gallery'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-gallery" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
