@@ -1681,7 +1681,7 @@
   gap: var(--case-gallery-gap);
 }
 .case-v3-gallery-story__moment--feature {
-  width: min(88vw, 1600px);
+  width: auto;
 }
 .case-v3-gallery-story__image {
   position: relative;
@@ -1740,7 +1740,7 @@
 .case-v3-gallery-story__moment--feature
   .case-v3-gallery-story__image
   figcaption {
-  color: var(--color-text);
+  color: #ffffff;
   text-shadow: none;
 }
 .case-v3-gallery-story__moment--mosaic-a,
