@@ -84,7 +84,7 @@ p {
   margin-inline: auto;
 }
 .section {
-  padding-block: var(--section-space);
+  padding-block: 50px;
 }
 .eyebrow {
   display: block;
