@@ -3,9 +3,9 @@
   "projects": {
     "ars-vie": {
       "defaults": {
-        "publish": false,
-        "poster": false,
-        "variants": []
+        "publish": true,
+        "poster": true,
+        "variants": ["1080"]
       },
       "sources": {
         "animacoes/animacao-ars-vie-tracking-0006.mp4": {
@@ -52,11 +52,6 @@
           "publish": true,
           "poster": true,
           "variants": ["1080"]
-        },
-        "animacoes/animacao-ars-vie-tracking-0040.mp4": {
-          "publish": false,
-          "poster": true,
-          "variants": []
         },
         "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
           "publish": true,

@@ -158,7 +158,9 @@
       const videos = Array.from(
         section.querySelectorAll('[data-case-media-kind="animation"]'),
       );
-      const mobile = window.matchMedia("(max-width: 767px)");
+      // Tablet and mobile use the horizontal animation rail; desktop alone
+      // keeps the sticky, viewport-sized storytelling sequence.
+      const mobile = window.matchMedia("(max-width: 1024px)");
       if (!scroll || !steps.length) return;
 
       let activeIndex = -1;
@@ -316,9 +318,16 @@
         steps.forEach((step, stepIndex) => {
           const active = stepIndex === nextIndex;
           step.classList.toggle("is-active", active);
-          step.setAttribute("aria-hidden", String(!active));
+          step.setAttribute(
+            "aria-hidden",
+            section.hasAttribute("data-case-plans") && mobile.matches
+              ? "false"
+              : String(!active),
+          );
           if (section.hasAttribute("data-case-plans")) {
-            step.hidden = mobile.matches ? !active : false;
+            // Plan panels become carousel slides on mobile, so none of them
+            // may be removed from layout by the hidden attribute.
+            step.hidden = false;
           }
         });
         controls.forEach((control, controlIndex) => {
@@ -640,19 +649,38 @@
       const panels = Array.from(
         plans.querySelectorAll("[data-case-plan-panel]"),
       );
+      const stage = plans.querySelector(".case-v3-floorplans__stage");
+      const mobileTitle = plans.querySelector("[data-case-floorplan-title]");
+      const mobileCount = plans.querySelector("[data-case-floorplan-count]");
+      const mobile = window.matchMedia("(max-width: 767px)");
+      let scrollFrame = 0;
       const activate = (index, shouldFocus = false) => {
+        const nextIndex = Math.max(0, Math.min(index, panels.length - 1));
         controls.forEach((control, controlIndex) => {
-          const selected = controlIndex === index;
+          const selected = controlIndex === nextIndex;
           control.setAttribute("aria-selected", String(selected));
           control.tabIndex = selected ? 0 : -1;
           if (selected && shouldFocus) control.focus();
         });
         panels.forEach((panel, panelIndex) => {
-          const selected = panelIndex === index;
-          panel.hidden = !selected;
+          const selected = panelIndex === nextIndex;
+          // Mobile presents every plan as a horizontal carousel slide;
+          // desktop keeps the single focused panel behavior.
+          panel.hidden = mobile.matches ? false : !selected;
           panel.classList.toggle("is-active", selected);
-          panel.setAttribute("aria-hidden", String(!selected));
+          panel.setAttribute(
+            "aria-hidden",
+            mobile.matches ? "false" : String(!selected),
+          );
         });
+        const activePlan =
+          panels[nextIndex]?.querySelector("[data-image-label]");
+        if (mobileTitle) {
+          mobileTitle.textContent = activePlan?.dataset.imageLabel || "Planta";
+        }
+        if (mobileCount) {
+          mobileCount.textContent = `${String(nextIndex + 1).padStart(2, "0")} / ${String(panels.length).padStart(2, "0")}`;
+        }
       };
       controls.forEach((control, index) => {
         control.addEventListener("click", () => activate(index));
@@ -668,6 +696,33 @@
           event.preventDefault();
           activate(next, true);
         });
+      });
+      const updateFromScroll = () => {
+        scrollFrame = 0;
+        if (!mobile.matches || !stage) return;
+        const stageLeft = stage.getBoundingClientRect().left;
+        let activeIndex = 0;
+        let nearestDistance = Number.POSITIVE_INFINITY;
+        panels.forEach((panel, index) => {
+          const distance = Math.abs(
+            panel.getBoundingClientRect().left - stageLeft - stage.clientLeft,
+          );
+          if (distance < nearestDistance) {
+            nearestDistance = distance;
+            activeIndex = index;
+          }
+        });
+        activate(activeIndex);
+      };
+      const scheduleFromScroll = () => {
+        if (scrollFrame) return;
+        scrollFrame = window.requestAnimationFrame(updateFromScroll);
+      };
+      stage?.addEventListener("scroll", scheduleFromScroll, { passive: true });
+      activate(0);
+      mobile.addEventListener?.("change", () => {
+        activate(0);
+        scheduleFromScroll();
       });
     });
   }
@@ -736,19 +791,311 @@
     });
   }
 
+  function initAnimationsCarousel() {
+    document.querySelectorAll("[data-case-animations]").forEach((section) => {
+      const rail = section.querySelector("[data-case-animation-rail]");
+      const cards = Array.from(
+        section.querySelectorAll(".case-v3-animation-card"),
+      );
+      const counter = section.querySelector("[data-case-animation-counter]");
+      if (!rail || !cards.length) return;
+
+      const compact = window.matchMedia("(max-width: 1024px)");
+      let frame = 0;
+      const updateCounter = () => {
+        frame = 0;
+        if (!compact.matches || !counter) return;
+        const left = rail.scrollLeft;
+        let activeIndex = 0;
+        let nearestDistance = Number.POSITIVE_INFINITY;
+        cards.forEach((card, index) => {
+          const distance = Math.abs(card.offsetLeft - left);
+          if (distance < nearestDistance) {
+            nearestDistance = distance;
+            activeIndex = index;
+          }
+        });
+        counter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(cards.length).padStart(2, "0")}`;
+      };
+      const scheduleCounter = () => {
+        if (frame) return;
+        frame = window.requestAnimationFrame(updateCounter);
+      };
+
+      rail.addEventListener("scroll", scheduleCounter, { passive: true });
+      window.addEventListener("resize", scheduleCounter, { passive: true });
+      updateCounter();
+
+      const loadObserver = supportsObserver
+        ? new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                const video = entry.target;
+                if (entry.isIntersecting) media.load(video);
+                if (entry.isIntersecting && entry.intersectionRatio >= 0.55) {
+                  media.activate(video);
+                } else if (
+                  !entry.isIntersecting ||
+                  entry.intersectionRatio < 0.2
+                ) {
+                  media.deactivate(video);
+                }
+              });
+            },
+            { rootMargin: "240px 0px", threshold: [0, 0.2, 0.55, 0.8] },
+          )
+        : null;
+      cards.forEach((card) => {
+        const video = card.querySelector('[data-case-media-kind="animation"]');
+        if (!video) return;
+        if (loadObserver) loadObserver.observe(video);
+        else {
+          media.load(video);
+          video.controls = true;
+        }
+      });
+    });
+  }
+
+  function initImageDialog() {
+    const dialog = document.querySelector("[data-case-image-dialog]");
+    if (!dialog) return;
+    const player = dialog.querySelector("[data-case-image-player]");
+    const stage = dialog.querySelector("[data-case-image-stage]");
+    const title = dialog.querySelector("[data-case-image-title]");
+    const count = dialog.querySelector("[data-case-image-count]");
+    const previous = dialog.querySelector("[data-case-image-previous]");
+    const next = dialog.querySelector("[data-case-image-next]");
+    const groups = new Map();
+    document.querySelectorAll("[data-case-image-open]").forEach((trigger) => {
+      const key = trigger.dataset.imageSet || "gallery";
+      const collection = groups.get(key) || [];
+      collection.push(trigger);
+      groups.set(key, collection);
+    });
+    let activeGroup = [];
+    let activeIndex = 0;
+    let origin = null;
+
+    const fitPlayer = () => {
+      if (!player.naturalWidth || !player.naturalHeight || !stage) return;
+      const isPlan = player.dataset.humanizedPlan === "true";
+      const portrait = isPlan && player.naturalHeight > player.naturalWidth;
+      player.classList.toggle("humanized-plan--rotate", portrait);
+      player.style.setProperty(
+        "transform",
+        portrait ? "rotate(-90deg)" : "none",
+        "important",
+      );
+      if (!isPlan) {
+        player.style.removeProperty("width");
+        player.style.removeProperty("height");
+        player.style.removeProperty("transform");
+        return;
+      }
+      const bounds = stage.getBoundingClientRect();
+      const visualWidth = portrait ? player.naturalHeight : player.naturalWidth;
+      const visualHeight = portrait
+        ? player.naturalWidth
+        : player.naturalHeight;
+      const scale = Math.min(
+        1,
+        bounds.width / visualWidth,
+        bounds.height / visualHeight,
+      );
+      player.style.setProperty(
+        "width",
+        `${Math.max(1, Math.round(player.naturalWidth * scale))}px`,
+        "important",
+      );
+      player.style.setProperty(
+        "height",
+        `${Math.max(1, Math.round(player.naturalHeight * scale))}px`,
+        "important",
+      );
+    };
+    player.addEventListener("load", fitPlayer);
+    window.addEventListener("resize", fitPlayer, { passive: true });
+
+    const update = (index) => {
+      if (!activeGroup.length) return;
+      activeIndex = (index + activeGroup.length) % activeGroup.length;
+      const trigger = activeGroup[activeIndex];
+      player.src = trigger.dataset.imageSrc || "";
+      player.alt = trigger.dataset.imageAlt || "";
+      player.dataset.humanizedPlan =
+        trigger.dataset.imagePlan === "true" ? "true" : "false";
+      title.textContent = trigger.dataset.imageLabel || "Imagem";
+      count.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(activeGroup.length).padStart(2, "0")}`;
+      previous.disabled = activeGroup.length < 2;
+      next.disabled = activeGroup.length < 2;
+    };
+    const close = () => {
+      if (dialog.open) dialog.close();
+      player.removeAttribute("src");
+      player.dataset.humanizedPlan = "false";
+      player.classList.remove("humanized-plan--rotate");
+      player.style.removeProperty("width");
+      player.style.removeProperty("height");
+      player.style.removeProperty("transform");
+      origin?.focus();
+      origin = null;
+    };
+    const open = (trigger) => {
+      const key = trigger.dataset.imageSet || "gallery";
+      activeGroup = groups.get(key) || [trigger];
+      origin = trigger;
+      update(Math.max(0, activeGroup.indexOf(trigger)));
+      if (!dialog.open) dialog.showModal();
+      dialog.querySelector("[data-case-image-close]")?.focus();
+    };
+
+    document.addEventListener("click", (event) => {
+      const trigger = event.target.closest("[data-case-image-open]");
+      if (trigger) open(trigger);
+    });
+    document.addEventListener("keydown", (event) => {
+      if (!dialog.open) return;
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        update(activeIndex - 1);
+      }
+      if (event.key === "ArrowRight") {
+        event.preventDefault();
+        update(activeIndex + 1);
+      }
+    });
+    document.querySelectorAll("[data-case-image-open]").forEach((trigger) => {
+      trigger.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        open(trigger);
+      });
+    });
+    previous?.addEventListener("click", () => update(activeIndex - 1));
+    next?.addEventListener("click", () => update(activeIndex + 1));
+    dialog
+      .querySelector("[data-case-image-close]")
+      ?.addEventListener("click", close);
+    dialog.addEventListener("click", (event) => {
+      if (event.target === dialog) close();
+    });
+    dialog.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      close();
+    });
+  }
+
+  function initHumanizedPlans() {
+    document
+      .querySelectorAll("[data-case-humanized-plan] img")
+      .forEach((image) => {
+        const viewport = image.closest(".case-v3-floorplans__viewport");
+        if (!viewport) return;
+        const updateOrientation = () => {
+          if (!image.naturalWidth || !image.naturalHeight) return;
+          const portrait = image.naturalHeight > image.naturalWidth;
+          image.classList.toggle("humanized-plan--rotate", portrait);
+          image.style.setProperty(
+            "transform",
+            portrait
+              ? "translate(-50%, -50%) rotate(-90deg)"
+              : "translate(-50%, -50%)",
+            "important",
+          );
+          // Keep wide plans inside the stage. The top photomontage has a
+          // ~1.42 source ratio, so a 1.6 minimum prevents its visual box from
+          // becoming taller than the parent while preserving the full image.
+          const ratio = portrait
+            ? image.naturalHeight / image.naturalWidth
+            : Math.max(1.6, image.naturalWidth / image.naturalHeight);
+          viewport.style.setProperty("--plan-ratio", String(ratio));
+          if (!portrait) {
+            image.style.removeProperty("width");
+            image.style.removeProperty("height");
+            return;
+          }
+          const bounds = viewport.getBoundingClientRect();
+          const scale = Math.min(
+            bounds.width / image.naturalHeight,
+            bounds.height / image.naturalWidth,
+          );
+          image.style.setProperty(
+            "width",
+            `${Math.max(1, Math.round(image.naturalWidth * scale))}px`,
+            "important",
+          );
+          image.style.setProperty(
+            "height",
+            `${Math.max(1, Math.round(image.naturalHeight * scale))}px`,
+            "important",
+          );
+        };
+        if (image.complete && image.naturalWidth) updateOrientation();
+        else image.addEventListener("load", updateOrientation, { once: true });
+        window.addEventListener("resize", updateOrientation, { passive: true });
+        if ("ResizeObserver" in window) {
+          const observer = new ResizeObserver(updateOrientation);
+          observer.observe(viewport);
+        }
+      });
+  }
+
+  function initMobileGalleryRails() {
+    document
+      .querySelectorAll("[data-case-mobile-gallery-rail]")
+      .forEach((rail) => {
+        const slides = Array.from(
+          rail.querySelectorAll("[data-case-image-open]"),
+        );
+        const counter = rail
+          .closest("[data-case-mobile-gallery-rail]")
+          ?.parentElement?.querySelector("[data-case-mobile-gallery-count]");
+        if (!slides.length || !counter) return;
+
+        let frame = 0;
+        const update = () => {
+          frame = 0;
+          const left = rail.scrollLeft;
+          let activeIndex = 0;
+          let nearestDistance = Number.POSITIVE_INFINITY;
+          slides.forEach((slide, index) => {
+            const distance = Math.abs(slide.offsetLeft - left);
+            if (distance < nearestDistance) {
+              nearestDistance = distance;
+              activeIndex = index;
+            }
+          });
+          counter.textContent = `${String(activeIndex + 1).padStart(2, "0")} / ${String(slides.length).padStart(2, "0")}`;
+        };
+        const scheduleUpdate = () => {
+          if (frame) return;
+          frame = window.requestAnimationFrame(update);
+        };
+
+        rail.addEventListener("scroll", scheduleUpdate, { passive: true });
+        window.addEventListener("resize", scheduleUpdate, { passive: true });
+        update();
+      });
+  }
+
   document.addEventListener("DOMContentLoaded", () => {
     if (!document.querySelector("[data-case-detail]")) return;
     initReveals();
     initHeroMedia();
     initMedia();
     initAnimationsStorytelling();
+    initAnimationsCarousel();
     initFocusScrollStories();
     initStillMotion();
     initGalleryCarousels();
     initDragRails();
     initMomentSound();
     initPlans();
+    initHumanizedPlans();
     initChapterNavigation();
     initFilmDialog();
+    initImageDialog();
+    initMobileGalleryRails();
   });
 })();

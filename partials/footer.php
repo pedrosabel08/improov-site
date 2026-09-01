@@ -1,7 +1,7 @@
 <footer class="site-footer">
   <div class="site-footer__grid">
     <div class="footer-brand">
-      <img class="footer-brand__logo" src="<?= escape(asset('assets/IMPROOV_SQUAD.gif')) ?>" alt="Improov">
+      <img class="footer-brand__logo" src="<?= escape(asset('assets/IMPROOV_SQUAD(black).gif')) ?>" alt="Improov">
       <p data-i18n="footer.description">Criamos imagens e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.</p>
     </div>
     <div>

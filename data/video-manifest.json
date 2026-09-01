@@ -3,17 +3,17 @@
   "projects": {
     "ars-vie": {
       "slug": "ars-vie",
-      "generatedAt": "2026-08-27T23:55:14.711593+00:00",
+      "generatedAt": "2026-08-31T23:12:30.090638+00:00",
       "pipelineVersion": 1,
       "publicRoot": "assets/media/ars-vie/v1",
       "profiles": {
-        "animacoes": {
-          "crf": 19,
+        "filmes": {
+          "crf": 21,
           "preset": "slow",
           "audioBitrate": "160k"
         },
-        "filmes": {
-          "crf": 21,
+        "animacoes": {
+          "crf": 19,
           "preset": "slow",
           "audioBitrate": "160k"
         },
@@ -30,9 +30,9 @@
       },
       "curation": {
         "defaults": {
-          "publish": false,
-          "poster": false,
-          "variants": []
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
         },
         "sources": {
           "animacoes/animacao-ars-vie-tracking-0006.mp4": {
@@ -79,11 +79,6 @@
             "publish": true,
             "poster": true,
             "variants": ["1080"]
-          },
-          "animacoes/animacao-ars-vie-tracking-0040.mp4": {
-            "publish": false,
-            "poster": true,
-            "variants": []
           },
           "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
             "publish": true,
@@ -153,11 +148,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 251479152,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-12-ars-vie-quadra.mp4",
@@ -189,11 +187,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 252733235,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-12-ars-vie-quadra-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-12-ars-vie-quadra-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-19-ars-vie-piscina-detalhe.mp4",
@@ -225,11 +226,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 253602743,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-19-ars-vie-piscina-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-detalhe-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-19-ars-vie-piscina-geral.mp4",
@@ -339,11 +343,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 246427995,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-geral-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-28-ars-vie-fire-place-detalhe.mp4",
@@ -375,11 +382,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 242593168,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-28-ars-vie-fire-place-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-28-ars-vie-fire-place-detalhe-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-31-ars-vie-sauna-seca.mp4",
@@ -411,11 +421,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 54881948,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-31-ars-vie-sauna-seca-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-31-ars-vie-sauna-seca-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4",
@@ -603,11 +616,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 255013233,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-bike-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-bike-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-pov-praia.mp4",
@@ -639,11 +655,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 242877871,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-praia-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-praia-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0006.mp4",
@@ -714,12 +733,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 243509261,
           "available": true,
-          "published": false,
-          "publication": "poster-only",
-          "requestedVariants": [],
-          "publicVariants": [],
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0040-poster.webp",
-          "publicSources": {}
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0040-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-ars-vie-tracking-0050.mp4",
@@ -829,11 +850,14 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 251875643,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0138-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0138-1080.mp4"
+          }
         },
         {
           "source": "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4",
@@ -1116,6 +1140,99 @@
       ],
       "videos": [
         {
+          "id": "animacao-07-ars-vie-embasamento-mostrando-acesso",
+          "source": "animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso.mp4",
+          "sourceSha256": "5830931ba7cf084b6044313825d1b89e3d7b0dbe597828ee153030f3f570849e",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 9122356,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-12-ars-vie-quadra",
+          "source": "animacoes/animacao-12-ars-vie-quadra.mp4",
+          "sourceSha256": "a8e4db473e641fd84a36601050b020d6f09831f01a97cd867b50e7048f92eee4",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-12-ars-vie-quadra-poster.webp",
+          "duration": 7.833,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-12-ars-vie-quadra-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 12767998,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-19-ars-vie-piscina-detalhe",
+          "source": "animacoes/animacao-19-ars-vie-piscina-detalhe.mp4",
+          "sourceSha256": "7a182498c0501257f8f005e53e0ea4d00c7178afc35156ef2068e0597562e388",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-19-ars-vie-piscina-detalhe-poster.webp",
+          "duration": 9.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 18835847,
+              "faststart": true
+            }
+          }
+        },
+        {
           "id": "animacao-19-ars-vie-piscina-geral",
           "source": "animacoes/animacao-19-ars-vie-piscina-geral.mp4",
           "sourceSha256": "3cbbb0324a4675ca38477d09c4fa536e73814c0e1e059288efefcdc9052915a4",
@@ -1173,6 +1290,99 @@
               "width": 1920,
               "height": 1080,
               "bytes": 6919892,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-22-ars-vie-redario-geral",
+          "source": "animacoes/animacao-22-ars-vie-redario-geral.mp4",
+          "sourceSha256": "35abbd68c3d3b118b7212ebba3d82c2914f4fc2264a2cb19c78b1d19cdf74ed3",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-geral-poster.webp",
+          "duration": 9.833,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 18959290,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-28-ars-vie-fire-place-detalhe",
+          "source": "animacoes/animacao-28-ars-vie-fire-place-detalhe.mp4",
+          "sourceSha256": "4725bde922e0d84d7ed0f7ca775d450511a468b13299b9090cc848d20dc4c8fc",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-28-ars-vie-fire-place-detalhe-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-28-ars-vie-fire-place-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 11417560,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-31-ars-vie-sauna-seca",
+          "source": "animacoes/animacao-31-ars-vie-sauna-seca.mp4",
+          "sourceSha256": "49e94a7ddd7553b7590776b9b123af87eda007deff935c1e499dc5b9ea0ea793",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-31-ars-vie-sauna-seca-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-31-ars-vie-sauna-seca-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 12066457,
               "faststart": true
             }
           }
@@ -1302,6 +1512,68 @@
           }
         },
         {
+          "id": "animacao-ars-vie-pov-bike",
+          "source": "animacoes/animacao-ars-vie-pov-bike.mp4",
+          "sourceSha256": "927808eeadc79211acd962fdc4e7d0a5abf37840a45b528c2ff0a6cffb9eae3b",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-bike-poster.webp",
+          "duration": 4.505,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-bike-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 9730343,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-ars-vie-pov-praia",
+          "source": "animacoes/animacao-ars-vie-pov-praia.mp4",
+          "sourceSha256": "37f8f33803826f68262aab5d0e2a05b0aebc3d57b5e56df8ba22fefdf710e7bf",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-praia-poster.webp",
+          "duration": 10.767,
+          "width": 3840,
+          "height": 2024,
+          "aspectRatio": "480:253",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-praia-1080.mp4",
+              "width": 1920,
+              "height": 1012,
+              "bytes": 8005470,
+              "faststart": true
+            }
+          }
+        },
+        {
           "id": "animacao-ars-vie-tracking-0006",
           "source": "animacoes/animacao-ars-vie-tracking-0006.mp4",
           "sourceSha256": "7f387c4f5e837beb29e39a6a3c02c8eb35b799418d7cfc7670ab2ab2c231037a",
@@ -1328,6 +1600,37 @@
               "width": 1920,
               "height": 1080,
               "bytes": 55897037,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-ars-vie-tracking-0040",
+          "source": "animacoes/animacao-ars-vie-tracking-0040.mp4",
+          "sourceSha256": "e25f6b35128db508fb8f673b2031e14d35fe0885f3e9b94c907eb1f370f988fb",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0040-poster.webp",
+          "duration": 16.233,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0040-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 13598794,
               "faststart": true
             }
           }
@@ -1390,6 +1693,37 @@
               "width": 1920,
               "height": 1080,
               "bytes": 15381987,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-ars-vie-tracking-0138",
+          "source": "animacoes/animacao-ars-vie-tracking-0138.mp4",
+          "sourceSha256": "d208503bacbf29ddbc901759ae2448b6ab73bd9d5dafbe1eec507b07fb7811a6",
+          "category": "animacoes",
+          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0138-poster.webp",
+          "duration": 30.633,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0138-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 57113410,
               "faststart": true
             }
           }
@@ -1647,34 +1981,20 @@
           }
         }
       ],
-      "posterOnly": [
-        {
-          "id": "animacao-ars-vie-tracking-0040",
-          "source": "animacoes/animacao-ars-vie-tracking-0040.mp4",
-          "sourceSha256": "e25f6b35128db508fb8f673b2031e14d35fe0885f3e9b94c907eb1f370f988fb",
-          "category": "animacoes",
-          "poster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0040-poster.webp",
-          "duration": 16.233,
-          "width": 3840,
-          "height": 2160,
-          "aspectRatio": "16:9",
-          "orientation": "landscape",
-          "pipelineVersion": 1
-        }
-      ],
+      "posterOnly": [],
       "errors": [],
       "summary": {
         "found": 26,
         "inventoried": 26,
-        "processed": 5,
-        "skipped": 16,
+        "processed": 10,
+        "skipped": 21,
         "failed": 0,
-        "postersProcessed": 5,
-        "postersSkipped": 12,
-        "publishedVideos": 16,
-        "publishedPosterOnly": 1,
-        "publishedVariants": 21,
-        "posters": 17
+        "postersProcessed": 9,
+        "postersSkipped": 17,
+        "publishedVideos": 26,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 31,
+        "posters": 26
       }
     }
   }

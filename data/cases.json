@@ -2,7 +2,7 @@
   "version": 4,
   "cases": {
     "ars-vie": {
-      "theme": "dark",
+      "theme": "light",
       "motion": "slow",
       "hero": {
         "video": "animacao-ars-vie-tracking-0050",
@@ -14,8 +14,12 @@
         }
       },
       "services": [
-        { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
-        { "pt-BR": "Animações", "en": "Animations", "es": "Animaciones" },
+        { "pt-BR": "Imagens 3D", "en": "3D Images", "es": "Imágenes 3D" },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D Animations",
+          "es": "Animaciones 3D"
+        },
         {
           "pt-BR": "Plantas Humanizadas",
           "en": "Floor plans",
@@ -26,12 +30,12 @@
           "en": "Sensory moments",
           "es": "Píldoras sensoriales"
         },
-        { "pt-BR": "Filme", "en": "Film", "es": "Film" }
+        { "pt-BR": "Filmes", "en": "Films", "es": "Películas" }
       ],
       "heroFooter": {
-        "pt-BR": "Imagens 3D e Animações 3D",
-        "en": "3D Images and 3D Animations",
-        "es": "Imágenes 3D y Animaciones 3D"
+        "pt-BR": "Imagens 3D · Animações 3D · Plantas · Pílulas · Filme",
+        "en": "3D Images · 3D Animations · Floor plans · Sensory moments · Films",
+        "es": "Imágenes 3D · Animaciones 3D · Plantas · Píldoras sensoriales · Películas"
       },
       "environments": [
         {
@@ -103,8 +107,16 @@
         {
           "type": "gallery",
           "id": "imagens",
-          "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
-          "title": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+          "label": {
+            "pt-BR": "Imagens 3D",
+            "en": "3D Images",
+            "es": "Imágenes 3D"
+          },
+          "title": {
+            "pt-BR": "Imagens 3D",
+            "en": "3D Images",
+            "es": "Imágenes 3D"
+          },
           "groups": [
             {
               "id": "areas-comuns",
@@ -241,14 +253,14 @@
           "type": "animations",
           "id": "animacoes",
           "label": {
-            "pt-BR": "Animações",
-            "en": "Animations",
-            "es": "Animaciones"
+            "pt-BR": "Animações 3D",
+            "en": "3D Animations",
+            "es": "Animaciones 3D"
           },
           "title": {
-            "pt-BR": "Animações",
-            "en": "Animations",
-            "es": "Animaciones"
+            "pt-BR": "Animações 3D",
+            "en": "3D Animations",
+            "es": "Animaciones 3D"
           },
           "steps": [
             {
@@ -361,9 +373,9 @@
             "es": "Plantas Humanizadas"
           },
           "title": {
-            "pt-BR": "Explore o espaço.",
-            "en": "Explore the space.",
-            "es": "Explora el espacio."
+            "pt-BR": "Plantas Humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas Humanizadas"
           },
           "items": [
             {
@@ -420,8 +432,8 @@
         {
           "type": "film",
           "id": "filme",
-          "label": { "pt-BR": "Filme", "en": "Film", "es": "Film" },
-          "eyebrow": { "pt-BR": "Filme", "en": "Film", "es": "Película" },
+          "label": { "pt-BR": "Filmes", "en": "Films", "es": "Películas" },
+          "eyebrow": { "pt-BR": "Filmes", "en": "Films", "es": "Películas" },
           "title": {
             "pt-BR": "A experiência por inteiro.",
             "en": "The complete experience.",
@@ -431,36 +443,34 @@
             {
               "video": "filme-2025-ars-vie-concept-4k-v3",
               "label": {
-                "pt-BR": "Filme do empreendimento",
-                "en": "Development film",
-                "es": "Película del proyecto"
-              },
-              "title": {
-                "pt-BR": "A experiência por inteiro.",
-                "en": "The complete experience.",
-                "es": "La experiencia completa."
+                "pt-BR": "Filme Conceito",
+                "en": "Concept Film",
+                "es": "Película Concepto"
               }
             },
             {
               "video": "filme-2025-ars-kam-vieiras-depoimento-v2-leg",
               "label": {
-                "pt-BR": "Depoimento",
-                "en": "Testimonial",
-                "es": "Testimonio"
-              },
-              "title": {
-                "pt-BR": "A visão sobre o projeto.",
-                "en": "A view of the project.",
-                "es": "Una mirada al proyecto."
+                "pt-BR": "Filme Documental",
+                "en": "Documentary Film",
+                "es": "Película Documental"
               }
             }
           ]
         },
         {
           "type": "closing",
-          "id": "fechamento",
-          "label": { "pt-BR": "Fechamento", "en": "Closing", "es": "Cierre" },
-          "title": { "pt-BR": "Fechamento", "en": "Closing", "es": "Cierre" }
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
         }
       ],
       "credits": {
@@ -491,11 +501,15 @@
             "value": "Improov"
           },
           {
-            "label": { "pt-BR": "Imagens", "en": "Images", "es": "Imágenes" },
+            "label": {
+              "pt-BR": "Imagens 3D",
+              "en": "3D Images",
+              "es": "Imágenes 3D"
+            },
             "value": "Improov"
           },
           {
-            "label": { "pt-BR": "Filme", "en": "Film", "es": "Película" },
+            "label": { "pt-BR": "Filmes", "en": "Films", "es": "Películas" },
             "value": "Improov"
           },
           {

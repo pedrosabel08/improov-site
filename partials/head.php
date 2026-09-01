@@ -16,7 +16,7 @@
   <meta property="og:image" content="<?= escape(canonical_url('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82')) ?>">
   <?php if (!in_array($pageKey, ['privacidade', '404'], true)): ?>
     <link rel="preload" as="image" href="<?= escape(thumbnail_url($metaImage, 1440, 82)) ?>" fetchpriority="high"><?php endif; ?>
-  <meta name="theme-color" content="#050607">
+  <meta name="theme-color" content="#ffffff">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap">
@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/tokens.css')) ?>">
   <link rel="stylesheet" href="<?= escape(asset('assets/css/site.css')) ?>">
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
-  <?php if ($case !== null): ?><link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
+  <?php if ($case !== null): ?>
+    <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
   <link rel="icon" href="<?= escape(asset('assets/favicon.jpg')) ?>" type="image/jpeg">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
