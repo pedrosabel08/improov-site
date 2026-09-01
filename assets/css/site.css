@@ -118,12 +118,7 @@ p {
   align-items: center;
   gap: 28px;
   padding: 0 var(--gutter);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.94),
-    rgba(255, 255, 255, 0.74) 70%,
-    transparent
-  );
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.78), transparent);
   transition:
     background var(--transition),
     border-color var(--transition);
@@ -208,7 +203,7 @@ p {
   padding: 7px 10px;
   border: 0;
   background: transparent;
-  color: var(--color-muted);
+  color: var(--color-text);
   font-size: var(--text-caption);
   cursor: pointer;
 }
