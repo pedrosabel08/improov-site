@@ -1669,7 +1669,7 @@
 /* ARS Vieiras: 4 feature images interleaved with three compact six-image mosaics. */
 .case-v3-gallery-story {
   display: grid;
-  gap: clamp(44px, 6vw, 96px);
+  gap: 50px;
   width: var(--case-media-width);
   margin-inline: auto;
   padding-inline: 0;
