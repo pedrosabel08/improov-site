@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Process project video masters into web-ready H.264 MP4 assets.
+"""Process project or institutional video masters into web-ready H.264 MP4 assets.
 
-The masters stay outside the repository.  The script is intentionally
-project-agnostic: ``python deploy/process-videos.py <slug>`` discovers the
-project under C:\\improov-media-masters\\projetos and updates one shared
-manifest without touching other projects.
+The masters stay outside the repository.  By default the script discovers a
+project under ``C:\\improov-media-masters\\projetos``; ``--source-dir`` also
+allows institutional media to use the exact same codecs, posters and manifest.
 """
 
 from __future__ import annotations
@@ -530,6 +529,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Processa videos master de um projeto para H.264 web.")
     parser.add_argument("slug", help="slug do projeto, por exemplo ars-vie")
     parser.add_argument("--masters-root", default=str(DEFAULT_MASTERS_ROOT), help="raiz de projetos master")
+    parser.add_argument("--source-dir", default=None, help="diretório master explícito (para mídia institucional)")
+    parser.add_argument("--output-slug", default=None, help="slug público em assets/media (padrão: slug)")
+    parser.add_argument("--manifest-key", default=None, help="chave do manifesto (padrão: output-slug)")
     parser.add_argument("--output-root", default=str(DEFAULT_OUTPUT_ROOT), help="raiz publica de assets")
     parser.add_argument("--curation", default=str(CURATION_PATH), help="configuração de publicação por projeto")
     parser.add_argument("--ffmpeg", default=None, help="caminho explícito para ffmpeg")
@@ -539,7 +541,9 @@ def main() -> int:
     parser.add_argument("--no-clean", action="store_true", help="nao remove derivados obsoletos do projeto")
     args = parser.parse_args()
 
-    project_root = Path(args.masters_root) / args.slug
+    project_root = Path(args.source_dir) if args.source_dir else Path(args.masters_root) / args.slug
+    output_slug = args.output_slug or args.slug
+    manifest_key = args.manifest_key or output_slug
     if not project_root.is_dir():
         print(f"Projeto master não encontrado: {project_root}", file=sys.stderr)
         return 2
@@ -554,7 +558,7 @@ def main() -> int:
         print(str(error), file=sys.stderr)
         return 2
 
-    project_curation = curation_for(curation, args.slug)
+    project_curation = curation_for(curation, manifest_key)
 
     sources = sorted((path for path in project_root.rglob("*") if path.is_file() and path.suffix.lower() in VIDEO_EXTENSIONS), key=lambda item: item.as_posix().lower())
     print(f"[{args.slug}] Encontrados {len(sources)} videos")
@@ -578,22 +582,22 @@ def main() -> int:
 
     if args.inventory_only:
         manifest = load_manifest()
-        existing = (manifest.get("projects") or {}).get(args.slug) or {}
+        existing = (manifest.get("projects") or {}).get(manifest_key) or {}
         project_data = dict(existing)
-        project_data.update({"slug": args.slug, "generatedAt": datetime.now(timezone.utc).isoformat(), "pipelineVersion": PIPELINE_VERSION, "curation": project_curation, "inventory": inventory, "errors": errors})
+        project_data.update({"slug": output_slug, "generatedAt": datetime.now(timezone.utc).isoformat(), "pipelineVersion": PIPELINE_VERSION, "curation": project_curation, "inventory": inventory, "errors": errors})
         if args.reindex_existing:
-            output_project = Path(args.output_root) / args.slug / "v1"
+            output_project = Path(args.output_root) / output_slug / "v1"
             videos, poster_only, reindex_errors = reindex_existing(inventory, output_project, ffprobe, project_curation)
             project_data.update({"publicRoot": output_project.relative_to(ROOT).as_posix(), "profiles": {category: profile_for(category) for category in CATEGORIES | {"outros"}}, "videos": videos, "posterOnly": poster_only, "curation": project_curation, "errors": errors + reindex_errors, "summary": {"found": len(sources), "inventoried": len(inventory), "processed": 0, "skipped": sum(len(video["sources"]) for video in videos), "failed": len(reindex_errors), "publishedVideos": len(videos), "publishedPosterOnly": len(poster_only), "publishedVariants": sum(len(video["sources"]) for video in videos), "posters": len(videos) + len(poster_only)}})
-        manifest.setdefault("projects", {})[args.slug] = project_data
+        manifest.setdefault("projects", {})[manifest_key] = project_data
         write_manifest(manifest)
         return 1 if errors else 0
 
-    output_project = Path(args.output_root) / args.slug / "v1"
+    output_project = Path(args.output_root) / output_slug / "v1"
     video_root = output_project / "videos"
     poster_root = output_project / "posters"
     manifest = load_manifest()
-    previous = (manifest.get("projects") or {}).get(args.slug) or {}
+    previous = (manifest.get("projects") or {}).get(manifest_key) or {}
     previous_by_source = {item.get("source"): item for item in previous.get("videos", [])}
     previous_poster_by_source = {item.get("source"): item for item in previous.get("posterOnly", [])}
     profile_by_category = {category: profile_for(category) for category in CATEGORIES | {"outros"}}
@@ -694,7 +698,7 @@ def main() -> int:
                     existing.unlink()
 
     project_manifest = {
-        "slug": args.slug,
+        "slug": output_slug,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "pipelineVersion": PIPELINE_VERSION,
         "publicRoot": output_project.relative_to(ROOT).as_posix(),
@@ -706,7 +710,7 @@ def main() -> int:
         "errors": errors,
         "summary": {"found": len(sources), "inventoried": len(inventory), "processed": processed, "skipped": skipped, "failed": failed, "postersProcessed": posters_processed, "postersSkipped": posters_skipped, "publishedVideos": len(generated_videos), "publishedPosterOnly": len(generated_poster_only), "publishedVariants": sum(len(video["sources"]) for video in generated_videos), "posters": len(generated_videos) + len(generated_poster_only)},
     }
-    manifest.setdefault("projects", {})[args.slug] = project_manifest
+    manifest.setdefault("projects", {})[manifest_key] = project_manifest
     write_manifest(manifest)
     master_bytes = sum(item["bytes"] for item in inventory)
     web_bytes = sum(

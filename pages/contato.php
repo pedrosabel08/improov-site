@@ -6,7 +6,8 @@
         <p data-i18n="contact.intro">Criamos imagens e experiências visuais que transformam projetos de arquitetura e imobiliário em conexões reais.</p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
-        <?= responsive_image('assets\media\ars-vie\v1\hero-1440.jpg', 'Fachada', 1920, 1280, 'editorial-hero__image', '(max-width: 767px) 100vw, (max-width: 1023px) 92vw, 38vw', true, ['data-i18n-alt' => 'contact.heroAlt']) ?>
+        <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>
+        <?php if ($contactVideo !== null): ?><?= lazy_video($contactVideo, 'editorial-hero__image', false, ['data-i18n-alt' => 'contact.heroAlt', 'aria-label' => 'Animação da piscina AYA Karioó']) ?><?php else: ?><?= responsive_image('assets\media\ars-vie\v1\hero-1440.jpg', 'Fachada', 1920, 1280, 'editorial-hero__image', '(max-width: 767px) 100vw, (max-width: 1023px) 92vw, 38vw', true, ['data-i18n-alt' => 'contact.heroAlt']) ?><?php endif; ?>
       </div>
     </div>
   </section>
@@ -32,7 +33,7 @@
     </form>
     <aside class="contact-aside">
       <div class="info-panel">
-        <h2 data-i18n="contact.direct">Fale direto com a gente</h2>
+        <h2 data-i18n="contact.direct">Fale direto conosco</h2>
         <p><strong>E-mail</strong><a href="mailto:<?= escape($site['email']) ?>"><?= escape($site['email']) ?></a></p>
         <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="tel:<?= escape($site['phone']) ?>"><?= escape($site['phoneDisplay']) ?></a></p>
         <p><strong>Instagram</strong><a href="<?= escape($site['social']['Instagram']) ?>" target="_blank" rel="noopener">@improovbr</a></p>

@@ -14,7 +14,7 @@
   <meta property="og:url" content="<?= escape(canonical_url($meta['path'])) ?>">
   <?php $metaImage = str_starts_with($meta['image'], 'assets/') ? $meta['image'] : 'assets/' . $meta['image']; ?>
   <meta property="og:image" content="<?= escape(canonical_url('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82')) ?>">
-  <?php if (!in_array($pageKey, ['privacidade', '404'], true)): ?>
+  <?php if (!in_array($pageKey, ['home', 'quem-somos', 'contato', 'privacidade', '404'], true)): ?>
     <link rel="preload" as="image" href="<?= escape(thumbnail_url($metaImage, 1440, 82)) ?>" fetchpriority="high"><?php endif; ?>
   <meta name="theme-color" content="#ffffff">
   <link rel="preconnect" href="https://fonts.googleapis.com">

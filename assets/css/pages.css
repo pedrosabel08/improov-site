@@ -217,21 +217,26 @@
 .selected-projects .project-grid--home .project-card__overlay small {
   font-size: var(--text-caption);
 }
+
+section.selected-projects.section.container.is-visible {
+  padding-bottom: 0;
+}
+
 .closing-cta {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  min-height: 170px;
-  margin-top: 30px;
+  min-height: clamp(190px, 16vw, 280px);
+  margin: 30px 0;
   padding: 32px clamp(28px, 5vw, 70px);
   overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background:
     linear-gradient(100deg, rgba(20, 24, 26, 0.95), rgba(20, 24, 26, 0.45)),
-    url("../media/site/v1/about-studio-living-1920.webp") center/cover;
+    url("../media/site/v1/closing-cta-1920.webp") center 22% /cover;
 }
 .closing-cta h2 {
   max-width: 600px;
@@ -241,6 +246,7 @@
 }
 .closing-cta .eyebrow {
   margin-bottom: 8px;
+  color: var(--color-closing-cta) !important;
 }
 .button--closing-cta {
   min-width: 188px;
@@ -273,13 +279,39 @@
   align-items: center;
   gap: clamp(50px, 8vw, 130px);
 }
+.manifesto--reverse {
+  grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+}
+.manifesto--reverse .editorial-media {
+  order: -1;
+  align-self: center;
+}
+.manifesto--reverse .editorial-media img,
+.manifesto--reverse .editorial-media__video {
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
 .editorial-copy h2 {
   font-size: clamp(1.44rem, 2.72vw, 2.72rem);
+}
+h2.about-heartmade-title {
+  margin-bottom: 0;
+}
+#pre-about-heartmade{
+  margin-bottom: 0;
 }
 .editorial-copy p {
   line-height: 1.9;
 }
 .editorial-media img {
+  width: 100%;
+  height: clamp(420px, 42vw, 640px);
+  object-fit: cover;
+  border-radius: var(--radius-md);
+}
+.editorial-media__video {
+  display: block;
   width: 100%;
   height: clamp(420px, 42vw, 640px);
   object-fit: cover;
@@ -291,10 +323,10 @@
   gap: clamp(40px, 6vw, 90px);
   align-items: start;
 }
-.studio .section-heading {
+/* .studio .section-heading {
   position: sticky;
   top: 120px;
-}
+} */
 .studio-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -302,7 +334,8 @@
 }
 .studio-gallery img {
   width: 100%;
-  height: 330px;
+  height: auto;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: var(--radius-sm);
 }
@@ -312,8 +345,8 @@
 }
 .location-section {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: clamp(40px, 8vw, 140px);
+  grid-template-columns: minmax(260px, 38fr) minmax(0, 62fr);
+  gap: clamp(32px, 5vw, 76px);
   align-items: center;
 }
 .location-section h2 {
@@ -323,9 +356,12 @@
   max-width: 370px;
   font-size: var(--text-body);
 }
+.location-info {
+  align-self: center;
+}
 .location-visual {
   position: relative;
-  height: clamp(280px, 36vw, 520px);
+  height: 100%;
   overflow: hidden;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
@@ -456,6 +492,14 @@
   align-items: center;
   gap: clamp(36px, 7vw, 112px);
 }
+.editorial-hero--careers .editorial-hero__inner {
+  align-items: stretch;
+}
+.editorial-hero--careers .editorial-hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .editorial-hero__content {
   position: relative;
   z-index: 2;
@@ -491,6 +535,12 @@
   background: transparent;
   box-shadow: none;
   isolation: isolate;
+}
+.editorial-hero--careers .editorial-hero__media,
+.editorial-hero--careers .making-of-stage,
+.editorial-hero--careers .making-of-video {
+  min-height: 0;
+  height: 100%;
 }
 .editorial-hero__media--careers::before {
   content: "";
@@ -899,6 +949,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .manifesto,
+  .manifesto--reverse,
   .studio,
   .location-section {
     grid-template-columns: 1fr;
@@ -1015,7 +1066,7 @@
   .studio-gallery img,
   .studio-gallery__wide {
     grid-column: auto;
-    height: 310px !important;
+    height: auto !important;
   }
   .location-visual {
     min-height: 280px;

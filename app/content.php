@@ -130,3 +130,75 @@ function responsive_image(
         $extraAttributes
     );
 }
+
+function video_manifest(): array
+{
+    static $manifest;
+    if ($manifest !== null) {
+        return $manifest;
+    }
+    $path = APP_ROOT . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'video-manifest.json';
+    if (!is_file($path)) {
+        return $manifest = [];
+    }
+    $decoded = json_decode((string) file_get_contents($path), true);
+    return $manifest = is_array($decoded) ? $decoded : [];
+}
+
+function find_video(string $manifestKey, string $videoId): ?array
+{
+    $videos = video_manifest()['projects'][$manifestKey]['videos'] ?? [];
+    if (!is_array($videos)) {
+        return null;
+    }
+    foreach ($videos as $video) {
+        if (is_array($video) && ($video['id'] ?? '') === $videoId) {
+            return $video;
+        }
+    }
+    return null;
+}
+
+function project_animation(array $project): ?array
+{
+    $animation = $project['media']['animation'] ?? null;
+    if (!is_array($animation)) {
+        return null;
+    }
+    $manifest = (string) ($animation['manifest'] ?? '');
+    $id = (string) ($animation['id'] ?? '');
+    return $manifest !== '' && $id !== '' ? find_video($manifest, $id) : null;
+}
+
+function lazy_video(array $video, string $class = '', bool $priority = false, array $attributes = []): string
+{
+    $sources = $video['sources'] ?? [];
+    if (!is_array($sources) || $sources === []) {
+        return '';
+    }
+    krsort($sources, SORT_NUMERIC);
+    $source = reset($sources);
+    $src = is_array($source) ? (string) ($source['src'] ?? '') : '';
+    $poster = (string) ($video['poster'] ?? '');
+    $width = max(1, (int) ($video['width'] ?? 1920));
+    $height = max(1, (int) ($video['height'] ?? 1080));
+    if ($src === '' || $poster === '') {
+        return '';
+    }
+    $extra = '';
+    foreach ($attributes as $name => $value) {
+        if (preg_match('/^(data-[a-z0-9-]+|aria-[a-z0-9-]+)$/', (string) $name) === 1) {
+            $extra .= sprintf(' %s="%s"', $name, escape((string) $value));
+        }
+    }
+    return sprintf(
+        '<video class="%s" width="%d" height="%d" poster="%s" preload="none" muted loop playsinline data-lazy-video data-video-src="%s"%s%s></video>',
+        escape($class),
+        $width,
+        $height,
+        escape(asset($poster)),
+        escape(asset($src)),
+        $priority ? ' data-lazy-video-priority' : '',
+        $extra
+    );
+}

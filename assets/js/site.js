@@ -1,6 +1,64 @@
 (function () {
   "use strict";
   document.addEventListener("DOMContentLoaded", function () {
+    const initLazyVideos = () => {
+      const videos = Array.from(document.querySelectorAll("[data-lazy-video]"));
+      if (!videos.length) return;
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+      const hydrate = (video) => {
+        if (video.dataset.loaded === "true") return;
+        const src = video.dataset.videoSrc;
+        if (!src) return;
+        video.src = src;
+        video.dataset.loaded = "true";
+        video.load();
+      };
+      const play = (video) => {
+        if (reducedMotion.matches || video.dataset.videoAutoplay === "false") return;
+        hydrate(video);
+        const result = video.play();
+        if (result) result.catch(() => {});
+      };
+      const pause = (video) => video.pause();
+      const priority = videos.filter((video) => video.hasAttribute("data-lazy-video-priority"));
+
+      priority.forEach((video) => {
+        hydrate(video);
+        play(video);
+      });
+      if (!("IntersectionObserver" in window)) {
+        videos.filter((video) => !priority.includes(video)).forEach(hydrate);
+        return;
+      }
+
+      const loader = new IntersectionObserver(
+        (entries) => entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            hydrate(entry.target);
+            loader.unobserve(entry.target);
+          }
+        }),
+        { rootMargin: "200px 120px", threshold: 0.01 },
+      );
+      const player = new IntersectionObserver(
+        (entries) => entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.35) play(entry.target);
+          else if (!entry.isIntersecting || entry.intersectionRatio < 0.15) pause(entry.target);
+        }),
+        { threshold: [0, 0.15, 0.35, 0.75] },
+      );
+      videos.forEach((video) => {
+        video.addEventListener("pointerdown", () => hydrate(video), {
+          passive: true,
+        });
+        video.addEventListener("focus", () => hydrate(video), { passive: true });
+        if (priority.includes(video)) return;
+        loader.observe(video);
+        player.observe(video);
+      });
+    };
+
+    initLazyVideos();
     const header = document.querySelector("[data-site-header]");
     const toggle = document.querySelector(".menu-toggle");
     const menu = document.querySelector(".mobile-menu");

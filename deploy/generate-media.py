@@ -62,9 +62,14 @@ def resolve_master(source: str) -> Path:
 
 
 def add_entry(
-    mapping: dict, manifest_media: list, source: str, output_slug: str, name: str
+    mapping: dict,
+    manifest_media: list,
+    source: str,
+    output_slug: str,
+    name: str,
+    master_source: str | None = None,
 ) -> None:
-    master = resolve_master(source)
+    master = resolve_master(master_source or source)
     relative_base = f"assets/media/{output_slug}/v1/{name}"
     entry = {
         "source": source,
@@ -131,19 +136,24 @@ def main() -> int:
         manifest["projects"].append({"slug": slug, "mediaVersion": 1, "media": media})
 
     site_sources = {
-        "home-hero": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
-        "careers-hero": "assets/BHE_INF_Coworking_EF.jpg",
-        "contact-hero": "assets/BHE_INF_Fachada_Extra.jpg",
-        "about-hero": "assets/BHE_INF_Coworking_EF.jpg",
-        "about-manifesto": "assets/BHE_INF_Piscina_EF.jpg",
-        "about-studio-wide": "assets/BHE_INF_Coworking_EF.jpg",
-        "about-studio-living": "assets/BHE_INF_Living_Diferenciado_EF.jpg",
-        "about-studio-adega": "assets/BHE_INF_Adega_EF.jpg",
-        "about-studio-fireplace": "assets/BHE_INF_Fireplace_EF.jpg",
+        "home-hero": ("assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg", None),
+        "careers-hero": ("assets/BHE_INF_Coworking_EF.jpg", None),
+        "contact-hero": ("assets/BHE_INF_Fachada_Extra.jpg", None),
+        "about-hero": ("assets/BHE_INF_Coworking_EF.jpg", None),
+        "about-manifesto": ("assets/BHE_INF_Piscina_EF.jpg", None),
+        "about-studio-wide": ("assets/BHE_INF_Coworking_EF.jpg", None),
+        "about-studio-living": ("assets/BHE_INF_Living_Diferenciado_EF.jpg", None),
+        "about-studio-adega": ("assets/BHE_INF_Adega_EF.jpg", None),
+        "about-studio-fireplace": ("assets/BHE_INF_Fireplace_EF.jpg", None),
+        "site/closing-cta": ("1.GT_LAC_Fotomontagem_aerea_com_insercao_do_empreendimento_em_terreno_real_angulo_1_EF.jpg", "1.GT_LAC_Fotomontagem_aerea_com_insercao_do_empreendimento_em_terreno_real_angulo_1_EF.jpg"),
+        "site/about-studio-01": ("DSCF0764.JPG", "DSCF0764.JPG"),
+        "site/about-studio-02": ("DSCF5349.JPG", "DSCF5349.JPG"),
+        "site/about-studio-03": ("DSCF5360.JPG", "DSCF5360.JPG"),
+        "site/about-studio-04": ("DSCF5369.JPG", "DSCF5369.JPG"),
     }
-    for name, source in site_sources.items():
+    for name, (source, master_source) in site_sources.items():
         media = []
-        add_entry(mapping, media, source, "site", name)
+        add_entry(mapping, media, source, "site", name.replace("site/", ""), master_source)
         manifest["site"].extend(media)
 
     MAP_PATH.write_text(

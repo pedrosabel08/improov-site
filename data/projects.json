@@ -29,6 +29,10 @@
           "width": 5272,
           "height": 3948
         },
+        "animation": {
+          "manifest": "ars-vie",
+          "id": "animacao-ars-vie-tracking-0050"
+        },
         "gallery": [
           {
             "src": "assets/projetos/ars-vie/imagens/imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg",
@@ -266,6 +270,10 @@
               "jpg": "assets/media/site/v1/home-hero-1920.jpg"
             }
           }
+        },
+        "animation": {
+          "manifest": "site",
+          "id": "6-aya-kar-piscina-maior"
         },
         "gallery": [
           {

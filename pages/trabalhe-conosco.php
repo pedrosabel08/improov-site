@@ -8,9 +8,7 @@
       </div>
       <div class="editorial-hero__media editorial-hero__media--careers">
         <div class="making-of-stage">
-          <video class="making-of-video" autoplay muted loop playsinline preload="metadata" poster="<?= escape(asset('assets/BHE_INF_Coworking_EF.jpg')) ?>" aria-label="Making-of TALLS Solutions">
-            <source src="<?= escape(asset('assets/making-of-talls-solutions.mp4')) ?>" type="video/mp4">
-          </video>
+          <video class="making-of-video" width="1920" height="1080" muted loop playsinline preload="none" poster="<?= escape(asset('assets/BHE_INF_Coworking_EF.jpg')) ?>" data-lazy-video data-video-src="<?= escape(asset('assets/making-of-talls-solutions.mp4')) ?>" aria-label="Making-of TALLS Solutions"></video>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 <main id="conteudo">
+  <?php $heroProject = null; foreach (home_projects() as $project) { if (project_animation($project) !== null) { $heroProject = $project; break; } } ?>
   <section class="hero hero--home">
-    <div class="hero__media"><?= responsive_image('assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg', 'Arquitetura contemporânea integrada à paisagem', 1920, 1080, 'hero__image', '100vw', true, ['data-i18n-alt' => 'home.heroAlt']) ?></div>
+    <div class="hero__media"><?php if ($heroProject !== null): ?><?= lazy_video(project_animation($heroProject), 'hero__image', true, ['data-i18n-alt' => 'home.heroAlt', 'aria-label' => 'Animação arquitetônica']) ?><?php else: ?><?= responsive_image('assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg', 'Arquitetura contemporânea integrada à paisagem', 1920, 1080, 'hero__image', '100vw', true, ['data-i18n-alt' => 'home.heroAlt']) ?><?php endif; ?></div>
     <div class="hero__shade"></div>
     <div class="hero__content container">
       <p class="eyebrow" data-i18n="home.eyebrow">Imagens que</p>

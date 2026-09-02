@@ -431,6 +431,22 @@
   aspect-ratio: auto;
   object-fit: cover;
 }
+.case-v3-gallery__rail-item .case-v3-gallery__video,
+.case-v3-gallery__image-trigger {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.case-v3-gallery__rail-item .case-v3-gallery__video {
+  object-fit: cover;
+}
+.case-v3-gallery__image-trigger,
+.case-v3-interlude__image-trigger {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
 .case-v3-gallery__rail-item figcaption {
   opacity: 0;
   transition: opacity 0.35s ease;
@@ -493,6 +509,58 @@
 .case-v3-gallery__carousel-meta p:last-child {
   color: var(--color-muted);
   font-size: 0.65rem;
+}
+.case-v3-interlude {
+  padding-top: clamp(20px, 4vw, 72px);
+  padding-bottom: var(--case-section-space-lg);
+}
+.case-v3-interlude__heading {
+  margin-bottom: clamp(22px, 3vw, 46px);
+}
+.case-v3-interlude__items {
+  display: grid;
+  width: min(86vw, 1320px);
+  gap: clamp(28px, 5vw, 86px);
+}
+.case-v3-interlude__item {
+  position: relative;
+  min-height: min(60svh, 760px);
+  margin: 0;
+  overflow: hidden;
+  isolation: isolate;
+  background: var(--color-surface);
+}
+.case-v3-interlude__item::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 28%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.42), transparent);
+  pointer-events: none;
+}
+.case-v3-interlude__item .case-v3-image,
+.case-v3-interlude__image-trigger,
+.case-v3-interlude__video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.case-v3-interlude__item figcaption {
+  position: absolute;
+  right: 18px;
+  bottom: 16px;
+  left: 18px;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.96);
+  font-size: 0.64rem;
+  letter-spacing: 0.12em;
+  line-height: 1.25;
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
 }
 .case-v3-still-motion {
   padding-bottom: var(--case-section-space-xl);
@@ -1338,11 +1406,32 @@
     height: auto;
     aspect-ratio: 1.35 / 1;
   }
+  .case-v3-gallery__rail-item .case-v3-gallery__video {
+    height: min(66.67vw, 480px);
+  }
   .case-v3-gallery__carousel-control {
     display: none;
   }
   .case-v3-gallery__carousel-meta {
     padding-inline: var(--gutter);
+  }
+  .case-v3-interlude {
+    padding-top: 16px;
+    padding-bottom: 92px;
+  }
+  .case-v3-interlude__items {
+    width: 100%;
+    gap: 26px;
+  }
+  .case-v3-interlude__item {
+    min-height: 0;
+    aspect-ratio: 1.35 / 1;
+  }
+  .case-v3-interlude__item figcaption {
+    right: 12px;
+    bottom: 11px;
+    left: 12px;
+    font-size: 0.58rem;
   }
   .case-v3-still-motion {
     padding-bottom: 120px;

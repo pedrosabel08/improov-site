@@ -30,9 +30,7 @@
     </dl>
   </section>
   <section class="project-gallery section container"><?php foreach ($project['media']['gallery'] as $index => $image): ?><?= responsive_image($image['src'], translated($hero['alt']) . ' — ' . ($index + 1), (int)$image['width'], (int)$image['height'], $index === 0 ? 'project-gallery__wide' : '', '(max-width: 767px) 100vw, 50vw') ?><?php endforeach; ?></section>
-  <?php if (!empty($project['media']['film']['src'])): ?><section class="project-film section container"><span class="eyebrow" data-i18n="project.film">Filme</span><video controls playsinline preload="metadata" poster="<?= escape(thumbnail_url($project['media']['film']['poster'], 1440)) ?>">
-        <source src="<?= escape(asset($project['media']['film']['src'])) ?>" type="video/mp4">
-      </video></section><?php endif; ?>
+  <?php if (!empty($project['media']['film']['src'])): ?><section class="project-film section container"><span class="eyebrow" data-i18n="project.film">Filme</span><video controls playsinline preload="none" poster="<?= escape(thumbnail_url($project['media']['film']['poster'], 1440)) ?>" data-lazy-video data-video-autoplay="false" data-video-src="<?= escape(asset($project['media']['film']['src'])) ?>"></video></section><?php endif; ?>
   <div class="container"><?php require APP_ROOT . '/partials/closing-cta.php'; ?></div>
   <script type="application/json" id="projects-data">
     <?= json_encode(['projects' => all_projects()], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>

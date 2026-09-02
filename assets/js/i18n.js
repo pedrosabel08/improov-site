@@ -82,6 +82,8 @@
         "Somos uma empresa especializada em comunicação para o mercado imobiliário, criando imagens, filmes, animações e experiências visuais capazes de transformar projetos em desejo.",
       "about.manifestoP2":
         "Mais do que representar aquilo que ainda será construído, traduzimos a essência de cada empreendimento. Buscamos revelar sua identidade, sua atmosfera e a história que existe por trás da arquitetura.",
+      "about.manifestoP3":
+        "Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.",
       "about.heartmadeIntro":
         "Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.",
       "about.heartmadeDetails":
@@ -139,7 +141,7 @@
       "contact.message": "Como podemos ajudar?",
       "contact.attachment": "Anexo opcional",
       "contact.submit": "Enviar mensagem",
-      "contact.direct": "Fale direto com a gente",
+      "contact.direct": "Fale direto conosco",
       "contact.phoneLabel": "Telefone / WhatsApp",
       "contact.addressTitle": "Nosso endereço",
       "contact.hoursTitle": "Horário de atendimento",
@@ -173,7 +175,7 @@
       "project.film": "Filme",
       "cta.eyebrow": "Vamos conversar?",
       "cta.title": "Seu próximo projeto começa com uma boa imagem.",
-      "cta.action": "Falar com a gente",
+      "cta.action": "Fale conosco",
       "privacy.eyebrow": "Privacidade",
       "privacy.title": "Política de Privacidade",
       "privacy.intro":

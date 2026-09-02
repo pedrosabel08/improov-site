@@ -1,6 +1,35 @@
 {
   "version": 1,
   "projects": {
+    "site": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "6.AYA_KAR Piscina Maior.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Quem somos-20260901T230203Z-1-001/Quem somos/Banner/FG_Talls_F_1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Heartmade/19.ARS_VIE Piscina_Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Improov/2021_0608_OMNI Promo v.01(assinatura) 2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
+      }
+    },
     "ars-vie": {
       "defaults": {
         "publish": true,

@@ -1,312 +1,4 @@
 {
-  "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg": {
-    "source": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
-    "base": "assets/media/site/v1/home-hero",
-    "width": 5000,
-    "height": 3798,
-    "sources": {
-      "640": {
-        "avif": "assets/media/site/v1/home-hero-640.avif",
-        "webp": "assets/media/site/v1/home-hero-640.webp",
-        "jpg": "assets/media/site/v1/home-hero-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/site/v1/home-hero-1024.avif",
-        "webp": "assets/media/site/v1/home-hero-1024.webp",
-        "jpg": "assets/media/site/v1/home-hero-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/site/v1/home-hero-1440.avif",
-        "webp": "assets/media/site/v1/home-hero-1440.webp",
-        "jpg": "assets/media/site/v1/home-hero-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/site/v1/home-hero-1920.avif",
-        "webp": "assets/media/site/v1/home-hero-1920.webp",
-        "jpg": "assets/media/site/v1/home-hero-1920.jpg"
-      }
-    }
-  },
-  "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg": {
-    "source": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
-    "base": "assets/media/aya-kar/v1/gallery-01",
-    "width": 5000,
-    "height": 3798,
-    "sources": {
-      "640": {
-        "avif": "assets/media/aya-kar/v1/gallery-01-640.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-01-640.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-01-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/aya-kar/v1/gallery-01-1024.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-01-1024.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-01-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/aya-kar/v1/gallery-01-1440.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-01-1440.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-01-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/aya-kar/v1/gallery-01-1920.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-01-1920.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-01-1920.jpg"
-      }
-    }
-  },
-  "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg": {
-    "source": "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg",
-    "base": "assets/media/aya-kar/v1/gallery-02",
-    "width": 5000,
-    "height": 3798,
-    "sources": {
-      "640": {
-        "avif": "assets/media/aya-kar/v1/gallery-02-640.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-02-640.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-02-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/aya-kar/v1/gallery-02-1024.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-02-1024.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-02-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/aya-kar/v1/gallery-02-1440.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-02-1440.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-02-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/aya-kar/v1/gallery-02-1920.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-02-1920.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-02-1920.jpg"
-      }
-    }
-  },
-  "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg": {
-    "source": "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg",
-    "base": "assets/media/aya-kar/v1/gallery-03",
-    "width": 5000,
-    "height": 5000,
-    "sources": {
-      "640": {
-        "avif": "assets/media/aya-kar/v1/gallery-03-640.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-03-640.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-03-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/aya-kar/v1/gallery-03-1024.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-03-1024.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-03-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/aya-kar/v1/gallery-03-1440.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-03-1440.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-03-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/aya-kar/v1/gallery-03-1920.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-03-1920.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-03-1920.jpg"
-      }
-    }
-  },
-  "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg": {
-    "source": "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg",
-    "base": "assets/media/aya-kar/v1/gallery-04",
-    "width": 5163,
-    "height": 3000,
-    "sources": {
-      "640": {
-        "avif": "assets/media/aya-kar/v1/gallery-04-640.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-04-640.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-04-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/aya-kar/v1/gallery-04-1024.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-04-1024.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-04-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/aya-kar/v1/gallery-04-1440.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-04-1440.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-04-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/aya-kar/v1/gallery-04-1920.avif",
-        "webp": "assets/media/aya-kar/v1/gallery-04-1920.webp",
-        "jpg": "assets/media/aya-kar/v1/gallery-04-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Academia_EF.jpg": {
-    "source": "assets/BHE_INF_Academia_EF.jpg",
-    "base": "assets/media/academia-energia-urbana/v1/gallery-01",
-    "width": 5000,
-    "height": 3126,
-    "sources": {
-      "640": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Embasamento_EF.jpg": {
-    "source": "assets/BHE_INF_Embasamento_EF.jpg",
-    "base": "assets/media/academia-energia-urbana/v1/gallery-02",
-    "width": 5000,
-    "height": 3644,
-    "sources": {
-      "640": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-640.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-640.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1024.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1024.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1440.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1440.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1920.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1920.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Adega_EF.jpg": {
-    "source": "assets/BHE_INF_Adega_EF.jpg",
-    "base": "assets/media/site/v1/about-studio-adega",
-    "width": 5000,
-    "height": 4164,
-    "sources": {
-      "640": {
-        "avif": "assets/media/site/v1/about-studio-adega-640.avif",
-        "webp": "assets/media/site/v1/about-studio-adega-640.webp",
-        "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
-        "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
-        "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
-        "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
-        "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
-        "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
-        "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Living_Diferenciado_EF.jpg": {
-    "source": "assets/BHE_INF_Living_Diferenciado_EF.jpg",
-    "base": "assets/media/site/v1/about-studio-living",
-    "width": 5000,
-    "height": 3798,
-    "sources": {
-      "640": {
-        "avif": "assets/media/site/v1/about-studio-living-640.avif",
-        "webp": "assets/media/site/v1/about-studio-living-640.webp",
-        "jpg": "assets/media/site/v1/about-studio-living-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/site/v1/about-studio-living-1024.avif",
-        "webp": "assets/media/site/v1/about-studio-living-1024.webp",
-        "jpg": "assets/media/site/v1/about-studio-living-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/site/v1/about-studio-living-1440.avif",
-        "webp": "assets/media/site/v1/about-studio-living-1440.webp",
-        "jpg": "assets/media/site/v1/about-studio-living-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/site/v1/about-studio-living-1920.avif",
-        "webp": "assets/media/site/v1/about-studio-living-1920.webp",
-        "jpg": "assets/media/site/v1/about-studio-living-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Brinquedoteca_EF.jpg": {
-    "source": "assets/BHE_INF_Brinquedoteca_EF.jpg",
-    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01",
-    "width": 5000,
-    "height": 3846,
-    "sources": {
-      "640": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Jogos_EF.jpg": {
-    "source": "assets/BHE_INF_Jogos_EF.jpg",
-    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02",
-    "width": 5000,
-    "height": 3846,
-    "sources": {
-      "640": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.jpg"
-      }
-    }
-  },
   "assets/projetos/ars-vie/imagens/imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg": {
     "source": "assets/projetos/ars-vie/imagens/imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg",
     "base": "assets/media/ars-vie/v1/hero",
@@ -1203,6 +895,314 @@
       }
     }
   },
+  "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg": {
+    "source": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
+    "base": "assets/media/site/v1/home-hero",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/home-hero-640.avif",
+        "webp": "assets/media/site/v1/home-hero-640.webp",
+        "jpg": "assets/media/site/v1/home-hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/home-hero-1024.avif",
+        "webp": "assets/media/site/v1/home-hero-1024.webp",
+        "jpg": "assets/media/site/v1/home-hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/home-hero-1440.avif",
+        "webp": "assets/media/site/v1/home-hero-1440.webp",
+        "jpg": "assets/media/site/v1/home-hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/home-hero-1920.avif",
+        "webp": "assets/media/site/v1/home-hero-1920.webp",
+        "jpg": "assets/media/site/v1/home-hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg": {
+    "source": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-01",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-01-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-01-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-01-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-01-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-01-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg": {
+    "source": "assets/projetos/AYA_KAR/4.AYA_KAR_Rampa_da_garagem_com_rasgo_e_Arvore_EF_2_1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-02",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-02-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-02-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-02-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-02-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-02-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg": {
+    "source": "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-03",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-03-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-03-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-03-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-03-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-03-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg": {
+    "source": "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-04",
+    "width": 5163,
+    "height": 3000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-04-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-04-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-04-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-04-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-04-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Academia_EF.jpg": {
+    "source": "assets/BHE_INF_Academia_EF.jpg",
+    "base": "assets/media/academia-energia-urbana/v1/gallery-01",
+    "width": 5000,
+    "height": 3126,
+    "sources": {
+      "640": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Embasamento_EF.jpg": {
+    "source": "assets/BHE_INF_Embasamento_EF.jpg",
+    "base": "assets/media/academia-energia-urbana/v1/gallery-02",
+    "width": 5000,
+    "height": 3644,
+    "sources": {
+      "640": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-640.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-640.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1024.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1440.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1920.avif",
+        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Adega_EF.jpg": {
+    "source": "assets/BHE_INF_Adega_EF.jpg",
+    "base": "assets/media/site/v1/about-studio-adega",
+    "width": 5000,
+    "height": 4164,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-adega-640.avif",
+        "webp": "assets/media/site/v1/about-studio-adega-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-adega-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-adega-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-adega-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-adega-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-adega-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-adega-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-adega-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-adega-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-adega-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-adega-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Living_Diferenciado_EF.jpg": {
+    "source": "assets/BHE_INF_Living_Diferenciado_EF.jpg",
+    "base": "assets/media/site/v1/about-studio-living",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-living-640.avif",
+        "webp": "assets/media/site/v1/about-studio-living-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-living-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-living-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-living-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-living-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-living-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-living-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-living-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-living-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-living-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-living-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Brinquedoteca_EF.jpg": {
+    "source": "assets/BHE_INF_Brinquedoteca_EF.jpg",
+    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01",
+    "width": 5000,
+    "height": 3846,
+    "sources": {
+      "640": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/BHE_INF_Jogos_EF.jpg": {
+    "source": "assets/BHE_INF_Jogos_EF.jpg",
+    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02",
+    "width": 5000,
+    "height": 3846,
+    "sources": {
+      "640": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.avif",
+        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
   "assets/BHE_INF_Coworking_EF.jpg": {
     "source": "assets/BHE_INF_Coworking_EF.jpg",
     "base": "assets/media/site/v1/about-studio-wide",
@@ -1312,6 +1312,146 @@
         "avif": "assets/media/site/v1/about-studio-fireplace-1920.avif",
         "webp": "assets/media/site/v1/about-studio-fireplace-1920.webp",
         "jpg": "assets/media/site/v1/about-studio-fireplace-1920.jpg"
+      }
+    }
+  },
+  "1.GT_LAC_Fotomontagem_aerea_com_insercao_do_empreendimento_em_terreno_real_angulo_1_EF.jpg": {
+    "source": "1.GT_LAC_Fotomontagem_aerea_com_insercao_do_empreendimento_em_terreno_real_angulo_1_EF.jpg",
+    "base": "assets/media/site/v1/closing-cta",
+    "width": 7500,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/closing-cta-640.avif",
+        "webp": "assets/media/site/v1/closing-cta-640.webp",
+        "jpg": "assets/media/site/v1/closing-cta-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/closing-cta-1024.avif",
+        "webp": "assets/media/site/v1/closing-cta-1024.webp",
+        "jpg": "assets/media/site/v1/closing-cta-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/closing-cta-1440.avif",
+        "webp": "assets/media/site/v1/closing-cta-1440.webp",
+        "jpg": "assets/media/site/v1/closing-cta-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/closing-cta-1920.avif",
+        "webp": "assets/media/site/v1/closing-cta-1920.webp",
+        "jpg": "assets/media/site/v1/closing-cta-1920.jpg"
+      }
+    }
+  },
+  "DSCF0764.JPG": {
+    "source": "DSCF0764.JPG",
+    "base": "assets/media/site/v1/about-studio-01",
+    "width": 7728,
+    "height": 4344,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-01-640.avif",
+        "webp": "assets/media/site/v1/about-studio-01-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-01-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-01-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-01-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-01-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-01-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-01-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-01-1920.jpg"
+      }
+    }
+  },
+  "DSCF5349.JPG": {
+    "source": "DSCF5349.JPG",
+    "base": "assets/media/site/v1/about-studio-02",
+    "width": 7728,
+    "height": 4344,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-02-640.avif",
+        "webp": "assets/media/site/v1/about-studio-02-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-02-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-02-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-02-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-02-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-02-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-02-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-02-1920.jpg"
+      }
+    }
+  },
+  "DSCF5360.JPG": {
+    "source": "DSCF5360.JPG",
+    "base": "assets/media/site/v1/about-studio-03",
+    "width": 7728,
+    "height": 4344,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-03-640.avif",
+        "webp": "assets/media/site/v1/about-studio-03-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-03-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-03-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-03-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-03-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-03-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-03-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-03-1920.jpg"
+      }
+    }
+  },
+  "DSCF5369.JPG": {
+    "source": "DSCF5369.JPG",
+    "base": "assets/media/site/v1/about-studio-04",
+    "width": 7728,
+    "height": 4344,
+    "sources": {
+      "640": {
+        "avif": "assets/media/site/v1/about-studio-04-640.avif",
+        "webp": "assets/media/site/v1/about-studio-04-640.webp",
+        "jpg": "assets/media/site/v1/about-studio-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/site/v1/about-studio-04-1024.avif",
+        "webp": "assets/media/site/v1/about-studio-04-1024.webp",
+        "jpg": "assets/media/site/v1/about-studio-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/site/v1/about-studio-04-1440.avif",
+        "webp": "assets/media/site/v1/about-studio-04-1440.webp",
+        "jpg": "assets/media/site/v1/about-studio-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/site/v1/about-studio-04-1920.avif",
+        "webp": "assets/media/site/v1/about-studio-04-1920.webp",
+        "jpg": "assets/media/site/v1/about-studio-04-1920.jpg"
       }
     }
   }

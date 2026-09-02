@@ -130,6 +130,17 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
     }
     return false;
   }
+  if ($type === 'carousel' || $type === 'interlude') {
+    foreach ($section['items'] ?? [] as $item) {
+      if (!is_array($item)) {
+        continue;
+      }
+      if ($imageExists($item['src'] ?? null) || $videoFor($item['mediaId'] ?? $item['video'] ?? null) !== null) {
+        return true;
+      }
+    }
+    return false;
+  }
   if ($type === 'stillMotion') {
     $environment = $environmentMap[(string) ($section['environment'] ?? '')] ?? null;
     return is_array($environment) && $imageExists($environment['still'] ?? null);
@@ -191,6 +202,146 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
   return false;
 };
 $configuredSections = is_array($case['sections'] ?? null) ? $case['sections'] : [];
+
+// Cases are composed from a single editorial rhythm: each deliverable family
+// appears as a carousel, with the selected key views placed as full media
+// interludes between them. Keep the inventory in this config so additional
+// cases can use the same two section types without a custom template.
+if (($project['slug'] ?? '') === 'ars-vie') {
+  $text = static fn(string $pt, string $en, string $es): array => ['pt-BR' => $pt, 'en' => $en, 'es' => $es];
+  $arsImage = static fn(string $file, mixed $label): array => [
+    'src' => 'assets/projetos/ars-vie/imagens/' . $file,
+    'label' => $label,
+  ];
+  $sourceSections = $configuredSections;
+  $floorplanItems = [];
+  $knownPlans = [];
+  foreach ($sourceSections as $sourceSection) {
+    if (!is_array($sourceSection) || ($sourceSection['type'] ?? '') !== 'floorplans') {
+      continue;
+    }
+    foreach ($sourceSection['items'] ?? [] as $plan) {
+      if (!is_array($plan) || !is_string($plan['src'] ?? null)) {
+        continue;
+      }
+      $knownPlans[$plan['src']] = true;
+      $floorplanItems[] = $plan;
+    }
+  }
+  foreach ($project['media']['gallery'] ?? [] as $plan) {
+    $source = is_array($plan) ? (string) ($plan['src'] ?? '') : '';
+    if ($source === '' || !str_contains($source, '/plantas/') || isset($knownPlans[$source])) {
+      continue;
+    }
+    $knownPlans[$source] = true;
+    $floorplanItems[] = ['src' => $source, 'label' => $mediaLabel($source, 'Planta')];
+  }
+
+  $standaloneAnimationIds = [
+    'animacao-19-ars-vie-piscina-geral',
+    'animacao-36-ars-vie-suite-master-apto-tipo-1-vista',
+    'animacao-ars-vie-tracking-0006',
+    'animacao-ars-vie-tracking-0050',
+  ];
+  $animationItems = [];
+  foreach ($caseVideos as $id => $video) {
+    if (($video['category'] ?? '') !== 'animacoes' || in_array($id, $standaloneAnimationIds, true)) {
+      continue;
+    }
+    $animationItems[] = ['mediaId' => $id, 'label' => $mediaLabel((string) ($video['source'] ?? $id), 'Animação')];
+  }
+  $pillItems = [];
+  foreach ($environmentMap as $environment) {
+    $pillId = $environment['pill'] ?? null;
+    if ($videoFor($pillId) !== null) {
+      $pillItems[] = ['mediaId' => $pillId, 'label' => $environment['label'] ?? 'Pílula sensorial'];
+    }
+  }
+  $tailSections = array_values(array_filter($sourceSections, static fn(array $section): bool => in_array($section['type'] ?? '', ['film', 'closing'], true)));
+  $configuredSections = [
+    [
+      'type' => 'carousel', 'id' => 'fachadas-areas-comuns',
+      'label' => $text('Fachadas + áreas comuns', 'Facades + common areas', 'Fachadas + áreas comunes'),
+      'title' => $text('Fachadas + áreas comuns', 'Facades + common areas', 'Fachadas + áreas comunes'),
+      'items' => [
+        $arsImage('imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg', $text('Entorno', 'Surroundings', 'Entorno')),
+        $arsImage('imagem-8-ars-vie-corredor-comercial-1-terreo-r01-1-1.jpg', $text('Corredor comercial', 'Commercial corridor', 'Corredor comercial')),
+        $arsImage('imagem-13-ars-vie-area-do-lago-ornamental-ef-2-1.jpg', $text('Lago ornamental', 'Ornamental lake', 'Lago ornamental')),
+        $arsImage('imagem-16-ars-vie-playground-1-ef-2-1.jpg', 'Playground'),
+        $arsImage('imagem-20-ars-vie-piscinas-angulo-2-ef-4-1.jpg', $text('Piscina', 'Pool', 'Piscina')),
+        $arsImage('imagem-21-ars-vie-pool-bar-ef-4-1.jpg', 'Pool bar'),
+        $arsImage('imagem-23-ars-vie-playground-2-jatos-de-agua-ef-3-1.jpg', $text('Playground com jatos d’água', 'Water-play playground', 'Zona de juegos con chorros de agua')),
+        $arsImage('imagem-26-ars-vie-espaco-zen-ef-3-1.jpg', $text('Espaço zen', 'Zen space', 'Espacio zen')),
+        $arsImage('imagem-28-ars-vie-fire-place-ef-4-1.jpg', 'Fireplace'),
+        $arsImage('imagem-30-ars-vie-espaco-wellness-ef-1-1.jpg', $text('Espaço wellness', 'Wellness space', 'Espacio wellness')),
+        $arsImage('imagem-31-ars-vie-sauna-seca-ef-1-1.jpg', $text('Sauna seca', 'Dry sauna', 'Sauna seca')),
+        $arsImage('imagem-32-ars-vie-wine-com-charutaria-ef-1-1.jpg', $text('Wine com charutaria', 'Wine and cigar lounge', 'Vino y cigarros')),
+        $arsImage('imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg', 'Jardim das Vieiras'),
+        $arsImage('imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg', $text('Jardim das Vieiras com cinema', 'Jardim das Vieiras with cinema', 'Jardim das Vieiras con cine')),
+      ],
+    ],
+    [
+      'type' => 'interlude', 'id' => 'vistas-do-entorno', 'label' => $text('Vistas do entorno', 'Surrounding views', 'Vistas del entorno'),
+      'items' => [
+        $arsImage('imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg', $text('Vista da praia de Perequê', 'Perequê beach view', 'Vista de la playa de Perequê')),
+        $arsImage('imagem-2-ars-vie-fotomontagem-aerea-geral-de-localizacao-ef-1-1.jpg', $text('Vista aérea', 'Aerial view', 'Vista aérea')),
+        $arsImage('imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg', $text('Vista de Porto Belo', 'Porto Belo view', 'Vista de Porto Belo')),
+      ],
+    ],
+    [
+      'type' => 'carousel', 'id' => 'apartamentos',
+      'label' => $text('Imagens de apartamento', 'Apartment images', 'Imágenes de apartamentos'),
+      'title' => $text('Imagens de apartamento', 'Apartment images', 'Imágenes de apartamentos'),
+      'items' => [
+        $arsImage('imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', 'Living'),
+        $arsImage('imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', $text('Living panorâmico', 'Panoramic living', 'Living panorámico')),
+        $arsImage('imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', $text('Suíte master', 'Primary suite', 'Suite principal')),
+        $arsImage('imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg', $text('Living — Torre 3', 'Living — Tower 3', 'Living — Torre 3')),
+        $arsImage('imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg', $text('Living — Tipo 03', 'Living — Type 03', 'Living — Tipo 03')),
+      ],
+    ],
+    [
+      'type' => 'interlude', 'id' => 'espacos-de-lazer', 'label' => $text('Espaços de lazer', 'Leisure spaces', 'Espacios de ocio'),
+      'items' => [
+        $arsImage('imagem-6-ars-vie-fotomontagem-vista-de-porto-belo-2-ef-1-1.jpg', $text('Vista de Porto Belo', 'Porto Belo view', 'Vista de Porto Belo')),
+        $arsImage('imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg', $text('Embasamento', 'Podium', 'Basamento')),
+        $arsImage('imagem-12-ars-vie-quadra-ef-2-1.jpg', $text('Quadra', 'Court', 'Cancha')),
+      ],
+    ],
+    [
+      'type' => 'carousel', 'id' => 'animacoes-3d',
+      'label' => $text('Animações 3D', '3D animations', 'Animaciones 3D'),
+      'title' => $text('Animações 3D', '3D animations', 'Animaciones 3D'), 'items' => $animationItems,
+    ],
+    [
+      'type' => 'interlude', 'id' => 'detalhes-em-movimento', 'label' => $text('Detalhes em movimento', 'Details in motion', 'Detalles en movimiento'),
+      'items' => [
+        ['mediaId' => 'animacao-19-ars-vie-piscina-geral', 'label' => $text('Piscina geral', 'Pool — wide shot', 'Piscina general')],
+        $arsImage('imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg', $text('Piscina', 'Pool', 'Piscina')),
+        $arsImage('imagem-22-ars-vie-redario-ef-3-1.jpg', $text('Redário', 'Hammock lounge', 'Hamacas')),
+      ],
+    ],
+    [
+      'type' => 'carousel', 'id' => 'plantas-humanizadas',
+      'label' => $text('Plantas humanizadas', 'Humanized floor plans', 'Plantas humanizadas'),
+      'title' => $text('Plantas humanizadas', 'Humanized floor plans', 'Plantas humanizadas'), 'items' => $floorplanItems,
+    ],
+    [
+      'type' => 'interlude', 'id' => 'movimentos-de-projeto', 'label' => $text('Movimentos de projeto', 'Project motion', 'Movimiento del proyecto'),
+      'items' => [
+        ['mediaId' => 'animacao-36-ars-vie-suite-master-apto-tipo-1-vista', 'label' => $text('Suíte master — vista', 'Primary suite — view', 'Suite principal — vista')],
+        ['mediaId' => 'animacao-ars-vie-tracking-0006', 'label' => 'Tracking 0006'],
+        ['mediaId' => 'animacao-ars-vie-tracking-0050', 'label' => 'Tracking 0050'],
+      ],
+    ],
+    [
+      'type' => 'carousel', 'id' => 'pilulas-sensoriais',
+      'label' => $text('Pílulas sensoriais', 'Sensory moments', 'Píldoras sensoriales'),
+      'title' => $text('Pílulas sensoriais', 'Sensory moments', 'Píldoras sensoriales'), 'items' => $pillItems,
+    ],
+  ];
+  $configuredSections = array_merge($configuredSections, $tailSections);
+}
 
 // The source inventory is the publication baseline. Preserve the authored
 // sequence, then append any newly published source that has not yet received
@@ -393,7 +544,91 @@ $firstSectionId = $sections !== [] ? 'case-' . (string) ($sections[0]['id'] ?? '
     $chapterId = 'case-' . (string) $section['id'];
     $chapterLabel = $displaySectionLabel($section['label'] ?? $type);
     $number = str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT); ?>
-    <?php if ($type === 'gallery'): ?>
+    <?php if ($type === 'carousel'): ?>
+      <?php
+      $slides = [];
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
+        }
+        $label = $caseText($item['label'] ?? $chapterLabel);
+        if ($imageExists($item['src'] ?? null)) {
+          $slides[] = ['type' => 'image', 'source' => (string) $item['src'], 'label' => $label];
+          continue;
+        }
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null) {
+          $slides[] = ['type' => 'video', 'video' => $video, 'label' => $label];
+        }
+      }
+      $firstSlide = $slides[0] ?? [];
+      ?>
+      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-carousel" data-case-chapter="<?= escape($chapterId) ?>">
+        <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
+          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
+        </header>
+        <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
+          <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Mídia anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
+          <div class="case-v3-gallery__rail" data-case-gallery-rail tabindex="0" aria-label="<?= escape($chapterLabel) ?>. Use as setas ou deslize para explorar.">
+            <?php foreach ($slides as $slideIndex => $slide): ?>
+              <figure class="case-v3-gallery__rail-item" data-case-gallery-slide data-gallery-label="<?= escape($slide['label']) ?>" role="group" aria-roledescription="slide" aria-label="<?= escape(($slideIndex + 1) . ' de ' . count($slides) . ': ' . $slide['label']) ?>">
+                <?php if ($slide['type'] === 'image'): ?>
+                  <button class="case-v3-gallery__image-trigger" type="button" data-case-image-open data-image-set="<?= escape((string) $section['id']) ?>" data-image-src="<?= escape($lightboxImageUrl($slide['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $slide['label']) ?>" data-image-label="<?= escape($slide['label']) ?>" aria-label="Abrir <?= escape($slide['label']) ?> em tela cheia">
+                    <?= $renderImage($slide['source'], 'case-v3-image', '(max-width: 767px) 94vw, 70vw', $slide['label']) ?>
+                  </button>
+                <?php else: ?>
+                  <?= $renderVideo($slide['video'], 'case-v3-gallery__video', 'carousel', $slide['label']) ?>
+                <?php endif; ?>
+                <figcaption><?= escape($slide['label']) ?></figcaption>
+              </figure>
+            <?php endforeach; ?>
+          </div>
+          <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--next" type="button" data-case-gallery-next aria-label="Próxima mídia"><?= site_icon('arrow-right', 'case-v3-icon') ?></button>
+          <div class="case-v3-gallery__carousel-meta case-v3-shell">
+            <p data-case-gallery-label><?= escape($firstSlide['label'] ?? '') ?></p>
+            <p data-case-gallery-count aria-live="polite">01 — <?= str_pad((string) count($slides), 2, '0', STR_PAD_LEFT) ?></p>
+          </div>
+        </div>
+      </section>
+    <?php elseif ($type === 'interlude'): ?>
+      <?php
+      $interludeItems = [];
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
+        }
+        $label = $caseText($item['label'] ?? $chapterLabel);
+        if ($imageExists($item['src'] ?? null)) {
+          $interludeItems[] = ['type' => 'image', 'source' => (string) $item['src'], 'label' => $label];
+          continue;
+        }
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null) {
+          $interludeItems[] = ['type' => 'video', 'video' => $video, 'label' => $label];
+        }
+      }
+      ?>
+      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-interlude" data-case-chapter="<?= escape($chapterId) ?>">
+        <header class="case-v3-interlude__heading case-v3-shell" data-case-reveal="up">
+          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+        </header>
+        <div class="case-v3-interlude__items case-v3-shell">
+          <?php foreach ($interludeItems as $item): ?>
+            <figure class="case-v3-interlude__item" data-case-reveal="up">
+              <?php if ($item['type'] === 'image'): ?>
+                <button class="case-v3-interlude__image-trigger" type="button" data-case-image-open data-image-set="<?= escape((string) $section['id']) ?>" data-image-src="<?= escape($lightboxImageUrl($item['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $item['label']) ?>" data-image-label="<?= escape($item['label']) ?>" aria-label="Abrir <?= escape($item['label']) ?> em tela cheia">
+                  <?= $renderImage($item['source'], 'case-v3-image', '(max-width: 767px) 100vw, 86vw', $item['label']) ?>
+                </button>
+              <?php else: ?>
+                <?= $renderVideo($item['video'], 'case-v3-interlude__video', 'interlude', $item['label']) ?>
+              <?php endif; ?>
+              <figcaption><?= escape($item['label']) ?></figcaption>
+            </figure>
+          <?php endforeach; ?>
+        </div>
+      </section>
+    <?php elseif ($type === 'gallery'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-gallery" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>

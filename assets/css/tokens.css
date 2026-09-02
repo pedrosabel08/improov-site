@@ -6,6 +6,7 @@
   --color-muted: #626262;
   --color-accent: #58768b;
   --color-accent-strong: #38586d;
+  --color-closing-cta: #73aed7;
   --color-border: rgba(16, 16, 16, 0.18);
   --color-border-soft: rgba(16, 16, 16, 0.1);
   --font-sans: "Montserrat", Arial, sans-serif;
@@ -20,7 +21,7 @@
   --heading-medium: 2rem;
   --heading-large: 3rem;
 
-  --container: 1500px;
+  --container: 1700px;
   --gutter: clamp(20px, 4vw, 64px);
   --section-space: clamp(72px, 9vw, 144px);
   --radius-sm: 6px;

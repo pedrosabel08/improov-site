@@ -35,6 +35,13 @@ O pipeline de vídeo reutilizável está em `deploy/process-videos.py`. Ele rece
 & "C:\Users\pedro\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" deploy/process-videos.py ars-vie
 ```
 
+Para mídia institucional mantida fora da pasta de um projeto, o mesmo pipeline
+aceita um diretório master explícito e publica no pacote `site`:
+
+```powershell
+& "C:\Users\pedro\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" deploy/process-videos.py site --source-dir "C:\improov-media-masters\novos" --output-slug site --manifest-key site
+```
+
 As variantes ficam em `assets/media/{slug}/v1/videos/{categoria}` e os posters em `assets/media/{slug}/v1/posters/{categoria}`. O script limita o maior eixo público a 1920/1280, preserva proporção e não faz upscale. Os perfis são definidos por categoria: animações priorizam qualidade, filmes preservam áudio AAC e pílulas usam uma compressão mais leve. Pílulas e animações de até 15 segundos recebem `loopCandidate` como indicação auxiliar para o frontend.
 
 A curadoria por projeto fica em `data/video-curation.json`. Quando um projeto possui configuração, o inventário continua sendo coletado para todos os masters, mas somente as fontes explicitamente publicadas geram derivados. Cada fonte pode escolher `publish`, `poster` e `variants` (`1080`, `720`, `source` ou `all`). Fontes sem regra permanecem como `available: true` e `published: false`, sem serem copiadas para os assets públicos. `posterOnly` permite manter um frame WebP, como no `tracking-0040` do ARS_VIE, sem manter o MP4.

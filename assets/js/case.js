@@ -95,7 +95,10 @@
   function initMedia() {
     const videos = Array.from(
       document.querySelectorAll("[data-case-video]"),
-    ).filter((video) => video.dataset.caseMediaKind !== "animation");
+    ).filter(
+      (video) =>
+        !["animation", "carousel"].includes(video.dataset.caseMediaKind),
+    );
     if (!supportsObserver) return;
 
     const loader = new IntersectionObserver(
@@ -122,7 +125,9 @@
       { threshold: [0, 0.2, 0.55, 0.8] },
     );
     videos
-      .filter((video) => video.dataset.caseMediaKind === "motion")
+      .filter((video) =>
+        ["motion", "interlude"].includes(video.dataset.caseMediaKind),
+      )
       .forEach((video) => motionObserver.observe(video));
 
     const momentObserver = new IntersectionObserver(
@@ -436,6 +441,22 @@
         if (!rail || !slides.length) return;
 
         let activeIndex = 0;
+        let carouselVisible = false;
+        const carouselVideos = slides
+          .map((slide) => slide.querySelector('[data-case-media-kind="carousel"]'))
+          .filter(Boolean);
+        const syncVideo = () => {
+          const activeVideo = slides[activeIndex].querySelector(
+            '[data-case-media-kind="carousel"]',
+          );
+          carouselVideos.forEach((video) => {
+            if (carouselVisible && video === activeVideo) {
+              media.activate(video);
+            } else {
+              media.deactivate(video);
+            }
+          });
+        };
         const select = (index, shouldScroll = false) => {
           activeIndex = Math.max(0, Math.min(index, slides.length - 1));
           slides.forEach((slide, slideIndex) => {
@@ -456,6 +477,7 @@
               block: "nearest",
               inline: "center",
             });
+          syncVideo();
         };
         const updateFromScroll = () => {
           const center = rail.scrollLeft + rail.clientWidth / 2;
@@ -506,6 +528,18 @@
         carousel
           .querySelector("[data-case-gallery-next]")
           ?.addEventListener("click", () => select(activeIndex + 1, true));
+        if (supportsObserver && carouselVideos.length) {
+          const observer = new IntersectionObserver(
+            (entries) => {
+              carouselVisible = entries[0]?.isIntersecting || false;
+              syncVideo();
+            },
+            { threshold: 0.35 },
+          );
+          observer.observe(carousel);
+        } else {
+          carouselVisible = true;
+        }
         select(0);
       });
   }
