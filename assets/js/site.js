@@ -59,6 +59,25 @@
     };
 
     initLazyVideos();
+    const initCareersBanner = () => {
+      const section = document.querySelector(".editorial-hero--careers");
+      const content = section?.querySelector(".editorial-hero__content-inner");
+      const media = section?.querySelector(".editorial-hero__media--careers");
+      if (!content || !media) return;
+      const mobile = matchMedia("(max-width: 1023px)");
+      const sync = () => {
+        if (mobile.matches) {
+          media.style.removeProperty("height");
+          return;
+        }
+        media.style.height = `${Math.ceil(content.getBoundingClientRect().height)}px`;
+      };
+      sync();
+      window.addEventListener("resize", sync, { passive: true });
+      mobile.addEventListener?.("change", sync);
+      if ("ResizeObserver" in window) new ResizeObserver(sync).observe(content);
+    };
+    initCareersBanner();
     const header = document.querySelector("[data-site-header]");
     const toggle = document.querySelector(".menu-toggle");
     const menu = document.querySelector(".mobile-menu");

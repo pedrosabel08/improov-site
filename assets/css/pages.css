@@ -236,7 +236,7 @@ section.selected-projects.section.container.is-visible {
   border-radius: var(--radius-md);
   background:
     linear-gradient(100deg, rgba(20, 24, 26, 0.95), rgba(20, 24, 26, 0.45)),
-    url("../media/site/v1/closing-cta-1920.webp") center 22% /cover;
+    url("../media/site/v1/closing-cta-1920.webp") center 22% / cover;
 }
 .closing-cta h2 {
   max-width: 600px;
@@ -298,7 +298,7 @@ section.selected-projects.section.container.is-visible {
 h2.about-heartmade-title {
   margin-bottom: 0;
 }
-#pre-about-heartmade{
+#pre-about-heartmade {
   margin-bottom: 0;
 }
 .editorial-copy p {
@@ -486,6 +486,10 @@ h2.about-heartmade-title {
 .editorial-hero {
   padding-top: calc(var(--header-height) + clamp(34px, 5vw, 78px));
 }
+.editorial-hero--contact .editorial-hero__inner.container {
+  gap: 0 !important;
+  grid-template-columns: 0.7fr 0.9fr;
+}
 .editorial-hero__inner {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
@@ -503,7 +507,7 @@ h2.about-heartmade-title {
 .editorial-hero__content {
   position: relative;
   z-index: 2;
-  padding-block: clamp(28px, 5vw, 74px);
+  padding-bottom: clamp(28px, 5vw, 74px);
 }
 .editorial-hero__content h1 {
   max-width: 760px;

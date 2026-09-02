@@ -1,10 +1,12 @@
 <main id="conteudo">
   <section class="editorial-hero editorial-hero--careers">
     <div class="editorial-hero__inner container">
-      <div class="editorial-hero__content"><span class="eyebrow" data-i18n="careers.eyebrow">Trabalhe Conosco</span>
-        <h1 data-i18n="careers.title">Faça parte do time que transforma ideias em experiências visuais.</h1>
-        <p data-i18n="careers.intro">Somos movidos por curiosidade, colaboração e paixão por imagem.</p>
-        <a class="text-link" href="#candidatura"><span data-i18n="careers.formEyebrow">Envie sua candidatura</span><span aria-hidden="true">→</span></a>
+      <div class="editorial-hero__content">
+        <div class="editorial-hero__content-inner"><span class="eyebrow" data-i18n="careers.eyebrow">Trabalhe Conosco</span>
+          <h1 data-i18n="careers.title">Faça parte do time que transforma ideias em experiências visuais.</h1>
+          <p data-i18n="careers.intro">Somos movidos por curiosidade, colaboração e paixão por imagem.</p>
+          <a class="text-link" href="#candidatura"><span data-i18n="careers.formEyebrow">Envie sua candidatura</span><span aria-hidden="true">→</span></a>
+        </div>
       </div>
       <div class="editorial-hero__media editorial-hero__media--careers">
         <div class="making-of-stage">
