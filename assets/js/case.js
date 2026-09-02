@@ -126,31 +126,11 @@
     );
     videos
       .filter((video) =>
-        ["motion", "interlude"].includes(video.dataset.caseMediaKind),
+        ["motion", "interlude", "editorial"].includes(
+          video.dataset.caseMediaKind,
+        ),
       )
       .forEach((video) => motionObserver.observe(video));
-
-    const momentObserver = new IntersectionObserver(
-      (entries) => {
-        const dominant = entries
-          .filter(
-            (entry) => entry.isIntersecting && entry.intersectionRatio >= 0.65,
-          )
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (dominant) {
-          media.activate(dominant.target);
-        }
-        entries
-          .filter(
-            (entry) => !entry.isIntersecting || entry.intersectionRatio < 0.2,
-          )
-          .forEach((entry) => media.deactivate(entry.target));
-      },
-      { threshold: [0, 0.2, 0.65, 0.9] },
-    );
-    videos
-      .filter((video) => video.dataset.caseMediaKind === "moment")
-      .forEach((video) => momentObserver.observe(video));
   }
 
   function initAnimationsStorytelling() {
@@ -428,6 +408,16 @@
     });
   }
 
+  function initFilmFullscreen() {
+    document.querySelectorAll(".case-v3-film__video").forEach((video) => {
+      video.addEventListener("click", () => {
+        if (document.fullscreenElement === video) return;
+        const request = video.requestFullscreen?.();
+        if (request) request.catch(() => {});
+      });
+    });
+  }
+
   function initGalleryCarousels() {
     document
       .querySelectorAll("[data-case-gallery-carousel]")
@@ -436,14 +426,23 @@
         const slides = Array.from(
           carousel.querySelectorAll("[data-case-gallery-slide]"),
         );
-        const label = carousel.querySelector("[data-case-gallery-label]");
-        const count = carousel.querySelector("[data-case-gallery-count]");
         if (!rail || !slides.length) return;
 
         let activeIndex = 0;
         let carouselVisible = false;
+        const preloadAdjacentImages = (index) => {
+          [index - 1, index, index + 1].forEach((candidate) => {
+            const slide = slides[candidate];
+            if (!slide) return;
+            slide.querySelectorAll("img[loading='lazy']").forEach((image) => {
+              image.loading = "eager";
+            });
+          });
+        };
         const carouselVideos = slides
-          .map((slide) => slide.querySelector('[data-case-media-kind="carousel"]'))
+          .map((slide) =>
+            slide.querySelector('[data-case-media-kind="carousel"]'),
+          )
           .filter(Boolean);
         const syncVideo = () => {
           const activeVideo = slides[activeIndex].querySelector(
@@ -459,18 +458,12 @@
         };
         const select = (index, shouldScroll = false) => {
           activeIndex = Math.max(0, Math.min(index, slides.length - 1));
+          preloadAdjacentImages(activeIndex);
           slides.forEach((slide, slideIndex) => {
             const active = slideIndex === activeIndex;
             slide.classList.toggle("is-active", active);
             slide.setAttribute("aria-current", active ? "true" : "false");
           });
-          if (label)
-            label.textContent = slides[activeIndex].dataset.galleryLabel || "";
-          if (count)
-            count.textContent =
-              String(activeIndex + 1).padStart(2, "0") +
-              " — " +
-              String(slides.length).padStart(2, "0");
           if (shouldScroll)
             slides[activeIndex].scrollIntoView({
               behavior: reducedMotion.matches ? "auto" : "smooth",
@@ -544,12 +537,71 @@
       });
   }
 
+  function initMomentsCarousels() {
+    document.querySelectorAll("[data-case-moments]").forEach((rail) => {
+      const slides = Array.from(
+        rail.querySelectorAll("[data-case-moment-slide]"),
+      );
+      if (!slides.length) return;
+
+      let activeIndex = 0;
+      const select = (index, shouldScroll = false) => {
+        activeIndex = Math.max(0, Math.min(index, slides.length - 1));
+        slides.forEach((slide, slideIndex) => {
+          const active = slideIndex === activeIndex;
+          slide.classList.toggle("is-active", active);
+          slide.setAttribute("aria-current", active ? "true" : "false");
+        });
+        if (shouldScroll)
+          slides[activeIndex].scrollIntoView({
+            behavior: reducedMotion.matches ? "auto" : "smooth",
+            block: "nearest",
+            inline: "center",
+          });
+      };
+      const updateFromScroll = () => {
+        const center = rail.scrollLeft + rail.clientWidth / 2;
+        const closest = slides.reduce((best, slide, index) => {
+          const distance = Math.abs(
+            slide.offsetLeft + slide.offsetWidth / 2 - center,
+          );
+          const bestDistance = Math.abs(
+            slides[best].offsetLeft + slides[best].offsetWidth / 2 - center,
+          );
+          return distance < bestDistance ? index : best;
+        }, 0);
+        if (closest !== activeIndex) select(closest);
+      };
+      let frame = 0;
+      rail.addEventListener(
+        "scroll",
+        () => {
+          if (frame) return;
+          frame = window.requestAnimationFrame(() => {
+            updateFromScroll();
+            frame = 0;
+          });
+        },
+        { passive: true },
+      );
+      rail.addEventListener("keydown", (event) => {
+        if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key))
+          return;
+        event.preventDefault();
+        if (event.key === "Home") return select(0, true);
+        if (event.key === "End") return select(slides.length - 1, true);
+        select(activeIndex + (event.key === "ArrowRight" ? 1 : -1), true);
+      });
+      select(0);
+    });
+  }
+
   function initDragRails() {
     document
       .querySelectorAll("[data-case-gallery-rail], [data-case-moments]")
       .forEach((rail) => {
         let drag = null;
-        let suppressClick = false;
+        let suppressClickUntil = 0;
         const slides = Array.from(
           rail.querySelectorAll("[data-case-gallery-slide]"),
         );
@@ -582,8 +634,7 @@
           const direction =
             shouldAdvance && deltaX !== 0 ? (deltaX < 0 ? 1 : -1) : 0;
           if (drag.moved) {
-            suppressClick = true;
-            event?.preventDefault();
+            suppressClickUntil = performance.now() + 350;
             rail.dispatchEvent(
               new CustomEvent("case-gallery-snap", {
                 detail: { index: drag.startIndex, direction },
@@ -625,7 +676,7 @@
           drag.lastX = event.clientX;
           drag.lastTime = now;
           const distance = event.clientX - drag.startX;
-          if (Math.abs(distance) > 4) drag.moved = true;
+          if (Math.abs(distance) > 8) drag.moved = true;
           if (!drag.moved) return;
           event.preventDefault();
           rail.scrollLeft = drag.startScroll - distance;
@@ -637,44 +688,52 @@
         rail.addEventListener(
           "click",
           (event) => {
-            if (!suppressClick) return;
+            if (performance.now() > suppressClickUntil) return;
             event.preventDefault();
             event.stopPropagation();
-            suppressClick = false;
           },
           true,
         );
       });
   }
 
-  function initMomentSound() {
+  function initPillPlayback() {
     const hoverEnabled = window.matchMedia(
       "(hover: hover) and (pointer: fine)",
     );
-    if (!hoverEnabled.matches) return;
-    document.querySelectorAll(".case-v3-moment").forEach((moment) => {
-      const video = moment.querySelector("[data-case-video]");
-      if (!video) return;
-      moment.addEventListener("pointerenter", (event) => {
-        if (event.pointerType !== "mouse") return;
-        video.dataset.caseHoverSound = "true";
-        const enableSound = () => {
-          if (video.dataset.caseHoverSound !== "true") return;
-          video.muted = false;
-          video.volume = 1;
+    document
+      .querySelectorAll("[data-case-moments] .case-v3-moment")
+      .forEach((moment) => {
+        const video = moment.querySelector("[data-case-video]");
+        if (!video) return;
+        const stop = () => {
+          media.deactivate(video);
+          if (video.readyState > 0) {
+            try {
+              video.currentTime = 0;
+            } catch (_) {}
+          }
         };
-        if (video.paused) {
-          video.addEventListener("playing", enableSound, { once: true });
+        const start = () => {
+          video.muted = true;
+          video.playsInline = true;
+          media.activate(video, { interactive: true });
+        };
+        if (hoverEnabled.matches) {
+          moment.addEventListener("pointerenter", (event) => {
+            if (event.pointerType !== "mouse") return;
+            start();
+          });
+          moment.addEventListener("pointerleave", () => {
+            stop();
+          });
         } else {
-          enableSound();
+          moment.addEventListener("click", () => {
+            if (media.active === video && !video.paused) stop();
+            else start();
+          });
         }
-        media.activate(video, { interactive: true });
       });
-      moment.addEventListener("pointerleave", () => {
-        video.dataset.caseHoverSound = "false";
-        video.muted = true;
-      });
-    });
   }
 
   function initPlans() {
@@ -785,46 +844,6 @@
       .forEach((chapter) => observer.observe(chapter));
   }
 
-  function initFilmDialog() {
-    const dialog = document.querySelector("[data-case-film-dialog]");
-    if (!dialog) return;
-    const player = dialog.querySelector("[data-case-film-player]");
-    const title = dialog.querySelector("[data-case-film-title]");
-    let origin = null;
-    const close = () => {
-      player.pause();
-      player.removeAttribute("src");
-      player.load();
-      if (dialog.open) dialog.close();
-      origin?.focus();
-      origin = null;
-    };
-    document.addEventListener("click", (event) => {
-      const trigger = event.target.closest("[data-case-film-open]");
-      if (!trigger) return;
-      origin = trigger;
-      player.poster = trigger.dataset.videoPoster || "";
-      player.src = trigger.dataset.videoSource || "";
-      title.textContent = trigger.dataset.videoTitle || "Film";
-      dialog.showModal();
-      player.focus();
-      const play = player.play();
-      if (play) play.catch(() => {});
-      const fullscreen = player.requestFullscreen?.();
-      if (fullscreen) fullscreen.catch(() => {});
-    });
-    dialog
-      .querySelector("[data-case-film-close]")
-      ?.addEventListener("click", close);
-    dialog.addEventListener("click", (event) => {
-      if (event.target === dialog) close();
-    });
-    dialog.addEventListener("cancel", (event) => {
-      event.preventDefault();
-      close();
-    });
-  }
-
   function initAnimationsCarousel() {
     document.querySelectorAll("[data-case-animations]").forEach((section) => {
       const rail = section.querySelector("[data-case-animation-rail]");
@@ -892,21 +911,15 @@
   }
 
   function initImageDialog() {
+    const caseRoot = document.querySelector("[data-case-detail]");
     const dialog = document.querySelector("[data-case-image-dialog]");
-    if (!dialog) return;
+    if (!caseRoot || !dialog) return;
     const player = dialog.querySelector("[data-case-image-player]");
     const stage = dialog.querySelector("[data-case-image-stage]");
     const title = dialog.querySelector("[data-case-image-title]");
     const count = dialog.querySelector("[data-case-image-count]");
     const previous = dialog.querySelector("[data-case-image-previous]");
     const next = dialog.querySelector("[data-case-image-next]");
-    const groups = new Map();
-    document.querySelectorAll("[data-case-image-open]").forEach((trigger) => {
-      const key = trigger.dataset.imageSet || "gallery";
-      const collection = groups.get(key) || [];
-      collection.push(trigger);
-      groups.set(key, collection);
-    });
     let activeGroup = [];
     let activeIndex = 0;
     let origin = null;
@@ -977,19 +990,28 @@
     };
     const open = (trigger) => {
       const key = trigger.dataset.imageSet || "gallery";
-      activeGroup = groups.get(key) || [trigger];
+      activeGroup = Array.from(
+        caseRoot.querySelectorAll("[data-case-image-open]"),
+      ).filter((item) => (item.dataset.imageSet || "gallery") === key);
+      if (!activeGroup.length) activeGroup = [trigger];
       origin = trigger;
       update(Math.max(0, activeGroup.indexOf(trigger)));
       if (!dialog.open) dialog.showModal();
       dialog.querySelector("[data-case-image-close]")?.focus();
     };
 
-    document.addEventListener("click", (event) => {
+    caseRoot.addEventListener("click", (event) => {
       const trigger = event.target.closest("[data-case-image-open]");
       if (trigger) open(trigger);
     });
     document.addEventListener("keydown", (event) => {
-      if (!dialog.open) return;
+      if (!dialog.open) {
+        const trigger = event.target.closest?.("[data-case-image-open]");
+        if (!trigger || (event.key !== "Enter" && event.key !== " ")) return;
+        event.preventDefault();
+        open(trigger);
+        return;
+      }
       if (event.key === "ArrowLeft") {
         event.preventDefault();
         update(activeIndex - 1);
@@ -998,13 +1020,6 @@
         event.preventDefault();
         update(activeIndex + 1);
       }
-    });
-    document.querySelectorAll("[data-case-image-open]").forEach((trigger) => {
-      trigger.addEventListener("keydown", (event) => {
-        if (event.key !== "Enter" && event.key !== " ") return;
-        event.preventDefault();
-        open(trigger);
-      });
     });
     previous?.addEventListener("click", () => update(activeIndex - 1));
     next?.addEventListener("click", () => update(activeIndex + 1));
@@ -1021,22 +1036,63 @@
   }
 
   function initHumanizedPlans() {
+    const updates = new Map();
+    const observer =
+      "ResizeObserver" in window
+        ? new ResizeObserver((entries) => {
+            entries.forEach((entry) => updates.get(entry.target)?.());
+          })
+        : null;
     document
       .querySelectorAll("[data-case-humanized-plan] img")
       .forEach((image) => {
-        const viewport = image.closest(".case-v3-floorplans__viewport");
+        const viewport =
+          image.closest(".case-v3-floorplans__viewport") ||
+          image.closest("[data-case-humanized-plan]");
         if (!viewport) return;
+        const isCarouselPlan = !viewport.classList.contains(
+          "case-v3-floorplans__viewport",
+        );
         const updateOrientation = () => {
           if (!image.naturalWidth || !image.naturalHeight) return;
           const portrait = image.naturalHeight > image.naturalWidth;
           image.classList.toggle("humanized-plan--rotate", portrait);
+          image.classList.toggle("is-portrait-plan", portrait);
+          viewport.classList.toggle("is-portrait-plan", portrait);
           image.style.setProperty(
             "transform",
-            portrait
-              ? "translate(-50%, -50%) rotate(-90deg)"
-              : "translate(-50%, -50%)",
+            portrait && isCarouselPlan
+              ? "rotate(-90deg)"
+              : portrait
+                ? "translate(-50%, -50%) rotate(-90deg)"
+                : isCarouselPlan
+                  ? "none"
+                  : "translate(-50%, -50%)",
             "important",
           );
+          if (isCarouselPlan) {
+            if (!portrait) {
+              image.style.removeProperty("width");
+              image.style.removeProperty("height");
+              return;
+            }
+            const bounds = viewport.getBoundingClientRect();
+            const scale = Math.min(
+              bounds.width / image.naturalHeight,
+              bounds.height / image.naturalWidth,
+            );
+            image.style.setProperty(
+              "width",
+              `${Math.max(1, Math.round(image.naturalWidth * scale))}px`,
+              "important",
+            );
+            image.style.setProperty(
+              "height",
+              `${Math.max(1, Math.round(image.naturalHeight * scale))}px`,
+              "important",
+            );
+            return;
+          }
           // Keep wide plans inside the stage. The top photomontage has a
           // ~1.42 source ratio, so a 1.6 minimum prevents its visual box from
           // becoming taller than the parent while preserving the full image.
@@ -1067,12 +1123,16 @@
         };
         if (image.complete && image.naturalWidth) updateOrientation();
         else image.addEventListener("load", updateOrientation, { once: true });
-        window.addEventListener("resize", updateOrientation, { passive: true });
-        if ("ResizeObserver" in window) {
-          const observer = new ResizeObserver(updateOrientation);
-          observer.observe(viewport);
-        }
+        updates.set(viewport, updateOrientation);
+        observer?.observe(viewport);
       });
+    if (!observer && updates.size) {
+      window.addEventListener(
+        "resize",
+        () => updates.forEach((update) => update()),
+        { passive: true },
+      );
+    }
   }
 
   function initMobileGalleryRails() {
@@ -1122,13 +1182,14 @@
     initAnimationsCarousel();
     initFocusScrollStories();
     initStillMotion();
+    initFilmFullscreen();
     initGalleryCarousels();
+    initMomentsCarousels();
     initDragRails();
-    initMomentSound();
+    initPillPlayback();
     initPlans();
     initHumanizedPlans();
     initChapterNavigation();
-    initFilmDialog();
     initImageDialog();
     initMobileGalleryRails();
   });

@@ -123,7 +123,7 @@
               "type": "editorial",
               "title": {
                 "pt-BR": "Fachadas + áreas comuns",
-                "en": "Facades + common areas",
+                "en": "Facades + amenities",
                 "es": "Fachadas + áreas comunes"
               },
               "items": [
@@ -134,7 +134,7 @@
                       "src": "assets/projetos/ars-vie/imagens/imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg",
                       "label": {
                         "pt-BR": "Embasamento",
-                        "en": "Podium",
+                        "en": "Grounding Floor",
                         "es": "Basamento"
                       }
                     },
@@ -210,10 +210,6 @@
               },
               "items": [
                 {
-                  "src": "assets/projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
-                  "label": { "pt-BR": "Living", "en": "Living", "es": "Living" }
-                },
-                {
                   "src": "assets/projetos/ars-vie/imagens/imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
                   "label": {
                     "pt-BR": "Living panorâmico",
@@ -244,6 +240,10 @@
                     "en": "Living — Type 03",
                     "es": "Living — Tipo 03"
                   }
+                },
+                {
+                  "src": "assets/projetos/ars-vie/imagens/imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg",
+                  "label": { "pt-BR": "Living", "en": "Living", "es": "Living" }
                 }
               ]
             }

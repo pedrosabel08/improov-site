@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="<?= escape(current_language()) ?>">
 
 <head>
   <meta charset="UTF-8">

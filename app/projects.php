@@ -10,8 +10,8 @@ function all_projects(): array
     }
     $path = APP_ROOT . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'projects.json';
     $decoded = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
-    $projects = array_values(array_filter($decoded['projects'] ?? [], static fn(array $item): bool => ($item['status'] ?? '') === 'published'));
-    usort($projects, static fn(array $a, array $b): int => ($a['order'] ?? 999) <=> ($b['order'] ?? 999));
+    $projects = array_values(array_filter($decoded['projects'] ?? [], static fn (array $item): bool => ($item['status'] ?? '') === 'published'));
+    usort($projects, static fn (array $a, array $b): int => ($a['order'] ?? 999) <=> ($b['order'] ?? 999));
     return $projects;
 }
 
@@ -25,18 +25,25 @@ function find_project(string $slug): ?array
     return null;
 }
 
-function translated(array $value, string $language = 'pt-BR'): string
+function current_language(): string
 {
+    $language = $_COOKIE['improov-language'] ?? 'pt-BR';
+    return in_array($language, ['pt-BR', 'en', 'es'], true) ? $language : 'pt-BR';
+}
+
+function translated(array $value, ?string $language = null): string
+{
+    $language ??= current_language();
     return (string) ($value[$language] ?? $value['pt-BR'] ?? '');
 }
 
 function home_projects(): array
 {
     $projects = all_projects();
-    $featured = array_values(array_filter($projects, static fn(array $project): bool => !empty($project['showOnHome'])));
-    $remaining = array_values(array_filter($projects, static fn(array $project): bool => empty($project['showOnHome'])));
-    usort($featured, static fn(array $a, array $b): int => ($a['homeOrder'] ?? 999) <=> ($b['homeOrder'] ?? 999));
-    usort($remaining, static fn(array $a, array $b): int => ($a['order'] ?? 999) <=> ($b['order'] ?? 999));
+    $featured = array_values(array_filter($projects, static fn (array $project): bool => !empty($project['showOnHome'])));
+    $remaining = array_values(array_filter($projects, static fn (array $project): bool => empty($project['showOnHome'])));
+    usort($featured, static fn (array $a, array $b): int => ($a['homeOrder'] ?? 999) <=> ($b['homeOrder'] ?? 999));
+    usort($remaining, static fn (array $a, array $b): int => ($a['order'] ?? 999) <=> ($b['order'] ?? 999));
 
     return array_slice(array_merge($featured, $remaining), 0, 6);
 }

@@ -25,7 +25,8 @@ http_response_code((int) $route['status']);
 $meta = page_metadata($route['page'] === 'project-detail' ? 'projetos' : $route['page']);
 if ($project !== null) {
     $meta['title'] = translated($project['title']) . ' — Improov';
-    $meta['description'] = (string) ($project['detail']['description']['pt-BR'][0] ?? $meta['description']);
+    $language = current_language();
+    $meta['description'] = (string) ($project['detail']['description'][$language][0] ?? $project['detail']['description']['pt-BR'][0] ?? $meta['description']);
     $meta['path'] = 'projetos/' . $project['slug'];
     $meta['image'] = $project['media']['hero']['src'];
 }

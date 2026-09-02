@@ -589,9 +589,10 @@
     const lang = language || getLanguage();
     return dictionary[lang]?.[key] || dictionary["pt-BR"][key] || key;
   }
-  function applyLanguage(language) {
+  function applyLanguage(language, reloadServer = false) {
     const lang = supported.includes(language) ? language : "pt-BR";
     localStorage.setItem(STORAGE_KEY, lang);
+    document.cookie = `${STORAGE_KEY}=${encodeURIComponent(lang)}; path=/; max-age=31536000; samesite=lax`;
     document.documentElement.lang = lang;
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       el.textContent = translate(el.dataset.i18n, lang);
@@ -622,6 +623,10 @@
     document.querySelectorAll("[data-language-input]").forEach((input) => {
       input.value = lang;
     });
+    if (reloadServer && document.querySelector("[data-case-detail]")) {
+      window.location.reload();
+      return;
+    }
     document.dispatchEvent(
       new CustomEvent("improov:languagechange", { detail: { language: lang } }),
     );
@@ -632,7 +637,7 @@
       .querySelectorAll("[data-language]")
       .forEach((button) =>
         button.addEventListener("click", () =>
-          applyLanguage(button.dataset.language),
+          applyLanguage(button.dataset.language, true),
         ),
       );
     applyLanguage(getLanguage());
