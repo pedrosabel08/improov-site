@@ -597,14 +597,18 @@
   }
 
   function initDragRails() {
+    const DRAG_THRESHOLD = 8;
     document
       .querySelectorAll("[data-case-gallery-rail], [data-case-moments]")
       .forEach((rail) => {
         let drag = null;
-        let suppressClickUntil = 0;
+        let suppressClick = false;
         const slides = Array.from(
           rail.querySelectorAll("[data-case-gallery-slide]"),
         );
+        rail.querySelectorAll("img").forEach((image) => {
+          image.draggable = false;
+        });
         const nearestSlide = () => {
           if (!slides.length) return 0;
           const center = rail.scrollLeft + rail.clientWidth / 2;
@@ -620,36 +624,41 @@
         };
         const release = (event) => {
           if (!drag || (event && event.pointerId !== drag.pointerId)) return;
-          const deltaX = (event?.clientX ?? drag.lastX) - drag.startX;
+          const activeDrag = drag;
+          drag = null;
+          const deltaX = (event?.clientX ?? activeDrag.lastX) - activeDrag.startX;
           const distance = Math.abs(deltaX);
           const elapsed = Math.max(
             1,
-            (event?.timeStamp ?? performance.now()) - drag.startTime,
+            (event?.timeStamp ?? performance.now()) - activeDrag.startTime,
           );
-          const velocity = Math.max(distance / elapsed, drag.velocity || 0);
+          const velocity = Math.max(distance / elapsed, activeDrag.velocity || 0);
           const slideWidth =
-            slides[drag.startIndex]?.offsetWidth || rail.clientWidth;
+            slides[activeDrag.startIndex]?.offsetWidth || rail.clientWidth;
           const shouldAdvance =
             distance >= slideWidth * 0.12 || velocity >= 0.35;
           const direction =
             shouldAdvance && deltaX !== 0 ? (deltaX < 0 ? 1 : -1) : 0;
-          if (drag.moved) {
-            suppressClickUntil = performance.now() + 350;
+          if (activeDrag.isDragging) {
+            suppressClick = true;
             rail.dispatchEvent(
               new CustomEvent("case-gallery-snap", {
-                detail: { index: drag.startIndex, direction },
+                detail: { index: activeDrag.startIndex, direction },
               }),
             );
+            rail.classList.remove("is-dragging");
+            rail.style.removeProperty("scroll-snap-type");
+            rail.style.removeProperty("scroll-behavior");
           }
-          rail.classList.remove("is-dragging");
-          rail.style.removeProperty("scroll-snap-type");
-          rail.style.removeProperty("scroll-behavior");
-          drag = null;
           if (event && rail.hasPointerCapture?.(event.pointerId))
             rail.releasePointerCapture(event.pointerId);
         };
         rail.addEventListener("pointerdown", (event) => {
           if (event.pointerType === "mouse" && event.button !== 0) return;
+          // A new gesture starts a fresh click/drag decision. If the browser
+          // did not emit a click after the previous drag, do not carry that
+          // suppression into this next intentional interaction.
+          suppressClick = false;
           const startTime =
             event.timeStamp > 0 ? event.timeStamp : performance.now();
           drag = {
@@ -661,12 +670,8 @@
             startTime,
             startIndex: nearestSlide(),
             velocity: 0,
-            moved: false,
+            isDragging: false,
           };
-          rail.classList.add("is-dragging");
-          rail.style.scrollSnapType = "none";
-          rail.style.scrollBehavior = "auto";
-          rail.setPointerCapture?.(event.pointerId);
         });
         rail.addEventListener("pointermove", (event) => {
           if (!drag || event.pointerId !== drag.pointerId) return;
@@ -676,8 +681,14 @@
           drag.lastX = event.clientX;
           drag.lastTime = now;
           const distance = event.clientX - drag.startX;
-          if (Math.abs(distance) > 8) drag.moved = true;
-          if (!drag.moved) return;
+          if (!drag.isDragging && Math.abs(distance) > DRAG_THRESHOLD) {
+            drag.isDragging = true;
+            rail.classList.add("is-dragging");
+            rail.style.scrollSnapType = "none";
+            rail.style.scrollBehavior = "auto";
+            rail.setPointerCapture?.(event.pointerId);
+          }
+          if (!drag.isDragging) return;
           event.preventDefault();
           rail.scrollLeft = drag.startScroll - distance;
         });
@@ -688,7 +699,8 @@
         rail.addEventListener(
           "click",
           (event) => {
-            if (performance.now() > suppressClickUntil) return;
+            if (!suppressClick) return;
+            suppressClick = false;
             event.preventDefault();
             event.stopPropagation();
           },
@@ -978,6 +990,10 @@
       next.disabled = activeGroup.length < 2;
     };
     const close = () => {
+      if (document.fullscreenElement === dialog) {
+        const exit = document.exitFullscreen?.();
+        if (exit) exit.catch(() => {});
+      }
       if (dialog.open) dialog.close();
       player.removeAttribute("src");
       player.dataset.humanizedPlan = "false";
@@ -996,7 +1012,11 @@
       if (!activeGroup.length) activeGroup = [trigger];
       origin = trigger;
       update(Math.max(0, activeGroup.indexOf(trigger)));
-      if (!dialog.open) dialog.showModal();
+      if (!dialog.open) {
+        dialog.showModal();
+        const request = dialog.requestFullscreen?.();
+        if (request) request.catch(() => {});
+      }
       dialog.querySelector("[data-case-image-close]")?.focus();
     };
 
