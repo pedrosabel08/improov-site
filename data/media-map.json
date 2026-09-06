@@ -1035,62 +1035,6 @@
       }
     }
   },
-  "assets/BHE_INF_Academia_EF.jpg": {
-    "source": "assets/BHE_INF_Academia_EF.jpg",
-    "base": "assets/media/academia-energia-urbana/v1/gallery-01",
-    "width": 5000,
-    "height": 3126,
-    "sources": {
-      "640": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-640.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-640.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1024.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1024.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1440.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1440.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-01-1920.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-01-1920.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-01-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Embasamento_EF.jpg": {
-    "source": "assets/BHE_INF_Embasamento_EF.jpg",
-    "base": "assets/media/academia-energia-urbana/v1/gallery-02",
-    "width": 5000,
-    "height": 3644,
-    "sources": {
-      "640": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-640.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-640.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1024.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1024.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1440.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1440.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/academia-energia-urbana/v1/gallery-02-1920.avif",
-        "webp": "assets/media/academia-energia-urbana/v1/gallery-02-1920.webp",
-        "jpg": "assets/media/academia-energia-urbana/v1/gallery-02-1920.jpg"
-      }
-    }
-  },
   "assets/BHE_INF_Adega_EF.jpg": {
     "source": "assets/BHE_INF_Adega_EF.jpg",
     "base": "assets/media/site/v1/about-studio-adega",
@@ -1144,62 +1088,6 @@
         "avif": "assets/media/site/v1/about-studio-living-1920.avif",
         "webp": "assets/media/site/v1/about-studio-living-1920.webp",
         "jpg": "assets/media/site/v1/about-studio-living-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Brinquedoteca_EF.jpg": {
-    "source": "assets/BHE_INF_Brinquedoteca_EF.jpg",
-    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01",
-    "width": 5000,
-    "height": 3846,
-    "sources": {
-      "640": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-01-1920.jpg"
-      }
-    }
-  },
-  "assets/BHE_INF_Jogos_EF.jpg": {
-    "source": "assets/BHE_INF_Jogos_EF.jpg",
-    "base": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02",
-    "width": 5000,
-    "height": 3846,
-    "sources": {
-      "640": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-640.jpg"
-      },
-      "1024": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1024.jpg"
-      },
-      "1440": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1440.jpg"
-      },
-      "1920": {
-        "avif": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.avif",
-        "webp": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.webp",
-        "jpg": "assets/media/brinquedoteca-cor-movimento/v1/gallery-02-1920.jpg"
       }
     }
   },
@@ -1452,6 +1340,1210 @@
         "avif": "assets/media/site/v1/about-studio-04-1920.avif",
         "webp": "assets/media/site/v1/about-studio-04-1920.webp",
         "jpg": "assets/media/site/v1/about-studio-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-11-aya-kar-living-manaca-301-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-11-aya-kar-living-manaca-301-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-05",
+    "width": 5000,
+    "height": 3165,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-05-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-05-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-05-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-05-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-05-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-13-aya-kar-rofftop-manaca-301-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-13-aya-kar-rofftop-manaca-301-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-06",
+    "width": 5000,
+    "height": 3653,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-06-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-06-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-06-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-06-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-06-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-14-aya-kar-sala-com-escada-ipe-306-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-14-aya-kar-sala-com-escada-ipe-306-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-07",
+    "width": 5000,
+    "height": 2747,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-07-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-07-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-07-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-07-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-07-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/15. AYA_KAR Sala sem escada Ipe 306_EF.jpg": {
+    "source": "assets/projetos/aya-kar/15. AYA_KAR Sala sem escada Ipe 306_EF.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-08",
+    "width": 5000,
+    "height": 3750,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-08-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-08-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-08-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-08-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-08-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-16-aya-kar-suite-ipe-306-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-16-aya-kar-suite-ipe-306-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-09",
+    "width": 5000,
+    "height": 3572,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-09-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-09-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-09-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-09-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-09-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-09-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-17-aya-kar-rooftop-psicina-ipe-306-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-17-aya-kar-rooftop-psicina-ipe-306-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-10",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-10-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-10-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-10-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-10-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-10-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-10-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-10-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-10-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-10-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-10-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-10-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-10-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-19-aya-kar-planta-humanizada-implantacao-geral-ef-1-1.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-19-aya-kar-planta-humanizada-implantacao-geral-ef-1-1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-11",
+    "width": 8384,
+    "height": 2966,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-11-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-11-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-11-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-11-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-11-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-11-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-11-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-11-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-11-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-11-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-11-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-11-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-203-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-203-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-12",
+    "width": 5000,
+    "height": 3572,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-12-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-12-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-12-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-12-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-12-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-12-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-12-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-12-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-12-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-12-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-12-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-12-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-301-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-301-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-13",
+    "width": 5000,
+    "height": 2304,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-13-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-13-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-13-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-13-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-13-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-13-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-13-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-13-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-13-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-13-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-13-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-13-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-14",
+    "width": 5000,
+    "height": 4167,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-14-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-14-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-14-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-14-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-14-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-14-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-14-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-14-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-14-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-14-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-14-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-14-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-15",
+    "width": 5000,
+    "height": 3572,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-15-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-15-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-15-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-15-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-15-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-15-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-15-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-15-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-15-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-15-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-15-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-15-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-305-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-305-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-16",
+    "width": 5000,
+    "height": 4167,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-16-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-16-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-16-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-16-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-16-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-16-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-16-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-16-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-16-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-16-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-16-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-16-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-17",
+    "width": 5000,
+    "height": 4167,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-17-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-17-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-17-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-17-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-17-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-17-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-17-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-17-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-17-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-17-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-17-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-17-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-18",
+    "width": 5000,
+    "height": 4167,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-18-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-18-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-18-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-18-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-18-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-18-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-18-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-18-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-18-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-18-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-18-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-18-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-310-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-310-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-19",
+    "width": 5000,
+    "height": 3906,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-19-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-19-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-19-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-19-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-19-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-19-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-19-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-19-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-19-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-19-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-19-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-19-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-101-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-101-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-20",
+    "width": 5000,
+    "height": 3881,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-20-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-20-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-20-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-20-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-20-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-20-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-20-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-20-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-20-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-20-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-20-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-20-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-102-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-102-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-21",
+    "width": 5000,
+    "height": 3881,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-21-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-21-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-21-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-21-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-21-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-21-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-21-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-21-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-21-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-21-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-21-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-21-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-103-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-103-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-22",
+    "width": 5000,
+    "height": 4902,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-22-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-22-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-22-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-22-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-22-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-22-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-22-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-22-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-22-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-22-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-22-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-22-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-23",
+    "width": 5000,
+    "height": 4167,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-23-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-23-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-23-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-23-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-23-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-23-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-23-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-23-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-23-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-23-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-23-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-23-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-24",
+    "width": 5000,
+    "height": 3906,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-24-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-24-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-24-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-24-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-24-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-24-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-24-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-24-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-24-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-24-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-24-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-24-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-301-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-301-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-25",
+    "width": 5000,
+    "height": 2074,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-25-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-25-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-25-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-25-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-25-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-25-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-25-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-25-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-25-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-25-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-25-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-25-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-302-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-302-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-26",
+    "width": 5000,
+    "height": 4129,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-26-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-26-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-26-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-26-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-26-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-26-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-26-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-26-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-26-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-26-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-26-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-26-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-27",
+    "width": 5000,
+    "height": 4129,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-27-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-27-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-27-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-27-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-27-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-27-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-27-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-27-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-27-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-27-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-27-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-27-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-28",
+    "width": 5000,
+    "height": 4129,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-28-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-28-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-28-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-28-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-28-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-28-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-28-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-28-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-28-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-28-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-28-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-28-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-304-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-304-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-29",
+    "width": 4154,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-29-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-29-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-29-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-29-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-29-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-29-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-29-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-29-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-29-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-29-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-29-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-29-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-305-torre-manaca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-305-torre-manaca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-30",
+    "width": 5000,
+    "height": 4129,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-30-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-30-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-30-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-30-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-30-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-30-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-30-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-30-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-30-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-30-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-30-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-30-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-306-torre-ipe-ef.jpg": {
+    "source": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-306-torre-ipe-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-31",
+    "width": 5000,
+    "height": 3494,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-31-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-31-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-31-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-31-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-31-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-31-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-31-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-31-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-31-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-31-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-31-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-31-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-10-aya-kar-academia-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-10-aya-kar-academia-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-32",
+    "width": 5000,
+    "height": 3334,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-32-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-32-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-32-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-32-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-32-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-32-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-32-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-32-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-32-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-32-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-32-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-32-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-23-aya-kar-hall-de-entrada-torre-2-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-23-aya-kar-hall-de-entrada-torre-2-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-33",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-33-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-33-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-33-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-33-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-33-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-33-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-33-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-33-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-33-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-33-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-33-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-33-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-24-aya-kar-playground-com-teto-verde-ef-1-1.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-24-aya-kar-playground-com-teto-verde-ef-1-1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-34",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-34-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-34-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-34-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-34-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-34-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-34-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-34-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-34-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-34-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-34-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-34-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-34-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-25-aya-kar-caminho-da-entrada-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-25-aya-kar-caminho-da-entrada-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-35",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-35-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-35-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-35-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-35-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-35-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-35-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-35-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-35-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-35-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-35-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-35-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-35-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-28-aya-kar-brinquedoteca-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-28-aya-kar-brinquedoteca-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-36",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-36-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-36-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-36-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-36-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-36-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-36-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-36-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-36-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-36-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-36-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-36-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-36-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/3._AYA_KAR_Fachada_no_angulo_do_observador_frontal_mostrando_o_acesso_com_guarita_EF_1_1.jpg": {
+    "source": "assets/projetos/aya-kar/3._AYA_KAR_Fachada_no_angulo_do_observador_frontal_mostrando_o_acesso_com_guarita_EF_1_1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-37",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-37-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-37-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-37-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-37-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-37-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-37-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-37-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-37-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-37-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-37-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-37-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-37-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-30-aya-kar-gourmet-2-ef-002.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-30-aya-kar-gourmet-2-ef-002.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-38",
+    "width": 5000,
+    "height": 2272,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-38-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-38-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-38-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-38-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-38-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-38-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-38-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-38-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-38-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-38-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-38-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-38-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-7-aya-kar-piscina-infantil-ef-1-1.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-7-aya-kar-piscina-infantil-ef-1-1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-39",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-39-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-39-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-39-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-39-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-39-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-39-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-39-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-39-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-39-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-39-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-39-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-39-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-9-aya-kar-piscina-geral-semi-aerea-mostrando-todo-lazer-teto-verde-rasgo-etc-ef-1-1.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-9-aya-kar-piscina-geral-semi-aerea-mostrando-todo-lazer-teto-verde-rasgo-etc-ef-1-1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-40",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-40-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-40-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-40-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-40-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-40-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-40-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-40-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-40-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-40-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-40-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-40-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-40-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-27-aya-kar-embasamento-com-foco-no-acesso-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-27-aya-kar-embasamento-com-foco-no-acesso-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-41",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-41-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-41-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-41-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-41-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-41-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-41-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-41-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-41-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-41-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-41-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-41-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-41-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-31-aya-kar-sala-ultimo-apartamento-com-vista-pra-mata-app-com-muxarabi-apto-310-ef.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-31-aya-kar-sala-ultimo-apartamento-com-vista-pra-mata-app-com-muxarabi-apto-310-ef.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-42",
+    "width": 5000,
+    "height": 3165,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-42-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-42-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-42-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-42-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-42-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-42-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-42-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-42-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-42-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-42-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-42-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-42-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/32.AYA_KAR Rooftop vista mata_EF.jpg": {
+    "source": "assets/projetos/aya-kar/32.AYA_KAR Rooftop vista mata_EF.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-43",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-43-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-43-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-43-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-43-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-43-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-43-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-43-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-43-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-43-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-43-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-43-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-43-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-kar/imagens/imagem-5-aya-kar-passeio-entre-piscina-e-apto-ef-1-1.jpg": {
+    "source": "assets/projetos/aya-kar/imagens/imagem-5-aya-kar-passeio-entre-piscina-e-apto-ef-1-1.jpg",
+    "base": "assets/media/aya-kar/v1/gallery-44",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-kar/v1/gallery-44-640.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-44-640.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-44-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-kar/v1/gallery-44-1024.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-44-1024.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-44-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-kar/v1/gallery-44-1440.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-44-1440.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-44-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-kar/v1/gallery-44-1920.avif",
+        "webp": "assets/media/aya-kar/v1/gallery-44-1920.webp",
+        "jpg": "assets/media/aya-kar/v1/gallery-44-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg": {
+    "source": "assets/projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg",
+    "base": "assets/media/alp-sc/v1/hero",
+    "width": 8000,
+    "height": 5760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/alp-sc/v1/hero-640.avif",
+        "webp": "assets/media/alp-sc/v1/hero-640.webp",
+        "jpg": "assets/media/alp-sc/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/alp-sc/v1/hero-1024.avif",
+        "webp": "assets/media/alp-sc/v1/hero-1024.webp",
+        "jpg": "assets/media/alp-sc/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/alp-sc/v1/hero-1440.avif",
+        "webp": "assets/media/alp-sc/v1/hero-1440.webp",
+        "jpg": "assets/media/alp-sc/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/alp-sc/v1/hero-1920.avif",
+        "webp": "assets/media/alp-sc/v1/hero-1920.webp",
+        "jpg": "assets/media/alp-sc/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/alp-sc/imagens/imagem-2-alp-sc-fotomontagem-2-r00-3-1.jpg": {
+    "source": "assets/projetos/alp-sc/imagens/imagem-2-alp-sc-fotomontagem-2-r00-3-1.jpg",
+    "base": "assets/media/alp-sc/v1/gallery-01",
+    "width": 5000,
+    "height": 2160,
+    "sources": {
+      "640": {
+        "avif": "assets/media/alp-sc/v1/gallery-01-640.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-01-640.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/alp-sc/v1/gallery-01-1024.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/alp-sc/v1/gallery-01-1440.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/alp-sc/v1/gallery-01-1920.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/alp-sc/imagens/imagem-3-alp-sc-fotomontagem-3-r00-1-1.jpg": {
+    "source": "assets/projetos/alp-sc/imagens/imagem-3-alp-sc-fotomontagem-3-r00-1-1.jpg",
+    "base": "assets/media/alp-sc/v1/gallery-02",
+    "width": 2500,
+    "height": 1899,
+    "sources": {
+      "640": {
+        "avif": "assets/media/alp-sc/v1/gallery-02-640.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-02-640.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/alp-sc/v1/gallery-02-1024.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/alp-sc/v1/gallery-02-1440.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/alp-sc/v1/gallery-02-1920.avif",
+        "webp": "assets/media/alp-sc/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/alp-sc/v1/gallery-02-1920.jpg"
       }
     }
   }

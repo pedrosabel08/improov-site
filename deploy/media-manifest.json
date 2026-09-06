@@ -169,60 +169,184 @@
         {
           "name": "gallery-04",
           "source": "projetos/aya-kar/12. AYA_KAR Suite master  - apto 310_EF.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/aya-kar/imagens/imagem-11-aya-kar-living-manaca-301-ef.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/aya-kar/imagens/imagem-13-aya-kar-rofftop-manaca-301-ef.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/aya-kar/imagens/imagem-14-aya-kar-sala-com-escada-ipe-306-ef.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/aya-kar/15. AYA_KAR Sala sem escada Ipe 306_EF.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/aya-kar/imagens/imagem-16-aya-kar-suite-ipe-306-ef.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/aya-kar/imagens/imagem-17-aya-kar-rooftop-psicina-ipe-306-ef.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/aya-kar/plantas/planta-19-aya-kar-planta-humanizada-implantacao-geral-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-203-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-301-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-303-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-305-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-306-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-310-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-101-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-102-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-103-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-24",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-106-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-25",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-301-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-26",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-302-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-27",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-28",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-303-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-29",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-304-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-30",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-305-torre-manaca-ef.jpg"
+        },
+        {
+          "name": "gallery-31",
+          "source": "projetos/aya-kar/plantas/planta-aya-kar-ph-rooftop-apto-306-torre-ipe-ef.jpg"
+        },
+        {
+          "name": "gallery-32",
+          "source": "projetos/aya-kar/imagens/imagem-10-aya-kar-academia-ef.jpg"
+        },
+        {
+          "name": "gallery-33",
+          "source": "projetos/aya-kar/imagens/imagem-23-aya-kar-hall-de-entrada-torre-2-ef.jpg"
+        },
+        {
+          "name": "gallery-34",
+          "source": "projetos/aya-kar/imagens/imagem-24-aya-kar-playground-com-teto-verde-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-35",
+          "source": "projetos/aya-kar/imagens/imagem-25-aya-kar-caminho-da-entrada-ef.jpg"
+        },
+        {
+          "name": "gallery-36",
+          "source": "projetos/aya-kar/imagens/imagem-28-aya-kar-brinquedoteca-ef.jpg"
+        },
+        {
+          "name": "gallery-37",
+          "source": "projetos/aya-kar/3._AYA_KAR_Fachada_no_angulo_do_observador_frontal_mostrando_o_acesso_com_guarita_EF_1_1.jpg"
+        },
+        {
+          "name": "gallery-38",
+          "source": "projetos/aya-kar/imagens/imagem-30-aya-kar-gourmet-2-ef-002.jpg"
+        },
+        {
+          "name": "gallery-39",
+          "source": "projetos/aya-kar/imagens/imagem-7-aya-kar-piscina-infantil-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-40",
+          "source": "projetos/aya-kar/imagens/imagem-9-aya-kar-piscina-geral-semi-aerea-mostrando-todo-lazer-teto-verde-rasgo-etc-ef-1-1.jpg"
+        },
+        {
+          "name": "gallery-41",
+          "source": "projetos/aya-kar/imagens/imagem-27-aya-kar-embasamento-com-foco-no-acesso-ef.jpg"
+        },
+        {
+          "name": "gallery-42",
+          "source": "projetos/aya-kar/imagens/imagem-31-aya-kar-sala-ultimo-apartamento-com-vista-pra-mata-app-com-muxarabi-apto-310-ef.jpg"
+        },
+        {
+          "name": "gallery-43",
+          "source": "projetos/aya-kar/32.AYA_KAR Rooftop vista mata_EF.jpg"
+        },
+        {
+          "name": "gallery-44",
+          "source": "projetos/aya-kar/imagens/imagem-5-aya-kar-passeio-entre-piscina-e-apto-ef-1-1.jpg"
         }
       ]
     },
     {
-      "slug": "academia-energia-urbana",
+      "slug": "alp-sc",
       "mediaVersion": 1,
       "media": [
         {
           "name": "hero",
-          "source": "imagens-gerais/legado/BHE_INF_Academia_EF.jpg"
+          "source": "projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg"
         },
         {
           "name": "gallery-01",
-          "source": "imagens-gerais/legado/BHE_INF_Academia_EF.jpg"
+          "source": "projetos/alp-sc/imagens/imagem-2-alp-sc-fotomontagem-2-r00-3-1.jpg"
         },
         {
           "name": "gallery-02",
-          "source": "imagens-gerais/legado/BHE_INF_Embasamento_EF.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "adega-luz-sombra",
-      "mediaVersion": 1,
-      "media": [
-        {
-          "name": "hero",
-          "source": "escritorio/ambientes/BHE_INF_Adega_EF.jpg"
-        },
-        {
-          "name": "gallery-01",
-          "source": "escritorio/ambientes/BHE_INF_Adega_EF.jpg"
-        },
-        {
-          "name": "gallery-02",
-          "source": "escritorio/ambientes/BHE_INF_Living_Diferenciado_EF.jpg"
-        }
-      ]
-    },
-    {
-      "slug": "brinquedoteca-cor-movimento",
-      "mediaVersion": 1,
-      "media": [
-        {
-          "name": "hero",
-          "source": "imagens-gerais/legado/BHE_INF_Brinquedoteca_EF.jpg"
-        },
-        {
-          "name": "gallery-01",
-          "source": "imagens-gerais/legado/BHE_INF_Brinquedoteca_EF.jpg"
-        },
-        {
-          "name": "gallery-02",
-          "source": "imagens-gerais/legado/BHE_INF_Jogos_EF.jpg"
+          "source": "projetos/alp-sc/imagens/imagem-3-alp-sc-fotomontagem-3-r00-1-1.jpg"
         }
       ]
     }

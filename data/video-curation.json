@@ -11,22 +11,30 @@
         "6.AYA_KAR Piscina Maior.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Banner/FG_Talls_F_1.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Heartmade/19.ARS_VIE Piscina_Detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Improov/2021_0608_OMNI Promo v.01(assinatura) 2.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         }
       }
     },
@@ -34,63 +42,87 @@
       "defaults": {
         "publish": true,
         "poster": true,
-        "variants": ["1080"]
+        "variants": [
+          "1080"
+        ]
       },
       "sources": {
         "animacoes/animacao-ars-vie-tracking-0006.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-ars-vie-tracking-0050.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-ars-vie-tracking-0122.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-22-ars-vie-redario-detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "animacoes/animacao-19-ars-vie-piscina-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "filmes/filme-2025-ars-vie-concept-4k-v3.mp4": {
           "publish": true,
           "poster": true,
-          "variants": ["1080"]
+          "variants": [
+            "1080"
+          ]
         },
         "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4": {
           "publish": true,
@@ -116,6 +148,164 @@
           "publish": true,
           "poster": true,
           "variants": "all"
+        }
+      }
+    },
+    "aya-kar": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-6-aya-kar-piscina-maior.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-12-aya-kar-suite-master-interior.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-17-aya-kar-rooftop-mata.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-24-aya-kar-playground.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-27-aya-kar-sacada.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-4-aya-kar-rampa-garagem.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-7-aya-kar-piscina-infantil.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "filmes/filme-2026-aya-kar-concept-dc-4k.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "filmes/filme-2026-aya-kar-depo-full-dc.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "animacoes/animacao-32-aya-kar-rooftop.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        }
+      }
+    },
+    "alp-sc": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-2-alp-sc-conceito.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
+        },
+        "filmes/filme-alpes-sc-institucional-en.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": [
+            "1080"
+          ]
         }
       }
     }

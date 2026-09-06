@@ -41,16 +41,16 @@
       "menu.close": "Fechar menu",
       "whatsapp.label": "Falar com a Improov no WhatsApp",
       "footer.description":
-        "Criamos imagens e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.",
+        "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.",
       "footer.navigation": "Navegação",
       "footer.contact": "Contato",
       "footer.follow": "Siga-nos",
       "footer.rights": "Todos os direitos reservados.",
       "footer.privacy": "Política de Privacidade",
       "home.eyebrow": "Imagens que",
-      "home.title": "transformam projetos",
+      "home.title": "Fazemos sentir antes de existir",
       "home.intro":
-        "Criamos imagens arquitetônicas e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.",
+        "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.",
       "home.action": "Conheça nosso trabalho",
       "home.pillarsEyebrow": "Nossa proposta",
       "home.pillarsTitle": "Imagem com intenção. Experiência com propósito.",
@@ -72,9 +72,9 @@
       "projects.label": "Projetos da Improov",
       "projects.project": "Projeto",
       "about.eyebrow": "Quem Somos",
-      "about.title": "Quem Somos",
+      "about.title": "Artesãos Digitais",
       "about.intro":
-        "A Improov nasceu da convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.",
+        "A Improov possui a experiência de 20 anos no desenvolvimento de materiais para lançamentos imobiliários e temos a convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.",
       "about.manifestoEyebrow": "Nossa essência",
       "about.manifestoTitle":
         "Grandes empreendimentos conquistam pessoas pelas emoções que despertam.",

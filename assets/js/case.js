@@ -408,13 +408,66 @@
     });
   }
 
-  function initFilmFullscreen() {
-    document.querySelectorAll(".case-v3-film__video").forEach((video) => {
-      video.addEventListener("click", () => {
-        if (document.fullscreenElement === video) return;
-        const request = video.requestFullscreen?.();
-        if (request) request.catch(() => {});
+  function initFilms() {
+    const films = Array.from(document.querySelectorAll(".case-v3-film__video"));
+    const observer = supportsObserver
+      ? new IntersectionObserver(
+          (entries) => {
+            entries.forEach(({ target, isIntersecting }) => {
+              if (!isIntersecting && document.fullscreenElement !== target &&
+                  !target.webkitDisplayingFullscreen)
+                target.pause();
+            });
+          },
+          { threshold: 0 },
+        )
+      : null;
+    films.forEach((video) => {
+      observer?.observe(video);
+      const trigger = video.parentElement.querySelector("[data-case-film-play]");
+      let wasFullscreen = false;
+      if (trigger) {
+        trigger.hidden = false;
+        trigger.addEventListener("click", () => {
+          const play = video.play();
+          if (play) play.catch(() => {});
+          if (video.requestFullscreen) {
+            video.requestFullscreen().catch(() => {
+              trigger.hidden = true;
+            });
+          } else if (video.webkitEnterFullscreen) {
+            const enter = () => {
+              try { video.webkitEnterFullscreen(); }
+              catch { trigger.hidden = true; }
+            };
+            if (video.readyState > 0) enter();
+            else video.addEventListener("loadedmetadata", enter, { once: true });
+          } else {
+            trigger.hidden = true;
+          }
+        });
+      }
+      const leaveFullscreen = () => {
+        video.pause();
+        if (trigger) trigger.hidden = false;
+      };
+      document.addEventListener("fullscreenchange", () => {
+        if (document.fullscreenElement === video) wasFullscreen = true;
+        else if (wasFullscreen) {
+          wasFullscreen = false;
+          leaveFullscreen();
+        }
       });
+      video.addEventListener("webkitendfullscreen", leaveFullscreen);
+      video.addEventListener("play", () => {
+        if (media.active) media.deactivate(media.active);
+        films.forEach((other) => {
+          if (other !== video) other.pause();
+        });
+      });
+    });
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) films.forEach((video) => video.pause());
     });
   }
 
@@ -936,46 +989,6 @@
     let activeIndex = 0;
     let origin = null;
 
-    const fitPlayer = () => {
-      if (!player.naturalWidth || !player.naturalHeight || !stage) return;
-      const isPlan = player.dataset.humanizedPlan === "true";
-      const portrait = isPlan && player.naturalHeight > player.naturalWidth;
-      player.classList.toggle("humanized-plan--rotate", portrait);
-      player.style.setProperty(
-        "transform",
-        portrait ? "rotate(-90deg)" : "none",
-        "important",
-      );
-      if (!isPlan) {
-        player.style.removeProperty("width");
-        player.style.removeProperty("height");
-        player.style.removeProperty("transform");
-        return;
-      }
-      const bounds = stage.getBoundingClientRect();
-      const visualWidth = portrait ? player.naturalHeight : player.naturalWidth;
-      const visualHeight = portrait
-        ? player.naturalWidth
-        : player.naturalHeight;
-      const scale = Math.min(
-        1,
-        bounds.width / visualWidth,
-        bounds.height / visualHeight,
-      );
-      player.style.setProperty(
-        "width",
-        `${Math.max(1, Math.round(player.naturalWidth * scale))}px`,
-        "important",
-      );
-      player.style.setProperty(
-        "height",
-        `${Math.max(1, Math.round(player.naturalHeight * scale))}px`,
-        "important",
-      );
-    };
-    player.addEventListener("load", fitPlayer);
-    window.addEventListener("resize", fitPlayer, { passive: true });
-
     const update = (index) => {
       if (!activeGroup.length) return;
       activeIndex = (index + activeGroup.length) % activeGroup.length;
@@ -997,7 +1010,6 @@
       if (dialog.open) dialog.close();
       player.removeAttribute("src");
       player.dataset.humanizedPlan = "false";
-      player.classList.remove("humanized-plan--rotate");
       player.style.removeProperty("width");
       player.style.removeProperty("height");
       player.style.removeProperty("transform");
@@ -1055,106 +1067,6 @@
     });
   }
 
-  function initHumanizedPlans() {
-    const updates = new Map();
-    const observer =
-      "ResizeObserver" in window
-        ? new ResizeObserver((entries) => {
-            entries.forEach((entry) => updates.get(entry.target)?.());
-          })
-        : null;
-    document
-      .querySelectorAll("[data-case-humanized-plan] img")
-      .forEach((image) => {
-        const viewport =
-          image.closest(".case-v3-floorplans__viewport") ||
-          image.closest("[data-case-humanized-plan]");
-        if (!viewport) return;
-        const isCarouselPlan = !viewport.classList.contains(
-          "case-v3-floorplans__viewport",
-        );
-        const updateOrientation = () => {
-          if (!image.naturalWidth || !image.naturalHeight) return;
-          const portrait = image.naturalHeight > image.naturalWidth;
-          image.classList.toggle("humanized-plan--rotate", portrait);
-          image.classList.toggle("is-portrait-plan", portrait);
-          viewport.classList.toggle("is-portrait-plan", portrait);
-          image.style.setProperty(
-            "transform",
-            portrait && isCarouselPlan
-              ? "rotate(-90deg)"
-              : portrait
-                ? "translate(-50%, -50%) rotate(-90deg)"
-                : isCarouselPlan
-                  ? "none"
-                  : "translate(-50%, -50%)",
-            "important",
-          );
-          if (isCarouselPlan) {
-            if (!portrait) {
-              image.style.removeProperty("width");
-              image.style.removeProperty("height");
-              return;
-            }
-            const bounds = viewport.getBoundingClientRect();
-            const scale = Math.min(
-              bounds.width / image.naturalHeight,
-              bounds.height / image.naturalWidth,
-            );
-            image.style.setProperty(
-              "width",
-              `${Math.max(1, Math.round(image.naturalWidth * scale))}px`,
-              "important",
-            );
-            image.style.setProperty(
-              "height",
-              `${Math.max(1, Math.round(image.naturalHeight * scale))}px`,
-              "important",
-            );
-            return;
-          }
-          // Keep wide plans inside the stage. The top photomontage has a
-          // ~1.42 source ratio, so a 1.6 minimum prevents its visual box from
-          // becoming taller than the parent while preserving the full image.
-          const ratio = portrait
-            ? image.naturalHeight / image.naturalWidth
-            : Math.max(1.6, image.naturalWidth / image.naturalHeight);
-          viewport.style.setProperty("--plan-ratio", String(ratio));
-          if (!portrait) {
-            image.style.removeProperty("width");
-            image.style.removeProperty("height");
-            return;
-          }
-          const bounds = viewport.getBoundingClientRect();
-          const scale = Math.min(
-            bounds.width / image.naturalHeight,
-            bounds.height / image.naturalWidth,
-          );
-          image.style.setProperty(
-            "width",
-            `${Math.max(1, Math.round(image.naturalWidth * scale))}px`,
-            "important",
-          );
-          image.style.setProperty(
-            "height",
-            `${Math.max(1, Math.round(image.naturalHeight * scale))}px`,
-            "important",
-          );
-        };
-        if (image.complete && image.naturalWidth) updateOrientation();
-        else image.addEventListener("load", updateOrientation, { once: true });
-        updates.set(viewport, updateOrientation);
-        observer?.observe(viewport);
-      });
-    if (!observer && updates.size) {
-      window.addEventListener(
-        "resize",
-        () => updates.forEach((update) => update()),
-        { passive: true },
-      );
-    }
-  }
-
   function initMobileGalleryRails() {
     document
       .querySelectorAll("[data-case-mobile-gallery-rail]")
@@ -1202,13 +1114,12 @@
     initAnimationsCarousel();
     initFocusScrollStories();
     initStillMotion();
-    initFilmFullscreen();
+    initFilms();
     initGalleryCarousels();
     initMomentsCarousels();
     initDragRails();
     initPillPlayback();
     initPlans();
-    initHumanizedPlans();
     initChapterNavigation();
     initImageDialog();
     initMobileGalleryRails();

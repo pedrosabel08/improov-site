@@ -14,12 +14,12 @@ $caseText = static function (mixed $value): string {
 $displaySectionLabel = static function (mixed $value) use ($caseText): string {
     $label = $caseText($value);
     return [
-      'Imagens' => 'Imagens 3D',
-      'Images' => '3D Images',
-      'Imágenes' => 'Imágenes 3D',
-      'Animações' => 'Animações 3D',
-      'Animations' => '3D Animations',
-      'Animaciones' => 'Animaciones 3D',
+        'Imagens' => 'Imagens 3D',
+        'Images' => '3D Images',
+        'Imágenes' => 'Imágenes 3D',
+        'Animações' => 'Animações 3D',
+        'Animations' => '3D Animations',
+        'Animaciones' => 'Animaciones 3D',
     ][$label] ?? $label;
 };
 $imageExists = static function (mixed $source): bool {
@@ -44,15 +44,6 @@ $videoFor = static function (mixed $id) use ($caseVideos): ?array {
     }
     $video = $caseVideos[$id] ?? null;
     return is_array($video) && case_video_source($video) !== null ? $video : null;
-};
-$mediaLabel = static function (string $source, string $fallback): string {
-    $name = pathinfo($source, PATHINFO_FILENAME);
-    $name = preg_replace('/^(imagem|planta|animacao)-\d+-ars-vie-/', '', $name) ?? $name;
-    $name = preg_replace('/^animacao-ars-vie-/', '', $name) ?? $name;
-    $name = str_replace(['-', '_'], ' ', $name);
-    $name = preg_replace('/\b(ef|r\d+|v\d+|1 1|2 1|3 1|4 1)\b/i', '', $name) ?? $name;
-    $name = trim(preg_replace('/\s+/', ' ', $name) ?? '');
-    return $name === '' ? $fallback : ucwords($name);
 };
 $renderImage = static function (string $source, string $class, string $sizes, string $alt, string $reveal = 'up', bool $priority = false) use ($caseTitle): string {
     [$width, $height] = case_image_size($source);
@@ -92,7 +83,7 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
         (int) ($source['width'] ?? $video['width'] ?? 1920),
         (int) ($source['height'] ?? $video['height'] ?? 1080),
         $loop,
-        $label !== '' ? ' aria-label="' . escape($label) . '"' : ''
+        $label !== '' ? ' aria-label="' . escape($label) . '"' : '',
     );
 };
 $sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor): bool {
@@ -207,317 +198,7 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
 };
 $configuredSections = is_array($case['sections'] ?? null) ? $case['sections'] : [];
 
-// Cases are composed from a single editorial rhythm: each deliverable family
-// appears as a carousel, with the selected key views placed as full media
-// interludes between them. Keep the inventory in this config so additional
-// cases can use the same two section types without a custom template.
-if (($project['slug'] ?? '') === 'ars-vie') {
-    $text = static fn (string $pt, string $en, string $es): array => ['pt-BR' => $pt, 'en' => $en, 'es' => $es];
-    $arsImage = static fn (string $file, mixed $label): array => [
-      'src' => 'assets/projetos/ars-vie/imagens/' . $file,
-      'label' => $label,
-    ];
-    $sourceSections = $configuredSections;
-    $floorplanItems = [];
-    $knownPlans = [];
-    foreach ($sourceSections as $sourceSection) {
-        if (!is_array($sourceSection) || ($sourceSection['type'] ?? '') !== 'floorplans') {
-            continue;
-        }
-        foreach ($sourceSection['items'] ?? [] as $plan) {
-            if (!is_array($plan) || !is_string($plan['src'] ?? null)) {
-                continue;
-            }
-            $knownPlans[$plan['src']] = true;
-            $floorplanItems[] = $plan;
-        }
-    }
-    foreach ($project['media']['gallery'] ?? [] as $plan) {
-        $source = is_array($plan) ? (string) ($plan['src'] ?? '') : '';
-        if ($source === '' || !str_contains($source, '/plantas/') || isset($knownPlans[$source])) {
-            continue;
-        }
-        $knownPlans[$source] = true;
-        $floorplanItems[] = ['src' => $source, 'label' => $mediaLabel($source, 'Planta')];
-    }
-
-  $standaloneAnimationIds = [
-      'animacao-19-ars-vie-piscina-geral',
-      'animacao-36-ars-vie-suite-master-apto-tipo-1-vista',
-      'animacao-ars-vie-tracking-0006',
-    'animacao-ars-vie-tracking-0050',
-  ];
-  $animationLabels = [
-    'animacao-07-ars-vie-embasamento-mostrando-acesso' => ['pt-BR' => 'Embasamento mostrando acesso', 'en' => 'Podium access', 'es' => 'Acceso al basamento'],
-    'animacao-12-ars-vie-quadra' => ['pt-BR' => 'Quadra', 'en' => 'Sports court', 'es' => 'Cancha deportiva'],
-    'animacao-19-ars-vie-piscina-detalhe' => ['pt-BR' => 'Piscina — detalhe', 'en' => 'Pool — detail', 'es' => 'Piscina — detalle'],
-    'animacao-22-ars-vie-redario-detalhe' => ['pt-BR' => 'Redário — detalhe', 'en' => 'Hammock garden — detail', 'es' => 'Redario — detalle'],
-    'animacao-22-ars-vie-redario-geral' => ['pt-BR' => 'Redário geral', 'en' => 'Hammock garden — overview', 'es' => 'Redario general'],
-    'animacao-28-ars-vie-fire-place-detalhe' => ['pt-BR' => 'Fireplace — detalhe', 'en' => 'Fireplace — detail', 'es' => 'Chimenea — detalle'],
-    'animacao-31-ars-vie-sauna-seca' => ['pt-BR' => 'Sauna seca', 'en' => 'Dry sauna', 'es' => 'Sauna seca'],
-    'animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral' => ['pt-BR' => 'Living', 'en' => 'Living room', 'es' => 'Living'],
-    'animacao-36-ars-vie-suite-master-apto-tipo-1-geral' => ['pt-BR' => 'Suíte master', 'en' => 'Primary suite', 'es' => 'Suite principal'],
-    'animacao-38-ars-vie-living-apto-tipo-3-torre-3' => ['pt-BR' => 'Living', 'en' => 'Living room', 'es' => 'Living'],
-    'animacao-ars-vie-pov-bike' => ['pt-BR' => 'POV bike', 'en' => 'Bike POV', 'es' => 'POV bicicleta'],
-    'animacao-ars-vie-pov-praia' => ['pt-BR' => 'POV praia', 'en' => 'Beach POV', 'es' => 'POV playa'],
-    'animacao-ars-vie-tracking-0040' => ['pt-BR' => 'Tracking 0040', 'en' => 'Tracking 0040', 'es' => 'Tracking 0040'],
-    'animacao-ars-vie-tracking-0122' => ['pt-BR' => 'Tracking 0122', 'en' => 'Tracking 0122', 'es' => 'Tracking 0122'],
-    'animacao-ars-vie-tracking-0138' => ['pt-BR' => 'Tracking 0138', 'en' => 'Tracking 0138', 'es' => 'Tracking 0138'],
-  ];
-  foreach ($sourceSections as $sourceSection) {
-    if (!is_array($sourceSection) || ($sourceSection['type'] ?? '') !== 'animations') {
-      continue;
-    }
-    foreach ($sourceSection['steps'] ?? [] as $step) {
-      foreach ($step['items'] ?? [] as $item) {
-        if (!is_array($item)) {
-          continue;
-        }
-        $animationId = $item['mediaId'] ?? $item['id'] ?? null;
-        if (is_string($animationId) && $animationId !== '' && isset($item['label'])) {
-          $animationLabels[$animationId] = $item['label'];
-        }
-      }
-    }
-  }
-  $animationItems = [];
-    foreach ($caseVideos as $id => $video) {
-        if (($video['category'] ?? '') !== 'animacoes' || in_array($id, $standaloneAnimationIds, true)) {
-            continue;
-        }
-    $animationItems[] = ['mediaId' => $id, 'label' => $animationLabels[$id] ?? $mediaLabel((string) ($video['source'] ?? $id), 'Animação')];
-    }
-    $pillEnvironmentIds = [];
-    foreach ($environmentMap as $environmentId => $environment) {
-        $pillId = $environment['pill'] ?? null;
-        if ($videoFor($pillId) !== null) {
-            $pillEnvironmentIds[] = $environmentId;
-        }
-    }
-    $tailSections = array_values(array_filter($sourceSections, static fn (array $section): bool => in_array($section['type'] ?? '', ['film', 'closing'], true)));
-    $configuredSections = [
-      [
-        'type' => 'editorialBlock', 'id' => 'ritmo-editorial-01', 'navigation' => false,
-        'items' => [
-          ['mediaId' => 'animacao-19-ars-vie-piscina-geral', 'label' => $text('Piscina geral', 'Pool — wide shot', 'Piscina general')],
-          $arsImage('imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg', $text('Vista da praia de Perequê', 'Perequê beach view', 'Vista de la playa de Perequê')),
-          $arsImage('imagem-2-ars-vie-fotomontagem-aerea-geral-de-localizacao-ef-1-1.jpg', $text('Vista aérea', 'Aerial view', 'Vista aérea')),
-        ],
-      ],
-      [
-        'type' => 'carousel', 'id' => 'fachadas-areas-comuns',
-        'label' => $text('Fachadas + áreas comuns', 'Facades + common areas', 'Fachadas + áreas comunes'),
-        'title' => $text('Fachadas + áreas comuns', 'Facades + common areas', 'Fachadas + áreas comunes'),
-        'items' => [
-          $arsImage('imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg', $text('Entorno', 'Surroundings', 'Entorno')),
-          $arsImage('imagem-8-ars-vie-corredor-comercial-1-terreo-r01-1-1.jpg', $text('Corredor comercial', 'Commercial corridor', 'Corredor comercial')),
-          $arsImage('imagem-13-ars-vie-area-do-lago-ornamental-ef-2-1.jpg', $text('Lago ornamental', 'Ornamental lake', 'Lago ornamental')),
-          $arsImage('imagem-16-ars-vie-playground-1-ef-2-1.jpg', 'Playground'),
-          $arsImage('imagem-20-ars-vie-piscinas-angulo-2-ef-4-1.jpg', $text('Piscina', 'Pool', 'Piscina')),
-          $arsImage('imagem-21-ars-vie-pool-bar-ef-4-1.jpg', 'Pool bar'),
-          $arsImage('imagem-23-ars-vie-playground-2-jatos-de-agua-ef-3-1.jpg', $text('Playground com jatos d’água', 'Water-play playground', 'Zona de juegos con chorros de agua')),
-          $arsImage('imagem-26-ars-vie-espaco-zen-ef-3-1.jpg', $text('Espaço zen', 'Zen space', 'Espacio zen')),
-          $arsImage('imagem-28-ars-vie-fire-place-ef-4-1.jpg', 'Fireplace'),
-          $arsImage('imagem-30-ars-vie-espaco-wellness-ef-1-1.jpg', $text('Espaço wellness', 'Wellness space', 'Espacio wellness')),
-          $arsImage('imagem-31-ars-vie-sauna-seca-ef-1-1.jpg', $text('Sauna seca', 'Dry sauna', 'Sauna seca')),
-          $arsImage('imagem-32-ars-vie-wine-com-charutaria-ef-1-1.jpg', $text('Wine com charutaria', 'Wine and cigar lounge', 'Vino y cigarros')),
-          $arsImage('imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg', 'Jardim das Vieiras'),
-          $arsImage('imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg', $text('Jardim das Vieiras com cinema', 'Jardim das Vieiras with cinema', 'Jardim das Vieiras con cine')),
-        ],
-      ],
-      [
-        'type' => 'editorialBlock', 'id' => 'ritmo-editorial-02', 'navigation' => false,
-        'items' => [
-          ['mediaId' => 'animacao-36-ars-vie-suite-master-apto-tipo-1-vista', 'label' => $text('Suíte master — vista', 'Primary suite — view', 'Suite principal — vista')],
-          $arsImage('imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg', $text('Vista de Porto Belo', 'Porto Belo view', 'Vista de Porto Belo')),
-          $arsImage('imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg', $text('Entorno', 'Surroundings', 'Entorno')),
-        ],
-      ],
-      [
-        'type' => 'carousel', 'id' => 'apartamentos',
-        'label' => $text('Imagens de apartamento', 'Apartment images', 'Imágenes de apartamentos'),
-        'title' => $text('Imagens de apartamento', 'Apartment images', 'Imágenes de apartamentos'),
-        'items' => [
-          $arsImage('imagem-35-ars-vie-living-do-apartamento-tipo-1-angulo-2-focado-na-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', $text('Living panorâmico', 'Panoramic living', 'Living panorámico')),
-          $arsImage('imagem-36-ars-vie-suite-master-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', $text('Suíte master', 'Primary suite', 'Suite principal')),
-          $arsImage('imagem-37-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-3-ef-1-1.jpg', $text('Living — Torre 3', 'Living — Tower 3', 'Living — Torre 3')),
-          $arsImage('imagem-38-ars-vie-living-do-apartamento-tipo-3-com-vista-fotografica-real-torre-3-ef-1-1.jpg', $text('Living — Tipo 03', 'Living — Type 03', 'Living — Tipo 03')),
-          $arsImage('imagem-34-ars-vie-living-do-apartamento-tipo-1-com-vista-fotografica-real-torre-1torre-2-ef-1-1.jpg', 'Living'),
-        ],
-      ],
-      [
-        'type' => 'editorialBlock', 'id' => 'ritmo-editorial-03', 'navigation' => false,
-        'items' => [
-          ['mediaId' => 'animacao-ars-vie-tracking-0006', 'label' => 'Tracking 0006'],
-          $arsImage('imagem-6-ars-vie-fotomontagem-vista-de-porto-belo-2-ef-1-1.jpg', $text('Vista de Porto Belo', 'Porto Belo view', 'Vista de Porto Belo')),
-          $arsImage('imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg', $text('Embasamento', 'Podium', 'Basamento')),
-        ],
-      ],
-      [
-        'type' => 'carousel', 'id' => 'animacoes-3d',
-        'label' => $text('Animações 3D', '3D animations', 'Animaciones 3D'),
-        'title' => $text('Animações 3D', '3D animations', 'Animaciones 3D'), 'items' => $animationItems,
-      ],
-      [
-        'type' => 'editorialBlock', 'id' => 'ritmo-editorial-04', 'navigation' => false,
-        'items' => [
-          ['mediaId' => 'animacao-ars-vie-tracking-0050', 'label' => 'Tracking 0050'],
-          $arsImage('imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg', $text('Piscina', 'Pool', 'Piscina')),
-          $arsImage('imagem-22-ars-vie-redario-ef-3-1.jpg', $text('Redário', 'Hammock lounge', 'Hamacas')),
-        ],
-      ],
-      [
-        'type' => 'carousel', 'id' => 'plantas-humanizadas',
-        'label' => $text('Plantas humanizadas', 'Humanized floor plans', 'Plantas humanizadas'),
-        'title' => $text('Plantas humanizadas', 'Humanized floor plans', 'Plantas humanizadas'), 'items' => $floorplanItems,
-      ],
-      [
-        'type' => 'moments', 'id' => 'pilulas-sensoriais',
-        'label' => $text('Pílulas sensoriais', 'Sensory moments', 'Píldoras sensoriales'),
-        'title' => $text('Pílulas sensoriais', 'Sensory moments', 'Píldoras sensoriales'), 'items' => $pillEnvironmentIds,
-      ],
-    ];
-    $configuredSections = array_merge($configuredSections, $tailSections);
-}
-
-// The source inventory is the publication baseline. Preserve the authored
-// sequence, then append any newly published source that has not yet received
-// a hand-curated card so no master-derived media disappears from the case.
-foreach ($configuredSections as &$configuredSection) {
-    if (!is_array($configuredSection)) {
-        continue;
-    }
-
-    if (($configuredSection['type'] ?? '') === 'gallery' && ($project['slug'] ?? '') === 'ars-vie') {
-        $image = static function (string $source, string $label): array {
-            return ['src' => 'assets/projetos/ars-vie/imagens/' . $source, 'label' => $label];
-        };
-        $configuredSection['groups'][0] = [
-          'id' => 'areas-comuns',
-          'type' => 'editorialStory',
-          'lightboxSet' => 'areas-comuns',
-          'title' => [
-            'pt-BR' => 'Fachadas + áreas comuns',
-            'en' => 'Facades + common areas',
-            'es' => 'Fachadas + áreas comunes',
-          ],
-          'moments' => [
-            ['layout' => 'feature', 'items' => [
-              $image('imagem-3-ars-vie-fotomontagem-vista-de-porto-belo-ef.jpg', 'Vista de Porto Belo'),
-            ]],
-            ['layout' => 'mosaic-a', 'items' => [
-              $image('imagem-1-ars-vie-fotomontagem-vista-da-praia-pereque-ef-3-1.jpg', 'Fachada'),
-              $image('imagem-2-ars-vie-fotomontagem-aerea-geral-de-localizacao-ef-1-1.jpg', 'Vista aérea'),
-              $image('imagem-4-ars-vie-fotomontagem-mapa-com-localizacao-do-empreendimento-rua-revitalizada-deck-do-costao-das-vieiras-ef-2-1.jpg', 'Entorno'),
-              $image('imagem-6-ars-vie-fotomontagem-vista-de-porto-belo-2-ef-1-1.jpg', 'Vista de Porto Belo'),
-              $image('imagem-7-ars-vie-embasamento-mostrando-o-acesso-ef-1-1.jpeg', 'Embasamento'),
-              $image('imagem-8-ars-vie-corredor-comercial-1-terreo-r01-1-1.jpg', 'Corredor comercial'),
-            ]],
-            ['layout' => 'feature', 'items' => [
-              $image('imagem-19-ars-vie-piscinas-angulo-1-ef-1-1.jpg', 'Piscina'),
-            ]],
-            ['layout' => 'mosaic-b', 'items' => [
-              $image('imagem-12-ars-vie-quadra-ef-2-1.jpg', 'Quadra'),
-              $image('imagem-13-ars-vie-area-do-lago-ornamental-ef-2-1.jpg', 'Lago ornamental'),
-              $image('imagem-16-ars-vie-playground-1-ef-2-1.jpg', 'Playground'),
-              $image('imagem-20-ars-vie-piscinas-angulo-2-ef-4-1.jpg', 'Piscina'),
-              $image('imagem-21-ars-vie-pool-bar-ef-4-1.jpg', 'Pool bar'),
-              $image('imagem-22-ars-vie-redario-ef-3-1.jpg', 'Redário'),
-            ]],
-            ['layout' => 'feature', 'items' => [
-              $image('imagem-45-ars-vie-jardim-das-vieiras-geral-r01-2-1.jpg', 'Jardim das Vieiras'),
-            ]],
-            ['layout' => 'mosaic-b', 'items' => [
-              $image('imagem-23-ars-vie-playground-2-jatos-de-agua-ef-3-1.jpg', 'Playground com jatos d’água'),
-              $image('imagem-26-ars-vie-espaco-zen-ef-3-1.jpg', 'Espaço zen'),
-              $image('imagem-30-ars-vie-espaco-wellness-ef-1-1.jpg', 'Espaço wellness'),
-              $image('imagem-31-ars-vie-sauna-seca-ef-1-1.jpg', 'Sauna seca'),
-              $image('imagem-32-ars-vie-wine-com-charutaria-ef-1-1.jpg', 'Wine com charutaria'),
-              $image('imagem-46-ars-vie-jardim-das-vieiras-com-foco-no-cinema-ef-3-1.jpg', 'Jardim das Vieiras com cinema'),
-            ]],
-            ['layout' => 'feature', 'items' => [
-              $image('imagem-28-ars-vie-fire-place-ef-4-1.jpg', 'Fireplace'),
-            ]],
-          ],
-        ];
-    }
-
-    if (($configuredSection['type'] ?? '') === 'floorplans') {
-        $existingPlans = [];
-        foreach ($configuredSection['items'] ?? [] as $plan) {
-            if (is_array($plan) && is_string($plan['src'] ?? null)) {
-                $existingPlans[$plan['src']] = true;
-            }
-        }
-        foreach ($project['media']['gallery'] ?? [] as $plan) {
-            $source = is_array($plan) ? (string) ($plan['src'] ?? '') : '';
-            if ($source === '' || !str_contains($source, '/plantas/') || isset($existingPlans[$source])) {
-                continue;
-            }
-            $configuredSection['items'][] = [
-              'id' => 'planta-' . (count($configuredSection['items']) + 1),
-              'label' => $mediaLabel($source, 'Planta'),
-              'src' => $source,
-            ];
-        }
-    }
-
-    if (($configuredSection['type'] ?? '') === 'animations') {
-        $animationItems = [];
-        $seenAnimations = [];
-        foreach ($configuredSection['steps'] ?? [] as $step) {
-            foreach ($step['items'] ?? [] as $item) {
-                $id = is_array($item) ? ($item['mediaId'] ?? $item['id'] ?? null) : $item;
-                if (!is_string($id) || $id === '' || isset($seenAnimations[$id]) || $videoFor($id) === null) {
-                    continue;
-                }
-                $seenAnimations[$id] = true;
-                $animationItems[] = [
-                  'mediaId' => $id,
-                  'label' => is_array($item) ? ($item['label'] ?? $mediaLabel((string) ($caseVideos[$id]['source'] ?? $id), 'Animação')) : $mediaLabel((string) ($caseVideos[$id]['source'] ?? $id), 'Animação'),
-                ];
-            }
-        }
-        foreach ($caseVideos as $id => $video) {
-            if (($video['category'] ?? '') !== 'animacoes' || isset($seenAnimations[$id])) {
-                continue;
-            }
-            $seenAnimations[$id] = true;
-            $animationItems[] = [
-              'mediaId' => $id,
-              'label' => $mediaLabel((string) ($video['source'] ?? $id), 'Animação'),
-            ];
-        }
-
-        // Keep the published sequence continuous: principal + 3 doubles,
-        // principal + 3 doubles, principal + 2 doubles.
-        $configuredSection['steps'] = [];
-        $offset = 0;
-        foreach ([[1, 3], [1, 3], [1, 2]] as [$principals, $doubles]) {
-            if (!isset($animationItems[$offset])) {
-                break;
-            }
-            $configuredSection['steps'][] = [
-              'layout' => 'single',
-              'items' => [$animationItems[$offset]],
-            ];
-            $offset += $principals;
-            for ($pair = 0; $pair < $doubles && $offset < count($animationItems); $pair++) {
-                $pairItems = array_slice($animationItems, $offset, 2);
-                if (count($pairItems) < 2) {
-                    break;
-                }
-                $configuredSection['steps'][] = [
-                  'layout' => 'double',
-                  'items' => $pairItems,
-                ];
-                $offset += 2;
-            }
-        }
-    }
-}
-unset($configuredSection);
-
+// Section order and media selection belong to data/cases.json.
 $sections = [];
 foreach ($configuredSections as $section) {
     if (is_array($section) && $sectionHasContent($section)) {
@@ -614,7 +295,8 @@ foreach ($sections as $section): ?>
     if (($section['navigation'] ?? true) !== false) {
         $chapterNumber++;
     }
-    $number = str_pad((string) $chapterNumber, 2, '0', STR_PAD_LEFT); ?>
+    $number = str_pad((string) $chapterNumber, 2, '0', STR_PAD_LEFT);
+    $chapterKicker = (($section['navigation'] ?? true) !== false ? $number . ' / ' : '') . $chapterLabel; ?>
     <?php if ($type === 'carousel'): ?>
       <?php
       $slides = [];
@@ -626,10 +308,10 @@ foreach ($sections as $section): ?>
             if ($imageExists($item['src'] ?? null)) {
                 $isPlan = ($section['id'] ?? '') === 'plantas-humanizadas';
                 $slides[] = [
-                  'type' => 'image',
-                  'source' => (string) $item['src'],
-                  'label' => $label,
-                  'isPlan' => $isPlan,
+                    'type' => 'image',
+                    'source' => (string) $item['src'],
+                    'label' => $label,
+                    'isPlan' => $isPlan,
                 ];
                 continue;
             }
@@ -640,10 +322,12 @@ foreach ($sections as $section): ?>
         }
         ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-carousel" data-case-chapter="<?= escape($chapterId) ?>">
+        <?php if (($section['showHeading'] ?? true) !== false): ?>
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
         </header>
+        <?php endif; ?>
         <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
           <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Mídia anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
           <div class="case-v3-gallery__rail" data-case-gallery-rail tabindex="0" aria-label="<?= escape($chapterLabel) ?>. Use as setas ou deslize para explorar.">
@@ -729,7 +413,7 @@ foreach ($sections as $section): ?>
         ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-interlude" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-interlude__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
         </header>
         <div class="case-v3-interlude__items case-v3-shell">
           <?php foreach ($interludeItems as $item): ?>
@@ -748,10 +432,12 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'gallery'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-gallery" data-case-chapter="<?= escape($chapterId) ?>">
+        <?php if (($section['showHeading'] ?? true) !== false): ?>
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
         </header>
+        <?php endif; ?>
         <?php foreach ($section['groups'] ?? [] as $group): ?>
           <?php if (!is_array($group)) {
               continue;
@@ -869,7 +555,7 @@ foreach ($sections as $section): ?>
         $motionVideo = $videoFor($environment['motion'] ?? null); ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-still-motion" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <h2><?= escape($caseText($environment['label'] ?? $chapterLabel)) ?></h2>
         </header>
         <div class="case-v3-shell">
@@ -901,8 +587,8 @@ foreach ($sections as $section): ?>
                     continue;
                 }
                 $stepItems[] = [
-                  'video' => $video,
-                  'label' => $caseText($item['label'] ?? 'Animação'),
+                    'video' => $video,
+                    'label' => $caseText($item['label'] ?? 'Animação'),
                 ];
             }
             if ($stepItems !== []) {
@@ -911,8 +597,8 @@ foreach ($sections as $section): ?>
                     $layout = count($stepItems) > 1 ? 'double' : 'single';
                 }
                 $animationSteps[] = [
-                  'layout' => $layout,
-                  'items' => $stepItems,
+                    'layout' => $layout,
+                    'items' => $stepItems,
                 ];
             }
         }
@@ -921,7 +607,7 @@ foreach ($sections as $section): ?>
         ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-animations" data-case-chapter="<?= escape($chapterId) ?>" data-case-animations style="--case-animation-scroll-extra: <?= (int) $animationScrollExtra ?>vh">
         <header class="case-v3-animations__header case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <div class="case-v3-animations__title-row">
             <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
             <p class="case-v3-animations__counter" data-case-animation-counter>01 — <?= str_pad((string) max(1, $animationStepCount), 2, '0', STR_PAD_LEFT) ?></p>
@@ -950,7 +636,7 @@ foreach ($sections as $section): ?>
       <?php $motionItems = array_values(array_filter(array_map($videoFor, $section['items'] ?? []))); ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-motion" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
         </header>
         <div class="case-v3-shell case-v3-motion__list">
@@ -965,7 +651,7 @@ foreach ($sections as $section): ?>
       <?php $floorplanScrollExtra = count($plans) > 0 ? (count($plans) + 1) * 60 : 0; ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-floorplans" data-case-chapter="<?= escape($chapterId) ?>" data-case-plans data-case-focus-scroll style="--case-focus-scroll-extra: <?= (int) $floorplanScrollExtra ?>vh">
         <header class="case-v3-floorplans__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <div>
             <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
             <div class="case-v3-floorplans__carousel-meta" aria-live="polite">
@@ -1005,7 +691,7 @@ foreach ($sections as $section): ?>
         } ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-moments" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
         </header>
         <div class="case-v3-moments__rail" data-case-moments tabindex="0" aria-label="Momentos em vídeo. Deslize horizontalmente para explorar.">
@@ -1033,17 +719,17 @@ foreach ($sections as $section): ?>
                 continue;
             }
             $films[] = [
-              'video' => $film,
-              'source' => $source,
-              'label' => $caseText($filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
-              'title' => $caseText($filmItem['title'] ?? $filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+                'video' => $film,
+                'source' => $source,
+                'label' => $caseText($filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+                'title' => $caseText($filmItem['title'] ?? $filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
             ];
         }
         ?>
       <?php if ($films !== []): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-film" data-case-chapter="<?= escape($chapterId) ?>">
           <header class="case-v3-film__heading case-v3-shell" data-case-reveal="up">
-            <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+            <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
           </header>
           <div class="case-v3-film__medias case-v3-film__medias--<?= count($films) > 1 ? 'multiple' : 'single' ?> case-v3-shell" data-case-reveal="mask">
             <?php foreach ($films as $filmIndex => $film): $filmId = $chapterId . '-film-' . ($filmIndex + 1); ?><div id="<?= escape($filmId) ?>" class="case-v3-film__media case-v3-film__media--<?= $filmIndex === 0 ? 'primary' : 'secondary' ?>">
@@ -1052,10 +738,12 @@ foreach ($sections as $section): ?>
                   <p class="case-v3-film__description"><?= escape($film['title']) ?></p>
                 </div>
                 <div class="case-v3-film__video-wrap">
-                  <video class="case-v3-film__video" playsinline preload="metadata" poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['source']['width'] ?? $film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['source']['height'] ?? $film['video']['height'] ?? 1080) ?>" aria-label="<?= escape($film['title']) ?>">
+                  <video class="case-v3-film__video" controls playsinline preload="none" poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['source']['width'] ?? $film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['source']['height'] ?? $film['video']['height'] ?? 1080) ?>" aria-label="<?= escape($film['title']) ?>">
                     <source src="<?= escape(asset((string) $film['source']['src'])) ?>" type="video/mp4">
                   </video>
-                  <span class="case-v3-film__play" aria-hidden="true"><?= site_icon('play', 'case-v3-icon') ?></span>
+                  <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']) . ' — ' . $film['label']) ?>">
+                    <span><?= site_icon('play', 'case-v3-icon') ?></span>
+                  </button>
                 </div>
               </div><?php endforeach; ?>
           </div>
@@ -1064,7 +752,7 @@ foreach ($sections as $section): ?>
     <?php elseif ($type === 'closing'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-closing" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-closing__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($number . ' / ' . $chapterLabel) ?></p>
+          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
         </header>
         <?php if (!empty($case['credits']['items'])): ?>
           <div class="case-v3-credits case-v3-shell" data-case-reveal="up">
@@ -1083,7 +771,7 @@ foreach ($sections as $section): ?>
     <section class="case-v3-section case-v3-next" data-case-chapter="case-next">
       <div class="case-v3-shell" data-case-reveal="up">
         <p class="case-v3-kicker"><?= escape($caseText($nextRule['eyebrow'] ?? 'Próximo projeto')) ?></p>
-        <?php $nextHero = $nextProject['media']['hero']; ?><a class="case-v3-next__project" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
+        <?php $nextHero = $nextProject['media']['hero']; $nextAspectRatio = max(0.01, (float) $nextHero['width'] / max(1.0, (float) $nextHero['height'])); ?><a class="case-v3-next__project" style="--case-next-ratio: <?= escape(number_format($nextAspectRatio, 6, '.', '')) ?>" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
         <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <?= site_icon('arrow-right', 'case-v3-icon') ?></a>
       </div>
     </section>

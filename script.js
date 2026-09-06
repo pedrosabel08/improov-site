@@ -21,10 +21,7 @@ window.ImproovMedia = {
       "hero.label": "Vídeo de projetos",
       "projects.label": "Projetos",
       "projects.ayaAlt": "Projeto Aya Kar",
-      "projects.cellarAlt": "Projeto Adega",
       "projects.playroomAlt": "Projeto Brinquedoteca",
-      "projects.lightAlt": "Projeto Iluminação",
-      "projects.spaceAlt": "Projeto Espaço",
       "projects.lobbyAlt": "Projeto Lobby",
       "about.title": "+ Heartmade +",
       "about.p1":
@@ -182,10 +179,7 @@ window.ImproovMedia = {
       "hero.label": "Project video",
       "projects.label": "Projects",
       "projects.ayaAlt": "Aya Kar project",
-      "projects.cellarAlt": "Wine cellar project",
       "projects.playroomAlt": "Playroom project",
-      "projects.lightAlt": "Lighting project",
-      "projects.spaceAlt": "Space project",
       "projects.lobbyAlt": "Lobby project",
       "about.title": "+ Heartmade +",
       "about.p1":
@@ -315,10 +309,7 @@ window.ImproovMedia = {
       "hero.label": "Vídeo de proyectos",
       "projects.label": "Proyectos",
       "projects.ayaAlt": "Proyecto Aya Kar",
-      "projects.cellarAlt": "Proyecto Bodega",
       "projects.playroomAlt": "Proyecto Ludoteca",
-      "projects.lightAlt": "Proyecto Iluminación",
-      "projects.spaceAlt": "Proyecto Espacio",
       "projects.lobbyAlt": "Proyecto Lobby",
       "about.title": "+ Heartmade +",
       "about.p1":
@@ -536,69 +527,11 @@ window.ImproovMedia = {
     "ars-vie": {
       en: {
         title: "ARS Vieiras",
-        description: [
-          "At Karioó, comfort, dedicated services, and continuous security come together to create a light and welcoming everyday life.",
-          "Karioó is born from earth, time, and memory. In every detail, it leaves the living mark of a belonging that spans time.",
-          "What was built was invisible. Here, the feeling is that everything has always belonged to nature.",
-        ],
+        description: [],
       },
       es: {
         title: "ARS Vieiras",
-        description: [
-          "En Karioó, comodidad, servicios dedicados y seguridad continua se unen para crear una vida cotidiana ligera y acogedora.",
-          "Karioó nace de la tierra, del tiempo y del recuerdo. En cada detalle deja la marca viva de una pertenencia que atraviesa el tiempo.",
-          "Lo que se construyó fue invisible. Aquí la sensación es que todo siempre ha pertenecido a la naturaleza.",
-        ],
-      },
-    },
-    "academia-energia-urbana": {
-      en: {
-        title: "Gym — Urban Energy",
-        subtitle: "Branding, Architecture, Experience — 2025",
-        description: [
-          "This project explores the integration of visual identity with architectural space, creating a seamless experience for users. The intervention considers light, color, and materials to convey energy and movement, reinforcing the brand at every touchpoint.",
-          "The proposal included layout studies, signage, identity applications in physical and digital media, and scenic lighting solutions to create distinct atmospheres throughout the day.",
-        ],
-      },
-      es: {
-        title: "Gimnasio — Energía Urbana",
-        subtitle: "Branding, Arquitectura, Experiencia — 2025",
-        description: [
-          "Este proyecto explora la integración de la identidad visual con el espacio arquitectónico, creando una experiencia fluida para los usuarios. La intervención considera luz, color y materiales para transmitir energía y movimiento, reforzando la marca en cada punto de contacto.",
-          "La propuesta incluyó estudios de distribución, señalización, aplicaciones de identidad en medios físicos y digitales, y soluciones de iluminación escenográfica para crear atmósferas distintas a lo largo del día.",
-        ],
-      },
-    },
-    "adega-luz-sombra": {
-      en: {
-        title: "Wine Cellar — Light & Shadow",
-        subtitle: "Interiors, Lighting — 2025",
-        description: [
-          "An interior design project focused on material contrast and indirect light, enhancing the journey and the time spent in the space.",
-        ],
-      },
-      es: {
-        title: "Bodega — Luz y Sombra",
-        subtitle: "Interiores, Iluminación — 2025",
-        description: [
-          "Proyecto de ambientación centrado en el contraste de materiales y la luz indirecta, valorizando el recorrido y la permanencia.",
-        ],
-      },
-    },
-    "brinquedoteca-cor-movimento": {
-      en: {
-        title: "Playroom — Color & Movement",
-        subtitle: "Interiors, Identity — 2025",
-        description: [
-          "A playful space focused on chromatic composition and visual orientation for different age groups.",
-        ],
-      },
-      es: {
-        title: "Ludoteca — Color y Movimiento",
-        subtitle: "Interiores, Identidad — 2025",
-        description: [
-          "Espacio lúdico centrado en la composición cromática y la orientación visual para diferentes grupos de edad.",
-        ],
+        description: [],
       },
     },
   };

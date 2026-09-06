@@ -1205,8 +1205,22 @@
 }
 .case-v3-film__play {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  inset: 0;
+  z-index: 1;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.case-v3-film__play[hidden] {
+  display: none;
+}
+.case-v3-film__play span {
   display: grid;
   width: 76px;
   height: 76px;
@@ -1214,9 +1228,10 @@
   border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.18);
-  color: #fff;
-  pointer-events: none;
-  transform: translate(-50%, -50%);
+}
+.case-v3-film__play:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 4px;
 }
 .case-v3-film__play .case-v3-icon {
   width: 20px;
@@ -1228,12 +1243,6 @@
   font-size: 0.66rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-}
-@media (max-width: 767px) {
-  .case-v3-film__play {
-    width: 62px;
-    height: 62px;
-  }
 }
 @media (max-width: 767px) {
   .case-v3-film__label {
@@ -1283,8 +1292,13 @@
 .case-v3-next__project {
   position: relative;
   display: block;
-  width: min(100%, var(--case-media-width));
-  height: 70vh;
+  width: min(
+    100%,
+    var(--case-media-width),
+    calc(70vh * var(--case-next-ratio))
+  );
+  height: auto;
+  max-height: 70vh;
   margin-top: 27px;
   margin-inline: auto;
   overflow: hidden;
@@ -1294,35 +1308,39 @@
 }
 .case-v3-next__media {
   display: block;
-  height: min(64vw, 760px);
-  min-height: 420px;
+  aspect-ratio: var(--case-next-ratio);
+  height: auto;
+  max-height: 70vh;
+  min-height: 0;
   overflow: hidden;
+}
+.case-v3-next__media picture {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .case-v3-next__image {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1);
-}
-.case-v3-next__project:hover .case-v3-next__image,
-.case-v3-next__project:focus-visible .case-v3-next__image {
-  transform: scale(1.025);
+  max-width: 100%;
+  object-fit: contain;
 }
 .case-v3-next__copy {
   position: absolute;
   right: var(--gutter);
   bottom: clamp(22px, 4vw, 54px);
   left: var(--gutter);
-  display: flex;
+  display: -ms-inline-grid;
   align-items: end;
   justify-content: space-between;
   gap: 22px;
+  z-index: 1;
   color: #fff;
 }
 .case-v3-next__copy strong {
   max-width: 760px;
-  font-size: clamp(3rem, 7.4vw, 8rem);
+  font-size: clamp(3rem, 7.4vw, 7rem);
   font-weight: 300;
   letter-spacing: -0.075em;
   line-height: 0.8;
@@ -1557,9 +1575,9 @@
     left: 12px;
     font-size: 0.58rem;
   }
-  .case-v3-editorial-block {
+  /* .case-v3-editorial-block {
     padding-block: 72px;
-  }
+  } */
   .case-v3-editorial-block__grid {
     width: 100%;
     grid-template-columns: 1fr;
@@ -1715,7 +1733,7 @@
     margin-top: 0;
   }
   .case-v3-film {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
   .case-v3-film__heading {
     padding-top: 68px;
@@ -1761,6 +1779,18 @@
   .case-v3-film__media {
     margin-top: 0;
   }
+  .case-v3-film__video-wrap {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    aspect-ratio: auto;
+  }
+  .case-v3-film__video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
   .case-v3-credits dl {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 29px 18px;
@@ -1769,11 +1799,13 @@
     padding-top: 80px;
   }
   .case-v3-next__media {
-    height: 105vw;
-    min-height: 420px;
+    height: auto;
+    min-height: 0;
   }
   .case-v3-next__project {
-    width: 100%;
+    width: min(100%, calc(70vh * var(--case-next-ratio)));
+    height: auto;
+    max-height: 70vh;
   }
   .case-v3-next__copy {
     display: block;
@@ -1814,8 +1846,7 @@
   }
 }
 
-/* Humanized plans: derive a horizontal visual frame from the loaded image
-   dimensions and never use crop to fill the stage. */
+/* Humanized plans retain their original orientation without cropping. */
 .case-v3-floorplans__panel .case-v3-floorplans__plan {
   width: min(100%, 1140px);
   margin: 0 auto;
@@ -1842,13 +1873,6 @@
   max-height: 100%;
   object-fit: contain;
   transform: translate(-50%, -50%);
-}
-.case-v3-floorplans__image.humanized-plan--rotate {
-  width: auto;
-  height: calc(100% * var(--plan-ratio, 1.6));
-  max-width: none;
-  max-height: none;
-  transform: translate(-50%, -50%) rotate(-90deg);
 }
 .case-v3-floorplans__plan figcaption {
   margin-top: 14px;
@@ -1880,14 +1904,9 @@
     max-height: 100%;
     object-fit: contain;
   }
-  .case-v3-floorplans__image.humanized-plan--rotate {
-    height: calc(100% * var(--plan-ratio, 1.6));
-    max-width: none;
-    max-height: none;
-  }
 }
 
-/* ARS Vieiras: 4 feature images interleaved with three compact six-image mosaics. */
+/* Editorial image stories: full images and optional mosaics. */
 .case-v3-gallery-story {
   display: grid;
   gap: 50px;
@@ -2147,18 +2166,13 @@
   );
   object-fit: contain;
 }
-.case-v3-image-dialog__stage img.humanized-plan--rotate {
-  max-width: none;
-  max-height: none;
-  transform: rotate(-90deg);
-}
 @media (max-width: 767px) {
   .case-v3-image-dialog {
     --case-image-dialog-bar-height: 94px;
     --case-image-dialog-padding: 18px;
   }
   .case-v3-gallery-story {
-    gap: 52px;
+    gap: 20px;
   }
   .case-v3-gallery-story__moment,
   .case-v3-gallery-story__moment--feature,
@@ -2234,7 +2248,7 @@
     scroll-snap-align: start;
   }
   .case-v3-gallery-story__image figcaption {
-    position: static;
+    position: absolute;
     margin-top: 10px;
     color: var(--color-muted);
     text-shadow: none;

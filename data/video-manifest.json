@@ -2493,6 +2493,1738 @@
         "publishedVariants": 4,
         "posters": 4
       }
+    },
+    "aya-kar": {
+      "slug": "aya-kar",
+      "generatedAt": "2026-09-06T12:40:26.822631+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/aya-kar/v1",
+      "profiles": {
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/animacao-6-aya-kar-piscina-maior.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-12-aya-kar-suite-master-interior.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-17-aya-kar-rooftop-mata.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-24-aya-kar-playground.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-27-aya-kar-sacada.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-4-aya-kar-rampa-garagem.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-7-aya-kar-piscina-infantil.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/filme-2026-aya-kar-concept-dc-4k.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/filme-2026-aya-kar-depo-full-dc.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-32-aya-kar-rooftop.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4",
+          "name": "animacao-11-aya-kar-living-manaca-escada.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 300901152,
+          "sha256": "8b1d26a300baa6b61a4650298531a8cc6c49ab9bd3c6ffb08e6660e1eb5b9c8b",
+          "modifiedAt": "2025-06-02T08:11:12+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240710863,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240720921,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-escada-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-escada-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4",
+          "name": "animacao-11-aya-kar-living-manaca-muxarabi.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65963162,
+          "sha256": "e06d571f1a6e27ffedb91865caea5a92a43d2bb70529ce2a48f4341d7ba3a2d2",
+          "modifiedAt": "2025-06-01T09:28:08+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52585180,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52595213,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4",
+          "name": "animacao-12-aya-kar-suite-master-detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 78683158,
+          "sha256": "689fdac23ea94d48c6e6d4ef8e21454f9efc99d359700c94411b0ffa57226715",
+          "modifiedAt": "2025-05-28T09:45:52+00:00",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52301563,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52310134,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4",
+          "name": "animacao-12-aya-kar-suite-master-exterior.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 69971129,
+          "sha256": "304d25c346f48c8cc1b3135d86e0a0b9e8f8db3d63ea0c7d626213009c2c912a",
+          "modifiedAt": "2025-05-28T11:32:38+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 55780901,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 55790935,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-exterior-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-exterior-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-12-aya-kar-suite-master-interior.mp4",
+          "name": "animacao-12-aya-kar-suite-master-interior.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 306466818,
+          "sha256": "f6e10d1f5c2d226aa3fcc2cfee4c9237a0db071eed519a181af4ddc6eef37efc",
+          "modifiedAt": "2025-05-28T06:16:18+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 245163396,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 245173454,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-interior-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-interior-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4",
+          "name": "animacao-13-aya-kar-rofftop-vista-mar.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65536553,
+          "sha256": "1b1c234575fad0012c6765e4e5d283a304e692d91e0613f7eab9df2aeaa995d6",
+          "modifiedAt": "2025-06-03T09:19:24+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52245026,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52255060,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-13-aya-kar-rofftop-vista-mar-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-13-aya-kar-rofftop-vista-mar-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4",
+          "name": "animacao-16-aya-kar-suite-ipe-detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 66174036,
+          "sha256": "5ad316679bee234fbff5201de6de4770f74ee8199230ba7d6a53d0f5821417c0",
+          "modifiedAt": "2025-05-28T12:22:56+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52753318,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52763352,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4",
+          "name": "animacao-16-aya-kar-suite-ipe-geral.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 78815790,
+          "sha256": "d7ff38277b21285ff664b270bc552a51c69249ded91414d07c394d858e2101db",
+          "modifiedAt": "2025-05-31T10:57:50+00:00",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52389739,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52398310,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-geral-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-17-aya-kar-rooftop-mata.mp4",
+          "name": "animacao-17-aya-kar-rooftop-mata.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 54137770,
+          "sha256": "be72002237353eb4aa71b562836d65bd5b040326972f6fdcc640511f54ff3c26",
+          "modifiedAt": "2025-08-22T10:34:36+00:00",
+          "duration": 8.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 54125505,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 54137770,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-17-aya-kar-rooftop-mata-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-17-aya-kar-rooftop-mata-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4",
+          "name": "animacao-2-aya-kar-fotomontagem-aerea.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 97865705,
+          "sha256": "7936cec89148127eda0bc3f9d5728df39eeb792620fe95d7679d809fe86cc30f",
+          "modifiedAt": "2025-08-27T09:36:18+00:00",
+          "duration": 15.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52187926,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52195042,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-2-aya-kar-fotomontagem-aerea-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-2-aya-kar-fotomontagem-aerea-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-24-aya-kar-playground.mp4",
+          "name": "animacao-24-aya-kar-playground.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 67788306,
+          "sha256": "24d899d39c2a90bb52dc9232f3b984d5562e9556505f9af25146ec8a07df092f",
+          "modifiedAt": "2025-08-22T11:59:52+00:00",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 54220586,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 54230644,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-24-aya-kar-playground-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-24-aya-kar-playground-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-27-aya-kar-sacada.mp4",
+          "name": "animacao-27-aya-kar-sacada.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 68632456,
+          "sha256": "31e26036d34c0cdbb89e176bfec082b4681478b877c552d5a2817e698107514d",
+          "modifiedAt": "2025-08-17T13:44:14+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 54713520,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 54723554,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-27-aya-kar-sacada-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-27-aya-kar-sacada-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-32-aya-kar-rooftop.mp4",
+          "name": "animacao-32-aya-kar-rooftop.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 317800501,
+          "sha256": "252c9abc26539878821ebafd5f52c1b1f52fa7a90660581b108e3a0ba334b0c4",
+          "modifiedAt": "2025-05-29T16:29:30+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 255080615,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 255090694,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-32-aya-kar-rooftop-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-32-aya-kar-rooftop-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-4-aya-kar-rampa-garagem.mp4",
+          "name": "animacao-4-aya-kar-rampa-garagem.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65499536,
+          "sha256": "fc10b21d67db8fca903cd70130aba713bc42645703397908e30b9e3ec2fbfd1d",
+          "modifiedAt": "2025-08-28T06:09:12+00:00",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52389570,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52399628,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-4-aya-kar-rampa-garagem-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-4-aya-kar-rampa-garagem-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-6-aya-kar-piscina-maior.mp4",
+          "name": "animacao-6-aya-kar-piscina-maior.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 67677248,
+          "sha256": "5f9cba315342ecbd898627b3afb8aafd796b1b56cca0203480682a8563eb0c22",
+          "modifiedAt": "2025-08-21T15:51:56+00:00",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 54131740,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 54141798,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-6-aya-kar-piscina-maior-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-6-aya-kar-piscina-maior-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-7-aya-kar-piscina-infantil.mp4",
+          "name": "animacao-7-aya-kar-piscina-infantil.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 229877636,
+          "sha256": "bcc6d377be0dcb6f56afa13b5279a8e4c746d90a2c5a5e32baed002d366ebd1a",
+          "modifiedAt": "2025-08-28T09:04:02+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 184507077,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 184517159,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-7-aya-kar-piscina-infantil-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-7-aya-kar-piscina-infantil-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-2026-aya-kar-concept-dc-4k.mp4",
+          "name": "filme-2026-aya-kar-concept-dc-4k.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 1193534517,
+          "sha256": "c3bfac54aabc78f709cec9c05f9f04aa37f6ca6c95a0b5c5de9e3feb9f30b127",
+          "modifiedAt": "2026-09-01T14:02:32+00:00",
+          "duration": 158.909,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 59745966,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317354,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 60086534,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-concept-dc-4k-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-concept-dc-4k-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-2026-aya-kar-depo-full-dc.mp4",
+          "name": "filme-2026-aya-kar-depo-full-dc.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 1114994830,
+          "sha256": "76c7026a4f85da407c42a366206d70810d497d4fd093efea2d14677a27a2097b",
+          "modifiedAt": "2026-09-01T14:02:16+00:00",
+          "duration": 555.555,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15721215,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317365,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 16055941,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-depo-full-dc-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-depo-full-dc-1080.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "animacao-11-aya-kar-living-manaca-escada",
+          "source": "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4",
+          "sourceSha256": "8b1d26a300baa6b61a4650298531a8cc6c49ab9bd3c6ffb08e6660e1eb5b9c8b",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-escada-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-escada-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 7728633,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-11-aya-kar-living-manaca-muxarabi",
+          "source": "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4",
+          "sourceSha256": "e06d571f1a6e27ffedb91865caea5a92a43d2bb70529ce2a48f4341d7ba3a2d2",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 10269421,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-12-aya-kar-suite-master-detalhe",
+          "source": "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4",
+          "sourceSha256": "689fdac23ea94d48c6e6d4ef8e21454f9efc99d359700c94411b0ffa57226715",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-detalhe-poster.webp",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 13030734,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-12-aya-kar-suite-master-exterior",
+          "source": "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4",
+          "sourceSha256": "304d25c346f48c8cc1b3135d86e0a0b9e8f8db3d63ea0c7d626213009c2c912a",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-exterior-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-exterior-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 32308524,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-12-aya-kar-suite-master-interior",
+          "source": "animacoes/animacao-12-aya-kar-suite-master-interior.mp4",
+          "sourceSha256": "f6e10d1f5c2d226aa3fcc2cfee4c9237a0db071eed519a181af4ddc6eef37efc",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-interior-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-interior-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 24140546,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-13-aya-kar-rofftop-vista-mar",
+          "source": "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4",
+          "sourceSha256": "1b1c234575fad0012c6765e4e5d283a304e692d91e0613f7eab9df2aeaa995d6",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-13-aya-kar-rofftop-vista-mar-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-13-aya-kar-rofftop-vista-mar-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 8322239,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-16-aya-kar-suite-ipe-detalhe",
+          "source": "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4",
+          "sourceSha256": "5ad316679bee234fbff5201de6de4770f74ee8199230ba7d6a53d0f5821417c0",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4575997,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-16-aya-kar-suite-ipe-geral",
+          "source": "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4",
+          "sourceSha256": "d7ff38277b21285ff664b270bc552a51c69249ded91414d07c394d858e2101db",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-geral-poster.webp",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 5636503,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-17-aya-kar-rooftop-mata",
+          "source": "animacoes/animacao-17-aya-kar-rooftop-mata.mp4",
+          "sourceSha256": "be72002237353eb4aa71b562836d65bd5b040326972f6fdcc640511f54ff3c26",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-17-aya-kar-rooftop-mata-poster.webp",
+          "duration": 8.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-17-aya-kar-rooftop-mata-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 11814824,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-2-aya-kar-fotomontagem-aerea",
+          "source": "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4",
+          "sourceSha256": "7936cec89148127eda0bc3f9d5728df39eeb792620fe95d7679d809fe86cc30f",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-2-aya-kar-fotomontagem-aerea-poster.webp",
+          "duration": 15.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-2-aya-kar-fotomontagem-aerea-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 24471579,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-24-aya-kar-playground",
+          "source": "animacoes/animacao-24-aya-kar-playground.mp4",
+          "sourceSha256": "24d899d39c2a90bb52dc9232f3b984d5562e9556505f9af25146ec8a07df092f",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-24-aya-kar-playground-poster.webp",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-24-aya-kar-playground-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 29550470,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-27-aya-kar-sacada",
+          "source": "animacoes/animacao-27-aya-kar-sacada.mp4",
+          "sourceSha256": "31e26036d34c0cdbb89e176bfec082b4681478b877c552d5a2817e698107514d",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-27-aya-kar-sacada-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-27-aya-kar-sacada-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 12884873,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-32-aya-kar-rooftop",
+          "source": "animacoes/animacao-32-aya-kar-rooftop.mp4",
+          "sourceSha256": "252c9abc26539878821ebafd5f52c1b1f52fa7a90660581b108e3a0ba334b0c4",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-32-aya-kar-rooftop-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-32-aya-kar-rooftop-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 30736195,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-4-aya-kar-rampa-garagem",
+          "source": "animacoes/animacao-4-aya-kar-rampa-garagem.mp4",
+          "sourceSha256": "fc10b21d67db8fca903cd70130aba713bc42645703397908e30b9e3ec2fbfd1d",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-4-aya-kar-rampa-garagem-poster.webp",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-4-aya-kar-rampa-garagem-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 16000527,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-6-aya-kar-piscina-maior",
+          "source": "animacoes/animacao-6-aya-kar-piscina-maior.mp4",
+          "sourceSha256": "5f9cba315342ecbd898627b3afb8aafd796b1b56cca0203480682a8563eb0c22",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-6-aya-kar-piscina-maior-poster.webp",
+          "duration": 10.0,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-6-aya-kar-piscina-maior-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 26031623,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-7-aya-kar-piscina-infantil",
+          "source": "animacoes/animacao-7-aya-kar-piscina-infantil.mp4",
+          "sourceSha256": "bcc6d377be0dcb6f56afa13b5279a8e4c746d90a2c5a5e32baed002d366ebd1a",
+          "category": "animacoes",
+          "poster": "assets/media/aya-kar/v1/posters/animacoes/animacao-7-aya-kar-piscina-infantil-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/animacoes/animacao-7-aya-kar-piscina-infantil-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 15044772,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-2026-aya-kar-concept-dc-4k",
+          "source": "filmes/filme-2026-aya-kar-concept-dc-4k.mp4",
+          "sourceSha256": "c3bfac54aabc78f709cec9c05f9f04aa37f6ca6c95a0b5c5de9e3feb9f30b127",
+          "category": "filmes",
+          "poster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-concept-dc-4k-poster.webp",
+          "duration": 158.909,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-concept-dc-4k-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 138737485,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-2026-aya-kar-depo-full-dc",
+          "source": "filmes/filme-2026-aya-kar-depo-full-dc.mp4",
+          "sourceSha256": "76c7026a4f85da407c42a366206d70810d497d4fd093efea2d14677a27a2097b",
+          "category": "filmes",
+          "poster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-depo-full-dc-poster.webp",
+          "duration": 555.555,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-depo-full-dc-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 325010746,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 18,
+        "inventoried": 18,
+        "processed": 18,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 18,
+        "postersSkipped": 0,
+        "publishedVideos": 18,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 18,
+        "posters": 18
+      }
+    },
+    "alp-sc": {
+      "slug": "alp-sc",
+      "generatedAt": "2026-09-06T12:45:58.764562+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/alp-sc/v1",
+      "profiles": {
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/animacao-2-alp-sc-conceito.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/filme-alpes-sc-institucional-en.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/animacao-2-alp-sc-conceito.mp4",
+          "name": "animacao-2-alp-sc-conceito.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 781777776,
+          "sha256": "bd6c009e8d25c28514ceb558e0afade63e7e781c52a2a7ee2d481853d2960dd3",
+          "modifiedAt": "2026-08-27T07:29:28+00:00",
+          "duration": 26.7,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 234235994,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 234240532,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/alp-sc/v1/posters/animacoes/animacao-2-alp-sc-conceito-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/alp-sc/v1/videos/animacoes/animacao-2-alp-sc-conceito-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-alpes-sc-institucional-en.mp4",
+          "name": "filme-alpes-sc-institucional-en.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 1286938768,
+          "sha256": "9f7804d6bf6dd33e06e31d96cbe38afdd9d9b2bd30207c6a3ff9e25ecd939da7",
+          "modifiedAt": "2026-08-27T07:30:42+00:00",
+          "duration": 514.848,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 29.97,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 19674896,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317364,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 19997196,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/alp-sc/v1/posters/filmes/filme-alpes-sc-institucional-en-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/alp-sc/v1/videos/filmes/filme-alpes-sc-institucional-en-1080.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "animacao-2-alp-sc-conceito",
+          "source": "animacoes/animacao-2-alp-sc-conceito.mp4",
+          "sourceSha256": "bd6c009e8d25c28514ceb558e0afade63e7e781c52a2a7ee2d481853d2960dd3",
+          "category": "animacoes",
+          "poster": "assets/media/alp-sc/v1/posters/animacoes/animacao-2-alp-sc-conceito-poster.webp",
+          "duration": 26.7,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/alp-sc/v1/videos/animacoes/animacao-2-alp-sc-conceito-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 7879740,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-alpes-sc-institucional-en",
+          "source": "filmes/filme-alpes-sc-institucional-en.mp4",
+          "sourceSha256": "9f7804d6bf6dd33e06e31d96cbe38afdd9d9b2bd30207c6a3ff9e25ecd939da7",
+          "category": "filmes",
+          "poster": "assets/media/alp-sc/v1/posters/filmes/filme-alpes-sc-institucional-en-poster.webp",
+          "duration": 514.848,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/alp-sc/v1/videos/filmes/filme-alpes-sc-institucional-en-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 349169305,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 2,
+        "inventoried": 2,
+        "processed": 2,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 2,
+        "postersSkipped": 0,
+        "publishedVideos": 2,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 2,
+        "posters": 2
+      }
     }
   }
 }

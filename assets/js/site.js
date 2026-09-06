@@ -59,6 +59,45 @@
     };
 
     initLazyVideos();
+    const initHomeHero = () => {
+      const video = document.querySelector("[data-home-hero]");
+      const data = document.querySelector("#home-hero-videos");
+      if (!video || !data) return;
+
+      let sequence;
+      try {
+        sequence = JSON.parse(data.textContent || "[]");
+      } catch (_error) {
+        sequence = [];
+      }
+      if (!Array.isArray(sequence) || sequence.length < 2) return;
+
+      const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+      let index = 0;
+      video.loop = false;
+      video.removeAttribute("loop");
+
+      const playNext = () => {
+        index = (index + 1) % sequence.length;
+        const next = sequence[index];
+        if (!next?.src) return;
+
+        video.pause();
+        video.poster = next.poster || "";
+        video.dataset.videoSrc = next.src;
+        video.src = next.src;
+        video.dataset.homeHeroIndex = String(index);
+        video.load();
+
+        if (!reducedMotion.matches) {
+          const result = video.play();
+          if (result) result.catch(() => {});
+        }
+      };
+
+      video.addEventListener("ended", playNext);
+    };
+    initHomeHero();
     const initCareersBanner = () => {
       const section = document.querySelector(".editorial-hero--careers");
       const content = section?.querySelector(".editorial-hero__content-inner");

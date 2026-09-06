@@ -4,8 +4,8 @@
     <div class="hero__shade"></div>
     <div class="hero__content container">
       <p class="eyebrow" data-i18n="about.eyebrow">Quem Somos</p>
-      <h1 data-i18n="about.title">Quem Somos</h1>
-      <p data-i18n="about.intro">A Improov nasceu da convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.</p>
+      <h1 data-i18n="about.title">Artesãos Digitais</h1>
+      <p data-i18n="about.intro">A Improov possui a experiência de 20 anos no desenvolvimento de materiais para lançamentos imobiliários e temos a convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.</p>
     </div>
   </section>
   <section class="manifesto section container">

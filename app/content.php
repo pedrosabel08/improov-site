@@ -22,25 +22,83 @@ function site_content(): array
 function page_metadata(string $key): array
 {
     $pages = [
-        'home' => ['title' => 'Improov', 'description' => 'Imagens arquitetônicas e experiências visuais que conectam pessoas a projetos.', 'path' => '', 'image' => 'BHE_INF_Fachada_EF.jpg'],
-        'quem-somos' => ['title' => 'Quem Somos — Improov', 'description' => 'Conheça a filosofia, o estúdio e as pessoas por trás da Improov.', 'path' => 'quem-somos', 'image' => 'BHE_INF_Coworking_EF.jpg'],
-        'projetos' => ['title' => 'Projetos — Improov', 'description' => 'Uma seleção editorial de imagens e experiências arquitetônicas criadas pela Improov.', 'path' => 'projetos', 'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg'],
-        'trabalhe-conosco' => ['title' => 'Trabalhe Conosco — Improov', 'description' => 'Faça parte do time que transforma ideias em experiências visuais.', 'path' => 'trabalhe-conosco', 'image' => 'BHE_INF_Coworking_EF.jpg'],
-        'contato' => ['title' => 'Contato — Improov', 'description' => 'Converse com a Improov sobre seu próximo projeto de arquitetura ou empreendimento.', 'path' => 'contato', 'image' => 'BHE_INF_Fachada_Extra.jpg'],
-        'privacidade' => ['title' => 'Política de Privacidade — Improov', 'description' => 'Como a Improov trata dados enviados por formulários comerciais e de recrutamento.', 'path' => 'privacidade', 'image' => 'BHE_INF_Fachada_EF.jpg'],
-        '404' => ['title' => 'Página não encontrada — Improov', 'description' => 'A página solicitada não foi encontrada.', 'path' => '', 'image' => 'BHE_INF_Fachada_EF.jpg'],
+        'home' => [
+            'title' => 'Improov',
+            'description' => 'Imagens arquitetônicas e experiências visuais que conectam pessoas a projetos.',
+            'path' => '',
+            'image' => 'assets/media/aya-kar/v1/hero-1440.jpg',
+        ],
+        'quem-somos' => [
+            'title' => 'Quem Somos — Improov',
+            'description' => 'Conheça a filosofia, o estúdio e as pessoas por trás da Improov.',
+            'path' => 'quem-somos',
+            'image' => 'assets/media/site/v1/about-studio-01-1440.jpg',
+        ],
+        'projetos' => [
+            'title' => 'Projetos — Improov',
+            'description' => 'Uma seleção editorial de imagens e experiências arquitetônicas criadas pela Improov.',
+            'path' => 'projetos',
+            'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg',
+        ],
+        'trabalhe-conosco' => [
+            'title' => 'Trabalhe Conosco — Improov',
+            'description' => 'Faça parte do time que transforma ideias em experiências visuais.',
+            'path' => 'trabalhe-conosco',
+            'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
+        ],
+        'contato' => [
+            'title' => 'Contato — Improov',
+            'description' => 'Converse com a Improov sobre seu próximo projeto de arquitetura ou empreendimento.',
+            'path' => 'contato',
+            'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
+        ],
+        'privacidade' => [
+            'title' => 'Política de Privacidade — Improov',
+            'description' => 'Como a Improov trata dados enviados por formulários comerciais e de recrutamento.',
+            'path' => 'privacidade',
+            'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
+        ],
+        '404' => [
+            'title' => 'Página não encontrada — Improov',
+            'description' => 'A página solicitada não foi encontrada.',
+            'path' => '',
+            'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
+        ],
     ];
+
     return $pages[$key] ?? $pages['404'];
 }
-
 function thumbnail_url(string $source, int $width = 1200, int $quality = 80): string
 {
+    $derived = media_image_path($source, $width);
+    if ($derived !== null) {
+        return asset($derived);
+    }
     $query = 'path=' . rawurlencode($source) . '&w=' . $width . '&q=' . $quality;
     $sourceMtime = asset_mtime($source);
     if ($sourceMtime !== null) {
         $query .= '&v=' . rawurlencode((string) $sourceMtime);
     }
     return base_url('thumb.php?' . $query);
+}
+
+function media_image_path(string $source, int $width = 1440): ?string
+{
+    $sources = media_map()[$source]['sources'] ?? [];
+    $widths = array_map('intval', array_keys($sources));
+    sort($widths, SORT_NUMERIC);
+    $fallback = null;
+    foreach ($widths as $candidate) {
+        $path = $sources[(string) $candidate]['jpg'] ?? null;
+        if (!is_string($path) || $path === '') {
+            continue;
+        }
+        $fallback = $path;
+        if ($candidate >= $width) {
+            return $path;
+        }
+    }
+    return $fallback;
 }
 
 function media_map(): array
@@ -65,7 +123,7 @@ function responsive_image(
     string $class = '',
     string $sizes = '100vw',
     bool $priority = false,
-    array $attributes = []
+    array $attributes = [],
 ): string {
     $media = media_map()[$source] ?? null;
     if (is_array($media) && !empty($media['sources'])) {
@@ -127,7 +185,7 @@ function responsive_image(
         escape($class),
         $priority ? 'eager' : 'lazy',
         $priority ? ' fetchpriority="high"' : '',
-        $extraAttributes
+        $extraAttributes,
     );
 }
 
@@ -199,6 +257,6 @@ function lazy_video(array $video, string $class = '', bool $priority = false, ar
         escape(asset($poster)),
         escape(asset($src)),
         $priority ? ' data-lazy-video-priority' : '',
-        $extra
+        $extra,
     );
 }

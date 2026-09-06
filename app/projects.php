@@ -47,3 +47,39 @@ function home_projects(): array
 
     return array_slice(array_merge($featured, $remaining), 0, 6);
 }
+
+function home_hero_videos(): array
+{
+    $sequence = ['ars-vie', 'aya-kar', 'alp-sc'];
+    $videos = [];
+
+    foreach ($sequence as $slug) {
+        $project = find_project($slug);
+        $video = $project === null ? null : project_animation($project);
+        if ($video === null) {
+            continue;
+        }
+
+        $sources = $video['sources'] ?? [];
+        if (!is_array($sources) || $sources === []) {
+            continue;
+        }
+
+        krsort($sources, SORT_NUMERIC);
+        $source = reset($sources);
+        $src = is_array($source) ? (string) ($source['src'] ?? '') : '';
+        $poster = (string) ($video['poster'] ?? '');
+        if ($src === '' || $poster === '') {
+            continue;
+        }
+
+        $videos[] = [
+            'slug' => $slug,
+            'src' => asset($src),
+            'poster' => asset($poster),
+            'alt' => translated($project['media']['hero']['alt'] ?? []),
+        ];
+    }
+
+    return $videos;
+}

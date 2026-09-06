@@ -1,7 +1,7 @@
 <main id="conteudo">
-  <?php $heroProject = null; foreach (home_projects() as $project) { if (project_animation($project) !== null) { $heroProject = $project; break; } } ?>
+  <?php $heroVideos = home_hero_videos(); $heroProject = !empty($heroVideos) ? find_project($heroVideos[0]['slug']) : null; ?>
   <section class="hero hero--home">
-    <div class="hero__media"><?php if ($heroProject !== null): ?><?= lazy_video(project_animation($heroProject), 'hero__image', true, ['data-i18n-alt' => 'home.heroAlt', 'aria-label' => 'Animação arquitetônica']) ?><?php else: ?><?= responsive_image('assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg', 'Arquitetura contemporânea integrada à paisagem', 1920, 1080, 'hero__image', '100vw', true, ['data-i18n-alt' => 'home.heroAlt']) ?><?php endif; ?></div>
+    <div class="hero__media"><?php if ($heroProject !== null): ?><?= lazy_video(project_animation($heroProject), 'hero__image', true, ['data-home-hero' => 'true', 'data-i18n-alt' => 'home.heroAlt', 'aria-label' => 'Animação arquitetônica']) ?><?php else: ?><?= responsive_image('assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg', 'Arquitetura contemporânea integrada à paisagem', 1920, 1080, 'hero__image', '100vw', true, ['data-i18n-alt' => 'home.heroAlt']) ?><?php endif; ?></div>
     <div class="hero__shade"></div>
     <div class="hero__content container">
       <p class="eyebrow" data-i18n="home.eyebrow">Imagens que</p>
@@ -9,6 +9,8 @@
       <p data-i18n="home.intro">Criamos imagens arquitetônicas e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.</p><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.action">Conheça nosso trabalho</span><span aria-hidden="true">→</span></a>
     </div>
   </section>
+
+  <?php if (count($heroVideos) > 1): ?><script type="application/json" id="home-hero-videos"><?= json_encode($heroVideos, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script><?php endif; ?>
 
   <section class="selected-projects section container">
     <div class="section-heading section-heading--row">

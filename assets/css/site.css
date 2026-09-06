@@ -354,7 +354,7 @@ button:focus-visible {
 }
 .site-footer {
   /* margin-top: var(--section-space); */
-  padding: 64px var(--gutter) 24px;
+  padding: 24px var(--gutter) 24px;
   border-top: 1px solid var(--color-border-soft);
 }
 .site-footer__grid {
@@ -520,6 +520,9 @@ button:focus-visible {
   }
   .site-footer__grid {
     grid-template-columns: 1fr;
+  }
+  .footer-brand__logo {
+    margin: 0 auto;
   }
 }
 @media (prefers-reduced-motion: reduce) {
