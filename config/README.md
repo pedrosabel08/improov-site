@@ -7,10 +7,11 @@ candidatura no MySQL/MariaDB e envia uma notificação HTML para `MAIL_TO`.
 
 1. Copie `.env.example` para `.env`.
 2. Preencha as variáveis `DB_*` com as credenciais do banco.
-3. Configure `MAIL_TO` como o endereço que receberá os avisos.
-4. Execute `database/schema.sql` no banco configurado.
-5. Execute `composer install --no-dev` no servidor para instalar o PHPMailer.
-6. Preencha `SMTP_USERNAME` e `SMTP_PASSWORD` com a conta autorizada a enviar.
+3. Configure `MAIL_TO` como `contato@improov.com.br` para receber as candidaturas.
+4. Configure `CONTACT_MAIL_TO` como `comercial@improov.com.br` para receber os contatos comerciais.
+5. Execute `database/schema.sql` no banco configurado.
+6. Execute `composer install --no-dev` no servidor para instalar o PHPMailer.
+7. Preencha `SMTP_USERNAME` e `SMTP_PASSWORD` com a conta autorizada a enviar.
 
 O exemplo usa `smtp.gmail.com`, porta `587` e STARTTLS. Para contas Google,
 use uma senha de aplicativo, não a senha normal da conta.

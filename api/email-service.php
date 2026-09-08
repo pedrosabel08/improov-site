@@ -75,6 +75,7 @@ function improovSendCandidateEmail(array $candidate, string $projectRoot): array
         if ($resume === null) throw new RuntimeException('Currículo não encontrado.');
         $h = 'improovEmailHtml';
         $content = '<h2 style="margin-top:0">' . $h((string)$candidate['nome']) . '</h2><p><strong>Área:</strong> ' . $h((string)$candidate['area_cargo']) . '<br><strong>E-mail:</strong> ' . $h((string)$candidate['email']) . '<br><strong>Telefone:</strong> ' . $h((string)$candidate['telefone']) . '<br><strong>Cidade:</strong> ' . $h((string)$candidate['cidade_uf']) . '<br><strong>Disponibilidade:</strong> ' . $h((string)$candidate['disponibilidade_inicio']) . '<br><strong>Modelo:</strong> ' . $h((string)$candidate['modelos_trabalho']) . '</p><p><strong>Portfólio:</strong> ' . $h((string)$candidate['portfolio_url']) . '<br><strong>LinkedIn:</strong> ' . $h((string)$candidate['linkedin_url']) . '</p><h3>Experiência</h3><p>' . nl2br($h((string)$candidate['experiencia'])) . '</p>';
+        // Candidaturas do formulário "Trabalhe conosco" vão para o time de pessoas.
         $mailer = improovCreateMailer(improovEmailEnv('MAIL_TO', 'contato@improov.com.br'), (string)$candidate['email'], (string)$candidate['nome']);
         $mailer->Subject = 'Nova candidatura | Improov | ' . trim(str_replace(["\r", "\n"], ' ', (string)$candidate['nome']));
         $mailer->Body = improovEmailLayout('TRABALHE CONOSCO', 'Nova candidatura recebida', 'Uma nova pessoa se candidatou pelo site.', $content);
@@ -93,7 +94,8 @@ function improovSendContactEmail(array $contact, string $projectRoot): array
     try {
         $h = 'improovEmailHtml';
         $content = '<h2 style="margin-top:0">' . $h((string)$contact['nome']) . '</h2><p><strong>Empresa:</strong> ' . $h((string)$contact['empresa']) . '<br><strong>E-mail:</strong> ' . $h((string)$contact['email']) . '<br><strong>Telefone:</strong> ' . $h((string)$contact['telefone']) . '<br><strong>Cidade:</strong> ' . $h((string)$contact['cidade_uf']) . '<br><strong>Interesse:</strong> ' . $h((string)$contact['tipo_interesse']) . '<br><strong>Empreendimento:</strong> ' . $h((string)$contact['empreendimento']) . '</p><h3>Como podemos ajudar?</h3><p>' . nl2br($h((string)$contact['mensagem'])) . '</p>';
-        $to = improovEmailEnv('CONTACT_MAIL_TO', improovEmailEnv('MAIL_TO', 'contato@improov.com.br'));
+        // Mensagens do formulário "Contato" vão para o comercial.
+        $to = improovEmailEnv('CONTACT_MAIL_TO', 'comercial@improov.com.br');
         $mailer = improovCreateMailer($to, (string)$contact['email'], (string)$contact['nome']);
         $mailer->Subject = 'Novo contato comercial | Improov | ' . trim(str_replace(["\r", "\n"], ' ', (string)$contact['nome']));
         $mailer->Body = improovEmailLayout('CONTATO COMERCIAL', 'Nova mensagem recebida', 'Um novo contato comercial chegou pelo site.', $content);
