@@ -349,6 +349,142 @@
           "source": "projetos/alp-sc/imagens/imagem-3-alp-sc-fotomontagem-3-r00-1-1.jpg"
         }
       ]
+    },
+    {
+      "slug": "gt-lac",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/gt-lac/imagens/imagem-15-gt-lac-quadra-padel-ef.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/gt-lac/imagens/imagem-17-gt-lac-lounge-externo-ef.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/gt-lac/imagens/imagem-18-gt-lac-espaco-gourmet-ef.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/gt-lac/imagens/imagem-19-gt-lac-quisque-externo-ef.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/gt-lac/imagens/imagem-20-gt-lac-piscina-infantil-ef.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/gt-lac/imagens/imagem-32-gt-lac-academia-angulo-1-ef.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/gt-lac/imagens/imagem-33-gt-lac-academia-angulo-2-ef.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/gt-lac/imagens/imagem-34-gt-lac-coworking-ef.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/gt-lac/imagens/imagem-40-gt-lac-apartamento-tipo-final-02-living-area-gourmet-ef.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/gt-lac/imagens/imagem-41-gt-lac-apartamento-tipo-final-02-living-vista-mar-cristo-ef.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/gt-lac/imagens/imagem-47-gt-lac-apartamento-duplex-final-01-terraco-piscina-ef.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "aya-cas",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/aya-cas/imagens/imagem-01-aya-cas-portaria-ef.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/aya-cas/imagens/imagem-03-aya-cas-fotomontagem-aerea-ef.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/aya-cas/imagens/imagem-05-aya-cas-casa-fundos-ef.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/aya-cas/imagens/imagem-06-aya-cas-living-angulo-1-ef.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/aya-cas/imagens/imagem-09-aya-cas-suite-vista-arvores-ef.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/aya-cas/imagens/imagem-10-aya-cas-home-office-vista-mata-ef.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/aya-cas/imagens/imagem-aya-est-fachada-garagem-ef.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/aya-cas/imagens/imagem-aya-est-gourmet-p02-ef.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg"
+        }
+      ]
     }
   ],
   "site": [

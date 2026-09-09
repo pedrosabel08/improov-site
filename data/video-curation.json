@@ -308,6 +308,27 @@
           ]
         }
       }
+    },
+    "gt-lac": {
+      "defaults": {"publish": false, "poster": false, "variants": []},
+      "sources": {
+        "animacoes/animacao-gt-lac-tracking-0044.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master.mp4": {"publish": true, "poster": true, "variants": ["1080"]}
+      }
+    },
+    "aya-cas": {
+      "defaults": {"publish": false, "poster": false, "variants": []},
+      "sources": {
+        "animacoes/animacao-aya-est-rua.mov": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-02-aya-cas-living-interno-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-06-aya-cas-piscina-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-09-aya-cas-suite-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-aya-est-home-office.mov": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/animacao-aya-est-jardim-interno.mov": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/vertical-03-aya-cas-home-office.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "animacoes/vertical-06-aya-cas-piscina.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
+        "filmes/filme-2022-aya-casas-depoimento.mp4": {"publish": true, "poster": true, "variants": ["1080"]}
+      }
     }
   }
 }

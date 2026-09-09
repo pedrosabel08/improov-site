@@ -788,21 +788,6 @@
       ],
       "sections": [
         {
-          "type": "closing",
-          "id": "ficha-tecnica",
-          "label": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          },
-          "title": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          },
-          "items": []
-        },
-        {
           "type": "gallery",
           "id": "implantacao-acesso",
           "label": {
@@ -817,12 +802,10 @@
           },
           "groups": [
             {
-              "id": "implantacao-acesso",
-              "type": "editorialStory",
-              "lightboxSet": "implantacao-acesso",
-              "moments": [
+              "id": "aya-kar-editorial-01",
+              "items": [
                 {
-                  "layout": "feature",
+                  "layout": "composition-a",
                   "items": [
                     {
                       "src": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
@@ -831,12 +814,15 @@
                         "en": "Aerial view",
                         "es": "Vista aérea"
                       }
-                    }
-                  ]
-                },
-                {
-                  "layout": "feature",
-                  "items": [
+                    },
+                    {
+                      "src": "assets/projetos/aya-kar/imagens/imagem-25-aya-kar-caminho-da-entrada-ef.jpg",
+                      "label": {
+                        "pt-BR": "Caminho de entrada",
+                        "en": "Entrance path",
+                        "es": "Camino de entrada"
+                      }
+                    },
                     {
                       "src": "assets/projetos/aya-kar/imagens/imagem-27-aya-kar-embasamento-com-foco-no-acesso-ef.jpg",
                       "label": {
@@ -972,12 +958,10 @@
           },
           "groups": [
             {
-              "id": "piscinas",
-              "type": "editorialStory",
-              "lightboxSet": "piscinas",
-              "moments": [
+              "id": "aya-kar-editorial-02",
+              "items": [
                 {
-                  "layout": "feature",
+                  "layout": "composition-b",
                   "items": [
                     {
                       "src": "assets/projetos/aya-kar/imagens/imagem-5-aya-kar-passeio-entre-piscina-e-apto-ef-1-1.jpg",
@@ -986,18 +970,21 @@
                         "en": "Poolside path",
                         "es": "Paseo junto a la piscina"
                       }
-                    }
-                  ]
-                },
-                {
-                  "layout": "feature",
-                  "items": [
+                    },
                     {
                       "src": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
                       "label": {
                         "pt-BR": "Piscina",
                         "en": "Pool",
                         "es": "Piscina"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/aya-kar/imagens/imagem-7-aya-kar-piscina-infantil-ef-1-1.jpg",
+                      "label": {
+                        "pt-BR": "Piscina infantil",
+                        "en": "Children’s pool",
+                        "es": "Piscina infantil"
                       }
                     }
                   ]
@@ -1128,12 +1115,10 @@
           },
           "groups": [
             {
-              "id": "rooftop-mata",
-              "type": "editorialStory",
-              "lightboxSet": "rooftop-mata",
-              "moments": [
+              "id": "aya-kar-editorial-impacto",
+              "items": [
                 {
-                  "layout": "feature",
+                  "layout": "impact",
                   "items": [
                     {
                       "src": "assets/projetos/aya-kar/32.AYA_KAR Rooftop vista mata_EF.jpg",
@@ -1277,9 +1262,7 @@
                 "es": "Rooftop — vista al bosque"
               }
             }
-          ],
-          "navigation": false,
-          "showHeading": false
+          ]
         },
         {
           "type": "carousel",
@@ -1295,14 +1278,6 @@
             "es": "Plantas humanizadas"
           },
           "items": [
-            {
-              "src": "assets/projetos/aya-kar/plantas/planta-19-aya-kar-planta-humanizada-implantacao-geral-ef-1-1.jpg",
-              "label": {
-                "pt-BR": "Implantação geral",
-                "en": "Site plan",
-                "es": "Implantación general"
-              }
-            },
             {
               "src": "assets/projetos/aya-kar/plantas/planta-aya-kar-ph-apto-terreo-101-torre-manaca-ef.jpg",
               "label": {
@@ -1462,6 +1437,14 @@
                 "en": "Rooftop 306 — Ipê",
                 "es": "Rooftop 306 — Ipê"
               }
+            },
+            {
+              "src": "assets/projetos/aya-kar/plantas/planta-19-aya-kar-planta-humanizada-implantacao-geral-ef-1-1.jpg",
+              "label": {
+                "pt-BR": "Implantação geral",
+                "en": "Site plan",
+                "es": "Implantación general"
+              }
             }
           ]
         },
@@ -1491,6 +1474,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
         }
       ],
       "credits": {
@@ -1577,41 +1574,16 @@
       ],
       "sections": [
         {
-          "type": "closing",
-          "id": "ficha-tecnica",
-          "label": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          },
-          "title": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          },
-          "items": []
-        },
-        {
           "type": "gallery",
           "id": "imagens",
-          "label": {
-            "pt-BR": "Imagens 3D",
-            "en": "3D images",
-            "es": "Imágenes 3D"
-          },
-          "title": {
-            "pt-BR": "Imagens 3D",
-            "en": "3D images",
-            "es": "Imágenes 3D"
-          },
+          "navigation": false,
+          "showHeading": false,
           "groups": [
             {
-              "id": "imagens",
-              "type": "editorialStory",
-              "lightboxSet": "imagens",
-              "moments": [
+              "id": "alp-sc-editorial",
+              "items": [
                 {
-                  "layout": "feature",
+                  "layout": "composition-a",
                   "items": [
                     {
                       "src": "assets/projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg",
@@ -1620,12 +1592,7 @@
                         "en": "Photomontage 1",
                         "es": "Fotomontaje 1"
                       }
-                    }
-                  ]
-                },
-                {
-                  "layout": "feature",
-                  "items": [
+                    },
                     {
                       "src": "assets/projetos/alp-sc/imagens/imagem-2-alp-sc-fotomontagem-2-r00-3-1.jpg",
                       "label": {
@@ -1633,12 +1600,7 @@
                         "en": "Photomontage 2",
                         "es": "Fotomontaje 2"
                       }
-                    }
-                  ]
-                },
-                {
-                  "layout": "feature",
-                  "items": [
+                    },
                     {
                       "src": "assets/projetos/alp-sc/imagens/imagem-3-alp-sc-fotomontagem-3-r00-1-1.jpg",
                       "label": {
@@ -1671,6 +1633,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
         }
       ],
       "credits": {
@@ -1686,6 +1662,615 @@
               "en": "Alpes Catarina",
               "es": "Alpes Catarina"
             }
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": {
+              "pt-BR": "Rancho Queimado, SC",
+              "en": "Rancho Queimado, SC, Brazil",
+              "es": "Rancho Queimado, SC, Brasil"
+            }
+          },
+          {
+            "label": {
+              "pt-BR": "Ano",
+              "en": "Year",
+              "es": "Año"
+            },
+            "value": "2025"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "editorial",
+        "eyebrow": {
+          "pt-BR": "Próximo projeto",
+          "en": "Next project",
+          "es": "Próximo proyecto"
+        },
+        "allProjectsLabel": {
+          "pt-BR": "Ver todos os projetos",
+          "en": "See all projects",
+          "es": "Ver todos los proyectos"
+        }
+      }
+    },
+    "gt-lac": {
+      "theme": "light",
+      "motion": "slow",
+      "hero": {
+        "video": "animacao-gt-lac-tracking-0044",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        { "pt-BR": "Imagens 3D", "en": "3D images", "es": "Imágenes 3D" },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D animations",
+          "es": "Animaciones 3D"
+        }
+      ],
+      "sections": [
+        {
+          "type": "gallery",
+          "id": "imagens-editoriais-01",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "gt-lac-editorial-01",
+              "items": [
+                {
+                  "layout": "composition-a",
+                  "items": [
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg",
+                      "label": {
+                        "pt-BR": "Vista aérea",
+                        "en": "Aerial view",
+                        "es": "Vista aérea"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg",
+                      "label": {
+                        "pt-BR": "Vista aérea",
+                        "en": "Aerial view",
+                        "es": "Vista aérea"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg",
+                      "label": {
+                        "pt-BR": "Vista aérea",
+                        "en": "Aerial view",
+                        "es": "Vista aérea"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "areas-comuns",
+          "label": {
+            "pt-BR": "Áreas comuns",
+            "en": "Amenities",
+            "es": "Áreas comunes"
+          },
+          "title": {
+            "pt-BR": "Áreas comuns",
+            "en": "Amenities",
+            "es": "Áreas comunes"
+          },
+          "items": [
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg",
+              "label": { "pt-BR": "Garagem", "en": "Garage", "es": "Garaje" }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg",
+              "label": { "pt-BR": "Lazer", "en": "Amenities", "es": "Ocio" }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-15-gt-lac-quadra-padel-ef.jpg",
+              "label": {
+                "pt-BR": "Quadra de padel",
+                "en": "Padel court",
+                "es": "Cancha de pádel"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-17-gt-lac-lounge-externo-ef.jpg",
+              "label": {
+                "pt-BR": "Lounge externo",
+                "en": "Outdoor lounge",
+                "es": "Lounge exterior"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-18-gt-lac-espaco-gourmet-ef.jpg",
+              "label": {
+                "pt-BR": "Espaço gourmet",
+                "en": "Gourmet space",
+                "es": "Espacio gourmet"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-19-gt-lac-quisque-externo-ef.jpg",
+              "label": {
+                "pt-BR": "Quiosque externo",
+                "en": "Outdoor kiosk",
+                "es": "Quiosco exterior"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-20-gt-lac-piscina-infantil-ef.jpg",
+              "label": {
+                "pt-BR": "Piscina infantil",
+                "en": "Children’s pool",
+                "es": "Piscina infantil"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-32-gt-lac-academia-angulo-1-ef.jpg",
+              "label": { "pt-BR": "Academia", "en": "Gym", "es": "Gimnasio" }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-33-gt-lac-academia-angulo-2-ef.jpg",
+              "label": { "pt-BR": "Academia", "en": "Gym", "es": "Gimnasio" }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-34-gt-lac-coworking-ef.jpg",
+              "label": "Coworking"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "imagens-editoriais-02",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "gt-lac-editorial-02",
+              "items": [
+                {
+                  "layout": "composition-b",
+                  "items": [
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg",
+                      "label": {
+                        "pt-BR": "Vista aérea",
+                        "en": "Aerial view",
+                        "es": "Vista aérea"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg",
+                      "label": {
+                        "pt-BR": "Fachada",
+                        "en": "Facade",
+                        "es": "Fachada"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg",
+                      "label": {
+                        "pt-BR": "Lazer",
+                        "en": "Amenities",
+                        "es": "Ocio"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "apartamentos",
+          "label": {
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
+          },
+          "title": {
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
+          },
+          "items": [
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-40-gt-lac-apartamento-tipo-final-02-living-area-gourmet-ef.jpg",
+              "label": {
+                "pt-BR": "Living com área gourmet",
+                "en": "Living with gourmet area",
+                "es": "Living con área gourmet"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-41-gt-lac-apartamento-tipo-final-02-living-vista-mar-cristo-ef.jpg",
+              "label": {
+                "pt-BR": "Living com vista para o mar",
+                "en": "Living with sea view",
+                "es": "Living con vista al mar"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-47-gt-lac-apartamento-duplex-final-01-terraco-piscina-ef.jpg",
+              "label": {
+                "pt-BR": "Terraço com piscina",
+                "en": "Terrace with pool",
+                "es": "Terraza con piscina"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "ritmo-editorial-03",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "animacao-42-gt-lac-apartamento-duplex-suite-master",
+              "label": {
+                "pt-BR": "Suíte master",
+                "en": "Primary suite",
+                "es": "Suite principal"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg",
+              "label": { "pt-BR": "Piscina", "en": "Pool", "es": "Piscina" }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg",
+              "label": {
+                "pt-BR": "Living duplex com vista para o mar",
+                "en": "Duplex living with sea view",
+                "es": "Living dúplex con vista al mar"
+              }
+            }
+          ]
+        },
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
+        }
+      ],
+      "credits": {
+        "items": [
+          {
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "GT - La Cittá"
+          },
+          {
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "GT Home"
+          },
+          {
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
+            "value": "Pininfarina"
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": {
+              "pt-BR": "Balneário Camboriú, SC",
+              "en": "Balneário Camboriú, SC, Brazil",
+              "es": "Balneário Camboriú, SC, Brasil"
+            }
+          },
+          {
+            "label": { "pt-BR": "Ano", "en": "Year", "es": "Año" },
+            "value": "2025"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "editorial",
+        "eyebrow": {
+          "pt-BR": "Próximo projeto",
+          "en": "Next project",
+          "es": "Próximo proyecto"
+        },
+        "allProjectsLabel": {
+          "pt-BR": "Ver todos os projetos",
+          "en": "See all projects",
+          "es": "Ver todos los proyectos"
+        }
+      }
+    },
+    "aya-cas": {
+      "theme": "light",
+      "motion": "slow",
+      "hero": {
+        "video": "animacao-aya-est-rua",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        { "pt-BR": "Imagens 3D", "en": "3D images", "es": "Imágenes 3D" },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D animations",
+          "es": "Animaciones 3D"
+        },
+        { "pt-BR": "Filmes", "en": "Films", "es": "Películas" }
+      ],
+      "sections": [
+        {
+          "type": "gallery",
+          "id": "imagens",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "aya-cas-editorial-01",
+              "items": [
+                {
+                  "layout": "composition-a",
+                  "items": [
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg",
+                      "label": "Boulevard"
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-01-aya-cas-portaria-ef.jpg",
+                      "label": {
+                        "pt-BR": "Portaria",
+                        "en": "Entrance",
+                        "es": "Acceso"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-03-aya-cas-fotomontagem-aerea-ef.jpg",
+                      "label": {
+                        "pt-BR": "Vista aérea",
+                        "en": "Aerial view",
+                        "es": "Vista aérea"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "aya-cas-editorial-02",
+              "items": [
+                {
+                  "layout": "composition-b",
+                  "items": [
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-06-aya-cas-living-angulo-1-ef.jpg",
+                      "label": "Living"
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-fachada-garagem-ef.jpg",
+                      "label": {
+                        "pt-BR": "Fachada",
+                        "en": "Facade",
+                        "es": "Fachada"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-05-aya-cas-casa-fundos-ef.jpg",
+                      "label": { "pt-BR": "Casa", "en": "House", "es": "Casa" }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "aya-cas-editorial-03",
+              "items": [
+                {
+                  "layout": "composition-a",
+                  "items": [
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg",
+                      "label": "Living"
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-09-aya-cas-suite-vista-arvores-ef.jpg",
+                      "label": {
+                        "pt-BR": "Suíte",
+                        "en": "Suite",
+                        "es": "Suite"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-10-aya-cas-home-office-vista-mata-ef.jpg",
+                      "label": "Home office"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "verticalMoments",
+          "id": "momentos-verticais",
+          "navigation": false,
+          "showHeading": false,
+          "items": [
+            {
+              "mediaId": "vertical-03-aya-cas-home-office",
+              "label": {
+                "pt-BR": "Home office — vertical",
+                "en": "Home office — vertical",
+                "es": "Home office — vertical"
+              }
+            },
+            {
+              "mediaId": "vertical-06-aya-cas-piscina",
+              "label": {
+                "pt-BR": "Piscina — vertical",
+                "en": "Pool — vertical",
+                "es": "Piscina — vertical"
+              }
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "imagem-impacto",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "aya-cas-editorial-impacto",
+              "items": [
+                {
+                  "layout": "impact",
+                  "items": [
+                    {
+                      "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-gourmet-p02-ef.jpg",
+                      "label": {
+                        "pt-BR": "Espaço gourmet",
+                        "en": "Gourmet space",
+                        "es": "Espacio gourmet"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "animacoes-3d",
+          "label": {
+            "pt-BR": "Animações 3D",
+            "en": "3D animations",
+            "es": "Animaciones 3D"
+          },
+          "title": {
+            "pt-BR": "Animações 3D",
+            "en": "3D animations",
+            "es": "Animaciones 3D"
+          },
+          "items": [
+            {
+              "mediaId": "animacao-02-aya-cas-living-interno-horizontal",
+              "label": {
+                "pt-BR": "Living interno",
+                "en": "Indoor living",
+                "es": "Living interior"
+              }
+            },
+            {
+              "mediaId": "animacao-06-aya-cas-piscina-horizontal",
+              "label": { "pt-BR": "Piscina", "en": "Pool", "es": "Piscina" }
+            },
+            {
+              "mediaId": "animacao-09-aya-cas-suite-horizontal",
+              "label": { "pt-BR": "Suíte", "en": "Suite", "es": "Suite" }
+            },
+            {
+              "mediaId": "animacao-aya-est-home-office",
+              "label": "Home office"
+            },
+            {
+              "mediaId": "animacao-aya-est-jardim-interno",
+              "label": {
+                "pt-BR": "Jardim interno",
+                "en": "Indoor garden",
+                "es": "Jardín interior"
+              }
+            }
+          ]
+        },
+        {
+          "type": "film",
+          "id": "filme-depoimento",
+          "label": { "pt-BR": "Filme", "en": "Film", "es": "Película" },
+          "videos": [
+            {
+              "video": "filme-2022-aya-casas-depoimento",
+              "label": {
+                "pt-BR": "Filme depoimento",
+                "en": "Testimonial film",
+                "es": "Película testimonial"
+              }
+            }
+          ]
+        },
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
+        }
+      ],
+      "credits": {
+        "items": [
+          {
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "AYA Casas"
+          },
+          {
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "AYA"
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": {
+              "pt-BR": "Praia do Estaleiro, SC",
+              "en": "Estaleiro Beach, SC",
+              "es": "Playa Estaleiro, SC"
+            }
+          },
+          {
+            "label": { "pt-BR": "Ano", "en": "Year", "es": "Año" },
+            "value": "2024"
           }
         ]
       },

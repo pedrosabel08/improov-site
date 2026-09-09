@@ -404,6 +404,7 @@ button:focus-visible {
   display: block;
   width: min(100%, 360px);
   height: auto;
+  padding-bottom: 35px;
 }
 .footer-label {
   margin-bottom: 8px !important;

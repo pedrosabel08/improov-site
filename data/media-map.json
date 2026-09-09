@@ -2546,5 +2546,873 @@
         "jpg": "assets/media/alp-sc/v1/gallery-02-1920.jpg"
       }
     }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg",
+    "base": "assets/media/gt-lac/v1/hero",
+    "width": 5000,
+    "height": 1667,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/hero-640.avif",
+        "webp": "assets/media/gt-lac/v1/hero-640.webp",
+        "jpg": "assets/media/gt-lac/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/hero-1024.avif",
+        "webp": "assets/media/gt-lac/v1/hero-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/hero-1440.avif",
+        "webp": "assets/media/gt-lac/v1/hero-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/hero-1920.avif",
+        "webp": "assets/media/gt-lac/v1/hero-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-01",
+    "width": 5000,
+    "height": 2809,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-01-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-01-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-01-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-01-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-01-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-02",
+    "width": 5000,
+    "height": 2809,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-02-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-02-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-02-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-02-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-02-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-03",
+    "width": 7500,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-03-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-03-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-03-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-03-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-03-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-04",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-04-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-04-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-04-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-04-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-04-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-05",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-05-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-05-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-05-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-05-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-05-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-06",
+    "width": 5000,
+    "height": 2814,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-06-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-06-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-06-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-06-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-06-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-07",
+    "width": 5000,
+    "height": 2814,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-07-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-07-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-07-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-07-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-07-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-15-gt-lac-quadra-padel-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-15-gt-lac-quadra-padel-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-08",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-08-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-08-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-08-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-08-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-08-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-17-gt-lac-lounge-externo-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-17-gt-lac-lounge-externo-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-09",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-09-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-09-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-09-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-09-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-09-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-09-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-18-gt-lac-espaco-gourmet-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-18-gt-lac-espaco-gourmet-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-10",
+    "width": 5000,
+    "height": 2814,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-10-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-10-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-10-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-10-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-10-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-10-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-10-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-10-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-10-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-10-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-10-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-10-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-19-gt-lac-quisque-externo-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-19-gt-lac-quisque-externo-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-11",
+    "width": 5000,
+    "height": 2814,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-11-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-11-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-11-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-11-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-11-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-11-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-11-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-11-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-11-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-11-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-11-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-11-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-20-gt-lac-piscina-infantil-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-20-gt-lac-piscina-infantil-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-12",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-12-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-12-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-12-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-12-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-12-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-12-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-12-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-12-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-12-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-12-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-12-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-12-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-13",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-13-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-13-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-13-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-13-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-13-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-13-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-13-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-13-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-13-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-13-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-13-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-13-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-32-gt-lac-academia-angulo-1-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-32-gt-lac-academia-angulo-1-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-14",
+    "width": 5000,
+    "height": 3644,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-14-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-14-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-14-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-14-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-14-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-14-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-14-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-14-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-14-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-14-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-14-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-14-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-33-gt-lac-academia-angulo-2-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-33-gt-lac-academia-angulo-2-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-15",
+    "width": 5000,
+    "height": 2826,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-15-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-15-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-15-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-15-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-15-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-15-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-15-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-15-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-15-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-15-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-15-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-15-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-34-gt-lac-coworking-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-34-gt-lac-coworking-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-16",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-16-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-16-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-16-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-16-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-16-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-16-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-16-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-16-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-16-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-16-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-16-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-16-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-40-gt-lac-apartamento-tipo-final-02-living-area-gourmet-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-40-gt-lac-apartamento-tipo-final-02-living-area-gourmet-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-17",
+    "width": 5000,
+    "height": 3760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-17-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-17-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-17-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-17-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-17-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-17-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-17-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-17-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-17-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-17-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-17-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-17-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-41-gt-lac-apartamento-tipo-final-02-living-vista-mar-cristo-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-41-gt-lac-apartamento-tipo-final-02-living-vista-mar-cristo-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-18",
+    "width": 5000,
+    "height": 2084,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-18-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-18-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-18-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-18-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-18-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-18-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-18-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-18-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-18-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-18-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-18-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-18-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-19",
+    "width": 5000,
+    "height": 2824,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-19-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-19-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-19-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-19-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-19-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-19-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-19-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-19-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-19-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-19-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-19-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-19-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/gt-lac/imagens/imagem-47-gt-lac-apartamento-duplex-final-01-terraco-piscina-ef.jpg": {
+    "source": "assets/projetos/gt-lac/imagens/imagem-47-gt-lac-apartamento-duplex-final-01-terraco-piscina-ef.jpg",
+    "base": "assets/media/gt-lac/v1/gallery-20",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/gt-lac/v1/gallery-20-640.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-20-640.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-20-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/gt-lac/v1/gallery-20-1024.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-20-1024.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-20-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/gt-lac/v1/gallery-20-1440.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-20-1440.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-20-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/gt-lac/v1/gallery-20-1920.avif",
+        "webp": "assets/media/gt-lac/v1/gallery-20-1920.webp",
+        "jpg": "assets/media/gt-lac/v1/gallery-20-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-01-aya-cas-portaria-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-01-aya-cas-portaria-ef.jpg",
+    "base": "assets/media/aya-cas/v1/hero",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/hero-640.avif",
+        "webp": "assets/media/aya-cas/v1/hero-640.webp",
+        "jpg": "assets/media/aya-cas/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/hero-1024.avif",
+        "webp": "assets/media/aya-cas/v1/hero-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/hero-1440.avif",
+        "webp": "assets/media/aya-cas/v1/hero-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/hero-1920.avif",
+        "webp": "assets/media/aya-cas/v1/hero-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-01",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-01-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-01-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-01-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-01-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-01-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-03-aya-cas-fotomontagem-aerea-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-03-aya-cas-fotomontagem-aerea-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-02",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-02-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-02-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-02-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-02-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-02-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-05-aya-cas-casa-fundos-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-05-aya-cas-casa-fundos-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-03",
+    "width": 3536,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-03-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-03-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-03-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-03-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-03-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-06-aya-cas-living-angulo-1-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-06-aya-cas-living-angulo-1-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-04",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-04-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-04-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-04-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-04-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-04-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-09-aya-cas-suite-vista-arvores-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-09-aya-cas-suite-vista-arvores-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-05",
+    "width": 5000,
+    "height": 3570,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-05-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-05-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-05-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-05-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-05-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-10-aya-cas-home-office-vista-mata-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-10-aya-cas-home-office-vista-mata-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-06",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-06-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-06-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-06-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-06-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-06-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-aya-est-fachada-garagem-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-aya-est-fachada-garagem-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-07",
+    "width": 5000,
+    "height": 3800,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-07-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-07-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-07-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-07-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-07-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-aya-est-gourmet-p02-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-aya-est-gourmet-p02-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-08",
+    "width": 5000,
+    "height": 2942,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-08-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-08-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-08-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-08-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-08-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg": {
+    "source": "assets/projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg",
+    "base": "assets/media/aya-cas/v1/gallery-09",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/aya-cas/v1/gallery-09-640.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-09-640.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/aya-cas/v1/gallery-09-1024.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/aya-cas/v1/gallery-09-1440.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/aya-cas/v1/gallery-09-1920.avif",
+        "webp": "assets/media/aya-cas/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/aya-cas/v1/gallery-09-1920.jpg"
+      }
+    }
   }
 }

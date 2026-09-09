@@ -125,7 +125,7 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
         }
         return false;
     }
-    if ($type === 'carousel' || $type === 'interlude' || $type === 'editorialBlock') {
+    if ($type === 'carousel' || $type === 'interlude' || $type === 'editorialBlock' || $type === 'verticalMoments') {
         foreach ($section['items'] ?? [] as $item) {
             if (!is_array($item)) {
                 continue;
@@ -355,6 +355,31 @@ foreach ($sections as $section): ?>
           <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--next" type="button" data-case-gallery-next aria-label="Próxima mídia"><?= site_icon('arrow-right', 'case-v3-icon') ?></button>
         </div>
       </section>
+    <?php elseif ($type === 'verticalMoments'): ?>
+      <?php
+        $verticalMoments = [];
+        foreach ($section['items'] ?? [] as $item) {
+            if (!is_array($item)) {
+                continue;
+            }
+            $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+            if ($video !== null) {
+                $verticalMoments[] = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação vertical')];
+            }
+        }
+        ?>
+      <?php if ($verticalMoments !== []): ?>
+        <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-vertical-moments" data-case-chapter="<?= escape($chapterId) ?>">
+          <div class="case-v3-vertical-moments__grid case-v3-shell" data-case-reveal="up">
+            <?php foreach ($verticalMoments as $moment): ?>
+              <figure class="case-v3-vertical-moments__item" data-case-vertical-moment tabindex="0" aria-label="<?= escape($moment['label']) ?>">
+                <?= $renderVideo($moment['video'], 'case-v3-vertical-moments__video', 'vertical-moment', $moment['label']) ?>
+                <figcaption><?= escape($moment['label']) ?></figcaption>
+              </figure>
+            <?php endforeach; ?>
+          </div>
+        </section>
+      <?php endif; ?>
     <?php elseif ($type === 'editorialBlock'): ?>
       <?php
         $editorialVideo = null;

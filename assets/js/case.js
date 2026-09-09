@@ -801,6 +801,80 @@
       });
   }
 
+  function initVerticalMomentSound() {
+    const hoverEnabled = window.matchMedia(
+      "(hover: hover) and (pointer: fine)",
+    );
+    document.querySelectorAll("[data-case-vertical-moment]").forEach((moment) => {
+      const video = moment.querySelector('[data-case-media-kind="vertical-moment"]');
+      if (!video) return;
+
+      const mute = () => {
+        video.muted = true;
+      };
+      const playMuted = () => {
+        media.load(video);
+        video.muted = true;
+        video.volume = 1;
+        const play = video.play();
+        if (play) play.catch(() => {});
+      };
+      const unmute = () => {
+        media.load(video);
+        const wasPlaying = !video.paused;
+        video.muted = false;
+        window.requestAnimationFrame(() => {
+          if (!wasPlaying || !video.paused) return;
+          const resume = video.play();
+          if (resume) {
+            resume.catch(() => {
+              video.muted = true;
+              const resumeMuted = video.play();
+              if (resumeMuted) resumeMuted.catch(() => {});
+            });
+          }
+        });
+      };
+
+      if (hoverEnabled.matches) {
+        moment.addEventListener("pointerenter", (event) => {
+          if (event.pointerType === "mouse") unmute();
+        });
+        moment.addEventListener("pointerleave", mute);
+        moment.addEventListener("focusin", unmute);
+        moment.addEventListener("focusout", mute);
+      } else {
+        moment.addEventListener("click", () => {
+          video.muted = !video.muted;
+        });
+      }
+      if (supportsObserver) {
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting && entry.intersectionRatio >= 0.35) {
+                playMuted();
+              } else if (!entry.isIntersecting || entry.intersectionRatio < 0.2) {
+                mute();
+                video.pause();
+              }
+            });
+          },
+          { threshold: [0, 0.2, 0.35, 0.6] },
+        );
+        observer.observe(moment);
+      } else {
+        playMuted();
+      }
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) {
+          mute();
+          video.pause();
+        }
+      });
+    });
+  }
+
   function initPlans() {
     document.querySelectorAll("[data-case-plans]").forEach((plans) => {
       const controls = Array.from(plans.querySelectorAll("[data-case-plan]"));
@@ -1119,6 +1193,7 @@
     initMomentsCarousels();
     initDragRails();
     initPillPlayback();
+    initVerticalMomentSound();
     initPlans();
     initChapterNavigation();
     initImageDialog();

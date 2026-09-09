@@ -626,9 +626,9 @@
         "es": "Alpes Catarina"
       },
       "location": {
-        "pt-BR": "",
-        "en": "",
-        "es": ""
+        "pt-BR": "Rancho Queimado, SC",
+        "en": "Rancho Queimado, SC, Brazil",
+        "es": "Rancho Queimado, SC, Brasil"
       },
       "media": {
         "gallery": [
@@ -672,8 +672,234 @@
         "info": {
           "client": "",
           "architect": "",
-          "year": ""
+          "year": "2025"
         }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "gt-lac",
+      "status": "published",
+      "order": 4,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 4,
+      "title": {
+        "pt-BR": "GT - La Cittá",
+        "en": "GT - La Cittá",
+        "es": "GT - La Cittá"
+      },
+      "location": {
+        "pt-BR": "Balneário Camboriú, SC",
+        "en": "Balneário Camboriú, SC, Brazil",
+        "es": "Balneário Camboriú, SC, Brasil"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg",
+          "width": 5000,
+          "height": 1667,
+          "alt": {
+            "pt-BR": "Vista aérea de GT - La Cittá",
+            "en": "Aerial view of GT - La Cittá",
+            "es": "Vista aérea de GT - La Cittá"
+          }
+        },
+        "animation": {
+          "manifest": "gt-lac",
+          "id": "animacao-gt-lac-tracking-0044"
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg",
+            "width": 5000,
+            "height": 2809
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg",
+            "width": 5000,
+            "height": 2809
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg",
+            "width": 7500,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg",
+            "width": 5000,
+            "height": 2814
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg",
+            "width": 5000,
+            "height": 2814
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-15-gt-lac-quadra-padel-ef.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-17-gt-lac-lounge-externo-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-18-gt-lac-espaco-gourmet-ef.jpg",
+            "width": 5000,
+            "height": 2814
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-19-gt-lac-quisque-externo-ef.jpg",
+            "width": 5000,
+            "height": 2814
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-20-gt-lac-piscina-infantil-ef.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-32-gt-lac-academia-angulo-1-ef.jpg",
+            "width": 5000,
+            "height": 3644
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-33-gt-lac-academia-angulo-2-ef.jpg",
+            "width": 5000,
+            "height": 2826
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-34-gt-lac-coworking-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-40-gt-lac-apartamento-tipo-final-02-living-area-gourmet-ef.jpg",
+            "width": 5000,
+            "height": 3760
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-41-gt-lac-apartamento-tipo-final-02-living-vista-mar-cristo-ef.jpg",
+            "width": 5000,
+            "height": 2084
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg",
+            "width": 5000,
+            "height": 2824
+          },
+          {
+            "src": "assets/projetos/gt-lac/imagens/imagem-47-gt-lac-apartamento-duplex-final-01-terraco-piscina-ef.jpg",
+            "width": 5000,
+            "height": 5000
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": { "pt-BR": "", "en": "", "es": "" },
+        "description": { "pt-BR": [], "en": [], "es": [] },
+        "info": {
+          "client": "GT Home",
+          "architect": "Pininfarina",
+          "year": "2025"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "aya-cas",
+      "status": "published",
+      "order": 5,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 5,
+      "title": { "pt-BR": "AYA Casas", "en": "AYA Casas", "es": "AYA Casas" },
+      "location": {
+        "pt-BR": "Praia do Estaleiro, SC",
+        "en": "Estaleiro Beach, SC",
+        "es": "Playa Estaleiro, SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/aya-cas/imagens/imagem-01-aya-cas-portaria-ef.jpg",
+          "width": 5000,
+          "height": 3799,
+          "alt": {
+            "pt-BR": "Portaria de AYA Casas",
+            "en": "AYA Casas entrance",
+            "es": "Acceso de AYA Casas"
+          }
+        },
+        "animation": { "manifest": "aya-cas", "id": "animacao-aya-est-rua" },
+        "gallery": [
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-03-aya-cas-fotomontagem-aerea-ef.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-05-aya-cas-casa-fundos-ef.jpg",
+            "width": 3536,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-06-aya-cas-living-angulo-1-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-09-aya-cas-suite-vista-arvores-ef.jpg",
+            "width": 5000,
+            "height": 3570
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-10-aya-cas-home-office-vista-mata-ef.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-fachada-garagem-ef.jpg",
+            "width": 5000,
+            "height": 3800
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-gourmet-p02-ef.jpg",
+            "width": 5000,
+            "height": 2942
+          },
+          {
+            "src": "assets/projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg",
+            "width": 5000,
+            "height": 2500
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": { "pt-BR": "", "en": "", "es": "" },
+        "description": { "pt-BR": [], "en": [], "es": [] },
+        "info": { "client": "AYA", "architect": "", "year": "2024" }
       },
       "mediaVersion": 1
     }

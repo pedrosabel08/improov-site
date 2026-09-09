@@ -37,5 +37,5 @@ $activePage = $route['active'];
 require APP_ROOT . '/partials/head.php';
 require APP_ROOT . '/partials/header.php';
 require APP_ROOT . '/pages/' . $pageKey . '.php';
-require APP_ROOT . '/partials/whatsapp.php';
+// require APP_ROOT . '/partials/whatsapp.php';
 require APP_ROOT . '/partials/footer.php';

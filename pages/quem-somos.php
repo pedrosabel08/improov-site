@@ -14,15 +14,16 @@
       <p data-i18n="about.manifestoP1">Somos uma empresa especializada em comunicação para o mercado imobiliário, criando imagens, filmes, animações e experiências visuais capazes de transformar projetos em desejo.</p>
       <p data-i18n="about.manifestoP2">Mais do que representar aquilo que ainda será construído, traduzimos a essência de cada empreendimento. Buscamos revelar sua identidade, sua atmosfera e a história que existe por trás da arquitetura.</p>
       <p data-i18n="about.manifestoP3">Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.</p>
+      <p data-i18n="about.manifestoP4">Cada detalhe é pensado para comunicar com verdade. Cada enquadramento, cada luz, cada movimento e cada narrativa existem para despertar sentimentos.</p>
     </div>
-    <div class="editorial-media"><?php $improovVideo = find_video('site', '2021-0608-omni-promo-v-01-assinatura-2'); ?><?php if ($improovVideo !== null): ?><?= lazy_video($improovVideo, 'editorial-media__video', false, ['aria-label' => 'Improov']) ?><?php else: ?><?= responsive_image('assets/BHE_INF_Piscina_EF.jpg', 'Arquitetura residencial em meio à paisagem', 1920, 1280, '', '(max-width: 767px) 100vw, 60vw') ?><?php endif; ?></div>
+    <div class="editorial-media"><?php $improovVideo = asset('assets/senna-tower.mp4'); ?><video class="editorial-media__video" width="1920" height="1080" muted loop playsinline preload="none" data-lazy-video data-video-src="<?= escape($improovVideo) ?>" aria-label="Improov"></video></div>
   </section>
   <section class="manifesto manifesto--reverse section container">
     <div class="editorial-copy">
 
-      <p data-i18n="about.heartmadeDetails">
+      <!-- <p data-i18n="about.heartmadeDetails">
         Cada detalhe é pensado para comunicar com verdade. Cada enquadramento, cada luz, cada movimento e cada narrativa existem para despertar sentimentos.
-      </p>
+      </p> -->
 
       <p id="pre-about-heartmade" data-i18n="about.heartmadeLead">
         Chamamos essa filosofia de

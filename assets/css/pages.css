@@ -406,7 +406,6 @@ h2.about-heartmade-title {
   display: block;
   grid-column: auto;
   grid-row: auto;
-  min-height: 590px;
 }
 .projects-page {
   padding-bottom: var(--section-space);

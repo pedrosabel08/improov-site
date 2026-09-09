@@ -84,6 +84,8 @@
         "Mais do que representar aquilo que ainda será construído, traduzimos a essência de cada empreendimento. Buscamos revelar sua identidade, sua atmosfera e a história que existe por trás da arquitetura.",
       "about.manifestoP3":
         "Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.",
+      "about.manifestoP4":
+        "Cada detalhe é pensado para comunicar com verdade. Cada enquadramento, cada luz, cada movimento e cada narrativa existem para despertar sentimentos.",
       "about.heartmadeIntro":
         "Nossa metodologia une direção criativa, arte, estratégia e tecnologia para desenvolver materiais que fortalecem marcas, encantam clientes e potencializam resultados comerciais.",
       "about.heartmadeDetails":
@@ -277,7 +279,7 @@
         "More than representing what has yet to be built, we translate the essence of each development. We seek to reveal its identity, atmosphere and the story behind its architecture.",
       "about.heartmadeIntro":
         "Our methodology combines creative direction, art, strategy and technology to develop materials that strengthen brands, delight clients and enhance commercial results.",
-      "about.heartmadeDetails":
+      "about.manifestoP3":
         "Every detail is designed to communicate truthfully. Every frame, light, movement and narrative exists to awaken feelings.",
       "about.heartmadeLead": "We call this philosophy",
       "about.heartmadeTitle": "Heartmade",
@@ -469,7 +471,7 @@
         "Más que representar aquello que aún será construido, traducimos la esencia de cada proyecto. Buscamos revelar su identidad, su atmósfera y la historia que existe detrás de la arquitectura.",
       "about.heartmadeIntro":
         "Nuestra metodología une dirección creativa, arte, estrategia y tecnología para desarrollar materiales que fortalecen marcas, encantan a clientes y potencian resultados comerciales.",
-      "about.heartmadeDetails":
+      "about.manifestoP3":
         "Cada detalle está pensado para comunicar con verdad. Cada encuadre, cada luz, cada movimiento y cada narrativa existen para despertar sentimientos.",
       "about.heartmadeLead": "Llamamos a esta filosofía",
       "about.heartmadeTitle": "Heartmade",
