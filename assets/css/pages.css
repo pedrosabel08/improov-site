@@ -905,7 +905,7 @@ h2.about-heartmade-title {
 }
 @media (max-width: 1023px) {
   .editorial-hero__inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     gap: 24px;
   }
   .editorial-hero__content {

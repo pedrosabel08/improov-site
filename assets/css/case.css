@@ -1852,16 +1852,27 @@
     gap: 29px 18px;
   }
   .case-v3-closing__heading {
-    padding-top: 80px;
+    padding-top: 40px;
   }
   .case-v3-next__media {
-    height: auto;
+    /* Wide artwork needs a taller canvas to keep the overlaid project name legible. */
+    aspect-ratio: 16 / 10;
+    height: 100%;
+    max-height: none;
     min-height: 0;
+  }
+  .case-v3-next__media picture,
+  .case-v3-next__image {
+    height: 100%;
+  }
+  .case-v3-next__image {
+    object-fit: cover;
+    object-position: center;
   }
   .case-v3-next__project {
     width: min(100%, calc(70vh * var(--case-next-ratio)));
     height: auto;
-    max-height: 70vh;
+    max-height: none;
   }
   .case-v3-next__copy {
     display: block;
