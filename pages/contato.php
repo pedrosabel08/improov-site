@@ -35,7 +35,7 @@
       <div class="info-panel">
         <h2 data-i18n="contact.direct">Fale direto conosco</h2>
         <p><strong>E-mail</strong><a href="mailto:<?= escape($site['email']) ?>"><?= escape($site['email']) ?></a></p>
-        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="tel:<?= escape($site['phone']) ?>"><?= escape($site['phoneDisplay']) ?></a></p>
+        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener"><?= escape($site['phoneDisplay']) ?></a></p>
         <p><strong>Instagram</strong><a href="<?= escape($site['social']['Instagram']) ?>" target="_blank" rel="noopener">@improovbr</a></p>
       </div>
       <div class="info-panel">

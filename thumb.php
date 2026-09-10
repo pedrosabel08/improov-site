@@ -1,6 +1,6 @@
 <?php
 // Gera uma versão JPEG redimensionada de uma imagem local e a mantém em cache.
-// Uso: /improov-site/thumb.php?path=assets/foto.jpg&w=900&q=78
+// Uso: /thumb.php?path=assets/foto.jpg&w=900&q=78
 
 ini_set('display_errors', '0');
 

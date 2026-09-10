@@ -1,6 +1,6 @@
 # Inventário de rotas
 
-Base atual: `/improov-site/`. As regras Apache estão em `.htaccess` e `Projetos/.htaccess`. O diretório físico legado possui regras próprias; por isso os redirects dos links reais também são definidos nele. A condição usa a capitalização original de `THE_REQUEST` para distinguir `/Projetos/` de `/projetos/` e evitar ciclos no Windows.
+Base pública atual: `/`. O código continua fisicamente em `improov-site/`. As regras Apache estão em `.htaccess` e `Projetos/.htaccess`. O diretório físico legado possui regras próprias; por isso os redirects dos links reais também são definidos nele. A condição usa a capitalização original de `THE_REQUEST` para distinguir `/Projetos/` de `/projetos/` e evitar ciclos no Windows.
 
 | URL antiga | URL atual | Ação |
 | --- | --- | --- |

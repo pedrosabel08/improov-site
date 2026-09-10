@@ -1,5 +1,5 @@
 (function () {
-  const DATA_URL = "/improov-site/assets/projetos/projetos.json";
+  const DATA_URL = "/assets/projetos/projetos.json";
 
   const projectHero = document.getElementById("projectHero");
   const heroTitle = document.getElementById("heroTitle");
@@ -34,8 +34,8 @@
   }
 
   function getSlugFromUrl() {
-    // Path-based: /improov-site/Projetos/slug
-    var pathMatch = window.location.pathname.match(/\/Projetos\/([^\/]+)\/?$/i);
+    // Path-based legacy or canonical project URLs.
+    var pathMatch = window.location.pathname.match(/\/(?:Projetos|projetos)\/([^\/]+)\/?$/i);
     if (pathMatch && pathMatch[1] && pathMatch[1] !== "index.html") {
       return pathMatch[1];
     }
@@ -224,7 +224,7 @@
     relatedProjects.innerHTML = related
       .map(
         (project) => `
-          <a class="galeria-item" href="/improov-site/Projetos/${project.slug}">
+          <a class="galeria-item" href="/projetos/${project.slug}">
             <img src="${window.ImproovMedia ? window.ImproovMedia.thumb(project.thumbnail || project.heroImage, 700, 78) : project.thumbnail || project.heroImage}" alt="${project.title}" loading="lazy" />
             <span class="project-name">${project.title}</span>
           </a>`,

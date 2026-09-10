@@ -1,7 +1,7 @@
 window.ImproovMedia = {
   thumb(src, width = 900, quality = 78) {
     if (!src || /^(data:|blob:|https?:\/\/)/i.test(src)) return src;
-    return `/improov-site/thumb.php?path=${encodeURIComponent(src)}&w=${width}&q=${quality}`;
+    return `/thumb.php?path=${encodeURIComponent(src)}&w=${width}&q=${quality}`;
   },
 };
 

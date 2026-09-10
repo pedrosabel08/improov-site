@@ -48,7 +48,7 @@
       "footer.rights": "Todos os direitos reservados.",
       "footer.privacy": "Política de Privacidade",
       "home.eyebrow": "Imagens que",
-      "home.title": "Fazemos sentir antes de existir",
+      "home.title": "Fazem sentir antes de existir",
       "home.intro":
         "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.",
       "home.action": "Conheça nosso trabalho",

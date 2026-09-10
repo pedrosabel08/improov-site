@@ -8,7 +8,7 @@
       <p class="footer-label" data-i18n="footer.navigation">Navegação</p><a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">Quem Somos</a><a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">Projetos</a><a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">Trabalhe Conosco</a><a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">Contato</a>
     </div>
     <div>
-      <p class="footer-label" data-i18n="footer.contact">Contato</p><a href="mailto:<?= escape($site['email']) ?>"><?= escape($site['email']) ?></a><a href="tel:<?= escape($site['phone']) ?>"><?= escape($site['phoneDisplay']) ?></a>
+      <p class="footer-label" data-i18n="footer.contact">Contato</p><a href="mailto:<?= escape($site['email']) ?>"><?= escape($site['email']) ?></a><a href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener"><?= escape($site['phoneDisplay']) ?></a>
       <p>Blumenau, SC — Brasil</p>
     </div>
     <div>

@@ -1,8 +1,8 @@
 window.ImproovConfig = Object.assign(
   {
-    baseUrl: "/improov-site",
-    applicationEndpoint: "/improov-site/api/candidatura.php",
-    contactEndpoint: "/improov-site/api/contacto.php",
+    baseUrl: "/",
+    applicationEndpoint: "/api/candidatura.php",
+    contactEndpoint: "/api/contacto.php",
   },
   window.ImproovConfig || {},
 );

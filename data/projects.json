@@ -9,14 +9,14 @@
       "homeOrder": 1,
       "needsEditorialReview": true,
       "title": {
-        "pt-BR": "ARS Vieiras",
-        "en": "ARS Vieiras",
-        "es": "ARS Vieiras"
+        "pt-BR": "Vieiras",
+        "en": "Vieiras",
+        "es": "Vieiras"
       },
       "location": {
-        "pt-BR": "Perequê, Porto Belo, SC",
-        "en": "Perequê, Porto Belo, Brazil",
-        "es": "Perequê, Porto Belo, Brasil"
+        "pt-BR": "Porto Belo - SC",
+        "en": "Porto Belo - SC",
+        "es": "Porto Belo - SC"
       },
       "media": {
         "hero": {
@@ -208,8 +208,8 @@
           "es": []
         },
         "info": {
-          "client": "ARS",
-          "architect": "OSA",
+          "client": "ARS Kammer Incorporadora",
+          "architect": "Vanessa Larré Arquitetura",
           "year": "2024"
         }
       },
@@ -223,14 +223,14 @@
       "showOnHome": true,
       "homeOrder": 2,
       "title": {
-        "pt-BR": "AYA Karioó",
-        "en": "AYA Karioó",
-        "es": "AYA Karioó"
+        "pt-BR": "Kariió",
+        "en": "Kariió",
+        "es": "Kariió"
       },
       "location": {
-        "pt-BR": "Praia do Estaleiro, SC",
-        "en": "Estaleiro Beach, SC",
-        "es": "Playa Estaleiro, SC"
+        "pt-BR": "Praia do Estaleiro - Balneário Camboriú - SC",
+        "en": "Praia do Estaleiro - Balneário Camboriú - SC",
+        "es": "Praia do Estaleiro - Balneário Camboriú - SC"
       },
       "media": {
         "hero": {
@@ -606,8 +606,8 @@
           ]
         },
         "info": {
-          "client": "AYA",
-          "architect": "OSA",
+          "client": "AYA Empreendimentos",
+          "architect": "OSA Osvaldo Segundo Arquitetos",
           "year": "2024"
         }
       },
@@ -621,14 +621,14 @@
       "showOnHome": true,
       "homeOrder": 3,
       "title": {
-        "pt-BR": "Alpes Catarina",
-        "en": "Alpes Catarina",
-        "es": "Alpes Catarina"
+        "pt-BR": "ALPES Catarina",
+        "en": "ALPES Catarina",
+        "es": "ALPES Catarina"
       },
       "location": {
-        "pt-BR": "Rancho Queimado, SC",
-        "en": "Rancho Queimado, SC, Brazil",
-        "es": "Rancho Queimado, SC, Brasil"
+        "pt-BR": "Rancho Queimado - SC",
+        "en": "Rancho Queimado - SC",
+        "es": "Rancho Queimado - SC"
       },
       "media": {
         "gallery": [
@@ -670,8 +670,8 @@
           "es": []
         },
         "info": {
-          "client": "",
-          "architect": "",
+          "client": "NOWA Empreendimentos",
+          "architect": "Ross Jermano",
           "year": "2025"
         }
       },
@@ -685,14 +685,14 @@
       "showOnHome": true,
       "homeOrder": 4,
       "title": {
-        "pt-BR": "GT - La Cittá",
-        "en": "GT - La Cittá",
-        "es": "GT - La Cittá"
+        "pt-BR": "La Città by Pininfarina",
+        "en": "La Città by Pininfarina",
+        "es": "La Città by Pininfarina"
       },
       "location": {
-        "pt-BR": "Balneário Camboriú, SC",
-        "en": "Balneário Camboriú, SC, Brazil",
-        "es": "Balneário Camboriú, SC, Brasil"
+        "pt-BR": "Balneário Camboriú - SC",
+        "en": "Balneário Camboriú - SC",
+        "es": "Balneário Camboriú - SC"
       },
       "media": {
         "hero": {
@@ -816,8 +816,8 @@
         "subtitle": { "pt-BR": "", "en": "", "es": "" },
         "description": { "pt-BR": [], "en": [], "es": [] },
         "info": {
-          "client": "GT Home",
-          "architect": "Pininfarina",
+          "client": "GT.HOME",
+          "architect": "Studio Pininfarina",
           "year": "2025"
         }
       },
@@ -832,9 +832,9 @@
       "homeOrder": 5,
       "title": { "pt-BR": "AYA Casas", "en": "AYA Casas", "es": "AYA Casas" },
       "location": {
-        "pt-BR": "Praia do Estaleiro, SC",
-        "en": "Estaleiro Beach, SC",
-        "es": "Playa Estaleiro, SC"
+        "pt-BR": "Praia do Estaleiro - Balneário Camboriú - SC",
+        "en": "Praia do Estaleiro - Balneário Camboriú - SC",
+        "es": "Praia do Estaleiro - Balneário Camboriú - SC"
       },
       "media": {
         "hero": {
@@ -899,7 +899,7 @@
       "detail": {
         "subtitle": { "pt-BR": "", "en": "", "es": "" },
         "description": { "pt-BR": [], "en": [], "es": [] },
-        "info": { "client": "AYA", "architect": "", "year": "2024" }
+        "info": { "client": "AYA Empreendimentos", "architect": "Luciano Kruk arquitectos", "year": "2024" }
       },
       "mediaVersion": 1
     }

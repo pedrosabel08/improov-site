@@ -34,7 +34,7 @@ function env(string $key, string $default = ''): string
 }
 
 define('APP_ROOT', dirname(__DIR__));
-define('APP_BASE_URL', '/' . trim(env('APP_BASE_URL', '/improov-site'), '/'));
+define('APP_BASE_URL', '/' . trim(env('APP_BASE_URL', '/'), '/'));
 define('APP_ORIGIN', rtrim(env('APP_ORIGIN', 'https://improov.com.br'), '/'));
 
 function base_url(string $path = ''): string
@@ -79,6 +79,10 @@ function asset(string $path): string
     if ($basePath !== '' && ($relativePath === $basePath || str_starts_with($relativePath, $basePath . '/'))) {
         $relativePath = ltrim(substr($relativePath, strlen($basePath)), '/');
     }
+    $physicalPath = trim(basename(APP_ROOT), '/');
+    if ($physicalPath !== '' && ($relativePath === $physicalPath || str_starts_with($relativePath, $physicalPath . '/'))) {
+        $relativePath = ltrim(substr($relativePath, strlen($physicalPath)), '/');
+    }
 
     if ($relativePath === '' || str_contains($relativePath, '..')) {
         return $path;
@@ -118,6 +122,10 @@ function asset_mtime(string $path): ?int
     $basePath = trim(APP_BASE_URL, '/');
     if ($basePath !== '' && ($relativePath === $basePath || str_starts_with($relativePath, $basePath . '/'))) {
         $relativePath = ltrim(substr($relativePath, strlen($basePath)), '/');
+    }
+    $physicalPath = trim(basename(APP_ROOT), '/');
+    if ($physicalPath !== '' && ($relativePath === $physicalPath || str_starts_with($relativePath, $physicalPath . '/'))) {
+        $relativePath = ltrim(substr($relativePath, strlen($physicalPath)), '/');
     }
     if ($relativePath === '' || str_contains($relativePath, '..')) {
         return null;

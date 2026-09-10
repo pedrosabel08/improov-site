@@ -307,14 +307,14 @@
           "type": "carousel",
           "id": "apartamentos",
           "label": {
-            "pt-BR": "Imagens de apartamento",
-            "en": "Apartment images",
-            "es": "Imágenes de apartamentos"
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
           },
           "title": {
-            "pt-BR": "Imagens de apartamento",
-            "en": "Apartment images",
-            "es": "Imágenes de apartamentos"
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
           },
           "items": [
             {
@@ -675,67 +675,26 @@
         }
       ],
       "credits": {
-        "eyebrow": {
-          "pt-BR": "Créditos",
-          "en": "Credits",
-          "es": "Créditos"
-        },
         "items": [
           {
-            "label": {
-              "pt-BR": "Projeto",
-              "en": "Project",
-              "es": "Proyecto"
-            },
-            "value": "ARS Vieiras"
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "Vieiras"
           },
           {
-            "label": {
-              "pt-BR": "Cliente",
-              "en": "Client",
-              "es": "Cliente"
-            },
-            "value": "ARS"
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "ARS Kammer Incorporadora"
           },
           {
-            "label": {
-              "pt-BR": "Arquitetura",
-              "en": "Architecture",
-              "es": "Arquitectura"
-            },
-            "value": "OSA"
+            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "value": "Porto Belo - SC"
           },
           {
-            "label": {
-              "pt-BR": "Direção criativa",
-              "en": "Creative direction",
-              "es": "Dirección creativa"
-            },
-            "value": "Improov"
+            "label": { "pt-BR": "Arquitetura e Interiores", "en": "Architecture and Interiors", "es": "Arquitectura e Interiores" },
+            "value": "Vanessa Larré Arquitetura"
           },
           {
-            "label": {
-              "pt-BR": "Imagens 3D",
-              "en": "3D Images",
-              "es": "Imágenes 3D"
-            },
-            "value": "Improov"
-          },
-          {
-            "label": {
-              "pt-BR": "Filmes",
-              "en": "Films",
-              "es": "Películas"
-            },
-            "value": "Improov"
-          },
-          {
-            "label": {
-              "pt-BR": "Ano",
-              "en": "Year",
-              "es": "Año"
-            },
-            "value": "2024"
+            "label": { "pt-BR": "Paisagismo", "en": "Landscape Architecture", "es": "Paisajismo" },
+            "value": "Grupo Le Nôtre"
           }
         ]
       },
@@ -1493,40 +1452,28 @@
       "credits": {
         "items": [
           {
-            "label": {
-              "pt-BR": "Projeto",
-              "en": "Project",
-              "es": "Proyecto"
-            },
-            "value": {
-              "pt-BR": "AYA Karioó",
-              "en": "AYA Karioó",
-              "es": "AYA Karioó"
-            }
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "Kariió"
           },
           {
-            "label": {
-              "pt-BR": "Cliente",
-              "en": "Client",
-              "es": "Cliente"
-            },
-            "value": "AYA"
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "AYA Empreendimentos"
           },
           {
-            "label": {
-              "pt-BR": "Arquitetura",
-              "en": "Architecture",
-              "es": "Arquitectura"
-            },
-            "value": "OSA"
+            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "value": "Praia do Estaleiro - Balneário Camboriú - SC"
           },
           {
-            "label": {
-              "pt-BR": "Ano",
-              "en": "Year",
-              "es": "Año"
-            },
-            "value": "2024"
+            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "value": "OSA Osvaldo Segundo Arquitetos"
+          },
+          {
+            "label": { "pt-BR": "Interiores", "en": "Interiors", "es": "Interiores" },
+            "value": "OSA Osvaldo Segundo Arquitetos"
+          },
+          {
+            "label": { "pt-BR": "Paisagismo", "en": "Landscape Architecture", "es": "Paisajismo" },
+            "value": "Escritório Burle Marx"
           }
         ]
       },
@@ -1586,19 +1533,19 @@
                   "layout": "composition-a",
                   "items": [
                     {
-                      "src": "assets/projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg",
-                      "label": {
-                        "pt-BR": "Fotomontagem 1",
-                        "en": "Photomontage 1",
-                        "es": "Fotomontaje 1"
-                      }
-                    },
-                    {
                       "src": "assets/projetos/alp-sc/imagens/imagem-2-alp-sc-fotomontagem-2-r00-3-1.jpg",
                       "label": {
                         "pt-BR": "Fotomontagem 2",
                         "en": "Photomontage 2",
                         "es": "Fotomontaje 2"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/alp-sc/imagens/imagem-1-alp-sc-fotomontagem-1-r00-2-1.jpg",
+                      "label": {
+                        "pt-BR": "Fotomontagem 1",
+                        "en": "Photomontage 1",
+                        "es": "Fotomontaje 1"
                       }
                     },
                     {
@@ -1652,36 +1599,20 @@
       "credits": {
         "items": [
           {
-            "label": {
-              "pt-BR": "Projeto",
-              "en": "Project",
-              "es": "Proyecto"
-            },
-            "value": {
-              "pt-BR": "Alpes Catarina",
-              "en": "Alpes Catarina",
-              "es": "Alpes Catarina"
-            }
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "ALPES Catarina"
           },
           {
-            "label": {
-              "pt-BR": "Localização",
-              "en": "Location",
-              "es": "Ubicación"
-            },
-            "value": {
-              "pt-BR": "Rancho Queimado, SC",
-              "en": "Rancho Queimado, SC, Brazil",
-              "es": "Rancho Queimado, SC, Brasil"
-            }
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "NOWA Empreendimentos"
           },
           {
-            "label": {
-              "pt-BR": "Ano",
-              "en": "Year",
-              "es": "Año"
-            },
-            "value": "2025"
+            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "value": "Rancho Queimado - SC"
+          },
+          {
+            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "value": "Ross Jermano"
           }
         ]
       },
@@ -1965,11 +1896,11 @@
         "items": [
           {
             "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
-            "value": "GT - La Cittá"
+            "value": "La Città by Pininfarina"
           },
           {
             "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
-            "value": "GT Home"
+            "value": "GT.HOME"
           },
           {
             "label": {
@@ -1977,7 +1908,7 @@
               "en": "Architecture",
               "es": "Arquitectura"
             },
-            "value": "Pininfarina"
+            "value": "Studio Pininfarina"
           },
           {
             "label": {
@@ -1985,15 +1916,7 @@
               "en": "Location",
               "es": "Ubicación"
             },
-            "value": {
-              "pt-BR": "Balneário Camboriú, SC",
-              "en": "Balneário Camboriú, SC, Brazil",
-              "es": "Balneário Camboriú, SC, Brasil"
-            }
-          },
-          {
-            "label": { "pt-BR": "Ano", "en": "Year", "es": "Año" },
-            "value": "2025"
+            "value": "Balneário Camboriú - SC"
           }
         ]
       },
@@ -2254,7 +2177,7 @@
           },
           {
             "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
-            "value": "AYA"
+            "value": "AYA Empreendimentos"
           },
           {
             "label": {
@@ -2262,15 +2185,11 @@
               "en": "Location",
               "es": "Ubicación"
             },
-            "value": {
-              "pt-BR": "Praia do Estaleiro, SC",
-              "en": "Estaleiro Beach, SC",
-              "es": "Playa Estaleiro, SC"
-            }
+            "value": "Praia do Estaleiro - Balneário Camboriú - SC"
           },
           {
-            "label": { "pt-BR": "Ano", "en": "Year", "es": "Año" },
-            "value": "2024"
+            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "value": "Luciano Kruk arquitectos"
           }
         ]
       },

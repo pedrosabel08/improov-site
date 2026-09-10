@@ -410,6 +410,23 @@ h2.about-heartmade-title {
 .projects-page {
   padding-bottom: var(--section-space);
 }
+.projects-page--catalog {
+  padding-top: calc(var(--header-height) + 52px);
+}
+.project-grid--catalog {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-flow: row;
+}
+.project-grid--catalog .project-card,
+.project-grid--catalog .project-card--featured,
+.project-grid--catalog .project-card--portrait,
+.project-grid--catalog .project-card--wide,
+.project-grid--catalog .project-card--landscape {
+  grid-column: auto;
+  grid-row: auto;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
+}
 .project-detail-hero {
   position: relative;
   height: min(82svh, 900px);
@@ -1146,6 +1163,16 @@ h2.about-heartmade-title {
   .projects-lead__card .project-card {
     min-height: 0;
     aspect-ratio: 4/3;
+  }
+  .projects-page--catalog {
+    padding-top: calc(var(--header-height) + 32px);
+  }
+  .project-grid--catalog .project-card,
+  .project-grid--catalog .project-card--featured,
+  .project-grid--catalog .project-card--portrait,
+  .project-grid--catalog .project-card--wide,
+  .project-grid--catalog .project-card--landscape {
+    aspect-ratio: 16 / 9;
   }
 }
 

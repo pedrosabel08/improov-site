@@ -1,4 +1,4 @@
-const DATA_URL = "/improov-site/assets/projetos/projetos.json";
+const DATA_URL = "/assets/projetos/projetos.json";
 
 function normalizeProjects(data) {
   if (Array.isArray(data)) return data;
@@ -38,7 +38,7 @@ function displayProjects(projetos) {
     const projectDiv = document.createElement("div");
     projectDiv.classList.add("project");
     projectDiv.onclick = () => {
-      window.location.href = `/improov-site/Projetos/${slug}`;
+      window.location.href = `/projetos/${slug}`;
     };
 
     projectDiv.innerHTML = `

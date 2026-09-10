@@ -9,6 +9,13 @@ function resolve_route(string $requestUri): array
     if ($base !== '' && str_starts_with($path, $base)) {
         $path = substr($path, strlen($base));
     }
+    // The public root may be internally rewritten to the physical project
+    // directory before PHP receives the request. Do not expose that prefix in
+    // generated URLs, but accept it while resolving the route.
+    $physicalPrefix = '/' . trim(basename(APP_ROOT), '/');
+    if ($physicalPrefix !== '/' && ($path === $physicalPrefix || str_starts_with($path, $physicalPrefix . '/'))) {
+        $path = substr($path, strlen($physicalPrefix));
+    }
     $path = trim($path, '/');
     $normalized = strtolower($path);
 

@@ -1,18 +1,20 @@
 Options -MultiViews -Indexes
 RewriteEngine On
-RewriteBase /improov-site/Projetos/
 
 # This directory owns its rewrite rules; keep real legacy links before the router.
-RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/index\.html(?:[?\s])
-RewriteRule ^index\.html$ /improov-site/projetos/ [R=301,L,NC]
-RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/(aya-kar|ars-vie)/?(?:[?\s])
-RewriteRule ^(aya-kar|ars-vie)/?$ /improov-site/projetos/$1 [R=301,L,NE,NC]
-RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/detalhes\.html\?
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/index\.html(?:[?\s]) [NC]
+RewriteRule ^index\.html$ /projetos [R=301,L,NC]
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/(aya-kar|ars-vie)/?(?:[?\s]) [NC]
+RewriteRule ^(aya-kar|ars-vie)/?$ /projetos/$1 [R=301,L,NE,NC]
+RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/detalhes\.html\? [NC]
 RewriteCond %{QUERY_STRING} (?:^|&)id=(aya-kar|ars-vie)(?:&|$) [NC]
-RewriteRule ^detalhes\.html$ /improov-site/projetos/%1? [R=301,L,NE,NC]
+RewriteRule ^detalhes\.html$ /projetos/%1? [R=301,L,NE,NC]
 
 # The physical legacy directory must not win over the new /projetos route.
-# An empty path here represents /improov-site/projetos/ after DirectorySlash.
+# An empty path here represents the physical legacy directory after DirectorySlash.
 RewriteRule ^$ ../index.php [L]
 
 # Keep direct access to legacy files only while the archive is still present.

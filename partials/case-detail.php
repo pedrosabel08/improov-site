@@ -264,6 +264,7 @@ if ($heroFooter === '') {
         <?php if ($heroFooter !== ''): ?><p><?= escape($heroFooter) ?></p><?php endif; ?>
         <a href="#<?= escape($firstSectionId) ?>" aria-label="Ir para a próxima seção do case"><?= site_icon('arrow-down', 'case-v3-icon') ?></a>
       </div>
+      </div>
     </div>
   </section>
 

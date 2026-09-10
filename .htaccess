@@ -3,23 +3,42 @@ DirectoryIndex index.php
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /improov-site/
 
+  # Canonicalize the old public folder without changing the physical deploy path.
+  # GET/HEAD are redirected; POST endpoints remain compatible with old clients.
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
   RewriteCond %{THE_REQUEST} \s/+improov-site/index\.html(?:[?\s]) [NC]
-  RewriteRule ^index\.html$ ./ [R=301,L]
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
   RewriteCond %{THE_REQUEST} \s/+improov-site/privacidade\.html(?:[?\s]) [NC]
-  RewriteRule ^privacidade\.html$ privacidade [R=301,L]
-  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/index\.html(?:[?\s])
-  RewriteRule ^Projetos/index\.html$ projetos [R=301,L,NC]
+  RewriteRule ^privacidade\.html$ /privacidade [R=301,L]
 
-  # Confirmed legacy project URLs only.
+  # Preserve the known legacy project URLs, including direct /Projetos/... links.
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/index\.html(?:[?\s]) [NC]
+  RewriteRule ^Projetos/index\.html$ /projetos [R=301,L,NC]
+
   # THE_REQUEST retains the legacy uppercase P; Windows may normalize the rule path.
-  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/(aya-kar|ars-vie)/?(?:[?\s])
-  RewriteRule ^Projetos/(aya-kar|ars-vie)/?$ projetos/$1 [R=301,L,NE,NC]
-  RewriteCond %{THE_REQUEST} \s/+improov-site/Projetos/detalhes\.html\?
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/(aya-kar|ars-vie)/?(?:[?\s])
+  RewriteRule ^Projetos/(aya-kar|ars-vie)/?$ /projetos/$1 [R=301,L,NE]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/detalhes\.html\? [NC]
   RewriteCond %{QUERY_STRING} (?:^|&)id=(aya-kar|ars-vie)(?:&|$) [NC]
-  RewriteRule ^Projetos/detalhes\.html$ projetos/%1? [R=301,L,NE,NC]
-  RewriteRule ^(aya-kar|ars-vie)/?$ projetos/$1 [R=301,L,NE]
+  RewriteRule ^Projetos/detalhes\.html$ /projetos/%1? [R=301,L,NE,NC]
+
+  # Any other direct request to the physical legacy directory gets the public route.
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+Projetos/([^?\s]+) [NC]
+  RewriteRule ^Projetos/(.+)$ /projetos/$1 [R=301,L,NE,NC]
+
+  # Legacy URLs under /improov-site/ are aliases only; never serve duplicate pages.
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+improov-site/?(?:[?\s]) [NC]
+  RewriteRule ^$ / [R=301,L]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s/+improov-site/([^?\s]*) [NC]
+  RewriteRule ^ /%1 [R=301,L,NE]
 
   # New routes precede the physical Projetos directory on case-insensitive systems.
   RewriteRule ^(?:quem-somos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|privacidade)/?$ index.php [END,QSA,NC]

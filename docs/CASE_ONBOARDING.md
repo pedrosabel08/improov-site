@@ -251,7 +251,7 @@ Servidor opcional de preview, se não houver Apache ativo:
 & 'C:\xampp\php\php.exe' -S 127.0.0.1:8080 -t C:\xampp\htdocs C:\xampp\htdocs\improov-site\deploy\dev-router.php
 ```
 
-Abra `http://127.0.0.1:8080/improov-site/projetos`. O roteador de desenvolvimento não testa redirects de `.htaccess`; estes precisam ser conferidos no Apache.
+Abra `http://127.0.0.1:8080/projetos`. O roteador de desenvolvimento não testa redirects de `.htaccess`; estes precisam ser conferidos no Apache.
 
 ### Checklist final
 
