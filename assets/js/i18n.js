@@ -243,7 +243,7 @@
       "footer.rights": "All rights reserved.",
       "footer.privacy": "Privacy Policy",
       "home.eyebrow": "Images that",
-      "home.title": "transform projects",
+      "home.title": "Make you feel before they exist",
       "home.intro":
         "We create architectural images and visual experiences that connect people to architecture and the future.",
       "home.action": "Discover our work",
@@ -434,7 +434,7 @@
       "footer.rights": "Todos los derechos reservados.",
       "footer.privacy": "Política de Privacidad",
       "home.eyebrow": "Imágenes que",
-      "home.title": "transforman proyectos",
+      "home.title": "Hacen sentir antes de existir",
       "home.intro":
         "Creamos imágenes arquitectónicas y experiencias visuales que conectan personas con la arquitectura y el futuro.",
       "home.action": "Conoce nuestro trabajo",
