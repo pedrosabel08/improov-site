@@ -4,15 +4,35 @@ DirectoryIndex index.php
 <IfModule mod_rewrite.c>
   RewriteEngine On
 
-  # Canonicalize the old public folder without changing the physical deploy path.
-  # GET/HEAD are redirected; POST endpoints remain compatible with old clients.
+  # Production canonical URL: HTTPS without www. Local hosts are intentionally
+  # excluded so XAMPP and the PHP development server remain usable over HTTP.
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?improov\.com\.br$ [NC]
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} !^improov\.com\.br$ [NC]
+  RewriteRule ^ https://improov.com.br%{REQUEST_URI} [R=308,L,NE]
+
+  # Retire static legacy entry points before Apache can serve their files.
+  # Query strings are preserved by the redirect substitutions below.
   RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
-  RewriteCond %{THE_REQUEST} \s/+improov-site/index\.html(?:[?\s]) [NC]
+  RewriteCond %{THE_REQUEST} \s+/(?:improov-site/)?index\.html(?:[?\s]) [NC]
   RewriteRule ^index\.html$ / [R=301,L]
   RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
-  RewriteCond %{THE_REQUEST} \s/+improov-site/privacidade\.html(?:[?\s]) [NC]
+  RewriteCond %{THE_REQUEST} \s+/(?:improov-site/)?privacidade\.html(?:[?\s]) [NC]
   RewriteRule ^privacidade\.html$ /privacidade [R=301,L]
 
+  # The language roots use a trailing slash. All other public routes do not.
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s+/en(?:[?\s]) [NC]
+  RewriteRule ^en$ /en/ [R=301,L,NE,NC]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s+/es(?:[?\s]) [NC]
+  RewriteRule ^es$ /es/ [R=301,L,NE,NC]
+  RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
+  RewriteCond %{THE_REQUEST} \s+/(?:en/|es/)?(?:quem-somos|projetos(?:/[a-z0-9-]+)?|trabalhe-conosco|contato|privacidade)/+(?:[?\s]) [NC]
+  RewriteRule ^(.+)/$ /$1 [R=301,L,NE]
+
+  # Canonicalize the old public folder without changing the physical deploy path.
+  # GET/HEAD are redirected; POST endpoints remain compatible with old clients.
   # Preserve the known legacy project URLs, including direct /Projetos/... links.
   RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
   RewriteCond %{THE_REQUEST} \s/+((?:improov-site/)?)Projetos/index\.html(?:[?\s]) [NC]
@@ -41,7 +61,7 @@ DirectoryIndex index.php
   RewriteRule ^ /%1 [R=301,L,NE]
 
   # New routes precede the physical Projetos directory on case-insensitive systems.
-  RewriteRule ^(?:quem-somos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|privacidade)/?$ index.php [END,QSA,NC]
+  RewriteRule ^(?:(?:en|es)/?)?(?:quem-somos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|privacidade)?/?$ index.php [END,QSA,NC]
 
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d

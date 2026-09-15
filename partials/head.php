@@ -6,15 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= escape($meta['title']) ?></title>
   <meta name="description" content="<?= escape($meta['description']) ?>">
-  <link rel="canonical" href="<?= escape(canonical_url($meta['path'])) ?>">
+  <?php $isNotFound = $pageKey === '404'; ?>
+  <?php if ($isNotFound): ?>
+    <meta name="robots" content="noindex, follow">
+  <?php else: ?>
+    <link rel="canonical" href="<?= escape(canonical_url($meta['path'])) ?>">
+    <?php foreach (['pt-BR' => 'pt-BR', 'en' => 'en', 'es' => 'es'] as $alternateLanguage => $hreflang): ?>
+      <link rel="alternate" hreflang="<?= escape($hreflang) ?>" href="<?= escape(canonical_url($meta['path'], $alternateLanguage)) ?>">
+    <?php endforeach; ?>
+    <link rel="alternate" hreflang="x-default" href="<?= escape(canonical_url($meta['path'], 'pt-BR')) ?>">
+  <?php endif; ?>
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Improov">
   <meta property="og:title" content="<?= escape($meta['title']) ?>">
   <meta property="og:description" content="<?= escape($meta['description']) ?>">
-  <meta property="og:url" content="<?= escape(canonical_url($meta['path'])) ?>">
+  <?php if (!$isNotFound): ?><meta property="og:url" content="<?= escape(canonical_url($meta['path'])) ?>"><?php endif; ?>
   <?php $metaImage = str_starts_with($meta['image'], 'assets/') ? $meta['image'] : 'assets/' . $meta['image']; ?>
   <?php $metaDerived = media_image_path($metaImage, 1440); ?>
-  <meta property="og:image" content="<?= escape(canonical_url($metaDerived ?? ('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82'))) ?>">
+  <meta property="og:image" content="<?= escape(APP_ORIGIN . asset($metaDerived ?? ('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82'))) ?>">
   <?php if (!in_array($pageKey, ['home', 'quem-somos', 'contato', 'privacidade', '404'], true)): ?>
     <link rel="preload" as="image" href="<?= escape(thumbnail_url($metaImage, 1440, 82)) ?>" fetchpriority="high"><?php endif; ?>
   <meta name="theme-color" content="#ffffff">
@@ -32,7 +41,7 @@
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
   </script>
   <script type="application/ld+json">
-    <?= json_encode(['@context' => 'https://schema.org', '@type' => 'Organization', 'name' => 'Improov', 'url' => canonical_url(), 'email' => $site['email'], 'telephone' => $site['phoneDisplay'], 'address' => ['@type' => 'PostalAddress', 'addressLocality' => 'Blumenau', 'addressRegion' => 'SC', 'addressCountry' => 'BR'], 'sameAs' => array_values($site['social'])], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
+    <?= json_encode(['@context' => 'https://schema.org', '@type' => 'Organization', 'name' => 'Improov', 'url' => canonical_url('', 'pt-BR'), 'email' => $site['email'], 'telephone' => $site['phoneDisplay'], 'address' => ['@type' => 'PostalAddress', 'addressLocality' => 'Blumenau', 'addressRegion' => 'SC', 'addressCountry' => 'BR'], 'sameAs' => array_values($site['social'])], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
   </script>
   <?php if ($project !== null): ?><script type="application/ld+json">
       <?= json_encode(['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [['@type' => 'ListItem', 'position' => 1, 'name' => 'Projetos', 'item' => canonical_url('projetos')], ['@type' => 'ListItem', 'position' => 2, 'name' => translated($project['title']), 'item' => canonical_url('projetos/' . $project['slug'])]]], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>

@@ -17,6 +17,11 @@ function resolve_route(string $requestUri): array
         $path = substr($path, strlen($physicalPrefix));
     }
     $path = trim($path, '/');
+    $language = 'pt-BR';
+    if (preg_match('#^(en|es)(?:/(.*))?$#i', $path, $matches)) {
+        $language = strtolower($matches[1]);
+        $path = trim((string) ($matches[2] ?? ''), '/');
+    }
     $normalized = strtolower($path);
 
     $static = [
@@ -28,10 +33,10 @@ function resolve_route(string $requestUri): array
         'privacidade' => ['page' => 'privacidade', 'active' => 'privacidade'],
     ];
     if (isset($static[$normalized])) {
-        return $static[$normalized] + ['status' => 200];
+        return $static[$normalized] + ['status' => 200, 'language' => $language];
     }
     if (preg_match('#^projetos/([a-z0-9-]+)$#', $normalized, $matches)) {
-        return ['page' => 'project-detail', 'active' => 'projetos', 'slug' => $matches[1], 'status' => 200];
+        return ['page' => 'project-detail', 'active' => 'projetos', 'slug' => $matches[1], 'status' => 200, 'language' => $language];
     }
-    return ['page' => '404', 'active' => '', 'status' => 404];
+    return ['page' => '404', 'active' => '', 'status' => 404, 'language' => $language];
 }

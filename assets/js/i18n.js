@@ -138,7 +138,9 @@
       "contact.formTitle": "Envie sua mensagem",
       "contact.formIntro": "Preencha os campos e retornaremos em breve.",
       "contact.company": "Empresa",
+      "contact.phoneOptional": "Telefone / WhatsApp (opcional)",
       "contact.interest": "Tipo de projeto / interesse",
+      "contact.interestOptional": "Tipo de projeto / interesse (opcional)",
       "contact.development": "Nome do empreendimento",
       "contact.message": "Como podemos ajudar?",
       "contact.attachment": "Anexo opcional",
@@ -165,7 +167,7 @@
       "form.experience": "Conte um pouco sobre você e sua experiência",
       "form.sendApplication": "Enviar candidatura",
       "form.sending": "Enviando...",
-      "form.success": "Recebemos suas informações. Obrigado!",
+      "form.success": "Recebemos sua mensagem e ela foi registrada para atendimento.",
       "form.validation": "Revise os campos destacados.",
       "form.fileSize": "O arquivo excede o limite permitido.",
       "form.error":
@@ -330,7 +332,9 @@
       "contact.formIntro":
         "Fill in the fields and we will get back to you soon.",
       "contact.company": "Company",
+      "contact.phoneOptional": "Phone / WhatsApp (optional)",
       "contact.interest": "Project type / interest",
+      "contact.interestOptional": "Project type / interest (optional)",
       "contact.development": "Development name",
       "contact.message": "How can we help?",
       "contact.attachment": "Optional attachment",
@@ -357,7 +361,7 @@
       "form.experience": "Tell us about yourself and your experience",
       "form.sendApplication": "Send application",
       "form.sending": "Sending...",
-      "form.success": "We received your information. Thank you!",
+      "form.success": "We received your message and registered it for service.",
       "form.validation": "Please review the highlighted fields.",
       "form.fileSize": "The file exceeds the allowed size.",
       "form.error": "We could not send it now. Please try again shortly.",
@@ -521,7 +525,9 @@
       "contact.formTitle": "Envía tu mensaje",
       "contact.formIntro": "Completa los campos y responderemos pronto.",
       "contact.company": "Empresa",
+      "contact.phoneOptional": "Teléfono / WhatsApp (opcional)",
       "contact.interest": "Tipo de proyecto / interés",
+      "contact.interestOptional": "Tipo de proyecto / interés (opcional)",
       "contact.development": "Nombre del emprendimiento",
       "contact.message": "¿Cómo podemos ayudar?",
       "contact.attachment": "Adjunto opcional",
@@ -548,7 +554,7 @@
       "form.experience": "Cuéntanos sobre ti y tu experiencia",
       "form.sendApplication": "Enviar candidatura",
       "form.sending": "Enviando...",
-      "form.success": "Recibimos tu información. ¡Gracias!",
+      "form.success": "Recibimos tu mensaje y lo registramos para atención.",
       "form.validation": "Revisa los campos destacados.",
       "form.fileSize": "El archivo supera el límite permitido.",
       "form.error":
@@ -584,6 +590,8 @@
   };
 
   function getLanguage() {
+    const documentLanguage = document.documentElement.lang;
+    if (supported.includes(documentLanguage)) return documentLanguage;
     const saved = localStorage.getItem(STORAGE_KEY);
     return supported.includes(saved) ? saved : "pt-BR";
   }
@@ -616,12 +624,13 @@
     });
     document
       .querySelectorAll("[data-language]")
-      .forEach((button) =>
-        button.setAttribute(
-          "aria-pressed",
-          String(button.dataset.language === lang),
-        ),
-      );
+      .forEach((control) => {
+        if (control.tagName === "A") {
+          control.setAttribute("aria-current", String(control.dataset.language === lang));
+        } else {
+          control.setAttribute("aria-pressed", String(control.dataset.language === lang));
+        }
+      });
     document.querySelectorAll("[data-language-input]").forEach((input) => {
       input.value = lang;
     });
@@ -639,7 +648,7 @@
       .querySelectorAll("[data-language]")
       .forEach((button) =>
         button.addEventListener("click", () =>
-          applyLanguage(button.dataset.language, true),
+          applyLanguage(button.dataset.language, button.tagName !== "A"),
         ),
       );
     applyLanguage(getLanguage());

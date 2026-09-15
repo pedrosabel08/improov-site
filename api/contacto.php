@@ -7,7 +7,7 @@ require_once __DIR__ . '/lib/upload.php';
 require_once __DIR__ . '/lib/rate-limit.php';
 
 require_post_request();
-$data = validate_fields(['nome' => [160, true], 'empresa' => [160, false], 'email' => [254, true], 'telefone' => [40, true], 'cidade_uf' => [120, false], 'tipo_interesse' => [160, true], 'empreendimento' => [200, false], 'mensagem' => [3000, true], 'idioma' => [10, true]]);
+$data = validate_fields(['nome' => [160, true], 'empresa' => [160, false], 'email' => [254, true], 'telefone' => [40, false], 'cidade_uf' => [120, false], 'tipo_interesse' => [160, false], 'empreendimento' => [200, false], 'mensagem' => [3000, true], 'idioma' => [10, true], 'utm_atribuicao' => [3000, false]]);
 if (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) json_response(422, ['success' => false, 'message' => 'Informe um e-mail válido.']);
 if (post_text('lgpd') !== 'Aceito') json_response(422, ['success' => false, 'message' => 'É necessário aceitar a política de privacidade.']);
 
@@ -25,9 +25,9 @@ try {
     $attachmentName = $upload['originalName'] ?? '';
     $attachmentMime = $upload['mime'] ?? '';
     $attachmentSize = $upload['size'] ?? 0;
-    $statement = $db->prepare('INSERT INTO contatos (nome,empresa,email,telefone,cidade_uf,tipo_interesse,empreendimento,mensagem,anexo_url,anexo_nome,anexo_mime,anexo_tamanho,idioma,lgpd_aceito,lgpd_aceito_em,status,email_status) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,?)');
+    $statement = $db->prepare('INSERT INTO contatos (nome,empresa,email,telefone,cidade_uf,tipo_interesse,empreendimento,mensagem,anexo_url,anexo_nome,anexo_mime,anexo_tamanho,idioma,utm_atribuicao,lgpd_aceito,lgpd_aceito_em,status,email_status) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,?)');
     if (!$statement) throw new RuntimeException('Falha ao preparar contato.');
-    $statement->bind_param('sssssssssssissss', $data['nome'], $data['empresa'], $data['email'], $data['telefone'], $data['cidade_uf'], $data['tipo_interesse'], $data['empreendimento'], $data['mensagem'], $attachmentPath, $attachmentName, $attachmentMime, $attachmentSize, $data['idioma'], $acceptedAt, $status, $emailStatus);
+    $statement->bind_param('sssssssssssisssss', $data['nome'], $data['empresa'], $data['email'], $data['telefone'], $data['cidade_uf'], $data['tipo_interesse'], $data['empreendimento'], $data['mensagem'], $attachmentPath, $attachmentName, $attachmentMime, $attachmentSize, $data['idioma'], $data['utm_atribuicao'], $acceptedAt, $status, $emailStatus);
     if (!$statement->execute()) throw new RuntimeException('Falha ao registrar contato.');
     $id = (int)$db->insert_id;
     $statement->close();

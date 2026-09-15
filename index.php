@@ -10,12 +10,13 @@ require_once __DIR__ . '/app/cases.php';
 require_once __DIR__ . '/app/routes.php';
 
 $route = resolve_route($_SERVER['REQUEST_URI'] ?? base_url());
+$GLOBALS['improov_request_language'] = $route['language'];
 $project = null;
 $case = null;
 if ($route['page'] === 'project-detail') {
     $project = find_project((string) $route['slug']);
     if ($project === null) {
-        $route = ['page' => '404', 'active' => '', 'status' => 404];
+        $route = ['page' => '404', 'active' => '', 'status' => 404, 'language' => current_language()];
     } else {
         $case = find_case_config((string) $project['slug']);
     }
@@ -24,9 +25,9 @@ if ($route['page'] === 'project-detail') {
 http_response_code((int) $route['status']);
 $meta = page_metadata($route['page'] === 'project-detail' ? 'projetos' : $route['page']);
 if ($project !== null) {
-    $meta['title'] = translated($project['title']) . ' — Improov';
+    $meta['title'] = translated($project['metadata']['title'] ?? $project['title']) . (isset($project['metadata']['title']) ? '' : ' — Improov');
     $language = current_language();
-    $meta['description'] = (string) ($project['detail']['description'][$language][0] ?? $project['detail']['description']['pt-BR'][0] ?? $meta['description']);
+    $meta['description'] = translated($project['metadata']['description'] ?? []) ?: (string) ($project['detail']['description'][$language][0] ?? $project['detail']['description']['pt-BR'][0] ?? $meta['description']);
     $meta['path'] = 'projetos/' . $project['slug'];
     $meta['image'] = $project['media']['hero']['src'];
 }

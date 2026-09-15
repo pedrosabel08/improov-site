@@ -73,6 +73,11 @@
           );
         status.textContent = tr("form.success");
         status.classList.add("is-success");
+        document.dispatchEvent(
+          new CustomEvent("improov:form-success", {
+            detail: { form: form.dataset.asyncForm || "unknown" },
+          }),
+        );
       } catch (error) {
         status.textContent = error.message || tr("form.error");
         status.classList.add("is-error");

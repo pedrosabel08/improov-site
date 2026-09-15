@@ -73,11 +73,26 @@
       if (!Array.isArray(sequence) || sequence.length < 2) return;
 
       const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)");
+      const MAX_HERO_DURATION_MS = 8_000;
       let index = 0;
+      let rotationTimer = null;
       video.loop = false;
       video.removeAttribute("loop");
 
+      const clearRotationTimer = () => {
+        if (rotationTimer === null) return;
+        window.clearTimeout(rotationTimer);
+        rotationTimer = null;
+      };
+
+      const scheduleNext = () => {
+        clearRotationTimer();
+        if (reducedMotion.matches) return;
+        rotationTimer = window.setTimeout(playNext, MAX_HERO_DURATION_MS);
+      };
+
       const playNext = () => {
+        clearRotationTimer();
         index = (index + 1) % sequence.length;
         const next = sequence[index];
         if (!next?.src) return;
@@ -92,10 +107,15 @@
         if (!reducedMotion.matches) {
           const result = video.play();
           if (result) result.catch(() => {});
+          scheduleNext();
         }
       };
 
-      video.addEventListener("ended", playNext);
+      video.addEventListener("ended", () => {
+        clearRotationTimer();
+        playNext();
+      });
+      scheduleNext();
     };
     initHomeHero();
     const initCareersBanner = () => {

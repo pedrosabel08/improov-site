@@ -23,6 +23,7 @@
 <script src="<?= escape(asset('assets/js/site.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/projects.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/forms.js')) ?>" defer></script>
+<script src="<?= escape(asset('assets/js/analytics.js')) ?>" defer></script>
 <?php if ($case !== null): ?><script src="<?= escape(asset('assets/js/case.js')) ?>" defer></script><?php endif; ?>
   <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/16d3e039-7791-40a6-83b6-23017af9d046-loader.js" ></script>
 </body>

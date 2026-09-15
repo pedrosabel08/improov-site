@@ -198,7 +198,8 @@ p {
   border-radius: 999px;
   overflow: hidden;
 }
-.language-switcher button {
+.language-switcher button,
+.language-switcher a {
   min-width: 42px;
   padding: 7px 10px;
   border: 0;
@@ -206,8 +207,10 @@ p {
   color: var(--color-text);
   font-size: var(--text-caption);
   cursor: pointer;
+  text-decoration: none;
 }
-.language-switcher button[aria-pressed="true"] {
+.language-switcher button[aria-pressed="true"],
+.language-switcher a[aria-current="true"] {
   background: var(--color-accent);
   color: #071016;
 }
@@ -285,6 +288,16 @@ p {
 .text-link:hover {
   gap: 24px;
   border-color: var(--color-accent);
+}
+.text-link--on-media {
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: var(--radius-sm);
+  background: rgba(5, 6, 7, 0.72);
+  color: #fff;
+}
+.text-link--on-media:hover {
+  border-color: #fff;
 }
 .button {
   display: inline-flex;
