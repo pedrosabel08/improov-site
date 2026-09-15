@@ -23,8 +23,8 @@ function page_metadata(string $key): array
 {
     $pages = [
         'home' => [
-            'title' => 'Improov',
-            'description' => 'Imagens arquitetônicas e experiências visuais que conectam pessoas a projetos.',
+            'title' => 'IMPROOV | Visualização arquitetônica 3D para o mercado imobiliário',
+            'description' => 'A IMPROOV transforma projetos imobiliários em experiências visuais com imagens 3D, animações e filmes que comunicam, encantam e valorizam cada empreendimento.',
             'path' => '',
             'image' => 'assets/media/aya-kar/v1/hero-1440.jpg',
         ],
@@ -36,7 +36,7 @@ function page_metadata(string $key): array
         ],
         'projetos' => [
             'title' => 'Projetos — Improov',
-            'description' => 'Uma seleção editorial de imagens e experiências arquitetônicas criadas pela Improov.',
+            'description' => 'Conheça projetos de imagens 3D, animações, filmes e materiais visuais produzidos pela Improov para o mercado imobiliário.',
             'path' => 'projetos',
             'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg',
         ],
@@ -48,7 +48,7 @@ function page_metadata(string $key): array
         ],
         'contato' => [
             'title' => 'Contato — Improov',
-            'description' => 'Converse com a Improov sobre seu próximo projeto de arquitetura ou empreendimento.',
+            'description' => 'Fale com a Improov sobre imagens 3D, animações, filmes e experiências visuais para o seu empreendimento.',
             'path' => 'contato',
             'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
         ],
@@ -66,7 +66,38 @@ function page_metadata(string $key): array
         ],
     ];
 
-    return $pages[$key] ?? $pages['404'];
+    $page = $pages[$key] ?? $pages['404'];
+    $localized = [
+        'home' => [
+            'en' => ['IMPROOV | 3D Architectural Visualization for Real Estate', 'IMPROOV transforms real estate developments into visual experiences through 3D imagery, animations and films that communicate, inspire and add value.'],
+            'es' => ['IMPROOV | Visualización arquitectónica 3D para proyectos inmobiliarios', 'IMPROOV transforma proyectos inmobiliarios en experiencias visuales con imágenes 3D, animaciones y películas que comunican, inspiran y generan valor.'],
+        ],
+        'quem-somos' => [
+            'en' => ['About IMPROOV', 'Learn about Improov’s studio, philosophy and work for the real estate market.'],
+            'es' => ['Sobre IMPROOV', 'Conozca el estudio, la filosofía y el trabajo de Improov para el mercado inmobiliario.'],
+        ],
+        'projetos' => [
+            'en' => ['Projects | IMPROOV', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
+            'es' => ['Proyectos | IMPROOV', 'Conozca proyectos de imágenes 3D, animaciones, películas y materiales visuales producidos por Improov.'],
+        ],
+        'trabalhe-conosco' => [
+            'en' => ['Careers | IMPROOV', 'Join the team that transforms ideas into visual experiences.'],
+            'es' => ['Trabaja con nosotros | IMPROOV', 'Forma parte del equipo que transforma ideas en experiencias visuales.'],
+        ],
+        'contato' => [
+            'en' => ['Contact | IMPROOV', 'Talk to Improov about 3D images, animations, films and visual experiences for your project.'],
+            'es' => ['Contacto | IMPROOV', 'Hable con Improov sobre imágenes 3D, animaciones, películas y experiencias visuales para su proyecto.'],
+        ],
+        'privacidade' => [
+            'en' => ['Privacy Policy | IMPROOV', 'How Improov handles data submitted through commercial and recruitment forms.'],
+            'es' => ['Política de privacidad | IMPROOV', 'Cómo Improov trata los datos enviados mediante formularios comerciales y de selección.'],
+        ],
+    ];
+    $translation = $localized[$key][current_language()] ?? null;
+    if ($translation !== null) {
+        [$page['title'], $page['description']] = $translation;
+    }
+    return $page;
 }
 function thumbnail_url(string $source, int $width = 1200, int $quality = 80): string
 {
@@ -79,7 +110,7 @@ function thumbnail_url(string $source, int $width = 1200, int $quality = 80): st
     if ($sourceMtime !== null) {
         $query .= '&v=' . rawurlencode((string) $sourceMtime);
     }
-    return base_url('thumb.php?' . $query);
+    return raw_base_url('thumb.php?' . $query);
 }
 
 function media_image_path(string $source, int $width = 1440): ?string

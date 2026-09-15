@@ -37,16 +37,33 @@ define('APP_ROOT', dirname(__DIR__));
 define('APP_BASE_URL', '/' . trim(env('APP_BASE_URL', '/'), '/'));
 define('APP_ORIGIN', rtrim(env('APP_ORIGIN', 'https://improov.com.br'), '/'));
 
-function base_url(string $path = ''): string
+function raw_base_url(string $path = ''): string
 {
     $base = APP_BASE_URL === '/' ? '' : APP_BASE_URL;
     $path = ltrim($path, '/');
     return $base . ($path === '' ? '/' : '/' . $path);
 }
 
-function canonical_url(string $path = ''): string
+function request_language(): string
 {
-    return APP_ORIGIN . base_url($path);
+    $language = $GLOBALS['improov_request_language'] ?? 'pt-BR';
+    return in_array($language, ['pt-BR', 'en', 'es'], true) ? $language : 'pt-BR';
+}
+
+function base_url(string $path = '', ?string $language = null): string
+{
+    $language ??= request_language();
+    $prefix = $language === 'pt-BR' ? '' : $language;
+    $path = trim($path, '/');
+    if ($prefix !== '' && $path === '') {
+        return raw_base_url($prefix) . '/';
+    }
+    return raw_base_url(trim($prefix . '/' . $path, '/'));
+}
+
+function canonical_url(string $path = '', ?string $language = null): string
+{
+    return APP_ORIGIN . base_url($path, $language);
 }
 
 /**
@@ -90,7 +107,7 @@ function asset(string $path): string
 
     $filesystemPath = APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, $relativePath);
     $version = is_file($filesystemPath) ? @filemtime($filesystemPath) : false;
-    $publicUrl = base_url($relativePath);
+    $publicUrl = raw_base_url($relativePath);
 
     $query = isset($parts['query']) ? (string) $parts['query'] : '';
     if ($version !== false) {
@@ -143,7 +160,7 @@ function asset_url(string $path): string
 
 function api_url(string $path): string
 {
-    return base_url('api/' . ltrim($path, '/'));
+    return raw_base_url('api/' . ltrim($path, '/'));
 }
 
 function escape(string $value): string

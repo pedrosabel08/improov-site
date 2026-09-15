@@ -53,6 +53,7 @@ CREATE TABLE IF NOT EXISTS contatos (
     anexo_mime VARCHAR(120) NULL,
     anexo_tamanho BIGINT UNSIGNED NULL,
     idioma VARCHAR(10) NOT NULL DEFAULT 'pt-BR',
+    utm_atribuicao TEXT NULL,
     lgpd_aceito TINYINT(1) NOT NULL DEFAULT 1,
     lgpd_aceito_em DATETIME NOT NULL,
     status VARCHAR(40) NOT NULL DEFAULT 'recebido',

@@ -5,8 +5,8 @@
     <div class="hero__shade"></div>
     <div class="hero__content container">
       <p class="eyebrow" data-i18n="home.eyebrow">Imagens que</p>
-      <h1 data-i18n="home.title">transformam projetos</h1>
-      <p data-i18n="home.intro">Criamos imagens arquitetônicas e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.</p><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.action">Conheça nosso trabalho</span><span aria-hidden="true">→</span></a>
+      <h1 data-i18n="home.title">Fazem sentir antes de existir</h1>
+      <p data-i18n="home.intro">Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.</p><a class="text-link text-link--on-media" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.action">Conheça nosso trabalho</span><span aria-hidden="true">→</span></a>
     </div>
   </section>
 

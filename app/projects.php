@@ -27,6 +27,10 @@ function find_project(string $slug): ?array
 
 function current_language(): string
 {
+    $requestLanguage = $GLOBALS['improov_request_language'] ?? null;
+    if (in_array($requestLanguage, ['pt-BR', 'en', 'es'], true)) {
+        return $requestLanguage;
+    }
     $language = $_COOKIE['improov-language'] ?? 'pt-BR';
     return in_array($language, ['pt-BR', 'en', 'es'], true) ? $language : 'pt-BR';
 }
@@ -50,7 +54,7 @@ function home_projects(): array
 
 function home_hero_videos(): array
 {
-    $sequence = ['ars-vie', 'aya-kar', 'alp-sc'];
+    $sequence = ['ars-vie', 'aya-kar', 'alp-sc', 'gt-lac', 'aya-cas'];
     $videos = [];
 
     foreach ($sequence as $slug) {
