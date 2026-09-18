@@ -329,6 +329,31 @@
         "animacoes/vertical-06-aya-cas-piscina.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
         "filmes/filme-2022-aya-casas-depoimento.mp4": {"publish": true, "poster": true, "variants": ["1080"]}
       }
+    },
+    "hsa-mon": {
+      "defaults": { "publish": false, "poster": false, "variants": [] },
+      "sources": {
+        "animacoes/22_HSA_MON Sky Pub.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/25. HSA_MON_Wine_lounge.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/26. HSA_MON_Living_Vista_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/29.HSA_MON_Suite Detalhe.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/29.HSA_MON_Suite GERAL.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Living_Sacada_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Tracking_0014_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Tracking_0029.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Tracking_0042.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "filmes/HSA MON_conceito (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "filmes/HSA MON T1_amanhecer (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "filmes/HSA MON T2_o dia (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
+        "filmes/HSA MON T3_Noite (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] }
+      }
     }
   }
 }

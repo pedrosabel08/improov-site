@@ -485,6 +485,108 @@
           "source": "projetos/aya-cas/imagens/imagem-aya-est-living-p01-ef.jpg"
         }
       ]
+    },
+    {
+      "slug": "hsa-mon",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/hsa_mon/imagens/1.HSA_MON Fotomontagem aerea_EF.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/hsa_mon/imagens/4.HSA_MON Fachada no angulo observador_EF.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/hsa_mon/imagens/5.HSA_MON Fachada noturna_EF.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/hsa_mon/imagens/41.HSA_MON Fotomontagem aerea 2_EF.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/hsa_mon/imagens/42.HSA_MON Fotomontagem aerea 3_EF.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/hsa_mon/imagens/23_HSA_MON_Vila dAgua_EF.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/hsa_mon/imagens/07_HSA_MON_Hall de Entrada_EF.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/hsa_mon/imagens/10.HSA_MON_Piscinas_Angulo_2_EF_3_1.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/hsa_mon/imagens/9_HSA_MON_Piscina angulo_01_EF.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/hsa_mon/imagens/18_HSA_MON_Academia_EF.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/hsa_mon/imagens/19.HAS_MON PISCINA_AQUECIDA.EF.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/hsa_mon/imagens/24_HSA_MON_Terraco_SkyPub_EF.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/hsa_mon/imagens/26. HSA_MON_Living_Sacada_Apto_1_EF.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/hsa_mon/imagens/27. HSA_MON_Vista_Tipo_1_EF.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/hsa_mon/imagens/28. HSA_MON_Sacada_Gourmet_Tipo_1_EF.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/hsa_mon/imagens/29.HSA_MON_Suite do Apto tipo 1_EF.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/hsa_mon/imagens/31. HSA_MON_Living_Penthouse_Angulo_2_EF.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/hsa_mon/imagens/34.HSA_MON_Suite_Penthouse_Foco_Closet_EF.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/hsa_mon/imagens/35.HSA_MON_Vista_Banheira_Suite_Penthouse_EF.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/hsa_mon/imagens/36. HSA_MON_PH_TERREO_EF.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/hsa_mon/imagens/37. HSA_MON_PH_4_PVTO_LAZER_EF.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/hsa_mon/imagens/38. HSA_MON_PH_LAZER_21_PVTO_EF.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/hsa_mon/imagens/39. HSA_MON_PH_TIPO_EF.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/hsa_mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg"
+        }
+      ]
     }
   ],
   "site": [

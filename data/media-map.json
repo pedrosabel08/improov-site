@@ -3414,5 +3414,677 @@
         "jpg": "assets/media/aya-cas/v1/gallery-09-1920.jpg"
       }
     }
+  },
+  "assets/projetos/hsa-mon/imagens/1.HSA_MON Fotomontagem aerea_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/1.HSA_MON Fotomontagem aerea_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/hero",
+    "width": 11323,
+    "height": 7207,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/hero-640.avif",
+        "webp": "assets/media/hsa-mon/v1/hero-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/hero-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/hero-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/hero-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/hero-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/hero-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/hero-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/4.HSA_MON Fachada no angulo observador_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/4.HSA_MON Fachada no angulo observador_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-01",
+    "width": 3798,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-01-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-01-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-01-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-01-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-01-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/5.HSA_MON Fachada noturna_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/5.HSA_MON Fachada noturna_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-02",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-02-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-02-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-02-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-02-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-02-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/41.HSA_MON Fotomontagem aerea 2_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/41.HSA_MON Fotomontagem aerea 2_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-03",
+    "width": 8708,
+    "height": 6817,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-03-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-03-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-03-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-03-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-03-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/42.HSA_MON Fotomontagem aerea 3_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/42.HSA_MON Fotomontagem aerea 3_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-04",
+    "width": 5280,
+    "height": 2970,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-04-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-04-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-04-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-04-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-04-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/23_HSA_MON_Vila dAgua_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/23_HSA_MON_Vila dAgua_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-05",
+    "width": 5000,
+    "height": 5556,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-05-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-05-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-05-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-05-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-05-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/07_HSA_MON_Hall de Entrada_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/07_HSA_MON_Hall de Entrada_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-06",
+    "width": 5000,
+    "height": 4166,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-06-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-06-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-06-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-06-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-06-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/10.HSA_MON_Piscinas_Angulo_2_EF_3_1.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/10.HSA_MON_Piscinas_Angulo_2_EF_3_1.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-07",
+    "width": 5000,
+    "height": 3643,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-07-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-07-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-07-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-07-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-07-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/9_HSA_MON_Piscina angulo_01_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/9_HSA_MON_Piscina angulo_01_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-08",
+    "width": 5000,
+    "height": 3643,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-08-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-08-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-08-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-08-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-08-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/18_HSA_MON_Academia_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/18_HSA_MON_Academia_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-09",
+    "width": 5000,
+    "height": 2942,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-09-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-09-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-09-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-09-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-09-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-09-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/19.HAS_MON PISCINA_AQUECIDA.EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/19.HAS_MON PISCINA_AQUECIDA.EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-10",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-10-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-10-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-10-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-10-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-10-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-10-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-10-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-10-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-10-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-10-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-10-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-10-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/24_HSA_MON_Terraco_SkyPub_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/24_HSA_MON_Terraco_SkyPub_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-11",
+    "width": 5000,
+    "height": 3750,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-11-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-11-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-11-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-11-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-11-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-11-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-11-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-11-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-11-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-11-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-11-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-11-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/26. HSA_MON_Living_Sacada_Apto_1_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/26. HSA_MON_Living_Sacada_Apto_1_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-12",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-12-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-12-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-12-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-12-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-12-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-12-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-12-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-12-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-12-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-12-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-12-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-12-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/27. HSA_MON_Vista_Tipo_1_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/27. HSA_MON_Vista_Tipo_1_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-13",
+    "width": 5000,
+    "height": 3760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-13-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-13-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-13-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-13-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-13-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-13-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-13-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-13-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-13-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-13-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-13-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-13-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/28.HSA_MON_Sacada_Gourmet_Tipo_1_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/28.HSA_MON_Sacada_Gourmet_Tipo_1_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-14",
+    "width": 5000,
+    "height": 3760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-14-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-14-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-14-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-14-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-14-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-14-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-14-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-14-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-14-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-14-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-14-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-14-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/29.HSA_MON_Suite do Apto tipo 1_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/29.HSA_MON_Suite do Apto tipo 1_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-15",
+    "width": 5000,
+    "height": 3334,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-15-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-15-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-15-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-15-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-15-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-15-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-15-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-15-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-15-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-15-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-15-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-15-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/31. HSA_MON_Living_Penthouse_Angulo_2_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/31. HSA_MON_Living_Penthouse_Angulo_2_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-16",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-16-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-16-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-16-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-16-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-16-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-16-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-16-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-16-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-16-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-16-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-16-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-16-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/34.HSA_MON_Suite_Penthouse_Foco_Closet_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/34.HSA_MON_Suite_Penthouse_Foco_Closet_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-17",
+    "width": 5000,
+    "height": 4166,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-17-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-17-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-17-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-17-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-17-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-17-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-17-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-17-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-17-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-17-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-17-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-17-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/35.HSA_MON_Vista_Banheira_Suite_Penthouse_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/35.HSA_MON_Vista_Banheira_Suite_Penthouse_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-18",
+    "width": 5000,
+    "height": 4166,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-18-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-18-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-18-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-18-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-18-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-18-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-18-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-18-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-18-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-18-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-18-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-18-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/36. HSA_MON_PH_TERREO_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/36. HSA_MON_PH_TERREO_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-19",
+    "width": 5000,
+    "height": 2017,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-19-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-19-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-19-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-19-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-19-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-19-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-19-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-19-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-19-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-19-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-19-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-19-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/37. HSA_MON_PH_4_PVTO_LAZER_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/37. HSA_MON_PH_4_PVTO_LAZER_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-20",
+    "width": 5000,
+    "height": 2033,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-20-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-20-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-20-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-20-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-20-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-20-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-20-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-20-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-20-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-20-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-20-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-20-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/38. HSA_MON_PH_LAZER_21_PVTO_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/38. HSA_MON_PH_LAZER_21_PVTO_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-21",
+    "width": 5000,
+    "height": 2675,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-21-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-21-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-21-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-21-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-21-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-21-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-21-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-21-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-21-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-21-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-21-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-21-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/39. HSA_MON_PH_TIPO_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/39. HSA_MON_PH_TIPO_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-22",
+    "width": 5000,
+    "height": 2675,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-22-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-22-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-22-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-22-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-22-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-22-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-22-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-22-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-22-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-22-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-22-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-22-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/hsa-mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg": {
+    "source": "assets/projetos/hsa-mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg",
+    "base": "assets/media/hsa-mon/v1/gallery-23",
+    "width": 5000,
+    "height": 2675,
+    "sources": {
+      "640": {
+        "avif": "assets/media/hsa-mon/v1/gallery-23-640.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-23-640.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-23-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/hsa-mon/v1/gallery-23-1024.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-23-1024.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-23-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/hsa-mon/v1/gallery-23-1440.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-23-1440.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-23-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/hsa-mon/v1/gallery-23-1920.avif",
+        "webp": "assets/media/hsa-mon/v1/gallery-23-1920.webp",
+        "jpg": "assets/media/hsa-mon/v1/gallery-23-1920.jpg"
+      }
+    }
   }
 }

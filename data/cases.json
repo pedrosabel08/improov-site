@@ -685,15 +685,27 @@
             "value": "ARS Kammer Incorporadora"
           },
           {
-            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
             "value": "Porto Belo - SC"
           },
           {
-            "label": { "pt-BR": "Arquitetura e Interiores", "en": "Architecture and Interiors", "es": "Arquitectura e Interiores" },
+            "label": {
+              "pt-BR": "Arquitetura e Interiores",
+              "en": "Architecture and Interiors",
+              "es": "Arquitectura e Interiores"
+            },
             "value": "Vanessa Larré Arquitetura"
           },
           {
-            "label": { "pt-BR": "Paisagismo", "en": "Landscape Architecture", "es": "Paisajismo" },
+            "label": {
+              "pt-BR": "Paisagismo",
+              "en": "Landscape Architecture",
+              "es": "Paisajismo"
+            },
             "value": "Grupo Le Nôtre"
           }
         ]
@@ -1460,19 +1472,35 @@
             "value": "AYA Empreendimentos"
           },
           {
-            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
             "value": "Praia do Estaleiro - Balneário Camboriú - SC"
           },
           {
-            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
             "value": "OSA Osvaldo Segundo Arquitetos"
           },
           {
-            "label": { "pt-BR": "Interiores", "en": "Interiors", "es": "Interiores" },
+            "label": {
+              "pt-BR": "Interiores",
+              "en": "Interiors",
+              "es": "Interiores"
+            },
             "value": "OSA Osvaldo Segundo Arquitetos"
           },
           {
-            "label": { "pt-BR": "Paisagismo", "en": "Landscape Architecture", "es": "Paisajismo" },
+            "label": {
+              "pt-BR": "Paisagismo",
+              "en": "Landscape Architecture",
+              "es": "Paisajismo"
+            },
             "value": "Escritório Burle Marx"
           }
         ]
@@ -1607,11 +1635,19 @@
             "value": "NOWA Empreendimentos"
           },
           {
-            "label": { "pt-BR": "Localização", "en": "Location", "es": "Ubicación" },
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
             "value": "Rancho Queimado - SC"
           },
           {
-            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
             "value": "Ross Jermano"
           }
         ]
@@ -2188,8 +2224,558 @@
             "value": "Praia do Estaleiro - Balneário Camboriú - SC"
           },
           {
-            "label": { "pt-BR": "Arquitetura", "en": "Architecture", "es": "Arquitectura" },
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
             "value": "Luciano Kruk arquitectos"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "editorial",
+        "eyebrow": {
+          "pt-BR": "Próximo projeto",
+          "en": "Next project",
+          "es": "Próximo proyecto"
+        },
+        "allProjectsLabel": {
+          "pt-BR": "Ver todos os projetos",
+          "en": "See all projects",
+          "es": "Ver todos los proyectos"
+        }
+      }
+    },
+    "hsa-mon": {
+      "theme": "light",
+      "motion": "slow",
+      "hero": {
+        "video": "hsa-mon-tracking-0038-lazer-ai-slow-down",
+        "posterVideo": "hsa-mon-tracking-0038-lazer-ai-slow-down-poster",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        { "pt-BR": "Imagens 3D", "en": "3D Images", "es": "Imágenes 3D" },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D Animations",
+          "es": "Animaciones 3D"
+        },
+        {
+          "pt-BR": "Plantas Humanizadas",
+          "en": "Floor plans",
+          "es": "Plantas Humanizadas"
+        },
+        {
+          "pt-BR": "Filme Conceito",
+          "en": "Concept Film",
+          "es": "Película Concepto"
+        },
+        {
+          "pt-BR": "Filmes Trailer",
+          "en": "Trailer Films",
+          "es": "Películas Trailer"
+        }
+      ],
+      "heroFooter": {
+        "pt-BR": "Imagens 3D · Animações 3D · Plantas Humanizadas · Filme Conceito · Filmes Trailer",
+        "en": "3D Images · 3D Animations · Floor plans · Concept Film · Trailer Films",
+        "es": "Imágenes 3D · Animaciones 3D · Plantas Humanizadas · Película Concepto · Películas Trailer"
+      },
+      "sections": [
+        {
+          "type": "editorialBlock",
+          "id": "hsa-mon-editorial-01",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "hsa-mon-tracking-0014-v2",
+              "label": {
+                "pt-BR": "Vista aérea",
+                "en": "Aerial view",
+                "es": "Vista aérea"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/1.HSA_MON Fotomontagem aerea_EF.jpg",
+              "label": {
+                "pt-BR": "Vista aérea do empreendimento",
+                "en": "Aerial view of the development",
+                "es": "Vista aérea del emprendimiento"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/4.HSA_MON Fachada no angulo observador_EF.jpg",
+              "label": { "pt-BR": "Fachada", "en": "Facade", "es": "Fachada" }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "imagens-3d",
+          "label": {
+            "pt-BR": "Imagens 3D",
+            "en": "3D Images",
+            "es": "Imágenes 3D"
+          },
+          "title": {
+            "pt-BR": "Imagens 3D",
+            "en": "3D Images",
+            "es": "Imágenes 3D"
+          },
+          "items": [
+            {
+              "src": "assets/projetos/hsa-mon/imagens/18_HSA_MON_Academia_EF.jpg",
+              "label": { "pt-BR": "Academia", "en": "Gym", "es": "Gimnasio" }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/19.HAS_MON PISCINA_AQUECIDA.EF.jpg",
+              "label": {
+                "pt-BR": "Piscina aquecida",
+                "en": "Heated pool",
+                "es": "Piscina climatizada"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/9_HSA_MON_Piscina angulo_01_EF.jpg",
+              "label": { "pt-BR": "Piscina", "en": "Pool", "es": "Piscina" }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/26. HSA_MON_Living_Sacada_Apto_1_EF.jpg",
+              "label": {
+                "pt-BR": "Living com sacada",
+                "en": "Living room with balcony",
+                "es": "Living con balcón"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/27. HSA_MON_Vista_Tipo_1_EF.jpg",
+              "label": {
+                "pt-BR": "Vista do apartamento tipo",
+                "en": "Standard apartment view",
+                "es": "Vista del apartamento tipo"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/28.HSA_MON_Sacada_Gourmet_Tipo_1_EF.jpg",
+              "label": {
+                "pt-BR": "Sacada gourmet",
+                "en": "Gourmet balcony",
+                "es": "Balcón gourmet"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/29.HSA_MON_Suite do Apto tipo 1_EF.jpg",
+              "label": {
+                "pt-BR": "Suíte do apartamento tipo",
+                "en": "Standard apartment suite",
+                "es": "Suite del apartamento tipo"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/34.HSA_MON_Suite_Penthouse_Foco_Closet_EF.jpg",
+              "label": {
+                "pt-BR": "Closet da penthouse",
+                "en": "Penthouse closet",
+                "es": "Vestidor del penthouse"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/35.HSA_MON_Vista_Banheira_Suite_Penthouse_EF.jpg",
+              "label": {
+                "pt-BR": "Banheira da suíte",
+                "en": "Suite bathtub",
+                "es": "Bañera de la suite"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "hsa-mon-editorial-02",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "hsa-mon-tracking-0038-lazer-ai-slow-down",
+              "label": {
+                "pt-BR": "Áreas de lazer",
+                "en": "Leisure areas",
+                "es": "Áreas de ocio"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/23_HSA_MON_Vila dAgua_EF.jpg",
+              "label": {
+                "pt-BR": "Vila d’Água",
+                "en": "Vila d’Água",
+                "es": "Vila d’Água"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/10.HSA_MON_Piscinas_Angulo_2_EF_3_1.jpg",
+              "label": { "pt-BR": "Piscinas", "en": "Pools", "es": "Piscinas" }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "animacoes-3d",
+          "label": {
+            "pt-BR": "Animações 3D",
+            "en": "3D Animations",
+            "es": "Animaciones 3D"
+          },
+          "title": {
+            "pt-BR": "Animações 3D",
+            "en": "3D Animations",
+            "es": "Animaciones 3D"
+          },
+          "items": [
+            {
+              "mediaId": "22-hsa-mon-sky-pub",
+              "label": { "pt-BR": "Sky Pub", "en": "Sky Pub", "es": "Sky Pub" }
+            },
+            {
+              "mediaId": "25-hsa-mon-wine-lounge-vista-v3",
+              "label": {
+                "pt-BR": "Wine lounge — vista",
+                "en": "Wine lounge — view",
+                "es": "Wine lounge — vista"
+              }
+            },
+            {
+              "mediaId": "25-hsa-mon-wine-lounge",
+              "label": {
+                "pt-BR": "Wine lounge",
+                "en": "Wine lounge",
+                "es": "Wine lounge"
+              }
+            },
+            {
+              "mediaId": "26-hsa-mon-living-vista-v2",
+              "label": {
+                "pt-BR": "Living com vista",
+                "en": "Living room with view",
+                "es": "Living con vista"
+              }
+            },
+            {
+              "mediaId": "27-hsa-mon-vista-tipo-1-vista",
+              "label": {
+                "pt-BR": "Vista do apartamento tipo",
+                "en": "Standard apartment view",
+                "es": "Vista del apartamento tipo"
+              }
+            },
+            {
+              "mediaId": "29-hsa-mon-suite-detalhe",
+              "label": {
+                "pt-BR": "Detalhe da suíte",
+                "en": "Suite detail",
+                "es": "Detalle de la suite"
+              }
+            },
+            {
+              "mediaId": "29-hsa-mon-suite-geral",
+              "label": { "pt-BR": "Suíte", "en": "Suite", "es": "Suite" }
+            },
+            {
+              "mediaId": "30-hsa-mon-living-penthouse-detalhe-2",
+              "label": {
+                "pt-BR": "Living da penthouse",
+                "en": "Penthouse living room",
+                "es": "Living del penthouse"
+              }
+            },
+            {
+              "mediaId": "34-hsa-mon-closet-penthouse-vista",
+              "label": {
+                "pt-BR": "Closet da penthouse",
+                "en": "Penthouse closet",
+                "es": "Vestidor del penthouse"
+              }
+            },
+            {
+              "mediaId": "hsa-mon-living-sacada-v2",
+              "label": {
+                "pt-BR": "Living com sacada",
+                "en": "Living room with balcony",
+                "es": "Living con balcón"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "hsa-mon-editorial-03",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "hsa-mon-tracking-wine-ai-slow-down",
+              "label": {
+                "pt-BR": "Wine lounge",
+                "en": "Wine lounge",
+                "es": "Wine lounge"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/5.HSA_MON Fachada noturna_EF.jpg",
+              "label": {
+                "pt-BR": "Fachada noturna",
+                "en": "Night facade",
+                "es": "Fachada nocturna"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/24_HSA_MON_Terraco_SkyPub_EF.jpg",
+              "label": {
+                "pt-BR": "Terraço Sky Pub",
+                "en": "Sky Pub terrace",
+                "es": "Terraza Sky Pub"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "plantas-humanizadas",
+          "label": {
+            "pt-BR": "Plantas Humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas Humanizadas"
+          },
+          "title": {
+            "pt-BR": "Plantas Humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas Humanizadas"
+          },
+          "items": [
+            {
+              "id": "ph-terreo",
+              "src": "assets/projetos/hsa-mon/imagens/36. HSA_MON_PH_TERREO_EF.jpg",
+              "label": {
+                "pt-BR": "Pavimento térreo",
+                "en": "Ground floor",
+                "es": "Planta baja"
+              }
+            },
+            {
+              "id": "ph-4-pvto-lazer",
+              "src": "assets/projetos/hsa-mon/imagens/37. HSA_MON_PH_4_PVTO_LAZER_EF.jpg",
+              "label": {
+                "pt-BR": "4º pavimento — lazer",
+                "en": "4th floor — leisure",
+                "es": "4.º planta — ocio"
+              }
+            },
+            {
+              "id": "ph-lazer-21-pvto",
+              "src": "assets/projetos/hsa-mon/imagens/38. HSA_MON_PH_LAZER_21_PVTO_EF.jpg",
+              "label": {
+                "pt-BR": "21º pavimento — lazer",
+                "en": "21st floor — leisure",
+                "es": "21.ª planta — ocio"
+              }
+            },
+            {
+              "id": "ph-tipo",
+              "src": "assets/projetos/hsa-mon/imagens/39. HSA_MON_PH_TIPO_EF.jpg",
+              "label": {
+                "pt-BR": "Planta tipo",
+                "en": "Standard plan",
+                "es": "Planta tipo"
+              }
+            },
+            {
+              "id": "ph-penthouse",
+              "src": "assets/projetos/hsa-mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg",
+              "label": {
+                "pt-BR": "Penthouse",
+                "en": "Penthouse",
+                "es": "Penthouse"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "hsa-mon-editorial-04",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "hsa-mon-living-penthouse-detalhe-1",
+              "label": {
+                "pt-BR": "Living da penthouse",
+                "en": "Penthouse living room",
+                "es": "Living del penthouse"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/41.HSA_MON Fotomontagem aerea 2_EF.jpg",
+              "label": {
+                "pt-BR": "Vista aérea",
+                "en": "Aerial view",
+                "es": "Vista aérea"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/31. HSA_MON_Living_Penthouse_Angulo_2_EF.jpg",
+              "label": {
+                "pt-BR": "Living da penthouse",
+                "en": "Penthouse living room",
+                "es": "Living del penthouse"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "hsa-mon-editorial-05",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "hsa-mon-tracking-0042",
+              "label": {
+                "pt-BR": "Tracking 1",
+                "en": "Tracking 1",
+                "es": "Tracking 1"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/42.HSA_MON Fotomontagem aerea 3_EF.jpg",
+              "label": {
+                "pt-BR": "Vista do empreendimento",
+                "en": "Development view",
+                "es": "Vista del emprendimiento"
+              }
+            },
+            {
+              "src": "assets/projetos/hsa-mon/imagens/07_HSA_MON_Hall de Entrada_EF.jpg",
+              "label": {
+                "pt-BR": "Hall de entrada",
+                "en": "Entrance hall",
+                "es": "Hall de entrada"
+              }
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "animacao-impacto",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "hsa-mon-editorial-impacto",
+              "items": [
+                {
+                  "layout": "impact",
+                  "items": [
+                    {
+                      "mediaId": "hsa-mon-tracking-0029",
+                      "label": {
+                        "pt-BR": "Tracking 2",
+                        "en": "Tracking 2",
+                        "es": "Tracking 2"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "film",
+          "id": "filme-conceito",
+          "label": {
+            "pt-BR": "Filme Conceito",
+            "en": "Concept Film",
+            "es": "Película Concepto"
+          },
+          "videos": [
+            {
+              "video": "hsa-mon-conceito-16x9-v1",
+              "label": {
+                "pt-BR": "Filme Conceito",
+                "en": "Concept Film",
+                "es": "Película Concepto"
+              }
+            }
+          ]
+        },
+        {
+          "type": "film",
+          "id": "filmes-trailer",
+          "label": {
+            "pt-BR": "Filmes Trailer",
+            "en": "Trailer Films",
+            "es": "Películas Trailer"
+          },
+          "videos": [
+            {
+              "video": "hsa-mon-t1-amanhecer-16x9-v1",
+              "label": {
+                "pt-BR": "Trailer — Amanhecer",
+                "en": "Trailer — Dawn",
+                "es": "Trailer — Amanecer"
+              }
+            },
+            {
+              "video": "hsa-mon-t2-o-dia-16x9-v1",
+              "label": {
+                "pt-BR": "Trailer — O dia",
+                "en": "Trailer — Day",
+                "es": "Trailer — Día"
+              }
+            },
+            {
+              "video": "hsa-mon-t3-noite-16x9-v1",
+              "label": {
+                "pt-BR": "Trailer — Noite",
+                "en": "Trailer — Night",
+                "es": "Trailer — Noche"
+              }
+            }
+          ]
+        },
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
+        }
+      ],
+      "credits": {
+        "items": [
+          {
+            "label": { "pt-BR": "Projeto", "en": "Project", "es": "Proyecto" },
+            "value": "Monticello Residenziale"
+          },
+          {
+            "label": { "pt-BR": "Cliente", "en": "Client", "es": "Cliente" },
+            "value": "HSantos Empreendimentos"
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": "Itapema - SC"
           }
         ]
       },

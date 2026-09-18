@@ -117,7 +117,7 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
                     }
                 }
                 foreach ($item['items'] ?? [] as $image) {
-                    if (is_array($image) && $imageExists($image['src'] ?? null)) {
+                    if (is_array($image) && ($imageExists($image['src'] ?? null) || $videoFor($image['mediaId'] ?? $image['video'] ?? null) !== null)) {
                         return true;
                     }
                 }
@@ -562,12 +562,24 @@ foreach ($sections as $section): ?>
                     $layout = (string) ($composition['layout'] ?? 'impact'); ?>
                   <div class="case-v3-gallery__composition case-v3-gallery__composition--<?= escape($layout) ?>" data-case-reveal="up">
                     <?php foreach ($composition['items'] ?? [] as $image): ?>
-                      <?php if (!is_array($image) || !$imageExists($image['src'] ?? null)) {
-                          continue;
-                      }
-                        $imageLabel = $caseText($image['label'] ?? $groupTitle); ?>
-                      <figure class="case-v3-gallery__image" data-case-image-open data-image-set="<?= escape((string) ($group['id'] ?? 'gallery')) ?>" data-image-src="<?= escape($lightboxImageUrl((string) $image['src'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $imageLabel) ?>" data-image-label="<?= escape($imageLabel) ?>" role="button" tabindex="0" aria-label="Abrir <?= escape($imageLabel) ?> em tela cheia"><?= $renderImage((string) $image['src'], 'case-v3-image', '(max-width: 767px) 100vw, 55vw', $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
-                      </figure>
+                      <?php
+                        if (!is_array($image)) {
+                            continue;
+                        }
+                        $compositionVideo = $videoFor($image['mediaId'] ?? $image['video'] ?? null);
+                        if ($compositionVideo === null && !$imageExists($image['src'] ?? null)) {
+                            continue;
+                        }
+                        $imageLabel = $caseText($image['label'] ?? $groupTitle);
+                      ?>
+                      <?php if ($compositionVideo !== null): ?>
+                        <figure class="case-v3-gallery__image">
+                          <?= $renderVideo($compositionVideo, 'case-v3-image case-v3-gallery__video', 'impact', $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
+                        </figure>
+                      <?php else: ?>
+                        <figure class="case-v3-gallery__image" data-case-image-open data-image-set="<?= escape((string) ($group['id'] ?? 'gallery')) ?>" data-image-src="<?= escape($lightboxImageUrl((string) $image['src'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $imageLabel) ?>" data-image-label="<?= escape($imageLabel) ?>" role="button" tabindex="0" aria-label="Abrir <?= escape($imageLabel) ?> em tela cheia"><?= $renderImage((string) $image['src'], 'case-v3-image', '(max-width: 767px) 100vw, 55vw', $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
+                        </figure>
+                      <?php endif; ?>
                     <?php endforeach; ?>
                   </div>
                 <?php endforeach; ?>

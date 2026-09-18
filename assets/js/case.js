@@ -126,7 +126,7 @@
     );
     videos
       .filter((video) =>
-        ["motion", "interlude", "editorial"].includes(
+        ["motion", "interlude", "editorial", "impact"].includes(
           video.dataset.caseMediaKind,
         ),
       )

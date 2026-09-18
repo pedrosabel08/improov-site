@@ -899,7 +899,172 @@
       "detail": {
         "subtitle": { "pt-BR": "", "en": "", "es": "" },
         "description": { "pt-BR": [], "en": [], "es": [] },
-        "info": { "client": "AYA Empreendimentos", "architect": "Luciano Kruk arquitectos", "year": "2024" }
+        "info": {
+          "client": "AYA Empreendimentos",
+          "architect": "Luciano Kruk arquitectos",
+          "year": "2024"
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "hsa-mon",
+      "status": "published",
+      "order": 6,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 6,
+      "title": {
+        "pt-BR": "Monticello Residenziale",
+        "en": "Monticello Residenziale",
+        "es": "Monticello Residenziale"
+      },
+      "location": {
+        "pt-BR": "Itapema - SC",
+        "en": "Itapema - SC",
+        "es": "Itapema - SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/hsa-mon/imagens/1.HSA_MON Fotomontagem aerea_EF.jpg",
+          "width": 11323,
+          "height": 7207,
+          "alt": {
+            "pt-BR": "Vista aérea de Monticello Residenziale",
+            "en": "Aerial view of Monticello Residenziale",
+            "es": "Vista aérea de Monticello Residenziale"
+          }
+        },
+        "animation": {
+          "manifest": "hsa-mon",
+          "id": "hsa-mon-tracking-0038-lazer-ai-slow-down"
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/hsa-mon/imagens/4.HSA_MON Fachada no angulo observador_EF.jpg",
+            "width": 3798,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/5.HSA_MON Fachada noturna_EF.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/41.HSA_MON Fotomontagem aerea 2_EF.jpg",
+            "width": 8708,
+            "height": 6817
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/42.HSA_MON Fotomontagem aerea 3_EF.jpg",
+            "width": 5280,
+            "height": 2970
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/23_HSA_MON_Vila dAgua_EF.jpg",
+            "width": 5000,
+            "height": 5556
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/07_HSA_MON_Hall de Entrada_EF.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/10.HSA_MON_Piscinas_Angulo_2_EF_3_1.jpg",
+            "width": 5000,
+            "height": 3643
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/9_HSA_MON_Piscina angulo_01_EF.jpg",
+            "width": 5000,
+            "height": 3643
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/18_HSA_MON_Academia_EF.jpg",
+            "width": 5000,
+            "height": 2942
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/19.HAS_MON PISCINA_AQUECIDA.EF.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/24_HSA_MON_Terraco_SkyPub_EF.jpg",
+            "width": 5000,
+            "height": 3750
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/26. HSA_MON_Living_Sacada_Apto_1_EF.jpg",
+            "width": 5000,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/27. HSA_MON_Vista_Tipo_1_EF.jpg",
+            "width": 5000,
+            "height": 3760
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/28.HSA_MON_Sacada_Gourmet_Tipo_1_EF.jpg",
+            "width": 5000,
+            "height": 3760
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/29.HSA_MON_Suite do Apto tipo 1_EF.jpg",
+            "width": 5000,
+            "height": 3334
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/31. HSA_MON_Living_Penthouse_Angulo_2_EF.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/34.HSA_MON_Suite_Penthouse_Foco_Closet_EF.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/35.HSA_MON_Vista_Banheira_Suite_Penthouse_EF.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/36. HSA_MON_PH_TERREO_EF.jpg",
+            "width": 5000,
+            "height": 2017
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/37. HSA_MON_PH_4_PVTO_LAZER_EF.jpg",
+            "width": 5000,
+            "height": 2033
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/38. HSA_MON_PH_LAZER_21_PVTO_EF.jpg",
+            "width": 5000,
+            "height": 2675
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/39. HSA_MON_PH_TIPO_EF.jpg",
+            "width": 5000,
+            "height": 2675
+          },
+          {
+            "src": "assets/projetos/hsa-mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg",
+            "width": 5000,
+            "height": 2675
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": { "pt-BR": "", "en": "", "es": "" },
+        "description": { "pt-BR": [], "en": [], "es": [] },
+        "info": {
+          "client": "HSantos Empreendimentos",
+          "architect": "",
+          "year": ""
+        }
       },
       "mediaVersion": 1
     }

@@ -5228,6 +5228,2548 @@
         "publishedVariants": 9,
         "posters": 9
       }
+    },
+    "hsa_mon": {
+      "slug": "hsa_mon",
+      "generatedAt": "2026-09-18T12:53:44.134023+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/hsa_mon/v1",
+      "profiles": {
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        }
+      },
+      "curation": null,
+      "inventory": [
+        {
+          "source": "animacoes/22_HSA_MON Sky Pub.mp4",
+          "name": "22_HSA_MON Sky Pub.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63543243,
+          "sha256": "0334619f2325ad5cf474071aca9c49a0df1f17faf864a5d38443a56cafee1e32",
+          "modifiedAt": "2026-09-16T20:40:18+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50655676,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50665710,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
+          "name": "25. HSA_MON_Wine_lounge.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63696593,
+          "sha256": "909cda28c96ed90636a1528d4eac95820dac71174e0bd05b53f1e04c2d42dc80",
+          "modifiedAt": "2026-09-16T20:40:32+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50777948,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50787982,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "name": "25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 64797801,
+          "sha256": "3f6bcd74cb30e9f28b7277a80c3e83bb5811a61d8a3a93a1ffa2784103b9be66",
+          "modifiedAt": "2026-09-16T20:46:12+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 51655988,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 51666022,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
+          "name": "26. HSA_MON_Living_Vista_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65130783,
+          "sha256": "c0b82f8606ccfaa77b6cc63b20a37dc74fe56f11c06d53336e33d3a1e28074bf",
+          "modifiedAt": "2026-09-16T20:42:54+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 51921489,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 51931523,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "name": "27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65651603,
+          "sha256": "b24da6c5c7badf98416ea092458e36de14ec0c7a97eb28f07d954c20799b26dd",
+          "modifiedAt": "2026-09-16T20:47:06+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52336760,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52346794,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
+          "name": "29.HSA_MON_Suite Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65954460,
+          "sha256": "852a254b78d83add02b14007dae54db041e004f64f05a6203f391ab270e02c2b",
+          "modifiedAt": "2026-09-16T20:40:38+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52578241,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52588275,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
+          "name": "29.HSA_MON_Suite GERAL.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65672063,
+          "sha256": "789e3d7f86d3f74e86379a4e6c66c4f9f04704b9e293d6023d8150d4ca749231",
+          "modifiedAt": "2026-09-16T20:40:12+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52353074,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52363108,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "name": "30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63505593,
+          "sha256": "9d71c8f6a092ef368072e66d40cbb7e59d1e559c12fabe9db070cb2c07ec0e87",
+          "modifiedAt": "2026-09-16T20:49:16+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50625656,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50635690,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
+          "name": "34.HSA_MON Closet Penthouse_Vista.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63426126,
+          "sha256": "422fae0f563c7ba54ad802904f1221e1dcaba8180034353c0f55efbe0c269270",
+          "modifiedAt": "2026-09-16T20:40:02+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50562294,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50572328,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "name": "HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63889640,
+          "sha256": "763c0bdbd869c3bdb5a4e38a865bd241a59237fd6cbd79319d9e7713f9e997e1",
+          "modifiedAt": "2026-09-16T20:49:26+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50931873,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50941907,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
+          "name": "HSA_MON_Living_Sacada_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 79221577,
+          "sha256": "2d8b850b6bcea9a15e80da98c50f40775f0dbd631268206877c53b23453b773b",
+          "modifiedAt": "2026-09-16T20:43:22+00:00",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52659514,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52668085,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
+          "name": "HSA_MON_Tracking_0014_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 790230728,
+          "sha256": "601db2e14b3bd84a7161123b120d97e84264c282679e77ac7b884aafe63ac32b",
+          "modifiedAt": "2026-09-16T20:47:52+00:00",
+          "duration": 25.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 252869070,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 252873832,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0029.mp4",
+          "name": "HSA_MON_Tracking_0029.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 929771039,
+          "sha256": "ab65a5d9c66c59107f7ca5362997ea3eddab795f67fd65eca244ca44e825bdf2",
+          "modifiedAt": "2026-09-16T20:44:00+00:00",
+          "duration": 30.697,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 29.97,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 242302553,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 242306662,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "name": "HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 518533915,
+          "sha256": "f4dea1ad683dd425350b6d8d3db493fc9142d8e659b7acad39e536a9af7414d1",
+          "modifiedAt": "2026-09-16T20:49:12+00:00",
+          "duration": 16.433,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 252422468,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 252430308,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0042.mp4",
+          "name": "HSA_MON_Tracking_0042.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 582199456,
+          "sha256": "59b670b9990605137afd6d56c49d76bc0c570653a01d7ec6561524c7b46919a4",
+          "modifiedAt": "2026-09-16T20:50:46+00:00",
+          "duration": 18.4,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 253124168,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 253130198,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "name": "HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 464509338,
+          "sha256": "4ba7482f154441733430248f538a2b140c2613ffb36128ba51bde416b696ae29",
+          "modifiedAt": "2026-09-16T20:49:46+00:00",
+          "duration": 15.017,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 247455010,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 247463348,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
+          "name": "HSA MON T1_amanhecer (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 165909067,
+          "sha256": "656376b50a701fb3124fe43dbd6791bb8929ae8f710a6a69a30825bb1ca6a669",
+          "modifiedAt": "2026-09-16T19:17:46+00:00",
+          "duration": 88.363,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 14831662,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189282,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15020738,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
+          "name": "HSA MON T2_o dia (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 176119674,
+          "sha256": "e6ab5a320ec3c9d27e820a778f7216f3ef56c7d5fe1fd6d6293de1f89422b0ee",
+          "modifiedAt": "2026-09-16T19:18:12+00:00",
+          "duration": 93.675,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 14854101,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189287,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15040965,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
+          "name": "HSA MON T3_Noite (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 150007897,
+          "sha256": "fc233202bf38a6feb78e30be7b3bc7bf53722ae30cb4d52fe3aa4eb8e551bb1b",
+          "modifiedAt": "2026-09-16T19:18:28+00:00",
+          "duration": 95.787,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 25.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 12206011,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317318,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 12528499,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
+          "name": "HSA MON_conceito (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 431856917,
+          "sha256": "2dcc1d781e9b673ba6dbab11495c19ef3578a74d2eb702a30a128dfbbcd1640e",
+          "modifiedAt": "2026-09-16T20:00:20+00:00",
+          "duration": 221.589,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15401061,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189338,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15591252,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": "all",
+          "publicVariants": [
+            "1080",
+            "720"
+          ]
+        }
+      ],
+      "videos": [],
+      "posterOnly": [],
+      "errors": [
+        {
+          "source": "animacoes/22_HSA_MON Sky Pub.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0029.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0042.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        },
+        {
+          "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
+          "error": "Unknown encoder 'libwebp'"
+        }
+      ],
+      "summary": {
+        "found": 20,
+        "inventoried": 20,
+        "processed": 40,
+        "skipped": 0,
+        "failed": 20,
+        "postersProcessed": 0,
+        "postersSkipped": 0,
+        "publishedVideos": 0,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 0,
+        "posters": 0
+      }
+    },
+    "hsa-mon": {
+      "slug": "hsa-mon",
+      "generatedAt": "2026-09-18T13:22:49.539567+00:00",
+      "pipelineVersion": 1,
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/22_HSA_MON Sky Pub.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/25. HSA_MON_Wine_lounge.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/26. HSA_MON_Living_Vista_V2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/29.HSA_MON_Suite Detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/29.HSA_MON_Suite GERAL.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Living_Sacada_V2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Tracking_0014_V2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Tracking_0029.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Tracking_0042.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/HSA MON_conceito (16x9) v1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/HSA MON T1_amanhecer (16x9) v1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/HSA MON T2_o dia (16x9) v1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/HSA MON T3_Noite (16x9) v1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/22_HSA_MON Sky Pub.mp4",
+          "name": "22_HSA_MON Sky Pub.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63543243,
+          "sha256": "0334619f2325ad5cf474071aca9c49a0df1f17faf864a5d38443a56cafee1e32",
+          "modifiedAt": "2026-09-16T20:40:18+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50655676,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50665710,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
+          "name": "25. HSA_MON_Wine_lounge.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63696593,
+          "sha256": "909cda28c96ed90636a1528d4eac95820dac71174e0bd05b53f1e04c2d42dc80",
+          "modifiedAt": "2026-09-16T20:40:32+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50777948,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50787982,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "name": "25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 64797801,
+          "sha256": "3f6bcd74cb30e9f28b7277a80c3e83bb5811a61d8a3a93a1ffa2784103b9be66",
+          "modifiedAt": "2026-09-16T20:46:12+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 51655988,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 51666022,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
+          "name": "26. HSA_MON_Living_Vista_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65130783,
+          "sha256": "c0b82f8606ccfaa77b6cc63b20a37dc74fe56f11c06d53336e33d3a1e28074bf",
+          "modifiedAt": "2026-09-16T20:42:54+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 51921489,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 51931523,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "name": "27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65651603,
+          "sha256": "b24da6c5c7badf98416ea092458e36de14ec0c7a97eb28f07d954c20799b26dd",
+          "modifiedAt": "2026-09-16T20:47:06+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52336760,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52346794,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
+          "name": "29.HSA_MON_Suite Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65954460,
+          "sha256": "852a254b78d83add02b14007dae54db041e004f64f05a6203f391ab270e02c2b",
+          "modifiedAt": "2026-09-16T20:40:38+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52578241,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52588275,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
+          "name": "29.HSA_MON_Suite GERAL.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 65672063,
+          "sha256": "789e3d7f86d3f74e86379a4e6c66c4f9f04704b9e293d6023d8150d4ca749231",
+          "modifiedAt": "2026-09-16T20:40:12+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52353074,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52363108,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "name": "30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63505593,
+          "sha256": "9d71c8f6a092ef368072e66d40cbb7e59d1e559c12fabe9db070cb2c07ec0e87",
+          "modifiedAt": "2026-09-16T20:49:16+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50625656,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50635690,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
+          "name": "34.HSA_MON Closet Penthouse_Vista.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63426126,
+          "sha256": "422fae0f563c7ba54ad802904f1221e1dcaba8180034353c0f55efbe0c269270",
+          "modifiedAt": "2026-09-16T20:40:02+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50562294,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50572328,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "name": "HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 63889640,
+          "sha256": "763c0bdbd869c3bdb5a4e38a865bd241a59237fd6cbd79319d9e7713f9e997e1",
+          "modifiedAt": "2026-09-16T20:49:26+00:00",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 50931873,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 50941907,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
+          "name": "HSA_MON_Living_Sacada_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 79221577,
+          "sha256": "2d8b850b6bcea9a15e80da98c50f40775f0dbd631268206877c53b23453b773b",
+          "modifiedAt": "2026-09-16T20:43:22+00:00",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 52659514,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 52668085,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
+          "name": "HSA_MON_Tracking_0014_V2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 790230728,
+          "sha256": "601db2e14b3bd84a7161123b120d97e84264c282679e77ac7b884aafe63ac32b",
+          "modifiedAt": "2026-09-16T20:47:52+00:00",
+          "duration": 25.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 252869070,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 252873832,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0029.mp4",
+          "name": "HSA_MON_Tracking_0029.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 929771039,
+          "sha256": "ab65a5d9c66c59107f7ca5362997ea3eddab795f67fd65eca244ca44e825bdf2",
+          "modifiedAt": "2026-09-16T20:44:00+00:00",
+          "duration": 30.697,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 29.97,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 242302553,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 242306662,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "name": "HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 518533915,
+          "sha256": "f4dea1ad683dd425350b6d8d3db493fc9142d8e659b7acad39e536a9af7414d1",
+          "modifiedAt": "2026-09-16T20:49:12+00:00",
+          "duration": 16.433,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 252422468,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 252430308,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_0042.mp4",
+          "name": "HSA_MON_Tracking_0042.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 582199456,
+          "sha256": "59b670b9990605137afd6d56c49d76bc0c570653a01d7ec6561524c7b46919a4",
+          "modifiedAt": "2026-09-16T20:50:46+00:00",
+          "duration": 18.4,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 253124168,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 253130198,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "name": "HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 464509338,
+          "sha256": "4ba7482f154441733430248f538a2b140c2613ffb36128ba51bde416b696ae29",
+          "modifiedAt": "2026-09-16T20:49:46+00:00",
+          "duration": 15.017,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 247455010,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 247463348,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
+          "name": "HSA MON T1_amanhecer (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 165909067,
+          "sha256": "656376b50a701fb3124fe43dbd6791bb8929ae8f710a6a69a30825bb1ca6a669",
+          "modifiedAt": "2026-09-16T19:17:46+00:00",
+          "duration": 88.363,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 14831662,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189282,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15020738,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
+          "name": "HSA MON T2_o dia (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 176119674,
+          "sha256": "e6ab5a320ec3c9d27e820a778f7216f3ef56c7d5fe1fd6d6293de1f89422b0ee",
+          "modifiedAt": "2026-09-16T19:18:12+00:00",
+          "duration": 93.675,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 14854101,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189287,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15040965,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
+          "name": "HSA MON T3_Noite (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 150007897,
+          "sha256": "fc233202bf38a6feb78e30be7b3bc7bf53722ae30cb4d52fe3aa4eb8e551bb1b",
+          "modifiedAt": "2026-09-16T19:18:28+00:00",
+          "duration": 95.787,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 25.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 12206011,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317318,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 12528499,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        },
+        {
+          "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
+          "name": "HSA MON_conceito (16x9) v1.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 431856917,
+          "sha256": "2dcc1d781e9b673ba6dbab11495c19ef3578a74d2eb702a30a128dfbbcd1640e",
+          "modifiedAt": "2026-09-16T20:00:20+00:00",
+          "duration": 221.589,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15401061,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189338,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15591252,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ]
+        }
+      ],
+      "errors": [],
+      "publicRoot": "assets/media/hsa-mon/v1",
+      "profiles": {
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        }
+      },
+      "videos": [
+        {
+          "id": "22-hsa-mon-sky-pub",
+          "source": "animacoes/22_HSA_MON Sky Pub.mp4",
+          "sourceSha256": "0334619f2325ad5cf474071aca9c49a0df1f17faf864a5d38443a56cafee1e32",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/22-hsa-mon-sky-pub-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/22-hsa-mon-sky-pub-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 6001646
+            }
+          }
+        },
+        {
+          "id": "25-hsa-mon-wine-lounge",
+          "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
+          "sourceSha256": "909cda28c96ed90636a1528d4eac95820dac71174e0bd05b53f1e04c2d42dc80",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/25-hsa-mon-wine-lounge-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/25-hsa-mon-wine-lounge-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 3893849
+            }
+          }
+        },
+        {
+          "id": "25-hsa-mon-wine-lounge-vista-v3",
+          "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
+          "sourceSha256": "3f6bcd74cb30e9f28b7277a80c3e83bb5811a61d8a3a93a1ffa2784103b9be66",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/25-hsa-mon-wine-lounge-vista-v3-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/25-hsa-mon-wine-lounge-vista-v3-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 3093954
+            }
+          }
+        },
+        {
+          "id": "26-hsa-mon-living-vista-v2",
+          "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
+          "sourceSha256": "c0b82f8606ccfaa77b6cc63b20a37dc74fe56f11c06d53336e33d3a1e28074bf",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/26-hsa-mon-living-vista-v2-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/26-hsa-mon-living-vista-v2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 5499331
+            }
+          }
+        },
+        {
+          "id": "27-hsa-mon-vista-tipo-1-vista",
+          "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
+          "sourceSha256": "b24da6c5c7badf98416ea092458e36de14ec0c7a97eb28f07d954c20799b26dd",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/27-hsa-mon-vista-tipo-1-vista-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/27-hsa-mon-vista-tipo-1-vista-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 2308012
+            }
+          }
+        },
+        {
+          "id": "29-hsa-mon-suite-detalhe",
+          "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
+          "sourceSha256": "852a254b78d83add02b14007dae54db041e004f64f05a6203f391ab270e02c2b",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/29-hsa-mon-suite-detalhe-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/29-hsa-mon-suite-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 4117849
+            }
+          }
+        },
+        {
+          "id": "29-hsa-mon-suite-geral",
+          "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
+          "sourceSha256": "789e3d7f86d3f74e86379a4e6c66c4f9f04704b9e293d6023d8150d4ca749231",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/29-hsa-mon-suite-geral-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/29-hsa-mon-suite-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 4854842
+            }
+          }
+        },
+        {
+          "id": "30-hsa-mon-living-penthouse-detalhe-2",
+          "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
+          "sourceSha256": "9d71c8f6a092ef368072e66d40cbb7e59d1e559c12fabe9db070cb2c07ec0e87",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/30-hsa-mon-living-penthouse-detalhe-2-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/30-hsa-mon-living-penthouse-detalhe-2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 2790118
+            }
+          }
+        },
+        {
+          "id": "34-hsa-mon-closet-penthouse-vista",
+          "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
+          "sourceSha256": "422fae0f563c7ba54ad802904f1221e1dcaba8180034353c0f55efbe0c269270",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/34-hsa-mon-closet-penthouse-vista-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/34-hsa-mon-closet-penthouse-vista-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 2956242
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-living-penthouse-detalhe-1",
+          "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
+          "sourceSha256": "763c0bdbd869c3bdb5a4e38a865bd241a59237fd6cbd79319d9e7713f9e997e1",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-living-penthouse-detalhe-1-poster.webp",
+          "duration": 10.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-living-penthouse-detalhe-1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 10.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 3960701
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-living-sacada-v2",
+          "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
+          "sourceSha256": "2d8b850b6bcea9a15e80da98c50f40775f0dbd631268206877c53b23453b773b",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-living-sacada-v2-poster.webp",
+          "duration": 12.033,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-living-sacada-v2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 12.034,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 5367407
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-tracking-0014-v2",
+          "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
+          "sourceSha256": "601db2e14b3bd84a7161123b120d97e84264c282679e77ac7b884aafe63ac32b",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-tracking-0014-v2-poster.webp",
+          "duration": 25.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-tracking-0014-v2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 25.0,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 23241076
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-tracking-0029",
+          "source": "animacoes/HSA_MON_Tracking_0029.mp4",
+          "sourceSha256": "ab65a5d9c66c59107f7ca5362997ea3eddab795f67fd65eca244ca44e825bdf2",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-tracking-0029-poster.webp",
+          "duration": 30.697,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-tracking-0029-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 30.698,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 18029347
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-tracking-0038-lazer-ai-slow-down",
+          "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
+          "sourceSha256": "f4dea1ad683dd425350b6d8d3db493fc9142d8e659b7acad39e536a9af7414d1",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-tracking-0038-lazer-ai-slow-down-poster.webp",
+          "duration": 16.433,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-tracking-0038-lazer-ai-slow-down-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 16.434,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 6758022
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-tracking-0042",
+          "source": "animacoes/HSA_MON_Tracking_0042.mp4",
+          "sourceSha256": "59b670b9990605137afd6d56c49d76bc0c570653a01d7ec6561524c7b46919a4",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-tracking-0042-poster.webp",
+          "duration": 18.4,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-tracking-0042-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 18.4,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 13516773
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-tracking-wine-ai-slow-down",
+          "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
+          "sourceSha256": "4ba7482f154441733430248f538a2b140c2613ffb36128ba51bde416b696ae29",
+          "category": "animacoes",
+          "poster": "assets/media/hsa-mon/v1/posters/animacoes/hsa-mon-tracking-wine-ai-slow-down-poster.webp",
+          "duration": 15.017,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/animacoes/hsa-mon-tracking-wine-ai-slow-down-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 15.017,
+              "hasAudio": false,
+              "audioCodec": null,
+              "faststart": true,
+              "bytes": 6343914
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-t1-amanhecer-16x9-v1",
+          "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
+          "sourceSha256": "656376b50a701fb3124fe43dbd6791bb8929ae8f710a6a69a30825bb1ca6a669",
+          "category": "filmes",
+          "poster": "assets/media/hsa-mon/v1/posters/filmes/hsa-mon-t1-amanhecer-16x9-v1-poster.webp",
+          "duration": 88.363,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/filmes/hsa-mon-t1-amanhecer-16x9-v1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 88.342,
+              "hasAudio": true,
+              "audioCodec": "aac",
+              "faststart": true,
+              "bytes": 89567856
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-t2-o-dia-16x9-v1",
+          "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
+          "sourceSha256": "e6ab5a320ec3c9d27e820a778f7216f3ef56c7d5fe1fd6d6293de1f89422b0ee",
+          "category": "filmes",
+          "poster": "assets/media/hsa-mon/v1/posters/filmes/hsa-mon-t2-o-dia-16x9-v1-poster.webp",
+          "duration": 93.675,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/filmes/hsa-mon-t2-o-dia-16x9-v1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 93.654,
+              "hasAudio": true,
+              "audioCodec": "aac",
+              "faststart": true,
+              "bytes": 98057145
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-t3-noite-16x9-v1",
+          "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
+          "sourceSha256": "fc233202bf38a6feb78e30be7b3bc7bf53722ae30cb4d52fe3aa4eb8e551bb1b",
+          "category": "filmes",
+          "poster": "assets/media/hsa-mon/v1/posters/filmes/hsa-mon-t3-noite-16x9-v1-poster.webp",
+          "duration": 95.787,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/filmes/hsa-mon-t3-noite-16x9-v1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 95.766,
+              "hasAudio": true,
+              "audioCodec": "aac",
+              "faststart": true,
+              "bytes": 57889195
+            }
+          }
+        },
+        {
+          "id": "hsa-mon-conceito-16x9-v1",
+          "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
+          "sourceSha256": "2dcc1d781e9b673ba6dbab11495c19ef3578a74d2eb702a30a128dfbbcd1640e",
+          "category": "filmes",
+          "poster": "assets/media/hsa-mon/v1/posters/filmes/hsa-mon-conceito-16x9-v1-poster.webp",
+          "duration": 221.589,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/hsa-mon/v1/videos/filmes/hsa-mon-conceito-16x9-v1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "duration": 221.568,
+              "hasAudio": true,
+              "audioCodec": "aac",
+              "faststart": true,
+              "bytes": 177585598
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "summary": {
+        "found": 20,
+        "inventoried": 20,
+        "processed": 0,
+        "skipped": 20,
+        "failed": 0,
+        "publishedVideos": 20,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 20,
+        "posters": 20
+      }
     }
   }
 }
