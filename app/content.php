@@ -29,25 +29,25 @@ function page_metadata(string $key): array
             'image' => 'assets/media/aya-kar/v1/hero-1440.jpg',
         ],
         'quem-somos' => [
-            'title' => 'Quem Somos — Improov',
+            'title' => 'IMPROOV | Comunicação e Arte para o Mercado Imobiliário',
             'description' => 'Conheça a filosofia, o estúdio e as pessoas por trás da Improov.',
             'path' => 'quem-somos',
             'image' => 'assets/media/site/v1/about-studio-01-1440.jpg',
         ],
         'projetos' => [
-            'title' => 'Projetos — Improov',
+            'title' => 'IMPROOV | Portfólio de Imagens 3D e Filmes Imobiliários',
             'description' => 'Conheça projetos de imagens 3D, animações, filmes e materiais visuais produzidos pela Improov para o mercado imobiliário.',
             'path' => 'projetos',
             'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg',
         ],
         'trabalhe-conosco' => [
-            'title' => 'Trabalhe Conosco — Improov',
+            'title' => 'IMPROOV | Trabalhe Conosco',
             'description' => 'Faça parte do time que transforma ideias em experiências visuais.',
             'path' => 'trabalhe-conosco',
             'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
         ],
         'contato' => [
-            'title' => 'Contato — Improov',
+            'title' => 'Fale com a Improov | Imagens 3D e Filmes Imobiliários',
             'description' => 'Fale com a Improov sobre imagens 3D, animações, filmes e experiências visuais para o seu empreendimento.',
             'path' => 'contato',
             'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
@@ -69,28 +69,32 @@ function page_metadata(string $key): array
     $page = $pages[$key] ?? $pages['404'];
     $localized = [
         'home' => [
-            'en' => ['IMPROOV | 3D Architectural Visualization for Real Estate', 'IMPROOV transforms real estate developments into visual experiences through 3D imagery, animations and films that communicate, inspire and add value.'],
-            'es' => ['IMPROOV | Visualización arquitectónica 3D para proyectos inmobiliarios', 'IMPROOV transforma proyectos inmobiliarios en experiencias visuales con imágenes 3D, animaciones y películas que comunican, inspiran y generan valor.'],
+            'en' => ['IMPROOV | 3D Architectural Visualization for the Real Estate Market', 'IMPROOV transforms real estate developments into visual experiences through 3D imagery, animations and films that communicate, inspire and add value.'],
+            'es' => ['IMPROOV | Visualización arquitectónica 3D para el mercado inmobiliario', 'IMPROOV transforma proyectos inmobiliarios en experiencias visuales con imágenes 3D, animaciones y películas que comunican, inspiran y generan valor.'],
         ],
         'quem-somos' => [
-            'en' => ['About IMPROOV', 'Learn about Improov’s studio, philosophy and work for the real estate market.'],
-            'es' => ['Sobre IMPROOV', 'Conozca el estudio, la filosofía y el trabajo de Improov para el mercado inmobiliario.'],
+            'en' => ['IMPROOV | Communication and Art for the Real Estate Market', 'Learn about Improov’s studio, philosophy and work for the real estate market.'],
+            'es' => ['IMPROOV | Comunicación y Arte para el Mercado Inmobiliario', 'Conozca el estudio, la filosofía y el trabajo de Improov para el mercado inmobiliario.'],
         ],
         'projetos' => [
-            'en' => ['Projects | IMPROOV', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
-            'es' => ['Proyectos | IMPROOV', 'Conozca proyectos de imágenes 3D, animaciones, películas y materiales visuales producidos por Improov.'],
+            'en' => ['IMPROOV | Portfolio of 3D Images and Real Estate Films', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
+            'es' => ['IMPROOV | Portafolio de Imágenes 3D y Películas Inmobiliarias', 'Conozca proyectos de imágenes 3D, animaciones, películas y materiales visuales producidos por Improov.'],
         ],
         'trabalhe-conosco' => [
-            'en' => ['Careers | IMPROOV', 'Join the team that transforms ideas into visual experiences.'],
-            'es' => ['Trabaja con nosotros | IMPROOV', 'Forma parte del equipo que transforma ideas en experiencias visuales.'],
+            'en' => ['IMPROOV | Work With Us', 'Join the team that transforms ideas into visual experiences.'],
+            'es' => ['IMPROOV | Trabaja con Nosotros', 'Forma parte del equipo que transforma ideas en experiencias visuales.'],
         ],
         'contato' => [
-            'en' => ['Contact | IMPROOV', 'Talk to Improov about 3D images, animations, films and visual experiences for your project.'],
-            'es' => ['Contacto | IMPROOV', 'Hable con Improov sobre imágenes 3D, animaciones, películas y experiencias visuales para su proyecto.'],
+            'en' => ['Talk to Improov | 3D Images and Real Estate Films', 'Talk to Improov about 3D images, animations, films and visual experiences for your project.'],
+            'es' => ['Habla con Improov | Imágenes 3D y Películas Inmobiliarias', 'Hable con Improov sobre imágenes 3D, animaciones, películas y experiencias visuales para su proyecto.'],
         ],
         'privacidade' => [
-            'en' => ['Privacy Policy | IMPROOV', 'How Improov handles data submitted through commercial and recruitment forms.'],
-            'es' => ['Política de privacidad | IMPROOV', 'Cómo Improov trata los datos enviados mediante formularios comerciales y de selección.'],
+            'en' => ['Privacy Policy — Improov', 'How Improov handles data submitted through commercial and recruitment forms.'],
+            'es' => ['Política de Privacidad — Improov', 'Cómo Improov trata los datos enviados mediante formularios comerciales y de selección.'],
+        ],
+        '404' => [
+            'en' => ['Page Not Found — Improov', 'The requested page could not be found.'],
+            'es' => ['Página no encontrada — Improov', 'La página solicitada no fue encontrada.'],
         ],
     ];
     $translation = $localized[$key][current_language()] ?? null;

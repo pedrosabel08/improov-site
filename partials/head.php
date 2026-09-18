@@ -36,7 +36,7 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
   <?php if ($case !== null): ?>
     <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
-  <link rel="icon" href="<?= escape(asset('assets/favicon.jpg')) ?>" type="image/jpeg">
+  <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/jpeg">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
   </script>
@@ -46,6 +46,16 @@
   <?php if ($project !== null): ?><script type="application/ld+json">
       <?= json_encode(['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [['@type' => 'ListItem', 'position' => 1, 'name' => 'Projetos', 'item' => canonical_url('projetos')], ['@type' => 'ListItem', 'position' => 2, 'name' => translated($project['title']), 'item' => canonical_url('projetos/' . $project['slug'])]]], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
     </script><?php endif; ?>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B5NQ8F79YD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B5NQ8F79YD');
+</script>
 </head>
 
 <body class="page page--<?= escape($pageKey) ?><?= $case !== null ? ' page--case' : '' ?>">
