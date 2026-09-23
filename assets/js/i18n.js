@@ -10,8 +10,7 @@
       "contact.optionFilms": "Filmes",
       "contact.optionInteractiveExperiences": "Experiências interativas",
       "contact.attachmentHint": "PDF, JPG, PNG ou ZIP — até 20 MB",
-      "contact.address":
-        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
+      "contact.address": "Rua Bahia, 988 - Bairro do Salto, Blumenau - SC",
       "contact.hours": "Segunda a sexta, das 9h às 18h",
       "form.roleArt": "Direção de arte",
       "form.roleArchitecture": "Arquitetura",
@@ -41,7 +40,7 @@
       "menu.close": "Fechar menu",
       "whatsapp.label": "Falar com a Improov no WhatsApp",
       "footer.description":
-        "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.",
+        "Criamos imagens 3D, animações e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.",
       "footer.navigation": "Navegação",
       "footer.contact": "Contato",
       "footer.follow": "Siga-nos",
@@ -50,7 +49,7 @@
       "home.eyebrow": "Imagens que",
       "home.title": "Fazem sentir antes de existir",
       "home.intro":
-        "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos conectando arquitetura, arte e emoção.",
+        "Produzimos imagens 3D, animações e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.",
       "home.action": "Conheça nosso trabalho",
       "home.pillarsEyebrow": "Nossa proposta",
       "home.pillarsTitle": "Imagem com intenção. Experiência com propósito.",
@@ -63,18 +62,29 @@
       "home.pillar3Text": "Caminhamos juntos em todas as etapas.",
       "home.pillar4": "Impacto real",
       "home.pillar4Text": "Imagens que comunicam valor e despertam desejo.",
+      "faq.eyebrow": "Dúvidas comuns",
+      "faq.title": "Sobre o trabalho da Improov",
+      "faq.q1": "Que materiais a Improov produz?",
+      "faq.a1":
+        "Criamos imagens 3D, animações, filmes, plantas humanizadas e outras experiências visuais para empreendimentos imobiliários.",
+      "faq.q2": "Para quem são esses materiais?",
+      "faq.a2":
+        "Nosso trabalho apoia a comunicação de incorporadoras, construtoras e equipes envolvidas em empreendimentos imobiliários.",
+      "faq.q3": "Como conversar sobre um projeto?",
+      "faq.a3":
+        "Entre em contato pelo formulário ou WhatsApp e conte à nossa equipe o que você precisa apresentar sobre o empreendimento.",
       "home.projectsTitle": "Conheça alguns dos nossos trabalhos.",
       "home.allProjects": "Ver todos os projetos",
       "projects.eyebrow": "Projetos",
       "projects.title": "Imagens que revelam o essencial de cada projeto.",
       "projects.intro":
-        "Desenvolvemos imagens arquitetônicas e experiências visuais que valorizam a intenção do projeto.",
+        "Conheça projetos de visualização arquitetônica, imagens 3D, animações e filmes para o mercado imobiliário.",
       "projects.label": "Projetos da Improov",
       "projects.project": "Projeto",
       "about.eyebrow": "Quem Somos",
       "about.title": "Artesãos Digitais",
       "about.intro":
-        "A Improov possui a experiência de 20 anos no desenvolvimento de materiais para lançamentos imobiliários e temos a convicção de que grandes empreendimentos não são vendidos apenas por suas características. Eles conquistam pessoas pelas emoções que despertam.",
+        "A Improov tem 20 anos de experiência no desenvolvimento de materiais para lançamentos imobiliários. Acreditamos que grandes empreendimentos não são vendidos apenas por suas características: eles conquistam pessoas pelas emoções que despertam.",
       "about.manifestoEyebrow": "Nossa essência",
       "about.manifestoTitle":
         "Grandes empreendimentos conquistam pessoas pelas emoções que despertam.",
@@ -167,7 +177,8 @@
       "form.experience": "Conte um pouco sobre você e sua experiência",
       "form.sendApplication": "Enviar candidatura",
       "form.sending": "Enviando...",
-      "form.success": "Recebemos sua mensagem e ela foi registrada para atendimento.",
+      "form.success":
+        "Recebemos sua mensagem e ela foi registrada para atendimento.",
       "form.validation": "Revise os campos destacados.",
       "form.fileSize": "O arquivo excede o limite permitido.",
       "form.error":
@@ -208,7 +219,7 @@
       "contact.optionInteractiveExperiences": "Interactive experiences",
       "contact.attachmentHint": "PDF, JPG, PNG or ZIP — up to 20 MB",
       "contact.address":
-        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brazil",
+        "Rua Bahia, 988 - Bairro do Salto, Blumenau - SC, Brazil",
       "contact.hours": "Monday to Friday, 9am to 6pm",
       "form.roleArt": "Art direction",
       "form.roleArchitecture": "Architecture",
@@ -238,7 +249,7 @@
       "menu.close": "Close menu",
       "whatsapp.label": "Talk to Improov on WhatsApp",
       "footer.description":
-        "We create images and visual experiences that connect people to architecture and the future.",
+        "We create 3D images, animations and films that bring real estate developments to life before they are built, connecting architecture, art and emotion.",
       "footer.navigation": "Navigation",
       "footer.contact": "Contact",
       "footer.follow": "Follow us",
@@ -247,7 +258,7 @@
       "home.eyebrow": "Images that",
       "home.title": "Make you feel before they exist",
       "home.intro":
-        "We create architectural images and visual experiences that connect people to architecture and the future.",
+        "We create 3D architectural images, animations and films that bring real estate developments to life before they are built, connecting architecture, art and emotion.",
       "home.action": "Discover our work",
       "home.pillarsEyebrow": "Our proposition",
       "home.pillarsTitle": "Images with intention. Experiences with purpose.",
@@ -260,18 +271,29 @@
       "home.pillar3Text": "We work together throughout every stage.",
       "home.pillar4": "Real impact",
       "home.pillar4Text": "Images that communicate value and inspire desire.",
+      "faq.eyebrow": "Common questions",
+      "faq.title": "About Improov’s work",
+      "faq.q1": "What materials does Improov create?",
+      "faq.a1":
+        "We create 3D images, animations, films, humanized floor plans and other visual experiences for real estate developments.",
+      "faq.q2": "Who are these materials for?",
+      "faq.a2":
+        "Our work supports communication for real estate developers, builders and teams involved in property developments.",
+      "faq.q3": "How can I discuss a project?",
+      "faq.a3":
+        "Contact us through the form or WhatsApp and tell our team what you need to present about the development.",
       "home.projectsTitle": "Discover some of our work.",
       "home.allProjects": "View all projects",
       "projects.eyebrow": "Projects",
       "projects.title": "Images that reveal the essence of every project.",
       "projects.intro":
-        "We create architectural images and visual experiences that value the intention behind each project.",
+        "Explore architectural visualization projects, including 3D images, animations and films for real estate.",
       "projects.label": "Improov projects",
       "projects.project": "Project",
       "about.eyebrow": "About Us",
       "about.title": "About Us",
       "about.intro":
-        "Improov was born from the conviction that great developments are not sold by their features alone. They win people over through the emotions they awaken.",
+        "Improov has 20 years of experience creating materials for real estate launches. We believe great developments are not sold by their features alone: they win people over through the emotions they awaken.",
       "about.manifestoEyebrow": "Our essence",
       "about.manifestoTitle":
         "Great developments win people over through the emotions they awaken.",
@@ -401,7 +423,7 @@
       "contact.optionInteractiveExperiences": "Experiencias interactivas",
       "contact.attachmentHint": "PDF, JPG, PNG o ZIP — hasta 20 MB",
       "contact.address":
-        "Rua Bahia, 821 — Bairro Do Salto — Blumenau, SC — 89031-001 — Brasil",
+        "Rua Bahia, 988 - Bairro do Salto, Blumenau - SC, Brasil",
       "contact.hours": "Lunes a viernes, de 9h a 18h",
       "form.roleArt": "Dirección de arte",
       "form.roleArchitecture": "Arquitectura",
@@ -431,7 +453,7 @@
       "menu.close": "Cerrar menú",
       "whatsapp.label": "Hablar con Improov por WhatsApp",
       "footer.description":
-        "Creamos imágenes y experiencias visuales que conectan personas con la arquitectura y el futuro.",
+        "Creamos imágenes 3D, animaciones y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.",
       "footer.navigation": "Navegación",
       "footer.contact": "Contacto",
       "footer.follow": "Síguenos",
@@ -440,7 +462,7 @@
       "home.eyebrow": "Imágenes que",
       "home.title": "Hacen sentir antes de existir",
       "home.intro":
-        "Creamos imágenes arquitectónicas y experiencias visuales que conectan personas con la arquitectura y el futuro.",
+        "Creamos imágenes arquitectónicas 3D, animaciones y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.",
       "home.action": "Conoce nuestro trabajo",
       "home.pillarsEyebrow": "Nuestra propuesta",
       "home.pillarsTitle": "Imagen con intención. Experiencia con propósito.",
@@ -454,18 +476,29 @@
       "home.pillar3Text": "Caminamos juntos en cada etapa.",
       "home.pillar4": "Impacto real",
       "home.pillar4Text": "Imágenes que comunican valor y despiertan deseo.",
+      "faq.eyebrow": "Preguntas frecuentes",
+      "faq.title": "Sobre el trabajo de Improov",
+      "faq.q1": "¿Qué materiales produce Improov?",
+      "faq.a1":
+        "Creamos imágenes 3D, animaciones, películas, plantas humanizadas y otras experiencias visuales para proyectos inmobiliarios.",
+      "faq.q2": "¿Para quiénes son estos materiales?",
+      "faq.a2":
+        "Nuestro trabajo apoya la comunicación de desarrolladores inmobiliarios, constructoras y equipos involucrados en proyectos inmobiliarios.",
+      "faq.q3": "¿Cómo puedo conversar sobre un proyecto?",
+      "faq.a3":
+        "Contáctanos por el formulario o WhatsApp y cuéntale a nuestro equipo qué necesitas presentar sobre el proyecto.",
       "home.projectsTitle": "Conoce algunos de nuestros trabajos.",
       "home.allProjects": "Ver todos los proyectos",
       "projects.eyebrow": "Proyectos",
       "projects.title": "Imágenes que revelan lo esencial de cada proyecto.",
       "projects.intro":
-        "Creamos imágenes arquitectónicas y experiencias que valoran la intención de cada proyecto.",
+        "Conoce proyectos de visualización arquitectónica, imágenes 3D, animaciones y películas para el mercado inmobiliario.",
       "projects.label": "Proyectos de Improov",
       "projects.project": "Proyecto",
       "about.eyebrow": "Quiénes Somos",
       "about.title": "Quiénes Somos",
       "about.intro":
-        "Improov nació de la convicción de que los grandes proyectos inmobiliarios no se venden solo por sus características. Conquistan a las personas por las emociones que despiertan.",
+        "Improov tiene 20 años de experiencia desarrollando materiales para lanzamientos inmobiliarios. Creemos que los grandes proyectos no se venden solo por sus características: conquistan a las personas por las emociones que despiertan.",
       "about.manifestoEyebrow": "Nuestra esencia",
       "about.manifestoTitle":
         "Los grandes proyectos conquistan a las personas por las emociones que despiertan.",
@@ -622,15 +655,19 @@
         return;
       el.innerHTML = translate(key, lang);
     });
-    document
-      .querySelectorAll("[data-language]")
-      .forEach((control) => {
-        if (control.tagName === "A") {
-          control.setAttribute("aria-current", String(control.dataset.language === lang));
-        } else {
-          control.setAttribute("aria-pressed", String(control.dataset.language === lang));
-        }
-      });
+    document.querySelectorAll("[data-language]").forEach((control) => {
+      if (control.tagName === "A") {
+        control.setAttribute(
+          "aria-current",
+          String(control.dataset.language === lang),
+        );
+      } else {
+        control.setAttribute(
+          "aria-pressed",
+          String(control.dataset.language === lang),
+        );
+      }
+    });
     document.querySelectorAll("[data-language-input]").forEach((input) => {
       input.value = lang;
     });

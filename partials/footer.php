@@ -2,7 +2,7 @@
   <div class="site-footer__grid">
     <div class="footer-brand">
       <img class="footer-brand__logo" src="<?= escape(asset('assets/IMPROOV_SQUAD(black).gif')) ?>" alt="Improov">
-      <p data-i18n="footer.description">Criamos imagens e experiências visuais que conectam pessoas a projetos de arquitetura e ao futuro.</p>
+      <p data-i18n="footer.description"><?= escape(ui_text('footer.description')) ?></p>
     </div>
     <div>
       <p class="footer-label" data-i18n="footer.navigation">Navegação</p><a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">Quem Somos</a><a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">Projetos</a><a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">Trabalhe Conosco</a><a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">Contato</a>

@@ -76,6 +76,26 @@
 .pillars {
   border-bottom: 1px solid var(--color-border-soft);
 }
+.faq {
+  max-width: 980px;
+}
+.faq__list {
+  border-top: 1px solid var(--color-border-soft);
+}
+.faq__item {
+  padding: 22px 0;
+  border-bottom: 1px solid var(--color-border-soft);
+}
+.faq__item summary {
+  cursor: pointer;
+  font-size: var(--text-body);
+  font-weight: 500;
+}
+.faq__item p {
+  max-width: 700px;
+  margin: 14px 0 0;
+  color: var(--color-muted);
+}
 .pillars__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

@@ -36,15 +36,46 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
   <?php if ($case !== null): ?>
     <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
-  <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/jpeg">
+  <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/png">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
   </script>
   <script type="application/ld+json">
-    <?= json_encode(['@context' => 'https://schema.org', '@type' => 'Organization', 'name' => 'Improov', 'url' => canonical_url('', 'pt-BR'), 'email' => $site['email'], 'telephone' => $site['phoneDisplay'], 'address' => ['@type' => 'PostalAddress', 'addressLocality' => 'Blumenau', 'addressRegion' => 'SC', 'addressCountry' => 'BR'], 'sameAs' => array_values($site['social'])], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
+    <?= json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'Organization',
+        '@id' => canonical_url('', 'pt-BR') . '#organization',
+        'name' => $site['name'],
+        'url' => canonical_url('', 'pt-BR'),
+        'description' => page_metadata('home')['description'],
+        'email' => $site['email'],
+        'telephone' => $site['phoneDisplay'],
+        'address' => ['@type' => 'PostalAddress'] + $site['postalAddress'],
+        'contactPoint' => [[
+            '@type' => 'ContactPoint',
+            'contactType' => 'commercial inquiries',
+            'telephone' => $site['phoneDisplay'],
+            'email' => $site['email'],
+            'availableLanguage' => ['pt-BR', 'en', 'es'],
+        ]],
+        'sameAs' => array_values($site['social']),
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
   </script>
   <?php if ($project !== null): ?><script type="application/ld+json">
-      <?= json_encode(['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [['@type' => 'ListItem', 'position' => 1, 'name' => 'Projetos', 'item' => canonical_url('projetos')], ['@type' => 'ListItem', 'position' => 2, 'name' => translated($project['title']), 'item' => canonical_url('projetos/' . $project['slug'])]]], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
+      <?= json_encode(['@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => [['@type' => 'ListItem', 'position' => 1, 'name' => ui_text('projects.eyebrow'), 'item' => canonical_url('projetos')], ['@type' => 'ListItem', 'position' => 2, 'name' => translated($project['title']), 'item' => canonical_url('projetos/' . $project['slug'])]]], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
+    </script><?php endif; ?>
+  <?php if ($project !== null): ?><script type="application/ld+json">
+      <?= json_encode([
+          '@context' => 'https://schema.org',
+          '@type' => 'CreativeWork',
+          '@id' => canonical_url('projetos/' . $project['slug']) . '#case',
+          'name' => translated($project['title']),
+          'url' => canonical_url('projetos/' . $project['slug']),
+          'description' => $meta['description'],
+          'image' => APP_ORIGIN . asset($project['media']['hero']['src']),
+          'inLanguage' => current_language(),
+          'creator' => ['@id' => canonical_url('', 'pt-BR') . '#organization'],
+      ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
     </script><?php endif; ?>
 
     <!-- Google tag (gtag.js) -->

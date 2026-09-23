@@ -1,9 +1,9 @@
 <main id="conteudo">
   <section class="editorial-hero editorial-hero--contact">
     <div class="editorial-hero__inner container">
-      <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow">Contato</span>
-        <h1 data-i18n="contact.title">Vamos conversar sobre seu próximo projeto.</h1>
-        <p data-i18n="contact.intro">Criamos imagens e experiências visuais que transformam projetos de arquitetura e imobiliário em conexões reais.</p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
+      <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow"><?= escape(ui_text('contact.eyebrow')) ?></span>
+        <h1 data-i18n="contact.title"><?= escape(ui_text('contact.title')) ?></h1>
+        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>" target="_blank" rel="noopener"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
         <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>
