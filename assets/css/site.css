@@ -73,7 +73,7 @@ h3 {
   letter-spacing: -0.035em;
 }
 h1 {
-  font-size: clamp(2.8rem, 6.1vw, 6.8rem);
+  font-size: clamp(2.35rem, 4.5vw, 4.7rem);
 }
 h2 {
   font-size: clamp(2rem, 4vw, 3.25rem);

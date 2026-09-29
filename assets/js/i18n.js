@@ -40,7 +40,7 @@
       "menu.close": "Fechar menu",
       "whatsapp.label": "Falar com a Improov no WhatsApp",
       "footer.description":
-        "Criamos imagens 3D, animações e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.",
+        "Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.",
       "footer.navigation": "Navegação",
       "footer.contact": "Contato",
       "footer.follow": "Siga-nos",
@@ -49,7 +49,7 @@
       "home.eyebrow": "Imagens que",
       "home.title": "Fazem sentir antes de existir",
       "home.intro":
-        "Produzimos imagens 3D, animações e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.",
+        "Produzimos imagens 3D, animações 3D e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.",
       "home.action": "Conheça nosso trabalho",
       "home.pillarsEyebrow": "Nossa proposta",
       "home.pillarsTitle": "Imagem com intenção. Experiência com propósito.",
@@ -78,7 +78,7 @@
       "projects.eyebrow": "Projetos",
       "projects.title": "Imagens que revelam o essencial de cada projeto.",
       "projects.intro":
-        "Conheça projetos de visualização arquitetônica, imagens 3D, animações e filmes para o mercado imobiliário.",
+        "Conheça projetos de visualização arquitetônica, imagens 3D, animações 3D e filmes para o mercado imobiliário.",
       "projects.label": "Projetos da Improov",
       "projects.project": "Projeto",
       "about.eyebrow": "Quem Somos",

@@ -33,8 +33,8 @@ function ui_text(string $key): string
         'pt-BR' => [
             'home.eyebrow' => 'Imagens que',
             'home.title' => 'Fazem sentir antes de existir',
-            'home.intro' => 'Produzimos imagens 3D, animações e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.',
-            'footer.description' => 'Criamos imagens 3D, animações e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.',
+            'home.intro' => 'Produzimos imagens 3D, animações 3D e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.',
+            'footer.description' => 'Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.',
             'cta.eyebrow' => 'Vamos conversar?',
             'cta.title' => 'Seu próximo projeto começa com uma boa imagem.',
             'cta.action' => 'Fale conosco',
@@ -50,7 +50,7 @@ function ui_text(string $key): string
             'faq.eyebrow' => 'Dúvidas comuns',
             'faq.title' => 'Sobre o trabalho da Improov',
             'faq.q1' => 'Que materiais a Improov produz?',
-            'faq.a1' => 'Criamos imagens 3D, animações, filmes, plantas humanizadas e outras experiências visuais para empreendimentos imobiliários.',
+            'faq.a1' => 'Criamos imagens 3D, animações 3D, filmes, plantas humanizadas e outras experiências visuais para empreendimentos imobiliários.',
             'faq.q2' => 'Para quem são esses materiais?',
             'faq.a2' => 'Nosso trabalho apoia a comunicação de incorporadoras, construtoras e equipes envolvidas em empreendimentos imobiliários.',
             'faq.q3' => 'Como conversar sobre um projeto?',
@@ -74,7 +74,7 @@ function ui_text(string $key): string
             'about.studioText' => 'Um ambiente acolhedor, técnico e criativo, onde colaboração e atenção aos detalhes se encontram todos os dias.',
             'projects.eyebrow' => 'Projetos',
             'projects.title' => 'Imagens que revelam o essencial de cada projeto.',
-            'projects.intro' => 'Conheça projetos de visualização arquitetônica, imagens 3D, animações e filmes para o mercado imobiliário.',
+            'projects.intro' => 'Conheça projetos de visualização arquitetônica, imagens 3D, animações 3D e filmes para o mercado imobiliário.',
             'careers.eyebrow' => 'Trabalhe Conosco',
             'careers.title' => 'Faça parte do time que transforma ideias em experiências visuais.',
             'careers.intro' => 'Somos movidos por curiosidade, colaboração e paixão por imagem.',
@@ -104,7 +104,7 @@ function ui_text(string $key): string
             'faq.eyebrow' => 'Common questions',
             'faq.title' => 'About Improov’s work',
             'faq.q1' => 'What materials does Improov create?',
-            'faq.a1' => 'We create 3D images, animations, films, humanized floor plans and other visual experiences for real estate developments.',
+            'faq.a1' => 'We create 3D images, 3D animations, films, humanized floor plans and other visual experiences for real estate developments.',
             'faq.q2' => 'Who are these materials for?',
             'faq.a2' => 'Our work supports communication for real estate developers, builders and teams involved in property developments.',
             'faq.q3' => 'How can I discuss a project?',
@@ -113,7 +113,7 @@ function ui_text(string $key): string
             'about.title' => 'About Us',
             'about.intro' => 'Improov has 20 years of experience creating materials for real estate launches. We believe great developments are not sold by their features alone: they win people over through the emotions they awaken.',
             'about.manifestoTitle' => 'Great developments win people over through the emotions they awaken.',
-            'about.manifestoP1' => 'We specialize in communication for the real estate market, creating images, films, animations and visual experiences capable of turning projects into desire.',
+            'about.manifestoP1' => 'We specialize in communication for the real estate market, creating images, films, 3D animations and visual experiences capable of turning projects into desire.',
             'about.manifestoP2' => 'More than representing what has yet to be built, we translate the essence of each development. We seek to reveal its identity, atmosphere and the story behind its architecture.',
             'about.manifestoP3' => 'Our methodology combines creative direction, art, strategy and technology to develop materials that strengthen brands, delight clients and enhance commercial results.',
             'about.manifestoP4' => 'Every detail is designed to communicate truthfully. Every frame, light, movement and narrative exists to awaken feelings.',
@@ -128,7 +128,7 @@ function ui_text(string $key): string
             'about.studioText' => 'A welcoming, technical and creative environment where collaboration and attention to detail meet every day.',
             'projects.eyebrow' => 'Projects',
             'projects.title' => 'Images that reveal the essence of every project.',
-            'projects.intro' => 'Explore architectural visualization projects, including 3D images, animations and films for real estate.',
+            'projects.intro' => 'Explore architectural visualization projects, including 3D images, 3D animations and films for real estate.',
             'careers.eyebrow' => 'Careers',
             'careers.title' => 'Join the team that transforms ideas into visual experiences.',
             'careers.intro' => 'We are driven by curiosity, collaboration and a passion for imagery.',
@@ -141,8 +141,8 @@ function ui_text(string $key): string
         'es' => [
             'home.eyebrow' => 'Imágenes que',
             'home.title' => 'Hacen sentir antes de existir',
-            'home.intro' => 'Creamos imágenes arquitectónicas 3D, animaciones y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
-            'footer.description' => 'Creamos imágenes 3D, animaciones y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
+            'home.intro' => 'Creamos imágenes arquitectónicas 3D, animaciones 3D y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
+            'footer.description' => 'Creamos imágenes 3D, animaciones 3D y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
             'cta.eyebrow' => '¿Hablamos?',
             'cta.title' => 'Tu próximo proyecto comienza con una buena imagen.',
             'cta.action' => 'Hablar con nosotros',
@@ -158,7 +158,7 @@ function ui_text(string $key): string
             'faq.eyebrow' => 'Preguntas frecuentes',
             'faq.title' => 'Sobre el trabajo de Improov',
             'faq.q1' => '¿Qué materiales produce Improov?',
-            'faq.a1' => 'Creamos imágenes 3D, animaciones, películas, plantas humanizadas y otras experiencias visuales para proyectos inmobiliarios.',
+            'faq.a1' => 'Creamos imágenes 3D, animaciones 3D, películas, plantas humanizadas y otras experiencias visuales para proyectos inmobiliarios.',
             'faq.q2' => '¿Para quiénes son estos materiales?',
             'faq.a2' => 'Nuestro trabajo apoya la comunicación de desarrolladores inmobiliarios, constructoras y equipos involucrados en proyectos inmobiliarios.',
             'faq.q3' => '¿Cómo puedo conversar sobre un proyecto?',
@@ -167,7 +167,7 @@ function ui_text(string $key): string
             'about.title' => 'Quiénes Somos',
             'about.intro' => 'Improov tiene 20 años de experiencia desarrollando materiales para lanzamientos inmobiliarios. Creemos que los grandes proyectos no se venden solo por sus características: conquistan a las personas por las emociones que despiertan.',
             'about.manifestoTitle' => 'Los grandes proyectos conquistan a las personas por las emociones que despiertan.',
-            'about.manifestoP1' => 'Somos una empresa especializada en comunicación para el mercado inmobiliario, creando imágenes, películas, animaciones y experiencias visuales capaces de transformar proyectos en deseo.',
+            'about.manifestoP1' => 'Somos una empresa especializada en comunicación para el mercado inmobiliario, creando imágenes, películas, animaciones 3D y experiencias visuales capaces de transformar proyectos en deseo.',
             'about.manifestoP2' => 'Más que representar aquello que aún será construido, traducimos la esencia de cada proyecto. Buscamos revelar su identidad, su atmósfera y la historia que existe detrás de la arquitectura.',
             'about.manifestoP3' => 'Nuestra metodología une dirección creativa, arte, estrategia y tecnología para desarrollar materiales que fortalecen marcas, encantan a clientes y potencian resultados comerciales.',
             'about.manifestoP4' => 'Cada detalle está pensado para comunicar con verdad. Cada encuadre, cada luz, cada movimiento y cada narrativa existen para despertar sentimientos.',
@@ -182,7 +182,7 @@ function ui_text(string $key): string
             'about.studioText' => 'Un ambiente acogedor, técnico y creativo donde colaboración y atención al detalle se encuentran cada día.',
             'projects.eyebrow' => 'Proyectos',
             'projects.title' => 'Imágenes que revelan lo esencial de cada proyecto.',
-            'projects.intro' => 'Conoce proyectos de visualización arquitectónica, imágenes 3D, animaciones y películas para el mercado inmobiliario.',
+            'projects.intro' => 'Conoce proyectos de visualización arquitectónica, imágenes 3D, animaciones 3D y películas para el mercado inmobiliario.',
             'careers.eyebrow' => 'Trabaja con Nosotros',
             'careers.title' => 'Forma parte del equipo que transforma ideas en experiencias visuales.',
             'careers.intro' => 'Nos mueven la curiosidad, la colaboración y la pasión por la imagen.',
@@ -203,7 +203,7 @@ function page_metadata(string $key): array
     $pages = [
         'home' => [
             'title' => 'IMPROOV | Visualização arquitetônica 3D para o mercado imobiliário',
-            'description' => 'A IMPROOV transforma projetos imobiliários em experiências visuais com imagens 3D, animações e filmes que comunicam, encantam e valorizam cada empreendimento.',
+            'description' => 'A IMPROOV transforma projetos imobiliários em experiências visuais com imagens 3D, animações 3D e filmes que comunicam, encantam e valorizam cada empreendimento.',
             'path' => '',
             'image' => 'assets/media/aya-kar/v1/hero-1440.jpg',
         ],
@@ -215,7 +215,7 @@ function page_metadata(string $key): array
         ],
         'projetos' => [
             'title' => 'IMPROOV | Portfólio de Imagens 3D e Filmes Imobiliários',
-            'description' => 'Conheça projetos de imagens 3D, animações, filmes e materiais visuais produzidos pela Improov para o mercado imobiliário.',
+            'description' => 'Conheça projetos de imagens 3D, animações 3D, filmes e materiais visuais produzidos pela Improov para o mercado imobiliário.',
             'path' => 'projetos',
             'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg',
         ],
@@ -227,7 +227,7 @@ function page_metadata(string $key): array
         ],
         'contato' => [
             'title' => 'Fale com a Improov | Imagens 3D e Filmes Imobiliários',
-            'description' => 'Fale com a Improov sobre imagens 3D, animações, filmes e experiências visuais para o seu empreendimento.',
+            'description' => 'Fale com a Improov sobre imagens 3D, animações 3D, filmes e experiências visuais para o seu empreendimento.',
             'path' => 'contato',
             'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
         ],
@@ -249,7 +249,7 @@ function page_metadata(string $key): array
     $localized = [
         'home' => [
             'en' => ['IMPROOV | 3D Architectural Visualization for the Real Estate Market', 'IMPROOV transforms real estate developments into visual experiences through 3D imagery, animations and films that communicate, inspire and add value.'],
-            'es' => ['IMPROOV | Visualización arquitectónica 3D para el mercado inmobiliario', 'IMPROOV transforma proyectos inmobiliarios en experiencias visuales con imágenes 3D, animaciones y películas que comunican, inspiran y generan valor.'],
+            'es' => ['IMPROOV | Visualización arquitectónica 3D para el mercado inmobiliario', 'IMPROOV transforma proyectos inmobiliarios en experiencias visuales con imágenes 3D, animaciones 3D y películas que comunican, inspiran y generan valor.'],
         ],
         'quem-somos' => [
             'en' => ['IMPROOV | Communication and Art for the Real Estate Market', 'Learn about Improov’s studio, philosophy and work for the real estate market.'],
@@ -257,7 +257,7 @@ function page_metadata(string $key): array
         ],
         'projetos' => [
             'en' => ['IMPROOV | Portfolio of 3D Images and Real Estate Films', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
-            'es' => ['IMPROOV | Portafolio de Imágenes 3D y Películas Inmobiliarias', 'Conozca proyectos de imágenes 3D, animaciones, películas y materiales visuales producidos por Improov.'],
+            'es' => ['IMPROOV | Portafolio de Imágenes 3D y Películas Inmobiliarias', 'Conozca proyectos de imágenes 3D, animaciones 3D, películas y materiales visuales producidos por Improov.'],
         ],
         'trabalhe-conosco' => [
             'en' => ['IMPROOV | Work With Us', 'Join the team that transforms ideas into visual experiences.'],
@@ -265,7 +265,7 @@ function page_metadata(string $key): array
         ],
         'contato' => [
             'en' => ['Talk to Improov | 3D Images and Real Estate Films', 'Talk to Improov about 3D images, animations, films and visual experiences for your project.'],
-            'es' => ['Habla con Improov | Imágenes 3D y Películas Inmobiliarias', 'Hable con Improov sobre imágenes 3D, animaciones, películas y experiencias visuales para su proyecto.'],
+            'es' => ['Habla con Improov | Imágenes 3D y Películas Inmobiliarias', 'Hable con Improov sobre imágenes 3D, animaciones 3D, películas y experiencias visuales para su proyecto.'],
         ],
         'privacidade' => [
             'en' => ['Privacy Policy — Improov', 'How Improov handles data submitted through commercial and recruitment forms.'],
