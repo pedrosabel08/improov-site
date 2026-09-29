@@ -11,30 +11,22 @@
         "6.AYA_KAR Piscina Maior.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Banner/FG_Talls_F_1.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Heartmade/19.ARS_VIE Piscina_Detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Improov/2021_0608_OMNI Promo v.01(assinatura) 2.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         }
       }
     },
@@ -42,87 +34,63 @@
       "defaults": {
         "publish": true,
         "poster": true,
-        "variants": [
-          "1080"
-        ]
+        "variants": ["1080"]
       },
       "sources": {
         "animacoes/animacao-ars-vie-tracking-0006.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-ars-vie-tracking-0050.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-ars-vie-tracking-0122.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-22-ars-vie-redario-detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-19-ars-vie-piscina-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "filmes/filme-2025-ars-vie-concept-4k-v3.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4": {
           "publish": true,
@@ -161,128 +129,92 @@
         "animacoes/animacao-6-aya-kar-piscina-maior.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-12-aya-kar-suite-master-interior.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-17-aya-kar-rooftop-mata.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-24-aya-kar-playground.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-27-aya-kar-sacada.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-4-aya-kar-rampa-garagem.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-7-aya-kar-piscina-infantil.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "filmes/filme-2026-aya-kar-concept-dc-4k.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "filmes/filme-2026-aya-kar-depo-full-dc.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "animacoes/animacao-32-aya-kar-rooftop.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         }
       }
     },
@@ -296,63 +228,303 @@
         "animacoes/animacao-2-alp-sc-conceito.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "filmes/filme-alpes-sc-institucional-en.mp4": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         }
       }
     },
     "gt-lac": {
-      "defaults": {"publish": false, "poster": false, "variants": []},
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
       "sources": {
-        "animacoes/animacao-gt-lac-tracking-0044.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master.mp4": {"publish": true, "poster": true, "variants": ["1080"]}
+        "animacoes/animacao-gt-lac-tracking-0044.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
       }
     },
     "aya-cas": {
-      "defaults": {"publish": false, "poster": false, "variants": []},
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
       "sources": {
-        "animacoes/animacao-aya-est-rua.mov": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-02-aya-cas-living-interno-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-06-aya-cas-piscina-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-09-aya-cas-suite-horizontal.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-aya-est-home-office.mov": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/animacao-aya-est-jardim-interno.mov": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/vertical-03-aya-cas-home-office.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "animacoes/vertical-06-aya-cas-piscina.mp4": {"publish": true, "poster": true, "variants": ["1080"]},
-        "filmes/filme-2022-aya-casas-depoimento.mp4": {"publish": true, "poster": true, "variants": ["1080"]}
+        "animacoes/animacao-aya-est-rua.mov": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-02-aya-cas-living-interno-horizontal.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-06-aya-cas-piscina-horizontal.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-09-aya-cas-suite-horizontal.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-aya-est-home-office.mov": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-aya-est-jardim-interno.mov": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/vertical-03-aya-cas-home-office.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/vertical-06-aya-cas-piscina.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-2022-aya-casas-depoimento.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
       }
     },
     "hsa-mon": {
-      "defaults": { "publish": false, "poster": false, "variants": [] },
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
       "sources": {
-        "animacoes/22_HSA_MON Sky Pub.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/25. HSA_MON_Wine_lounge.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/26. HSA_MON_Living_Vista_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/29.HSA_MON_Suite Detalhe.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/29.HSA_MON_Suite GERAL.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Living_Sacada_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Tracking_0014_V2.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Tracking_0029.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Tracking_0042.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "filmes/HSA MON_conceito (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "filmes/HSA MON T1_amanhecer (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "filmes/HSA MON T2_o dia (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] },
-        "filmes/HSA MON T3_Noite (16x9) v1.mp4": { "publish": true, "poster": true, "variants": ["1080"] }
+        "animacoes/22_HSA_MON Sky Pub.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/25. HSA_MON_Wine_lounge.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/26. HSA_MON_Living_Vista_V2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/29.HSA_MON_Suite Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/29.HSA_MON_Suite GERAL.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Living_Sacada_V2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Tracking_0014_V2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Tracking_0029.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Tracking_0042.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/HSA MON_conceito (16x9) v1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/HSA MON T1_amanhecer (16x9) v1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/HSA MON T2_o dia (16x9) v1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/HSA MON T3_Noite (16x9) v1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
+      }
+    },
+    "talls-solutions": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-talls-solutions-capa.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-talls-solutions-processo-01.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-talls-solutions-processo-02.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-talls-solutions-processo-03.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-talls-solutions-institucional-en-legendas.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/making-of-talls-solutions-2024.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
+      }
+    },
+    "charles-ii-okean": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-charles-ii-capa.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-piscina-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-piscina-raia.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-academia-vista.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-academia-aerea.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-borda-infinita.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-hall-entrada.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-embasamento.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/tracking-charles-ii-yacht.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-charles-ii-parceria-gessele-okean.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-charles-ii-teaser.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
       }
     }
   }

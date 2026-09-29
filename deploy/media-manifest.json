@@ -1,16 +1,7 @@
 {
   "version": 1,
-  "widths": [
-    640,
-    1024,
-    1440,
-    1920
-  ],
-  "formats": [
-    "avif",
-    "webp",
-    "jpg"
-  ],
+  "widths": [640, 1024, 1440, 1920],
+  "formats": ["avif", "webp", "jpg"],
   "projects": [
     {
       "slug": "ars-vie",
@@ -585,6 +576,162 @@
         {
           "name": "gallery-23",
           "source": "projetos/hsa_mon/imagens/40. HSA_MON_PH_PENTHOUSE_EF.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "talls-solutions",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/talls-solutions/imagens/hero-talls-solutions.jpg"
+        }
+      ]
+    },
+    {
+      "slug": "charles-ii-okean",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/charles-ii-okean/imagens/imagem-01-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/charles-ii-okean/imagens/imagem-01-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/charles-ii-okean/imagens/imagem-02-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/charles-ii-okean/imagens/imagem-03-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/charles-ii-okean/imagens/imagem-04-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/charles-ii-okean/imagens/imagem-05-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/charles-ii-okean/imagens/imagem-06-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/charles-ii-okean/imagens/imagem-07-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/charles-ii-okean/imagens/imagem-08-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/charles-ii-okean/imagens/imagem-09-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/charles-ii-okean/imagens/imagem-10-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/charles-ii-okean/imagens/imagem-11-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/charles-ii-okean/imagens/imagem-12-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/charles-ii-okean/imagens/imagem-13-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/charles-ii-okean/imagens/imagem-14-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/charles-ii-okean/imagens/imagem-15-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/charles-ii-okean/imagens/imagem-16-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/charles-ii-okean/imagens/imagem-17-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/charles-ii-okean/imagens/imagem-18-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/charles-ii-okean/imagens/imagem-19-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/charles-ii-okean/imagens/imagem-20-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/charles-ii-okean/imagens/imagem-21-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/charles-ii-okean/imagens/imagem-22-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/charles-ii-okean/imagens/imagem-23-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-24",
+          "source": "projetos/charles-ii-okean/imagens/imagem-24-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-25",
+          "source": "projetos/charles-ii-okean/imagens/imagem-25-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-26",
+          "source": "projetos/charles-ii-okean/imagens/imagem-26-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-27",
+          "source": "projetos/charles-ii-okean/imagens/imagem-27-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-28",
+          "source": "projetos/charles-ii-okean/imagens/imagem-28-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-29",
+          "source": "projetos/charles-ii-okean/imagens/imagem-29-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-30",
+          "source": "projetos/charles-ii-okean/imagens/imagem-30-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-31",
+          "source": "projetos/charles-ii-okean/imagens/imagem-31-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-32",
+          "source": "projetos/charles-ii-okean/imagens/imagem-32-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-33",
+          "source": "projetos/charles-ii-okean/imagens/imagem-33-charles-ii-okean.jpg"
+        },
+        {
+          "name": "gallery-34",
+          "source": "projetos/charles-ii-okean/imagens/imagem-34-charles-ii-okean.jpg"
         }
       ]
     }

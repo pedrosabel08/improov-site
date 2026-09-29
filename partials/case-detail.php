@@ -6,207 +6,207 @@
 $caseVideos = case_videos((string) $project['slug']);
 $caseTitle = translated($project['title']);
 $caseText = static function (mixed $value): string {
-    if (is_array($value)) {
-        return translated($value);
-    }
-    return is_string($value) ? $value : '';
+  if (is_array($value)) {
+    return translated($value);
+  }
+  return is_string($value) ? $value : '';
 };
 $displaySectionLabel = static function (mixed $value) use ($caseText): string {
-    $label = $caseText($value);
-    return [
-        'Imagens' => 'Imagens 3D',
-        'Images' => '3D Images',
-        'Imágenes' => 'Imágenes 3D',
-        'Animações' => 'Animações 3D',
-        'Animations' => '3D Animations',
-        'Animaciones' => 'Animaciones 3D',
-    ][$label] ?? $label;
+  $label = $caseText($value);
+  return [
+    'Imagens' => 'Imagens 3D',
+    'Images' => '3D Images',
+    'Imágenes' => 'Imágenes 3D',
+    'Animações' => 'Animações 3D',
+    'Animations' => '3D Animations',
+    'Animaciones' => 'Animaciones 3D',
+  ][$label] ?? $label;
 };
 $imageExists = static function (mixed $source): bool {
-    if (!is_string($source) || $source === '' || str_contains($source, '..')) {
-        return false;
-    }
-    $mapped = media_map()[$source] ?? null;
-    if (is_array($mapped) && !empty($mapped['sources'])) {
-        return true;
-    }
-    return is_file(APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, ltrim($source, '/')));
+  if (!is_string($source) || $source === '' || str_contains($source, '..')) {
+    return false;
+  }
+  $mapped = media_map()[$source] ?? null;
+  if (is_array($mapped) && !empty($mapped['sources'])) {
+    return true;
+  }
+  return is_file(APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, ltrim($source, '/')));
 };
 $environmentMap = [];
 foreach ($case['environments'] ?? [] as $environment) {
-    if (is_array($environment) && !empty($environment['id'])) {
-        $environmentMap[(string) $environment['id']] = $environment;
-    }
+  if (is_array($environment) && !empty($environment['id'])) {
+    $environmentMap[(string) $environment['id']] = $environment;
+  }
 }
 $videoFor = static function (mixed $id) use ($caseVideos): ?array {
-    if (!is_string($id) || $id === '') {
-        return null;
-    }
-    $video = $caseVideos[$id] ?? null;
-    return is_array($video) && case_video_source($video) !== null ? $video : null;
+  if (!is_string($id) || $id === '') {
+    return null;
+  }
+  $video = $caseVideos[$id] ?? null;
+  return is_array($video) && case_video_source($video) !== null ? $video : null;
 };
 $renderImage = static function (string $source, string $class, string $sizes, string $alt, string $reveal = 'up', bool $priority = false) use ($caseTitle): string {
-    [$width, $height] = case_image_size($source);
-    return responsive_image($source, $caseTitle . ' — ' . $alt, $width, $height, $class, $sizes, $priority, ['data-case-reveal' => $reveal]);
+  [$width, $height] = case_image_size($source);
+  return responsive_image($source, $caseTitle . ' — ' . $alt, $width, $height, $class, $sizes, $priority, ['data-case-reveal' => $reveal]);
 };
 $renderCarouselImage = static function (string $source, string $class, string $sizes, string $alt) use ($caseTitle): string {
-    [$width, $height] = case_image_size($source);
-    return responsive_image($source, $caseTitle . ' — ' . $alt, $width, $height, $class, $sizes);
+  [$width, $height] = case_image_size($source);
+  return responsive_image($source, $caseTitle . ' — ' . $alt, $width, $height, $class, $sizes);
 };
 $lightboxImageUrl = static function (string $source): string {
-    $media = media_map()[$source] ?? null;
-    if (!is_array($media) || !is_array($media['sources'] ?? null) || $media['sources'] === []) {
-        return asset($source);
-    }
-    $widths = array_map('intval', array_keys($media['sources']));
-    rsort($widths, SORT_NUMERIC);
-    foreach ($widths as $width) {
-        $path = $media['sources'][(string) $width]['jpg'] ?? null;
-        if (is_string($path) && $path !== '') {
-            return asset($path);
-        }
-    }
+  $media = media_map()[$source] ?? null;
+  if (!is_array($media) || !is_array($media['sources'] ?? null) || $media['sources'] === []) {
     return asset($source);
+  }
+  $widths = array_map('intval', array_keys($media['sources']));
+  rsort($widths, SORT_NUMERIC);
+  foreach ($widths as $width) {
+    $path = $media['sources'][(string) $width]['jpg'] ?? null;
+    if (is_string($path) && $path !== '') {
+      return asset($path);
+    }
+  }
+  return asset($source);
 };
 $renderVideo = static function (array $video, string $class, string $kind, string $label = ''): string {
-    $source = case_video_source($video);
-    if ($source === null) {
-        return '';
-    }
-    $loop = !empty($video['loopCandidate']) ? ' loop' : '';
-    return sprintf(
-        '<video class="%s" data-case-video data-case-media-kind="%s" data-case-video-source="%s" poster="%s" width="%d" height="%d" preload="none" muted playsinline%s%s></video>',
-        escape($class),
-        escape($kind),
-        escape(asset((string) $source['src'])),
-        escape(asset((string) ($video['poster'] ?? ''))),
-        (int) ($source['width'] ?? $video['width'] ?? 1920),
-        (int) ($source['height'] ?? $video['height'] ?? 1080),
-        $loop,
-        $label !== '' ? ' aria-label="' . escape($label) . '"' : '',
-    );
+  $source = case_video_source($video);
+  if ($source === null) {
+    return '';
+  }
+  $loop = !empty($video['loopCandidate']) ? ' loop' : '';
+  return sprintf(
+    '<video class="%s" data-case-video data-case-media-kind="%s" data-case-video-source="%s" poster="%s" width="%d" height="%d" preload="none" muted playsinline%s%s></video>',
+    escape($class),
+    escape($kind),
+    escape(asset((string) $source['src'])),
+    escape(asset((string) ($video['poster'] ?? ''))),
+    (int) ($source['width'] ?? $video['width'] ?? 1920),
+    (int) ($source['height'] ?? $video['height'] ?? 1080),
+    $loop,
+    $label !== '' ? ' aria-label="' . escape($label) . '"' : '',
+  );
 };
 $sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor): bool {
-    $type = (string) ($section['type'] ?? '');
-    if ($type === 'gallery') {
-        $groups = $section['groups'] ?? [$section];
-        foreach ($groups as $group) {
-            if (!is_array($group)) {
-                continue;
-            }
-            if (($group['type'] ?? '') === 'editorialStory') {
-                foreach ($group['moments'] ?? [] as $moment) {
-                    foreach ($moment['items'] ?? [] as $item) {
-                        if (is_array($item) && $imageExists($item['src'] ?? null)) {
-                            return true;
-                        }
-                    }
-                }
-                continue;
-            }
-            foreach ($group['items'] ?? [] as $item) {
-                if (!is_array($item)) {
-                    continue;
-                }
-                if ($imageExists($item['src'] ?? null)) {
-                    return true;
-                }
-                foreach ($item['images'] ?? [] as $source) {
-                    if ($imageExists($source)) {
-                        return true;
-                    }
-                }
-                foreach ($item['items'] ?? [] as $image) {
-                    if (is_array($image) && ($imageExists($image['src'] ?? null) || $videoFor($image['mediaId'] ?? $image['video'] ?? null) !== null)) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
-    if ($type === 'carousel' || $type === 'interlude' || $type === 'editorialBlock' || $type === 'verticalMoments') {
-        foreach ($section['items'] ?? [] as $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-            if ($imageExists($item['src'] ?? null) || $videoFor($item['mediaId'] ?? $item['video'] ?? null) !== null) {
-                return true;
-            }
-        }
-        return false;
-    }
-    if ($type === 'stillMotion') {
-        $environment = $environmentMap[(string) ($section['environment'] ?? '')] ?? null;
-        return is_array($environment) && $imageExists($environment['still'] ?? null);
-    }
-    if ($type === 'motion') {
-        foreach ($section['items'] ?? [] as $id) {
-            if ($videoFor($id) !== null) {
-                return true;
-            }
-        }
-        return false;
-    }
-    if ($type === 'animations') {
-        foreach ($section['steps'] ?? [] as $step) {
-            if (!is_array($step)) {
-                continue;
-            }
-            foreach ($step['items'] ?? [] as $item) {
-                $mediaId = is_array($item) ? ($item['mediaId'] ?? $item['id'] ?? null) : $item;
-                if ($videoFor($mediaId) !== null) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-    if ($type === 'floorplans') {
-        foreach ($section['items'] ?? [] as $item) {
+  $type = (string) ($section['type'] ?? '');
+  if ($type === 'gallery') {
+    $groups = $section['groups'] ?? [$section];
+    foreach ($groups as $group) {
+      if (!is_array($group)) {
+        continue;
+      }
+      if (($group['type'] ?? '') === 'editorialStory') {
+        foreach ($group['moments'] ?? [] as $moment) {
+          foreach ($moment['items'] ?? [] as $item) {
             if (is_array($item) && $imageExists($item['src'] ?? null)) {
-                return true;
+              return true;
             }
+          }
         }
-        return false;
-    }
-    if ($type === 'moments') {
-        foreach ($section['items'] ?? [] as $environmentId) {
-            $environment = $environmentMap[(string) $environmentId] ?? null;
-            if (is_array($environment) && $videoFor($environment['pill'] ?? null) !== null) {
-                return true;
-            }
+        continue;
+      }
+      foreach ($group['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
         }
-        return false;
-    }
-    if ($type === 'closing') {
-        return true;
-    }
-    if ($type === 'film') {
-        $filmItems = $section['videos'] ?? [];
-        if (!is_array($filmItems) || $filmItems === []) {
-            $filmItems = [['video' => $section['video'] ?? null]];
+        if ($imageExists($item['src'] ?? null)) {
+          return true;
         }
-        foreach ($filmItems as $item) {
-            $mediaId = is_array($item) ? ($item['video'] ?? $item['mediaId'] ?? null) : $item;
-            if ($videoFor($mediaId) !== null) {
-                return true;
-            }
+        foreach ($item['images'] ?? [] as $source) {
+          if ($imageExists($source)) {
+            return true;
+          }
         }
+        foreach ($item['items'] ?? [] as $image) {
+          if (is_array($image) && ($imageExists($image['src'] ?? null) || $videoFor($image['mediaId'] ?? $image['video'] ?? null) !== null)) {
+            return true;
+          }
+        }
+      }
     }
     return false;
+  }
+  if ($type === 'carousel' || $type === 'interlude' || $type === 'editorialBlock' || $type === 'verticalMoments') {
+    foreach ($section['items'] ?? [] as $item) {
+      if (!is_array($item)) {
+        continue;
+      }
+      if ($imageExists($item['src'] ?? null) || $videoFor($item['mediaId'] ?? $item['video'] ?? null) !== null) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if ($type === 'stillMotion') {
+    $environment = $environmentMap[(string) ($section['environment'] ?? '')] ?? null;
+    return is_array($environment) && $imageExists($environment['still'] ?? null);
+  }
+  if ($type === 'motion') {
+    foreach ($section['items'] ?? [] as $id) {
+      if ($videoFor($id) !== null) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if ($type === 'animations') {
+    foreach ($section['steps'] ?? [] as $step) {
+      if (!is_array($step)) {
+        continue;
+      }
+      foreach ($step['items'] ?? [] as $item) {
+        $mediaId = is_array($item) ? ($item['mediaId'] ?? $item['id'] ?? null) : $item;
+        if ($videoFor($mediaId) !== null) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+  if ($type === 'floorplans') {
+    foreach ($section['items'] ?? [] as $item) {
+      if (is_array($item) && $imageExists($item['src'] ?? null)) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if ($type === 'moments') {
+    foreach ($section['items'] ?? [] as $environmentId) {
+      $environment = $environmentMap[(string) $environmentId] ?? null;
+      if (is_array($environment) && $videoFor($environment['pill'] ?? null) !== null) {
+        return true;
+      }
+    }
+    return false;
+  }
+  if ($type === 'closing') {
+    return true;
+  }
+  if ($type === 'film') {
+    $filmItems = $section['videos'] ?? [];
+    if (!is_array($filmItems) || $filmItems === []) {
+      $filmItems = [['video' => $section['video'] ?? null]];
+    }
+    foreach ($filmItems as $item) {
+      $mediaId = is_array($item) ? ($item['video'] ?? $item['mediaId'] ?? null) : $item;
+      if ($videoFor($mediaId) !== null) {
+        return true;
+      }
+    }
+  }
+  return false;
 };
 $configuredSections = is_array($case['sections'] ?? null) ? $case['sections'] : [];
 
 // Section order and media selection belong to data/cases.json.
 $sections = [];
 foreach ($configuredSections as $section) {
-    if (is_array($section) && $sectionHasContent($section)) {
-        $sections[] = $section;
-    }
+  if (is_array($section) && $sectionHasContent($section)) {
+    $sections[] = $section;
+  }
 }
-$technicalSheet = array_values(array_filter($sections, static fn (array $section): bool => ($section['type'] ?? '') === 'closing'));
-$contentSections = array_values(array_filter($sections, static fn (array $section): bool => ($section['type'] ?? '') !== 'closing'));
+$technicalSheet = array_values(array_filter($sections, static fn(array $section): bool => ($section['type'] ?? '') === 'closing'));
+$contentSections = array_values(array_filter($sections, static fn(array $section): bool => ($section['type'] ?? '') !== 'closing'));
 $sections = array_merge($technicalSheet, $contentSections);
 $heroVideo = $caseVideos[(string) ($case['hero']['video'] ?? $case['hero']['posterVideo'] ?? '')] ?? null;
 $heroSource = is_array($heroVideo) ? case_video_source($heroVideo) : null;
@@ -216,24 +216,24 @@ $nextRule = is_array($case['nextProject'] ?? null) ? $case['nextProject'] : [];
 $nextProject = case_next_project((string) $project['slug'], $nextRule);
 $firstSectionId = $sections !== [] ? 'case-' . (string) ($sections[0]['id'] ?? 'imagens') : 'case-imagens';
 $filmNavigationEntries = static function (array $section) use ($caseText, $videoFor): array {
-    if (($section['type'] ?? '') !== 'film') {
-        return [];
+  if (($section['type'] ?? '') !== 'film') {
+    return [];
+  }
+  $items = $section['videos'] ?? [];
+  if (!is_array($items) || $items === []) {
+    $items = [['video' => $section['video'] ?? null]];
+  }
+  $labels = [];
+  foreach ($items as $item) {
+    if (!is_array($item)) {
+      $item = ['video' => $item];
     }
-    $items = $section['videos'] ?? [];
-    if (!is_array($items) || $items === []) {
-        $items = [['video' => $section['video'] ?? null]];
+    if ($videoFor($item['video'] ?? $item['mediaId'] ?? null) === null) {
+      continue;
     }
-    $labels = [];
-    foreach ($items as $item) {
-        if (!is_array($item)) {
-            $item = ['video' => $item];
-        }
-        if ($videoFor($item['video'] ?? $item['mediaId'] ?? null) === null) {
-            continue;
-        }
-        $labels[] = $caseText($item['label'] ?? $item['eyebrow'] ?? $section['eyebrow'] ?? 'Filme');
-    }
-    return $labels;
+    $labels[] = $caseText($item['navigationLabel'] ?? $item['label'] ?? $item['eyebrow'] ?? $section['eyebrow'] ?? 'Filme');
+  }
+  return $labels;
 };
 ?>
 <main id="conteudo" class="case-v3" data-case-detail data-case-motion="<?= escape((string) ($case['motion'] ?? 'slow')) ?>">
@@ -251,20 +251,20 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
       <div class="case-v3-hero__title">
         <h1 id="case-title"><?= escape($caseTitle) ?></h1>
         <div class="case-v3-hero__facts">
-          <span><?= escape(translated($project['location'])) ?></span>
+          <?php if (translated($project['location']) !== ''): ?><span><?= escape(translated($project['location'])) ?></span><?php endif; ?>
           <?php if (!empty($project['detail']['info']['client'])): ?><span><?= escape((string) $project['detail']['info']['client']) ?></span><?php endif; ?>
           <?php if (!empty($project['detail']['info']['year'])): ?><span><?= escape((string) $project['detail']['info']['year']) ?></span><?php endif; ?>
         </div>
       </div>
       <div class="case-v3-hero__footer">
         <?php $heroFooter = $caseText($case['heroFooter'] ?? '');
-if ($heroFooter === '') {
-    $heroFooter = implode(' · ', array_filter(array_map($caseText, $case['services'] ?? [])));
-} ?>
+        if ($heroFooter === '') {
+          $heroFooter = implode(' · ', array_filter(array_map($caseText, $case['services'] ?? [])));
+        } ?>
         <?php if ($heroFooter !== ''): ?><p><?= escape($heroFooter) ?></p><?php endif; ?>
         <a href="#<?= escape($firstSectionId) ?>" aria-label="Ir para a próxima seção do case"><?= site_icon('arrow-down', 'case-v3-icon') ?></a>
       </div>
-      </div>
+    </div>
     </div>
   </section>
 
@@ -272,9 +272,9 @@ if ($heroFooter === '') {
     <nav class="case-v3-nav" aria-label="Capítulos do case" data-case-chapter-navigation>
       <div class="case-v3-shell case-v3-nav__inner">
         <?php $navigationNumber = 0;
-      foreach ($sections as $section): ?>
+        foreach ($sections as $section): ?>
           <?php if (($section['navigation'] ?? true) === false) {
-              continue;
+            continue;
           } ?>
           <?php $sectionNavId = 'case-' . (string) $section['id']; ?>
           <?php $filmNavLabels = $filmNavigationEntries($section); ?>
@@ -289,45 +289,45 @@ if ($heroFooter === '') {
   <?php endif; ?>
 
   <?php $chapterNumber = 0;
-foreach ($sections as $section): ?>
+  foreach ($sections as $section): ?>
     <?php $type = (string) $section['type'];
     $chapterId = 'case-' . (string) $section['id'];
     $chapterLabel = $displaySectionLabel($section['label'] ?? $type);
     if (($section['navigation'] ?? true) !== false) {
-        $chapterNumber++;
+      $chapterNumber++;
     }
     $number = str_pad((string) $chapterNumber, 2, '0', STR_PAD_LEFT);
     $chapterKicker = (($section['navigation'] ?? true) !== false ? $number . ' / ' : '') . $chapterLabel; ?>
     <?php if ($type === 'carousel'): ?>
       <?php
       $slides = [];
-        foreach ($section['items'] ?? [] as $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-            $label = $caseText($item['label'] ?? $chapterLabel);
-            if ($imageExists($item['src'] ?? null)) {
-                $isPlan = ($section['id'] ?? '') === 'plantas-humanizadas';
-                $slides[] = [
-                    'type' => 'image',
-                    'source' => (string) $item['src'],
-                    'label' => $label,
-                    'isPlan' => $isPlan,
-                ];
-                continue;
-            }
-            $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
-            if ($video !== null) {
-                $slides[] = ['type' => 'video', 'video' => $video, 'label' => $label];
-            }
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
         }
-        ?>
+        $label = $caseText($item['label'] ?? $chapterLabel);
+        if ($imageExists($item['src'] ?? null)) {
+          $isPlan = ($section['id'] ?? '') === 'plantas-humanizadas';
+          $slides[] = [
+            'type' => 'image',
+            'source' => (string) $item['src'],
+            'label' => $label,
+            'isPlan' => $isPlan,
+          ];
+          continue;
+        }
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null) {
+          $slides[] = ['type' => 'video', 'video' => $video, 'label' => $label];
+        }
+      }
+      ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-carousel" data-case-chapter="<?= escape($chapterId) ?>">
         <?php if (($section['showHeading'] ?? true) !== false): ?>
-        <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
-          <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
-        </header>
+          <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
+            <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
+            <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
+          </header>
         <?php endif; ?>
         <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
           <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Mídia anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
@@ -337,7 +337,7 @@ foreach ($sections as $section): ?>
                 <div class="case-v3-gallery__media-frame">
                   <div class="case-v3-gallery__media-stage">
                     <?php if ($slide['type'] === 'image'): ?>
-                      <button class="case-v3-gallery__image-trigger" type="button" data-case-image-open data-image-set="<?= escape((string) $section['id']) ?>" data-image-src="<?= escape($lightboxImageUrl($slide['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $slide['label']) ?>" data-image-label="<?= escape($slide['label']) ?>"<?= !empty($slide['isPlan']) ? ' data-image-plan="true"' : '' ?> aria-label="Abrir <?= escape($slide['label']) ?> em tela cheia">
+                      <button class="case-v3-gallery__image-trigger" type="button" data-case-image-open data-image-set="<?= escape((string) $section['id']) ?>" data-image-src="<?= escape($lightboxImageUrl($slide['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $slide['label']) ?>" data-image-label="<?= escape($slide['label']) ?>" <?= !empty($slide['isPlan']) ? ' data-image-plan="true"' : '' ?> aria-label="Abrir <?= escape($slide['label']) ?> em tela cheia">
                         <?= $renderCarouselImage($slide['source'], 'case-v3-image', '(max-width: 767px) 94vw, 70vw', $slide['label']) ?>
                       </button>
                     <?php else: ?>
@@ -358,17 +358,17 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'verticalMoments'): ?>
       <?php
-        $verticalMoments = [];
-        foreach ($section['items'] ?? [] as $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-            $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
-            if ($video !== null) {
-                $verticalMoments[] = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação vertical')];
-            }
+      $verticalMoments = [];
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
         }
-        ?>
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null) {
+          $verticalMoments[] = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação vertical')];
+        }
+      }
+      ?>
       <?php if ($verticalMoments !== []): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-vertical-moments" data-case-chapter="<?= escape($chapterId) ?>">
           <div class="case-v3-vertical-moments__grid case-v3-shell" data-case-reveal="up">
@@ -383,22 +383,22 @@ foreach ($sections as $section): ?>
       <?php endif; ?>
     <?php elseif ($type === 'editorialBlock'): ?>
       <?php
-        $editorialVideo = null;
-        $editorialImages = [];
-        foreach ($section['items'] ?? [] as $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-            $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
-            if ($video !== null && $editorialVideo === null) {
-                $editorialVideo = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação')];
-                continue;
-            }
-            if ($imageExists($item['src'] ?? null) && count($editorialImages) < 2) {
-                $editorialImages[] = ['source' => (string) $item['src'], 'label' => $caseText($item['label'] ?? 'Imagem')];
-            }
+      $editorialVideo = null;
+      $editorialImages = [];
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
         }
-        ?>
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null && $editorialVideo === null) {
+          $editorialVideo = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação')];
+          continue;
+        }
+        if ($imageExists($item['src'] ?? null) && count($editorialImages) < 2) {
+          $editorialImages[] = ['source' => (string) $item['src'], 'label' => $caseText($item['label'] ?? 'Imagem')];
+        }
+      }
+      ?>
       <?php if ($editorialVideo !== null && count($editorialImages) === 2): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-editorial-block" data-case-chapter="<?= escape($chapterId) ?>">
           <div class="case-v3-editorial-block__grid case-v3-shell" data-case-reveal="up">
@@ -421,22 +421,22 @@ foreach ($sections as $section): ?>
       <?php endif; ?>
     <?php elseif ($type === 'interlude'): ?>
       <?php
-        $interludeItems = [];
-        foreach ($section['items'] ?? [] as $item) {
-            if (!is_array($item)) {
-                continue;
-            }
-            $label = $caseText($item['label'] ?? $chapterLabel);
-            if ($imageExists($item['src'] ?? null)) {
-                $interludeItems[] = ['type' => 'image', 'source' => (string) $item['src'], 'label' => $label];
-                continue;
-            }
-            $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
-            if ($video !== null) {
-                $interludeItems[] = ['type' => 'video', 'video' => $video, 'label' => $label];
-            }
+      $interludeItems = [];
+      foreach ($section['items'] ?? [] as $item) {
+        if (!is_array($item)) {
+          continue;
         }
-        ?>
+        $label = $caseText($item['label'] ?? $chapterLabel);
+        if ($imageExists($item['src'] ?? null)) {
+          $interludeItems[] = ['type' => 'image', 'source' => (string) $item['src'], 'label' => $label];
+          continue;
+        }
+        $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
+        if ($video !== null) {
+          $interludeItems[] = ['type' => 'video', 'video' => $video, 'label' => $label];
+        }
+      }
+      ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-interlude" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-interlude__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
@@ -459,52 +459,52 @@ foreach ($sections as $section): ?>
     <?php elseif ($type === 'gallery'): ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-gallery" data-case-chapter="<?= escape($chapterId) ?>">
         <?php if (($section['showHeading'] ?? true) !== false): ?>
-        <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-          <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
-          <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
-        </header>
+          <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
+            <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
+            <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
+          </header>
         <?php endif; ?>
         <?php foreach ($section['groups'] ?? [] as $group): ?>
           <?php if (!is_array($group)) {
-              continue;
+            continue;
           }
-            $groupType = (string) ($group['type'] ?? 'editorial');
-            $groupTitle = $caseText($group['title'] ?? ''); ?>
+          $groupType = (string) ($group['type'] ?? 'editorial');
+          $groupTitle = $caseText($group['title'] ?? ''); ?>
           <section class="case-v3-gallery__group case-v3-gallery__group--<?= escape($groupType) ?>" aria-label="<?= escape($groupTitle) ?>">
             <?php if ($groupTitle !== ''): ?><div class="case-v3-gallery__group-heading case-v3-shell">
                 <p class="case-v3-kicker"><?= escape($groupTitle) ?></p>
               </div><?php endif; ?>
             <?php if ($groupType === 'editorialStory'): ?>
               <?php
-                $storyItems = [];
-                foreach ($group['moments'] ?? [] as $moment) {
-                    foreach ($moment['items'] ?? [] as $item) {
-                        if (is_array($item) && $imageExists($item['src'] ?? null)) {
-                            $storyItems[] = $item;
-                        }
-                    }
+              $storyItems = [];
+              foreach ($group['moments'] ?? [] as $moment) {
+                foreach ($moment['items'] ?? [] as $item) {
+                  if (is_array($item) && $imageExists($item['src'] ?? null)) {
+                    $storyItems[] = $item;
+                  }
                 }
-                $storyTotal = count($storyItems);
-                $storyIndex = 0;
-                ?>
+              }
+              $storyTotal = count($storyItems);
+              $storyIndex = 0;
+              ?>
               <div class="case-v3-gallery-story case-v3-shell" data-case-gallery-story>
                 <?php foreach ($group['moments'] ?? [] as $momentIndex => $moment): ?>
                   <?php
-                    if (!is_array($moment)) {
-                        continue;
-                    }
-                    $layout = (string) ($moment['layout'] ?? 'feature');
-                    $momentImages = array_values(array_filter($moment['items'] ?? [], static fn ($item): bool => is_array($item) && $imageExists($item['src'] ?? null)));
-                    if ($momentImages === []) {
-                        continue;
-                    }
-                    ?>
+                  if (!is_array($moment)) {
+                    continue;
+                  }
+                  $layout = (string) ($moment['layout'] ?? 'feature');
+                  $momentImages = array_values(array_filter($moment['items'] ?? [], static fn($item): bool => is_array($item) && $imageExists($item['src'] ?? null)));
+                  if ($momentImages === []) {
+                    continue;
+                  }
+                  ?>
                   <?php $isMobileCarouselMoment = in_array($layout, ['mosaic-a', 'mosaic-b'], true); ?>
                   <article class="case-v3-gallery-story__moment case-v3-gallery-story__moment--<?= escape($layout) ?>" data-case-reveal="up">
                     <?php foreach ($momentImages as $momentImageIndex => $image): ?>
                       <?php
-                        if ($isMobileCarouselMoment && $momentImageIndex === 1):
-                            ?>
+                      if ($isMobileCarouselMoment && $momentImageIndex === 1):
+                      ?>
                         <div class="case-v3-gallery-story__mobile-carousel">
                           <div class="case-v3-gallery-story__mobile-meta" aria-live="polite">
                             <span data-case-mobile-gallery-count>01 / <?= str_pad((string) max(1, count($momentImages) - 1), 2, '0', STR_PAD_LEFT) ?></span>
@@ -516,9 +516,9 @@ foreach ($sections as $section): ?>
                         $storyIndex++;
                         $imageClass = 'case-v3-gallery-story__image';
                         if ($isMobileCarouselMoment) {
-                            $imageClass .= $momentImageIndex === 0 ? ' case-v3-gallery-story__image--protagonist' : ' case-v3-gallery-story__image--complement';
+                          $imageClass .= $momentImageIndex === 0 ? ' case-v3-gallery-story__image--protagonist' : ' case-v3-gallery-story__image--complement';
                         }
-                        ?>
+                          ?>
                           <figure class="<?= $imageClass ?>" data-case-image-open data-image-set="<?= escape((string) ($group['lightboxSet'] ?? 'areas-comuns')) ?>" data-image-src="<?= escape($lightboxImageUrl((string) $image['src'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $imageLabel) ?>" data-image-label="<?= escape($imageLabel) ?>" role="button" tabindex="0" aria-label="Abrir <?= escape($imageLabel) ?> em tela cheia">
                             <?= $renderImage((string) $image['src'], 'case-v3-gallery-story__media', '(max-width: 767px) 100vw, 58vw', $imageLabel, 'up', $momentIndex === 0 && $storyIndex === 1) ?>
                             <figcaption><?= escape($imageLabel) ?></figcaption>
@@ -531,8 +531,8 @@ foreach ($sections as $section): ?>
                 <?php endforeach; ?>
               </div>
             <?php elseif ($groupType === 'immersiveRail'): ?>
-              <?php $slides = array_values(array_filter($group['items'] ?? [], static fn ($item): bool => is_array($item) && $imageExists($item['src'] ?? null)));
-                ?>
+              <?php $slides = array_values(array_filter($group['items'] ?? [], static fn($item): bool => is_array($item) && $imageExists($item['src'] ?? null)));
+              ?>
               <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
                 <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Imagem anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
                 <div class="case-v3-gallery__rail" data-case-gallery-rail tabindex="0" aria-label="<?= escape($groupTitle) ?>. Use as setas ou deslize para explorar.">
@@ -557,20 +557,20 @@ foreach ($sections as $section): ?>
               <div class="case-v3-gallery__items case-v3-shell">
                 <?php foreach ($group['items'] ?? [] as $composition): ?>
                   <?php if (!is_array($composition)) {
-                      continue;
+                    continue;
                   }
-                    $layout = (string) ($composition['layout'] ?? 'impact'); ?>
+                  $layout = (string) ($composition['layout'] ?? 'impact'); ?>
                   <div class="case-v3-gallery__composition case-v3-gallery__composition--<?= escape($layout) ?>" data-case-reveal="up">
                     <?php foreach ($composition['items'] ?? [] as $image): ?>
                       <?php
-                        if (!is_array($image)) {
-                            continue;
-                        }
-                        $compositionVideo = $videoFor($image['mediaId'] ?? $image['video'] ?? null);
-                        if ($compositionVideo === null && !$imageExists($image['src'] ?? null)) {
-                            continue;
-                        }
-                        $imageLabel = $caseText($image['label'] ?? $groupTitle);
+                      if (!is_array($image)) {
+                        continue;
+                      }
+                      $compositionVideo = $videoFor($image['mediaId'] ?? $image['video'] ?? null);
+                      if ($compositionVideo === null && !$imageExists($image['src'] ?? null)) {
+                        continue;
+                      }
+                      $imageLabel = $caseText($image['label'] ?? $groupTitle);
                       ?>
                       <?php if ($compositionVideo !== null): ?>
                         <figure class="case-v3-gallery__image">
@@ -590,7 +590,7 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'stillMotion'): ?>
       <?php $environment = $environmentMap[(string) ($section['environment'] ?? '')];
-        $motionVideo = $videoFor($environment['motion'] ?? null); ?>
+      $motionVideo = $videoFor($environment['motion'] ?? null); ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-still-motion" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
@@ -610,39 +610,39 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'animations'): ?>
       <?php
-        $animationSteps = [];
-        foreach ($section['steps'] ?? [] as $step) {
-            if (!is_array($step)) {
-                continue;
-            }
-            $stepItems = [];
-            foreach ($step['items'] ?? [] as $item) {
-                if (!is_array($item)) {
-                    $item = ['mediaId' => $item];
-                }
-                $video = $videoFor($item['mediaId'] ?? $item['id'] ?? null);
-                if ($video === null) {
-                    continue;
-                }
-                $stepItems[] = [
-                    'video' => $video,
-                    'label' => $caseText($item['label'] ?? 'Animação'),
-                ];
-            }
-            if ($stepItems !== []) {
-                $layout = (string) ($step['layout'] ?? 'single');
-                if (!in_array($layout, ['single', 'double'], true)) {
-                    $layout = count($stepItems) > 1 ? 'double' : 'single';
-                }
-                $animationSteps[] = [
-                    'layout' => $layout,
-                    'items' => $stepItems,
-                ];
-            }
+      $animationSteps = [];
+      foreach ($section['steps'] ?? [] as $step) {
+        if (!is_array($step)) {
+          continue;
         }
-        $animationStepCount = count($animationSteps);
-        $animationScrollExtra = $animationStepCount > 0 ? ($animationStepCount + 1) * 60 : 0;
-        ?>
+        $stepItems = [];
+        foreach ($step['items'] ?? [] as $item) {
+          if (!is_array($item)) {
+            $item = ['mediaId' => $item];
+          }
+          $video = $videoFor($item['mediaId'] ?? $item['id'] ?? null);
+          if ($video === null) {
+            continue;
+          }
+          $stepItems[] = [
+            'video' => $video,
+            'label' => $caseText($item['label'] ?? 'Animação'),
+          ];
+        }
+        if ($stepItems !== []) {
+          $layout = (string) ($step['layout'] ?? 'single');
+          if (!in_array($layout, ['single', 'double'], true)) {
+            $layout = count($stepItems) > 1 ? 'double' : 'single';
+          }
+          $animationSteps[] = [
+            'layout' => $layout,
+            'items' => $stepItems,
+          ];
+        }
+      }
+      $animationStepCount = count($animationSteps);
+      $animationScrollExtra = $animationStepCount > 0 ? ($animationStepCount + 1) * 60 : 0;
+      ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-animations" data-case-chapter="<?= escape($chapterId) ?>" data-case-animations style="--case-animation-scroll-extra: <?= (int) $animationScrollExtra ?>vh">
         <header class="case-v3-animations__header case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
@@ -685,7 +685,7 @@ foreach ($sections as $section): ?>
         </div>
       </section>
     <?php elseif ($type === 'floorplans'): ?>
-      <?php $plans = array_values(array_filter($section['items'] ?? [], static fn ($item): bool => is_array($item) && $imageExists($item['src'] ?? null))); ?>
+      <?php $plans = array_values(array_filter($section['items'] ?? [], static fn($item): bool => is_array($item) && $imageExists($item['src'] ?? null))); ?>
       <?php $floorplanScrollExtra = count($plans) > 0 ? (count($plans) + 1) * 60 : 0; ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-floorplans" data-case-chapter="<?= escape($chapterId) ?>" data-case-plans data-case-focus-scroll style="--case-focus-scroll-extra: <?= (int) $floorplanScrollExtra ?>vh">
         <header class="case-v3-floorplans__heading case-v3-shell" data-case-reveal="up">
@@ -720,13 +720,13 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'moments'): ?>
       <?php $momentItems = [];
-        foreach ($section['items'] ?? [] as $environmentId) {
-            $environment = $environmentMap[(string) $environmentId] ?? null;
-            $video = is_array($environment) ? $videoFor($environment['pill'] ?? null) : null;
-            if ($video !== null) {
-                $momentItems[] = ['environment' => $environment, 'video' => $video];
-            }
-        } ?>
+      foreach ($section['items'] ?? [] as $environmentId) {
+        $environment = $environmentMap[(string) $environmentId] ?? null;
+        $video = is_array($environment) ? $videoFor($environment['pill'] ?? null) : null;
+        if ($video !== null) {
+          $momentItems[] = ['environment' => $environment, 'video' => $video];
+        }
+      } ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-moments" data-case-chapter="<?= escape($chapterId) ?>">
         <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
           <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
@@ -742,28 +742,28 @@ foreach ($sections as $section): ?>
       </section>
     <?php elseif ($type === 'film'): ?>
       <?php
-        $filmItems = $section['videos'] ?? [];
-        if (!is_array($filmItems) || $filmItems === []) {
-            $filmItems = [['video' => $section['video'] ?? null]];
+      $filmItems = $section['videos'] ?? [];
+      if (!is_array($filmItems) || $filmItems === []) {
+        $filmItems = [['video' => $section['video'] ?? null]];
+      }
+      $films = [];
+      foreach ($filmItems as $filmItem) {
+        if (!is_array($filmItem)) {
+          $filmItem = ['video' => $filmItem];
         }
-        $films = [];
-        foreach ($filmItems as $filmItem) {
-            if (!is_array($filmItem)) {
-                $filmItem = ['video' => $filmItem];
-            }
-            $film = $videoFor($filmItem['video'] ?? $filmItem['mediaId'] ?? null);
-            $source = $film !== null ? case_video_source($film) : null;
-            if ($film === null || $source === null) {
-                continue;
-            }
-            $films[] = [
-                'video' => $film,
-                'source' => $source,
-                'label' => $caseText($filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
-                'title' => $caseText($filmItem['title'] ?? $filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
-            ];
+        $film = $videoFor($filmItem['video'] ?? $filmItem['mediaId'] ?? null);
+        $source = $film !== null ? case_video_source($film) : null;
+        if ($film === null || $source === null) {
+          continue;
         }
-        ?>
+        $films[] = [
+          'video' => $film,
+          'source' => $source,
+          'label' => $caseText($filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+          'title' => $caseText($filmItem['title'] ?? $filmItem['label'] ?? $filmItem['eyebrow'] ?? $section['eyebrow'] ?? 'Filme'),
+        ];
+      }
+      ?>
       <?php if ($films !== []): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-film" data-case-chapter="<?= escape($chapterId) ?>">
           <header class="case-v3-film__heading case-v3-shell" data-case-reveal="up">
@@ -795,8 +795,8 @@ foreach ($sections as $section): ?>
         <?php if (!empty($case['credits']['items'])): ?>
           <div class="case-v3-credits case-v3-shell" data-case-reveal="up">
             <dl><?php foreach ($case['credits']['items'] as $credit): if (!is_array($credit) || $caseText($credit['value'] ?? '') === '') {
-                continue;
-            } ?><div>
+                    continue;
+                  } ?><div>
                   <dt><?= escape($caseText($credit['label'] ?? '')) ?></dt>
                   <dd><?= escape($caseText($credit['value'])) ?></dd>
                 </div><?php endforeach; ?></dl>
@@ -809,7 +809,8 @@ foreach ($sections as $section): ?>
     <section class="case-v3-section case-v3-next" data-case-chapter="case-next">
       <div class="case-v3-shell" data-case-reveal="up">
         <p class="case-v3-kicker"><?= escape($caseText($nextRule['eyebrow'] ?? 'Próximo projeto')) ?></p>
-        <?php $nextHero = $nextProject['media']['hero']; $nextAspectRatio = max(0.01, (float) $nextHero['width'] / max(1.0, (float) $nextHero['height'])); ?><a class="case-v3-next__project" style="--case-next-ratio: <?= escape(number_format($nextAspectRatio, 6, '.', '')) ?>" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
+        <?php $nextHero = $nextProject['media']['hero'];
+        $nextAspectRatio = max(0.01, (float) $nextHero['width'] / max(1.0, (float) $nextHero['height'])); ?><a class="case-v3-next__project" style="--case-next-ratio: <?= escape(number_format($nextAspectRatio, 6, '.', '')) ?>" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
         <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <?= site_icon('arrow-right', 'case-v3-icon') ?></a>
       </div>
     </section>

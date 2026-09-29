@@ -813,8 +813,16 @@
         ]
       },
       "detail": {
-        "subtitle": { "pt-BR": "", "en": "", "es": "" },
-        "description": { "pt-BR": [], "en": [], "es": [] },
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
         "info": {
           "client": "GT.HOME",
           "architect": "Studio Pininfarina",
@@ -830,7 +838,11 @@
       "placement": "standard",
       "showOnHome": true,
       "homeOrder": 5,
-      "title": { "pt-BR": "AYA Casas", "en": "AYA Casas", "es": "AYA Casas" },
+      "title": {
+        "pt-BR": "AYA Casas",
+        "en": "AYA Casas",
+        "es": "AYA Casas"
+      },
       "location": {
         "pt-BR": "Praia do Estaleiro - Balneário Camboriú - SC",
         "en": "Praia do Estaleiro - Balneário Camboriú - SC",
@@ -847,7 +859,10 @@
             "es": "Acceso de AYA Casas"
           }
         },
-        "animation": { "manifest": "aya-cas", "id": "animacao-aya-est-rua" },
+        "animation": {
+          "manifest": "aya-cas",
+          "id": "animacao-aya-est-rua"
+        },
         "gallery": [
           {
             "src": "assets/projetos/aya-cas/imagens/imagem-02-aya-cas-boulevard-entre-casas-ef.jpg",
@@ -897,8 +912,16 @@
         ]
       },
       "detail": {
-        "subtitle": { "pt-BR": "", "en": "", "es": "" },
-        "description": { "pt-BR": [], "en": [], "es": [] },
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
         "info": {
           "client": "AYA Empreendimentos",
           "architect": "Luciano Kruk arquitectos",
@@ -913,7 +936,7 @@
       "order": 6,
       "placement": "standard",
       "showOnHome": true,
-      "homeOrder": 6,
+      "homeOrder": 7,
       "title": {
         "pt-BR": "Monticello Residenziale",
         "en": "Monticello Residenziale",
@@ -1058,11 +1081,296 @@
         ]
       },
       "detail": {
-        "subtitle": { "pt-BR": "", "en": "", "es": "" },
-        "description": { "pt-BR": [], "en": [], "es": [] },
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
         "info": {
           "client": "HSantos Empreendimentos",
           "architect": "",
+          "year": ""
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "talls-solutions",
+      "status": "published",
+      "order": 7,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 6,
+      "title": {
+        "pt-BR": "Talls Solutions",
+        "en": "Talls Solutions",
+        "es": "Talls Solutions"
+      },
+      "location": {
+        "pt-BR": "",
+        "en": "",
+        "es": ""
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/talls-solutions/imagens/hero-talls-solutions.jpg",
+          "width": 1920,
+          "height": 1080,
+          "alt": {
+            "pt-BR": "Cena do filme institucional da Talls Solutions",
+            "en": "A scene from the Talls Solutions institutional film",
+            "es": "Escena de la película institucional de Talls Solutions"
+          }
+        },
+        "animation": {
+          "manifest": "talls-solutions",
+          "id": "animacao-talls-solutions-capa"
+        },
+        "gallery": []
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
+        "info": {
+          "client": "Talls Solutions - Grupo FG",
+          "architect": "",
+          "year": ""
+        }
+      },
+      "mediaVersion": 1
+    },
+    {
+      "slug": "charles-ii-okean",
+      "status": "published",
+      "order": 8,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 8,
+      "title": {
+        "pt-BR": "Charles II Yacht Royal Home by Okean",
+        "en": "Charles II Yacht Royal Home by Okean",
+        "es": "Charles II Yacht Royal Home by Okean"
+      },
+      "location": {
+        "pt-BR": "Meia Praia - Itapema - SC",
+        "en": "Meia Praia - Itapema - SC",
+        "es": "Meia Praia - Itapema - SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/charles-ii-okean/imagens/imagem-01-charles-ii-okean.jpg",
+          "width": 8000,
+          "height": 5760,
+          "alt": {
+            "pt-BR": "Charles II Yacht Royal Home by Okean — vista aérea do empreendimento",
+            "en": "Charles II Yacht Royal Home by Okean — aerial view of the development",
+            "es": "Charles II Yacht Royal Home by Okean — vista aérea del emprendimiento"
+          }
+        },
+        "animation": {
+          "manifest": "charles-ii-okean",
+          "id": "animacao-charles-ii-capa"
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-01-charles-ii-okean.jpg",
+            "width": 8000,
+            "height": 5760
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-02-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-03-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-04-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-05-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-06-charles-ii-okean.jpg",
+            "width": 8000,
+            "height": 4500
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-07-charles-ii-okean.jpg",
+            "width": 7426,
+            "height": 5007
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-08-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-09-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-10-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-11-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-12-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 3126
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-13-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-14-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-15-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-16-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-17-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-18-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-19-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-20-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-21-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-22-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-23-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-24-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-25-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-26-charles-ii-okean.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-27-charles-ii-okean.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-28-charles-ii-okean.jpg",
+            "width": 8192,
+            "height": 5464
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-29-charles-ii-okean.jpg",
+            "width": 8192,
+            "height": 5464
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-30-charles-ii-okean.jpg",
+            "width": 8192,
+            "height": 5464
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-31-charles-ii-okean.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-32-charles-ii-okean.jpg",
+            "width": 1920,
+            "height": 1080
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-33-charles-ii-okean.jpg",
+            "width": 3840,
+            "height": 2160
+          },
+          {
+            "src": "assets/projetos/charles-ii-okean/imagens/imagem-34-charles-ii-okean.jpg",
+            "width": 3840,
+            "height": 2160
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
+        "info": {
+          "client": "Gessele Empreendimentos em parceria com o Grupo Okean Yachts",
+          "architect": "RKA Arquitetura; Mioo&Co.; Line Arquitetura",
           "year": ""
         }
       },

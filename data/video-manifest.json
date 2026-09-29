@@ -32,87 +32,63 @@
         "defaults": {
           "publish": true,
           "poster": true,
-          "variants": [
-            "1080"
-          ]
+          "variants": ["1080"]
         },
         "sources": {
           "animacoes/animacao-ars-vie-tracking-0006.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-ars-vie-tracking-0050.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-ars-vie-tracking-0122.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-22-ars-vie-redario-detalhe.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-19-ars-vie-piscina-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2025-ars-vie-concept-4k-v3.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "pilulas/pilula-19-ars-vie-piscina-geral-v1.mp4": {
             "publish": true,
@@ -174,12 +150,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-07-ars-vie-embasamento-mostrando-acesso-1080.mp4"
@@ -217,12 +189,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-12-ars-vie-quadra-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-12-ars-vie-quadra-1080.mp4"
@@ -260,12 +228,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-19-ars-vie-piscina-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-detalhe-1080.mp4"
@@ -303,12 +267,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-19-ars-vie-piscina-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-19-ars-vie-piscina-geral-1080.mp4"
@@ -346,12 +306,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-detalhe-1080.mp4"
@@ -389,12 +345,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-22-ars-vie-redario-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-22-ars-vie-redario-geral-1080.mp4"
@@ -432,12 +384,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-28-ars-vie-fire-place-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-28-ars-vie-fire-place-detalhe-1080.mp4"
@@ -475,12 +423,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-31-ars-vie-sauna-seca-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-31-ars-vie-sauna-seca-1080.mp4"
@@ -518,12 +462,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-34-ars-vie-living-apto-tipo-1-torre-1-angulo01-geral-1080.mp4"
@@ -561,12 +501,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-geral-1080.mp4"
@@ -604,12 +540,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-36-ars-vie-suite-master-apto-tipo-1-vista-1080.mp4"
@@ -647,12 +579,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-38-ars-vie-living-apto-tipo-3-torre-3-1080.mp4"
@@ -690,12 +618,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-bike-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-bike-1080.mp4"
@@ -733,12 +657,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-pov-praia-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-pov-praia-1080.mp4"
@@ -776,12 +696,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0006-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0006-1080.mp4"
@@ -819,12 +735,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0040-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0040-1080.mp4"
@@ -862,12 +774,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0050-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0050-1080.mp4"
@@ -905,12 +813,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0122-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0122-1080.mp4"
@@ -948,12 +852,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/animacoes/animacao-ars-vie-tracking-0138-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/animacoes/animacao-ars-vie-tracking-0138-1080.mp4"
@@ -991,12 +891,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-kam-vieiras-depoimento-v2-leg-1080.mp4"
@@ -1034,12 +930,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/ars-vie/v1/posters/filmes/filme-2025-ars-vie-concept-4k-v3-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/filmes/filme-2025-ars-vie-concept-4k-v3-1080.mp4"
@@ -1078,10 +970,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ],
+          "publicVariants": ["1080", "720"],
           "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-19-ars-vie-piscina-geral-v1-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-19-ars-vie-piscina-geral-v1-1080.mp4",
@@ -1121,10 +1010,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ],
+          "publicVariants": ["1080", "720"],
           "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-22-ars-vie-redario-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-22-ars-vie-redario-geral-1080.mp4",
@@ -1164,10 +1050,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ],
+          "publicVariants": ["1080", "720"],
           "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-28-ars-vie-fire-place-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-28-ars-vie-fire-place-detalhe-1080.mp4",
@@ -1207,10 +1090,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ],
+          "publicVariants": ["1080", "720"],
           "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-44-ars-vie-living-do-apto-tipo-3-da-torre-1080.mp4",
@@ -1250,10 +1130,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ],
+          "publicVariants": ["1080", "720"],
           "publicPoster": "assets/media/ars-vie/v1/posters/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-poster.webp",
           "publicSources": {
             "1080": "assets/media/ars-vie/v1/videos/pilulas/pilula-45-ars-vie-jardim-das-vieiras-vertical-1080.mp4",
@@ -2157,30 +2034,22 @@
           "6.AYA_KAR Piscina Maior.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "Quem somos-20260901T230203Z-1-001/Quem somos/Banner/FG_Talls_F_1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Heartmade/19.ARS_VIE Piscina_Detalhe.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Improov/2021_0608_OMNI Promo v.01(assinatura) 2.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -2217,12 +2086,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "Quem somos-20260901T230203Z-1-001/Quem somos/Banner/FG_Talls_F_1.mp4",
@@ -2256,12 +2121,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Heartmade/19.ARS_VIE Piscina_Detalhe.mp4",
@@ -2295,12 +2156,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "Quem somos-20260901T230203Z-1-001/Quem somos/Nosso estudio/Improov/2021_0608_OMNI Promo v.01(assinatura) 2.mp4",
@@ -2334,12 +2191,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         }
       ],
       "videos": [
@@ -2531,128 +2384,92 @@
           "animacoes/animacao-6-aya-kar-piscina-maior.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-11-aya-kar-living-manaca-escada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-11-aya-kar-living-manaca-muxarabi.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-12-aya-kar-suite-master-detalhe.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-12-aya-kar-suite-master-exterior.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-12-aya-kar-suite-master-interior.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-13-aya-kar-rofftop-vista-mar.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-16-aya-kar-suite-ipe-detalhe.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-16-aya-kar-suite-ipe-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-17-aya-kar-rooftop-mata.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-2-aya-kar-fotomontagem-aerea.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-24-aya-kar-playground.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-27-aya-kar-sacada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-4-aya-kar-rampa-garagem.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-7-aya-kar-piscina-infantil.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2026-aya-kar-concept-dc-4k.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2026-aya-kar-depo-full-dc.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-32-aya-kar-rooftop.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -2689,12 +2506,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-escada-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-escada-1080.mp4"
@@ -2732,12 +2545,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-11-aya-kar-living-manaca-muxarabi-1080.mp4"
@@ -2775,12 +2584,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-detalhe-1080.mp4"
@@ -2818,12 +2623,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-exterior-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-exterior-1080.mp4"
@@ -2861,12 +2662,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-12-aya-kar-suite-master-interior-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-12-aya-kar-suite-master-interior-1080.mp4"
@@ -2904,12 +2701,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-13-aya-kar-rofftop-vista-mar-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-13-aya-kar-rofftop-vista-mar-1080.mp4"
@@ -2947,12 +2740,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-detalhe-1080.mp4"
@@ -2990,12 +2779,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-16-aya-kar-suite-ipe-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-16-aya-kar-suite-ipe-geral-1080.mp4"
@@ -3033,12 +2818,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-17-aya-kar-rooftop-mata-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-17-aya-kar-rooftop-mata-1080.mp4"
@@ -3076,12 +2857,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-2-aya-kar-fotomontagem-aerea-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-2-aya-kar-fotomontagem-aerea-1080.mp4"
@@ -3119,12 +2896,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-24-aya-kar-playground-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-24-aya-kar-playground-1080.mp4"
@@ -3162,12 +2935,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-27-aya-kar-sacada-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-27-aya-kar-sacada-1080.mp4"
@@ -3205,12 +2974,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-32-aya-kar-rooftop-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-32-aya-kar-rooftop-1080.mp4"
@@ -3248,12 +3013,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-4-aya-kar-rampa-garagem-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-4-aya-kar-rampa-garagem-1080.mp4"
@@ -3291,12 +3052,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-6-aya-kar-piscina-maior-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-6-aya-kar-piscina-maior-1080.mp4"
@@ -3334,12 +3091,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/animacoes/animacao-7-aya-kar-piscina-infantil-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/animacoes/animacao-7-aya-kar-piscina-infantil-1080.mp4"
@@ -3377,12 +3130,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-concept-dc-4k-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-concept-dc-4k-1080.mp4"
@@ -3420,12 +3169,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-kar/v1/posters/filmes/filme-2026-aya-kar-depo-full-dc-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-kar/v1/videos/filmes/filme-2026-aya-kar-depo-full-dc-1080.mp4"
@@ -4045,16 +3790,12 @@
           "animacoes/animacao-2-alp-sc-conceito.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-alpes-sc-institucional-en.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -4091,12 +3832,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/alp-sc/v1/posters/animacoes/animacao-2-alp-sc-conceito-poster.webp",
           "publicSources": {
             "1080": "assets/media/alp-sc/v1/videos/animacoes/animacao-2-alp-sc-conceito-1080.mp4"
@@ -4134,12 +3871,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/alp-sc/v1/posters/filmes/filme-alpes-sc-institucional-en-poster.webp",
           "publicSources": {
             "1080": "assets/media/alp-sc/v1/videos/filmes/filme-alpes-sc-institucional-en-1080.mp4"
@@ -4263,16 +3996,12 @@
           "animacoes/animacao-gt-lac-tracking-0044.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -4309,12 +4038,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/gt-lac/v1/posters/animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master-poster.webp",
           "publicSources": {
             "1080": "assets/media/gt-lac/v1/videos/animacoes/animacao-42-gt-lac-apartamento-duplex-suite-master-1080.mp4"
@@ -4352,12 +4077,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/gt-lac/v1/posters/animacoes/animacao-gt-lac-tracking-0044-poster.webp",
           "publicSources": {
             "1080": "assets/media/gt-lac/v1/videos/animacoes/animacao-gt-lac-tracking-0044-1080.mp4"
@@ -4481,65 +4202,47 @@
           "animacoes/animacao-aya-est-rua.mov": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-02-aya-cas-living-interno-horizontal.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-06-aya-cas-piscina-horizontal.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-09-aya-cas-suite-horizontal.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-aya-est-home-office.mov": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-aya-est-jardim-interno.mov": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/vertical-03-aya-cas-home-office.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/vertical-06-aya-cas-piscina.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-2022-aya-casas-depoimento.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -4576,12 +4279,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-02-aya-cas-living-interno-horizontal-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-02-aya-cas-living-interno-horizontal-1080.mp4"
@@ -4619,12 +4318,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-06-aya-cas-piscina-horizontal-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-06-aya-cas-piscina-horizontal-1080.mp4"
@@ -4662,12 +4357,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-09-aya-cas-suite-horizontal-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-09-aya-cas-suite-horizontal-1080.mp4"
@@ -4705,12 +4396,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-aya-est-home-office-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-aya-est-home-office-1080.mp4"
@@ -4748,12 +4435,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-aya-est-jardim-interno-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-aya-est-jardim-interno-1080.mp4"
@@ -4791,12 +4474,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/animacao-aya-est-rua-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/animacao-aya-est-rua-1080.mp4"
@@ -4834,12 +4513,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/vertical-03-aya-cas-home-office-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/vertical-03-aya-cas-home-office-1080.mp4"
@@ -4877,12 +4552,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/animacoes/vertical-06-aya-cas-piscina-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/animacoes/vertical-06-aya-cas-piscina-1080.mp4"
@@ -4920,12 +4591,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/aya-cas/v1/posters/filmes/filme-2022-aya-casas-depoimento-poster.webp",
           "publicSources": {
             "1080": "assets/media/aya-cas/v1/videos/filmes/filme-2022-aya-casas-depoimento-1080.mp4"
@@ -5291,10 +4958,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
@@ -5329,10 +4993,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
@@ -5367,10 +5028,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
@@ -5405,10 +5063,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
@@ -5443,10 +5098,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
@@ -5481,10 +5133,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
@@ -5519,10 +5168,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
@@ -5557,10 +5203,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
@@ -5595,10 +5238,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
@@ -5633,10 +5273,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
@@ -5671,10 +5308,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
@@ -5709,10 +5343,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0029.mp4",
@@ -5747,10 +5378,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
@@ -5785,10 +5413,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0042.mp4",
@@ -5823,10 +5448,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
@@ -5861,10 +5483,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
@@ -5899,10 +5518,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
@@ -5937,10 +5553,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
@@ -5975,10 +5588,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         },
         {
           "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
@@ -6013,10 +5623,7 @@
           "published": true,
           "publication": "video",
           "requestedVariants": "all",
-          "publicVariants": [
-            "1080",
-            "720"
-          ]
+          "publicVariants": ["1080", "720"]
         }
       ],
       "videos": [],
@@ -6131,142 +5738,102 @@
           "animacoes/22_HSA_MON Sky Pub.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/25. HSA_MON_Wine_lounge.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/26. HSA_MON_Living_Vista_V2.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/29.HSA_MON_Suite Detalhe.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/29.HSA_MON_Suite GERAL.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Living_Sacada_V2.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Tracking_0014_V2.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Tracking_0029.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Tracking_0042.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/HSA MON_conceito (16x9) v1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/HSA MON T1_amanhecer (16x9) v1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/HSA MON T2_o dia (16x9) v1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/HSA MON T3_Noite (16x9) v1.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -6303,12 +5870,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/25. HSA_MON_Wine_lounge.mp4",
@@ -6342,12 +5905,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/25. HSA_MON_Wine_lounge_Vista_V3.mp4",
@@ -6381,12 +5940,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/26. HSA_MON_Living_Vista_V2.mp4",
@@ -6420,12 +5975,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/27. HSA_MON_Vista_Tipo_1_Vista.mp4",
@@ -6459,12 +6010,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/29.HSA_MON_Suite Detalhe.mp4",
@@ -6498,12 +6045,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/29.HSA_MON_Suite GERAL.mp4",
@@ -6537,12 +6080,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/30. HSA_MON_Living_Penthouse_Detalhe_2.mp4",
@@ -6576,12 +6115,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/34.HSA_MON Closet Penthouse_Vista.mp4",
@@ -6615,12 +6150,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Living_Penthouse_Detalhe_1.mp4",
@@ -6654,12 +6185,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Living_Sacada_V2.mp4",
@@ -6693,12 +6220,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0014_V2.mp4",
@@ -6732,12 +6255,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0029.mp4",
@@ -6771,12 +6290,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0038_LAZER_AI_SLOW_DOWN.mp4",
@@ -6810,12 +6325,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_0042.mp4",
@@ -6849,12 +6360,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "animacoes/HSA_MON_Tracking_Wine_AI_SLOW_DOWN.mp4",
@@ -6888,12 +6395,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "filmes/HSA MON T1_amanhecer (16x9) v1.mp4",
@@ -6927,12 +6430,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "filmes/HSA MON T2_o dia (16x9) v1.mp4",
@@ -6966,12 +6465,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "filmes/HSA MON T3_Noite (16x9) v1.mp4",
@@ -7005,12 +6500,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         },
         {
           "source": "filmes/HSA MON_conceito (16x9) v1.mp4",
@@ -7044,12 +6535,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ]
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"]
         }
       ],
       "errors": [],
@@ -7769,6 +7256,1648 @@
         "publishedPosterOnly": 0,
         "publishedVariants": 20,
         "posters": 20
+      }
+    },
+    "talls-solutions": {
+      "slug": "talls-solutions",
+      "generatedAt": "2026-09-28T23:22:33.116094+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/talls-solutions/v1",
+      "profiles": {
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/animacao-talls-solutions-capa.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-talls-solutions-processo-01.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-talls-solutions-processo-02.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-talls-solutions-processo-03.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/filme-talls-solutions-institucional-en-legendas.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/making-of-talls-solutions-2024.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/animacao-talls-solutions-capa.mp4",
+          "name": "animacao-talls-solutions-capa.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 46104116,
+          "sha256": "ccb86d6353a18181e241da17f95a99909c08acd5c5c6752c812f1155759d543d",
+          "modifiedAt": "2026-09-28T23:02:28.294572+00:00",
+          "duration": 25.7,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 14025378,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317163,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 14351475,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-capa-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-capa-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-talls-solutions-processo-01.mp4",
+          "name": "animacao-talls-solutions-processo-01.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 18665929,
+          "sha256": "6a2f8e48e39819dafd0b128192202d19c168dd79ec8efe44292da65b0c191d94",
+          "modifiedAt": "2026-09-28T23:02:26.099268+00:00",
+          "duration": 11.333,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "fps": 15.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 13167544,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 13175950,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["source"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-01-poster.webp",
+          "publicSources": {
+            "source": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-01-source.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-talls-solutions-processo-02.mp4",
+          "name": "animacao-talls-solutions-processo-02.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 15340646,
+          "sha256": "96a623356bb98cb39630e6d08c49342f3921fc31724bdad8400ccc3390eb2a59",
+          "modifiedAt": "2026-09-28T23:02:24.220728+00:00",
+          "duration": 9.0,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "fps": 15.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 13625704,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 13636129,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["source"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-02-poster.webp",
+          "publicSources": {
+            "source": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-02-source.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-talls-solutions-processo-03.mp4",
+          "name": "animacao-talls-solutions-processo-03.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 12537195,
+          "sha256": "bd444103c674f6ca12fa512d6a3e6b3f6e27fb800c7faa801d7e40638e87e355",
+          "modifiedAt": "2026-09-28T23:02:23.271460+00:00",
+          "duration": 8.2,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "fps": 15.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 12220025,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 12231409,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["source"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-03-poster.webp",
+          "publicSources": {
+            "source": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-03-source.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-talls-solutions-institucional-en-legendas.mp4",
+          "name": "filme-talls-solutions-institucional-en-legendas.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 160801165,
+          "sha256": "5223a07a34731293a660bf4245249804c07497bb993588224ac2a08b3c66d493",
+          "modifiedAt": "2026-09-28T23:02:30.500605+00:00",
+          "duration": 126.8,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 15.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 9820891,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317332,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 10145183,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/filmes/filme-talls-solutions-institucional-en-legendas-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/talls-solutions/v1/videos/filmes/filme-talls-solutions-institucional-en-legendas-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/making-of-talls-solutions-2024.mp4",
+          "name": "making-of-talls-solutions-2024.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 30613778,
+          "sha256": "a0411856efed8eaba4efe5e0f3f6269559c460f2472834b2fe023b3aaee746e3",
+          "modifiedAt": "2026-09-28T23:02:26.695127+00:00",
+          "duration": 48.423,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 4735026,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317262,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 5057685,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["source"],
+          "publicPoster": "assets/media/talls-solutions/v1/posters/filmes/making-of-talls-solutions-2024-poster.webp",
+          "publicSources": {
+            "source": "assets/media/talls-solutions/v1/videos/filmes/making-of-talls-solutions-2024-source.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "animacao-talls-solutions-capa",
+          "source": "animacoes/animacao-talls-solutions-capa.mp4",
+          "sourceSha256": "ccb86d6353a18181e241da17f95a99909c08acd5c5c6752c812f1155759d543d",
+          "category": "animacoes",
+          "poster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-capa-poster.webp",
+          "duration": 25.7,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-capa-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 8624030,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-talls-solutions-processo-01",
+          "source": "animacoes/animacao-talls-solutions-processo-01.mp4",
+          "sourceSha256": "6a2f8e48e39819dafd0b128192202d19c168dd79ec8efe44292da65b0c191d94",
+          "category": "animacoes",
+          "poster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-01-poster.webp",
+          "duration": 11.333,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "source": {
+              "src": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-01-source.mp4",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 15111552,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-talls-solutions-processo-02",
+          "source": "animacoes/animacao-talls-solutions-processo-02.mp4",
+          "sourceSha256": "96a623356bb98cb39630e6d08c49342f3921fc31724bdad8400ccc3390eb2a59",
+          "category": "animacoes",
+          "poster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-02-poster.webp",
+          "duration": 9.0,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "source": {
+              "src": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-02-source.mp4",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 12335574,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-talls-solutions-processo-03",
+          "source": "animacoes/animacao-talls-solutions-processo-03.mp4",
+          "sourceSha256": "bd444103c674f6ca12fa512d6a3e6b3f6e27fb800c7faa801d7e40638e87e355",
+          "category": "animacoes",
+          "poster": "assets/media/talls-solutions/v1/posters/animacoes/animacao-talls-solutions-processo-03-poster.webp",
+          "duration": 8.2,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "source": {
+              "src": "assets/media/talls-solutions/v1/videos/animacoes/animacao-talls-solutions-processo-03-source.mp4",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 6996806,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-talls-solutions-institucional-en-legendas",
+          "source": "filmes/filme-talls-solutions-institucional-en-legendas.mp4",
+          "sourceSha256": "5223a07a34731293a660bf4245249804c07497bb993588224ac2a08b3c66d493",
+          "category": "filmes",
+          "poster": "assets/media/talls-solutions/v1/posters/filmes/filme-talls-solutions-institucional-en-legendas-poster.webp",
+          "duration": 126.8,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/talls-solutions/v1/videos/filmes/filme-talls-solutions-institucional-en-legendas-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 78215969,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "making-of-talls-solutions-2024",
+          "source": "filmes/making-of-talls-solutions-2024.mp4",
+          "sourceSha256": "a0411856efed8eaba4efe5e0f3f6269559c460f2472834b2fe023b3aaee746e3",
+          "category": "filmes",
+          "poster": "assets/media/talls-solutions/v1/posters/filmes/making-of-talls-solutions-2024-poster.webp",
+          "duration": 48.423,
+          "width": 1080,
+          "height": 1080,
+          "aspectRatio": "1:1",
+          "orientation": "square",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "source": {
+              "src": "assets/media/talls-solutions/v1/videos/filmes/making-of-talls-solutions-2024-source.mp4",
+              "width": 1080,
+              "height": 1080,
+              "bytes": 5111737,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 6,
+        "inventoried": 6,
+        "processed": 6,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 6,
+        "postersSkipped": 0,
+        "publishedVideos": 6,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 6,
+        "posters": 6
+      }
+    },
+    "charles-ii-okean": {
+      "slug": "charles-ii-okean",
+      "generatedAt": "2026-09-29T00:07:00.048009+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/charles-ii-okean/v1",
+      "profiles": {
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        },
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/animacao-charles-ii-capa.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-piscina-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-piscina-raia.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-academia-vista.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-academia-aerea.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-borda-infinita.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-hall-entrada.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-charles-ii-embasamento.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/tracking-charles-ii-yacht.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/filme-charles-ii-parceria-gessele-okean.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/filme-charles-ii-teaser.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/animacao-charles-ii-academia-aerea.mp4",
+          "name": "animacao-charles-ii-academia-aerea.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 354374330,
+          "sha256": "d12166c5825ed1de4ab1df62dd40c8342a646b9d4da0595503e5461900de9f13",
+          "modifiedAt": "2026-09-28T17:19:46+00:00",
+          "duration": 12.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 236239986,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 236249553,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-aerea-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-aerea-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-academia-vista.mp4",
+          "name": "animacao-charles-ii-academia-vista.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 294654293,
+          "sha256": "df66d056b53e7d866486ec87ec742e7425e84c5f4159001b857aa692b80c33db",
+          "modifiedAt": "2026-09-28T17:16:58+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 235712392,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 235723434,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-vista-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-vista-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-borda-infinita.mp4",
+          "name": "animacao-charles-ii-borda-infinita.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 290480042,
+          "sha256": "cfca8aa8b6d51a85b1b84043fcbcf89e642f3e9e3ad8fd5936bdaf70052706ee",
+          "modifiedAt": "2026-09-28T17:19:46+00:00",
+          "duration": 9.7,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239559854,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239571168,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-borda-infinita-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-borda-infinita-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-capa.mp4",
+          "name": "animacao-charles-ii-capa.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 590570811,
+          "sha256": "090439fd3f9c5ea666300c2a2db69bd0330cd9fa17cf146afa136796a48e9921",
+          "modifiedAt": "2026-09-28T17:20:34+00:00",
+          "duration": 19.733,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239413921,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239420603,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-capa-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-capa-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-embasamento.mp4",
+          "name": "animacao-charles-ii-embasamento.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 299840388,
+          "sha256": "60c877b1f2b0719ae8e652c6a2a8e7b57b9a8ba0871adec8c9f272b03ada1344",
+          "modifiedAt": "2026-09-28T17:16:32+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239861268,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239872310,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-embasamento-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-embasamento-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-fachada.mp4",
+          "name": "animacao-charles-ii-fachada.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 300920263,
+          "sha256": "85b45639c2eacda757baf79b62b7968fed16d22e48517e9236fa77ee5498adc7",
+          "modifiedAt": "2026-09-28T17:16:04+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 241530279,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 241541340,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-hall-entrada.mp4",
+          "name": "animacao-charles-ii-hall-entrada.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 297160938,
+          "sha256": "d821302d9c63d5a252637704f8488fade7d6b122b5c8422ae212864a02ea3909",
+          "modifiedAt": "2026-09-28T17:19:54+00:00",
+          "duration": 9.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240118915,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240130050,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-hall-entrada-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-hall-entrada-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-piscina-geral.mp4",
+          "name": "animacao-charles-ii-piscina-geral.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 299696963,
+          "sha256": "d35dbe3c0f0333188f90e0e9fabed70245dd038d9fa98cb428f9c77e6634b2e8",
+          "modifiedAt": "2026-09-28T17:16:52+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240548366,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240559427,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-geral-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-piscina-raia.mp4",
+          "name": "animacao-charles-ii-piscina-raia.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 292316533,
+          "sha256": "9c26fda0efbd465252e2c0b3af4001132131876cef97a4035b17a784ede1f509",
+          "modifiedAt": "2026-09-28T17:16:54+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 233842184,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 233853226,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-raia-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-raia-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-piscina-rio.mp4",
+          "name": "animacao-charles-ii-piscina-rio.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 300178522,
+          "sha256": "f049e6ea4188a59afabed6e9ff9d05cb2944d2e302170efc59d6dfbe23b6038f",
+          "modifiedAt": "2026-09-28T17:16:56+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240934901,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240945962,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "animacoes/animacao-charles-ii-porte-cochere.mp4",
+          "name": "animacao-charles-ii-porte-cochere.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 298935686,
+          "sha256": "d5477ddb78f192696d97a51d64364e9364c5820c899a9dbd7d2bf75a942ef95f",
+          "modifiedAt": "2026-09-28T17:16:44+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239937307,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239948368,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "animacoes/tracking-charles-ii-cidade.mp4",
+          "name": "tracking-charles-ii-cidade.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 865858458,
+          "sha256": "636beb9c4a258c435c53176460564e19b9e06fe3cc5d8293438837e052609f81",
+          "modifiedAt": "2026-09-28T17:22:06+00:00",
+          "duration": 28.833,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240232924,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240238187,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "animacoes/tracking-charles-ii-torre.mp4",
+          "name": "tracking-charles-ii-torre.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 527184994,
+          "sha256": "383cf99e533580e8cafc1d8d120308f36b7ab897608eb02b8b87cd392e4e8fe1",
+          "modifiedAt": "2026-09-28T17:20:20+00:00",
+          "duration": 17.517,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240760080,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240769545,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "animacoes/tracking-charles-ii-yacht.mp4",
+          "name": "tracking-charles-ii-yacht.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 489109824,
+          "sha256": "4a82faac705df3935482d257f879eff627cbe300e1c49b3b2c4546c64ce50657",
+          "modifiedAt": "2026-09-28T17:21:52+00:00",
+          "duration": 16.517,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 236900034,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 236907249,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-yacht-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-yacht-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4",
+          "name": "filme-charles-ii-concepcao-rodrigo-kirck.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 410192796,
+          "sha256": "3f90fc9f2c18d73bdd3af281c8eb66829440a4ff37f5c6a2379d381b4a17bd15",
+          "modifiedAt": "2026-09-28T17:31:10+00:00",
+          "duration": 201.993,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15922353,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317348,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 16245785,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-concepcao-rodrigo-kirck-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-concepcao-rodrigo-kirck-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-charles-ii-parceria-gessele-okean.mp4",
+          "name": "filme-charles-ii-parceria-gessele-okean.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 459738981,
+          "sha256": "71a1dd3b1d05bbcd3059418ccb58d5d2e3bb5bf72903371b16b43960d6183fec",
+          "modifiedAt": "2026-09-28T17:30:32+00:00",
+          "duration": 230.897,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15736160,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189339,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15928775,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-parceria-gessele-okean-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-parceria-gessele-okean-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-charles-ii-teaser.mp4",
+          "name": "filme-charles-ii-teaser.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 110277455,
+          "sha256": "ee3798f976d0f815dd34dea8c2b159120d8fb40a158dab56d1420146a8f47958",
+          "modifiedAt": "2026-09-28T17:31:34+00:00",
+          "duration": 65.232,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 13202684,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317291,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 13524372,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-teaser-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-teaser-1080.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "animacao-charles-ii-academia-aerea",
+          "source": "animacoes/animacao-charles-ii-academia-aerea.mp4",
+          "sourceSha256": "d12166c5825ed1de4ab1df62dd40c8342a646b9d4da0595503e5461900de9f13",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-aerea-poster.webp",
+          "duration": 12.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-aerea-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6021469,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-academia-vista",
+          "source": "animacoes/animacao-charles-ii-academia-vista.mp4",
+          "sourceSha256": "df66d056b53e7d866486ec87ec742e7425e84c5f4159001b857aa692b80c33db",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-vista-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-vista-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6877663,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-borda-infinita",
+          "source": "animacoes/animacao-charles-ii-borda-infinita.mp4",
+          "sourceSha256": "cfca8aa8b6d51a85b1b84043fcbcf89e642f3e9e3ad8fd5936bdaf70052706ee",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-borda-infinita-poster.webp",
+          "duration": 9.7,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-borda-infinita-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 8502673,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-capa",
+          "source": "animacoes/animacao-charles-ii-capa.mp4",
+          "sourceSha256": "090439fd3f9c5ea666300c2a2db69bd0330cd9fa17cf146afa136796a48e9921",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-capa-poster.webp",
+          "duration": 19.733,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-capa-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 22602204,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-embasamento",
+          "source": "animacoes/animacao-charles-ii-embasamento.mp4",
+          "sourceSha256": "60c877b1f2b0719ae8e652c6a2a8e7b57b9a8ba0871adec8c9f272b03ada1344",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-embasamento-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-embasamento-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 11579437,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-hall-entrada",
+          "source": "animacoes/animacao-charles-ii-hall-entrada.mp4",
+          "sourceSha256": "d821302d9c63d5a252637704f8488fade7d6b122b5c8422ae212864a02ea3909",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-hall-entrada-poster.webp",
+          "duration": 9.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-hall-entrada-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6822382,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-piscina-geral",
+          "source": "animacoes/animacao-charles-ii-piscina-geral.mp4",
+          "sourceSha256": "d35dbe3c0f0333188f90e0e9fabed70245dd038d9fa98cb428f9c77e6634b2e8",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-geral-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 13394801,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-piscina-raia",
+          "source": "animacoes/animacao-charles-ii-piscina-raia.mp4",
+          "sourceSha256": "9c26fda0efbd465252e2c0b3af4001132131876cef97a4035b17a784ede1f509",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-raia-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-raia-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 8569486,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "tracking-charles-ii-yacht",
+          "source": "animacoes/tracking-charles-ii-yacht.mp4",
+          "sourceSha256": "4a82faac705df3935482d257f879eff627cbe300e1c49b3b2c4546c64ce50657",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-yacht-poster.webp",
+          "duration": 16.517,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-yacht-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 11337070,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-charles-ii-concepcao-rodrigo-kirck",
+          "source": "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4",
+          "sourceSha256": "3f90fc9f2c18d73bdd3af281c8eb66829440a4ff37f5c6a2379d381b4a17bd15",
+          "category": "filmes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-concepcao-rodrigo-kirck-poster.webp",
+          "duration": 201.993,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-concepcao-rodrigo-kirck-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 120455515,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-charles-ii-parceria-gessele-okean",
+          "source": "filmes/filme-charles-ii-parceria-gessele-okean.mp4",
+          "sourceSha256": "71a1dd3b1d05bbcd3059418ccb58d5d2e3bb5bf72903371b16b43960d6183fec",
+          "category": "filmes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-parceria-gessele-okean-poster.webp",
+          "duration": 230.897,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-parceria-gessele-okean-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 117709719,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-charles-ii-teaser",
+          "source": "filmes/filme-charles-ii-teaser.mp4",
+          "sourceSha256": "ee3798f976d0f815dd34dea8c2b159120d8fb40a158dab56d1420146a8f47958",
+          "category": "filmes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-teaser-poster.webp",
+          "duration": 65.232,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-teaser-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 58278192,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 17,
+        "inventoried": 17,
+        "processed": 12,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 12,
+        "postersSkipped": 0,
+        "publishedVideos": 12,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 12,
+        "posters": 12
       }
     }
   }

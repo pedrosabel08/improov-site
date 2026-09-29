@@ -62,7 +62,7 @@ Em `data/projects.json`, acrescente um objeto em `projects`, seguindo Alpes como
 - `media.animation`, quando houver card animado, usa `{ "manifest": "alp-sc", "id": "animacao-2-alp-sc-conceito" }`. O manifesto precisa ter esse vídeo publicado.
 - `detail.subtitle`, `detail.description` por idioma e `detail.info` (`client`, `architect`, `year`) guardam dados aprovados. Campos ausentes ficam vazios, sem texto fictício. `mediaVersion` atual é `1`.
 
-Os cards apontam para `base_url('projetos/' + slug)`. Não criar cards fixos para preencher layout. Depois da inclusão, os únicos projetos atuais são ARS, AYA e Alpes. Se o HTML legado ainda for distribuído, mantenha seu espelho de dados coerente com os projetos reais e os derivados.
+Os cards apontam para `base_url('projetos/' + slug)`. Não criar cards fixos para preencher layout. Consulte `data/projects.json` para a lista vigente; não mantenha uma lista fixa de projetos neste procedimento. Se o HTML legado ainda for distribuído, mantenha seu espelho de dados coerente com os projetos reais e os derivados.
 
 Em `data/cases.json`, adicione a chave do slug dentro de `cases`. Reutilize `theme: "light"`, `motion: "slow"`, `hero`, `services`, `sections`, `credits` e `nextProject` conforme necessário. Não condicionar PHP/JS/CSS ao nome do projeto.
 
