@@ -89,6 +89,9 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
 $sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor): bool {
   $type = (string) ($section['type'] ?? '');
   if ($type === 'viewportAudio') {
+    if ($videoFor($section['mediaId'] ?? $section['video'] ?? null) !== null) {
+      return true;
+    }
     $source = $section['source'] ?? null;
     return is_string($source) && $source !== '' && !str_contains($source, '..') && is_file(APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, ltrim($source, '/')));
   }
@@ -749,10 +752,15 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         </div>
       </section>
     <?php elseif ($type === 'viewportAudio'): ?>
-      <?php $source = (string) ($section['source'] ?? ''); ?>
+      <?php
+      $viewportVideo = $videoFor($section['mediaId'] ?? $section['video'] ?? null);
+      $source = $viewportVideo !== null ? case_video_source($viewportVideo) : null;
+      $sourceUrl = $source !== null ? (string) $source['src'] : (string) ($section['source'] ?? '');
+      $viewportLabel = $caseText($section['label'] ?? $chapterLabel);
+      ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-viewport-audio" data-case-chapter="<?= escape($chapterId) ?>">
         <div class="case-v3-shell case-v3-viewport-audio__frame" data-case-reveal="up">
-          <video class="case-v3-viewport-audio__video" data-case-video data-case-media-kind="viewport-audio" data-case-video-source="<?= escape(asset($source)) ?>" controls playsinline preload="none" aria-label="Senna Tower"></video>
+          <video class="case-v3-viewport-audio__video" data-case-video data-case-media-kind="viewport-audio" data-case-video-source="<?= escape(asset($sourceUrl)) ?>"<?= $viewportVideo !== null && !empty($viewportVideo['poster']) ? ' poster="' . escape(asset((string) $viewportVideo['poster'])) . '"' : '' ?> width="<?= (int) ($source['width'] ?? $viewportVideo['width'] ?? 1920) ?>" height="<?= (int) ($source['height'] ?? $viewportVideo['height'] ?? 1080) ?>" controls playsinline preload="none" aria-label="<?= escape($viewportLabel) ?>"></video>
         </div>
       </section>
     <?php elseif ($type === 'film'): ?>

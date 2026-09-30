@@ -3026,14 +3026,14 @@
         },
         {
           "type": "viewportAudio",
-          "id": "senna-tower",
+          "id": "banner-talls-solutions",
           "navigation": false,
           "label": {
-            "pt-BR": "Senna Tower",
-            "en": "Senna Tower",
-            "es": "Senna Tower"
+            "pt-BR": "Talls Solutions",
+            "en": "Talls Solutions",
+            "es": "Talls Solutions"
           },
-          "source": "assets/senna-tower.mp4"
+          "mediaId": "animacao-talls-solutions-capa"
         },
         {
           "type": "film",
