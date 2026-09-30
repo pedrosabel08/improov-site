@@ -74,7 +74,7 @@ Em `data/cases.json`, adicione a chave do slug dentro de `cases`. Reutilize `the
 | ---------------- | ----------------------------------------------- | ----------------------------------------------------------------------------- |
 | `gallery`        | `groups`, `items` ou `moments`                  | Imagens editoriais, pares, trios e mosaicos; ampliação compartilhada          |
 | `carousel`       | `items: [{src, label}]` ou `[{mediaId, label}]` | Imagens, plantas ou animações, trilho horizontal com snap, setas e teclado    |
-| `editorialBlock` | `items` com um vídeo e duas imagens             | Composição editorial mista; só renderiza com esse conjunto completo           |
+| `editorialBlock` | `items` com um ou dois vídeos e duas imagens | Composição editorial; com dois vídeos, o segundo aparece depois do par de imagens |
 | `interlude`      | `items` com imagens e/ou vídeos                 | Intervalo visual usando componente compartilhado                              |
 | `stillMotion`    | `environment`                                   | Alterna still e animação de um ambiente cadastrado em `environments`          |
 | `animations`     | `steps`, cada um com `layout` e `items`         | Narrativa de animações por etapas; adaptação compacta em tablet/mobile        |

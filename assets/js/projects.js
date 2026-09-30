@@ -24,7 +24,13 @@
       const title = card.querySelector("[data-project-title]");
       const location = card.querySelector("[data-project-location]");
       const image = card.querySelector("img");
-      if (title) title.textContent = value(project.title, lang);
+      if (title) {
+        const titleMap =
+          card.dataset.projectCardScope === "home" && project.homeTitle
+            ? project.homeTitle
+            : project.title;
+        title.textContent = value(titleMap, lang);
+      }
       const locationText = location?.querySelector("[data-project-location-text]");
       if (locationText) locationText.textContent = value(project.location, lang);
       if (image) image.alt = value(project.media.hero.alt, lang);

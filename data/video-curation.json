@@ -505,7 +505,32 @@
           "poster": true,
           "variants": ["1080"]
         },
+        "animacoes/animacao-charles-ii-fachada.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-piscina-rio.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-charles-ii-porte-cochere.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/tracking-charles-ii-torre.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
         "animacoes/tracking-charles-ii-yacht.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-charles-ii-conceitual.mp4": {
           "publish": true,
           "poster": true,
           "variants": ["1080"]
@@ -521,9 +546,9 @@
           "variants": ["1080"]
         },
         "filmes/filme-charles-ii-teaser.mp4": {
-          "publish": true,
-          "poster": true,
-          "variants": ["1080"]
+          "publish": false,
+          "poster": false,
+          "variants": []
         }
       }
     }

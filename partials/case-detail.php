@@ -88,6 +88,10 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
 };
 $sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor): bool {
   $type = (string) ($section['type'] ?? '');
+  if ($type === 'viewportAudio') {
+    $source = $section['source'] ?? null;
+    return is_string($source) && $source !== '' && !str_contains($source, '..') && is_file(APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, ltrim($source, '/')));
+  }
   if ($type === 'gallery') {
     $groups = $section['groups'] ?? [$section];
     foreach ($groups as $group) {
@@ -383,15 +387,15 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
       <?php endif; ?>
     <?php elseif ($type === 'editorialBlock'): ?>
       <?php
-      $editorialVideo = null;
+      $editorialVideos = [];
       $editorialImages = [];
       foreach ($section['items'] ?? [] as $item) {
         if (!is_array($item)) {
           continue;
         }
         $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
-        if ($video !== null && $editorialVideo === null) {
-          $editorialVideo = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação')];
+        if ($video !== null && count($editorialVideos) < 2) {
+          $editorialVideos[] = ['video' => $video, 'label' => $caseText($item['label'] ?? 'Animação')];
           continue;
         }
         if ($imageExists($item['src'] ?? null) && count($editorialImages) < 2) {
@@ -399,23 +403,27 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         }
       }
       ?>
-      <?php if ($editorialVideo !== null && count($editorialImages) === 2): ?>
+      <?php if ($editorialVideos !== [] && count($editorialImages) === 2): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-editorial-block" data-case-chapter="<?= escape($chapterId) ?>">
           <div class="case-v3-editorial-block__grid case-v3-shell" data-case-reveal="up">
-            <figure class="case-v3-editorial-block__motion">
-              <?= $renderVideo($editorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $editorialVideo['label']) ?>
-              <figcaption><?= escape($editorialVideo['label']) ?></figcaption>
+            <?php $firstEditorialVideo = array_shift($editorialVideos); ?><figure class="case-v3-editorial-block__motion">
+              <?= $renderVideo($firstEditorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $firstEditorialVideo['label']) ?>
+              <figcaption><?= escape($firstEditorialVideo['label']) ?></figcaption>
             </figure>
             <div class="case-v3-editorial-block__images">
               <?php foreach ($editorialImages as $image): ?>
                 <figure class="case-v3-editorial-block__image">
-                  <button type="button" data-case-image-open data-image-set="editorial" data-image-src="<?= escape($lightboxImageUrl($image['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $image['label']) ?>" data-image-label="<?= escape($image['label']) ?>" aria-label="Abrir <?= escape($image['label']) ?> em tela cheia">
+                  <button type="button" data-case-image-open data-image-set="editorial" data-image-src="<?= escape($lightboxImageUrl($image['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' - ' . $image['label']) ?>" data-image-label="<?= escape($image['label']) ?>" aria-label="Abrir <?= escape($image['label']) ?> em tela cheia">
                     <?= $renderImage($image['source'], 'case-v3-image', '(max-width: 767px) 100vw, 48vw', $image['label']) ?>
                   </button>
                   <figcaption><?= escape($image['label']) ?></figcaption>
                 </figure>
               <?php endforeach; ?>
             </div>
+            <?php foreach ($editorialVideos as $editorialVideo): ?><figure class="case-v3-editorial-block__motion">
+              <?= $renderVideo($editorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $editorialVideo['label']) ?>
+              <figcaption><?= escape($editorialVideo['label']) ?></figcaption>
+            </figure><?php endforeach; ?>
           </div>
         </section>
       <?php endif; ?>
@@ -738,6 +746,13 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                 <div class="case-v3-moment__media-stage"><?= $renderVideo($item['video'], 'case-v3-moment__video', 'moment', $momentLabel) ?></div>
               </div>
             </figure><?php endforeach; ?>
+        </div>
+      </section>
+    <?php elseif ($type === 'viewportAudio'): ?>
+      <?php $source = (string) ($section['source'] ?? ''); ?>
+      <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-viewport-audio" data-case-chapter="<?= escape($chapterId) ?>">
+        <div class="case-v3-shell case-v3-viewport-audio__frame" data-case-reveal="up">
+          <video class="case-v3-viewport-audio__video" data-case-video data-case-media-kind="viewport-audio" data-case-video-source="<?= escape(asset($source)) ?>" controls playsinline preload="none" aria-label="Senna Tower"></video>
         </div>
       </section>
     <?php elseif ($type === 'film'): ?>

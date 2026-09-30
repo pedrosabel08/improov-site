@@ -7766,7 +7766,7 @@
     },
     "charles-ii-okean": {
       "slug": "charles-ii-okean",
-      "generatedAt": "2026-09-29T00:07:00.048009+00:00",
+      "generatedAt": "2026-09-29T23:43:36.656095+00:00",
       "pipelineVersion": 1,
       "publicRoot": "assets/media/charles-ii-okean/v1",
       "profiles": {
@@ -7775,6 +7775,11 @@
           "preset": "medium",
           "audioBitrate": "128k"
         },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
         "outros": {
           "crf": 19,
           "preset": "slow",
@@ -7782,11 +7787,6 @@
         },
         "filmes": {
           "crf": 21,
-          "preset": "slow",
-          "audioBitrate": "160k"
-        },
-        "animacoes": {
-          "crf": 19,
           "preset": "slow",
           "audioBitrate": "160k"
         }
@@ -7801,62 +7801,119 @@
           "animacoes/animacao-charles-ii-capa.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-piscina-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-piscina-raia.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-academia-vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-academia-aerea.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-borda-infinita.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-hall-entrada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/animacao-charles-ii-embasamento.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "animacoes/tracking-charles-ii-yacht.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "filmes/filme-charles-ii-parceria-gessele-okean.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
           },
           "filmes/filme-charles-ii-teaser.mp4": {
+            "publish": false,
+            "poster": false,
+            "variants": []
+          },
+          "animacoes/animacao-charles-ii-fachada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": ["1080"]
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-charles-ii-piscina-rio.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/animacao-charles-ii-porte-cochere.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "animacoes/tracking-charles-ii-torre.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
+          },
+          "filmes/filme-charles-ii-conceitual.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": [
+              "1080"
+            ]
           }
         }
       },
@@ -7893,8 +7950,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-aerea-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-aerea-1080.mp4"
@@ -7932,8 +7993,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-vista-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-vista-1080.mp4"
@@ -7971,8 +8036,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-borda-infinita-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-borda-infinita-1080.mp4"
@@ -8010,8 +8079,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-capa-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-capa-1080.mp4"
@@ -8049,8 +8122,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-embasamento-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-embasamento-1080.mp4"
@@ -8086,11 +8163,18 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 241541340,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-fachada-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-fachada-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-charles-ii-hall-entrada.mp4",
@@ -8124,8 +8208,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-hall-entrada-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-hall-entrada-1080.mp4"
@@ -8163,8 +8251,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-geral-1080.mp4"
@@ -8202,8 +8294,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-raia-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-raia-1080.mp4"
@@ -8239,11 +8335,18 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 240945962,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-rio-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-rio-1080.mp4"
+          }
         },
         {
           "source": "animacoes/animacao-charles-ii-porte-cochere.mp4",
@@ -8275,11 +8378,18 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 239948368,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-porte-cochere-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-porte-cochere-1080.mp4"
+          }
         },
         {
           "source": "animacoes/tracking-charles-ii-cidade.mp4",
@@ -8347,11 +8457,18 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 240769545,
           "available": true,
-          "published": false,
-          "publication": "inventory-only",
-          "requestedVariants": [],
-          "publicVariants": [],
-          "publicSources": {}
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-torre-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-torre-1080.mp4"
+          }
         },
         {
           "source": "animacoes/tracking-charles-ii-yacht.mp4",
@@ -8385,11 +8502,58 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-yacht-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-yacht-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-charles-ii-conceitual.mp4",
+          "name": "filme-charles-ii-conceitual.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 303550457,
+          "sha256": "57e4d8e83d62b44e50a27ac87d47109807178169d1ad23882c45c6b2a2229bcb",
+          "modifiedAt": "2026-09-29T23:20:32.677147+00:00",
+          "duration": 149.816,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15886857,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317338,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 16209205,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-conceitual-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-conceitual-1080.mp4"
           }
         },
         {
@@ -8424,8 +8588,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-concepcao-rodrigo-kirck-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-concepcao-rodrigo-kirck-1080.mp4"
@@ -8463,8 +8631,12 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
+          "requestedVariants": [
+            "1080"
+          ],
+          "publicVariants": [
+            "1080"
+          ],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-parceria-gessele-okean-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-parceria-gessele-okean-1080.mp4"
@@ -8500,14 +8672,11 @@
           "formatLong": "QuickTime / MOV",
           "totalBitrate": 13524372,
           "available": true,
-          "published": true,
-          "publication": "video",
-          "requestedVariants": ["1080"],
-          "publicVariants": ["1080"],
-          "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-teaser-poster.webp",
-          "publicSources": {
-            "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-teaser-1080.mp4"
-          }
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
         }
       ],
       "videos": [
@@ -8667,6 +8836,37 @@
           }
         },
         {
+          "id": "animacao-charles-ii-fachada",
+          "source": "animacoes/animacao-charles-ii-fachada.mp4",
+          "sourceSha256": "85b45639c2eacda757baf79b62b7968fed16d22e48517e9236fa77ee5498adc7",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-fachada-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-fachada-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 16901852,
+              "faststart": true
+            }
+          }
+        },
+        {
           "id": "animacao-charles-ii-hall-entrada",
           "source": "animacoes/animacao-charles-ii-hall-entrada.mp4",
           "sourceSha256": "d821302d9c63d5a252637704f8488fade7d6b122b5c8422ae212864a02ea3909",
@@ -8760,6 +8960,99 @@
           }
         },
         {
+          "id": "animacao-charles-ii-piscina-rio",
+          "source": "animacoes/animacao-charles-ii-piscina-rio.mp4",
+          "sourceSha256": "f049e6ea4188a59afabed6e9ff9d05cb2944d2e302170efc59d6dfbe23b6038f",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-rio-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-rio-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 9154999,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-charles-ii-porte-cochere",
+          "source": "animacoes/animacao-charles-ii-porte-cochere.mp4",
+          "sourceSha256": "d5477ddb78f192696d97a51d64364e9364c5820c899a9dbd7d2bf75a942ef95f",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-porte-cochere-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-porte-cochere-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6886788,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "tracking-charles-ii-torre",
+          "source": "animacoes/tracking-charles-ii-torre.mp4",
+          "sourceSha256": "383cf99e533580e8cafc1d8d120308f36b7ab897608eb02b8b87cd392e4e8fe1",
+          "category": "animacoes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-torre-poster.webp",
+          "duration": 17.517,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-torre-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 55949860,
+              "faststart": true
+            }
+          }
+        },
+        {
           "id": "tracking-charles-ii-yacht",
           "source": "animacoes/tracking-charles-ii-yacht.mp4",
           "sourceSha256": "4a82faac705df3935482d257f879eff627cbe300e1c49b3b2c4546c64ce50657",
@@ -8786,6 +9079,37 @@
               "width": 1920,
               "height": 1080,
               "bytes": 11337070,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-charles-ii-conceitual",
+          "source": "filmes/filme-charles-ii-conceitual.mp4",
+          "sourceSha256": "57e4d8e83d62b44e50a27ac87d47109807178169d1ad23882c45c6b2a2229bcb",
+          "category": "filmes",
+          "poster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-conceitual-poster.webp",
+          "duration": 149.816,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-conceitual-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 112309841,
               "faststart": true
             }
           }
@@ -8851,53 +9175,22 @@
               "faststart": true
             }
           }
-        },
-        {
-          "id": "filme-charles-ii-teaser",
-          "source": "filmes/filme-charles-ii-teaser.mp4",
-          "sourceSha256": "ee3798f976d0f815dd34dea8c2b159120d8fb40a158dab56d1420146a8f47958",
-          "category": "filmes",
-          "poster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-teaser-poster.webp",
-          "duration": 65.232,
-          "width": 1920,
-          "height": 1080,
-          "aspectRatio": "16:9",
-          "orientation": "landscape",
-          "hasAudio": true,
-          "loopCandidate": false,
-          "audioCodec": "aac",
-          "videoCodec": "h264",
-          "profile": {
-            "crf": 21,
-            "preset": "slow",
-            "audioBitrate": "160k"
-          },
-          "pipelineVersion": 1,
-          "sources": {
-            "1080": {
-              "src": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-teaser-1080.mp4",
-              "width": 1920,
-              "height": 1080,
-              "bytes": 58278192,
-              "faststart": true
-            }
-          }
         }
       ],
       "posterOnly": [],
       "errors": [],
       "summary": {
-        "found": 17,
-        "inventoried": 17,
-        "processed": 12,
-        "skipped": 0,
+        "found": 18,
+        "inventoried": 18,
+        "processed": 5,
+        "skipped": 11,
         "failed": 0,
-        "postersProcessed": 12,
-        "postersSkipped": 0,
-        "publishedVideos": 12,
+        "postersProcessed": 5,
+        "postersSkipped": 11,
+        "publishedVideos": 16,
         "publishedPosterOnly": 0,
-        "publishedVariants": 12,
-        "posters": 12
+        "publishedVariants": 16,
+        "posters": 16
       }
     }
   }

@@ -1238,6 +1238,17 @@
   height: 70vh;
   margin: auto;
 }
+.case-v3-viewport-audio {
+  padding-block: clamp(36px, 5vw, 76px);
+}
+.case-v3-viewport-audio__frame {
+  width: min(88vw, 1500px);
+}
+.case-v3-viewport-audio__video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .case-v3-film__video {
   display: block;
   width: 100%;

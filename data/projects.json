@@ -1160,9 +1160,9 @@
       "showOnHome": true,
       "homeOrder": 8,
       "title": {
-        "pt-BR": "Charles II Yacht Royal Home by Okean",
-        "en": "Charles II Yacht Royal Home by Okean",
-        "es": "Charles II Yacht Royal Home by Okean"
+        "pt-BR": "Charles II by OKEAN",
+        "en": "Charles II by OKEAN",
+        "es": "Charles II by OKEAN"
       },
       "location": {
         "pt-BR": "Meia Praia - Itapema - SC",
@@ -1175,9 +1175,9 @@
           "width": 8000,
           "height": 5760,
           "alt": {
-            "pt-BR": "Charles II Yacht Royal Home by Okean — vista aérea do empreendimento",
-            "en": "Charles II Yacht Royal Home by Okean — aerial view of the development",
-            "es": "Charles II Yacht Royal Home by Okean — vista aérea del emprendimiento"
+            "pt-BR": "Charles II by OKEAN — vista aérea do empreendimento",
+            "en": "Charles II by OKEAN — aerial view of the development",
+            "es": "Charles II by OKEAN — vista aérea del emprendimiento"
           }
         },
         "animation": {
@@ -1374,7 +1374,12 @@
           "year": ""
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "homeTitle": {
+        "pt-BR": "Charles II by OKEAN",
+        "en": "Charles II by OKEAN",
+        "es": "Charles II by OKEAN"
+      }
     }
   ]
 }

@@ -126,11 +126,18 @@
     );
     videos
       .filter((video) =>
-        ["motion", "interlude", "editorial", "impact"].includes(
+        ["motion", "interlude", "editorial", "impact", "viewport-audio"].includes(
           video.dataset.caseMediaKind,
         ),
       )
       .forEach((video) => motionObserver.observe(video));
+
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden) return;
+      videos
+        .filter((video) => video.dataset.caseMediaKind === "viewport-audio")
+        .forEach((video) => media.deactivate(video));
+    });
   }
 
   function initAnimationsStorytelling() {

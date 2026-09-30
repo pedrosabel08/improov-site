@@ -3025,6 +3025,17 @@
           ]
         },
         {
+          "type": "viewportAudio",
+          "id": "senna-tower",
+          "navigation": false,
+          "label": {
+            "pt-BR": "Senna Tower",
+            "en": "Senna Tower",
+            "es": "Senna Tower"
+          },
+          "source": "assets/senna-tower.mp4"
+        },
+        {
           "type": "film",
           "id": "making-of",
           "label": {
@@ -3122,6 +3133,39 @@
       ],
       "sections": [
         {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
+        },
+        {
+          "type": "interlude",
+          "id": "experiencia-nautica",
+          "label": {
+            "pt-BR": "Experiência náutica",
+            "en": "Yachting experience",
+            "es": "Experiencia náutica"
+          },
+          "items": [
+            {
+              "mediaId": "tracking-charles-ii-yacht",
+              "label": {
+                "pt-BR": "Vista a partir de um yacht",
+                "en": "View from a yacht",
+                "es": "Vista desde un yate"
+              }
+            }
+          ]
+        },
+        {
           "type": "carousel",
           "id": "fachadas-e-entorno",
           "label": {
@@ -3174,21 +3218,44 @@
                 "en": "Marina seen from the Perequê River",
                 "es": "Marina vista desde el río Perequê"
               }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "corpo-editorial-01",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "animacao-charles-ii-fachada",
+              "label": {
+                "pt-BR": "Fachada — vista do observador",
+                "en": "Facade — observer view",
+                "es": "Fachada — vista del observador"
+              }
             },
             {
               "src": "assets/projetos/charles-ii-okean/imagens/imagem-06-charles-ii-okean.jpg",
               "label": {
-                "pt-BR": "Rooftop Sky Place",
-                "en": "Sky Place rooftop",
-                "es": "Rooftop Sky Place"
+                "pt-BR": "Vista aérea do rooftop Sky Place",
+                "en": "Aerial view of Sky Place rooftop",
+                "es": "Vista aérea del rooftop Sky Place"
               }
             },
             {
               "src": "assets/projetos/charles-ii-okean/imagens/imagem-07-charles-ii-okean.jpg",
               "label": {
-                "pt-BR": "Marina vista do rio Perequê",
-                "en": "Marina seen from the Perequê River",
-                "es": "Marina vista desde el río Perequê"
+                "pt-BR": "Vista da marina",
+                "en": "Marina view",
+                "es": "Vista de la marina"
+              }
+            },
+            {
+              "mediaId": "tracking-charles-ii-torre",
+              "label": {
+                "pt-BR": "Tracking pela torre",
+                "en": "Tower tracking",
+                "es": "Recorrido por la torre"
               }
             }
           ]
@@ -3342,21 +3409,44 @@
                 "en": "Entrance hall",
                 "es": "Vestíbulo"
               }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "corpo-editorial-02",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "animacao-charles-ii-piscina-rio",
+              "label": {
+                "pt-BR": "Piscina com vista para o Rio Perequê",
+                "en": "Pool overlooking the Perequê River",
+                "es": "Piscina con vista al río Perequê"
+              }
             },
             {
               "src": "assets/projetos/charles-ii-okean/imagens/imagem-08-charles-ii-okean.jpg",
               "label": {
-                "pt-BR": "Academia",
-                "en": "Gym",
-                "es": "Gimnasio"
+                "pt-BR": "Academia — vista aérea",
+                "en": "Gym — aerial view",
+                "es": "Gimnasio — vista aérea"
               }
             },
             {
               "src": "assets/projetos/charles-ii-okean/imagens/imagem-09-charles-ii-okean.jpg",
               "label": {
-                "pt-BR": "Piscina",
-                "en": "Pool",
-                "es": "Piscina"
+                "pt-BR": "Piscina com borda infinita",
+                "en": "Infinity pool",
+                "es": "Piscina infinita"
+              }
+            },
+            {
+              "mediaId": "animacao-charles-ii-porte-cochere",
+              "label": {
+                "pt-BR": "Porte-cochère e hall de entrada",
+                "en": "Porte-cochère and entrance hall",
+                "es": "Porte-cochère y vestíbulo"
               }
             }
           ]
@@ -3429,25 +3519,6 @@
                 "pt-BR": "Embasamento",
                 "en": "Podium",
                 "es": "Basamento"
-              }
-            }
-          ]
-        },
-        {
-          "type": "interlude",
-          "id": "experiencia-nautica",
-          "label": {
-            "pt-BR": "Experiência náutica",
-            "en": "Yachting experience",
-            "es": "Experiencia náutica"
-          },
-          "items": [
-            {
-              "mediaId": "tracking-charles-ii-yacht",
-              "label": {
-                "pt-BR": "Vista a partir de um yacht",
-                "en": "View from a yacht",
-                "es": "Vista desde un yate"
               }
             }
           ]
@@ -3534,19 +3605,19 @@
         },
         {
           "type": "film",
-          "id": "teaser",
+          "id": "filme-conceitual",
           "label": {
-            "pt-BR": "Teaser",
-            "en": "Teaser",
-            "es": "Teaser"
+            "pt-BR": "Filme conceitual",
+            "en": "Concept film",
+            "es": "Película conceptual"
           },
           "videos": [
             {
-              "video": "filme-charles-ii-teaser",
+              "video": "filme-charles-ii-conceitual",
               "label": {
-                "pt-BR": "Teaser",
-                "en": "Teaser",
-                "es": "Teaser"
+                "pt-BR": "Filme conceitual",
+                "en": "Concept film",
+                "es": "Película conceptual"
               }
             }
           ]
@@ -3603,20 +3674,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "closing",
-          "id": "ficha-tecnica",
-          "label": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          },
-          "title": {
-            "pt-BR": "Ficha técnica",
-            "en": "Technical sheet",
-            "es": "Ficha técnica"
-          }
         }
       ],
       "credits": {
@@ -3627,7 +3684,7 @@
               "en": "Project",
               "es": "Proyecto"
             },
-            "value": "Charles II Yacht Royal Home by Okean"
+            "value": "Charles II Yacht Royal Home by OKEAN"
           },
           {
             "label": {

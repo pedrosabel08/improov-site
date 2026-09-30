@@ -1,11 +1,12 @@
 <?php
 $hero = $project['media']['hero'];
-$cardTitle = translated($project['title']);
+$isHomeCard = ($projectGridClass ?? '') === 'project-grid--home';
+$cardTitle = translated($isHomeCard ? ($project['homeTitle'] ?? $project['title']) : $project['title']);
 $cardLocation = translated($project['location']);
 $cardAlt = translated($hero['alt']);
 $animation = project_animation($project);
 ?>
-<a class="project-card project-card--<?= escape($project['placement']) ?>" href="<?= escape(base_url('projetos/' . $project['slug'])) ?>" data-project-slug="<?= escape($project['slug']) ?>">
+<a class="project-card project-card--<?= escape($project['placement']) ?>" href="<?= escape(base_url('projetos/' . $project['slug'])) ?>" data-project-slug="<?= escape($project['slug']) ?>"<?= $isHomeCard ? ' data-project-card-scope="home"' : '' ?>>
   <?php if ($animation !== null): ?>
     <?= lazy_video($animation, 'project-card__image', false, ['aria-label' => $cardAlt]) ?>
   <?php else: ?>
