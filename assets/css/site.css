@@ -342,33 +342,33 @@ button:focus-visible {
   z-index: 900;
   display: grid;
   place-items: center;
-  width: 58px;
-  height: 58px;
-  border: 1px solid rgba(16, 16, 16, 0.2);
-  border-radius: 50%;
-  background: #25d366;
-  box-shadow: var(--shadow);
-  color: white;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 0 !important;
+  background: transparent
+    url(https://d335luupugsy2.cloudfront.net/cms/files/1446/1588875979/$5u0ndp8vgxo)
+    center center no-repeat;
+  box-shadow: none;
+  color: #25d366;
   text-decoration: none;
-  backdrop-filter: blur(10px);
   transition:
     transform var(--transition),
     background var(--transition);
 }
 .whatsapp-float:hover {
   transform: translateY(-3px);
-  background: #1ebe5d;
 }
 .whatsapp-float span {
   display: inline-flex;
 }
 .whatsapp-float svg,
 .whatsapp-float i {
-  width: 30px;
-  height: 30px;
+  width: 44px;
+  height: 44px;
   display: grid;
   place-items: center;
-  font-size: 30px;
+  font-size: 44px;
 }
 .site-footer {
   /* margin-top: var(--section-space); */
