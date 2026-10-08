@@ -2,6 +2,23 @@
 <html lang="<?= escape(current_language()) ?>">
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-55WF2HTD');
+  </script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= escape($meta['title']) ?></title>
@@ -20,7 +37,8 @@
   <meta property="og:site_name" content="Improov">
   <meta property="og:title" content="<?= escape($meta['title']) ?>">
   <meta property="og:description" content="<?= escape($meta['description']) ?>">
-  <?php if (!$isNotFound): ?><meta property="og:url" content="<?= escape(canonical_url($meta['path'])) ?>"><?php endif; ?>
+  <?php if (!$isNotFound): ?>
+    <meta property="og:url" content="<?= escape(canonical_url($meta['path'])) ?>"><?php endif; ?>
   <?php $metaImage = str_starts_with($meta['image'], 'assets/') ? $meta['image'] : 'assets/' . $meta['image']; ?>
   <?php $metaDerived = media_image_path($metaImage, 1440); ?>
   <meta property="og:image" content="<?= escape(APP_ORIGIN . asset($metaDerived ?? ('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82'))) ?>">
@@ -42,23 +60,23 @@
   </script>
   <script type="application/ld+json">
     <?= json_encode([
-        '@context' => 'https://schema.org',
-        '@type' => 'Organization',
-        '@id' => canonical_url('', 'pt-BR') . '#organization',
-        'name' => $site['name'],
-        'url' => canonical_url('', 'pt-BR'),
-        'description' => page_metadata('home')['description'],
-        'email' => $site['email'],
+      '@context' => 'https://schema.org',
+      '@type' => 'Organization',
+      '@id' => canonical_url('', 'pt-BR') . '#organization',
+      'name' => $site['name'],
+      'url' => canonical_url('', 'pt-BR'),
+      'description' => page_metadata('home')['description'],
+      'email' => $site['email'],
+      'telephone' => $site['phoneDisplay'],
+      'address' => ['@type' => 'PostalAddress'] + $site['postalAddress'],
+      'contactPoint' => [[
+        '@type' => 'ContactPoint',
+        'contactType' => 'commercial inquiries',
         'telephone' => $site['phoneDisplay'],
-        'address' => ['@type' => 'PostalAddress'] + $site['postalAddress'],
-        'contactPoint' => [[
-            '@type' => 'ContactPoint',
-            'contactType' => 'commercial inquiries',
-            'telephone' => $site['phoneDisplay'],
-            'email' => $site['email'],
-            'availableLanguage' => ['pt-BR', 'en', 'es'],
-        ]],
-        'sameAs' => array_values($site['social']),
+        'email' => $site['email'],
+        'availableLanguage' => ['pt-BR', 'en', 'es'],
+      ]],
+      'sameAs' => array_values($site['social']),
     ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
   </script>
   <?php if ($project !== null): ?><script type="application/ld+json">
@@ -66,28 +84,34 @@
     </script><?php endif; ?>
   <?php if ($project !== null): ?><script type="application/ld+json">
       <?= json_encode([
-          '@context' => 'https://schema.org',
-          '@type' => 'CreativeWork',
-          '@id' => canonical_url('projetos/' . $project['slug']) . '#case',
-          'name' => translated($project['title']),
-          'url' => canonical_url('projetos/' . $project['slug']),
-          'description' => $meta['description'],
-          'image' => APP_ORIGIN . asset($project['media']['hero']['src']),
-          'inLanguage' => current_language(),
-          'creator' => ['@id' => canonical_url('', 'pt-BR') . '#organization'],
+        '@context' => 'https://schema.org',
+        '@type' => 'CreativeWork',
+        '@id' => canonical_url('projetos/' . $project['slug']) . '#case',
+        'name' => translated($project['title']),
+        'url' => canonical_url('projetos/' . $project['slug']),
+        'description' => $meta['description'],
+        'image' => APP_ORIGIN . asset($project['media']['hero']['src']),
+        'inLanguage' => current_language(),
+        'creator' => ['@id' => canonical_url('', 'pt-BR') . '#organization'],
       ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>
     </script><?php endif; ?>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B5NQ8F79YD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B5NQ8F79YD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-B5NQ8F79YD');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B5NQ8F79YD');
+  </script>
 </head>
 
 <body class="page page--<?= escape($pageKey) ?><?= $case !== null ? ' page--case' : '' ?>">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55WF2HTD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <a class="skip-link" href="#conteudo" data-i18n="accessibility.skip">Pular para o conteúdo</a>
