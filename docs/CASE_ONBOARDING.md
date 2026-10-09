@@ -74,7 +74,7 @@ Em `data/cases.json`, adicione a chave do slug dentro de `cases`. Reutilize `the
 | ---------------- | ----------------------------------------------- | ----------------------------------------------------------------------------- |
 | `gallery`        | `groups`, `items` ou `moments`                  | Imagens editoriais, pares, trios e mosaicos; ampliação compartilhada          |
 | `carousel`       | `items: [{src, label}]` ou `[{mediaId, label}]` | Imagens, plantas ou animações, trilho horizontal com snap, setas e teclado    |
-| `editorialBlock` | `items` com um ou dois vídeos e duas imagens | Composição editorial; com dois vídeos, o segundo aparece depois do par de imagens |
+| `editorialBlock` | `items` com um ou dois vídeos e uma ou duas imagens | Composição editorial; uma imagem ocupa a largura completa; com dois vídeos, o segundo aparece depois das imagens |
 | `interlude`      | `items` com imagens e/ou vídeos                 | Intervalo visual usando componente compartilhado                              |
 | `stillMotion`    | `environment`                                   | Alterna still e animação de um ambiente cadastrado em `environments`          |
 | `animations`     | `steps`, cada um com `layout` e `items`         | Narrativa de animações por etapas; adaptação compacta em tablet/mobile        |
@@ -102,6 +102,16 @@ O poster vem do vídeo no manifesto. `posterVideo` também pode selecionar um re
 Galeria editorial: `groups[].type: "editorialStory"`, `lightboxSet` comum e `moments` com `layout: "feature"` e uma imagem por momento. Essa é a estrutura usada pelas três imagens do Alpes. Os layouts `mosaic-a` e `mosaic-b` reutilizam o componente existente quando há volume e composição aprovados para mosaico.
 
 O carrossel `plantas-humanizadas` de AYA usa 21 itens `{src, label}`; esse ID identifica o tratamento visual de planta no carrossel. Todas mantêm sua orientação natural. Não existe script de rotação automática. Use as imagens completas com `contain`.
+
+Quando houver rotação solicitada para plantas, use `deploy/rotate-floorplans.ps1` com pastas de entrada e saída separadas. O script chama `rotate-floorplans.py`, preserva os originais, materializa a orientação EXIF e gira plantas ainda verticais em 270° no sentido horário. EXIF Orientation=8 não recebe rotação dupla; imagens já horizontais permanecem horizontais. A saída é uma cópia, sem a tag de orientação, acompanhada de `rotation-index.json` com hashes. Arquivos existentes não são sobrescritos. No Valence (`rdo-val`), os masters originais estão em `plantas` e as oito cópias orientadas em `_prepared/plantas`, com sufixo `-horizontal`; a planta de lazer recebida horizontal não precisa de conversão. O resolvedor usa os nomes distintos das cópias para gerar os derivados públicos.
+
+Exemplo de uso, com Python e Pillow disponíveis:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\deploy\rotate-floorplans.ps1 -InputDirectory 'C:\caminho\plantas-verticais' -OutputDirectory 'C:\caminho\plantas-horizontais'
+```
+
+Use `-PythonPath` para indicar outro executável Python se necessário. O script aceita JPG, JPEG e PNG, somente os arquivos diretamente na pasta de entrada. As cópias JPG usam qualidade 100; os originais permanecem intactos.
 
 Filme do Alpes, idêntico em todos os idiomas:
 

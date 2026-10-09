@@ -5066,5 +5066,901 @@
         "jpg": "assets/media/charles-ii-okean/v1/gallery-34-1920.jpg"
       }
     }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-rdo-val-capa.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-rdo-val-capa.jpg",
+    "base": "assets/media/rdo-val/v1/hero",
+    "width": 3840,
+    "height": 2160,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/hero-640.avif",
+        "webp": "assets/media/rdo-val/v1/hero-640.webp",
+        "jpg": "assets/media/rdo-val/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/hero-1024.avif",
+        "webp": "assets/media/rdo-val/v1/hero-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/hero-1440.avif",
+        "webp": "assets/media/rdo-val/v1/hero-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/hero-1920.avif",
+        "webp": "assets/media/rdo-val/v1/hero-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-05-rdo-val-fachada-no-angulo-do-observador-da-rua-1-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-05-rdo-val-fachada-no-angulo-do-observador-da-rua-1-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-01",
+    "width": 5000,
+    "height": 4004,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-01-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-01-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-01-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-01-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-01-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-07-rdo-val-embasamento-mostrando-mall-e-calcadas-1-da-rua-a-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-07-rdo-val-embasamento-mostrando-mall-e-calcadas-1-da-rua-a-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-02",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-02-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-02-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-02-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-02-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-02-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-01-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-1-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-01-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-1-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-03",
+    "width": 4456,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-03-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-03-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-03-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-03-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-03-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-02-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-2-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-02-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-2-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-04",
+    "width": 5000,
+    "height": 2109,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-04-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-04-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-04-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-04-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-04-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-03-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-3-com-foco-na-area-de-lazer-1-ef-6-1.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-03-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-3-com-foco-na-area-de-lazer-1-ef-6-1.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-05",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-05-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-05-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-05-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-05-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-05-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-06-rdo-val-fachada-no-angulo-do-observador-da-rua-2-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-06-rdo-val-fachada-no-angulo-do-observador-da-rua-2-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-06",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-06-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-06-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-06-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-06-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-06-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-08-rdo-val-embasamento-mostrando-mall-e-calcadas-2-mostrando-a-avenida-i-com-a-avenida-ver-pedro-elias-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-08-rdo-val-embasamento-mostrando-mall-e-calcadas-2-mostrando-a-avenida-i-com-a-avenida-ver-pedro-elias-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-07",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-07-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-07-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-07-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-07-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-07-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-09-rdo-val-corredor-do-mall-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-09-rdo-val-corredor-do-mall-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-08",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-08-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-08-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-08-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-08-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-08-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-09",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-09-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-09-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-09-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-09-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-09-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-09-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-26-rdo-val-piscina-externa-angulo-2-com-vista-real-fotografica-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-26-rdo-val-piscina-externa-angulo-2-com-vista-real-fotografica-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-10",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-10-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-10-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-10-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-10-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-10-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-10-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-10-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-10-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-10-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-10-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-10-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-10-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-25-rdo-val-piscina-externa-angulo-1-com-vista-real-fotografica-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-25-rdo-val-piscina-externa-angulo-1-com-vista-real-fotografica-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-11",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-11-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-11-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-11-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-11-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-11-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-11-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-11-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-11-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-11-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-11-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-11-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-11-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-30-rdo-val-ambiente-externo-do-pavimento-de-lazer-a-definir-2-com-vista-real-fotografica-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-30-rdo-val-ambiente-externo-do-pavimento-de-lazer-a-definir-2-com-vista-real-fotografica-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-12",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-12-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-12-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-12-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-12-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-12-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-12-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-12-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-12-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-12-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-12-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-12-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-12-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-24-rdo-val-playground-externo-antigo-salao-de-festas-2-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-24-rdo-val-playground-externo-antigo-salao-de-festas-2-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-13",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-13-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-13-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-13-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-13-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-13-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-13-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-13-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-13-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-13-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-13-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-13-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-13-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-14-rdo-val-fitness-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-14-rdo-val-fitness-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-14",
+    "width": 5000,
+    "height": 2854,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-14-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-14-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-14-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-14-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-14-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-14-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-14-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-14-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-14-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-14-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-14-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-14-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-15-rdo-val-funcional-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-15-rdo-val-funcional-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-15",
+    "width": 5000,
+    "height": 3030,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-15-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-15-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-15-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-15-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-15-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-15-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-15-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-15-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-15-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-15-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-15-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-15-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-16-rdo-val-coworking-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-16-rdo-val-coworking-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-16",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-16-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-16-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-16-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-16-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-16-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-16-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-16-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-16-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-16-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-16-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-16-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-16-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-20-rdo-val-salao-de-festas-1-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-20-rdo-val-salao-de-festas-1-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-17",
+    "width": 5000,
+    "height": 2172,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-17-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-17-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-17-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-17-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-17-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-17-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-17-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-17-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-17-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-17-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-17-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-17-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-21-rdo-val-salao-de-festas-2-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-21-rdo-val-salao-de-festas-2-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-18",
+    "width": 5000,
+    "height": 2172,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-18-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-18-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-18-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-18-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-18-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-18-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-18-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-18-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-18-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-18-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-18-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-18-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-36-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-3003-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-36-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-3003-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-19",
+    "width": 5000,
+    "height": 2778,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-19-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-19-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-19-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-19-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-19-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-19-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-19-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-19-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-19-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-19-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-19-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-19-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-20",
+    "width": 5000,
+    "height": 2777,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-20-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-20-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-20-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-20-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-20-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-20-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-20-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-20-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-20-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-20-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-20-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-20-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-21",
+    "width": 5000,
+    "height": 3000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-21-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-21-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-21-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-21-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-21-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-21-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-21-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-21-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-21-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-21-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-21-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-21-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef-02.jpg": {
+    "source": "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef-02.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-22",
+    "width": 5000,
+    "height": 3000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-22-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-22-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-22-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-22-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-22-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-22-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-22-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-22-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-22-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-22-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-22-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-22-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-01-rdo-val.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-01-rdo-val.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-23",
+    "width": 5000,
+    "height": 3451,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-23-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-23-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-23-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-23-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-23-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-23-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-23-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-23-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-23-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-23-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-23-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-23-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-02-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-02-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-24",
+    "width": 7000,
+    "height": 4661,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-24-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-24-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-24-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-24-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-24-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-24-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-24-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-24-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-24-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-24-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-24-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-24-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-03-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-03-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-25",
+    "width": 7000,
+    "height": 4964,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-25-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-25-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-25-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-25-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-25-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-25-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-25-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-25-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-25-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-25-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-25-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-25-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-04-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-04-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-26",
+    "width": 7000,
+    "height": 5173,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-26-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-26-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-26-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-26-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-26-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-26-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-26-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-26-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-26-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-26-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-26-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-26-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-05-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-05-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-27",
+    "width": 7000,
+    "height": 5457,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-27-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-27-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-27-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-27-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-27-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-27-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-27-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-27-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-27-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-27-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-27-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-27-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-06-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-06-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-28",
+    "width": 7000,
+    "height": 5457,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-28-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-28-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-28-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-28-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-28-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-28-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-28-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-28-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-28-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-28-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-28-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-28-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-07-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-07-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-29",
+    "width": 7000,
+    "height": 3774,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-29-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-29-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-29-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-29-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-29-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-29-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-29-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-29-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-29-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-29-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-29-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-29-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-08-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-08-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-30",
+    "width": 7000,
+    "height": 4894,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-30-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-30-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-30-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-30-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-30-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-30-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-30-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-30-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-30-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-30-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-30-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-30-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/rdo-val/plantas/planta-09-rdo-val-horizontal.jpg": {
+    "source": "assets/projetos/rdo-val/plantas/planta-09-rdo-val-horizontal.jpg",
+    "base": "assets/media/rdo-val/v1/gallery-31",
+    "width": 7000,
+    "height": 4476,
+    "sources": {
+      "640": {
+        "avif": "assets/media/rdo-val/v1/gallery-31-640.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-31-640.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-31-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/rdo-val/v1/gallery-31-1024.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-31-1024.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-31-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/rdo-val/v1/gallery-31-1440.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-31-1440.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-31-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/rdo-val/v1/gallery-31-1920.avif",
+        "webp": "assets/media/rdo-val/v1/gallery-31-1920.webp",
+        "jpg": "assets/media/rdo-val/v1/gallery-31-1920.jpg"
+      }
+    }
   }
 }

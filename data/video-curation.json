@@ -551,6 +551,85 @@
           "variants": []
         }
       }
+    },
+    "rdo-val": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "sources": {
+        "animacoes/animacao-rdo-val-tracking-0019-v2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-01-rdo-val-fachada-ampla.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-03-rdo-val-fachada-parque.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-02-rdo-val-fachada-topo.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-05-rdo-val-fachada-baixo.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-07-rdo-val-embasamento-esquina.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-09-rdo-val-corredor-do-mall-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-26-rdo-val-piscina-externa-angulo-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-30-rdo-val-piscina-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "filmes/filme-rdo-val-conceito-v2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
+      }
     }
   }
 }

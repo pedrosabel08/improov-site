@@ -3741,6 +3741,552 @@
           "es": "Ver todos los proyectos"
         }
       }
+    },
+    "rdo-val": {
+      "theme": "light",
+      "motion": "slow",
+      "hero": {
+        "video": "animacao-rdo-val-tracking-0019-v2",
+        "posterVideo": "animacao-rdo-val-tracking-0019-v2",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        {
+          "pt-BR": "Imagens 3D",
+          "en": "3D images",
+          "es": "Imágenes 3D"
+        },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D animations",
+          "es": "Animaciones 3D"
+        },
+        {
+          "pt-BR": "Plantas humanizadas",
+          "en": "Floor plans",
+          "es": "Plantas humanizadas"
+        },
+        {
+          "pt-BR": "Filme conceito",
+          "en": "Concept film",
+          "es": "Película conceptual"
+        }
+      ],
+      "sections": [
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          },
+          "title": {
+            "pt-BR": "Ficha técnica",
+            "en": "Technical sheet",
+            "es": "Ficha técnica"
+          }
+        },
+        {
+          "type": "editorialBlock",
+          "id": "corpo-editorial-01",
+          "items": [
+            {
+              "mediaId": "animacao-01-rdo-val-fachada-ampla",
+              "label": {
+                "pt-BR": "Fachada ampla",
+                "en": "Wide facade view",
+                "es": "Vista amplia de la fachada"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-05-rdo-val-fachada-no-angulo-do-observador-da-rua-1-ef.jpg",
+              "label": {
+                "pt-BR": "Fachada do observador",
+                "en": "Street-level facade",
+                "es": "Fachada a nivel de calle"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-07-rdo-val-embasamento-mostrando-mall-e-calcadas-1-da-rua-a-ef.jpg",
+              "label": {
+                "pt-BR": "Embasamento e mall",
+                "en": "Podium and retail mall",
+                "es": "Basamento y mall"
+              }
+            }
+          ],
+          "navigation": false
+        },
+        {
+          "type": "carousel",
+          "id": "fachadas",
+          "items": [
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-01-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-1-ef.jpg",
+              "label": {
+                "pt-BR": "Implantação geral",
+                "en": "Overall site view",
+                "es": "Vista general del conjunto"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-02-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-2-ef.jpg",
+              "label": {
+                "pt-BR": "Topo da fachada",
+                "en": "Facade rooftop",
+                "es": "Parte superior de la fachada"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-03-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-3-com-foco-na-area-de-lazer-1-ef-6-1.jpg",
+              "label": {
+                "pt-BR": "Fachada e parque",
+                "en": "Facade and park",
+                "es": "Fachada y parque"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-06-rdo-val-fachada-no-angulo-do-observador-da-rua-2-ef.jpg",
+              "label": {
+                "pt-BR": "Fachada do observador",
+                "en": "Street-level facade",
+                "es": "Fachada a nivel de calle"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-08-rdo-val-embasamento-mostrando-mall-e-calcadas-2-mostrando-a-avenida-i-com-a-avenida-ver-pedro-elias-ef.jpg",
+              "label": {
+                "pt-BR": "Embasamento",
+                "en": "Podium",
+                "es": "Basamento"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-09-rdo-val-corredor-do-mall-ef.jpg",
+              "label": {
+                "pt-BR": "Corredor do mall",
+                "en": "Retail mall corridor",
+                "es": "Corredor del mall"
+              }
+            }
+          ],
+          "label": {
+            "pt-BR": "Fachadas",
+            "en": "Facades",
+            "es": "Fachadas"
+          }
+        },
+        {
+          "type": "editorialBlock",
+          "id": "corpo-editorial-02",
+          "items": [
+            {
+              "mediaId": "animacao-03-rdo-val-fachada-parque",
+              "label": {
+                "pt-BR": "Fachada e parque",
+                "en": "Facade and park",
+                "es": "Fachada y parque"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-ef.jpg",
+              "label": {
+                "pt-BR": "Arquitetura e entorno",
+                "en": "Architecture and surroundings",
+                "es": "Arquitectura y entorno"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-26-rdo-val-piscina-externa-angulo-2-com-vista-real-fotografica-ef.jpg",
+              "label": {
+                "pt-BR": "Piscina — ângulo 2",
+                "en": "Pool — angle 2",
+                "es": "Piscina — ángulo 2"
+              }
+            }
+          ],
+          "navigation": false
+        },
+        {
+          "type": "carousel",
+          "id": "areas-comuns",
+          "items": [
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-25-rdo-val-piscina-externa-angulo-1-com-vista-real-fotografica-ef.jpg",
+              "label": {
+                "pt-BR": "Piscina",
+                "en": "Pool",
+                "es": "Piscina"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-30-rdo-val-ambiente-externo-do-pavimento-de-lazer-a-definir-2-com-vista-real-fotografica-ef.jpg",
+              "label": {
+                "pt-BR": "Lazer externo",
+                "en": "Outdoor amenities",
+                "es": "Ocio al aire libre"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-24-rdo-val-playground-externo-antigo-salao-de-festas-2-ef.jpg",
+              "label": {
+                "pt-BR": "Playground",
+                "en": "Playground",
+                "es": "Playground"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-14-rdo-val-fitness-ef.jpg",
+              "label": {
+                "pt-BR": "Fitness",
+                "en": "Fitness",
+                "es": "Fitness"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-15-rdo-val-funcional-ef.jpg",
+              "label": {
+                "pt-BR": "Funcional",
+                "en": "Functional training",
+                "es": "Entrenamiento funcional"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-16-rdo-val-coworking-ef.jpg",
+              "label": {
+                "pt-BR": "Coworking",
+                "en": "Coworking",
+                "es": "Coworking"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-20-rdo-val-salao-de-festas-1-ef.jpg",
+              "label": {
+                "pt-BR": "Salão de festas 1",
+                "en": "Party room 1",
+                "es": "Salón de fiestas 1"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-21-rdo-val-salao-de-festas-2-ef.jpg",
+              "label": {
+                "pt-BR": "Salão de festas 2",
+                "en": "Party room 2",
+                "es": "Salón de fiestas 2"
+              }
+            }
+          ],
+          "label": {
+            "pt-BR": "Áreas comuns",
+            "en": "Common areas",
+            "es": "Áreas comunes"
+          }
+        },
+        {
+          "type": "editorialBlock",
+          "id": "corpo-editorial-03",
+          "items": [
+            {
+              "mediaId": "animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe",
+              "label": {
+                "pt-BR": "Living — detalhe",
+                "en": "Living room — detail",
+                "es": "Living — detalle"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-36-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-3003-ef.jpg",
+              "label": {
+                "pt-BR": "Sacada — unidade 3003",
+                "en": "Balcony — unit 3003",
+                "es": "Balcón — unidad 3003"
+              }
+            }
+          ],
+          "navigation": false
+        },
+        {
+          "type": "tour",
+          "id": "tour-360",
+          "label": {
+            "pt-BR": "Tour 360°",
+            "en": "360° tour",
+            "es": "Recorrido 360°"
+          },
+          "title": {
+            "pt-BR": "Tour 360°",
+            "en": "360° tour",
+            "es": "Recorrido 360°"
+          },
+          "src": "https://tour.meupasseiovirtual.com/view/79vPI6jHjNd"
+        },
+        {
+          "type": "carousel",
+          "id": "apartamentos",
+          "items": [
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg",
+              "label": {
+                "pt-BR": "Living com vista",
+                "en": "Living room with a view",
+                "es": "Living con vistas"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef-02.jpg",
+              "label": {
+                "pt-BR": "Sacada — unidade 1704",
+                "en": "Balcony — unit 1704",
+                "es": "Balcón — unidad 1704"
+              }
+            }
+          ],
+          "label": {
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
+          }
+        },
+        {
+          "type": "carousel",
+          "id": "animacoes-3d",
+          "items": [
+            {
+              "mediaId": "animacao-02-rdo-val-fachada-topo",
+              "label": {
+                "pt-BR": "Topo da fachada",
+                "en": "Facade rooftop",
+                "es": "Parte superior de la fachada"
+              }
+            },
+            {
+              "mediaId": "animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4",
+              "label": {
+                "pt-BR": "Arquitetura e entorno",
+                "en": "Architecture and surroundings",
+                "es": "Arquitectura y entorno"
+              }
+            },
+            {
+              "mediaId": "animacao-05-rdo-val-fachada-baixo",
+              "label": {
+                "pt-BR": "Fachada — vista de baixo",
+                "en": "Facade — view from below",
+                "es": "Fachada — vista desde abajo"
+              }
+            },
+            {
+              "mediaId": "animacao-06-rdo-val-fachada-observador-da-rua-2",
+              "label": {
+                "pt-BR": "Fachada do observador",
+                "en": "Street-level facade",
+                "es": "Fachada a nivel de calle"
+              }
+            },
+            {
+              "mediaId": "animacao-07-rdo-val-embasamento-esquina",
+              "label": {
+                "pt-BR": "Embasamento — esquina",
+                "en": "Podium — corner",
+                "es": "Basamento — esquina"
+              }
+            },
+            {
+              "mediaId": "animacao-09-rdo-val-corredor-do-mall-geral",
+              "label": {
+                "pt-BR": "Corredor do mall",
+                "en": "Retail mall corridor",
+                "es": "Corredor del mall"
+              }
+            },
+            {
+              "mediaId": "animacao-26-rdo-val-piscina-externa-angulo-2",
+              "label": {
+                "pt-BR": "Piscina — ângulo 2",
+                "en": "Pool — angle 2",
+                "es": "Piscina — ángulo 2"
+              }
+            },
+            {
+              "mediaId": "animacao-30-rdo-val-piscina-geral",
+              "label": {
+                "pt-BR": "Piscina — vista geral",
+                "en": "Pool — wide view",
+                "es": "Piscina — vista general"
+              }
+            },
+            {
+              "mediaId": "animacao-37-rdo-val-living-com-vista-real-fotografica-geral",
+              "label": {
+                "pt-BR": "Living — vista geral",
+                "en": "Living room — wide view",
+                "es": "Living — vista general"
+              }
+            }
+          ],
+          "label": {
+            "pt-BR": "Animações 3D",
+            "en": "3D animations",
+            "es": "Animaciones 3D"
+          }
+        },
+        {
+          "type": "carousel",
+          "id": "plantas-humanizadas",
+          "items": [
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-01-rdo-val.jpg",
+              "label": {
+                "pt-BR": "Lazer Pilotis",
+                "en": "Pilotis leisure level",
+                "es": "Ocio Pilotis"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-02-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 3 (x11)",
+                "en": "Type 3 (x11)",
+                "es": "Tipo 3 (x11)"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-03-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 02 diferenciado — Variação",
+                "en": "Type 02 differentiated — Variation",
+                "es": "Tipo 02 diferenciado — Variación"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-04-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 02 x 7 — Variação",
+                "en": "Type 02 x 7 — Variation",
+                "es": "Tipo 02 x 7 — Variación"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-05-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 03 diferenciado — Variação",
+                "en": "Type 03 differentiated — Variation",
+                "es": "Tipo 03 diferenciado — Variación"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-06-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 03 x 6 — Variação",
+                "en": "Type 03 x 6 — Variation",
+                "es": "Tipo 03 x 6 — Variación"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-07-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 1 diferenciado — Torre 02",
+                "en": "Type 1 differentiated — Tower 02",
+                "es": "Tipo 1 diferenciado — Torre 02"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-08-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 01 (x11)",
+                "en": "Type 01 (x11)",
+                "es": "Tipo 01 (x11)"
+              }
+            },
+            {
+              "src": "assets/projetos/rdo-val/plantas/planta-09-rdo-val-horizontal.jpg",
+              "label": {
+                "pt-BR": "Tipo 02 (x12)",
+                "en": "Type 02 (x12)",
+                "es": "Tipo 02 (x12)"
+              }
+            }
+          ],
+          "label": {
+            "pt-BR": "Plantas humanizadas",
+            "en": "Floor plans",
+            "es": "Plantas humanizadas"
+          }
+        },
+        {
+          "type": "film",
+          "id": "filme-conceito",
+          "label": {
+            "pt-BR": "Filme conceito",
+            "en": "Concept film",
+            "es": "Película conceptual"
+          },
+          "videos": [
+            {
+              "video": "filme-rdo-val-conceito-v2",
+              "label": {
+                "pt-BR": "Filme conceito",
+                "en": "Concept film",
+                "es": "Película conceptual"
+              }
+            }
+          ]
+        }
+      ],
+      "credits": {
+        "items": [
+          {
+            "label": {
+              "pt-BR": "Projeto",
+              "en": "Project",
+              "es": "Proyecto"
+            },
+            "value": "Valence Residence"
+          },
+          {
+            "label": {
+              "pt-BR": "Cliente",
+              "en": "Client",
+              "es": "Cliente"
+            },
+            "value": "RDO Empreendimentos Imobiliários"
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": "Viva Park - Porto Belo - SC"
+          },
+          {
+            "label": {
+              "pt-BR": "Arquitetônico",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
+            "value": "Dória Arquitetos"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "editorial",
+        "eyebrow": {
+          "pt-BR": "Próximo projeto",
+          "en": "Next project",
+          "es": "Próximo proyecto"
+        },
+        "allProjectsLabel": {
+          "pt-BR": "Ver todos os projetos",
+          "en": "See all projects",
+          "es": "Ver todos los proyectos"
+        }
+      }
     }
   }
 }

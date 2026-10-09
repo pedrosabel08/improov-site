@@ -45,6 +45,7 @@ assets/*
 *.jpg
 *.mp4
 cache/thumbs/
+cache/valence-scope/
 uploads/candidaturas/*
 uploads/contatos/*
 

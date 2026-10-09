@@ -734,6 +734,140 @@
           "source": "projetos/charles-ii-okean/imagens/imagem-34-charles-ii-okean.jpg"
         }
       ]
+    },
+    {
+      "slug": "rdo-val",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/rdo-val/_prepared/imagens/imagem-rdo-val-capa.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/rdo-val/imagens/imagem-05-rdo-val-fachada-no-angulo-do-observador-da-rua-1-ef.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/rdo-val/imagens/imagem-07-rdo-val-embasamento-mostrando-mall-e-calcadas-1-da-rua-a-ef.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/rdo-val/imagens/imagem-01-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-1-ef.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/rdo-val/imagens/imagem-02-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-2-ef.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/rdo-val/imagens/imagem-03-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-3-com-foco-na-area-de-lazer-1-ef-6-1.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/rdo-val/imagens/imagem-06-rdo-val-fachada-no-angulo-do-observador-da-rua-2-ef.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/rdo-val/imagens/imagem-08-rdo-val-embasamento-mostrando-mall-e-calcadas-2-mostrando-a-avenida-i-com-a-avenida-ver-pedro-elias-ef.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/rdo-val/imagens/imagem-09-rdo-val-corredor-do-mall-ef.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/rdo-val/imagens/imagem-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-ef.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/rdo-val/imagens/imagem-26-rdo-val-piscina-externa-angulo-2-com-vista-real-fotografica-ef.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/rdo-val/imagens/imagem-25-rdo-val-piscina-externa-angulo-1-com-vista-real-fotografica-ef.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/rdo-val/imagens/imagem-30-rdo-val-ambiente-externo-do-pavimento-de-lazer-a-definir-2-com-vista-real-fotografica-ef.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/rdo-val/imagens/imagem-24-rdo-val-playground-externo-antigo-salao-de-festas-2-ef.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/rdo-val/imagens/imagem-14-rdo-val-fitness-ef.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/rdo-val/imagens/imagem-15-rdo-val-funcional-ef.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/rdo-val/imagens/imagem-16-rdo-val-coworking-ef.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/rdo-val/imagens/imagem-20-rdo-val-salao-de-festas-1-ef.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/rdo-val/imagens/imagem-21-rdo-val-salao-de-festas-2-ef.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/rdo-val/imagens/imagem-36-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-3003-ef.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef-02.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/rdo-val/plantas/planta-01-rdo-val.jpg"
+        },
+        {
+          "name": "gallery-24",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-02-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-25",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-03-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-26",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-04-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-27",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-05-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-28",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-06-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-29",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-07-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-30",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-08-rdo-val-horizontal.jpg"
+        },
+        {
+          "name": "gallery-31",
+          "source": "projetos/rdo-val/_prepared/plantas/planta-09-rdo-val-horizontal.jpg"
+        }
+      ]
     }
   ],
   "site": [

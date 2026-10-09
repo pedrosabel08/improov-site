@@ -1380,6 +1380,216 @@
         "en": "Charles II by OKEAN",
         "es": "Charles II by OKEAN"
       }
+    },
+    {
+      "slug": "rdo-val",
+      "status": "published",
+      "order": 9,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 9,
+      "needsEditorialReview": true,
+      "title": {
+        "pt-BR": "Valence Residence",
+        "en": "Valence Residence",
+        "es": "Valence Residence"
+      },
+      "location": {
+        "pt-BR": "Viva Park - Porto Belo - SC",
+        "en": "Viva Park - Porto Belo - SC",
+        "es": "Viva Park - Porto Belo - SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/rdo-val/imagens/imagem-rdo-val-capa.jpg",
+          "width": 3840,
+          "height": 2160,
+          "alt": {
+            "pt-BR": "Vista do empreendimento Valence Residence",
+            "en": "View of the Valence Residence development",
+            "es": "Vista del proyecto Valence Residence"
+          }
+        },
+        "animation": {
+          "manifest": "rdo-val",
+          "id": "animacao-rdo-val-tracking-0019-v2"
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-05-rdo-val-fachada-no-angulo-do-observador-da-rua-1-ef.jpg",
+            "width": 5000,
+            "height": 4004
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-07-rdo-val-embasamento-mostrando-mall-e-calcadas-1-da-rua-a-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-01-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-1-ef.jpg",
+            "width": 4456,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-02-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-2-ef.jpg",
+            "width": 5000,
+            "height": 2109
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-03-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-3-com-foco-na-area-de-lazer-1-ef-6-1.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-06-rdo-val-fachada-no-angulo-do-observador-da-rua-2-ef.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-08-rdo-val-embasamento-mostrando-mall-e-calcadas-2-mostrando-a-avenida-i-com-a-avenida-ver-pedro-elias-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-09-rdo-val-corredor-do-mall-ef.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-26-rdo-val-piscina-externa-angulo-2-com-vista-real-fotografica-ef.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-25-rdo-val-piscina-externa-angulo-1-com-vista-real-fotografica-ef.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-30-rdo-val-ambiente-externo-do-pavimento-de-lazer-a-definir-2-com-vista-real-fotografica-ef.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-24-rdo-val-playground-externo-antigo-salao-de-festas-2-ef.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-14-rdo-val-fitness-ef.jpg",
+            "width": 5000,
+            "height": 2854
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-15-rdo-val-funcional-ef.jpg",
+            "width": 5000,
+            "height": 3030
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-16-rdo-val-coworking-ef.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-20-rdo-val-salao-de-festas-1-ef.jpg",
+            "width": 5000,
+            "height": 2172
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-21-rdo-val-salao-de-festas-2-ef.jpg",
+            "width": 5000,
+            "height": 2172
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-36-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-3003-ef.jpg",
+            "width": 5000,
+            "height": 2778
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg",
+            "width": 5000,
+            "height": 2777
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef.jpg",
+            "width": 5000,
+            "height": 3000
+          },
+          {
+            "src": "assets/projetos/rdo-val/imagens/imagem-34-rdo-val-sacada-com-vista-real-fotografica-torre-1-unid-1704-ef-02.jpg",
+            "width": 5000,
+            "height": 3000
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-01-rdo-val.jpg",
+            "width": 5000,
+            "height": 3451
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-02-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 4661
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-03-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 4964
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-04-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 5173
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-05-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 5457
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-06-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 5457
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-07-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 3774
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-08-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 4894
+          },
+          {
+            "src": "assets/projetos/rdo-val/plantas/planta-09-rdo-val-horizontal.jpg",
+            "width": 7000,
+            "height": 4476
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
+        "info": {
+          "client": "RDO Empreendimentos Imobiliários",
+          "architect": "Dória Arquitetos",
+          "year": ""
+        }
+      },
+      "mediaVersion": 1
     }
   ]
 }

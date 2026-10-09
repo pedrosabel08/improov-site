@@ -45,6 +45,20 @@ $videoFor = static function (mixed $id) use ($caseVideos): ?array {
   $video = $caseVideos[$id] ?? null;
   return is_array($video) && case_video_source($video) !== null ? $video : null;
 };
+$tourUrl = static function (mixed $source): ?string {
+  if (!is_string($source) || filter_var($source, FILTER_VALIDATE_URL) === false) {
+    return null;
+  }
+  $parts = parse_url($source);
+  if (!is_array($parts)
+    || strtolower((string) ($parts['scheme'] ?? '')) !== 'https'
+    || strtolower((string) ($parts['host'] ?? '')) !== 'tour.meupasseiovirtual.com'
+    || preg_match('#^/view/[a-zA-Z0-9_-]+$#D', (string) ($parts['path'] ?? '')) !== 1
+    || isset($parts['user'], $parts['pass'], $parts['port'], $parts['query'], $parts['fragment'])) {
+    return null;
+  }
+  return $source;
+};
 $renderImage = static function (string $source, string $class, string $sizes, string $alt, string $reveal = 'up', bool $priority = false) use ($caseTitle): string {
   [$width, $height] = case_image_size($source);
   return responsive_image($source, $caseTitle . ' — ' . $alt, $width, $height, $class, $sizes, $priority, ['data-case-reveal' => $reveal]);
@@ -86,7 +100,7 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
     $label !== '' ? ' aria-label="' . escape($label) . '"' : '',
   );
 };
-$sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor): bool {
+$sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor, $tourUrl): bool {
   $type = (string) ($section['type'] ?? '');
   if ($type === 'viewportAudio') {
     if ($videoFor($section['mediaId'] ?? $section['video'] ?? null) !== null) {
@@ -94,6 +108,9 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
     }
     $source = $section['source'] ?? null;
     return is_string($source) && $source !== '' && !str_contains($source, '..') && is_file(APP_ROOT . DIRECTORY_SEPARATOR . str_replace('/', DIRECTORY_SEPARATOR, ltrim($source, '/')));
+  }
+  if ($type === 'tour') {
+    return $tourUrl($section['src'] ?? null) !== null;
   }
   if ($type === 'gallery') {
     $groups = $section['groups'] ?? [$section];
@@ -406,18 +423,18 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         }
       }
       ?>
-      <?php if ($editorialVideos !== [] && count($editorialImages) === 2): ?>
+      <?php if ($editorialVideos !== [] && $editorialImages !== []): ?>
         <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-editorial-block" data-case-chapter="<?= escape($chapterId) ?>">
           <div class="case-v3-editorial-block__grid case-v3-shell" data-case-reveal="up">
             <?php $firstEditorialVideo = array_shift($editorialVideos); ?><figure class="case-v3-editorial-block__motion">
               <?= $renderVideo($firstEditorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $firstEditorialVideo['label']) ?>
               <figcaption><?= escape($firstEditorialVideo['label']) ?></figcaption>
             </figure>
-            <div class="case-v3-editorial-block__images">
+            <div class="case-v3-editorial-block__images<?= count($editorialImages) === 1 ? ' case-v3-editorial-block__images--single' : '' ?>">
               <?php foreach ($editorialImages as $image): ?>
                 <figure class="case-v3-editorial-block__image">
                   <button type="button" data-case-image-open data-image-set="editorial" data-image-src="<?= escape($lightboxImageUrl($image['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' - ' . $image['label']) ?>" data-image-label="<?= escape($image['label']) ?>" aria-label="Abrir <?= escape($image['label']) ?> em tela cheia">
-                    <?= $renderImage($image['source'], 'case-v3-image', '(max-width: 767px) 100vw, 48vw', $image['label']) ?>
+                    <?= $renderImage($image['source'], 'case-v3-image', count($editorialImages) === 1 ? '(max-width: 767px) 100vw, (max-width: 1533px) 90vw, 1380px' : '(max-width: 767px) 100vw, 48vw', $image['label']) ?>
                   </button>
                   <figcaption><?= escape($image['label']) ?></figcaption>
                 </figure>
@@ -428,6 +445,20 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
               <figcaption><?= escape($editorialVideo['label']) ?></figcaption>
             </figure><?php endforeach; ?>
           </div>
+        </section>
+      <?php endif; ?>
+    <?php elseif ($type === 'tour'): ?>
+      <?php $safeTourUrl = $tourUrl($section['src'] ?? null); ?>
+      <?php if ($safeTourUrl !== null): ?>
+        <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-tour" data-case-chapter="<?= escape($chapterId) ?>">
+          <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
+            <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
+            <h2><?= escape($caseText($section['title'] ?? $chapterLabel)) ?></h2>
+          </header>
+          <div class="case-v3-tour__frame case-v3-shell" data-case-reveal="up">
+            <iframe src="<?= escape($safeTourUrl) ?>" title="<?= escape($caseText($section['label'] ?? 'Tour 360°')) ?> — <?= escape($caseTitle) ?>" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen; gyroscope; accelerometer; xr-spatial-tracking" allowfullscreen></iframe>
+          </div>
+          <p class="case-v3-tour__fallback case-v3-shell"><a class="text-link" href="<?= escape($safeTourUrl) ?>" target="_blank" rel="noopener noreferrer"><?= escape($caseText(['pt-BR' => 'Abrir o tour 360° em uma nova aba', 'en' => 'Open the 360° tour in a new tab', 'es' => 'Abrir el recorrido 360° en una pestaña nueva'])) ?></a></p>
         </section>
       <?php endif; ?>
     <?php elseif ($type === 'interlude'): ?>

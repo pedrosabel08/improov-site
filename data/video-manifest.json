@@ -7801,79 +7801,57 @@
           "animacoes/animacao-charles-ii-capa.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-piscina-geral.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-piscina-raia.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-academia-vista.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-academia-aerea.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-borda-infinita.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-hall-entrada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-embasamento.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/tracking-charles-ii-yacht.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-charles-ii-concepcao-rodrigo-kirck.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-charles-ii-parceria-gessele-okean.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-charles-ii-teaser.mp4": {
             "publish": false,
@@ -7883,37 +7861,27 @@
           "animacoes/animacao-charles-ii-fachada.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-piscina-rio.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/animacao-charles-ii-porte-cochere.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "animacoes/tracking-charles-ii-torre.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           },
           "filmes/filme-charles-ii-conceitual.mp4": {
             "publish": true,
             "poster": true,
-            "variants": [
-              "1080"
-            ]
+            "variants": ["1080"]
           }
         }
       },
@@ -7950,12 +7918,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-aerea-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-aerea-1080.mp4"
@@ -7993,12 +7957,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-academia-vista-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-academia-vista-1080.mp4"
@@ -8036,12 +7996,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-borda-infinita-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-borda-infinita-1080.mp4"
@@ -8079,12 +8035,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-capa-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-capa-1080.mp4"
@@ -8122,12 +8074,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-embasamento-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-embasamento-1080.mp4"
@@ -8165,12 +8113,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-fachada-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-fachada-1080.mp4"
@@ -8208,12 +8152,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-hall-entrada-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-hall-entrada-1080.mp4"
@@ -8251,12 +8191,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-geral-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-geral-1080.mp4"
@@ -8294,12 +8230,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-raia-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-raia-1080.mp4"
@@ -8337,12 +8269,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-piscina-rio-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-piscina-rio-1080.mp4"
@@ -8380,12 +8308,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/animacao-charles-ii-porte-cochere-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/animacao-charles-ii-porte-cochere-1080.mp4"
@@ -8459,12 +8383,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-torre-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-torre-1080.mp4"
@@ -8502,12 +8422,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/animacoes/tracking-charles-ii-yacht-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/animacoes/tracking-charles-ii-yacht-1080.mp4"
@@ -8545,12 +8461,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-conceitual-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-conceitual-1080.mp4"
@@ -8588,12 +8500,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-concepcao-rodrigo-kirck-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-concepcao-rodrigo-kirck-1080.mp4"
@@ -8631,12 +8539,8 @@
           "available": true,
           "published": true,
           "publication": "video",
-          "requestedVariants": [
-            "1080"
-          ],
-          "publicVariants": [
-            "1080"
-          ],
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
           "publicPoster": "assets/media/charles-ii-okean/v1/posters/filmes/filme-charles-ii-parceria-gessele-okean-poster.webp",
           "publicSources": {
             "1080": "assets/media/charles-ii-okean/v1/videos/filmes/filme-charles-ii-parceria-gessele-okean-1080.mp4"
@@ -9191,6 +9095,1112 @@
         "publishedPosterOnly": 0,
         "publishedVariants": 16,
         "posters": 16
+      }
+    },
+    "rdo-val": {
+      "slug": "rdo-val",
+      "generatedAt": "2026-10-09T00:21:10.310172+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/rdo-val/v1",
+      "profiles": {
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "sources": {
+          "animacoes/animacao-rdo-val-tracking-0019-v2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-01-rdo-val-fachada-ampla.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-03-rdo-val-fachada-parque.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-02-rdo-val-fachada-topo.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-05-rdo-val-fachada-baixo.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-07-rdo-val-embasamento-esquina.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-09-rdo-val-corredor-do-mall-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-26-rdo-val-piscina-externa-angulo-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-30-rdo-val-piscina-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "filmes/filme-rdo-val-conceito-v2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "animacoes/animacao-01-rdo-val-fachada-ampla.mp4",
+          "name": "animacao-01-rdo-val-fachada-ampla.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 479500546,
+          "sha256": "89708953997c6464d5582dcf23167d3c4563257bde6d15452394c00ed4e8bd52",
+          "modifiedAt": "2026-10-08T10:50:00+00:00",
+          "duration": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 255726508,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 255733624,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-01-rdo-val-fachada-ampla-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-01-rdo-val-fachada-ampla-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-02-rdo-val-fachada-topo.mp4",
+          "name": "animacao-02-rdo-val-fachada-topo.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 314846742,
+          "sha256": "f674f6f5cae7c12ce0f0732e92b939bf3c0e9db35c9be3771351ab2395af6ff1",
+          "modifiedAt": "2026-10-08T10:49:50+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 251867335,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 251877393,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-02-rdo-val-fachada-topo-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-02-rdo-val-fachada-topo-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-03-rdo-val-fachada-parque.mp4",
+          "name": "animacao-03-rdo-val-fachada-parque.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 321570991,
+          "sha256": "c96146e36fc4d29597124e4420336cec0655441a4ff8a1a29373e78cd5af81c0",
+          "modifiedAt": "2026-10-08T10:50:04+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 257246734,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 257256792,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-03-rdo-val-fachada-parque-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-03-rdo-val-fachada-parque-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4.mp4",
+          "name": "animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 314966112,
+          "sha256": "bd5e1ae15b7fc8c897cf7b7ada4e21167685028bd64ba3af99f979e28f90a52c",
+          "modifiedAt": "2026-10-08T10:50:16+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 251962831,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 251972889,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-05-rdo-val-fachada-baixo.mp4",
+          "name": "animacao-05-rdo-val-fachada-baixo.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 310342826,
+          "sha256": "903bcff7431741ca2c5969ace8036882c828f5ef9bc4690cc0d3b7516e6249da",
+          "modifiedAt": "2026-10-08T10:50:18+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 248264202,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 248274260,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-05-rdo-val-fachada-baixo-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-05-rdo-val-fachada-baixo-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2.mp4",
+          "name": "animacao-06-rdo-val-fachada-observador-da-rua-2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 305511616,
+          "sha256": "005dd3a5d7a8a5c45b2cb3edab339cd3139e538b15e7959917c7bbb8ccda8dde",
+          "modifiedAt": "2026-10-08T10:50:24+00:00",
+          "duration": 9.567,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 255469637,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 255480088,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-07-rdo-val-embasamento-esquina.mp4",
+          "name": "animacao-07-rdo-val-embasamento-esquina.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 312108767,
+          "sha256": "dc03efe1f71b0efdc0dc75cee54c53330119d6bd3eb96422869e7afd72dcf11c",
+          "modifiedAt": "2026-10-08T10:50:28+00:00",
+          "duration": 9.933,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 251352647,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 251362773,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-07-rdo-val-embasamento-esquina-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-07-rdo-val-embasamento-esquina-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-09-rdo-val-corredor-do-mall-geral.mp4",
+          "name": "animacao-09-rdo-val-corredor-do-mall-geral.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 251665081,
+          "sha256": "7b71d648a77e724c5644316f6e75af8fe5940b880d06cf3dd022c9ddbac9fd68",
+          "modifiedAt": "2026-10-08T10:50:34+00:00",
+          "duration": 8.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 251652816,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 251665081,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-09-rdo-val-corredor-do-mall-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-09-rdo-val-corredor-do-mall-geral-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-26-rdo-val-piscina-externa-angulo-2.mp4",
+          "name": "animacao-26-rdo-val-piscina-externa-angulo-2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 314610912,
+          "sha256": "12c3e6f78f5ae12c98f7cb516835a85932bbb3a0cbc4b6d8fd4b5b97d3b30e29",
+          "modifiedAt": "2026-10-08T10:51:32+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 251678671,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 251688729,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-26-rdo-val-piscina-externa-angulo-2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-26-rdo-val-piscina-externa-angulo-2-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-30-rdo-val-piscina-geral.mp4",
+          "name": "animacao-30-rdo-val-piscina-geral.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 316436657,
+          "sha256": "f98ba44c4049f222279a0ab525d04185e66b55b9154dd917531d41c568e09b86",
+          "modifiedAt": "2026-10-08T10:51:38+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 253139267,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 253149325,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-30-rdo-val-piscina-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-30-rdo-val-piscina-geral-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe.mp4",
+          "name": "animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 212588560,
+          "sha256": "3ea9f832f8bf1a21c8848bb2516815020d46b3b1aad41d06fbaf4fdd7a16164c",
+          "modifiedAt": "2026-10-08T10:51:44+00:00",
+          "duration": 7.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 242944513,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 242958354,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral.mp4",
+          "name": "animacao-37-rdo-val-living-com-vista-real-fotografica-geral.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 245979914,
+          "sha256": "c86b5d8010549dfe518855ac3599919e2701ea5a57a20f3394d97190200f5d52",
+          "modifiedAt": "2026-10-08T10:51:48+00:00",
+          "duration": 7.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 246996807,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 247009108,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral-1080.mp4"
+          }
+        },
+        {
+          "source": "animacoes/animacao-rdo-val-tracking-0019-v2.mp4",
+          "name": "animacao-rdo-val-tracking-0019-v2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 1554971809,
+          "sha256": "b88de691decd4fc371a00ec4352bbcf403db525a38f1b5644e1ef1bc035a9965",
+          "modifiedAt": "2026-10-08T10:48:34+00:00",
+          "duration": 52.167,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 238458241,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 238462128,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/animacoes/animacao-rdo-val-tracking-0019-v2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/animacoes/animacao-rdo-val-tracking-0019-v2-1080.mp4"
+          }
+        },
+        {
+          "source": "filmes/filme-rdo-val-conceito-v2.mp4",
+          "name": "filme-rdo-val-conceito-v2.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 302881659,
+          "sha256": "4aefae7ee398dfe4b3486652f3b1e8fbf64b21513457c9ea1248921b6e84c44f",
+          "modifiedAt": "2026-10-08T10:47:10+00:00",
+          "duration": 175.926,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 13450682,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317353,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 13773158,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": ["1080"],
+          "publicPoster": "assets/media/rdo-val/v1/posters/filmes/filme-rdo-val-conceito-v2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/rdo-val/v1/videos/filmes/filme-rdo-val-conceito-v2-1080.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "animacao-01-rdo-val-fachada-ampla",
+          "source": "animacoes/animacao-01-rdo-val-fachada-ampla.mp4",
+          "sourceSha256": "89708953997c6464d5582dcf23167d3c4563257bde6d15452394c00ed4e8bd52",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-01-rdo-val-fachada-ampla-poster.webp",
+          "duration": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-01-rdo-val-fachada-ampla-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 22016901,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-02-rdo-val-fachada-topo",
+          "source": "animacoes/animacao-02-rdo-val-fachada-topo.mp4",
+          "sourceSha256": "f674f6f5cae7c12ce0f0732e92b939bf3c0e9db35c9be3771351ab2395af6ff1",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-02-rdo-val-fachada-topo-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-02-rdo-val-fachada-topo-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6833816,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-03-rdo-val-fachada-parque",
+          "source": "animacoes/animacao-03-rdo-val-fachada-parque.mp4",
+          "sourceSha256": "c96146e36fc4d29597124e4420336cec0655441a4ff8a1a29373e78cd5af81c0",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-03-rdo-val-fachada-parque-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-03-rdo-val-fachada-parque-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 15152772,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4",
+          "source": "animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4.mp4",
+          "sourceSha256": "bd5e1ae15b7fc8c897cf7b7ada4e21167685028bd64ba3af99f979e28f90a52c",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 12376505,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-05-rdo-val-fachada-baixo",
+          "source": "animacoes/animacao-05-rdo-val-fachada-baixo.mp4",
+          "sourceSha256": "903bcff7431741ca2c5969ace8036882c828f5ef9bc4690cc0d3b7516e6249da",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-05-rdo-val-fachada-baixo-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-05-rdo-val-fachada-baixo-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 13453271,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-06-rdo-val-fachada-observador-da-rua-2",
+          "source": "animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2.mp4",
+          "sourceSha256": "005dd3a5d7a8a5c45b2cb3edab339cd3139e538b15e7959917c7bbb8ccda8dde",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2-poster.webp",
+          "duration": 9.567,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-06-rdo-val-fachada-observador-da-rua-2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 20792630,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-07-rdo-val-embasamento-esquina",
+          "source": "animacoes/animacao-07-rdo-val-embasamento-esquina.mp4",
+          "sourceSha256": "dc03efe1f71b0efdc0dc75cee54c53330119d6bd3eb96422869e7afd72dcf11c",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-07-rdo-val-embasamento-esquina-poster.webp",
+          "duration": 9.933,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-07-rdo-val-embasamento-esquina-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 18511181,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-09-rdo-val-corredor-do-mall-geral",
+          "source": "animacoes/animacao-09-rdo-val-corredor-do-mall-geral.mp4",
+          "sourceSha256": "7b71d648a77e724c5644316f6e75af8fe5940b880d06cf3dd022c9ddbac9fd68",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-09-rdo-val-corredor-do-mall-geral-poster.webp",
+          "duration": 8.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-09-rdo-val-corredor-do-mall-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 10034629,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-26-rdo-val-piscina-externa-angulo-2",
+          "source": "animacoes/animacao-26-rdo-val-piscina-externa-angulo-2.mp4",
+          "sourceSha256": "12c3e6f78f5ae12c98f7cb516835a85932bbb3a0cbc4b6d8fd4b5b97d3b30e29",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-26-rdo-val-piscina-externa-angulo-2-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-26-rdo-val-piscina-externa-angulo-2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 18213458,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-30-rdo-val-piscina-geral",
+          "source": "animacoes/animacao-30-rdo-val-piscina-geral.mp4",
+          "sourceSha256": "f98ba44c4049f222279a0ab525d04185e66b55b9154dd917531d41c568e09b86",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-30-rdo-val-piscina-geral-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-30-rdo-val-piscina-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 14887807,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe",
+          "source": "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe.mp4",
+          "sourceSha256": "3ea9f832f8bf1a21c8848bb2516815020d46b3b1aad41d06fbaf4fdd7a16164c",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe-poster.webp",
+          "duration": 7.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 1879814,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-37-rdo-val-living-com-vista-real-fotografica-geral",
+          "source": "animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral.mp4",
+          "sourceSha256": "c86b5d8010549dfe518855ac3599919e2701ea5a57a20f3394d97190200f5d52",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral-poster.webp",
+          "duration": 7.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-37-rdo-val-living-com-vista-real-fotografica-geral-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 3427148,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "animacao-rdo-val-tracking-0019-v2",
+          "source": "animacoes/animacao-rdo-val-tracking-0019-v2.mp4",
+          "sourceSha256": "b88de691decd4fc371a00ec4352bbcf403db525a38f1b5644e1ef1bc035a9965",
+          "category": "animacoes",
+          "poster": "assets/media/rdo-val/v1/posters/animacoes/animacao-rdo-val-tracking-0019-v2-poster.webp",
+          "duration": 52.167,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/animacoes/animacao-rdo-val-tracking-0019-v2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 41071952,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "filme-rdo-val-conceito-v2",
+          "source": "filmes/filme-rdo-val-conceito-v2.mp4",
+          "sourceSha256": "4aefae7ee398dfe4b3486652f3b1e8fbf64b21513457c9ea1248921b6e84c44f",
+          "category": "filmes",
+          "poster": "assets/media/rdo-val/v1/posters/filmes/filme-rdo-val-conceito-v2-poster.webp",
+          "duration": 175.926,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/rdo-val/v1/videos/filmes/filme-rdo-val-conceito-v2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 108576179,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 14,
+        "inventoried": 14,
+        "processed": 14,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 14,
+        "postersSkipped": 0,
+        "publishedVideos": 14,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 14,
+        "posters": 14
       }
     }
   }
