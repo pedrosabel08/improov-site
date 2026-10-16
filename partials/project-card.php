@@ -6,7 +6,7 @@ $cardLocation = translated($project['location']);
 $cardAlt = translated($hero['alt']);
 $animation = project_animation($project);
 ?>
-<a class="project-card project-card--<?= escape($project['placement']) ?>" href="<?= escape(base_url('projetos/' . $project['slug'])) ?>" data-project-slug="<?= escape($project['slug']) ?>"<?= $isHomeCard ? ' data-project-card-scope="home"' : '' ?>>
+<a class="project-card project-card--<?= escape($project['placement']) ?>" href="<?= escape(base_url('projetos/' . $project['slug'])) ?>" data-project-slug="<?= escape($project['slug']) ?>" data-analytics-event="project_select" data-analytics-location="<?= $isHomeCard ? 'home_projects' : 'project_catalog' ?>"<?= $isHomeCard ? ' data-project-card-scope="home"' : '' ?>>
   <?php if ($animation !== null): ?>
     <?= lazy_video($animation, 'project-card__image', false, ['aria-label' => $cardAlt]) ?>
   <?php else: ?>

@@ -6,7 +6,7 @@
     <div class="hero__content container">
       <p class="eyebrow" data-i18n="home.eyebrow"><?= escape(ui_text('home.eyebrow')) ?></p>
       <h1 data-i18n="home.title"><?= escape(ui_text('home.title')) ?></h1>
-      <p data-i18n="home.intro"><?= escape(ui_text('home.intro')) ?></p><a class="text-link text-link--on-media" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.action">Conheça nosso trabalho</span><span aria-hidden="true">→</span></a>
+      <p data-i18n="home.intro"><?= escape(ui_text('home.intro')) ?></p><a class="text-link text-link--on-media" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action">Conheça nosso trabalho</span><span aria-hidden="true">→</span></a>
     </div>
   </section>
 
@@ -16,7 +16,7 @@
     <div class="section-heading section-heading--row">
       <div><span class="eyebrow" data-i18n="projects.eyebrow">Projetos</span>
         <h2 data-i18n="home.projectsTitle"><?= escape(ui_text('home.projectsTitle')) ?></h2>
-      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
+      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="portfolio"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
     </div>
     <?php $projectsForGrid = home_projects();
     $projectGridClass = 'project-grid--home';

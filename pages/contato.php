@@ -3,7 +3,7 @@
     <div class="editorial-hero__inner container">
       <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow"><?= escape(ui_text('contact.eyebrow')) ?></span>
         <h1 data-i18n="contact.title"><?= escape(ui_text('contact.title')) ?></h1>
-        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
+        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
         <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>
@@ -34,9 +34,9 @@
     <aside class="contact-aside">
       <div class="info-panel">
         <h2 data-i18n="contact.direct">Fale direto conosco</h2>
-        <p><strong>E-mail</strong><a href="mailto:<?= escape($site['email']) ?>"><?= escape($site['email']) ?></a></p>
-        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener"><?= escape($site['phoneDisplay']) ?></a></p>
-        <p><strong>Instagram</strong><a href="<?= escape($site['social']['Instagram']) ?>" target="_blank" rel="noopener">@improovbr</a></p>
+        <p><strong>E-mail</strong><a href="mailto:<?= escape($site['email']) ?>" data-analytics-event="email_click" data-analytics-location="contact_section"><?= escape($site['email']) ?></a></p>
+        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="contact_section" data-analytics-name="contact_whatsapp"><?= escape($site['phoneDisplay']) ?></a></p>
+        <p><strong>Instagram</strong><a href="<?= escape($site['social']['Instagram']) ?>" target="_blank" rel="noopener" data-analytics-event="social_click" data-analytics-social="instagram" data-analytics-location="contact_section">@improovbr</a></p>
       </div>
       <div class="info-panel">
         <h2 data-i18n="contact.addressTitle">Nosso endereço</h2>

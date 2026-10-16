@@ -640,7 +640,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         </header>
         <div class="case-v3-shell">
           <?php if ($motionVideo !== null): ?>
-            <button class="case-v3-still-motion__stage" type="button" data-case-still-motion aria-pressed="false" aria-label="Reproduzir animação de <?= escape($caseText($environment['label'] ?? $chapterLabel)) ?>">
+            <button class="case-v3-still-motion__stage" type="button" data-case-still-motion data-analytics-media-name="<?= escape($caseText($environment['label'] ?? $chapterLabel)) ?>" aria-pressed="false" aria-label="Reproduzir animação de <?= escape($caseText($environment['label'] ?? $chapterLabel)) ?>">
               <?= $renderImage((string) $environment['still'], 'case-v3-still-motion__still', '100vw', $caseText($environment['label'] ?? $chapterLabel), 'mask') ?>
               <?= $renderVideo($motionVideo, 'case-v3-still-motion__video', 'still-motion', 'Animação de ' . $caseText($environment['label'] ?? $chapterLabel)) ?>
               <span class="case-v3-still-motion__hint"><span>View motion</span><?= site_icon('arrow-up-right', 'case-v3-icon') ?></span>
@@ -864,8 +864,8 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
       <div class="case-v3-shell" data-case-reveal="up">
         <p class="case-v3-kicker"><?= escape($caseText($nextRule['eyebrow'] ?? 'Próximo projeto')) ?></p>
         <?php $nextHero = $nextProject['media']['hero'];
-        $nextAspectRatio = max(0.01, (float) $nextHero['width'] / max(1.0, (float) $nextHero['height'])); ?><a class="case-v3-next__project" style="--case-next-ratio: <?= escape(number_format($nextAspectRatio, 6, '.', '')) ?>" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
-        <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <?= site_icon('arrow-right', 'case-v3-icon') ?></a>
+        $nextAspectRatio = max(0.01, (float) $nextHero['width'] / max(1.0, (float) $nextHero['height'])); ?><a class="case-v3-next__project" style="--case-next-ratio: <?= escape(number_format($nextAspectRatio, 6, '.', '')) ?>" href="<?= escape(base_url('projetos/' . $nextProject['slug'])) ?>" data-analytics-event="project_select" data-analytics-location="case_next" data-project-slug="<?= escape($nextProject['slug']) ?>"><span class="case-v3-next__media"><?= responsive_image($nextHero['src'], translated($nextHero['alt']), (int) $nextHero['width'], (int) $nextHero['height'], 'case-v3-next__image', '100vw') ?></span><span class="case-v3-next__copy"><strong><?= escape(translated($nextProject['title'])) ?><?= site_icon('arrow-up-right', 'case-v3-next__project-icon') ?></strong><small><?= escape(translated($nextProject['location'])) ?></small></span></a>
+        <a class="case-v3-next__all" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="content"><?= escape($caseText($nextRule['allProjectsLabel'] ?? 'Ver todos os projetos')) ?> <?= site_icon('arrow-right', 'case-v3-icon') ?></a>
       </div>
     </section>
   <?php endif; ?>
