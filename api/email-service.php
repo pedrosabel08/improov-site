@@ -97,6 +97,8 @@ function improovSendContactEmail(array $contact, string $projectRoot): array
         // Mensagens do formulário "Contato" vão para o comercial.
         $to = improovEmailEnv('CONTACT_MAIL_TO', 'comercial@improov.com.br');
         $mailer = improovCreateMailer($to, (string)$contact['email'], (string)$contact['nome']);
+        $copy = improovEmailEnv('CONTACT_MAIL_CC');
+        if ($copy !== '') $mailer->addCC($copy);
         $mailer->Subject = 'Novo contato comercial | Improov | ' . trim(str_replace(["\r", "\n"], ' ', (string)$contact['nome']));
         $mailer->Body = improovEmailLayout('CONTATO COMERCIAL', 'Nova mensagem recebida', 'Um novo contato comercial chegou pelo site.', $content);
         $mailer->AltBody = strip_tags(str_replace('<br>', "\n", $content));
