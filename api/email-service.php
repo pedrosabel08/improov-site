@@ -41,13 +41,16 @@ function improovCreateMailer(string $to, string $replyEmail, string $replyName):
         $mailer->Username = improovEmailEnv('SMTP_USERNAME');
         $mailer->Password = improovEmailEnv('SMTP_PASSWORD');
     }
-    $mailer->Timeout = (int) improovEmailEnv('SMTP_TIMEOUT', '20');
+    $mailer->Timeout = max(1, (int) improovEmailEnv('SMTP_TIMEOUT', '20'));
+    $mailer->getSMTPInstance()->Timelimit = $mailer->Timeout;
     $mailer->CharSet = 'UTF-8';
     $encryption = strtolower(improovEmailEnv('SMTP_ENCRYPTION', 'tls'));
     $mailer->SMTPSecure = in_array($encryption, ['ssl', 'smtps'], true) ? PHPMailer::ENCRYPTION_SMTPS : PHPMailer::ENCRYPTION_STARTTLS;
     $from = improovEmailEnv('SMTP_FROM', improovEmailEnv('SMTP_USERNAME', improovEmailEnv('MAIL_FROM', $to)));
     $mailer->setFrom($from, improovEmailEnv('SMTP_FROM_NAME', 'Improov'));
     $mailer->addAddress($to);
+    // O formulario de contato permite leads sem e-mail.
+    $replyEmail = trim($replyEmail);
     if ($replyEmail !== '') $mailer->addReplyTo($replyEmail, $replyName);
     $mailer->isHTML(true);
     return $mailer;

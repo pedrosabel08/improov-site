@@ -66,9 +66,9 @@
           body: new FormData(form),
           headers: { Accept: "application/json" },
         });
-        const payload = await response.json();
-        if (!response.ok || !payload.success)
-          throw new Error(payload.message || tr("form.error"));
+        const payload = await response.json().catch(() => null);
+        if (!response.ok || !payload?.success)
+          throw new Error(payload?.message || tr("form.error"));
         form.reset();
         form.classList.remove("was-validated");
         form

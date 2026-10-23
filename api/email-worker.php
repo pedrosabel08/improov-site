@@ -53,8 +53,13 @@ function finishQueue(mysqli $db, string $type, int $id, array $result): void
     $sentAt = $result['sent'] ? date('Y-m-d H:i:s') : null;
     $error = $result['sent'] ? null : (string)($result['error'] ?? 'Falha SMTP');
     $statement = $db->prepare("UPDATE {$d['table']} SET email_status=?,email_enviado_em=?,email_erro=? WHERE id=?");
+    if (!$statement) throw new RuntimeException('Falha ao preparar resultado do envio: ' . $db->error);
     $statement->bind_param('sssi', $status, $sentAt, $error, $id);
-    $statement->execute();
+    if (!$statement->execute()) {
+        $error = $statement->error;
+        $statement->close();
+        throw new RuntimeException('Falha ao salvar resultado do envio: ' . $error);
+    }
     $statement->close();
     $eventType = $result['sent'] ? 'notificacao_enviada' : 'notificacao_falhou';
     $description = $result['sent'] ? 'Notificação enviada pelo worker.' : 'Falha no envio pelo worker.';
@@ -74,7 +79,11 @@ do {
             $item = claimPending($db, $type);
             if (!$item) continue;
             $processed = true;
+            $startedAt = microtime(true);
+            workerLog('Processando ' . $type . ' #' . $item['id'] . '.');
             $result = $type === 'candidate' ? improovSendCandidateEmail($item, $projectRoot) : improovSendContactEmail($item, $projectRoot);
+            $elapsed = number_format(microtime(true) - $startedAt, 1, '.', '');
+            workerLog('SMTP ' . ($result['sent'] ? 'aceitou' : 'falhou') . ' ' . $type . ' #' . $item['id'] . ' em ' . $elapsed . 's.' . ($result['sent'] ? '' : ' Motivo: ' . str_replace(["\r", "\n"], ' ', (string)($result['error'] ?? 'Falha SMTP'))));
             finishQueue($db, $type, (int)$item['id'], $result);
             workerLog(($result['sent'] ? 'Enviado' : 'Falhou') . ' ' . $type . ' #' . $item['id'] . '.');
         }

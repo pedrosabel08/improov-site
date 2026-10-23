@@ -28,9 +28,9 @@ try {
     $attachmentMime = '';
     $attachmentSize = 0;
     $statement = $db->prepare('INSERT INTO contatos (nome,empresa,email,telefone,cidade_uf,tipo_interesse,empreendimento,mensagem,anexo_url,anexo_nome,anexo_mime,anexo_tamanho,idioma,utm_atribuicao,lgpd_aceito,lgpd_aceito_em,status,email_status) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,1,?,?,?)');
-    if (!$statement) throw new RuntimeException('Falha ao preparar contato.');
+    if (!$statement) throw new RuntimeException('Falha ao preparar contato: ' . $db->error);
     $statement->bind_param('sssssssssssisssss', $data['nome'], $data['empresa'], $data['email'], $data['telefone'], $data['cidade_uf'], $data['tipo_interesse'], $data['empreendimento'], $data['mensagem'], $attachmentPath, $attachmentName, $attachmentMime, $attachmentSize, $data['idioma'], $data['utm_atribuicao'], $acceptedAt, $status, $emailStatus);
-    if (!$statement->execute()) throw new RuntimeException('Falha ao registrar contato.');
+    if (!$statement->execute()) throw new RuntimeException('Falha ao registrar contato: ' . $statement->error);
     $id = (int)$db->insert_id;
     $statement->close();
     insert_audit_event($db, 'contato_eventos', 'contato_id', $id, 'recebido', 'Contato comercial registrado.');

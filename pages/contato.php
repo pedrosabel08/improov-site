@@ -21,6 +21,8 @@
       <div class="form-grid">
         <label><span data-i18n="form.name">Nome</span><input name="nome" autocomplete="name" maxlength="160" required></label>
         <label><span data-i18n="contact.phone"><?= escape(ui_text('contact.phone')) ?></span><input name="telefone" type="tel" inputmode="tel" autocomplete="tel" maxlength="40" data-whatsapp-phone required></label>
+        <!-- Campo de e-mail temporario para teste. -->
+        <label><span data-i18n="form.email">E-mail</span><input name="email" type="email" autocomplete="email" maxlength="254"></label>
         <label><span data-i18n="contact.company">Empresa</span><input name="empresa" autocomplete="organization" maxlength="160" required></label>
         <label><span data-i18n="contact.role"><?= escape(ui_text('contact.role')) ?></span><input name="cargo" autocomplete="organization-title" maxlength="160" required></label>
         <label><span data-i18n="contact.projectCity"><?= escape(ui_text('contact.projectCity')) ?></span><input name="cidade_uf" maxlength="120" required></label>
