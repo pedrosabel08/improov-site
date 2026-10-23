@@ -66,8 +66,10 @@
       <?php endfor; ?>
     </ol>
     <div class="work-process__timelines">
-      <h3 data-i18n="process.timelines"><?= escape(ui_text('process.timelines')) ?></h3>
-      <p class="work-process__timelines-intro" data-i18n="process.timelinesIntro"><?= escape(ui_text('process.timelinesIntro')) ?></p>
+      <div class="work-process__timelines-heading">
+        <h3 data-i18n="process.timelines"><?= escape(ui_text('process.timelines')) ?></h3>
+        <p class="work-process__timelines-intro" data-i18n="process.timelinesIntro"><?= escape(ui_text('process.timelinesIntro')) ?></p>
+      </div>
       <dl>
         <?php foreach (['images', 'animations', 'films'] as $service): ?>
           <div>
