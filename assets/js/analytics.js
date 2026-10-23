@@ -320,9 +320,17 @@
     (playEvent) => {
       const video = playEvent.target;
       if (!(video instanceof HTMLVideoElement)) return;
+      if (video.matches("[data-analytics-testimonial]") && video.controls) {
+        trackEvent("video_start", {
+          project_slug: video.dataset.analyticsProject,
+          media_name: video.getAttribute("aria-label"),
+          media_location: "home_testimonials",
+        });
+        return;
+      }
       const isTrackedPlayer =
         video.matches(
-          ".project-film video, .case-v3-film__video, .case-v3-viewport-audio__video",
+          ".project-film video, .case-v3-film__video, .case-v3-viewport-audio__video, .case-v3-testimonial__video",
         ) && video.controls;
       if (!isTrackedPlayer) return;
 

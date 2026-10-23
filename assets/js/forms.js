@@ -7,6 +7,19 @@
     const status = form.querySelector("[data-form-status]");
     const submit = form.querySelector("button[type=submit]");
     let submitting = false;
+    const phone = form.querySelector("[data-whatsapp-phone]");
+    const validatePhone = () => {
+      if (!phone) return;
+      const digits = phone.value.replace(/\D/g, "");
+      const valid =
+        /^\+?[\d\s().-]+$/.test(phone.value.trim()) &&
+        digits.length >= 8 &&
+        digits.length <= 15;
+      phone.setCustomValidity(
+        phone.value && !valid ? tr("contact.phoneInvalid") : "",
+      );
+    };
+    phone?.addEventListener("input", validatePhone);
     form.querySelectorAll("input[type=file]").forEach((input) =>
       input.addEventListener("change", () => {
         const file = input.files[0];
@@ -34,6 +47,7 @@
     form.addEventListener("submit", async (event) => {
       event.preventDefault();
       if (submitting) return;
+      validatePhone();
       form.classList.add("was-validated");
       status.className = "form-status";
       if (!form.checkValidity()) {
@@ -78,6 +92,12 @@
             detail: { form: form.dataset.asyncForm || "unknown" },
           }),
         );
+        if (form.dataset.asyncForm === "contact" && form.dataset.successUrl) {
+          window.setTimeout(
+            () => window.location.assign(form.dataset.successUrl),
+            250,
+          );
+        }
       } catch (error) {
         status.textContent = error.message || tr("form.error");
         status.classList.add("is-error");

@@ -3,7 +3,7 @@
     <div class="editorial-hero__inner container">
       <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow"><?= escape(ui_text('contact.eyebrow')) ?></span>
         <h1 data-i18n="contact.title"><?= escape(ui_text('contact.title')) ?></h1>
-        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="text-link" href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp">Falar no WhatsApp</span><span aria-hidden="true">→</span></a>
+        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="button button--commercial" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
         <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>
@@ -12,30 +12,34 @@
     </div>
   </section>
   <section class="form-layout form-layout--contact section container">
-    <form class="form-card" data-async-form="contact" action="<?= escape(api_url('contacto.php')) ?>" method="post" enctype="multipart/form-data" novalidate>
+    <form class="form-card" data-async-form="contact" data-success-url="<?= escape(base_url('obrigado')) ?>" action="<?= escape(api_url('contacto.php')) ?>" method="post" novalidate>
       <div class="form-card__heading">
-        <h2 data-i18n="contact.formTitle">Envie sua mensagem</h2>
-        <p data-i18n="contact.formIntro">Preencha os campos e retornaremos em breve.</p>
+        <h2 data-i18n="contact.formTitle"><?= escape(ui_text('contact.formTitle')) ?></h2>
+        <p data-i18n="contact.formIntro"><?= escape(ui_text('contact.formIntro')) ?></p>
       </div>
       <input type="hidden" name="idioma" value="pt-BR" data-language-input><input class="honeypot" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-      <div class="form-grid"><label><span data-i18n="form.name">Nome</span><input name="nome" autocomplete="name" required></label><label><span data-i18n="contact.company">Empresa</span><input name="empresa" autocomplete="organization"></label><label><span data-i18n="form.email">E-mail</span><input name="email" type="email" autocomplete="email" required></label><label><span data-i18n="contact.phoneOptional">Telefone / WhatsApp (opcional)</span><input name="telefone" type="tel" autocomplete="tel"></label><label><span data-i18n="form.city">Cidade / Estado</span><input name="cidade_uf"></label><label><span data-i18n="contact.interestOptional">Tipo de projeto / interesse (opcional)</span><select name="tipo_interesse">
+      <div class="form-grid">
+        <label><span data-i18n="form.name">Nome</span><input name="nome" autocomplete="name" maxlength="160" required></label>
+        <label><span data-i18n="contact.phone"><?= escape(ui_text('contact.phone')) ?></span><input name="telefone" type="tel" inputmode="tel" autocomplete="tel" maxlength="40" data-whatsapp-phone required></label>
+        <label><span data-i18n="contact.company">Empresa</span><input name="empresa" autocomplete="organization" maxlength="160" required></label>
+        <label><span data-i18n="contact.role"><?= escape(ui_text('contact.role')) ?></span><input name="cargo" autocomplete="organization-title" maxlength="160" required></label>
+        <label><span data-i18n="contact.projectCity"><?= escape(ui_text('contact.projectCity')) ?></span><input name="cidade_uf" maxlength="120" required></label>
+        <label><span data-i18n="contact.launch"><?= escape(ui_text('contact.launch')) ?></span><select name="prazo_lancamento" required>
             <option value="" data-i18n="form.select">Selecione</option>
-            <option value="Imagens 3D" data-i18n="contact.optionImages3d">Imagens 3D</option>
-            <option value="Animações 3D" data-i18n="contact.optionAnimations3d">Animações 3D</option>
-            <option value="Filmes" data-i18n="contact.optionFilms">Filmes</option>
-            <option value="Experiências interativas" data-i18n="contact.optionInteractiveExperiences">Experiências interativas</option>
-          </select></label><label class="form-wide"><span data-i18n="contact.development">Nome do empreendimento</span><input name="empreendimento"></label></div>
-      <label><span data-i18n="contact.message">Como podemos ajudar?</span><textarea name="mensagem" rows="5" maxlength="3000" required></textarea><small class="character-count" data-character-count>0/3000</small></label>
-      <label class="upload-field"><span data-i18n="contact.attachment">Anexo opcional</span><span class="upload-drop"><strong data-i18n="form.upload">Arraste seu arquivo ou clique para enviar</strong><small data-i18n="contact.attachmentHint">PDF, JPG, PNG ou ZIP — até 20 MB</small><input name="anexo" type="file" accept="application/pdf,image/jpeg,image/png,application/zip,.pdf,.jpg,.jpeg,.png,.zip" data-max-size="20971520"></span><small data-file-name></small></label>
+            <?php foreach (['ate_6_meses' => 'contact.launch6', '6_a_12_meses' => 'contact.launch12', 'mais_de_12_meses' => 'contact.launchLater', 'em_vendas' => 'contact.launchNow'] as $launchValue => $launchLabel): ?>
+              <option value="<?= escape($launchValue) ?>" data-i18n="<?= escape($launchLabel) ?>"><?= escape(ui_text($launchLabel)) ?></option>
+            <?php endforeach; ?>
+          </select></label>
+      </div>
       <label class="privacy-check"><input name="lgpd" type="checkbox" value="Aceito" required><span><span data-i18n="form.contactPrivacy">Autorizo o uso dos meus dados para contato e envio de propostas conforme a</span> <a href="<?= escape(base_url('privacidade')) ?>" data-i18n="footer.privacy">Política de Privacidade</a>.</span></label>
-      <button class="button button--submit" type="submit"><span data-i18n="contact.submit">Enviar mensagem</span><span aria-hidden="true">→</span></button>
+      <button class="button button--submit" type="submit"><span data-i18n="contact.submit"><?= escape(ui_text('contact.submit')) ?></span><span aria-hidden="true">→</span></button>
       <p class="form-status" data-form-status aria-live="polite"></p>
     </form>
     <aside class="contact-aside">
       <div class="info-panel">
         <h2 data-i18n="contact.direct">Fale direto conosco</h2>
         <p><strong>E-mail</strong><a href="mailto:<?= escape($site['email']) ?>" data-analytics-event="email_click" data-analytics-location="contact_section"><?= escape($site['email']) ?></a></p>
-        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="https://wa.me/<?= escape(ltrim($site['phone'], '+')) ?>?text=<?= rawurlencode('Olá! Vim pelo site da Improov e quero conversar sobre os materias de apresentação do meu empreendimento.') ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="contact_section" data-analytics-name="contact_whatsapp"><?= escape($site['phoneDisplay']) ?></a></p>
+        <p><strong data-i18n="contact.phoneLabel">Telefone / WhatsApp</strong><a href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="contact_section" data-analytics-name="contact_whatsapp"><?= escape($site['phoneDisplay']) ?></a></p>
         <p><strong>Instagram</strong><a href="<?= escape($site['social']['Instagram']) ?>" target="_blank" rel="noopener" data-analytics-event="social_click" data-analytics-social="instagram" data-analytics-location="contact_section">@improovbr</a></p>
       </div>
       <div class="info-panel">

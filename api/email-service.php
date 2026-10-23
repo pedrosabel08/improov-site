@@ -48,7 +48,7 @@ function improovCreateMailer(string $to, string $replyEmail, string $replyName):
     $from = improovEmailEnv('SMTP_FROM', improovEmailEnv('SMTP_USERNAME', improovEmailEnv('MAIL_FROM', $to)));
     $mailer->setFrom($from, improovEmailEnv('SMTP_FROM_NAME', 'Improov'));
     $mailer->addAddress($to);
-    $mailer->addReplyTo($replyEmail, $replyName);
+    if ($replyEmail !== '') $mailer->addReplyTo($replyEmail, $replyName);
     $mailer->isHTML(true);
     return $mailer;
 }
@@ -93,10 +93,10 @@ function improovSendContactEmail(array $contact, string $projectRoot): array
     improovEmailLoadEnv($projectRoot . '/.env');
     try {
         $h = 'improovEmailHtml';
-        $content = '<h2 style="margin-top:0">' . $h((string)$contact['nome']) . '</h2><p><strong>Empresa:</strong> ' . $h((string)$contact['empresa']) . '<br><strong>E-mail:</strong> ' . $h((string)$contact['email']) . '<br><strong>Telefone:</strong> ' . $h((string)$contact['telefone']) . '<br><strong>Cidade:</strong> ' . $h((string)$contact['cidade_uf']) . '<br><strong>Interesse:</strong> ' . $h((string)$contact['tipo_interesse']) . '<br><strong>Empreendimento:</strong> ' . $h((string)$contact['empreendimento']) . '</p><h3>Como podemos ajudar?</h3><p>' . nl2br($h((string)$contact['mensagem'])) . '</p>';
+        $content = '<h2 style="margin-top:0">' . $h((string)$contact['nome']) . '</h2><p><strong>Empresa:</strong> ' . $h((string)$contact['empresa']) . '<br><strong>E-mail:</strong> ' . $h((string)$contact['email']) . '<br><strong>Telefone:</strong> ' . $h((string)$contact['telefone']) . '<br><strong>Cidade:</strong> ' . $h((string)$contact['cidade_uf']) . '<br><strong>Interesse:</strong> ' . $h((string)$contact['tipo_interesse']) . '<br><strong>Empreendimento:</strong> ' . $h((string)$contact['empreendimento']) . '</p><h3>Dados da solicitação</h3><p>' . nl2br($h((string)$contact['mensagem'])) . '</p>';
         // Mensagens do formulário "Contato" vão para o comercial.
         $to = improovEmailEnv('CONTACT_MAIL_TO', 'comercial@improov.com.br');
-        $mailer = improovCreateMailer($to, (string)$contact['email'], (string)$contact['nome']);
+        $mailer = improovCreateMailer($to, (string)($contact['email'] ?? ''), (string)$contact['nome']);
         $mailer->Subject = 'Novo contato comercial | Improov | ' . trim(str_replace(["\r", "\n"], ' ', (string)$contact['nome']));
         $mailer->Body = improovEmailLayout('CONTATO COMERCIAL', 'Nova mensagem recebida', 'Um novo contato comercial chegou pelo site.', $content);
         $mailer->AltBody = strip_tags(str_replace('<br>', "\n", $content));

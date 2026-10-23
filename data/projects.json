@@ -213,7 +213,12 @@
           "year": "2024"
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "ARS Kammer Incorporadora · Imagens 3D, Animações 3D, Plantas Humanizadas, Pílulas sensoriais, Filmes",
+        "en": "ARS Kammer Incorporadora · 3D Images, 3D Animations, Floor plans, Sensory moments, Films",
+        "es": "ARS Kammer Incorporadora · Imágenes 3D, Animaciones 3D, Plantas Humanizadas, Píldoras sensoriales, Películas"
+      }
     },
     {
       "slug": "aya-kar",
@@ -611,7 +616,12 @@
           "year": "2024"
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "AYA Empreendimentos · Imagens 3D, Animações 3D, Plantas humanizadas, Filmes",
+        "en": "AYA Empreendimentos · 3D images, 3D animations, Floor plans, Films",
+        "es": "AYA Empreendimentos · Imágenes 3D, Animaciones 3D, Plantas humanizadas, Películas"
+      }
     },
     {
       "slug": "alp-sc",
@@ -675,7 +685,12 @@
           "year": "2025"
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "NOWA Empreendimentos · Imagens 3D, Animação 3D, Filme",
+        "en": "NOWA Empreendimentos · 3D images, 3D animation, Film",
+        "es": "NOWA Empreendimentos · Imágenes 3D, Animación 3D, Película"
+      }
     },
     {
       "slug": "gt-lac",
@@ -829,7 +844,12 @@
           "year": "2025"
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "GT.HOME · Pininfarina · Imagens 3D, Animações 3D",
+        "en": "GT.HOME · Pininfarina · 3D images, 3D animations",
+        "es": "GT.HOME · Pininfarina · Imágenes 3D, Animaciones 3D"
+      }
     },
     {
       "slug": "aya-cas",
@@ -928,7 +948,12 @@
           "year": "2024"
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "AYA Empreendimentos · Imagens 3D, Animações 3D, Filmes",
+        "en": "AYA Empreendimentos · 3D images, 3D animations, Films",
+        "es": "AYA Empreendimentos · Imágenes 3D, Animaciones 3D, Películas"
+      }
     },
     {
       "slug": "hsa-mon",
@@ -1097,7 +1122,12 @@
           "year": ""
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "HSantos Empreendimentos · Imagens 3D, Animações 3D, Plantas Humanizadas, Filme Conceito, Filmes Trailer",
+        "en": "HSantos Empreendimentos · 3D Images, 3D Animations, Floor plans, Concept Film, Trailer Films",
+        "es": "HSantos Empreendimentos · Imágenes 3D, Animaciones 3D, Plantas Humanizadas, Película Concepto, Películas Trailer"
+      }
     },
     {
       "slug": "talls-solutions",
@@ -1150,7 +1180,12 @@
           "year": ""
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "Talls Solutions - Grupo FG · Animações, Filme institucional",
+        "en": "Talls Solutions - Grupo FG · Animations, Institutional film",
+        "es": "Talls Solutions - Grupo FG · Animaciones, Película institucional"
+      }
     },
     {
       "slug": "charles-ii-okean",
@@ -1379,6 +1414,11 @@
         "pt-BR": "Charles II by OKEAN",
         "en": "Charles II by OKEAN",
         "es": "Charles II by OKEAN"
+      },
+      "cardContext": {
+        "pt-BR": "Gessele Empreendimentos em parceria com o Grupo Okean Yachts · Imagens 3D, Animações 3D, Filmes",
+        "en": "Gessele Empreendimentos em parceria com o Grupo Okean Yachts · 3D images, 3D animations, Films",
+        "es": "Gessele Empreendimentos em parceria com o Grupo Okean Yachts · Imágenes 3D, Animaciones 3D, Películas"
       }
     },
     {
@@ -1589,7 +1629,12 @@
           "year": ""
         }
       },
-      "mediaVersion": 1
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "RDO Empreendimentos Imobiliários · Imagens 3D, Animações 3D, Plantas humanizadas, Filme conceito",
+        "en": "RDO Empreendimentos Imobiliários · 3D images, 3D animations, Floor plans, Concept film",
+        "es": "RDO Empreendimentos Imobiliários · Imágenes 3D, Animaciones 3D, Plantas humanizadas, Película conceptual"
+      }
     }
   ]
 }

@@ -31,8 +31,13 @@
             : project.title;
         title.textContent = value(titleMap, lang);
       }
-      const locationText = location?.querySelector("[data-project-location-text]");
-      if (locationText) locationText.textContent = value(project.location, lang);
+      const locationText = location?.querySelector(
+        "[data-project-location-text]",
+      );
+      const context = card.querySelector("[data-project-context]");
+      if (context) context.textContent = value(project.cardContext, lang);
+      if (locationText)
+        locationText.textContent = value(project.location, lang);
       if (image) image.alt = value(project.media.hero.alt, lang);
     });
     const detail = document.querySelector("[data-project-detail]");

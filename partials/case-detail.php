@@ -50,11 +50,13 @@ $tourUrl = static function (mixed $source): ?string {
     return null;
   }
   $parts = parse_url($source);
-  if (!is_array($parts)
+  if (
+    !is_array($parts)
     || strtolower((string) ($parts['scheme'] ?? '')) !== 'https'
     || strtolower((string) ($parts['host'] ?? '')) !== 'tour.meupasseiovirtual.com'
     || preg_match('#^/view/[a-zA-Z0-9_-]+$#D', (string) ($parts['path'] ?? '')) !== 1
-    || isset($parts['user'], $parts['pass'], $parts['port'], $parts['query'], $parts['fragment'])) {
+    || isset($parts['user'], $parts['pass'], $parts['port'], $parts['query'], $parts['fragment'])
+  ) {
     return null;
   }
   return $source;
@@ -89,7 +91,7 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
   }
   $loop = !empty($video['loopCandidate']) ? ' loop' : '';
   return sprintf(
-    '<video class="%s" data-case-video data-case-media-kind="%s" data-case-video-source="%s" poster="%s" width="%d" height="%d" preload="none" muted playsinline%s%s></video>',
+    '<video class="%s" data-case-video data-case-media-kind="%s" data-case-video-source="%s" data-lazy-poster="%s" width="%d" height="%d" preload="none" muted playsinline%s%s></video>',
     escape($class),
     escape($kind),
     escape(asset((string) $source['src'])),
@@ -289,7 +291,6 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         <a href="#<?= escape($firstSectionId) ?>" aria-label="Ir para a próxima seção do case"><?= site_icon('arrow-down', 'case-v3-icon') ?></a>
       </div>
     </div>
-    </div>
   </section>
 
   <?php if ($sections !== []): ?>
@@ -441,9 +442,9 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
               <?php endforeach; ?>
             </div>
             <?php foreach ($editorialVideos as $editorialVideo): ?><figure class="case-v3-editorial-block__motion">
-              <?= $renderVideo($editorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $editorialVideo['label']) ?>
-              <figcaption><?= escape($editorialVideo['label']) ?></figcaption>
-            </figure><?php endforeach; ?>
+                <?= $renderVideo($editorialVideo['video'], 'case-v3-editorial-block__video', 'editorial', $editorialVideo['label']) ?>
+                <figcaption><?= escape($editorialVideo['label']) ?></figcaption>
+              </figure><?php endforeach; ?>
           </div>
         </section>
       <?php endif; ?>
@@ -791,7 +792,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
       ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-viewport-audio" data-case-chapter="<?= escape($chapterId) ?>">
         <div class="case-v3-shell case-v3-viewport-audio__frame" data-case-reveal="up">
-          <video class="case-v3-viewport-audio__video" data-case-video data-case-media-kind="viewport-audio" data-case-video-source="<?= escape(asset($sourceUrl)) ?>"<?= $viewportVideo !== null && !empty($viewportVideo['poster']) ? ' poster="' . escape(asset((string) $viewportVideo['poster'])) . '"' : '' ?> width="<?= (int) ($source['width'] ?? $viewportVideo['width'] ?? 1920) ?>" height="<?= (int) ($source['height'] ?? $viewportVideo['height'] ?? 1080) ?>" controls playsinline preload="none" aria-label="<?= escape($viewportLabel) ?>"></video>
+          <video class="case-v3-viewport-audio__video" data-case-video data-case-media-kind="viewport-audio" data-case-video-source="<?= escape(asset($sourceUrl)) ?>" <?= $viewportVideo !== null && !empty($viewportVideo['poster']) ? ' data-lazy-poster="' . escape(asset((string) $viewportVideo['poster'])) . '"' : '' ?> width="<?= (int) ($source['width'] ?? $viewportVideo['width'] ?? 1920) ?>" height="<?= (int) ($source['height'] ?? $viewportVideo['height'] ?? 1080) ?>" controls playsinline preload="none" aria-label="<?= escape($viewportLabel) ?>"></video>
         </div>
       </section>
     <?php elseif ($type === 'film'): ?>
@@ -830,7 +831,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                   <p class="case-v3-film__description"><?= escape($film['title']) ?></p>
                 </div>
                 <div class="case-v3-film__video-wrap">
-                  <video class="case-v3-film__video" controls playsinline preload="none" poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['source']['width'] ?? $film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['source']['height'] ?? $film['video']['height'] ?? 1080) ?>" aria-label="<?= escape($film['title']) ?>">
+                  <video class="case-v3-film__video" controls playsinline preload="none" data-lazy-poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['source']['width'] ?? $film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['source']['height'] ?? $film['video']['height'] ?? 1080) ?>" aria-label="<?= escape($film['title']) ?>">
                     <source src="<?= escape(asset((string) $film['source']['src'])) ?>" type="video/mp4">
                   </video>
                   <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']) . ' — ' . $film['label']) ?>">
@@ -856,9 +857,35 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                 </div><?php endforeach; ?></dl>
           </div>
         <?php endif; ?>
+        <?php if ($caseText($case['result'] ?? '') !== ''): ?>
+          <p class="case-v3-result case-v3-shell"><strong data-i18n="case.result"><?= escape(ui_text('case.result')) ?>:</strong> <?= escape($caseText($case['result'])) ?></p>
+        <?php endif; ?>
+        <?php $featuredTestimonial = $caseVideos[(string) ($case['testimonial']['video'] ?? '')] ?? null;
+        $featuredTestimonialSource = is_array($featuredTestimonial) ? case_video_source($featuredTestimonial) : null; ?>
+        <?php if ($featuredTestimonialSource !== null): ?>
+          <div class="case-v3-testimonial case-v3-shell">
+            <div>
+              <span class="eyebrow" data-i18n="testimonials.eyebrow"><?= escape(ui_text('testimonials.eyebrow')) ?></span>
+              <h2 data-i18n="case.testimonial"><?= escape(ui_text('case.testimonial')) ?></h2>
+            </div>
+            <div class="case-v3-film__video-wrap">
+              <video class="case-v3-testimonial__video case-v3-film__video" controls playsinline preload="none" data-lazy-poster="<?= escape(asset((string) ($featuredTestimonial['poster'] ?? ''))) ?>" width="<?= (int) ($featuredTestimonialSource['width'] ?? 1920) ?>" height="<?= (int) ($featuredTestimonialSource['height'] ?? 1080) ?>" aria-label="<?= escape(ui_text('case.testimonial') . ' — ' . $caseTitle) ?>">
+                <source src="<?= escape(asset($featuredTestimonialSource['src'])) ?>" type="video/mp4">
+              </video>
+              <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']) . ' — ' . $caseTitle) ?>"><span><?= site_icon('play', 'case-v3-icon') ?></span></button>
+            </div>
+          </div>
+        <?php endif; ?>
       </section>
     <?php endif; ?>
   <?php endforeach; ?>
+  <section class="launch-invite case-v3-shell" aria-labelledby="case-invite-title">
+    <div>
+      <h2 id="case-invite-title" data-i18n="case.invite"><?= escape(ui_text('case.invite')) ?></h2>
+      <p data-i18n="case.inviteText"><?= escape(ui_text('case.inviteText')) ?></p>
+    </div>
+    <a class="button button--commercial" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="case_review" data-analytics-location="case_closing"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+  </section>
   <?php if ($nextProject !== null): ?>
     <section class="case-v3-section case-v3-next" data-case-chapter="case-next">
       <div class="case-v3-shell" data-case-reveal="up">

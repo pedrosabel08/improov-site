@@ -46,11 +46,15 @@
       "footer.follow": "Siga-nos",
       "footer.rights": "Todos os direitos reservados.",
       "footer.privacy": "Política de Privacidade",
-      "home.eyebrow": "Imagens que",
-      "home.title": "Fazem sentir antes de existir",
-      "home.intro":
-        "Produzimos imagens 3D, animações 3D e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.",
-      "home.action": "Conheça nosso trabalho",
+      "home.eyebrow": "Visualização arquitetônica",
+      "home.title":
+        "Imagens 3D e filmes que valorizam o seu lançamento imobiliário.",
+      "home.intro": "Para incorporadoras e construtoras de alto padrão.",
+      "home.contactAction": "Quero avaliar meu lançamento",
+      "home.action": "Ver projetos",
+      "home.signature": "Fazem sentir antes de existir.",
+      "home.proofYears": "anos de experiência",
+      "home.proofProjects": "projetos realizados",
       "home.pillarsEyebrow": "Nossa proposta",
       "home.pillarsTitle": "Imagem com intenção. Experiência com propósito.",
       "home.pillar1": "Foco no essencial",
@@ -255,11 +259,16 @@
       "footer.follow": "Follow us",
       "footer.rights": "All rights reserved.",
       "footer.privacy": "Privacy Policy",
-      "home.eyebrow": "Images that",
-      "home.title": "Make you feel before they exist",
+      "home.eyebrow": "Architectural visualization",
+      "home.title":
+        "3D images and films that add value to your real estate launch.",
       "home.intro":
-        "We create 3D architectural images, animations and films that bring real estate developments to life before they are built, connecting architecture, art and emotion.",
-      "home.action": "Discover our work",
+        "For high-end property developers and construction companies.",
+      "home.contactAction": "Discuss my property launch",
+      "home.action": "View projects",
+      "home.signature": "Make you feel before they exist.",
+      "home.proofYears": "years of experience",
+      "home.proofProjects": "completed projects",
       "home.pillarsEyebrow": "Our proposition",
       "home.pillarsTitle": "Images with intention. Experiences with purpose.",
       "home.pillar1": "Focus on the essential",
@@ -459,11 +468,15 @@
       "footer.follow": "Síguenos",
       "footer.rights": "Todos los derechos reservados.",
       "footer.privacy": "Política de Privacidad",
-      "home.eyebrow": "Imágenes que",
-      "home.title": "Hacen sentir antes de existir",
-      "home.intro":
-        "Creamos imágenes arquitectónicas 3D, animaciones y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.",
-      "home.action": "Conoce nuestro trabajo",
+      "home.eyebrow": "Visualización arquitectónica",
+      "home.title":
+        "Imágenes 3D y películas que valorizan tu lanzamiento inmobiliario.",
+      "home.intro": "Para desarrolladoras y constructoras de alto nivel.",
+      "home.contactAction": "Quiero evaluar mi lanzamiento",
+      "home.action": "Ver proyectos",
+      "home.signature": "Hacen sentir antes de existir.",
+      "home.proofYears": "años de experiencia",
+      "home.proofProjects": "proyectos realizados",
       "home.pillarsEyebrow": "Nuestra propuesta",
       "home.pillarsTitle": "Imagen con intención. Experiencia con propósito.",
       "home.pillar1": "Foco en lo esencial",
@@ -621,6 +634,14 @@
       "notFound.back": "Volver al inicio",
     },
   };
+
+  const revisionNode = document.getElementById("revision-translations");
+  if (revisionNode) {
+    const revisions = JSON.parse(revisionNode.textContent);
+    supported.forEach((lang) =>
+      Object.assign(dictionary[lang], revisions[lang] || {}),
+    );
+  }
 
   function getLanguage() {
     const documentLanguage = document.documentElement.lang;

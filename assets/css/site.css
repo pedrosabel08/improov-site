@@ -526,10 +526,11 @@ button:focus-visible {
     flex-direction: column;
   }
   .whatsapp-float {
-    width: 52px;
-    height: 52px;
-    right: 16px;
-    bottom: 16px;
+    width: 44px;
+    height: 44px;
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(12px, env(safe-area-inset-bottom));
+    background-size: contain;
   }
 }
 @media (max-width: 480px) {

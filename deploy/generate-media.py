@@ -156,7 +156,7 @@ def add_entry(
                     resized.save(
                         target,
                         "AVIF",
-                        quality=90,
+                        quality=65,
                         speed=6,
                     )
 

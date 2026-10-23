@@ -156,7 +156,7 @@ $casePython = 'C:\Users\pedro\.cache\codex-runtimes\codex-primary-runtime\depend
 
 Sem filtros, o script regenera o catálogo e mídias institucionais e reescreve os manifestos. Não use esse modo para adicionar apenas um case.
 
-Saídas: AVIF (qualidade 90), WebP (88) e JPG (90), larguras 640, 1024, 1440 e 1920. Corrige orientação EXIF na cópia, mantém proporções, não aumenta um original menor e evita gerar larguras repetidas. Um original com largura suficiente produz 12 variantes. Exemplo: `assets/media/alp-sc/v1/hero-640.avif` até `hero-1920.jpg`. Atualiza `data/media-map.json` e `deploy/media-manifest.json`.
+Saídas: AVIF (qualidade 65), WebP (88) e JPG (90), larguras 640, 1024, 1440 e 1920. Corrige orientação EXIF na cópia, mantém proporções, não aumenta um original menor e evita gerar larguras repetidas. Um original com largura suficiente produz 12 variantes. Exemplo: `assets/media/alp-sc/v1/hero-640.avif` até `hero-1920.jpg`. Atualiza `data/media-map.json` e `deploy/media-manifest.json`.
 
 Não reordene `media.gallery` de um projeto já publicado sem revisar os nomes derivados e o cache; os nomes são baseados em posição. Para novas imagens, prefira acrescentar entradas. A posição visual na página é independente e fica em `cases.json`.
 

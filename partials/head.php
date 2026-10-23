@@ -23,7 +23,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?= escape($meta['title']) ?></title>
   <meta name="description" content="<?= escape($meta['description']) ?>">
-  <?php $isNotFound = $pageKey === '404'; ?>
+  <?php $isNotFound = in_array($pageKey, ['404', 'obrigado'], true); ?>
   <?php if ($isNotFound): ?>
     <meta name="robots" content="noindex, follow">
   <?php else: ?>
@@ -54,6 +54,7 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
   <?php if ($case !== null): ?>
     <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
+  <link rel="stylesheet" href="<?= escape(asset('assets/css/commercial.css')) ?>">
   <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/png">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;

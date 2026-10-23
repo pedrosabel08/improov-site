@@ -30,6 +30,7 @@ function resolve_route(string $requestUri): array
         'projetos' => ['page' => 'projetos', 'active' => 'projetos'],
         'trabalhe-conosco' => ['page' => 'trabalhe-conosco', 'active' => 'trabalhe-conosco'],
         'contato' => ['page' => 'contato', 'active' => 'contato'],
+        'obrigado' => ['page' => 'obrigado', 'active' => 'contato'],
         'privacidade' => ['page' => 'privacidade', 'active' => 'privacidade'],
     ];
     if (isset($static[$normalized])) {

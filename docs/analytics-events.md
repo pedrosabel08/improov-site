@@ -12,8 +12,8 @@
 
 | Evento                       | Quando dispara                                                                                                                          | Parâmetros                                                                        | Prioridade  | Evento principal?                                            |
 | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------ |
-| `contact_form_success`       | Após `improov:form-success` do formulário `contact`, emitido somente após resposta HTTP bem-sucedida e `payload.success`                | `page_path`, `form_type=contact`, `form_location=contact_section`                 | Alta        | Candidato recomendado                                        |
-| `whatsapp_click`             | Clique em link `wa.me` ou elemento explicitamente identificado como ação de WhatsApp                                                    | `page_path`, `button_location`, `cta_name`                                        | Alta        | Candidato como intenção de contato, sem garantia de conversa |
+| `contact_form_success`       | Após `improov:form-success` do formulário `contact`, emitido somente após resposta HTTP bem-sucedida e `payload.success`                | `page_path`, `form_type=contact`, `form_location=contact_section`                 | Alta        | Sim — configurar no GA4 (pendente)                                        |
+| `whatsapp_click`             | Clique em link `wa.me` ou elemento explicitamente identificado como ação de WhatsApp                                                    | `page_path`, `button_location`, `cta_name`                                        | Alta        | Sim — configurar no GA4 (pendente); mede intenção de contato |
 | `email_click`                | Clique em link `mailto:`                                                                                                                | `page_path`, `button_location`                                                    | Média       | Não inicialmente                                             |
 | `cta_click`                  | Clique nos CTAs nomeados de projetos, contato e candidatura                                                                             | `page_path`, `cta_name`, `button_location`, `destination`                         | Média       | Não                                                          |
 | `project_select`             | Clique em card da Home, card do catálogo ou projeto seguinte                                                                            | `page_path`, `project_slug`, `project_name`, `button_location`                    | Média       | Não                                                          |
@@ -48,7 +48,14 @@ Não foi criado `project_view`: o `page_view` da URL individual mede visualizaç
 
 ## Validação administrativa pendente
 
-1. Marcar manualmente `contact_form_success` como Evento principal.
-2. Avaliar e, se clique de intenção for uma meta comercial, marcar `whatsapp_click` como Evento principal, lembrando que ele não comprova conversa iniciada.
-3. Confirmar com a Publya se o GTM `GTM-55WF2HTD` consome os eventos `improov_*` preservados ou envia eventos para `G-B5NQ8F79YD`.
-4. Usar DebugView e Tempo real do GA4 para conferir nomes e parâmetros após publicar/testar no ambiente conectado à propriedade.
+Configuração solicitada em 22/10/2026, ainda pendente de aplicação no painel do GA4. Alterar os arquivos do site não modifica regras de criação nem marcações de eventos-chave da propriedade.
+
+1. Excluir a regra que cria `generate_lead` a partir de acessos à página `/contato`.
+2. Desmarcar `page_view`, `user_engagement` e `form_start` como eventos-chave, preservando sua coleta normal.
+3. Marcar `contact_form_success` e `whatsapp_click` como eventos-chave. O segundo mede intenção de contato e não comprova conversa iniciada.
+4. Confirmar com a Publya se o GTM `GTM-55WF2HTD` consome os eventos `improov_*` preservados ou envia eventos para `G-B5NQ8F79YD`.
+5. Usar DebugView e Tempo real do GA4 para conferir nomes e parâmetros após publicar/testar no ambiente conectado à propriedade.
+
+## Revisão comercial de outubro de 2026
+
+As novas chamadas para WhatsApp usam o mesmo evento `whatsapp_click`, com localizações `after_projects`, `closing`, `case_closing` e `thank_you`. Os links de depoimentos usam `project_select` com localização `testimonials`. A reprodução dos depoimentos da Home envia `video_start` com `media_location=home_testimonials`. O formulário comercial mantém o evento de sucesso após a confirmação da API e redireciona para `/obrigado`; a página não emite outro evento de conversão nem cria `generate_lead`.

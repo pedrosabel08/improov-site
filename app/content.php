@@ -27,13 +27,32 @@ function site_content(): array
     ];
 }
 
+function revision_texts(): array
+{
+    static $texts;
+    return $texts ??= json_decode((string) file_get_contents(APP_ROOT . '/data/revision-copy.json'), true, 512, JSON_THROW_ON_ERROR);
+}
+
+function whatsapp_url(): string
+{
+    return 'https://wa.me/' . ltrim(site_content()['phone'], '+') . '?text=' . rawurlencode(ui_text('whatsapp.message'));
+}
+
 function ui_text(string $key): string
 {
+    $revised = revision_texts();
+    $language = current_language();
+    if (isset($revised[$language][$key])) return $revised[$language][$key];
     static $translations = [
         'pt-BR' => [
-            'home.eyebrow' => 'Imagens que',
-            'home.title' => 'Fazem sentir antes de existir',
-            'home.intro' => 'Produzimos imagens 3D, animações 3D e filmes para apresentar empreendimentos imobiliários antes da construção, conectando arquitetura, arte e emoção.',
+            'home.eyebrow' => 'Visualização arquitetônica',
+            'home.title' => 'Imagens 3D e filmes que valorizam o seu lançamento imobiliário.',
+            'home.intro' => 'Para incorporadoras e construtoras de alto padrão.',
+            'home.contactAction' => 'Quero avaliar meu lançamento',
+            'home.action' => 'Ver projetos',
+            'home.signature' => 'Fazem sentir antes de existir.',
+            'home.proofYears' => 'anos de experiência',
+            'home.proofProjects' => 'projetos realizados',
             'footer.description' => 'Criamos imagens 3D, animações 3D e filmes que dão vida a empreendimentos antes de serem construídos, conectando arquitetura, arte e emoção.',
             'cta.eyebrow' => 'Vamos conversar?',
             'cta.title' => 'Seu próximo projeto começa com uma boa imagem.',
@@ -85,9 +104,14 @@ function ui_text(string $key): string
             'contact.hours' => 'Segunda a sexta, das 9h às 18h',
         ],
         'en' => [
-            'home.eyebrow' => 'Images that',
-            'home.title' => 'Make you feel before they exist',
-            'home.intro' => 'We create 3D architectural images, animations and films that bring real estate developments to life before they are built, connecting architecture, art and emotion.',
+            'home.eyebrow' => 'Architectural visualization',
+            'home.title' => '3D images and films that add value to your real estate launch.',
+            'home.intro' => 'For high-end property developers and construction companies.',
+            'home.contactAction' => 'Discuss my property launch',
+            'home.action' => 'View projects',
+            'home.signature' => 'Make you feel before they exist.',
+            'home.proofYears' => 'years of experience',
+            'home.proofProjects' => 'completed projects',
             'footer.description' => 'We create 3D images, animations and films that bring real estate developments to life before they are built, connecting architecture, art and emotion.',
             'cta.eyebrow' => 'Shall we talk?',
             'cta.title' => 'Your next project starts with a great image.',
@@ -139,9 +163,14 @@ function ui_text(string $key): string
             'contact.hours' => 'Monday to Friday, 9 am to 6 pm',
         ],
         'es' => [
-            'home.eyebrow' => 'Imágenes que',
-            'home.title' => 'Hacen sentir antes de existir',
-            'home.intro' => 'Creamos imágenes arquitectónicas 3D, animaciones 3D y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
+            'home.eyebrow' => 'Visualización arquitectónica',
+            'home.title' => 'Imágenes 3D y películas que valorizan tu lanzamiento inmobiliario.',
+            'home.intro' => 'Para desarrolladoras y constructoras de alto nivel.',
+            'home.contactAction' => 'Quiero evaluar mi lanzamiento',
+            'home.action' => 'Ver proyectos',
+            'home.signature' => 'Hacen sentir antes de existir.',
+            'home.proofYears' => 'años de experiencia',
+            'home.proofProjects' => 'proyectos realizados',
             'footer.description' => 'Creamos imágenes 3D, animaciones 3D y películas que dan vida a proyectos inmobiliarios antes de construirse, conectando arquitectura, arte y emoción.',
             'cta.eyebrow' => '¿Hablamos?',
             'cta.title' => 'Tu próximo proyecto comienza con una buena imagen.',
@@ -235,6 +264,12 @@ function page_metadata(string $key): array
             'title' => 'Política de Privacidade — Improov',
             'description' => 'Como a Improov trata dados enviados por formulários comerciais e de recrutamento.',
             'path' => 'privacidade',
+            'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
+        ],
+        'obrigado' => [
+            'title' => ui_text('contact.received') . ' — Improov',
+            'description' => ui_text('contact.thanksText'),
+            'path' => 'obrigado',
             'image' => 'assets/media/aya-kar/v1/hero-1024.jpg',
         ],
         '404' => [
@@ -464,10 +499,11 @@ function lazy_video(array $video, string $class = '', bool $priority = false, ar
         }
     }
     return sprintf(
-        '<video class="%s" width="%d" height="%d" poster="%s" preload="none" muted loop playsinline data-lazy-video data-video-src="%s"%s%s></video>',
+        '<video class="%s" width="%d" height="%d" %s="%s" preload="none" muted loop playsinline data-lazy-video data-video-src="%s"%s%s></video>',
         escape($class),
         $width,
         $height,
+        $priority ? 'poster' : 'data-lazy-poster',
         escape(asset($poster)),
         escape(asset($src)),
         $priority ? ' data-lazy-video-priority' : '',

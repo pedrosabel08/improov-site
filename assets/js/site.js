@@ -1,6 +1,37 @@
 (function () {
   "use strict";
   document.addEventListener("DOMContentLoaded", function () {
+    const initLazyPosters = () => {
+      const videos = document.querySelectorAll("video[data-lazy-poster]");
+      const hydrate = (video) => {
+        if (!video.dataset.lazyPoster) return;
+        video.poster = video.dataset.lazyPoster;
+        delete video.dataset.lazyPoster;
+      };
+      if (!("IntersectionObserver" in window)) {
+        videos.forEach(hydrate);
+        return;
+      }
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach(({ target, isIntersecting }) => {
+            if (!isIntersecting) return;
+            hydrate(target);
+            observer.unobserve(target);
+          });
+        },
+        { rootMargin: "300px 0px", threshold: 0 },
+      );
+      videos.forEach((video) => {
+        observer.observe(video);
+        video.addEventListener("pointerdown", () => hydrate(video), {
+          once: true,
+          passive: true,
+        });
+        video.addEventListener("focus", () => hydrate(video), { once: true });
+      });
+    };
+    initLazyPosters();
     const initLazyVideos = () => {
       const videos = Array.from(document.querySelectorAll("[data-lazy-video]"));
       if (!videos.length) return;
@@ -14,13 +45,16 @@
         video.load();
       };
       const play = (video) => {
-        if (reducedMotion.matches || video.dataset.videoAutoplay === "false") return;
+        if (reducedMotion.matches || video.dataset.videoAutoplay === "false")
+          return;
         hydrate(video);
         const result = video.play();
         if (result) result.catch(() => {});
       };
       const pause = (video) => video.pause();
-      const priority = videos.filter((video) => video.hasAttribute("data-lazy-video-priority"));
+      const priority = videos.filter((video) =>
+        video.hasAttribute("data-lazy-video-priority"),
+      );
 
       priority.forEach((video) => {
         hydrate(video);
@@ -32,26 +66,32 @@
       }
 
       const loader = new IntersectionObserver(
-        (entries) => entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            hydrate(entry.target);
-            loader.unobserve(entry.target);
-          }
-        }),
+        (entries) =>
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              hydrate(entry.target);
+              loader.unobserve(entry.target);
+            }
+          }),
         { rootMargin: "200px 120px", threshold: 0.01 },
       );
       const player = new IntersectionObserver(
-        (entries) => entries.forEach((entry) => {
-          if (entry.isIntersecting && entry.intersectionRatio >= 0.35) play(entry.target);
-          else if (!entry.isIntersecting || entry.intersectionRatio < 0.15) pause(entry.target);
-        }),
+        (entries) =>
+          entries.forEach((entry) => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.35)
+              play(entry.target);
+            else if (!entry.isIntersecting || entry.intersectionRatio < 0.15)
+              pause(entry.target);
+          }),
         { threshold: [0, 0.15, 0.35, 0.75] },
       );
       videos.forEach((video) => {
         video.addEventListener("pointerdown", () => hydrate(video), {
           passive: true,
         });
-        video.addEventListener("focus", () => hydrate(video), { passive: true });
+        video.addEventListener("focus", () => hydrate(video), {
+          passive: true,
+        });
         if (priority.includes(video)) return;
         loader.observe(video);
         player.observe(video);
@@ -188,7 +228,7 @@
               observer.unobserve(entry.target);
             }
           }),
-        { threshold: 0.08 },
+        { threshold: 0, rootMargin: "200px 0px" },
       );
       document
         .querySelectorAll("[data-reveal]")
