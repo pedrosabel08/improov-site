@@ -24,6 +24,7 @@
 </script>
 <script src="<?= escape(asset('assets/js/i18n.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/site.js')) ?>" defer></script>
+<?php if ($pageKey === 'home' || $case !== null): ?><script src="<?= escape(asset('assets/js/fullscreen-videos.js')) ?>" defer></script><?php endif; ?>
 <script src="<?= escape(asset('assets/js/projects.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/forms.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/analytics.js')) ?>" defer></script>

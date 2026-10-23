@@ -28,6 +28,10 @@ function site_icon(string $name, string $class = ''): string
         'close' => '<path d="m6 6 12 12M18 6 6 18"/>',
         'play' => '<path d="m9 6 9 6-9 6V6Z" fill="currentColor" stroke="none"/>',
         'pause' => '<path d="M8 6v12M16 6v12"/>',
+        'image' => '<rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-6 5 7"/>',
+        'play-outline' => '<path d="m6 3 15 9-15 9V3Z"/>',
+        'film' => '<rect x="3" y="3" width="18" height="18" rx="1"/><path d="M7 3v18M17 3v18M3 8h4M3 16h4M17 8h4M17 16h4M7 12h10"/>',
+        'info' => '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v.01"/>',
     ];
 
     $path = $paths[$name] ?? $paths['spark'];

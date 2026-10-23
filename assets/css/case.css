@@ -1285,45 +1285,6 @@
   height: 100%;
   object-fit: contain;
 }
-.case-v3-film__video:fullscreen {
-  width: 100vw;
-  height: 100vh;
-  background: #000;
-}
-.case-v3-film__play {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  display: grid;
-  width: 100%;
-  height: 100%;
-  place-items: center;
-  border: 0;
-  padding: 0;
-  background: transparent;
-  color: #fff;
-  cursor: pointer;
-}
-.case-v3-film__play[hidden] {
-  display: none;
-}
-.case-v3-film__play span {
-  display: grid;
-  width: 76px;
-  height: 76px;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.78);
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.18);
-}
-.case-v3-film__play:focus-visible {
-  outline: 2px solid var(--color-text);
-  outline-offset: 4px;
-}
-.case-v3-film__play .case-v3-icon {
-  width: 20px;
-  height: 20px;
-}
 .case-v3-film__label {
   margin: 0 0 13px;
   color: var(--color-muted);

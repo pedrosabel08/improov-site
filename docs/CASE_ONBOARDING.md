@@ -258,10 +258,10 @@ O PHP CS Fixer instalado exige PHP compatível com suas dependências; neste amb
 Servidor opcional de preview, se não houver Apache ativo:
 
 ```powershell
-& 'C:\xampp\php\php.exe' -S 127.0.0.1:8080 -t C:\xampp\htdocs C:\xampp\htdocs\improov-site\deploy\dev-router.php
+.\deploy\serve.ps1
 ```
 
-Abra `http://127.0.0.1:8080/projetos`. O roteador de desenvolvimento não testa redirects de `.htaccess`; estes precisam ser conferidos no Apache.
+Abra `http://127.0.0.1:4741/projetos`. Para outra porta, use `.\deploy\serve.ps1 -Port 8080`. Sempre use esse script em vez de `php -S` sem roteador: no Windows, `/projetos` pode encontrar a pasta legada `Projetos` e servir o HTML antigo. O roteador de desenvolvimento não testa redirects de `.htaccess`; estes precisam ser conferidos no Apache.
 
 ### Checklist final
 

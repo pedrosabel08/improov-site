@@ -1,5 +1,6 @@
 {
   "pt-BR": {
+    "video.playFullscreen": "Reproduzir em tela cheia",
     "whatsapp.message": "Olá! Vou lançar um empreendimento e quero avaliar o material de vendas com a Improov.",
     "home.inviteTitle": "Vai lançar nos próximos meses?",
     "home.inviteText": "Converse com a gente e receba uma avaliação gratuita do material do seu lançamento.",
@@ -15,13 +16,16 @@
     "process.step4": "Entrega",
     "process.text4": "Finalizamos os materiais nos formatos definidos para apoiar a apresentação e a comunicação do lançamento.",
     "process.timelines": "Prazos médios de produção",
+    "process.timelinesIntro": "Estimativas para cada tipo de entrega.",
     "process.images": "Imagens 3D",
-    "process.imagesTime": "20 a 30 dias úteis",
+    "process.imagesRange": "20 – 30",
+    "process.businessDays": "dias úteis",
+    "process.weeks": "semanas",
     "process.films": "Filmes",
-    "process.filmsTime": "2 a 4 semanas",
+    "process.filmsRange": "2 – 4",
     "process.note": "Os prazos variam conforme o escopo, o recebimento dos arquivos e as aprovações. O cronograma de cada etapa é alinhado na proposta.",
     "faq.q1": "Qual o prazo médio de produção?",
-    "faq.a1": "Imagens 3D levam, em média, de 20 a 30 dias úteis. Animações 3D, de 15 a 25 dias úteis. Filmes, de 2 a 4 semanas. O prazo final considera o escopo, os arquivos recebidos e as aprovações.",
+    "faq.a1": "Imagens 3D levam, em média, de 20 a 30 dias úteis. Animações 3D, de 15 a 25 dias úteis. Filmes, de 10 a 15 dias úteis. O prazo final considera o escopo, os arquivos recebidos e as aprovações.",
     "faq.q2": "Como funciona o orçamento?",
     "faq.a2": "Começamos com uma conversa sobre o empreendimento, os materiais necessários e a data de lançamento. Com esse contexto, preparamos uma proposta com escopo, investimento, etapas e cronograma.",
     "faq.q3": "Quantas revisões estão incluídas?",
@@ -62,9 +66,10 @@
     "case.inviteText": "Peça uma avaliação gratuita e converse com a gente sobre seu empreendimento.",
     "privacy.contactText": "Nome, WhatsApp, empresa, cargo, cidade do empreendimento e previsão de lançamento são usados para responder solicitações e preparar propostas. Arquivos podem ser solicitados depois, durante o atendimento.",
     "process.animations": "Animações 3D",
-    "process.animationsTime": "15 a 20 dias úteis"
+    "process.animationsRange": "15 – 20"
   },
   "en": {
+    "video.playFullscreen": "Play fullscreen",
     "whatsapp.message": "Hello! I am launching a real estate development and would like Improov to review my sales materials.",
     "home.inviteTitle": "Launching in the coming months?",
     "home.inviteText": "Talk to our team for a free review of the materials for your property launch.",
@@ -80,10 +85,13 @@
     "process.step4": "Delivery",
     "process.text4": "We finish the materials in the agreed formats to support the launch presentation and communications.",
     "process.timelines": "Average production timelines",
+    "process.timelinesIntro": "Estimates for each type of deliverable.",
     "process.images": "3D images",
-    "process.imagesTime": "15 to 30 business days",
+    "process.imagesRange": "15–30",
+    "process.businessDays": "business days",
+    "process.weeks": "weeks",
     "process.films": "Films",
-    "process.filmsTime": "2 to 4 weeks",
+    "process.filmsRange": "2–4",
     "process.note": "Timelines depend on scope, receipt of source files and approvals. Each stage is scheduled in the proposal.",
     "faq.q1": "What is the average production time?",
     "faq.a1": "3D images take an average of 15 to 30 business days; 3D animations take 15 to 20 business days; films take 2 to 4 weeks. Final timelines account for scope, source files and approvals.",
@@ -127,9 +135,10 @@
     "case.inviteText": "Request a free review and talk to our team about your development.",
     "privacy.contactText": "Your name, WhatsApp number, company, job title, development city and planned launch date are used to respond to requests and prepare proposals. Files may be requested later during the conversation.",
     "process.animations": "3D animations",
-    "process.animationsTime": "15 to 20 business days"
+    "process.animationsRange": "15–20"
   },
   "es": {
+    "video.playFullscreen": "Reproducir a pantalla completa",
     "whatsapp.message": "¡Hola! Voy a lanzar un proyecto inmobiliario y quiero evaluar el material de ventas con Improov.",
     "home.inviteTitle": "¿Vas a lanzar en los próximos meses?",
     "home.inviteText": "Habla con nuestro equipo y recibe una evaluación gratuita del material de tu lanzamiento.",
@@ -145,10 +154,13 @@
     "process.step4": "Entrega",
     "process.text4": "Finalizamos los materiales en los formatos acordados para apoyar la presentación y comunicación del lanzamiento.",
     "process.timelines": "Plazos medios de producción",
+    "process.timelinesIntro": "Estimaciones para cada tipo de entrega.",
     "process.images": "Imágenes 3D",
-    "process.imagesTime": "15 a 30 días hábiles",
+    "process.imagesRange": "15–30",
+    "process.businessDays": "días hábiles",
+    "process.weeks": "semanas",
     "process.films": "Películas",
-    "process.filmsTime": "2 a 4 semanas",
+    "process.filmsRange": "2–4",
     "process.note": "Los plazos dependen del alcance, la recepción de archivos y las aprobaciones. El cronograma de cada etapa se acuerda en la propuesta.",
     "faq.q1": "¿Cuál es el plazo medio de producción?",
     "faq.a1": "Las imágenes 3D requieren, en promedio, de 15 a 30 días hábiles; las animaciones 3D, de 15 a 20 días hábiles; las películas, de 2 a 4 semanas. El plazo final considera el alcance, los archivos y las aprobaciones.",
@@ -192,6 +204,6 @@
     "case.inviteText": "Pide una evaluación gratuita y habla con nuestro equipo sobre tu proyecto.",
     "privacy.contactText": "El nombre, WhatsApp, empresa, cargo, ciudad del proyecto y fecha prevista de lanzamiento se utilizan para responder solicitudes y preparar propuestas. Los archivos pueden solicitarse después, durante la atención.",
     "process.animations": "Animaciones 3D",
-    "process.animationsTime": "15 a 20 días hábiles"
+    "process.animationsRange": "15–20"
   }
 }

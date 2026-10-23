@@ -13,7 +13,7 @@
         <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><span aria-hidden="true">→</span></a>
         <div class="home-proof__stats hero__stats">
           <p><strong>20</strong><span data-i18n="home.proofYears"><?= escape(ui_text('home.proofYears')) ?></span></p>
-          <p><strong>+5.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
+          <p><strong>+1.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
         </div>
       </div>
       <p class="hero__signature" data-i18n="home.signature"><?= escape(ui_text('home.signature')) ?></p>
@@ -67,11 +67,19 @@
     </ol>
     <div class="work-process__timelines">
       <h3 data-i18n="process.timelines"><?= escape(ui_text('process.timelines')) ?></h3>
-      <dl><?php foreach (['images', 'animations', 'films'] as $service): ?><div>
+      <p class="work-process__timelines-intro" data-i18n="process.timelinesIntro"><?= escape(ui_text('process.timelinesIntro')) ?></p>
+      <dl>
+        <?php foreach (['images', 'animations', 'films'] as $service): ?>
+          <div>
             <dt data-i18n="process.<?= $service ?>"><?= escape(ui_text('process.' . $service)) ?></dt>
-            <dd data-i18n="process.<?= $service ?>Time"><?= escape(ui_text('process.' . $service . 'Time')) ?></dd>
-          </div><?php endforeach; ?></dl>
-      <p data-i18n="process.note"><?= escape(ui_text('process.note')) ?></p>
+            <dd>
+              <strong class="work-process__range" data-i18n="process.<?= $service ?>Range"><?= escape(ui_text('process.' . $service . 'Range')) ?></strong>
+              <span class="work-process__unit" data-i18n="process.<?= $service === 'films' ? 'weeks' : 'businessDays' ?>"><?= escape(ui_text('process.' . ($service === 'films' ? 'weeks' : 'businessDays'))) ?></span>
+            </dd>
+          </div>
+        <?php endforeach; ?>
+      </dl>
+      <p class="work-process__timelines-note" data-i18n="process.note"><?= escape(ui_text('process.note')) ?></p>
     </div>
   </section>
 
