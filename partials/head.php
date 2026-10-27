@@ -42,7 +42,7 @@
   <?php $metaImage = str_starts_with($meta['image'], 'assets/') ? $meta['image'] : 'assets/' . $meta['image']; ?>
   <?php $metaDerived = media_image_path($metaImage, 1440); ?>
   <meta property="og:image" content="<?= escape(APP_ORIGIN . asset($metaDerived ?? ('thumb.php?path=' . rawurlencode($metaImage) . '&w=1440&q=82'))) ?>">
-  <?php if (!in_array($pageKey, ['home', 'quem-somos', 'contato', 'privacidade', '404'], true)): ?>
+  <?php if (!in_array($pageKey, ['home', 'quem-somos', 'contato', 'privacidade', 'nossos-servicos', '404'], true)): ?>
     <link rel="preload" as="image" href="<?= escape(thumbnail_url($metaImage, 1440, 82)) ?>" fetchpriority="high"><?php endif; ?>
   <meta name="theme-color" content="#ffffff">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,6 +55,7 @@
   <?php if ($case !== null): ?>
     <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
   <link rel="stylesheet" href="<?= escape(asset('assets/css/commercial.css')) ?>">
+  <?php if ($pageKey === 'nossos-servicos'): ?><link rel="stylesheet" href="<?= escape(asset('assets/css/services.css')) ?>"><?php endif; ?>
   <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/png">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;

@@ -15,3 +15,5 @@ Execute as gerações de imagem em sequência entre si e os projetos de vídeo e
 As pipelines atuais escrevem em `v1`; alterar somente `mediaVersion` não muda o diretório gerado. O runtime acrescenta a data de modificação às URLs via `asset()`. O cache Apache é imutável por um ano, portanto é necessário conferir a mudança das URLs quando substituir derivados.
 
 `deploy/media.ps1` é uma alternativa anterior; o fluxo consolidado usa os scripts Python citados acima. `thumb.php` permanece como fallback do acervo legado; cases com mapa usam os derivados para imagens, miniaturas e Open Graph.
+
+Para a coleção da página Nossos serviços, siga [services-media.md](services-media.md). O conversor compartilhado de imagens também aceita `--collection nossos-servicos`, sem criar um projeto no catálogo.

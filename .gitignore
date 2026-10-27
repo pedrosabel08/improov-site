@@ -67,3 +67,7 @@ uploads/contatos/*
 !assets/IMPROOV_heartmade(black).gif
 !assets/IMPROOV_SQUAD(black).gif
 !assets/IMPROOV_TOP(black).gif
+
+# Local services-media audit logs and staging
+cache/services-media/
+__pycache__/

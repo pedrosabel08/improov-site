@@ -5,7 +5,7 @@
       <p data-i18n="footer.description"><?= escape(ui_text('footer.description')) ?></p>
     </div>
     <div>
-      <p class="footer-label" data-i18n="footer.navigation">Navegação</p><a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">Quem Somos</a><a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">Projetos</a><a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">Trabalhe Conosco</a><a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">Contato</a>
+      <p class="footer-label" data-i18n="footer.navigation">Navegação</p><a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">Quem Somos</a><a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">Cases</a><a href="<?= escape(base_url('nossos-servicos')) ?>" data-i18n="nav.services"><?= escape(ui_text('nav.services')) ?></a><a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">Trabalhe Conosco</a><a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">Contato</a>
     </div>
     <div>
       <p class="footer-label" data-i18n="footer.contact">Contato</p><a href="mailto:<?= escape($site['email']) ?>" data-analytics-event="email_click" data-analytics-location="footer"><?= escape($site['email']) ?></a><a href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="footer" data-analytics-name="contact_whatsapp"><?= escape($site['phoneDisplay']) ?></a>
@@ -24,11 +24,12 @@
 </script>
 <script src="<?= escape(asset('assets/js/i18n.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/site.js')) ?>" defer></script>
-<?php if ($pageKey === 'home' || $case !== null): ?><script src="<?= escape(asset('assets/js/fullscreen-videos.js')) ?>" defer></script><?php endif; ?>
+<?php if ($pageKey === 'home' || $pageKey === 'nossos-servicos' || $case !== null): ?><script src="<?= escape(asset('assets/js/fullscreen-videos.js')) ?>" defer></script><?php endif; ?>
 <script src="<?= escape(asset('assets/js/projects.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/forms.js')) ?>" defer></script>
 <script src="<?= escape(asset('assets/js/analytics.js')) ?>" defer></script>
 <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/16d3e039-7791-40a6-83b6-23017af9d046-loader.js"></script>
+<?php if ($pageKey === 'nossos-servicos'): ?><script src="<?= escape(asset('assets/js/services.js')) ?>" defer></script><?php endif; ?>
 <?php if ($case !== null): ?><script src="<?= escape(asset('assets/js/case.js')) ?>" defer></script><?php endif; ?>
 </body>
 

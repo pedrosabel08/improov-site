@@ -99,7 +99,7 @@
   gap: 24px;
   padding: 14px 22px;
   border-radius: 5px;
-  font-size: var(--text-small);
+  font-size: var(--text-body);
 }
 .hero__action--primary {
   border-color: #fff;
@@ -170,13 +170,13 @@
 }
 .home-proof__stats strong {
   color: #fff;
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
 }
 .home-proof__stats span {
-  font-size: 0.6875rem;
+  font-size: var(--text-small);
 }
 .home-proof__logos {
   display: grid;
@@ -202,6 +202,8 @@
   max-width: min(130px, 100%);
   height: auto;
   filter: grayscale(1);
+  max-height: 100%;
+  object-fit: contain;
 }
 .home-proof__logo--fg img {
   max-width: 104px;

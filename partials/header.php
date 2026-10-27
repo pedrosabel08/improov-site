@@ -6,7 +6,8 @@
     <?php foreach (
       [
         'quem-somos' => ['quem-somos', 'nav.about', 'Quem Somos'],
-        'projetos' => ['projetos', 'nav.projects', 'Projetos'],
+        'projetos' => ['projetos', 'nav.projects', 'Cases'],
+        'nossos-servicos' => ['nossos-servicos', 'nav.services', ui_text('nav.services')],
         'trabalhe-conosco' => ['trabalhe-conosco', 'nav.careers', 'Trabalhe Conosco'],
         'contato' => ['contato', 'nav.contact', 'Contato'],
       ] as $key => [$path, $i18n, $label]
@@ -22,7 +23,8 @@
     <?php foreach (
       [
         'quem-somos' => ['quem-somos', 'nav.about', 'Quem Somos'],
-        'projetos' => ['projetos', 'nav.projects', 'Projetos'],
+        'projetos' => ['projetos', 'nav.projects', 'Cases'],
+        'nossos-servicos' => ['nossos-servicos', 'nav.services', ui_text('nav.services')],
         'trabalhe-conosco' => ['trabalhe-conosco', 'nav.careers', 'Trabalhe Conosco'],
         'contato' => ['contato', 'nav.contact', 'Contato'],
       ] as $key => [$path, $i18n, $label]

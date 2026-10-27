@@ -38,11 +38,12 @@
 }
 .launch-invite h2 {
   margin-bottom: 14px;
-  font-size: clamp(1.6rem, 2.8vw, 2.65rem);
+  font-size: clamp(1.6rem, 2.8vw, 2.8rem);
 }
 .launch-invite p {
   margin: 0;
   max-width: 650px;
+  font-size: var(--text-large);
 }
 .launch-invite .button {
   flex: none;
@@ -368,4 +369,71 @@
   .thank-you {
     padding-top: calc(var(--header-height) + 42px);
   }
+}
+
+/* One native link covers each WhatsApp banner, including its background. */
+.whatsapp-banner {
+  position: relative;
+  isolation: isolate;
+}
+.whatsapp-banner__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  border-radius: inherit;
+}
+.whatsapp-banner .editorial-hero__content {
+  position: static;
+}
+.whatsapp-banner:has(.whatsapp-banner__link:focus-visible) {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+.button.button--whatsapp {
+  min-height: 64px;
+  padding: 18px 32px;
+  font-size: 1.0625rem;
+  gap: 28px;
+}
+.whatsapp-banner:hover .button--commercial {
+  border-color: #253f51;
+  background: #253f51;
+  color: #fff;
+}
+/* Keep the five navigation items comfortably within the desktop header. */
+.site-header {
+  grid-template-columns: 200px minmax(0, 1fr) auto;
+  gap: clamp(12px, 1.5vw, 24px);
+}
+.desktop-nav {
+  gap: clamp(14px, 2vw, 34px);
+}
+.desktop-nav a {
+  white-space: nowrap;
+}
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .desktop-nav a {
+    font-size: 0.6875rem;
+    letter-spacing: 0.02em;
+  }
+}
+@media (max-width: 1023px) {
+  .site-header {
+    grid-template-columns: 1fr auto auto;
+  }
+}
+@media (max-width: 767px) {
+  .button.button--whatsapp {
+    min-height: 60px;
+    padding: 16px 24px;
+    font-size: 1rem;
+  }
+}
+
+/* A transform on the button would shrink the stretched link to its own box. */
+.whatsapp-banner__link,
+.whatsapp-banner__link:hover {
+  position: static;
+  transform: none;
 }

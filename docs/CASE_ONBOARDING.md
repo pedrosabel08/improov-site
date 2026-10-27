@@ -51,6 +51,8 @@ Ao receber outra pasta externa:
 
 Nunca substitua originais por arquivos otimizados, use derivados como entrada quando existe original, ou copie masters pesados para o repositório.
 
+A coleção de mídia da página Nossos serviços é independente do catálogo de cases e reutiliza estas pipelines. Consulte [services-media.md](services-media.md) para importação por hash, geração com `--collection` e validação. Não cadastrar um case fictício para publicar essa coleção.
+
 ## Cadastro do projeto
 
 Em `data/projects.json`, acrescente um objeto em `projects`, seguindo Alpes como exemplo mínimo:

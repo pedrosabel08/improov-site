@@ -243,7 +243,7 @@ function page_metadata(string $key): array
             'image' => 'assets/media/site/v1/about-studio-01-1440.jpg',
         ],
         'projetos' => [
-            'title' => 'IMPROOV | Portfólio de Imagens 3D e Filmes Imobiliários',
+            'title' => 'Cases | IMPROOV — Imagens 3D e Filmes Imobiliários',
             'description' => 'Conheça projetos de imagens 3D, animações 3D, filmes e materiais visuais produzidos pela Improov para o mercado imobiliário.',
             'path' => 'projetos',
             'image' => 'projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg',
@@ -280,6 +280,12 @@ function page_metadata(string $key): array
         ],
     ];
 
+    $pages['nossos-servicos'] = [
+        'title' => ui_text('services.title') . ' | IMPROOV',
+        'description' => ui_text('services.metaDescription'),
+        'path' => 'nossos-servicos',
+        'image' => 'assets/media/aya-kar/v1/hero-1440.jpg',
+    ];
     $page = $pages[$key] ?? $pages['404'];
     $localized = [
         'home' => [
@@ -291,8 +297,8 @@ function page_metadata(string $key): array
             'es' => ['IMPROOV | Comunicación y Arte para el Mercado Inmobiliario', 'Conozca el estudio, la filosofía y el trabajo de Improov para el mercado inmobiliario.'],
         ],
         'projetos' => [
-            'en' => ['IMPROOV | Portfolio of 3D Images and Real Estate Films', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
-            'es' => ['IMPROOV | Portafolio de Imágenes 3D y Películas Inmobiliarias', 'Conozca proyectos de imágenes 3D, animaciones 3D, películas y materiales visuales producidos por Improov.'],
+            'en' => ['Cases | IMPROOV — 3D Images and Real Estate Films', 'Explore 3D images, animations, films and visual materials produced by Improov for real estate.'],
+            'es' => ['Cases | IMPROOV — Imágenes 3D y Películas Inmobiliarias', 'Conozca proyectos de imágenes 3D, animaciones 3D, películas y materiales visuales producidos por Improov.'],
         ],
         'trabalhe-conosco' => [
             'en' => ['IMPROOV | Work With Us', 'Join the team that transforms ideas into visual experiences.'],

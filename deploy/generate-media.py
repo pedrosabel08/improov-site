@@ -96,8 +96,9 @@ def add_entry(
     output_slug: str,
     name: str,
     master_source: str | None = None,
+    master_path: Path | None = None,
 ) -> None:
-    master = resolve_master(master_source or source)
+    master = master_path or resolve_master(master_source or source)
 
     relative_base = f"assets/media/{output_slug}/v1/{name}"
 
@@ -211,6 +212,7 @@ def parse_args() -> argparse.Namespace:
         help=("Mídia específica para geração parcial. " "Ex.: hero ou gallery-30"),
     )
 
+    parser.add_argument('--collection', help='Coleção de imagens fora do catálogo de cases, cadastrada no manifesto.')
     return parser.parse_args()
 
 
@@ -390,7 +392,11 @@ def regenerate_single_media(
 def generate_all(
     projects: list[dict],
 ) -> None:
-    mapping: dict = {}
+    previous_manifest = json.loads(MANIFEST_PATH.read_text(encoding='utf-8')) if MANIFEST_PATH.is_file() else {}
+    collections = previous_manifest.get('collections', {})
+    collection_sources = {item['publicSource'] for collection in collections.values() for item in collection['media']}
+    previous_map = json.loads(MAP_PATH.read_text(encoding='utf-8')) if MAP_PATH.is_file() else {}
+    mapping: dict = {source: media for source, media in previous_map.items() if source in collection_sources}
 
     manifest = {
         "version": 1,
@@ -398,6 +404,7 @@ def generate_all(
         "formats": list(FORMATS),
         "projects": [],
         "site": [],
+        "collections": collections,
     }
 
     #
@@ -555,8 +562,43 @@ def generate_all(
     print(f"Manifesto: {MANIFEST_PATH}")
 
 
+def generate_collection(slug: str) -> None:
+    """Generate a manifest-defined collection through the same image converter."""
+    import hashlib
+    manifest = json.loads(MANIFEST_PATH.read_text(encoding='utf-8'))
+    collection = manifest.get('collections', {}).get(slug)
+    if not collection:
+        raise ValueError(f'Coleção não encontrada: {slug}')
+    mapping = json.loads(MAP_PATH.read_text(encoding='utf-8'))
+    for item in collection['media']:
+        source = item['publicSource']
+        master = MASTERS / item['source']
+        if not master.resolve().is_relative_to(MASTERS.resolve()):
+            raise ValueError(f'Master fora da raiz: {master}')
+        with master.open('rb') as handle:
+            digest = hashlib.file_digest(handle, 'sha256').hexdigest()
+        previous = mapping.get(source, {})
+        files = [ROOT / filename for formats in previous.get('sources', {}).values() for filename in formats.values()]
+        if previous.get('sourceSha256') == digest and files and all(p.is_file() for p in files):
+            print(f'[reused] {item["name"]}', flush=True)
+            continue
+        generated = []
+        add_entry(mapping, generated, source, slug, item['name'], master_path=master)
+        mapping[source]['sourceSha256'] = digest
+        temporary_map = MAP_PATH.with_suffix('.tmp')
+        temporary_map.write_text(json.dumps(mapping, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temporary_map.replace(MAP_PATH)
+        print(f'[generated] {item["name"]}', flush=True)
+
+
 def main() -> int:
     args = parse_args()
+
+    if args.collection:
+        if args.project or args.media:
+            raise ValueError('--collection não pode ser combinado com --project/--media.')
+        generate_collection(args.collection)
+        return 0
 
     projects_data = json.loads(PROJECTS_PATH.read_text(encoding="utf-8"))
 

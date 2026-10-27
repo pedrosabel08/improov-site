@@ -13,10 +13,10 @@
         <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><span aria-hidden="true">→</span></a>
         <div class="home-proof__stats hero__stats">
           <p><strong>20</strong><span data-i18n="home.proofYears"><?= escape(ui_text('home.proofYears')) ?></span></p>
-          <p><strong>+1.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
+          <p><strong>+5.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
         </div>
       </div>
-      <p class="hero__signature" data-i18n="home.signature"><?= escape(ui_text('home.signature')) ?></p>
+      <!-- <p class="hero__signature" data-i18n="home.signature"><?= escape(ui_text('home.signature')) ?></p> -->
     </div>
   </section>
 
@@ -27,7 +27,22 @@
   <div class="home-proof">
     <div class="home-proof__inner container">
       <ul class="home-proof__logos">
-        <?php foreach ([['fg.png', 'FG Empreendimentos', 'fg', 554, 361], ['pininfarina.png', 'Pininfarina', 'pininfarina', 447, 447], ['ars-kammer.webp', 'ARS Kammer Incorporadora', 'ars', 350, 350], ['rdo-logo.svg', 'RDO', 'rdo', 2000, 549], ['hsantos.jpg', 'H. Santos Empreendimentos', 'hsantos', 700, 320], ['aya.png', 'AYA Empreendimentos', 'aya', 709, 709]] as [$logoFile, $logoName, $logoClass, $logoWidth, $logoHeight]): ?>
+        <?php foreach ([
+          ['fg.png', 'FG Empreendimentos', 'fg', 554, 361],
+          ['pininfarina.png', 'Pininfarina', 'pininfarina', 447, 447],
+          ['ars-kammer.webp', 'ARS Kammer Incorporadora', 'ars', 350, 350],
+          ['rdo-logo.svg', 'RDO', 'rdo', 2000, 549],
+          ['hsantos.jpg', 'H. Santos Empreendimentos', 'hsantos', 700, 320],
+          ['aya.png', 'AYA Empreendimentos', 'aya', 1536, 1024],
+          ['abf.jpg', 'ABF', 'abf', 447, 447],
+          ['blue_heaven.webp', 'Blue Heaven', 'blue-heaven', 500, 500],
+          ['ceg.png', 'CEG', 'ceg', 1080, 1080],
+          ['gessele.jpg', 'Gessele', 'gessele', 270, 270],
+          ['gt-home.jpg', 'GT Home', 'gt-home', 447, 447],
+          ['phackz.png', 'Phacz', 'phackz', 280, 159],
+          ['raymundi.jpg', 'Raymundi', 'raymundi', 447, 447],
+          ['talls-solutions-grupo-FG_all-03-scaled.png', 'Talls Solutions — Grupo FG', 'talls', 2196, 2560],
+        ] as [$logoFile, $logoName, $logoClass, $logoWidth, $logoHeight]): ?>
           <li class="home-proof__logo home-proof__logo--<?= escape($logoClass) ?>"><img src="<?= escape(asset('assets/logos/' . $logoFile)) ?>" alt="<?= escape($logoName) ?>" width="<?= $logoWidth ?>" height="<?= $logoHeight ?>" loading="lazy" decoding="async"></li>
         <?php endforeach; ?>
       </ul>
@@ -36,21 +51,21 @@
 
   <section class="selected-projects section container">
     <div class="section-heading section-heading--row">
-      <div><span class="eyebrow" data-i18n="projects.eyebrow">Projetos</span>
+      <div><span class="eyebrow" data-i18n="projects.eyebrow">Cases</span>
         <h2 data-i18n="home.projectsTitle"><?= escape(ui_text('home.projectsTitle')) ?></h2>
-      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="portfolio"><span data-i18n="home.allProjects">Ver todos os projetos</span><span aria-hidden="true">→</span></a>
+      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="portfolio"><span data-i18n="home.allProjects"><?= escape(ui_text('home.allProjects')) ?></span><span aria-hidden="true">→</span></a>
     </div>
     <?php $projectsForGrid = home_projects();
     $projectGridClass = 'project-grid--home';
     require APP_ROOT . '/partials/project-grid.php'; ?>
   </section>
 
-  <section class="launch-invite container" aria-labelledby="launch-invite-title">
+  <section class="launch-invite container whatsapp-banner" aria-labelledby="launch-invite-title">
     <div>
       <h2 id="launch-invite-title" data-i18n="home.inviteTitle"><?= escape(ui_text('home.inviteTitle')) ?></h2>
       <p data-i18n="home.inviteText"><?= escape(ui_text('home.inviteText')) ?></p>
     </div>
-    <a class="button button--commercial" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="launch_review" data-analytics-location="after_projects"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+    <a class="button button--commercial button--whatsapp whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="launch_review" data-analytics-location="after_projects"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
   </section>
 
   <section class="work-process section container" aria-labelledby="process-title">
@@ -92,7 +107,7 @@
       <h2 id="faq-title" data-i18n="faq.title"><?= escape(ui_text('faq.title')) ?></h2>
     </div>
     <div class="faq__list">
-      <?php foreach ([['faq.q1', 'faq.a1'], ['faq.q2', 'faq.a2'], ['faq.q3', 'faq.a3'], ['faq.q4', 'faq.a4'], ['faq.q5', 'faq.a5'], ['faq.q6', 'faq.a6']] as [$question, $answer]): ?>
+      <?php foreach ([['faq.q2', 'faq.a2'], ['faq.q4', 'faq.a4'], ['faq.q5', 'faq.a5'], ['faq.q6', 'faq.a6']] as [$question, $answer]): ?>
         <details class="faq__item">
           <summary data-i18n="<?= escape($question) ?>"><?= escape(ui_text($question)) ?></summary>
           <p data-i18n="<?= escape($answer) ?>"><?= escape(ui_text($answer)) ?></p>

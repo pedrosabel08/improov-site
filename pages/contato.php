@@ -1,9 +1,9 @@
 <main id="conteudo">
-  <section class="editorial-hero editorial-hero--contact">
+  <section class="editorial-hero editorial-hero--contact whatsapp-banner">
     <div class="editorial-hero__inner container">
       <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow"><?= escape(ui_text('contact.eyebrow')) ?></span>
         <h1 data-i18n="contact.title"><?= escape(ui_text('contact.title')) ?></h1>
-        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="button button--commercial" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="button button--commercial button--whatsapp whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
         <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>

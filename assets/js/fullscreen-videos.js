@@ -3,7 +3,7 @@
   const supportsObserver = "IntersectionObserver" in window;
 
   function initFilms() {
-    const films = Array.from(document.querySelectorAll(".case-v3-film__video"));
+    const films = Array.from(document.querySelectorAll(".case-v3-film__video, [data-service-video]"));
     const observer = supportsObserver
       ? new IntersectionObserver(
           (entries) => {
@@ -22,7 +22,7 @@
     films.forEach((video) => {
       observer?.observe(video);
       const trigger = video.parentElement.querySelector(
-        "[data-case-film-play]",
+        "[data-case-film-play], [data-service-play]",
       );
       let wasFullscreen = false;
       if (trigger) {

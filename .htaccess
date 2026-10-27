@@ -33,7 +33,7 @@ RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
 RewriteCond %{THE_REQUEST} \s+/es(?:[?\s]) [NC]
 RewriteRule ^es$ /es/ [R=301,L,NE,NC]
 RewriteCond %{REQUEST_METHOD} ^(?:GET|HEAD)$ [NC]
-RewriteCond %{THE_REQUEST} \s+/(?:en/|es/)?(?:quem-somos|projetos(?:/[a-z0-9-]+)?|trabalhe-conosco|contato|obrigado|privacidade)/+(?:[?\s]) [NC]
+RewriteCond %{THE_REQUEST} \s+/(?:en/|es/)?(?:quem-somos|nossos-servicos|projetos(?:/[a-z0-9-]+)?|trabalhe-conosco|contato|obrigado|privacidade)/+(?:[?\s]) [NC]
 RewriteRule ^(.+)/$ /$1 [R=301,L,NE]
 
 # Canonicalize the old public folder without changing the physical deploy path.
@@ -73,7 +73,7 @@ RewriteRule ^ /%1 [R=301,L,NE]
 
 # New routes precede the physical Projetos directory on case-insensitive systems.
 
-RewriteRule ^(?:(?:en|es)/?)?(?:quem-somos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|obrigado|privacidade)?/?$ index.php [END,QSA,NC]
+RewriteRule ^(?:(?:en|es)/?)?(?:quem-somos|nossos-servicos|projetos(?:/[^/]+)?|trabalhe-conosco|contato|obrigado|privacidade)?/?$ index.php [END,QSA,NC]
 
 RewriteCond %{REQUEST_FILENAME} -f [OR]
 RewriteCond %{REQUEST_FILENAME} -d

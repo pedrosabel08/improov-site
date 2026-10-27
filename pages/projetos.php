@@ -1,7 +1,7 @@
 <main id="conteudo">
   <?php $projectsForGrid = all_projects();
   $projectGridClass = 'project-grid--catalog'; ?>
-  <section class="projects-page projects-page--catalog container" aria-label="Projetos" data-i18n-aria="projects.label">
+  <section class="projects-page projects-page--catalog container" aria-label="Cases" data-i18n-aria="projects.label">
     <header class="section-heading">
       <span class="eyebrow" data-i18n="projects.eyebrow"><?= escape(ui_text('projects.eyebrow')) ?></span>
       <h1 data-i18n="projects.title"><?= escape(ui_text('projects.title')) ?></h1>

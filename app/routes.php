@@ -28,6 +28,7 @@ function resolve_route(string $requestUri): array
         '' => ['page' => 'home', 'active' => 'home'],
         'quem-somos' => ['page' => 'quem-somos', 'active' => 'quem-somos'],
         'projetos' => ['page' => 'projetos', 'active' => 'projetos'],
+        'nossos-servicos' => ['page' => 'nossos-servicos', 'active' => 'nossos-servicos'],
         'trabalhe-conosco' => ['page' => 'trabalhe-conosco', 'active' => 'trabalhe-conosco'],
         'contato' => ['page' => 'contato', 'active' => 'contato'],
         'obrigado' => ['page' => 'obrigado', 'active' => 'contato'],
