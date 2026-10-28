@@ -42,6 +42,9 @@ assets/*
 !assets/css/**
 !assets/js/
 !assets/js/**
+!assets/vendor/
+assets/vendor/*
+!assets/vendor/feather-icons-LICENSE.txt
 !assets/logos/
 assets/logos/*
 !assets/logos/fg.png

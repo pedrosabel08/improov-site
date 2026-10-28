@@ -28,7 +28,7 @@ A parte 1 já aprovada foi preservada. As partes seguintes foram implementadas n
 ## Cases e imagens
 
 - Os resumos de desafio, entrega e uso foram retirados dos headers dos nove cases por solicitação posterior do usuário, restaurando a abertura anterior.
-- Fichas técnicas mantidas. Os filmes existentes de depoimento de Kariió, Vieiras e AYA Casas aparecem também em destaque junto à ficha técnica, com o título e sem o nome da construtora e com o mesmo player de tela cheia dos demais filmes.
+- Fichas técnicas mantidas. Os filmes existentes de depoimento de Kariió, Vieiras e AYA Casas aparecem somente em destaque junto à ficha técnica, com o título e sem o nome da construtora e com o mesmo player de tela cheia dos demais filmes.
 - Todos os cases têm convite para avaliação antes do próximo projeto.
 - O campo opcional `result` em `data/cases.json` permite incluir um resultado comercial confirmado. Não foram inventados números de vendas ou falas de clientes.
 - Pôsteres de vídeos fora da tela passam a carregar apenas quando próximos da área visível, incluindo cards e depoimentos. A prévia principal continua imediata.

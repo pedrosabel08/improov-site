@@ -294,6 +294,12 @@ p {
   gap: 24px;
   border-color: var(--color-accent);
 }
+.button > svg,
+.text-link > svg {
+  width: 1.15em;
+  height: 1.15em;
+  flex: none;
+}
 .text-link--on-media {
   padding: 10px 14px;
   border: 1px solid rgba(255, 255, 255, 0.8);

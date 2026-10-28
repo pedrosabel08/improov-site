@@ -5,7 +5,7 @@
         <div class="editorial-hero__content-inner"><span class="eyebrow" data-i18n="careers.eyebrow"><?= escape(ui_text('careers.eyebrow')) ?></span>
           <h1 data-i18n="careers.title"><?= escape(ui_text('careers.title')) ?></h1>
           <p data-i18n="careers.intro"><?= escape(ui_text('careers.intro')) ?></p>
-          <a class="text-link" href="#candidatura" data-analytics-event="cta_click" data-analytics-name="apply_for_careers" data-analytics-location="hero"><span data-i18n="careers.formEyebrow">Envie sua candidatura</span><span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#candidatura" data-analytics-event="cta_click" data-analytics-name="apply_for_careers" data-analytics-location="hero"><span data-i18n="careers.formEyebrow">Envie sua candidatura</span><?= site_icon('arrow-right') ?></a>
         </div>
       </div>
       <div class="editorial-hero__media editorial-hero__media--careers">
@@ -53,7 +53,7 @@
       <label class="upload-field"><span data-i18n="form.resume">Currículo PDF</span><span class="upload-drop"><strong data-i18n="form.upload">Arraste seu arquivo ou clique para enviar</strong><small data-i18n="form.resumeHint">PDF até 10 MB</small><input name="curriculo" type="file" accept="application/pdf,.pdf" required data-max-size="10485760"></span><small data-file-name></small></label>
       <label><span data-i18n="form.experience">Conte um pouco sobre você e sua experiência</span><textarea name="experiencia" maxlength="2000" rows="5" required></textarea><small class="character-count" data-character-count>0/2000</small></label>
       <label class="privacy-check"><input name="lgpd" type="checkbox" value="Aceito" required><span><span data-i18n="form.careersPrivacy">Autorizo o uso destes dados para avaliação da candidatura conforme a</span> <a href="<?= escape(base_url('privacidade')) ?>" data-i18n="footer.privacy">Política de Privacidade</a>.</span></label>
-      <button class="button button--submit" type="submit"><span data-i18n="form.sendApplication">Enviar candidatura</span><span aria-hidden="true">→</span></button>
+      <button class="button button--submit" type="submit"><span data-i18n="form.sendApplication">Enviar candidatura</span><?= site_icon('arrow-right') ?></button>
       <p class="form-status" data-form-status aria-live="polite"></p>
     </form>
     <aside class="info-panel"><span class="eyebrow" data-i18n="careers.studioEyebrow">Por dentro do estúdio</span>

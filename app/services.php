@@ -24,17 +24,53 @@ function service_sections(): array
         ['id' => 'filmes-teaser', 'key' => 'teasers', 'items' => $groups['teasers']],
         ['id' => 'filmes-documentais', 'key' => 'documentaries', 'items' => $groups['documentaries']],
         ['id' => 'filmes-institucionais', 'key' => 'institutional', 'items' => $groups['institutional']],
-        ['id' => 'salas-imersivas', 'key' => 'immersive', 'items' => []],
     ];
+}
+
+/** Resolve an existing image or video poster for service media. */
+function service_preview(array $service): string
+{
+    $item = $service['items'][0] ?? [];
+    if ($service['tour'] ?? false) {
+        return 'assets/projetos/rdo-val/imagens/imagem-37-rdo-val-living-com-vista-real-fotografica-torre-2-final-12-ef.jpg';
+    }
+    if (isset($item['src'])) return $item['src'];
+    $video = isset($item['manifest'], $item['id']) ? find_video($item['manifest'], $item['id']) : null;
+    return $video['poster'] ?? '';
+}
+
+/** Reuse an available derivative of the case's exact hero source. */
+function service_hero_video(string $slug): ?array
+{
+    $id = (string) (find_case_config($slug)['hero']['video'] ?? '');
+    $video = case_videos($slug)[$id] ?? null;
+    if ($video === null) return null;
+    $available = static function (array $candidate): bool {
+        $source = case_video_source($candidate);
+        return $source !== null && !empty($candidate['poster'])
+            && is_file(APP_ROOT . '/' . $source['src'])
+            && is_file(APP_ROOT . '/' . $candidate['poster']);
+    };
+    if ($available($video)) return $video;
+    if (empty($video['sourceSha256'])) return null;
+    foreach (video_manifest()['projects'] ?? [] as $project) {
+        foreach ($project['videos'] ?? [] as $candidate) {
+            if (($candidate['sourceSha256'] ?? '') === $video['sourceSha256'] && $available($candidate)) return $candidate;
+        }
+    }
+    return null;
 }
 
 function service_media_title(array $item, string $category, int $index): string
 {
+    if (in_array($category, ['concept', 'teasers', 'documentaries', 'institutional'], true) && !empty($item['project'])) {
+        return (string) $item['project'];
+    }
     if (!empty($item['caption'])) {
         return (string) $item['caption'];
     }
     if (!empty($item['project']) && !empty($item['name'])) {
-        return $item['project'] . ' - ' . $item['name'];
+        return $item['project'] . ' — ' . $item['name'];
     }
     if (($item['showCaption'] ?? true) === false && !empty($item['name'])) {
         return $item['name'];

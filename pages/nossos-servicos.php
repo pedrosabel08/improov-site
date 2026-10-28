@@ -1,81 +1,60 @@
 <?php
 require_once APP_ROOT . '/app/services.php';
 $services = service_sections();
+$heroProject = find_project('hsa-mon');
+$heroVideo = service_hero_video('hsa-mon');
+$closingSource = 'assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg';
+$text = static fn (string $key): string => '<span data-i18n="services.' . escape($key) . '">' . escape(ui_text('services.' . $key)) . '</span>';
 ?>
 <main id="conteudo" class="services-page">
-  <header class="services-page__heading container">
-    <h1 data-i18n="services.title"><?= escape(ui_text('services.title')) ?></h1>
-  </header>
-  <div class="services-layout container">
-    <nav class="services-nav" aria-label="<?= escape(ui_text('services.navigation')) ?>" data-i18n-aria="services.navigation" data-services-nav>
-      <p class="services-nav__label" data-i18n="services.navigation"><?= escape(ui_text('services.navigation')) ?></p>
-      <ol>
-        <?php foreach ($services as $index => $service): ?>
-          <li><a href="#<?= escape($service['id']) ?>"<?= $index === 0 ? ' aria-current="location"' : '' ?>><span class="services-nav__number" aria-hidden="true"><?= str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) ?></span><span data-i18n="services.<?= escape($service['key']) ?>"><?= escape(ui_text('services.' . $service['key'])) ?></span></a></li>
-        <?php endforeach; ?>
-      </ol>
-    </nav>
-    <div class="services-content">
-      <?php foreach ($services as $index => $service):
-          $isTour = $service['tour'] ?? false;
-          $sectionTitle = ui_text('services.' . $service['key']);
-      ?>
-        <section class="service-section service-section--<?= escape($service['key']) ?>" id="<?= escape($service['id']) ?>" aria-labelledby="<?= escape($service['id']) ?>-title" data-service-section>
-          <header class="service-section__heading">
-            <span class="service-section__number" aria-hidden="true"><?= str_pad((string) ($index + 1), 2, '0', STR_PAD_LEFT) ?></span>
-            <h2 id="<?= escape($service['id']) ?>-title" data-i18n="services.<?= escape($service['key']) ?>"><?= escape($sectionTitle) ?></h2>
-          </header>
-          <?php if ($service['items'] !== []): ?>
-            <div class="service-carousel service-carousel--editorial<?= $isTour ? ' service-carousel--tour' : '' ?>"<?= !$isTour ? ' data-service-carousel data-carousel-loop' : '' ?>>
-              <div class="service-carousel__track" id="<?= escape($service['id']) ?>-items"<?= !$isTour ? ' tabindex="0" role="region"' : '' ?> aria-label="<?= escape($sectionTitle) ?>" data-i18n-aria="services.<?= escape($service['key']) ?>">
-                <?php foreach ($service['items'] as $itemIndex => $item): ?>
-                  <?php $itemTitle = service_media_title($item, $service['key'], $itemIndex); ?>
-                  <article class="service-card<?= $service['key'] === 'plans' ? ' service-card--plan' : '' ?><?= $service['key'] === 'animations' ? ' service-card--animation' : '' ?>">
-                    <?php if ($isTour): ?>
-                      <div class="service-tour" data-service-tour data-tour-src="<?= escape($item['src']) ?>">
-                        <button class="service-tour__launch" type="button" data-tour-launch aria-label="<?= escape(ui_text('services.openTour')) ?>" data-i18n-aria="services.openTour">
-                          <?= responsive_image(find_project('rdo-val')['media']['hero']['src'], $itemTitle, 1920, 1080, 'service-tour__poster', '(max-width: 767px) 100vw, 75vw') ?>
-                          <span class="service-tour__prompt"><span aria-hidden="true">360º</span><span data-i18n="services.openTour"><?= escape(ui_text('services.openTour')) ?></span></span>
-                        </button>
-                      </div>
-                      <noscript><a href="<?= escape($item['src']) ?>" target="_blank" rel="noopener"><?= escape(ui_text('services.openTour')) ?></a></noscript>
-                    <?php elseif (isset($item['src'])): ?>
-                      <button class="service-card__image" style="--service-media-ratio: <?= (int) $item['width'] ?> / <?= (int) $item['height'] ?>" type="button" data-service-image data-image-src="<?= escape(thumbnail_url($item['src'], 1920)) ?>" data-image-title="<?= escape($itemTitle) ?>" data-image-caption="<?= ($item['showCaption'] ?? true) ? 'true' : 'false' ?>" aria-label="<?= escape(ui_text('services.enlarge') . ': ' . $itemTitle) ?>">
-                        <?= responsive_image($item['src'], $itemTitle, (int) $item['width'], (int) $item['height'], 'service-card__photo', '(max-width: 767px) 80vw, (max-width: 1023px) 52vw, 65vw') ?>
-                        <span class="service-card__expand" aria-hidden="true">↗</span>
-                      </button>
-                    <?php else:
-                        $video = find_video($item['manifest'], $item['id']);
-                        $videoSource = $video !== null ? case_video_source($video) : null;
-                    ?>
-                      <?php if ($videoSource !== null): ?>
-                        <div class="service-card__video-wrap">
-                          <video class="service-card__video" width="<?= (int) $video['width'] ?>" height="<?= (int) $video['height'] ?>" controls playsinline preload="none" data-lazy-poster="<?= escape(asset($video['poster'])) ?>" aria-label="<?= escape($itemTitle) ?>" data-service-video<?= $service['key'] === 'animations' ? ' data-service-animation muted' . (!empty($video['loopCandidate']) ? ' loop' : '') : '' ?> data-service-video-src="<?= escape(asset($videoSource['src'])) ?>">
-                            <source data-src="<?= escape(asset($videoSource['src'])) ?>" type="video/mp4">
-                          </video>
-                          <button class="service-card__play" type="button" data-service-play hidden aria-label="<?= escape(ui_text('services.play') . ': ' . $itemTitle) ?>"><span aria-hidden="true">▶</span></button>
-                        </div>
-                      <?php endif; ?>
-                    <?php endif; ?>
-                    <?php if (($item['showCaption'] ?? true) === true): ?><h3><?= escape($itemTitle) ?></h3><?php endif; ?>
-                  </article>
-                <?php endforeach; ?>
-              </div>
-              <?php if (!$isTour): ?>
-                <div class="service-carousel__controls" hidden>
-                  <span class="service-carousel__counter" aria-live="polite" aria-atomic="true"><span data-carousel-current>01</span> <span aria-hidden="true">/</span> <?= str_pad((string) count($service['items']), 2, '0', STR_PAD_LEFT) ?></span>
-                  <div class="service-carousel__arrows">
-                    <button type="button" data-carousel-prev aria-controls="<?= escape($service['id']) ?>-items" aria-label="<?= escape(ui_text('services.previous')) ?>" data-i18n-aria="services.previous" disabled><span aria-hidden="true">←</span></button>
-                    <button type="button" data-carousel-next aria-controls="<?= escape($service['id']) ?>-items" aria-label="<?= escape(ui_text('services.next')) ?>" data-i18n-aria="services.next"><span aria-hidden="true">→</span></button>
-                  </div>
-                </div>
-              <?php endif; ?>
-            </div>
-          <?php endif; ?>
-        </section>
-      <?php endforeach; ?>
+  <section class="hero services-hero" aria-labelledby="services-hero-title">
+    <div class="hero__media">
+      <?php if ($heroVideo !== null): ?>
+        <?= lazy_video($heroVideo, 'hero__image', true, ['data-services-hero' => 'true', 'aria-label' => translated($heroProject['title']) . ' — ' . ui_text('services.animations')]) ?>
+      <?php else: ?>
+        <?= responsive_image($heroProject['media']['hero']['src'], '', ...array_merge(case_image_size($heroProject['media']['hero']['src']), ['hero__image', '100vw', true])) ?>
+      <?php endif; ?>
     </div>
+    <div class="hero__shade"></div>
+    <div class="hero__content container">
+      <p class="eyebrow"><?= $text('title') ?></p>
+      <h1 id="services-hero-title"><?= $text('heroTitle') ?></h1>
+      <p class="services-hero__intro"><?= $text('heroIntro') ?></p>
+      <div class="hero__actions">
+        <a class="button hero__action hero__action--primary" href="#servicos"><?= $text('discover') ?><?= site_icon('arrow-down') ?></a>
+        <a class="button hero__action hero__action--secondary" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="contact_whatsapp" data-analytics-location="services_hero"><?= $text('contact') ?></a>
+      </div>
+    </div>
+    <p class="services-hero__credit"><?= escape(translated($heroProject['title'])) ?> <span>— <?= $text('animations') ?></span></p>
+  </section>
+
+  <nav id="servicos" class="services-nav chapter-nav" aria-label="<?= escape(ui_text('services.navigation')) ?>" data-i18n-aria="services.navigation" data-services-nav>
+    <ol class="chapter-nav__inner">
+      <?php foreach ($services as $index => $service): ?>
+        <li><a href="#<?= escape($service['id']) ?>"><span aria-hidden="true"><?= sprintf('%02d', $index + 1) ?></span><?= $text($service['key']) ?></a></li>
+      <?php endforeach; ?>
+    </ol>
+  </nav>
+
+  <div class="services-content">
+    <?php foreach ($services as $index => $service): ?>
+      <?php if ($service['key'] === 'concept'): ?>
+      <?php endif; ?>
+      <?php require APP_ROOT . '/partials/service-gallery.php'; ?>
+    <?php endforeach; ?>
   </div>
+
+  <section class="services-closing" aria-labelledby="services-closing-title">
+    <div class="services-closing__media"><?= responsive_image($closingSource, '', 1920, 1080, '', '100vw') ?></div>
+    <div class="container services-closing__content">
+      <h2 id="services-closing-title"><?= $text('closingTitle') ?></h2>
+      <div class="hero__actions">
+        <a class="button hero__action hero__action--primary" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="contact_whatsapp" data-analytics-location="services_closing"><?= $text('contact') ?><?= site_icon('arrow-up-right') ?></a>
+        <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>"><?= $text('viewWork') ?></a>
+      </div>
+    </div>
+  </section>
+
   <dialog class="service-lightbox" data-service-lightbox aria-label="<?= escape(ui_text('services.gallery')) ?>" data-i18n-aria="services.gallery">
     <div class="service-lightbox__toolbar">
       <p data-lightbox-title></p>
@@ -83,9 +62,9 @@ $services = service_sections();
     </div>
     <img class="service-lightbox__image" data-lightbox-image alt="">
     <div class="service-lightbox__controls">
-      <button type="button" data-lightbox-prev aria-label="<?= escape(ui_text('services.previous')) ?>" data-i18n-aria="services.previous">←</button>
+      <button type="button" data-lightbox-prev aria-label="<?= escape(ui_text('services.previous')) ?>" data-i18n-aria="services.previous"><?= site_icon('arrow-left') ?></button>
       <span data-lightbox-counter aria-live="polite"></span>
-      <button type="button" data-lightbox-next aria-label="<?= escape(ui_text('services.next')) ?>" data-i18n-aria="services.next">→</button>
+      <button type="button" data-lightbox-next aria-label="<?= escape(ui_text('services.next')) ?>" data-i18n-aria="services.next"><?= site_icon('arrow-right') ?></button>
     </div>
   </dialog>
 </main>

@@ -9,8 +9,8 @@
       <h1 data-i18n="home.title"><?= escape(ui_text('home.title')) ?></h1>
       <p class="hero__intro" data-i18n="home.intro"><?= escape(ui_text('home.intro')) ?></p>
       <div class="hero__actions">
-        <a class="button hero__action hero__action--primary" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="evaluate_launch" data-analytics-location="hero"><span data-i18n="home.contactAction"><?= escape(ui_text('home.contactAction')) ?></span><span aria-hidden="true">↗</span></a>
-        <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><span aria-hidden="true">→</span></a>
+        <a class="button hero__action hero__action--primary" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="evaluate_launch" data-analytics-location="hero"><span data-i18n="home.contactAction"><?= escape(ui_text('home.contactAction')) ?></span><?= site_icon('arrow-up-right') ?></a>
+        <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><?= site_icon('arrow-right') ?></a>
         <div class="home-proof__stats hero__stats">
           <p><strong>20</strong><span data-i18n="home.proofYears"><?= escape(ui_text('home.proofYears')) ?></span></p>
           <p><strong>+5.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
@@ -53,7 +53,7 @@
     <div class="section-heading section-heading--row">
       <div><span class="eyebrow" data-i18n="projects.eyebrow">Cases</span>
         <h2 data-i18n="home.projectsTitle"><?= escape(ui_text('home.projectsTitle')) ?></h2>
-      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="portfolio"><span data-i18n="home.allProjects"><?= escape(ui_text('home.allProjects')) ?></span><span aria-hidden="true">→</span></a>
+      </div><a class="text-link" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_all_projects" data-analytics-location="portfolio"><span data-i18n="home.allProjects"><?= escape(ui_text('home.allProjects')) ?></span><?= site_icon('arrow-right') ?></a>
     </div>
     <?php $projectsForGrid = home_projects();
     $projectGridClass = 'project-grid--home';
@@ -65,7 +65,7 @@
       <h2 id="launch-invite-title" data-i18n="home.inviteTitle"><?= escape(ui_text('home.inviteTitle')) ?></h2>
       <p data-i18n="home.inviteText"><?= escape(ui_text('home.inviteText')) ?></p>
     </div>
-    <a class="button button--commercial button--whatsapp whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="launch_review" data-analytics-location="after_projects"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+    <a class="button button--commercial button--whatsapp whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="launch_review" data-analytics-location="after_projects"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><?= site_icon('arrow-up-right') ?></a>
   </section>
 
   <section class="work-process section container" aria-labelledby="process-title">

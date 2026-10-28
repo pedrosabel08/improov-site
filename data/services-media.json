@@ -32,7 +32,7 @@
         "width": 5000,
         "height": 1667,
         "project": "La Città by Pininfarina",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 1"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "6d1b07c5f5c8e365753a03db5e20081f9219dcd644f7ecf7941314651951bd79",
@@ -48,7 +48,7 @@
         "width": 9378,
         "height": 6748,
         "project": "LD RESERVA",
-        "name": "Fotomontagem aérea com inserção do empreendimento em fotografia aérea ângulo 1"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "e769a1b7acae992cf918e726ddafd2f5832968120fe629dfc711e45a264cc7bc",
@@ -56,7 +56,7 @@
         "width": 4456,
         "height": 5000,
         "project": "Valence Residence",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 1"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "4f19511e02db3b06c24802543567ace09074f8afcd81c8a5983102aea0133a91",
@@ -80,14 +80,14 @@
         "width": 5000,
         "height": 3572,
         "project": "LD RESERVA",
-        "name": "Imagem interna do Festas com piscina com vista para a mata"
+        "name": "Salão de festas com piscina"
       },
       {
         "sourceSha256": "337409d686959f5be90c7859e94afa4344ea89e1e488d99ff3e0eab176e91ada",
         "src": "assets/projetos/aya-kar/imagens/imagem-11-aya-kar-living-manaca-301-ef.jpg",
         "width": 5000,
         "height": 3165,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Living Manaca 301"
       },
       {
@@ -95,7 +95,7 @@
         "src": "assets/projetos/AYA_KAR/12. AYA_KAR Suite master  - apto 310_EF.jpg",
         "width": 5163,
         "height": 3000,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Suíte master - apto 310"
       },
       {
@@ -120,7 +120,7 @@
         "width": 5000,
         "height": 2814,
         "project": "La Città by Pininfarina",
-        "name": "Geral do Lazer aérea ângulo 1"
+        "name": "Geral do Lazer aérea"
       },
       {
         "sourceSha256": "2656b63dcd331d64a5a08456e1b13bee2763bcdb9cea16108ddbc184ba9654a8",
@@ -152,7 +152,7 @@
         "width": 5000,
         "height": 3798,
         "project": "Vieiras",
-        "name": "Piscinas ângulo 1"
+        "name": "Piscinas"
       },
       {
         "sourceSha256": "588438423c1b10004cf81c36987b25b9890c0585ab9d569ab4925168b68b844c",
@@ -175,8 +175,8 @@
         "src": "assets/projetos/AYA_KAR/2._AYA_KAR_Fotomontagem_aErea_com_inserCAo_do_empreendimento_no_terreno_-_Angulo_2_visto_sentido_morros_ou_lateral_EF_2_1.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Kaario",
-        "name": "Fotomontagem aérea com inserção do empreendimento no terreno - ângulo 2 visto sentido morros ou lateral"
+        "project": "Kariió",
+        "name": "Vista aérea — Morros"
       },
       {
         "sourceSha256": "37c2bf001b6d14946c8e0595cf5fd0d5bc071111f5fe7bdc9f5a2b6ade7d57cb",
@@ -184,7 +184,7 @@
         "width": 8000,
         "height": 5760,
         "project": "Charles II by OKEAN",
-        "name": "Fotomontagem aérea com inserção do empreendimento no terreno ângulo 2"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "28d3bac23419a424b5493421e559b022fd2ee0bc03b1890eb86708b20d4ae78f",
@@ -192,7 +192,7 @@
         "width": 5000,
         "height": 2809,
         "project": "La Città by Pininfarina",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 2"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "001d8a7238ed99d572b2407c1225014a2c5d30740d7de257f9b4b02c431415a0",
@@ -200,7 +200,7 @@
         "width": 5000,
         "height": 2109,
         "project": "Valence Residence",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 2"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "d80f95ce28e9cd5d355fa51b885872e2a8e3a01334ebc9f1730505362df9d3e1",
@@ -231,7 +231,7 @@
         "src": "assets/projetos/aya-kar/imagens/imagem-24-aya-kar-playground-com-teto-verde-ef-1-1.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Playground com teto verde"
       },
       {
@@ -240,7 +240,7 @@
         "width": 5000,
         "height": 3799,
         "project": "LD RESERVA",
-        "name": "Piscinas - ângulo 1"
+        "name": "Piscinas"
       },
       {
         "sourceSha256": "962d937f6ed750c6734d225463f1805b9f73a9966e54a67d85ac6d15cb7653b9",
@@ -256,7 +256,7 @@
         "width": 5000,
         "height": 2812,
         "project": "LD RESERVA",
-        "name": "Piscinas - ângulo 2"
+        "name": "Piscinas"
       },
       {
         "sourceSha256": "aba10ed94e25aef567e5600dc2ac45232914c8c7e12efe49b6ba245f10cf3a08",
@@ -272,7 +272,7 @@
         "width": 5000,
         "height": 3798,
         "project": "Valence Residence",
-        "name": "Piscina externa ângulo 2 - com vista real fotográfica"
+        "name": "Piscina externa"
       },
       {
         "sourceSha256": "92cfd201e3e74d659079dbf7e969b15b7db1e8a8606f98599d5070d2e6e1b16f",
@@ -287,7 +287,7 @@
         "src": "assets/projetos/aya-kar/imagens/imagem-27-aya-kar-embasamento-com-foco-no-acesso-ef.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Embasamento com foco no acesso"
       },
       {
@@ -328,7 +328,7 @@
         "width": 8000,
         "height": 4500,
         "project": "Charles II by OKEAN",
-        "name": "Fotomontagem aérea com foco no Rooftop Sky place"
+        "name": "Rooftop Sky Place — Vista aérea"
       },
       {
         "sourceSha256": "cab4408fd6ea1824a27dd25f1ab17ea79cd6fa2ea54e66486765a40d42467804",
@@ -336,7 +336,7 @@
         "width": 5000,
         "height": 2809,
         "project": "La Città by Pininfarina",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 3"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "9dc8933795701163b4cf513dce00513f95866440bd51eb636c29bc78af33f09b",
@@ -352,7 +352,7 @@
         "width": 5000,
         "height": 5000,
         "project": "Valence Residence",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 3 - Com foco na área de lazer 1"
+        "name": "Vista aérea do lazer"
       },
       {
         "sourceSha256": "352083bfa29297bd01a392ffd0d11b00a49d82b0e2116bd406a78462ae4f562a",
@@ -360,7 +360,7 @@
         "width": 5000,
         "height": 5000,
         "project": "Monticello Residenziale",
-        "name": "Living Penthouse ângulo 2"
+        "name": "Living Penthouse"
       },
       {
         "sourceSha256": "2778535bfdde2f418ca511e2ef74d71348dd78df35e927f849e066a40d18405c",
@@ -375,7 +375,7 @@
         "src": "assets/projetos/aya-kar/32.AYA_KAR Rooftop vista mata_EF.jpg",
         "width": 5000,
         "height": 3799,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Rooftop vista mata"
       },
       {
@@ -392,7 +392,7 @@
         "width": 5000,
         "height": 2778,
         "project": "Valence Residence",
-        "name": "Sacada com vista real fotográfica - Torre 1 - unid 3003"
+        "name": "Sacada — Torre 1, unidade 3003"
       },
       {
         "sourceSha256": "598898f7f1a3a72a214bd2bf1ac273480bbdc6d764ad75532c7cb53c5b3fadec",
@@ -400,7 +400,7 @@
         "width": 5000,
         "height": 2812,
         "project": "Charles II by OKEAN",
-        "name": "Academia com foco na vista fotográfica real"
+        "name": "Academia — Vista real"
       },
       {
         "sourceSha256": "ff14919600741b3e7ae5249d79061dea03f8e39943bc9439b1612288d03f1b5f",
@@ -424,7 +424,7 @@
         "width": 7500,
         "height": 2500,
         "project": "La Città by Pininfarina",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 4"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "febc7febbfbbece46067b2606b5e8a6dd632480bf87b973f7e4f027561dc48b1",
@@ -440,7 +440,7 @@
         "width": 5000,
         "height": 2812,
         "project": "Valence Residence",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 4"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "47e8fc88bc52039be73acdffefd52d1306197020a66faf577278a7fa369db3dc",
@@ -448,7 +448,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Academia com ângulo mais aéreo (voo pássaro)"
+        "name": "Academia — Vista aérea"
       },
       {
         "sourceSha256": "bb28bfd6486daaa9d2b27d0d514ae1a8de0e9bc2140178266e56f19524c99ea7",
@@ -456,7 +456,7 @@
         "width": 5000,
         "height": 3760,
         "project": "La Città by Pininfarina",
-        "name": "Apartamento Tipo Final 02 - Living com área gourmet"
+        "name": "Living gourmet — Final 02"
       },
       {
         "sourceSha256": "15a509993cb9819218f580986904fad8274176a9f7ae9544f156e5306d1e6bcc",
@@ -480,7 +480,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Sala para exercícios de membros inferiores"
+        "name": "Academia — Membros inferiores"
       },
       {
         "sourceSha256": "01e0bdf119590cbaa543a4528b18d8b4238a36247fd07fe24f7a620f383e0176",
@@ -488,7 +488,7 @@
         "width": 5000,
         "height": 2084,
         "project": "La Città by Pininfarina",
-        "name": "Apartamento Tipo Final 02 - Living com vista mar cristo"
+        "name": "Living — Final 02, mar e Cristo"
       },
       {
         "sourceSha256": "76ca6e4fdfb87765a202f2d4c56ae7a711dd0c6644d2bee8fa3c91a54b17d51b",
@@ -520,7 +520,7 @@
         "width": 5000,
         "height": 2812,
         "project": "LD RESERVA",
-        "name": "Suíte master do apartamento cobertura duplex 1"
+        "name": "Cobertura duplex 1 — Suíte master"
       },
       {
         "sourceSha256": "d0e779a22d07b56018c20ea3d36a2b1dca68f0d4473011a0b9dfa86795783924",
@@ -528,7 +528,7 @@
         "width": 5000,
         "height": 2824,
         "project": "La Città by Pininfarina",
-        "name": "Apartamento Duplex Final 01 - Living com vista mar"
+        "name": "Duplex final 01 — Living vista mar"
       },
       {
         "sourceSha256": "28186e1b203779731a834a10ca6d824da3df3070a4c8a073e6f26889822204b3",
@@ -536,7 +536,7 @@
         "width": 5000,
         "height": 5000,
         "project": "La Città by Pininfarina",
-        "name": "Apartamento Duplex Final 01 - terraço com piscina"
+        "name": "Duplex final 01 — Terraço com piscina"
       },
       {
         "sourceSha256": "049ff675626715da05f4b772bd72fb7c000d346b6f75ad77ce5794da7cb20e06",
@@ -544,7 +544,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Piscina com borda infinita ângulo 3 - Bar molhado"
+        "name": "Piscina — Bar molhado"
       },
       {
         "sourceSha256": "70198529f20d20c0e3ed9ed8f875bb562191417cdcffff67f01f701d0923dcfe",
@@ -559,7 +559,7 @@
         "src": "assets/projetos/aya-kar/imagens/imagem-5-aya-kar-passeio-entre-piscina-e-apto-ef-1-1.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Passeio entre piscina e apto"
       },
       {
@@ -568,7 +568,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Fachada no ângulo do observador de baixo"
+        "name": "Fachada — Vista de baixo"
       },
       {
         "sourceSha256": "9eff432e3edc5bbd6291445416509df66893c20ce2e39ec218c0002bb560e186",
@@ -576,7 +576,7 @@
         "width": 5000,
         "height": 2813,
         "project": "LD RESERVA",
-        "name": "Embasamento com foco no acesso mostrando Beach Point"
+        "name": "Embasamento — Acesso e Beach Point"
       },
       {
         "sourceSha256": "c424eb5d3bec99eaf97a44e90a30149dc9d4f92ee555d4a62923b738d3310f3e",
@@ -584,7 +584,7 @@
         "width": 5000,
         "height": 4004,
         "project": "Valence Residence",
-        "name": "Fachada no ângulo do observador da rua 1"
+        "name": "Fachada — Rua"
       },
       {
         "sourceSha256": "712af7a86558f863950c4871c3435f67f7fba9090f92a735a0fcf002fffa0da0",
@@ -592,7 +592,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Hall de entrada ângulo 2"
+        "name": "Hall de entrada"
       },
       {
         "sourceSha256": "7fb5418f624f952cc51f380b3a328d727fe5e7f5d4cd0ded17a3c2c2456c90a0",
@@ -600,14 +600,14 @@
         "width": 5000,
         "height": 2812,
         "project": "AYA Casas",
-        "name": "Living ângulo 1"
+        "name": "Living"
       },
       {
         "sourceSha256": "241e3148bfe3e1590ae1899f103e916f51910149915f255e3eb4adcdf4085424",
         "src": "assets/projetos/AYA_KAR/6._AYA_KAR_Piscina_maior_EF_1_1.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Piscina maior"
       },
       {
@@ -632,7 +632,7 @@
         "width": 5000,
         "height": 3799,
         "project": "La Città by Pininfarina",
-        "name": "Fachada ângulo 2"
+        "name": "Fachada"
       },
       {
         "sourceSha256": "069c4fbdd2b33019c3262856a1465adfda4f6423386eecc488bb3d21c2afd864",
@@ -640,7 +640,7 @@
         "width": 5000,
         "height": 5000,
         "project": "Valence Residence",
-        "name": "Fachada no ângulo do observador da rua 2"
+        "name": "Fachada — Rua"
       },
       {
         "sourceSha256": "57e7913958dc7095e563f8cd71fdcc7b9a565f87ede1d94d83bb50311847db73",
@@ -656,7 +656,7 @@
         "width": 5000,
         "height": 2812,
         "project": "LD RESERVA",
-        "name": "Spa vendo de cima pegando spa e o externo com as jacuzzi"
+        "name": "Spa e jacuzzis — Vista aérea"
       },
       {
         "sourceSha256": "01a3225628be663c6b763364b90353167f09f66d4616ca4500aad365def9eac6",
@@ -671,7 +671,7 @@
         "src": "assets/projetos/aya-kar/imagens/imagem-7-aya-kar-piscina-infantil-ef-1-1.jpg",
         "width": 5000,
         "height": 3799,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Piscina infantil"
       },
       {
@@ -680,7 +680,7 @@
         "width": 5000,
         "height": 2813,
         "project": "Charles II by OKEAN",
-        "name": "Porte-cochere mostrando o hall de entrada"
+        "name": "Porte-cochère e hall"
       },
       {
         "sourceSha256": "e712b68ac8e0101ac76592e9fb8bb899a46151449c7534dd2e51da59c03e2ec5",
@@ -696,7 +696,7 @@
         "width": 5000,
         "height": 2812,
         "project": "Valence Residence",
-        "name": "Embasamento mostrando mall e calcadas 1 da Rua A"
+        "name": "Embasamento — Mall e calçadas"
       },
       {
         "sourceSha256": "82083eb2e3e1188bab0dd2ed43a1c1608b1927a26f5c75fab52c3c1f45522933",
@@ -711,7 +711,7 @@
         "src": "assets/projetos/AYA_KAR/8. AYA_KAR Sauna_EF.jpg",
         "width": 5000,
         "height": 5000,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Sauna"
       },
       {
@@ -752,7 +752,7 @@
         "width": 5000,
         "height": 3570,
         "project": "AYA Casas",
-        "name": "Suíte casa nova olhando para copa das árvores"
+        "name": "Suíte — Vista para as árvores"
       },
       {
         "sourceSha256": "e019d07a08ea358418679f896097c255f85674cf8e7bd6d024dece8842766b7d",
@@ -767,8 +767,8 @@
         "src": "assets/projetos/aya-kar/imagens/imagem-9-aya-kar-piscina-geral-semi-aerea-mostrando-todo-lazer-teto-verde-rasgo-etc-ef-1-1.jpg",
         "width": 5000,
         "height": 3799,
-        "project": "Kaario",
-        "name": "Piscina geral semi aérea mostrando todo lazer, teto verde, rasgo, etc"
+        "project": "Kariió",
+        "name": "Piscina e lazer — Vista aérea"
       },
       {
         "sourceSha256": "5880b5747144f64d34d3945e7762d48d4d1b76b46ac693f182ace16af3fec987",
@@ -1034,14 +1034,14 @@
         "sourceSha256": "304d25c346f48c8cc1b3135d86e0a0b9e8f8db3d63ea0c7d626213009c2c912a",
         "manifest": "aya-kar",
         "id": "animacao-12-aya-kar-suite-master-exterior",
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Suíte Master Exterior"
       },
       {
         "sourceSha256": "f6e10d1f5c2d226aa3fcc2cfee4c9237a0db071eed519a181af4ddc6eef37efc",
         "manifest": "aya-kar",
         "id": "animacao-12-aya-kar-suite-master-interior",
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Suíte Master Interior"
       },
       {
@@ -1062,7 +1062,7 @@
         "sourceSha256": "7936cec89148127eda0bc3f9d5728df39eeb792620fe95d7679d809fe86cc30f",
         "manifest": "aya-kar",
         "id": "animacao-2-aya-kar-fotomontagem-aerea",
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Fotomontagem aérea"
       },
       {
@@ -1104,7 +1104,7 @@
         "sourceSha256": "252c9abc26539878821ebafd5f52c1b1f52fa7a90660581b108e3a0ba334b0c4",
         "manifest": "aya-kar",
         "id": "animacao-32-aya-kar-rooftop",
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Rooftop"
       },
       {
@@ -1133,7 +1133,7 @@
         "manifest": "rdo-val",
         "id": "animacao-04-rdo-val-fotomontagem-aerea-com-insercao-do-empreendimento-em-terreno-real-angulo-4",
         "project": "Valence Residence",
-        "name": "Fotomontagem aérea com inserção do empreendimento em terreno real ângulo 4"
+        "name": "Fotomontagem aérea"
       },
       {
         "sourceSha256": "0cf6e82c053e3a919796b173d967c0e76f3c81b88f45feeca2211c1a21c4979b",
@@ -1153,7 +1153,7 @@
         "sourceSha256": "5f9cba315342ecbd898627b3afb8aafd796b1b56cca0203480682a8563eb0c22",
         "manifest": "site",
         "id": "6-aya-kar-piscina-maior",
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Piscina Maior"
       },
       {
@@ -1161,7 +1161,7 @@
         "manifest": "charles-ii-okean",
         "id": "animacao-charles-ii-porte-cochere",
         "project": "Charles II by OKEAN",
-        "name": "Porte-cochère mostrando o hall de entrada"
+        "name": "Porte-cochère e hall"
       },
       {
         "sourceSha256": "dc03efe1f71b0efdc0dc75cee54c53330119d6bd3eb96422869e7afd72dcf11c",
@@ -1317,9 +1317,9 @@
         "sourceSha256": "c3bfac54aabc78f709cec9c05f9f04aa37f6ca6c95a0b5c5de9e3feb9f30b127",
         "manifest": "aya-kar",
         "id": "filme-2026-aya-kar-concept-dc-4k",
-        "title": "Kaario",
+        "title": "Kariió",
         "order": 0,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Filme conceito"
       },
       {
@@ -1465,9 +1465,9 @@
         "sourceSha256": "76c7026a4f85da407c42a366206d70810d497d4fd093efea2d14677a27a2097b",
         "manifest": "aya-kar",
         "id": "filme-2026-aya-kar-depo-full-dc",
-        "title": "Kaario",
+        "title": "Kariió",
         "order": 0,
-        "project": "Kaario",
+        "project": "Kariió",
         "name": "Filme documental"
       },
       {

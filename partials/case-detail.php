@@ -223,10 +223,32 @@ $sectionHasContent = static function (array $section) use ($environmentMap, $ima
   return false;
 };
 $configuredSections = is_array($case['sections'] ?? null) ? $case['sections'] : [];
+$featuredVideoId = $case['testimonial']['video'] ?? null;
+$hasTechnicalSheet = false;
+foreach ($configuredSections as $section) {
+  if (is_array($section) && ($section['type'] ?? '') === 'closing') {
+    $hasTechnicalSheet = true;
+    break;
+  }
+}
+$featuredVideoId = $hasTechnicalSheet && $videoFor($featuredVideoId) !== null ? $featuredVideoId : null;
 
 // Section order and media selection belong to data/cases.json.
 $sections = [];
 foreach ($configuredSections as $section) {
+  if (is_array($section) && ($section['type'] ?? '') === 'film' && $featuredVideoId !== null) {
+    $items = $section['videos'] ?? [];
+    if (!is_array($items) || $items === []) {
+      $items = [['video' => $section['video'] ?? null]];
+    }
+    $section['videos'] = array_values(array_filter($items, static function (mixed $item) use ($featuredVideoId): bool {
+      $id = is_array($item) ? ($item['video'] ?? $item['mediaId'] ?? null) : $item;
+      return $id !== $featuredVideoId;
+    }));
+    if ($section['videos'] === []) {
+      continue;
+    }
+  }
   if (is_array($section) && $sectionHasContent($section)) {
     $sections[] = $section;
   }
@@ -294,8 +316,8 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
   </section>
 
   <?php if ($sections !== []): ?>
-    <nav class="case-v3-nav" aria-label="Capítulos do case" data-case-chapter-navigation>
-      <div class="case-v3-shell case-v3-nav__inner">
+    <nav class="case-v3-nav chapter-nav" aria-label="Capítulos do case" data-case-chapter-navigation>
+      <div class="case-v3-shell case-v3-nav__inner chapter-nav__inner">
         <?php $navigationNumber = 0;
         foreach ($sections as $section): ?>
           <?php if (($section['navigation'] ?? true) === false) {
@@ -879,12 +901,12 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
       </section>
     <?php endif; ?>
   <?php endforeach; ?>
-  <section class="launch-invite case-v3-shell" aria-labelledby="case-invite-title">
+  <section class="launch-invite case-v3-shell whatsapp-banner" aria-labelledby="case-invite-title">
     <div>
       <h2 id="case-invite-title" data-i18n="case.invite"><?= escape(ui_text('case.invite')) ?></h2>
       <p data-i18n="case.inviteText"><?= escape(ui_text('case.inviteText')) ?></p>
     </div>
-    <a class="button button--commercial" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="case_review" data-analytics-location="case_closing"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+    <a class="button button--commercial whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="case_review" data-analytics-location="case_closing"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><?= site_icon('arrow-up-right') ?></a>
   </section>
   <?php if ($nextProject !== null): ?>
     <section class="case-v3-section case-v3-next" data-case-chapter="case-next">

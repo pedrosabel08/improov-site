@@ -56,7 +56,7 @@
     <div class="location-info"><span class="eyebrow" data-i18n="about.locationEyebrow">Localização</span>
       <h2>Blumenau,<br>Santa Catarina</h2>
       <p data-i18n="contact.address"><?= escape($site['address']) ?></p>
-      <p data-i18n="contact.hours"><?= escape($site['hours']) ?></p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Bahia%2C%20988%20-%20Bairro%20do%20Salto%2C%20Blumenau%20-%20SC" target="_blank" rel="noopener"><span data-i18n="about.directions">Como chegar</span><span aria-hidden="true">→</span></a>
+      <p data-i18n="contact.hours"><?= escape($site['hours']) ?></p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Bahia%2C%20988%20-%20Bairro%20do%20Salto%2C%20Blumenau%20-%20SC" target="_blank" rel="noopener"><span data-i18n="about.directions">Como chegar</span><?= site_icon('arrow-right') ?></a>
     </div>
     <div class="location-visual"><iframe title="Localização da Improov" src="https://maps.google.com/maps?q=Rua%20Bahia%2C%20988%20-%20Bairro%20do%20Salto%2C%20Blumenau%20-%20SC&amp;output=embed" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
   </section>

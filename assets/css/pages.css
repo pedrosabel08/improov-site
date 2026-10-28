@@ -180,7 +180,7 @@
 }
 .home-proof__logos {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   align-items: center;
   gap: 12px 24px;
   min-width: 0;

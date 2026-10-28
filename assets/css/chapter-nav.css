@@ -1,0 +1,55 @@
+/* Shared chapter navigation for cases and services. */
+.chapter-nav {
+  position: sticky;
+  top: var(--header-height);
+  z-index: 8;
+  border-block: 1px solid var(--color-border-soft);
+  background: var(--color-surface);
+  backdrop-filter: blur(14px);
+}
+.chapter-nav__inner {
+  display: flex;
+  justify-content: center;
+  width: min(100%, var(--container));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+  overflow-x: auto;
+  scrollbar-width: none;
+  list-style: none;
+}
+.chapter-nav__inner::-webkit-scrollbar {
+  display: none;
+}
+.chapter-nav__inner > li {
+  flex: 0 0 auto;
+}
+.chapter-nav a {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: baseline;
+  gap: 9px;
+  padding: 16px clamp(18px, 2.3vw, 36px) 16px 0;
+  color: var(--color-muted);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.chapter-nav a > span:first-child {
+  color: var(--color-accent);
+  font-size: 0.59rem;
+}
+.chapter-nav a.is-active,
+.chapter-nav a[aria-current="location"],
+.chapter-nav a:hover,
+.chapter-nav a:focus-visible {
+  color: var(--color-text);
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .chapter-nav a {
+    padding-block: 14px;
+    font-size: 0.58rem;
+  }
+}

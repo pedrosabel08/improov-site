@@ -1,9 +1,9 @@
 <main id="conteudo">
-  <section class="editorial-hero editorial-hero--contact whatsapp-banner">
+  <section class="editorial-hero editorial-hero--contact">
     <div class="editorial-hero__inner container">
       <div class="editorial-hero__content"><span class="eyebrow" data-i18n="contact.eyebrow"><?= escape(ui_text('contact.eyebrow')) ?></span>
         <h1 data-i18n="contact.title"><?= escape(ui_text('contact.title')) ?></h1>
-        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="button button--commercial button--whatsapp whatsapp-banner__link" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><span aria-hidden="true">↗</span></a>
+        <p data-i18n="contact.intro"><?= escape(ui_text('contact.intro')) ?></p><a class="button button--commercial button--whatsapp" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="hero" data-analytics-name="contact_whatsapp"><span data-i18n="contact.whatsapp"><?= escape(ui_text('contact.whatsapp')) ?></span><?= site_icon('arrow-up-right') ?></a>
       </div>
       <div class="editorial-hero__media editorial-hero__media--contact">
         <?php $contactVideo = find_video('site', '6-aya-kar-piscina-maior'); ?>
@@ -34,7 +34,7 @@
           </select></label>
       </div>
       <label class="privacy-check"><input name="lgpd" type="checkbox" value="Aceito" required><span><span data-i18n="form.contactPrivacy">Autorizo o uso dos meus dados para contato e envio de propostas conforme a</span> <a href="<?= escape(base_url('privacidade')) ?>" data-i18n="footer.privacy">Política de Privacidade</a>.</span></label>
-      <button class="button button--submit" type="submit"><span data-i18n="contact.submit"><?= escape(ui_text('contact.submit')) ?></span><span aria-hidden="true">→</span></button>
+      <button class="button button--submit" type="submit"><span data-i18n="contact.submit"><?= escape(ui_text('contact.submit')) ?></span><?= site_icon('arrow-right') ?></button>
       <p class="form-status" data-form-status aria-live="polite"></p>
     </form>
     <aside class="contact-aside">

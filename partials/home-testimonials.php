@@ -26,7 +26,7 @@ foreach (['aya-kar' => 'filme-2026-aya-kar-depo-full-dc', 'ars-vie' => 'filme-20
             <button class="case-v3-film__play" type="button" data-case-film-play hidden data-i18n-aria="video.playFullscreen" aria-label="<?= escape(ui_text('video.playFullscreen')) ?>"><span><?= site_icon('play', 'case-v3-icon') ?></span></button>
           </div>
           <h3><?= escape($testimonialProject['detail']['info']['client']) ?></h3>
-          <a class="text-link" href="<?= escape(base_url('projetos/' . $testimonialProject['slug'])) ?>" data-analytics-event="project_select" data-analytics-location="testimonials" data-project-slug="<?= escape($testimonialProject['slug']) ?>" data-project-name="<?= escape(translated($testimonialProject['title'])) ?>"><?= escape(translated($testimonialProject['title'])) ?><span aria-hidden="true">→</span></a>
+          <a class="text-link" href="<?= escape(base_url('projetos/' . $testimonialProject['slug'])) ?>" data-analytics-event="project_select" data-analytics-location="testimonials" data-project-slug="<?= escape($testimonialProject['slug']) ?>" data-project-name="<?= escape(translated($testimonialProject['title'])) ?>"><?= escape(translated($testimonialProject['title'])) ?><?= site_icon('arrow-right') ?></a>
         </article>
       <?php endforeach; ?>
     </div>

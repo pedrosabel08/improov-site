@@ -54,8 +54,13 @@
   <link rel="stylesheet" href="<?= escape(asset('assets/css/pages.css')) ?>">
   <?php if ($case !== null): ?>
     <link rel="stylesheet" href="<?= escape(asset('assets/css/case.css')) ?>"><?php endif; ?>
+  <?php if ($case !== null || $pageKey === 'nossos-servicos'): ?>
+    <link rel="stylesheet" href="<?= escape(asset('assets/css/chapter-nav.css')) ?>"><?php endif; ?>
+  <?php if ($case !== null || $pageKey === 'nossos-servicos'): ?>
+    <link rel="stylesheet" href="<?= escape(asset('assets/css/gallery-carousel.css')) ?>"><?php endif; ?>
   <link rel="stylesheet" href="<?= escape(asset('assets/css/commercial.css')) ?>">
-  <?php if ($pageKey === 'nossos-servicos'): ?><link rel="stylesheet" href="<?= escape(asset('assets/css/services.css')) ?>"><?php endif; ?>
+  <?php if ($pageKey === 'nossos-servicos'): ?>
+    <link rel="stylesheet" href="<?= escape(asset('assets/css/services.css')) ?>"><?php endif; ?>
   <link rel="icon" href="<?= escape(asset('assets/favicon_heartmade.png')) ?>" type="image/png">
   <script>
     window.ImproovConfig = <?= json_encode(['baseUrl' => APP_BASE_URL, 'applicationEndpoint' => api_url('candidatura.php'), 'contactEndpoint' => api_url('contacto.php')], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
