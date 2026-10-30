@@ -24,14 +24,7 @@
         <!-- Campo de e-mail temporario para teste. -->
         <label><span data-i18n="form.email">E-mail</span><input name="email" type="email" autocomplete="email" maxlength="254"></label>
         <label><span data-i18n="contact.company">Empresa</span><input name="empresa" autocomplete="organization" maxlength="160" required></label>
-        <label><span data-i18n="contact.role"><?= escape(ui_text('contact.role')) ?></span><input name="cargo" autocomplete="organization-title" maxlength="160" required></label>
-        <label><span data-i18n="contact.projectCity"><?= escape(ui_text('contact.projectCity')) ?></span><input name="cidade_uf" maxlength="120" required></label>
-        <label><span data-i18n="contact.launch"><?= escape(ui_text('contact.launch')) ?></span><select name="prazo_lancamento" required>
-            <option value="" data-i18n="form.select">Selecione</option>
-            <?php foreach (['ate_6_meses' => 'contact.launch6', '6_a_12_meses' => 'contact.launch12', 'mais_de_12_meses' => 'contact.launchLater', 'em_vendas' => 'contact.launchNow'] as $launchValue => $launchLabel): ?>
-              <option value="<?= escape($launchValue) ?>" data-i18n="<?= escape($launchLabel) ?>"><?= escape(ui_text($launchLabel)) ?></option>
-            <?php endforeach; ?>
-          </select></label>
+
       </div>
       <label class="privacy-check"><input name="lgpd" type="checkbox" value="Aceito" required><span><span data-i18n="form.contactPrivacy">Autorizo o uso dos meus dados para contato e envio de propostas conforme a</span> <a href="<?= escape(base_url('privacidade')) ?>" data-i18n="footer.privacy">Política de Privacidade</a>.</span></label>
       <button class="button button--submit" type="submit"><span data-i18n="contact.submit"><?= escape(ui_text('contact.submit')) ?></span><?= site_icon('arrow-right') ?></button>

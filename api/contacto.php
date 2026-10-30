@@ -7,7 +7,7 @@ require_once __DIR__ . '/lib/contact-fields.php';
 require_once __DIR__ . '/lib/rate-limit.php';
 
 require_post_request();
-$data = validate_fields(['nome' => [160, true], 'empresa' => [160, true], 'email' => [254, false], 'telefone' => [40, true], 'cidade_uf' => [120, true], 'cargo' => [160, true], 'prazo_lancamento' => [40, true], 'idioma' => [10, true], 'utm_atribuicao' => [3000, false]]);
+$data = validate_fields(['nome' => [160, true], 'empresa' => [160, true], 'email' => [254, false], 'telefone' => [40, true], 'idioma' => [10, true], 'utm_atribuicao' => [3000, false]]);
 try {
     $data = normalize_contact_fields($data);
 } catch (InvalidArgumentException $error) {

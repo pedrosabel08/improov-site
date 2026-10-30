@@ -597,7 +597,7 @@
             },
             {
               "src": "assets/projetos/ars-vie/plantas/planta-47-ars-vie-fotomontagem-de-topo-r00-2-1.jpg",
-              "label": "Fotomontagem De Topo"
+              "label": {"pt-BR": "Implantação em fotomontagem", "en": "Site plan photomontage", "es": "Fotomontaje de implantación"}
             }
           ]
         },

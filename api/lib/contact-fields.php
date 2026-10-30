@@ -12,15 +12,12 @@ function normalize_contact_fields(array $data): array
     if ($data['email'] !== '' && !filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
         throw new InvalidArgumentException('Informe um e-mail válido.');
     }
-    $launches = ['ate_6_meses' => 'Até 6 meses', '6_a_12_meses' => '6 a 12 meses', 'mais_de_12_meses' => 'Mais de 12 meses', 'em_vendas' => 'Já em vendas'];
-    if (!isset($launches[$data['prazo_lancamento']])) {
-        throw new InvalidArgumentException('Selecione quando pretende lançar o empreendimento.');
-    }
     if (!in_array($data['idioma'], ['pt-BR', 'en', 'es'], true)) {
         throw new InvalidArgumentException('Selecione um idioma válido.');
     }
     $data['tipo_interesse'] = 'Avaliação de lançamento';
     $data['empreendimento'] = '';
-    $data['mensagem'] = 'Cargo: ' . $data['cargo'] . "\nPrevisão de lançamento: " . $launches[$data['prazo_lancamento']];
+    $data['cidade_uf'] = '';
+    $data['mensagem'] = '';
     return $data;
 }

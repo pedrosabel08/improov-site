@@ -71,7 +71,7 @@
         "src": "assets/servicos/imagens/10-pha-net-boulevard-noturno-ef-2ca839bd.jpg",
         "width": 5000,
         "height": 2812,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Boulevard Noturno"
       },
       {
@@ -103,7 +103,7 @@
         "src": "assets/servicos/imagens/12-pha-net-piscina-adulto-ef-dd2a492b.jpg",
         "width": 5000,
         "height": 3799,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Piscina adulto"
       },
       {
@@ -311,7 +311,7 @@
         "src": "assets/servicos/imagens/3-pha-net-fotomontagem-ef-dd254551.jpg",
         "width": 3500,
         "height": 1477,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Fotomontagem"
       },
       {
@@ -407,7 +407,7 @@
         "src": "assets/servicos/imagens/4-pha-net-fachada-observador-ef-ff149196.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Fachada Observador"
       },
       {
@@ -463,7 +463,7 @@
         "src": "assets/servicos/imagens/40-pha-net-embasamento-extra-ef-15a50999.jpg",
         "width": 5000,
         "height": 2813,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Embasamento extra"
       },
       {
@@ -471,7 +471,7 @@
         "src": "assets/servicos/imagens/41-pha-net-fotomontagem-noturna-ef-3ca08e21.jpg",
         "width": 5280,
         "height": 2970,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Fotomontagem noturna"
       },
       {
@@ -551,7 +551,7 @@
         "src": "assets/servicos/imagens/5-pha-net-embasamento-frontal-ef-70198529.jpg",
         "width": 5000,
         "height": 3798,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Embasamento frontal"
       },
       {
@@ -719,7 +719,7 @@
         "src": "assets/servicos/imagens/8-pha-net-boulevard-1-ef-60a53164.jpg",
         "width": 5000,
         "height": 3536,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Boulevard 1"
       },
       {
@@ -759,7 +759,7 @@
         "src": "assets/servicos/imagens/9-pha-net-boulevard-2-ef-e019d07a.jpg",
         "width": 5000,
         "height": 3536,
-        "project": "Phacz Netuno",
+        "project": "Phacz Vibra",
         "name": "Boulevard 2"
       },
       {
@@ -995,7 +995,7 @@
           "sourceSha256": "73ffc3355066541600d202f29a71144d638ac4ccefc890987cb8846622f77fa9",
           "rotationClockwise": 270
         },
-        "name": "Fotomontagem de topo"
+        "name": "Implantação em fotomontagem"
       },
       {
         "sourceSha256": "e203d30ec75b7d915fddcb772fbebf7b5b6fbdb185fcce55bc008bb6d9093fd6",

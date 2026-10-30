@@ -676,6 +676,13 @@
         return;
       el.innerHTML = translate(key, lang);
     });
+    document.querySelectorAll("[data-service-translated-name]").forEach((button) => {
+      const title = `${button.dataset.imageProject} — ${translate(button.dataset.serviceTranslatedName, lang)}`;
+      button.dataset.imageTitle = title;
+      button.setAttribute("aria-label", `${translate("services.enlarge", lang)}: ${title}`);
+      const image = button.querySelector("img");
+      if (image) image.alt = title;
+    });
     document.querySelectorAll("[data-language]").forEach((control) => {
       if (control.tagName === "A") {
         control.setAttribute(

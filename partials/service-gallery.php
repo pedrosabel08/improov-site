@@ -14,6 +14,7 @@ $sectionTitle = ui_text('services.' . $service['key']);
       <div class="service-carousel__track<?= !$isTour ? ' case-v3-gallery__rail' : '' ?>" id="<?= escape($service['id']) ?>-items" <?= !$isTour ? ' tabindex="0" role="region"' : '' ?> aria-label="<?= escape($sectionTitle) ?>" data-i18n-aria="services.<?= escape($service['key']) ?>">
         <?php foreach ($service['items'] as $itemIndex => $item):
           $itemTitle = service_media_title($item, $service['key'], $itemIndex);
+          $translatedName = ($item['name'] ?? '') === 'Implantação em fotomontagem';
           $captionProject = (string) ($item['project'] ?? '');
           $captionPrefix = $captionProject . ' — ';
           $hasProject = $captionProject !== '' && ($itemTitle === $captionProject || str_starts_with($itemTitle, $captionPrefix));
@@ -35,7 +36,7 @@ $sectionTitle = ui_text('services.' . $service['key']);
                     </button>
                   </div>
                 <?php elseif (isset($item['src'])): ?>
-                  <button class="service-card__image case-v3-gallery__image-trigger" type="button" data-service-image data-image-src="<?= escape(thumbnail_url($item['src'], 1920)) ?>" data-image-title="<?= escape($itemTitle) ?>" data-image-project="<?= $hasProject ? escape($captionProject) : '' ?>" aria-label="<?= escape(ui_text('services.enlarge') . ': ' . $itemTitle) ?>">
+                  <button class="service-card__image case-v3-gallery__image-trigger" type="button" data-service-image<?= $translatedName ? ' data-service-translated-name="services.sitePhotomontage"' : '' ?> data-image-src="<?= escape(thumbnail_url($item['src'], 1920)) ?>" data-image-title="<?= escape($itemTitle) ?>" data-image-project="<?= $hasProject ? escape($captionProject) : '' ?>" aria-label="<?= escape(ui_text('services.enlarge') . ': ' . $itemTitle) ?>">
                     <?= responsive_image($item['src'], $itemTitle, $mediaWidth, $mediaHeight, 'service-card__photo case-v3-image', '(max-width: 767px) 90vw, min(72vw, 1050px)') ?>
                   </button>
                 <?php elseif ($videoSource !== null): ?>
@@ -48,7 +49,7 @@ $sectionTitle = ui_text('services.' . $service['key']);
                 <?php endif; ?>
               </div>
               <div class="service-card__meta<?= !$isTour ? ' case-v3-gallery__item-meta' : '' ?>">
-                <h3><?php if ($hasProject): ?><strong class="service-card__project"><?= escape($captionProject) ?></strong><?php if ($captionName !== ''): ?> — <?php endif; ?><?php endif; ?><?= escape($captionName) ?></h3>
+                <h3><?php if ($hasProject): ?><strong class="service-card__project"><?= escape($captionProject) ?></strong><?php if ($captionName !== ''): ?> — <?php endif; ?><?php endif; ?><?php if ($translatedName): ?><span data-i18n="services.sitePhotomontage"><?= escape($captionName) ?></span><?php else: ?><?= escape($captionName) ?><?php endif; ?></h3>
                 <?php if ($isTour): ?>
                   <a class="service-card__action" href="<?= escape($item['src']) ?>" target="_blank" rel="noopener" aria-label="<?= escape(ui_text('services.tourNewTab') . ': ' . $itemTitle) ?>"><?= site_icon('arrow-up-right') ?></a>
                 <?php else: ?>

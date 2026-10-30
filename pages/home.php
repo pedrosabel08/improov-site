@@ -10,7 +10,7 @@
       <p class="hero__intro" data-i18n="home.intro"><?= escape(ui_text('home.intro')) ?></p>
       <div class="hero__actions">
         <a class="button hero__action hero__action--primary" href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-name="evaluate_launch" data-analytics-location="hero"><span data-i18n="home.contactAction"><?= escape(ui_text('home.contactAction')) ?></span><?= site_icon('arrow-up-right') ?></a>
-        <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('projetos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_projects" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><?= site_icon('arrow-right') ?></a>
+        <a class="button hero__action hero__action--secondary" href="<?= escape(base_url('nossos-servicos')) ?>" data-analytics-event="cta_click" data-analytics-name="view_services" data-analytics-location="hero"><span data-i18n="home.action"><?= escape(ui_text('home.action')) ?></span><?= site_icon('arrow-right') ?></a>
         <div class="home-proof__stats hero__stats">
           <p><strong>20</strong><span data-i18n="home.proofYears"><?= escape(ui_text('home.proofYears')) ?></span></p>
           <p><strong>+5.000</strong><span data-i18n="home.proofProjects"><?= escape(ui_text('home.proofProjects')) ?></span></p>
@@ -26,26 +26,39 @@
 
   <div class="home-proof">
     <div class="home-proof__inner container">
-      <ul class="home-proof__logos">
-        <?php foreach ([
+      <?php $clientLogos = [
           ['fg.png', 'FG Empreendimentos', 'fg', 554, 361],
           ['pininfarina.png', 'Pininfarina', 'pininfarina', 447, 447],
-          ['ars-kammer.webp', 'ARS Kammer Incorporadora', 'ars', 350, 350],
+          ['ars-kammer.png', 'ARS Kammer Incorporadora', 'ars', 350, 350],
           ['rdo-logo.svg', 'RDO', 'rdo', 2000, 549],
           ['hsantos.jpg', 'H. Santos Empreendimentos', 'hsantos', 700, 320],
           ['aya.png', 'AYA Empreendimentos', 'aya', 1536, 1024],
           ['abf.jpg', 'ABF', 'abf', 447, 447],
-          ['blue_heaven.webp', 'Blue Heaven', 'blue-heaven', 500, 500],
+          ['ld-horizon.png', 'LD Horizon', 'ld-horizon', 1080, 1080],
           ['ceg.png', 'CEG', 'ceg', 1080, 1080],
           ['gessele.jpg', 'Gessele', 'gessele', 270, 270],
           ['gt-home.jpg', 'GT Home', 'gt-home', 447, 447],
           ['phackz.png', 'Phacz', 'phackz', 280, 159],
           ['raymundi.jpg', 'Raymundi', 'raymundi', 447, 447],
           ['talls-solutions-grupo-FG_all-03-scaled.png', 'Talls Solutions — Grupo FG', 'talls', 2196, 2560],
-        ] as [$logoFile, $logoName, $logoClass, $logoWidth, $logoHeight]): ?>
-          <li class="home-proof__logo home-proof__logo--<?= escape($logoClass) ?>"><img src="<?= escape(asset('assets/logos/' . $logoFile)) ?>" alt="<?= escape($logoName) ?>" width="<?= $logoWidth ?>" height="<?= $logoHeight ?>" loading="lazy" decoding="async"></li>
+        ]; ?>
+      <div class="home-proof__logos">
+        <?php foreach (array_chunk($clientLogos, 7) as $rowIndex => $logoRow): ?>
+          <div class="home-proof__row<?= $rowIndex === 1 ? ' home-proof__row--reverse' : '' ?>">
+            <div class="home-proof__track">
+              <?php for ($copy = 0; $copy < 2; $copy++): ?>
+                <ul class="home-proof__group"<?= $copy > 0 ? ' aria-hidden="true"' : '' ?>>
+                  <?php for ($repeat = 0; $repeat < 2; $repeat++): ?>
+                    <?php foreach ($logoRow as [$logoFile, $logoName, $logoClass, $logoWidth, $logoHeight]): ?>
+                      <li class="home-proof__logo home-proof__logo--<?= escape($logoClass) ?><?= $repeat > 0 ? ' home-proof__logo--repeat' : '' ?>"<?= $repeat > 0 ? ' aria-hidden="true"' : '' ?>><img src="<?= escape(asset('assets/logos/' . $logoFile)) ?>" alt="<?= escape($logoName) ?>" width="<?= $logoWidth ?>" height="<?= $logoHeight ?>" loading="lazy" decoding="async"></li>
+                    <?php endforeach; ?>
+                  <?php endfor; ?>
+                </ul>
+              <?php endfor; ?>
+            </div>
+          </div>
         <?php endforeach; ?>
-      </ul>
+      </div>
     </div>
   </div>
 

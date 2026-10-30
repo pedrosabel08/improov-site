@@ -70,7 +70,8 @@ function service_media_title(array $item, string $category, int $index): string
         return (string) $item['caption'];
     }
     if (!empty($item['project']) && !empty($item['name'])) {
-        return $item['project'] . ' — ' . $item['name'];
+        $name = $item['name'] === 'Implantação em fotomontagem' ? ui_text('services.sitePhotomontage') : $item['name'];
+        return $item['project'] . ' — ' . $name;
     }
     if (($item['showCaption'] ?? true) === false && !empty($item['name'])) {
         return $item['name'];

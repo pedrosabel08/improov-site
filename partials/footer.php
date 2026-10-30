@@ -5,7 +5,27 @@
       <p data-i18n="footer.description"><?= escape(ui_text('footer.description')) ?></p>
     </div>
     <div>
-      <p class="footer-label" data-i18n="footer.navigation">Navegação</p><a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">Quem Somos</a><a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">Cases</a><a href="<?= escape(base_url('nossos-servicos')) ?>" data-i18n="nav.services"><?= escape(ui_text('nav.services')) ?></a><a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">Trabalhe Conosco</a><a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">Contato</a>
+      <p class="footer-label" data-i18n="footer.navigation">Navegação</p>
+
+      <a href="<?= escape(base_url('quem-somos')) ?>" data-i18n="nav.about">
+        Quem Somos
+      </a>
+
+      <a href="<?= escape(base_url('nossos-servicos')) ?>" data-i18n="nav.services">
+        <?= escape(ui_text('nav.services')) ?>
+      </a>
+
+      <a href="<?= escape(base_url('projetos')) ?>" data-i18n="nav.projects">
+        Cases
+      </a>
+
+      <a href="<?= escape(base_url('trabalhe-conosco')) ?>" data-i18n="nav.careers">
+        Trabalhe Conosco
+      </a>
+
+      <a href="<?= escape(base_url('contato')) ?>" data-i18n="nav.contact">
+        Contato
+      </a>
     </div>
     <div>
       <p class="footer-label" data-i18n="footer.contact">Contato</p><a href="mailto:<?= escape($site['email']) ?>" data-analytics-event="email_click" data-analytics-location="footer"><?= escape($site['email']) ?></a><a href="<?= escape(whatsapp_url()) ?>" target="_blank" rel="noopener" data-analytics-event="whatsapp_click" data-analytics-location="footer" data-analytics-name="contact_whatsapp"><?= escape($site['phoneDisplay']) ?></a>
