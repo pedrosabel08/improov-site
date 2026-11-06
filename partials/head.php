@@ -115,10 +115,16 @@
 
     gtag('config', 'G-B5NQ8F79YD');
   </script>
+
+      <!-- Meta Pixel Improov -->
+    <script src="<?= escape(asset('assets/js/meta-pixel.js')) ?>" defer></script>
+
+      <!-- Painel Tracking Improov -->
+    <script src="/assets/js/painel-tracking.js" defer></script>
 </head>
 
 <body class="page page--<?= escape($pageKey) ?><?= $case !== null ? ' page--case' : '' ?>">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55WF2HTD" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skip">Pular para o conteúdo</a>
+  <a class="skip-link" href="#conteudo" data-i18n="accessibility.skip">Pular para o conteÃºdo</a>
