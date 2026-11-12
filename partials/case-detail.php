@@ -84,16 +84,17 @@ $lightboxImageUrl = static function (string $source): string {
   }
   return asset($source);
 };
-$renderVideo = static function (array $video, string $class, string $kind, string $label = ''): string {
+$loopVideos = !empty($case['loopVideos']);
+$renderVideo = static function (array $video, string $class, string $kind, string $label = '') use ($loopVideos): string {
   $source = case_video_source($video);
   if ($source === null) {
     return '';
   }
-  $loop = !empty($video['loopCandidate']) ? ' loop' : '';
+  $loop = $loopVideos || !empty($video['loopCandidate']) ? ' loop' : '';
   return sprintf(
     '<video class="%s" data-case-video data-case-media-kind="%s" data-case-video-source="%s" data-lazy-poster="%s" width="%d" height="%d" preload="none" muted playsinline%s%s></video>',
     escape($class),
-    escape($kind),
+    escape($loopVideos ? 'loop' : $kind),
     escape(asset((string) $source['src'])),
     escape(asset((string) ($video['poster'] ?? ''))),
     (int) ($source['width'] ?? $video['width'] ?? 1920),
@@ -624,7 +625,8 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                   <?php if (!is_array($composition)) {
                     continue;
                   }
-                  $layout = (string) ($composition['layout'] ?? 'impact'); ?>
+                  $layout = (string) ($composition['layout'] ?? 'impact');
+                  $imageSizes = $layout === 'landscape-pair' ? '46vw' : ($layout === 'landscape' ? '92vw' : '(max-width: 767px) 100vw, 55vw'); ?>
                   <div class="case-v3-gallery__composition case-v3-gallery__composition--<?= escape($layout) ?>" data-case-reveal="up">
                     <?php foreach ($composition['items'] ?? [] as $image): ?>
                       <?php
@@ -642,7 +644,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                           <?= $renderVideo($compositionVideo, 'case-v3-image case-v3-gallery__video', 'impact', $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
                         </figure>
                       <?php else: ?>
-                        <figure class="case-v3-gallery__image" data-case-image-open data-image-set="<?= escape((string) ($group['id'] ?? 'gallery')) ?>" data-image-src="<?= escape($lightboxImageUrl((string) $image['src'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $imageLabel) ?>" data-image-label="<?= escape($imageLabel) ?>" role="button" tabindex="0" aria-label="Abrir <?= escape($imageLabel) ?> em tela cheia"><?= $renderImage((string) $image['src'], 'case-v3-image', '(max-width: 767px) 100vw, 55vw', $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
+                        <figure class="case-v3-gallery__image" data-case-image-open data-image-set="<?= escape((string) ($group['id'] ?? 'gallery')) ?>" data-image-src="<?= escape($lightboxImageUrl((string) $image['src'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $imageLabel) ?>" data-image-label="<?= escape($imageLabel) ?>" role="button" tabindex="0" aria-label="Abrir <?= escape($imageLabel) ?> em tela cheia"><?= $renderImage((string) $image['src'], 'case-v3-image', $imageSizes, $imageLabel) ?><figcaption><?= escape($imageLabel) ?></figcaption>
                         </figure>
                       <?php endif; ?>
                     <?php endforeach; ?>
@@ -802,6 +804,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
               <div class="case-v3-moment__media-frame">
                 <div class="case-v3-moment__media-stage"><?= $renderVideo($item['video'], 'case-v3-moment__video', 'moment', $momentLabel) ?></div>
               </div>
+              <?php if ($loopVideos): ?><figcaption><?= escape($momentLabel) ?></figcaption><?php endif; ?>
             </figure><?php endforeach; ?>
         </div>
       </section>

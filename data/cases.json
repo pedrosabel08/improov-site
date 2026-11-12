@@ -597,7 +597,11 @@
             },
             {
               "src": "assets/projetos/ars-vie/plantas/planta-47-ars-vie-fotomontagem-de-topo-r00-2-1.jpg",
-              "label": {"pt-BR": "Implantação em fotomontagem", "en": "Site plan photomontage", "es": "Fotomontaje de implantación"}
+              "label": {
+                "pt-BR": "Implantação em fotomontagem",
+                "en": "Site plan photomontage",
+                "es": "Fotomontaje de implantación"
+              }
             }
           ]
         },
@@ -1738,38 +1742,43 @@
       "sections": [
         {
           "type": "gallery",
-          "id": "imagens-editoriais-01",
+          "id": "cidade-e-fachada",
           "navigation": false,
           "showHeading": false,
           "groups": [
             {
-              "id": "gt-lac-editorial-01",
+              "id": "cidade-e-fachada",
               "items": [
                 {
-                  "layout": "composition-a",
+                  "layout": "landscape",
                   "items": [
                     {
                       "src": "assets/projetos/gt-lac/imagens/imagem-01-gt-lac-fotomontagem-aerea-angulo-1-ef.jpg",
                       "label": {
-                        "pt-BR": "Vista aérea",
-                        "en": "Aerial view",
-                        "es": "Vista aérea"
+                        "pt-BR": "Vista aérea 1",
+                        "en": "Aerial view 1",
+                        "es": "Vista aérea 1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "landscape-pair",
+                  "items": [
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg",
+                      "label": {
+                        "pt-BR": "Fachada",
+                        "en": "Facade",
+                        "es": "Fachada"
                       }
                     },
                     {
-                      "src": "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg",
+                      "mediaId": "gt-lac-tracking-0154",
                       "label": {
-                        "pt-BR": "Vista aérea",
-                        "en": "Aerial view",
-                        "es": "Vista aérea"
-                      }
-                    },
-                    {
-                      "src": "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg",
-                      "label": {
-                        "pt-BR": "Vista aérea",
-                        "en": "Aerial view",
-                        "es": "Vista aérea"
+                        "pt-BR": "Cristo Luz e a cidade",
+                        "en": "Cristo Luz and the city",
+                        "es": "Cristo Luz y la ciudad"
                       }
                     }
                   ]
@@ -1793,19 +1802,43 @@
           },
           "items": [
             {
-              "src": "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg",
-              "label": {
-                "pt-BR": "Garagem",
-                "en": "Garage",
-                "es": "Garaje"
-              }
-            },
-            {
               "src": "assets/projetos/gt-lac/imagens/imagem-13-gt-lac-geral-lazer-aerea-angulo-2-ef.jpg",
               "label": {
                 "pt-BR": "Lazer",
                 "en": "Amenities",
                 "es": "Ocio"
+              }
+            },
+            {
+              "mediaId": "21-gt-lac-piscina-horizontal",
+              "label": {
+                "pt-BR": "Piscina e cabanas",
+                "en": "Pool and cabanas",
+                "es": "Piscina y cabañas"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-02-gt-lac-fotomontagem-aerea-angulo-2-ef.jpg",
+              "label": {
+                "pt-BR": "Vista aérea 2",
+                "en": "Aerial view 2",
+                "es": "Vista aérea 2"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-03-gt-lac-fotomontagem-aerea-angulo-3-ef.jpg",
+              "label": {
+                "pt-BR": "Vista aérea 3",
+                "en": "Aerial view 3",
+                "es": "Vista aérea 3"
+              }
+            },
+            {
+              "src": "assets/projetos/gt-lac/imagens/imagem-11-gt-lac-garagem-ef.jpg",
+              "label": {
+                "pt-BR": "Garagem",
+                "en": "Garage",
+                "es": "Garaje"
               }
             },
             {
@@ -1872,38 +1905,56 @@
         },
         {
           "type": "gallery",
-          "id": "imagens-editoriais-02",
+          "id": "torre-e-exteriores",
           "navigation": false,
           "showHeading": false,
           "groups": [
             {
-              "id": "gt-lac-editorial-02",
+              "id": "torre-e-exteriores",
               "items": [
                 {
-                  "layout": "composition-b",
+                  "layout": "landscape",
                   "items": [
                     {
                       "src": "assets/projetos/gt-lac/imagens/imagem-04-gt-lac-fotomontagem-aerea-angulo-4-ef.jpg",
                       "label": {
-                        "pt-BR": "Vista aérea",
-                        "en": "Aerial view",
-                        "es": "Vista aérea"
+                        "pt-BR": "Vista aérea 4",
+                        "en": "Aerial view 4",
+                        "es": "Vista aérea 4"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "landscape-pair",
+                  "items": [
+                    {
+                      "mediaId": "gt-lac-tracking-0007",
+                      "label": {
+                        "pt-BR": "Torre e lazer ao anoitecer",
+                        "en": "Tower and amenities at dusk",
+                        "es": "Torre y ocio al anochecer"
                       }
                     },
                     {
-                      "src": "assets/projetos/gt-lac/imagens/imagem-06-gt-lac-fachada-angulo-2-ef.jpg",
+                      "mediaId": "gt-lac-tracking-0047",
                       "label": {
-                        "pt-BR": "Fachada",
-                        "en": "Facade",
-                        "es": "Fachada"
+                        "pt-BR": "Cidade à noite",
+                        "en": "City at night",
+                        "es": "Ciudad de noche"
                       }
-                    },
+                    }
+                  ]
+                },
+                {
+                  "layout": "landscape",
+                  "items": [
                     {
-                      "src": "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg",
+                      "mediaId": "gt-lac-tracking-cap1",
                       "label": {
-                        "pt-BR": "Lazer",
-                        "en": "Amenities",
-                        "es": "Ocio"
+                        "pt-BR": "Torre à luz do dia",
+                        "en": "Tower in daylight",
+                        "es": "Torre a la luz del día"
                       }
                     }
                   ]
@@ -1949,14 +2000,7 @@
                 "en": "Terrace with pool",
                 "es": "Terraza con piscina"
               }
-            }
-          ]
-        },
-        {
-          "type": "editorialBlock",
-          "id": "ritmo-editorial-03",
-          "navigation": false,
-          "items": [
+            },
             {
               "mediaId": "animacao-42-gt-lac-apartamento-duplex-suite-master",
               "label": {
@@ -1966,21 +2010,89 @@
               }
             },
             {
-              "src": "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg",
-              "label": {
-                "pt-BR": "Piscina",
-                "en": "Pool",
-                "es": "Piscina"
-              }
-            },
-            {
               "src": "assets/projetos/gt-lac/imagens/imagem-46-gt-lac-apartamento-duplex-living-vista-mar-ef.jpg",
               "label": {
                 "pt-BR": "Living duplex com vista para o mar",
                 "en": "Duplex living with sea view",
                 "es": "Living dúplex con vista al mar"
               }
+            },
+            {
+              "mediaId": "animacao-gt-lac-tracking-0044",
+              "label": {
+                "pt-BR": "Torre ao entardecer",
+                "en": "Tower at sunset",
+                "es": "Torre al atardecer"
+              }
             }
+          ]
+        },
+        {
+          "type": "gallery",
+          "id": "lazer-em-movimento",
+          "navigation": false,
+          "showHeading": false,
+          "groups": [
+            {
+              "id": "lazer-em-movimento",
+              "items": [
+                {
+                  "layout": "landscape",
+                  "items": [
+                    {
+                      "mediaId": "gt-lac-tracking-0166",
+                      "label": {
+                        "pt-BR": "Lazer ao anoitecer",
+                        "en": "Amenities at dusk",
+                        "es": "Ocio al anochecer"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "landscape-pair",
+                  "items": [
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-12-gt-lac-geral-lazer-aerea-angulo-1-ef.jpg",
+                      "label": {
+                        "pt-BR": "Lazer",
+                        "en": "Amenities",
+                        "es": "Ocio"
+                      }
+                    },
+                    {
+                      "src": "assets/projetos/gt-lac/imagens/imagem-21-gt-lac-piscina-adulto-ef.jpg",
+                      "label": {
+                        "pt-BR": "Piscina",
+                        "en": "Pool",
+                        "es": "Piscina"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "moments",
+          "id": "animacoes-verticais",
+          "label": {
+            "pt-BR": "Animações verticais",
+            "en": "Vertical animations",
+            "es": "Animaciones verticales"
+          },
+          "title": {
+            "pt-BR": "Animações verticais",
+            "en": "Vertical animations",
+            "es": "Animaciones verticales"
+          },
+          "items": [
+            "fachada",
+            "torre-e-cidade",
+            "vista-do-lazer",
+            "piscina-infantil",
+            "vista-para-o-mar"
           ]
         },
         {
@@ -2046,7 +2158,55 @@
           "en": "See all cases",
           "es": "Ver todos los cases"
         }
-      }
+      },
+      "environments": [
+        {
+          "id": "fachada",
+          "label": {
+            "pt-BR": "Fachada",
+            "en": "Facade",
+            "es": "Fachada"
+          },
+          "pill": "6-gt-lac-fachada-angulo-2"
+        },
+        {
+          "id": "torre-e-cidade",
+          "label": {
+            "pt-BR": "Torre e cidade",
+            "en": "Tower and city",
+            "es": "Torre y ciudad"
+          },
+          "pill": "tracking-vert-005"
+        },
+        {
+          "id": "vista-do-lazer",
+          "label": {
+            "pt-BR": "Vista do lazer",
+            "en": "View of the amenities",
+            "es": "Vista del ocio"
+          },
+          "pill": "tracking-vert-004"
+        },
+        {
+          "id": "piscina-infantil",
+          "label": {
+            "pt-BR": "Piscina infantil",
+            "en": "Children’s pool",
+            "es": "Piscina infantil"
+          },
+          "pill": "20-gt-lac-piscina-infantil"
+        },
+        {
+          "id": "vista-para-o-mar",
+          "label": {
+            "pt-BR": "Vista para o mar",
+            "en": "Sea view",
+            "es": "Vista al mar"
+          },
+          "pill": "46-gt-lac-apartamento-vista-mar"
+        }
+      ],
+      "loopVideos": true
     },
     "aya-cas": {
       "theme": "light",

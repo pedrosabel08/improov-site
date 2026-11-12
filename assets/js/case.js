@@ -100,7 +100,16 @@
       (video) =>
         !["animation", "carousel"].includes(video.dataset.caseMediaKind),
     );
-    if (!supportsObserver) return;
+    const isLoop = (video) => video.dataset.caseMediaKind === "loop";
+    const playLoop = (video) => {
+      if (reducedMotion.matches) return;
+      media.load(video);
+      video.play()?.catch(() => {});
+    };
+    if (!supportsObserver) {
+      videos.filter(isLoop).forEach(playLoop);
+      return;
+    }
 
     const loader = new IntersectionObserver(
       (entries) => {
@@ -110,12 +119,19 @@
       },
       { rootMargin: "300px 0px", threshold: 0.01 },
     );
-    videos.forEach((video) => loader.observe(video));
+    videos
+      .filter((video) => !isLoop(video))
+      .forEach((video) => loader.observe(video));
 
     const motionObserver = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           const video = entry.target;
+          if (isLoop(video)) {
+            if (!entry.isIntersecting) video.pause();
+            else if (entry.intersectionRatio >= 0.2) playLoop(video);
+            return;
+          }
           if (entry.isIntersecting && entry.intersectionRatio >= 0.55) {
             media.activate(video);
           } else if (!entry.isIntersecting || entry.intersectionRatio < 0.2) {
@@ -132,6 +148,7 @@
           "interlude",
           "editorial",
           "impact",
+          "loop",
           "viewport-audio",
         ].includes(video.dataset.caseMediaKind),
       )
@@ -730,7 +747,7 @@
     document
       .querySelectorAll("[data-case-moments] .case-v3-moment")
       .forEach((moment) => {
-        const video = moment.querySelector("[data-case-video]");
+        const video = moment.querySelector('[data-case-media-kind="moment"]');
         if (!video) return;
         const stop = () => {
           media.deactivate(video);
