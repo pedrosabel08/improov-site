@@ -15,7 +15,7 @@
 }
 .case-v3-gallery__rail {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: clamp(15px, 2vw, 34px);
   width: 100%;
   padding: 0 var(--case-carousel-rail-inset) 24px;

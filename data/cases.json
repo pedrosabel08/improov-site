@@ -1950,11 +1950,11 @@
                   "layout": "landscape",
                   "items": [
                     {
-                      "mediaId": "gt-lac-tracking-cap1",
+                      "mediaId": "animacao-gt-lac-tracking-0044",
                       "label": {
-                        "pt-BR": "Torre à luz do dia",
-                        "en": "Tower in daylight",
-                        "es": "Torre a la luz del día"
+                        "pt-BR": "Torre ao entardecer",
+                        "en": "Tower at sunset",
+                        "es": "Torre al atardecer"
                       }
                     }
                   ]
@@ -2016,14 +2016,6 @@
                 "en": "Duplex living with sea view",
                 "es": "Living dúplex con vista al mar"
               }
-            },
-            {
-              "mediaId": "animacao-gt-lac-tracking-0044",
-              "label": {
-                "pt-BR": "Torre ao entardecer",
-                "en": "Tower at sunset",
-                "es": "Torre al atardecer"
-              }
             }
           ]
         },
@@ -2066,6 +2058,19 @@
                         "pt-BR": "Piscina",
                         "en": "Pool",
                         "es": "Piscina"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "layout": "landscape",
+                  "items": [
+                    {
+                      "mediaId": "gt-lac-tracking-cap1",
+                      "label": {
+                        "pt-BR": "Torre à luz do dia",
+                        "en": "Tower in daylight",
+                        "es": "Torre a la luz del día"
                       }
                     }
                   ]
