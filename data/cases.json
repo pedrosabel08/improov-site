@@ -4530,7 +4530,7 @@
               "src": "assets/projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg",
               "label": {
                 "pt-BR": "Fachada vista de baixo",
-                "en": "Façade from below",
+                "en": "Facade from below",
                 "es": "Fachada vista desde abajo"
               }
             }
@@ -4541,12 +4541,12 @@
           "id": "fachadas-e-areas-comuns",
           "label": {
             "pt-BR": "Fachadas e áreas comuns",
-            "en": "Façades and shared spaces",
+            "en": "Facades and shared spaces",
             "es": "Fachadas y zonas comunes"
           },
           "title": {
             "pt-BR": "Fachadas e acesso",
-            "en": "Façades and arrival",
+            "en": "Facades and arrival",
             "es": "Fachadas y acceso"
           },
           "items": [
@@ -4570,7 +4570,7 @@
               "src": "assets/projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg",
               "label": {
                 "pt-BR": "Fachada no nível da rua",
-                "en": "Street-level façade",
+                "en": "Street-level facade",
                 "es": "Fachada a nivel de calle"
               }
             },
@@ -4618,7 +4618,7 @@
               "src": "assets/projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg",
               "label": {
                 "pt-BR": "Fachada angular na hora azul",
-                "en": "Angled view of the façade at blue hour",
+                "en": "Angled view of the facade at blue hour",
                 "es": "Fachada en ángulo durante la hora azul"
               }
             },
@@ -4626,7 +4626,7 @@
               "src": "assets/projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg",
               "label": {
                 "pt-BR": "Fachada aérea na hora azul",
-                "en": "Aerial view of the façade at blue hour",
+                "en": "Aerial view of the facade at blue hour",
                 "es": "Vista aérea de la fachada durante la hora azul"
               }
             }
@@ -5234,7 +5234,7 @@
               "mediaId": "4-ld1-res-fachada-no-angulo-do-observador",
               "label": {
                 "pt-BR": "Fachada no nível da rua",
-                "en": "Street-level façade",
+                "en": "Street-level facade",
                 "es": "Fachada a nivel de calle"
               }
             },
@@ -5530,7 +5530,7 @@
           {
             "label": {
               "pt-BR": "Arquitetura de Fachada, áreas comuns e Interiores",
-              "en": "Façade, Common Areas and Interior Architecture",
+              "en": "Facade, Common Areas and Interior Architecture",
               "es": "Arquitectura de Fachada, zonas comunes e Interiores"
             },
             "value": "Vanessa Larré - Arquitetura Autoral"
