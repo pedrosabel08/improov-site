@@ -214,3 +214,30 @@
     display: none;
   }
 }
+
+.case-v3-gallery__carousel--episodes {
+  --case-carousel-item-width: min(72vw, 340px, 37svh);
+}
+.case-v3-gallery__carousel--episodes .case-v3-gallery__media-frame,
+.case-v3-gallery__carousel--episodes .case-v3-gallery__media-stage {
+  width: 100%;
+}
+.case-v3-gallery__carousel--episodes .case-v3-film__video-wrap--portrait {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+}
+.case-v3-gallery__carousel--episodes .case-v3-gallery__item-meta {
+  opacity: 1;
+}
+.case-v3-gallery__carousel--episodes .case-v3-gallery__carousel-control {
+  top: calc(var(--case-carousel-item-width) * 8 / 9);
+}
+@media (max-width: 767px) {
+  .case-v3
+    .case-v3-gallery__carousel--episodes
+    .case-v3-film__play:not([hidden]),
+  .case-v3-gallery__carousel--episodes .case-v3-gallery__carousel-control {
+    display: grid;
+  }
+}

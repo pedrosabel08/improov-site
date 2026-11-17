@@ -869,6 +869,203 @@
           "variants": ["1080"]
         }
       }
+    },
+    "ld-res": {
+      "defaults": {
+        "publish": false,
+        "poster": false,
+        "variants": []
+      },
+      "categories": {
+        "Capa Thumbnail": "animacoes",
+        "Carrossel da Websérie Documental Vertical": "pilulas",
+        "Carrossel de Animações 3D": "animacoes",
+        "Corpo da página": "animacoes",
+        "Filme Conceito": "filmes",
+        "Filme Documental": "filmes"
+      },
+      "sources": {
+        "Capa Thumbnail/64.LD1_RES Fachada no angulo do observador.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP1-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP2-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP3-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP4-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP5-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel da Websérie Documental Vertical/2025 LD10_EP6-2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Carrossel de Animações 3D/4.LD1_RES Fachada no angulo do observador.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_Detalhe Cascata.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_EF.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_EF.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/13.LD1_RES Wine Club.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/13.LD1_RES_Wine_Club_Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/17.LD1_RES_Academia_-_Angulo_1_DEtalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/23.LD1_RES Praca.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/24.LD1_RES Piscinas - Angulo 1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/25.LD1_RES Piscinas_-_Angulo_2_Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/26.LD1_RES_Estar_Descoberto_Detalhe.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/29.LD1_RES Living do apartamento tipo 1 angulo 2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/31.LD1_RES_Suite_master_do_apartamento_tipo_1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/46.LD1_RES Suite master do apartamento cobertura duplex 1.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/68.LD1_RES Spa vendo de cima.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/69.LD1_RES Spa vendo do vidro de fora pra dentro.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/70.LD1_RES Spa vendo do outro lado interno.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/82.LD1_RES_Gourmet_da_piscina_externa.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/89.LD1_RES Piscina blue hour.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Carrossel de Animações 3D/LD1_RES_Tracking_Tarde.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/5.LD1_RES Embasamento Mata.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/25.LD1_RES Piscinas - Angulo 2.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/26.LD1_RES Estar Descoberto.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/31.LD1_RES_Suite_master_do_apartamento_tipo_1_Vista de fora.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/81.LD1_RES_Jardim_de_meditacao_-_SPA_EF.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Corpo da página/LD1_RES_Tracking_Manha.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["720"]
+        },
+        "Filme Conceito/LDH RES JAP_CONCEPT FILM_HQ.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        },
+        "Filme Documental/2025 LD10 RES BRA_DEP FULL_FHD_VF LEG(16x9)-001.mp4": {
+          "publish": true,
+          "poster": true,
+          "variants": ["1080"]
+        }
+      }
     }
   }
 }

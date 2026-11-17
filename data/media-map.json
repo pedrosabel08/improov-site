@@ -7963,5 +7963,1965 @@
       }
     },
     "sourceSha256": "73ffc3355066541600d202f29a71144d638ac4ccefc890987cb8846622f77fa9"
+  },
+  "assets/projetos/ld-res/imagens/imagem-ld-res-capa-fachada-64.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-ld-res-capa-fachada-64.jpg",
+    "base": "assets/media/ld-res/v1/hero",
+    "width": 3840,
+    "height": 2160,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/hero-640.avif",
+        "webp": "assets/media/ld-res/v1/hero-640.webp",
+        "jpg": "assets/media/ld-res/v1/hero-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/hero-1024.avif",
+        "webp": "assets/media/ld-res/v1/hero-1024.webp",
+        "jpg": "assets/media/ld-res/v1/hero-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/hero-1440.avif",
+        "webp": "assets/media/ld-res/v1/hero-1440.webp",
+        "jpg": "assets/media/ld-res/v1/hero-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/hero-1920.avif",
+        "webp": "assets/media/ld-res/v1/hero-1920.webp",
+        "jpg": "assets/media/ld-res/v1/hero-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-02-ld-res-editorial-fotomontagem-aerea-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-02-ld-res-editorial-fotomontagem-aerea-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-01",
+    "width": 5280,
+    "height": 2970,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-01-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-01-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-01-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-01-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-01-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-01-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-01-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-01-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-01-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-01-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-01-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-01-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg",
+    "base": "assets/media/ld-res/v1/gallery-02",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-02-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-02-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-02-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-02-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-02-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-02-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-02-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-02-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-02-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-02-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-02-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-02-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-01-ld-res-geral-fotomontagem-aerea-da-praia-brava.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-01-ld-res-geral-fotomontagem-aerea-da-praia-brava.jpg",
+    "base": "assets/media/ld-res/v1/gallery-03",
+    "width": 9378,
+    "height": 6748,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-03-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-03-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-03-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-03-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-03-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-03-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-03-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-03-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-03-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-03-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-03-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-03-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-64-ld-res-geral-torres-vistas-do-observador.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-64-ld-res-geral-torres-vistas-do-observador.jpg",
+    "base": "assets/media/ld-res/v1/gallery-04",
+    "width": 3798,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-04-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-04-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-04-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-04-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-04-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-04-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-04-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-04-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-04-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-04-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-04-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-04-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg",
+    "base": "assets/media/ld-res/v1/gallery-05",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-05-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-05-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-05-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-05-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-05-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-05-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-05-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-05-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-05-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-05-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-05-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-05-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-05-ld-res-geral-embasamento-e-acesso.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-05-ld-res-geral-embasamento-e-acesso.jpg",
+    "base": "assets/media/ld-res/v1/gallery-06",
+    "width": 5000,
+    "height": 2813,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-06-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-06-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-06-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-06-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-06-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-06-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-06-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-06-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-06-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-06-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-06-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-06-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-84-ld-res-geral-beach-point.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-84-ld-res-geral-beach-point.jpg",
+    "base": "assets/media/ld-res/v1/gallery-07",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-07-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-07-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-07-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-07-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-07-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-07-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-07-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-07-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-07-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-07-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-07-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-07-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-77-ld-res-geral-hall-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-77-ld-res-geral-hall-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-08",
+    "width": 5000,
+    "height": 3046,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-08-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-08-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-08-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-08-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-08-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-08-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-08-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-08-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-08-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-08-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-08-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-08-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-20-ld-res-geral-hall-com-cafe.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-20-ld-res-geral-hall-com-cafe.jpg",
+    "base": "assets/media/ld-res/v1/gallery-09",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-09-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-09-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-09-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-09-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-09-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-09-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-09-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-09-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-09-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-09-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-09-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-09-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-80-ld-res-geral-caminho-com-espelhos-dagua.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-80-ld-res-geral-caminho-com-espelhos-dagua.jpg",
+    "base": "assets/media/ld-res/v1/gallery-10",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-10-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-10-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-10-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-10-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-10-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-10-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-10-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-10-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-10-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-10-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-10-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-10-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg",
+    "base": "assets/media/ld-res/v1/gallery-11",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-11-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-11-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-11-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-11-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-11-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-11-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-11-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-11-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-11-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-11-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-11-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-11-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg",
+    "base": "assets/media/ld-res/v1/gallery-12",
+    "width": 3798,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-12-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-12-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-12-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-12-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-12-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-12-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-12-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-12-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-12-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-12-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-12-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-12-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-23-ld-res-editorial-praca.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-23-ld-res-editorial-praca.jpg",
+    "base": "assets/media/ld-res/v1/gallery-13",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-13-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-13-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-13-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-13-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-13-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-13-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-13-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-13-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-13-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-13-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-13-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-13-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-25-ld-res-editorial-piscinas-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-25-ld-res-editorial-piscinas-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-14",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-14-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-14-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-14-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-14-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-14-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-14-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-14-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-14-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-14-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-14-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-14-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-14-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-11-ld-res-geral-salao-de-festas-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-11-ld-res-geral-salao-de-festas-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-15",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-15-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-15-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-15-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-15-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-15-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-15-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-15-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-15-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-15-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-15-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-15-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-15-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-76-ld-res-geral-salao-de-festas-da-piscina.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-76-ld-res-geral-salao-de-festas-da-piscina.jpg",
+    "base": "assets/media/ld-res/v1/gallery-16",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-16-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-16-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-16-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-16-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-16-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-16-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-16-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-16-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-16-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-16-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-16-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-16-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-22-ld-res-geral-quiosque-gourmet.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-22-ld-res-geral-quiosque-gourmet.jpg",
+    "base": "assets/media/ld-res/v1/gallery-17",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-17-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-17-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-17-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-17-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-17-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-17-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-17-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-17-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-17-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-17-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-17-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-17-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-75-ld-res-geral-interior-do-quiosque.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-75-ld-res-geral-interior-do-quiosque.jpg",
+    "base": "assets/media/ld-res/v1/gallery-18",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-18-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-18-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-18-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-18-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-18-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-18-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-18-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-18-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-18-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-18-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-18-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-18-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-82-ld-res-geral-gourmet-da-piscina-externa.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-82-ld-res-geral-gourmet-da-piscina-externa.jpg",
+    "base": "assets/media/ld-res/v1/gallery-19",
+    "width": 5000,
+    "height": 2109,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-19-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-19-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-19-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-19-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-19-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-19-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-19-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-19-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-19-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-19-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-19-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-19-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-14-ld-res-geral-estar-gourmet.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-14-ld-res-geral-estar-gourmet.jpg",
+    "base": "assets/media/ld-res/v1/gallery-20",
+    "width": 5000,
+    "height": 3846,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-20-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-20-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-20-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-20-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-20-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-20-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-20-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-20-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-20-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-20-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-20-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-20-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-13-ld-res-geral-wine-club.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-13-ld-res-geral-wine-club.jpg",
+    "base": "assets/media/ld-res/v1/gallery-21",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-21-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-21-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-21-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-21-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-21-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-21-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-21-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-21-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-21-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-21-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-21-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-21-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-12-ld-res-geral-poker-pub.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-12-ld-res-geral-poker-pub.jpg",
+    "base": "assets/media/ld-res/v1/gallery-22",
+    "width": 5000,
+    "height": 3760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-22-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-22-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-22-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-22-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-22-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-22-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-22-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-22-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-22-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-22-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-22-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-22-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-72-ld-res-geral-entrada-da-boate.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-72-ld-res-geral-entrada-da-boate.jpg",
+    "base": "assets/media/ld-res/v1/gallery-23",
+    "width": 2500,
+    "height": 1668,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-23-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-23-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-23-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-23-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-23-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-23-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-23-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-23-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-23-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-23-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-23-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-23-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-06-ld-res-geral-baladinha-com-vista-para-a-mata.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-06-ld-res-geral-baladinha-com-vista-para-a-mata.jpg",
+    "base": "assets/media/ld-res/v1/gallery-24",
+    "width": 5000,
+    "height": 3334,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-24-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-24-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-24-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-24-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-24-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-24-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-24-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-24-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-24-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-24-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-24-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-24-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-17-ld-res-geral-academia-angulo-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-17-ld-res-geral-academia-angulo-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-25",
+    "width": 5000,
+    "height": 2402,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-25-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-25-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-25-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-25-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-25-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-25-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-25-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-25-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-25-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-25-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-25-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-25-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-18-ld-res-geral-academia-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-18-ld-res-geral-academia-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-26",
+    "width": 5000,
+    "height": 3336,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-26-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-26-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-26-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-26-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-26-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-26-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-26-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-26-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-26-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-26-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-26-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-26-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-15-ld-res-geral-playground.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-15-ld-res-geral-playground.jpg",
+    "base": "assets/media/ld-res/v1/gallery-27",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-27-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-27-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-27-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-27-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-27-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-27-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-27-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-27-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-27-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-27-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-27-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-27-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-16-ld-res-geral-brinquedoteca-angulo-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-16-ld-res-geral-brinquedoteca-angulo-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-28",
+    "width": 5000,
+    "height": 4166,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-28-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-28-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-28-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-28-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-28-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-28-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-28-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-28-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-28-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-28-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-28-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-28-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-73-ld-res-geral-brinquedoteca-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-73-ld-res-geral-brinquedoteca-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-29",
+    "width": 5000,
+    "height": 2778,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-29-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-29-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-29-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-29-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-29-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-29-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-29-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-29-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-29-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-29-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-29-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-29-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-19-ld-res-geral-teen-space-e-quadra.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-19-ld-res-geral-teen-space-e-quadra.jpg",
+    "base": "assets/media/ld-res/v1/gallery-30",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-30-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-30-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-30-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-30-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-30-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-30-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-30-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-30-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-30-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-30-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-30-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-30-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-21-ld-res-geral-jogos-e-espaco-gamer.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-21-ld-res-geral-jogos-e-espaco-gamer.jpg",
+    "base": "assets/media/ld-res/v1/gallery-31",
+    "width": 5000,
+    "height": 3760,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-31-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-31-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-31-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-31-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-31-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-31-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-31-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-31-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-31-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-31-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-31-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-31-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-27-ld-res-geral-coworking.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-27-ld-res-geral-coworking.jpg",
+    "base": "assets/media/ld-res/v1/gallery-32",
+    "width": 5000,
+    "height": 3644,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-32-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-32-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-32-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-32-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-32-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-32-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-32-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-32-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-32-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-32-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-32-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-32-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-66-ld-res-geral-espaco-pet.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-66-ld-res-geral-espaco-pet.jpg",
+    "base": "assets/media/ld-res/v1/gallery-33",
+    "width": 5000,
+    "height": 2942,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-33-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-33-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-33-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-33-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-33-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-33-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-33-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-33-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-33-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-33-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-33-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-33-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-67-ld-res-geral-car-wash.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-67-ld-res-geral-car-wash.jpg",
+    "base": "assets/media/ld-res/v1/gallery-34",
+    "width": 3000,
+    "height": 2186,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-34-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-34-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-34-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-34-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-34-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-34-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-34-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-34-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-34-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-34-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-34-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-34-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-78-ld-res-geral-salao-de-beleza.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-78-ld-res-geral-salao-de-beleza.jpg",
+    "base": "assets/media/ld-res/v1/gallery-35",
+    "width": 5000,
+    "height": 3572,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-35-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-35-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-35-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-35-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-35-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-35-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-35-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-35-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-35-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-35-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-35-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-35-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-68-ld-res-editorial-spa-e-jacuzzis-vistos-de-cima.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-68-ld-res-editorial-spa-e-jacuzzis-vistos-de-cima.jpg",
+    "base": "assets/media/ld-res/v1/gallery-36",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-36-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-36-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-36-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-36-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-36-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-36-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-36-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-36-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-36-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-36-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-36-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-36-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-26-ld-res-editorial-estar-descoberto.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-26-ld-res-editorial-estar-descoberto.jpg",
+    "base": "assets/media/ld-res/v1/gallery-37",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-37-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-37-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-37-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-37-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-37-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-37-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-37-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-37-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-37-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-37-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-37-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-37-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-24-ld-res-geral-piscinas-angulo-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-24-ld-res-geral-piscinas-angulo-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-38",
+    "width": 5000,
+    "height": 3799,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-38-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-38-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-38-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-38-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-38-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-38-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-38-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-38-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-38-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-38-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-38-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-38-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-10-ld-res-geral-festas-com-piscina-e-vista-para-a-mata.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-10-ld-res-geral-festas-com-piscina-e-vista-para-a-mata.jpg",
+    "base": "assets/media/ld-res/v1/gallery-39",
+    "width": 5000,
+    "height": 3572,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-39-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-39-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-39-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-39-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-39-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-39-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-39-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-39-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-39-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-39-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-39-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-39-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-79-ld-res-geral-mirante-para-a-mata.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-79-ld-res-geral-mirante-para-a-mata.jpg",
+    "base": "assets/media/ld-res/v1/gallery-40",
+    "width": 5000,
+    "height": 2826,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-40-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-40-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-40-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-40-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-40-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-40-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-40-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-40-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-40-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-40-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-40-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-40-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-09-ld-res-geral-lounge-externo.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-09-ld-res-geral-lounge-externo.jpg",
+    "base": "assets/media/ld-res/v1/gallery-41",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-41-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-41-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-41-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-41-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-41-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-41-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-41-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-41-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-41-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-41-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-41-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-41-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-69-ld-res-geral-spa-visto-de-fora.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-69-ld-res-geral-spa-visto-de-fora.jpg",
+    "base": "assets/media/ld-res/v1/gallery-42",
+    "width": 5000,
+    "height": 2940,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-42-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-42-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-42-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-42-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-42-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-42-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-42-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-42-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-42-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-42-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-42-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-42-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-70-ld-res-geral-interior-do-spa.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-70-ld-res-geral-interior-do-spa.jpg",
+    "base": "assets/media/ld-res/v1/gallery-43",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-43-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-43-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-43-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-43-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-43-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-43-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-43-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-43-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-43-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-43-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-43-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-43-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-07-ld-res-geral-piscina-aquecida-com-vista-para-a-mata.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-07-ld-res-geral-piscina-aquecida-com-vista-para-a-mata.jpg",
+    "base": "assets/media/ld-res/v1/gallery-44",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-44-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-44-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-44-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-44-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-44-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-44-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-44-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-44-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-44-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-44-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-44-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-44-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-08-ld-res-geral-ofuros-e-lounge.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-08-ld-res-geral-ofuros-e-lounge.jpg",
+    "base": "assets/media/ld-res/v1/gallery-45",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-45-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-45-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-45-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-45-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-45-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-45-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-45-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-45-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-45-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-45-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-45-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-45-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-71-ld-res-geral-lounge-com-lareira.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-71-ld-res-geral-lounge-com-lareira.jpg",
+    "base": "assets/media/ld-res/v1/gallery-46",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-46-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-46-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-46-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-46-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-46-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-46-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-46-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-46-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-46-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-46-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-46-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-46-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-65-ld-res-geral-sala-de-massagem-com-vista-para-a-mata.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-65-ld-res-geral-sala-de-massagem-com-vista-para-a-mata.jpg",
+    "base": "assets/media/ld-res/v1/gallery-47",
+    "width": 5000,
+    "height": 3840,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-47-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-47-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-47-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-47-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-47-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-47-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-47-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-47-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-47-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-47-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-47-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-47-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-83-ld-res-geral-sauna-umida.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-83-ld-res-geral-sauna-umida.jpg",
+    "base": "assets/media/ld-res/v1/gallery-48",
+    "width": 5000,
+    "height": 3126,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-48-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-48-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-48-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-48-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-48-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-48-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-48-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-48-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-48-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-48-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-48-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-48-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-81-ld-res-geral-jardim-de-meditacao.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-81-ld-res-geral-jardim-de-meditacao.jpg",
+    "base": "assets/media/ld-res/v1/gallery-49",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-49-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-49-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-49-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-49-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-49-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-49-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-49-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-49-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-49-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-49-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-49-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-49-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-89-ld-res-geral-piscina-na-hora-azul.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-89-ld-res-geral-piscina-na-hora-azul.jpg",
+    "base": "assets/media/ld-res/v1/gallery-50",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-50-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-50-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-50-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-50-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-50-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-50-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-50-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-50-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-50-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-50-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-50-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-50-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-45-ld-res-editorial-suite-da-cobertura-duplex-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-45-ld-res-editorial-suite-da-cobertura-duplex-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-51",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-51-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-51-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-51-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-51-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-51-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-51-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-51-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-51-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-51-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-51-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-51-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-51-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-28-ld-res-unidade-tipo-1-living-angulo-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-28-ld-res-unidade-tipo-1-living-angulo-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-52",
+    "width": 5000,
+    "height": 3332,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-52-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-52-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-52-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-52-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-52-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-52-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-52-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-52-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-52-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-52-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-52-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-52-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-29-ld-res-unidade-tipo-1-living-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-29-ld-res-unidade-tipo-1-living-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-53",
+    "width": 5000,
+    "height": 3332,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-53-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-53-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-53-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-53-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-53-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-53-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-53-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-53-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-53-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-53-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-53-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-53-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-30-ld-res-unidade-tipo-1-sacada.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-30-ld-res-unidade-tipo-1-sacada.jpg",
+    "base": "assets/media/ld-res/v1/gallery-54",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-54-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-54-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-54-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-54-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-54-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-54-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-54-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-54-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-54-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-54-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-54-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-54-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-31-ld-res-unidade-tipo-1-suite-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-31-ld-res-unidade-tipo-1-suite-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-55",
+    "width": 5000,
+    "height": 3798,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-55-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-55-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-55-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-55-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-55-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-55-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-55-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-55-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-55-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-55-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-55-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-55-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-32-ld-res-unidade-tipo-2-living.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-32-ld-res-unidade-tipo-2-living.jpg",
+    "base": "assets/media/ld-res/v1/gallery-56",
+    "width": 5000,
+    "height": 3648,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-56-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-56-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-56-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-56-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-56-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-56-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-56-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-56-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-56-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-56-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-56-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-56-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-33-ld-res-unidade-tipo-2-sacada.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-33-ld-res-unidade-tipo-2-sacada.jpg",
+    "base": "assets/media/ld-res/v1/gallery-57",
+    "width": 5000,
+    "height": 3648,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-57-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-57-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-57-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-57-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-57-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-57-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-57-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-57-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-57-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-57-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-57-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-57-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-34-ld-res-unidade-tipo-2-suite-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-34-ld-res-unidade-tipo-2-suite-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-58",
+    "width": 5000,
+    "height": 3172,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-58-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-58-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-58-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-58-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-58-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-58-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-58-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-58-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-58-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-58-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-58-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-58-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-35-ld-res-unidade-tipo-3-living.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-35-ld-res-unidade-tipo-3-living.jpg",
+    "base": "assets/media/ld-res/v1/gallery-59",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-59-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-59-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-59-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-59-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-59-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-59-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-59-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-59-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-59-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-59-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-59-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-59-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-36-ld-res-unidade-tipo-3-sacada.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-36-ld-res-unidade-tipo-3-sacada.jpg",
+    "base": "assets/media/ld-res/v1/gallery-60",
+    "width": 5000,
+    "height": 3846,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-60-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-60-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-60-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-60-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-60-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-60-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-60-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-60-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-60-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-60-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-60-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-60-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-37-ld-res-unidade-tipo-3-suite-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-37-ld-res-unidade-tipo-3-suite-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-61",
+    "width": 5000,
+    "height": 4546,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-61-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-61-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-61-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-61-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-61-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-61-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-61-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-61-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-61-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-61-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-61-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-61-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-38-ld-res-unidade-duplex-1-living-angulo-1.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-38-ld-res-unidade-duplex-1-living-angulo-1.jpg",
+    "base": "assets/media/ld-res/v1/gallery-62",
+    "width": 5000,
+    "height": 2272,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-62-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-62-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-62-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-62-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-62-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-62-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-62-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-62-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-62-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-62-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-62-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-62-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-39-ld-res-unidade-duplex-1-living-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-39-ld-res-unidade-duplex-1-living-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-63",
+    "width": 5000,
+    "height": 3334,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-63-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-63-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-63-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-63-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-63-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-63-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-63-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-63-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-63-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-63-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-63-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-63-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-40-ld-res-unidade-duplex-1-sacada.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-40-ld-res-unidade-duplex-1-sacada.jpg",
+    "base": "assets/media/ld-res/v1/gallery-64",
+    "width": 5000,
+    "height": 2778,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-64-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-64-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-64-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-64-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-64-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-64-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-64-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-64-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-64-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-64-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-64-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-64-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-46-ld-res-unidade-duplex-1-suite-principal-angulo-2.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-46-ld-res-unidade-duplex-1-suite-principal-angulo-2.jpg",
+    "base": "assets/media/ld-res/v1/gallery-65",
+    "width": 5000,
+    "height": 2812,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-65-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-65-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-65-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-65-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-65-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-65-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-65-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-65-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-65-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-65-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-65-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-65-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-41-ld-res-unidade-duplex-2-living.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-41-ld-res-unidade-duplex-2-living.jpg",
+    "base": "assets/media/ld-res/v1/gallery-66",
+    "width": 5000,
+    "height": 2702,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-66-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-66-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-66-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-66-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-66-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-66-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-66-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-66-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-66-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-66-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-66-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-66-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-42-ld-res-unidade-duplex-2-suite-principal.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-42-ld-res-unidade-duplex-2-suite-principal.jpg",
+    "base": "assets/media/ld-res/v1/gallery-67",
+    "width": 5000,
+    "height": 5000,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-67-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-67-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-67-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-67-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-67-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-67-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-67-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-67-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-67-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-67-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-67-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-67-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-43-ld-res-unidade-duplex-3-living.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-43-ld-res-unidade-duplex-3-living.jpg",
+    "base": "assets/media/ld-res/v1/gallery-68",
+    "width": 5000,
+    "height": 3846,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-68-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-68-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-68-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-68-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-68-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-68-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-68-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-68-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-68-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-68-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-68-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-68-1920.jpg"
+      }
+    }
+  },
+  "assets/projetos/ld-res/imagens/imagem-44-ld-res-unidade-duplex-3-suite-principal-com-sacada.jpg": {
+    "source": "assets/projetos/ld-res/imagens/imagem-44-ld-res-unidade-duplex-3-suite-principal-com-sacada.jpg",
+    "base": "assets/media/ld-res/v1/gallery-69",
+    "width": 5000,
+    "height": 2500,
+    "sources": {
+      "640": {
+        "avif": "assets/media/ld-res/v1/gallery-69-640.avif",
+        "webp": "assets/media/ld-res/v1/gallery-69-640.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-69-640.jpg"
+      },
+      "1024": {
+        "avif": "assets/media/ld-res/v1/gallery-69-1024.avif",
+        "webp": "assets/media/ld-res/v1/gallery-69-1024.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-69-1024.jpg"
+      },
+      "1440": {
+        "avif": "assets/media/ld-res/v1/gallery-69-1440.avif",
+        "webp": "assets/media/ld-res/v1/gallery-69-1440.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-69-1440.jpg"
+      },
+      "1920": {
+        "avif": "assets/media/ld-res/v1/gallery-69-1920.avif",
+        "webp": "assets/media/ld-res/v1/gallery-69-1920.webp",
+        "jpg": "assets/media/ld-res/v1/gallery-69-1920.jpg"
+      }
+    }
   }
 }

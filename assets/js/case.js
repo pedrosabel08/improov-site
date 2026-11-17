@@ -535,6 +535,7 @@
           select(baseIndex + direction, true);
         });
         rail.addEventListener("keydown", (event) => {
+          if (event.target instanceof HTMLVideoElement) return;
           if (!["ArrowLeft", "ArrowRight", "Home", "End"].includes(event.key))
             return;
           event.preventDefault();
@@ -690,6 +691,8 @@
           // did not emit a click after the previous drag, do not carry that
           // suppression into this next intentional interaction.
           suppressClick = false;
+          if (event.target instanceof HTMLVideoElement && event.target.controls)
+            return;
           const startTime =
             event.timeStamp > 0 ? event.timeStamp : performance.now();
           drag = {

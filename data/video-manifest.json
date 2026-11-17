@@ -13708,6 +13708,2914 @@
         "publishedVariants": 35,
         "posters": 35
       }
+    },
+    "ld-res": {
+      "slug": "ld-res",
+      "generatedAt": "2026-11-16T23:42:54.770169+00:00",
+      "pipelineVersion": 1,
+      "publicRoot": "assets/media/ld-res/v1",
+      "profiles": {
+        "outros": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "animacoes": {
+          "crf": 19,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "filmes": {
+          "crf": 21,
+          "preset": "slow",
+          "audioBitrate": "160k"
+        },
+        "pilulas": {
+          "crf": 23,
+          "preset": "medium",
+          "audioBitrate": "128k"
+        }
+      },
+      "curation": {
+        "defaults": {
+          "publish": false,
+          "poster": false,
+          "variants": []
+        },
+        "categories": {
+          "Capa Thumbnail": "animacoes",
+          "Carrossel da Websérie Documental Vertical": "pilulas",
+          "Carrossel de Animações 3D": "animacoes",
+          "Corpo da página": "animacoes",
+          "Filme Conceito": "filmes",
+          "Filme Documental": "filmes"
+        },
+        "sources": {
+          "Capa Thumbnail/64.LD1_RES Fachada no angulo do observador.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP1-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP2-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP3-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP4-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP5-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel da Websérie Documental Vertical/2025 LD10_EP6-2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Carrossel de Animações 3D/4.LD1_RES Fachada no angulo do observador.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_Detalhe Cascata.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_EF.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_Detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_EF.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/13.LD1_RES Wine Club.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/13.LD1_RES_Wine_Club_Detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/17.LD1_RES_Academia_-_Angulo_1_DEtalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/23.LD1_RES Praca.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/24.LD1_RES Piscinas - Angulo 1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/25.LD1_RES Piscinas_-_Angulo_2_Detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/26.LD1_RES_Estar_Descoberto_Detalhe.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/29.LD1_RES Living do apartamento tipo 1 angulo 2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/31.LD1_RES_Suite_master_do_apartamento_tipo_1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/46.LD1_RES Suite master do apartamento cobertura duplex 1.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/68.LD1_RES Spa vendo de cima.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/69.LD1_RES Spa vendo do vidro de fora pra dentro.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/70.LD1_RES Spa vendo do outro lado interno.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/82.LD1_RES_Gourmet_da_piscina_externa.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/89.LD1_RES Piscina blue hour.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Carrossel de Animações 3D/LD1_RES_Tracking_Tarde.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/5.LD1_RES Embasamento Mata.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/25.LD1_RES Piscinas - Angulo 2.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/26.LD1_RES Estar Descoberto.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/31.LD1_RES_Suite_master_do_apartamento_tipo_1_Vista de fora.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/81.LD1_RES_Jardim_de_meditacao_-_SPA_EF.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Corpo da página/LD1_RES_Tracking_Manha.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["720"]
+          },
+          "Filme Conceito/LDH RES JAP_CONCEPT FILM_HQ.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          },
+          "Filme Documental/2025 LD10 RES BRA_DEP FULL_FHD_VF LEG(16x9)-001.mp4": {
+            "publish": true,
+            "poster": true,
+            "variants": ["1080"]
+          }
+        }
+      },
+      "inventory": [
+        {
+          "source": "Capa Thumbnail/64.LD1_RES Fachada no angulo do observador.mp4",
+          "name": "64.LD1_RES Fachada no angulo do observador.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 295848817,
+          "sha256": "b666ebf62db65a73ae549e474e6c3766d4a45467fbc7486467cc8b06a05f0f10",
+          "modifiedAt": "2026-11-03T06:42:34+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237459553,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237470614,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/64-ld1-res-fachada-no-angulo-do-observador-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/animacoes/64-ld1-res-fachada-no-angulo-do-observador-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP1-2.mp4",
+          "name": "2025 LD10_EP1-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 666858104,
+          "sha256": "e6b6d0ac5b7159004de736106a211dfa18e5d060dbf9fc8a0ad23a7d1548bf43",
+          "modifiedAt": "2026-11-10T11:40:52+00:00",
+          "duration": 332.832,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15707795,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317358,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 16028677,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep1-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep1-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP2-2.mp4",
+          "name": "2025 LD10_EP2-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 356588990,
+          "sha256": "f4e4f171cc1dd2bb9b1f2a3ea29da223c3f96089feb0ce5316e4838facb8b7fd",
+          "modifiedAt": "2025-11-26T10:23:52+00:00",
+          "duration": 179.429,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15577349,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317344,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15898812,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep2-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep2-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP3-2.mp4",
+          "name": "2025 LD10_EP3-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 383565379,
+          "sha256": "b47b23aacd253692304bf8cf5be2618e925dc726e1591967fae739e4640762f2",
+          "modifiedAt": "2025-11-26T10:24:02+00:00",
+          "duration": 192.526,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15616760,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317346,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15938254,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep3-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep3-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP4-2.mp4",
+          "name": "2025 LD10_EP4-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 267864031,
+          "sha256": "2e263baf064d99f71effa1b254ba5f5ec5ef2b505161a2f5dcd58f5582f68653",
+          "modifiedAt": "2026-11-10T11:41:08+00:00",
+          "duration": 135.927,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15442909,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317334,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15765116,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep4-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep4-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP5-2.mp4",
+          "name": "2025 LD10_EP5-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 380386967,
+          "sha256": "2fe476cab7ec9777f6337b7f6e3c496efdc9c309e21683655c2a5ada8f9c4ff5",
+          "modifiedAt": "2025-11-26T10:24:08+00:00",
+          "duration": 190.69,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15636362,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317346,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15958297,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep5-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep5-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP6-2.mp4",
+          "name": "2025 LD10_EP6-2.mp4",
+          "category": "pilulas",
+          "extension": "mp4",
+          "bytes": 376167024,
+          "sha256": "6cfe6e85f1f787c0109ef0ab274e406b60f0be2dae391dad8d4ee610f19d66ae",
+          "modifiedAt": "2025-11-26T10:24:08+00:00",
+          "duration": 188.563,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15637374,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317346,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15959282,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep6-2-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep6-2-720.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/13.LD1_RES Wine Club.mp4",
+          "name": "13.LD1_RES Wine Club.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 245869551,
+          "sha256": "2d7911fe1bafcc5ad8aa0e12d25c5b06ea78da28d01fead607ef29543850c9a3",
+          "modifiedAt": "2026-10-12T14:07:54+00:00",
+          "duration": 7.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 246885982,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 246898283,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/13-ld1-res-wine-club-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/13-ld1-res-wine-club-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/13.LD1_RES_Wine_Club_Detalhe.mp4",
+          "name": "13.LD1_RES_Wine_Club_Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 196540278,
+          "sha256": "ee4dbd576be51dd414daf45613ebfeaaff1a152ae0612c58ceb7f6c69bdf0b89",
+          "modifiedAt": "2026-11-02T15:40:06+00:00",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240399070,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240416242,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/13-ld1-res-wine-club-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/13-ld1-res-wine-club-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/17.LD1_RES_Academia_-_Angulo_1_DEtalhe.mp4",
+          "name": "17.LD1_RES_Academia_-_Angulo_1_DEtalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 179322455,
+          "sha256": "361eff5b956f36b45cddcee38d943c9eb0d0ac4752990363293e558ca928a551",
+          "modifiedAt": "2026-10-30T13:28:14+00:00",
+          "duration": 5.983,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239743411,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239762627,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/17-ld1-res-academia-angulo-1-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/17-ld1-res-academia-angulo-1-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/23.LD1_RES Praca.mp4",
+          "name": "23.LD1_RES Praca.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 268899036,
+          "sha256": "5ccdd2f888050d9463ff61170c6c5cea6ae198c9fb5415d45642d0ec75b96335",
+          "modifiedAt": "2026-11-04T06:51:18+00:00",
+          "duration": 8.98,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239540222,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239553706,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/23-ld1-res-praca-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/23-ld1-res-praca-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/24.LD1_RES Piscinas - Angulo 1.mp4",
+          "name": "24.LD1_RES Piscinas - Angulo 1.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 189083430,
+          "sha256": "70f96adad088584b382429956962cdf05039d5cbfb9904e0630831924dba813d",
+          "modifiedAt": "2026-11-05T16:36:58+00:00",
+          "duration": 6.38,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237077697,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237095210,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/24-ld1-res-piscinas-angulo-1-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/24-ld1-res-piscinas-angulo-1-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/25.LD1_RES Piscinas_-_Angulo_2_Detalhe.mp4",
+          "name": "25.LD1_RES Piscinas_-_Angulo_2_Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 190156138,
+          "sha256": "c8d68e58db3fb23162d868bee17b739ceb3f01ddb515d7d56263a51ceb33f46f",
+          "modifiedAt": "2026-10-31T12:36:14+00:00",
+          "duration": 6.533,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 232826291,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 232844262,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/25-ld1-res-piscinas-angulo-2-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/25-ld1-res-piscinas-angulo-2-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/26.LD1_RES_Estar_Descoberto_Detalhe.mp4",
+          "name": "26.LD1_RES_Estar_Descoberto_Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 191038367,
+          "sha256": "27c0d821c951247d00ff0852eaec8768e891f720ffa258d317ea686498112232",
+          "modifiedAt": "2026-11-01T09:00:28+00:00",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 233668903,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 233686075,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/26-ld1-res-estar-descoberto-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/26-ld1-res-estar-descoberto-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/29.LD1_RES Living do apartamento tipo 1 angulo 2.mp4",
+          "name": "29.LD1_RES Living do apartamento tipo 1 angulo 2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 297469218,
+          "sha256": "f9a11c1c30e38385296b080fb94c03d97f0c34f8ba65a7ba0842544748fb599b",
+          "modifiedAt": "2026-09-03T06:55:00+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237964332,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237975374,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/29-ld1-res-living-do-apartamento-tipo-1-angulo-2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/29-ld1-res-living-do-apartamento-tipo-1-angulo-2-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/31.LD1_RES_Suite_master_do_apartamento_tipo_1.mp4",
+          "name": "31.LD1_RES_Suite_master_do_apartamento_tipo_1.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 18801465,
+          "sha256": "14126f0668abd9a3e9ae4efaa627affa9c223671458507bb18c6b0c88df81c0a",
+          "modifiedAt": "2026-09-01T07:31:52+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 15030129,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 15041172,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/4.LD1_RES Fachada no angulo do observador.mp4",
+          "name": "4.LD1_RES Fachada no angulo do observador.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 449973737,
+          "sha256": "2c786d0ef48fd554a1c358993f4e68357e369261292e957085a8062d1df9c437",
+          "modifiedAt": "2026-11-10T11:52:38+00:00",
+          "duration": 14.998,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 59.94,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240002582,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240012922,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/4-ld1-res-fachada-no-angulo-do-observador-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/4-ld1-res-fachada-no-angulo-do-observador-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/46.LD1_RES Suite master do apartamento cobertura duplex 1.mp4",
+          "name": "46.LD1_RES Suite master do apartamento cobertura duplex 1.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 238983858,
+          "sha256": "c6b736e00e95d7809af5e73b2c3b2bd4bbe6d73f1e24f9502c49baf103a55e44",
+          "modifiedAt": "2026-10-12T16:30:22+00:00",
+          "duration": 7.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 241996565,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 242008970,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/64.LD1_RES Fachada no angulo do observador.mp4",
+          "name": "64.LD1_RES Fachada no angulo do observador.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 295848817,
+          "sha256": "b666ebf62db65a73ae549e474e6c3766d4a45467fbc7486467cc8b06a05f0f10",
+          "modifiedAt": "2026-11-03T06:42:34+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237459553,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237470614,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "Carrossel de Animações 3D/68.LD1_RES Spa vendo de cima.mp4",
+          "name": "68.LD1_RES Spa vendo de cima.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 295658692,
+          "sha256": "01a8f6791d290564606fe002fb4730df864392c3632a2e833104836f08fef2a3",
+          "modifiedAt": "2026-11-05T13:36:30+00:00",
+          "duration": 9.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 238904979,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 238916114,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/68-ld1-res-spa-vendo-de-cima-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/68-ld1-res-spa-vendo-de-cima-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/69.LD1_RES Spa vendo do vidro de fora pra dentro.mp4",
+          "name": "69.LD1_RES Spa vendo do vidro de fora pra dentro.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 293364265,
+          "sha256": "6301aed168a7bb0d07f1451a3551e415f70bccf73389422ae4a3edca72c78264",
+          "modifiedAt": "2026-09-06T11:43:00+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 234680369,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 234691412,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_Detalhe Cascata.mp4",
+          "name": "7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_Detalhe Cascata.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 87937448,
+          "sha256": "fcb1b0d2385e51da900b101b77620c1c14a7734d3914c065bde21b86f605a71a",
+          "modifiedAt": "2026-10-30T09:14:10+00:00",
+          "duration": 3.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 234465965,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 234499861,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_EF.mp4",
+          "name": "7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_EF.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 170839574,
+          "sha256": "a99adcc18eb8936170ab0925357bb3e49ad75b27847e18e6257bd83bf93ae39c",
+          "modifiedAt": "2026-10-30T10:51:22+00:00",
+          "duration": 5.88,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 232416110,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 232434794,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/70.LD1_RES Spa vendo do outro lado interno.mp4",
+          "name": "70.LD1_RES Spa vendo do outro lado interno.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 297989597,
+          "sha256": "d400be1d233dd66a6e29fbdca2ee27db3b473bbeba518a8fc24454ed8e787279",
+          "modifiedAt": "2026-09-01T19:19:34+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 238380635,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 238391677,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/70-ld1-res-spa-vendo-do-outro-lado-interno-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/70-ld1-res-spa-vendo-do-outro-lado-interno-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_Detalhe.mp4",
+          "name": "8.LD1_RES_Ofuros_Lounge_Jacuzi_Detalhe.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 152354373,
+          "sha256": "8be24fc59510a07d60671e1e69bb0120ab119b5e5d3d9a3ffd5bd66bc2ff742a",
+          "modifiedAt": "2026-11-02T17:24:04+00:00",
+          "duration": 5.14,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237106566,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237127428,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/8-ld1-res-ofuros-lounge-jacuzi-detalhe-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/8-ld1-res-ofuros-lounge-jacuzi-detalhe-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_EF.mp4",
+          "name": "8.LD1_RES_Ofuros_Lounge_Jacuzi_EF.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 193123843,
+          "sha256": "7782730e5c32933d4a1ea36e667f861f28bac852e408c23d988cdac95d2ef0a0",
+          "modifiedAt": "2026-11-02T16:21:36+00:00",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 236219944,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 236237116,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/8-ld1-res-ofuros-lounge-jacuzi-ef-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/8-ld1-res-ofuros-lounge-jacuzi-ef-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/82.LD1_RES_Gourmet_da_piscina_externa.mp4",
+          "name": "82.LD1_RES_Gourmet_da_piscina_externa.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 192956636,
+          "sha256": "f79a4a176f35468ff495a31fafa195eef5b32e92fb9dc58b00e481caeb24fb76",
+          "modifiedAt": "2026-11-01T07:46:36+00:00",
+          "duration": 6.533,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 60.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 236255472,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 236273443,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/82-ld1-res-gourmet-da-piscina-externa-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/82-ld1-res-gourmet-da-piscina-externa-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/89.LD1_RES Piscina blue hour.mp4",
+          "name": "89.LD1_RES Piscina blue hour.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 298163075,
+          "sha256": "62674caf334b031e043206cc7d75c48f1a8b2de3c128fcf8be9d1e0429b23daa",
+          "modifiedAt": "2026-11-04T05:15:18+00:00",
+          "duration": 9.96,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239475895,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239488413,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/89-ld1-res-piscina-blue-hour-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/89-ld1-res-piscina-blue-hour-1080.mp4"
+          }
+        },
+        {
+          "source": "Carrossel de Animações 3D/LD1_RES_Tracking_Tarde.mp4",
+          "name": "LD1_RES_Tracking_Tarde.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 645983324,
+          "sha256": "2b5cc7e5c878b747e647fd5d26e9ba9eeb718d2e38cb3ade470d2d3d781fd7cd",
+          "modifiedAt": "2026-11-10T12:03:18+00:00",
+          "duration": 21.733,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 237779007,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 237785276,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/ld1-res-tracking-tarde-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/ld1-res-tracking-tarde-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/25.LD1_RES Piscinas - Angulo 2.mp4",
+          "name": "25.LD1_RES Piscinas - Angulo 2.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 299303395,
+          "sha256": "3e9f2ef2f31b32a7c50de145cdd9ae48b1c184fd1a48053e5d4546bb76314aaf",
+          "modifiedAt": "2026-11-02T19:22:10+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 240232458,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 240243519,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/25-ld1-res-piscinas-angulo-2-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/25-ld1-res-piscinas-angulo-2-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/26.LD1_RES Estar Descoberto.mp4",
+          "name": "26.LD1_RES Estar Descoberto.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 298805744,
+          "sha256": "e7790db2f9d5e85bb44712141b23fe4430f761b40366ebc931c08da13c13cfd8",
+          "modifiedAt": "2026-11-02T18:07:50+00:00",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239833006,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239844067,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/26-ld1-res-estar-descoberto-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/26-ld1-res-estar-descoberto-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/31.LD1_RES_Suite_master_do_apartamento_tipo_1_Vista de fora.mp4",
+          "name": "31.LD1_RES_Suite_master_do_apartamento_tipo_1_Vista de fora.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 197065371,
+          "sha256": "ffc48bf38b8498ef44f2f78ab94b645cc6c253c01cf427fa417eed81421a4cb6",
+          "modifiedAt": "2026-11-02T15:27:14+00:00",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 50.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 241041385,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 241058557,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/5.LD1_RES Embasamento Mata.mp4",
+          "name": "5.LD1_RES Embasamento Mata.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 293284578,
+          "sha256": "95283eb73a787f8e33d87c4b07cd3ca1c8d720b283284557a57c63382c07436f",
+          "modifiedAt": "2026-09-01T10:01:42+00:00",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 234616594,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 234627662,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/5-ld1-res-embasamento-mata-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/5-ld1-res-embasamento-mata-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/81.LD1_RES_Jardim_de_meditacao_-_SPA_EF.mp4",
+          "name": "81.LD1_RES_Jardim_de_meditacao_-_SPA_EF.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 270284493,
+          "sha256": "81abb50b7d42fe5eeeb0bb499b1e38633a6acf9306a9d58b1ab0efb96d2dd91e",
+          "modifiedAt": "2026-10-30T07:16:48+00:00",
+          "duration": 9.067,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 238474367,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 238486308,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/81-ld1-res-jardim-de-meditacao-spa-ef-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/animacoes/81-ld1-res-jardim-de-meditacao-spa-ef-1080.mp4"
+          }
+        },
+        {
+          "source": "Corpo da página/LD1_RES_Tracking_Manha.mp4",
+          "name": "LD1_RES_Tracking_Manha.mp4",
+          "category": "animacoes",
+          "extension": "mp4",
+          "bytes": 1524825439,
+          "sha256": "2fd5e4940eaebdfd2e9095010d372917c225bf709a1056687f2310944ac3e1ae",
+          "modifiedAt": "2026-11-10T12:04:32+00:00",
+          "duration": 50.933,
+          "width": 4096,
+          "height": 2160,
+          "aspectRatio": "256:135",
+          "orientation": "landscape",
+          "fps": 30.0,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 239497448,
+          "audioCodec": null,
+          "audioCodecLong": null,
+          "audioBitrate": null,
+          "audioSampleRate": null,
+          "audioChannels": null,
+          "audioLayout": null,
+          "hasAudio": false,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 239501379,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["720"],
+          "publicVariants": [
+            "720"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/animacoes/ld1-res-tracking-manha-poster.webp",
+          "publicSources": {
+            "720": "assets/media/ld-res/v1/videos/animacoes/ld1-res-tracking-manha-720.mp4"
+          }
+        },
+        {
+          "source": "Filme Conceito/LDH RES JAP_CONCEPT FILM_HQ.mp4",
+          "name": "LDH RES JAP_CONCEPT FILM_HQ.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 519296579,
+          "sha256": "520bc2760971639fdbb8d1cb2935dc21b148c3db63993f11f1328fc258c168b1",
+          "modifiedAt": "2026-11-10T11:35:46+00:00",
+          "duration": 157.783,
+          "width": 2560,
+          "height": 1440,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 26137043,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189323,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 26329721,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/filmes/ldh-res-jap-concept-film-hq-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/filmes/ldh-res-jap-concept-film-hq-1080.mp4"
+          }
+        },
+        {
+          "source": "Filme Conceito/LDH RES JAP_CONCEPT FILM_LQ.mp4",
+          "name": "LDH RES JAP_CONCEPT FILM_LQ.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 162019577,
+          "sha256": "ceb856498c34087242faf72588c04749e73fdd80129f0622681e5b9261d3b4bf",
+          "modifiedAt": "2026-11-10T11:35:56+00:00",
+          "duration": 157.783,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 8022575,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 189323,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 8214824,
+          "available": true,
+          "published": false,
+          "publication": "inventory-only",
+          "requestedVariants": [],
+          "publicVariants": [],
+          "publicSources": {}
+        },
+        {
+          "source": "Filme Documental/2025 LD10 RES BRA_DEP FULL_FHD_VF LEG(16x9)-001.mp4",
+          "name": "2025 LD10 RES BRA_DEP FULL_FHD_VF LEG(16x9)-001.mp4",
+          "category": "filmes",
+          "extension": "mp4",
+          "bytes": 6153993381,
+          "sha256": "1311118aa3e00bab4fd09b3defd4523c24b885eb041558f3746fa1b477e45b7c",
+          "modifiedAt": "2026-11-16T22:44:53.563730+00:00",
+          "duration": 1143.142,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "fps": 23.976,
+          "videoCodec": "h264",
+          "videoCodecLong": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+          "videoBitrate": 42745894,
+          "audioCodec": "aac",
+          "audioCodecLong": "AAC (Advanced Audio Coding)",
+          "audioBitrate": 317370,
+          "audioSampleRate": 48000,
+          "audioChannels": 2,
+          "audioLayout": "stereo",
+          "hasAudio": true,
+          "pixelFormat": "yuv420p",
+          "rotation": 0,
+          "format": "mov,mp4,m4a,3gp,3g2,mj2",
+          "formatLong": "QuickTime / MOV",
+          "totalBitrate": 43067219,
+          "available": true,
+          "published": true,
+          "publication": "video",
+          "requestedVariants": ["1080"],
+          "publicVariants": [
+            "1080"
+          ],
+          "publicPoster": "assets/media/ld-res/v1/posters/filmes/2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001-poster.webp",
+          "publicSources": {
+            "1080": "assets/media/ld-res/v1/videos/filmes/2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001-1080.mp4"
+          }
+        }
+      ],
+      "videos": [
+        {
+          "id": "64-ld1-res-fachada-no-angulo-do-observador",
+          "source": "Capa Thumbnail/64.LD1_RES Fachada no angulo do observador.mp4",
+          "sourceSha256": "b666ebf62db65a73ae549e474e6c3766d4a45467fbc7486467cc8b06a05f0f10",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/64-ld1-res-fachada-no-angulo-do-observador-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/64-ld1-res-fachada-no-angulo-do-observador-720.mp4",
+              "width": 1280,
+              "height": 720,
+              "bytes": 5761594,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep1-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP1-2.mp4",
+          "sourceSha256": "e6b6d0ac5b7159004de736106a211dfa18e5d060dbf9fc8a0ad23a7d1548bf43",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep1-2-poster.webp",
+          "duration": 332.832,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep1-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 56935390,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep2-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP2-2.mp4",
+          "sourceSha256": "f4e4f171cc1dd2bb9b1f2a3ea29da223c3f96089feb0ce5316e4838facb8b7fd",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep2-2-poster.webp",
+          "duration": 179.429,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep2-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 27188461,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep3-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP3-2.mp4",
+          "sourceSha256": "b47b23aacd253692304bf8cf5be2618e925dc726e1591967fae739e4640762f2",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep3-2-poster.webp",
+          "duration": 192.526,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep3-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 25352854,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep4-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP4-2.mp4",
+          "sourceSha256": "2e263baf064d99f71effa1b254ba5f5ec5ef2b505161a2f5dcd58f5582f68653",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep4-2-poster.webp",
+          "duration": 135.927,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep4-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 24414957,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep5-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP5-2.mp4",
+          "sourceSha256": "2fe476cab7ec9777f6337b7f6e3c496efdc9c309e21683655c2a5ada8f9c4ff5",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep5-2-poster.webp",
+          "duration": 190.69,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep5-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 23795211,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-ep6-2",
+          "source": "Carrossel da Websérie Documental Vertical/2025 LD10_EP6-2.mp4",
+          "sourceSha256": "6cfe6e85f1f787c0109ef0ab274e406b60f0be2dae391dad8d4ee610f19d66ae",
+          "category": "pilulas",
+          "poster": "assets/media/ld-res/v1/posters/pilulas/2025-ld10-ep6-2-poster.webp",
+          "duration": 188.563,
+          "width": 1080,
+          "height": 1920,
+          "aspectRatio": "9:16",
+          "orientation": "portrait",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 23,
+            "preset": "medium",
+            "audioBitrate": "128k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/pilulas/2025-ld10-ep6-2-720.mp4",
+              "width": 720,
+              "height": 1280,
+              "bytes": 23792974,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "13-ld1-res-wine-club",
+          "source": "Carrossel de Animações 3D/13.LD1_RES Wine Club.mp4",
+          "sourceSha256": "2d7911fe1bafcc5ad8aa0e12d25c5b06ea78da28d01fead607ef29543850c9a3",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/13-ld1-res-wine-club-poster.webp",
+          "duration": 7.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/13-ld1-res-wine-club-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4758472,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "13-ld1-res-wine-club-detalhe",
+          "source": "Carrossel de Animações 3D/13.LD1_RES_Wine_Club_Detalhe.mp4",
+          "sourceSha256": "ee4dbd576be51dd414daf45613ebfeaaff1a152ae0612c58ceb7f6c69bdf0b89",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/13-ld1-res-wine-club-detalhe-poster.webp",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/13-ld1-res-wine-club-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4257334,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "17-ld1-res-academia-angulo-1-detalhe",
+          "source": "Carrossel de Animações 3D/17.LD1_RES_Academia_-_Angulo_1_DEtalhe.mp4",
+          "sourceSha256": "361eff5b956f36b45cddcee38d943c9eb0d0ac4752990363293e558ca928a551",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/17-ld1-res-academia-angulo-1-detalhe-poster.webp",
+          "duration": 5.983,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/17-ld1-res-academia-angulo-1-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6214102,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "23-ld1-res-praca",
+          "source": "Carrossel de Animações 3D/23.LD1_RES Praca.mp4",
+          "sourceSha256": "5ccdd2f888050d9463ff61170c6c5cea6ae198c9fb5415d45642d0ec75b96335",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/23-ld1-res-praca-poster.webp",
+          "duration": 8.98,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/23-ld1-res-praca-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 16587706,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "24-ld1-res-piscinas-angulo-1",
+          "source": "Carrossel de Animações 3D/24.LD1_RES Piscinas - Angulo 1.mp4",
+          "sourceSha256": "70f96adad088584b382429956962cdf05039d5cbfb9904e0630831924dba813d",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/24-ld1-res-piscinas-angulo-1-poster.webp",
+          "duration": 6.38,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/24-ld1-res-piscinas-angulo-1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 13465958,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "25-ld1-res-piscinas-angulo-2-detalhe",
+          "source": "Carrossel de Animações 3D/25.LD1_RES Piscinas_-_Angulo_2_Detalhe.mp4",
+          "sourceSha256": "c8d68e58db3fb23162d868bee17b739ceb3f01ddb515d7d56263a51ceb33f46f",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/25-ld1-res-piscinas-angulo-2-detalhe-poster.webp",
+          "duration": 6.533,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/25-ld1-res-piscinas-angulo-2-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 8194773,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "26-ld1-res-estar-descoberto-detalhe",
+          "source": "Carrossel de Animações 3D/26.LD1_RES_Estar_Descoberto_Detalhe.mp4",
+          "sourceSha256": "27c0d821c951247d00ff0852eaec8768e891f720ffa258d317ea686498112232",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/26-ld1-res-estar-descoberto-detalhe-poster.webp",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/26-ld1-res-estar-descoberto-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 2468189,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "29-ld1-res-living-do-apartamento-tipo-1-angulo-2",
+          "source": "Carrossel de Animações 3D/29.LD1_RES Living do apartamento tipo 1 angulo 2.mp4",
+          "sourceSha256": "f9a11c1c30e38385296b080fb94c03d97f0c34f8ba65a7ba0842544748fb599b",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/29-ld1-res-living-do-apartamento-tipo-1-angulo-2-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/29-ld1-res-living-do-apartamento-tipo-1-angulo-2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 5081062,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "31-ld1-res-suite-master-do-apartamento-tipo-1",
+          "source": "Carrossel de Animações 3D/31.LD1_RES_Suite_master_do_apartamento_tipo_1.mp4",
+          "sourceSha256": "14126f0668abd9a3e9ae4efaa627affa9c223671458507bb18c6b0c88df81c0a",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 17481932,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "4-ld1-res-fachada-no-angulo-do-observador",
+          "source": "Carrossel de Animações 3D/4.LD1_RES Fachada no angulo do observador.mp4",
+          "sourceSha256": "2c786d0ef48fd554a1c358993f4e68357e369261292e957085a8062d1df9c437",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/4-ld1-res-fachada-no-angulo-do-observador-poster.webp",
+          "duration": 14.998,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/4-ld1-res-fachada-no-angulo-do-observador-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 48786475,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1",
+          "source": "Carrossel de Animações 3D/46.LD1_RES Suite master do apartamento cobertura duplex 1.mp4",
+          "sourceSha256": "c6b736e00e95d7809af5e73b2c3b2bd4bbe6d73f1e24f9502c49baf103a55e44",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1-poster.webp",
+          "duration": 7.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4083018,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "68-ld1-res-spa-vendo-de-cima",
+          "source": "Carrossel de Animações 3D/68.LD1_RES Spa vendo de cima.mp4",
+          "sourceSha256": "01a8f6791d290564606fe002fb4730df864392c3632a2e833104836f08fef2a3",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/68-ld1-res-spa-vendo-de-cima-poster.webp",
+          "duration": 9.9,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/68-ld1-res-spa-vendo-de-cima-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 20396324,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro",
+          "source": "Carrossel de Animações 3D/69.LD1_RES Spa vendo do vidro de fora pra dentro.mp4",
+          "sourceSha256": "6301aed168a7bb0d07f1451a3551e415f70bccf73389422ae4a3edca72c78264",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 26256814,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata",
+          "source": "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_Detalhe Cascata.mp4",
+          "sourceSha256": "fcb1b0d2385e51da900b101b77620c1c14a7734d3914c065bde21b86f605a71a",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata-poster.webp",
+          "duration": 3.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4027008,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef",
+          "source": "Carrossel de Animações 3D/7.LD1_RES_Piscina_aquecida_com_vista_para_a_mata_EF.mp4",
+          "sourceSha256": "a99adcc18eb8936170ab0925357bb3e49ad75b27847e18e6257bd83bf93ae39c",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef-poster.webp",
+          "duration": 5.88,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 6921988,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "70-ld1-res-spa-vendo-do-outro-lado-interno",
+          "source": "Carrossel de Animações 3D/70.LD1_RES Spa vendo do outro lado interno.mp4",
+          "sourceSha256": "d400be1d233dd66a6e29fbdca2ee27db3b473bbeba518a8fc24454ed8e787279",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/70-ld1-res-spa-vendo-do-outro-lado-interno-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/70-ld1-res-spa-vendo-do-outro-lado-interno-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 16277900,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "8-ld1-res-ofuros-lounge-jacuzi-detalhe",
+          "source": "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_Detalhe.mp4",
+          "sourceSha256": "8be24fc59510a07d60671e1e69bb0120ab119b5e5d3d9a3ffd5bd66bc2ff742a",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/8-ld1-res-ofuros-lounge-jacuzi-detalhe-poster.webp",
+          "duration": 5.14,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/8-ld1-res-ofuros-lounge-jacuzi-detalhe-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 4352792,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "8-ld1-res-ofuros-lounge-jacuzi-ef",
+          "source": "Carrossel de Animações 3D/8.LD1_RES_Ofuros_Lounge_Jacuzi_EF.mp4",
+          "sourceSha256": "7782730e5c32933d4a1ea36e667f861f28bac852e408c23d988cdac95d2ef0a0",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/8-ld1-res-ofuros-lounge-jacuzi-ef-poster.webp",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/8-ld1-res-ofuros-lounge-jacuzi-ef-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 7552150,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "82-ld1-res-gourmet-da-piscina-externa",
+          "source": "Carrossel de Animações 3D/82.LD1_RES_Gourmet_da_piscina_externa.mp4",
+          "sourceSha256": "f79a4a176f35468ff495a31fafa195eef5b32e92fb9dc58b00e481caeb24fb76",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/82-ld1-res-gourmet-da-piscina-externa-poster.webp",
+          "duration": 6.533,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/82-ld1-res-gourmet-da-piscina-externa-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 10261879,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "89-ld1-res-piscina-blue-hour",
+          "source": "Carrossel de Animações 3D/89.LD1_RES Piscina blue hour.mp4",
+          "sourceSha256": "62674caf334b031e043206cc7d75c48f1a8b2de3c128fcf8be9d1e0429b23daa",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/89-ld1-res-piscina-blue-hour-poster.webp",
+          "duration": 9.96,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/89-ld1-res-piscina-blue-hour-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 12157414,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "ld1-res-tracking-tarde",
+          "source": "Carrossel de Animações 3D/LD1_RES_Tracking_Tarde.mp4",
+          "sourceSha256": "2b5cc7e5c878b747e647fd5d26e9ba9eeb718d2e38cb3ade470d2d3d781fd7cd",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/ld1-res-tracking-tarde-poster.webp",
+          "duration": 21.733,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/ld1-res-tracking-tarde-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 27039954,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "25-ld1-res-piscinas-angulo-2",
+          "source": "Corpo da página/25.LD1_RES Piscinas - Angulo 2.mp4",
+          "sourceSha256": "3e9f2ef2f31b32a7c50de145cdd9ae48b1c184fd1a48053e5d4546bb76314aaf",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/25-ld1-res-piscinas-angulo-2-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/25-ld1-res-piscinas-angulo-2-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 21650407,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "26-ld1-res-estar-descoberto",
+          "source": "Corpo da página/26.LD1_RES Estar Descoberto.mp4",
+          "sourceSha256": "e7790db2f9d5e85bb44712141b23fe4430f761b40366ebc931c08da13c13cfd8",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/26-ld1-res-estar-descoberto-poster.webp",
+          "duration": 9.967,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/26-ld1-res-estar-descoberto-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 15766864,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora",
+          "source": "Corpo da página/31.LD1_RES_Suite_master_do_apartamento_tipo_1_Vista de fora.mp4",
+          "sourceSha256": "ffc48bf38b8498ef44f2f78ab94b645cc6c253c01cf427fa417eed81421a4cb6",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora-poster.webp",
+          "duration": 6.54,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 7553987,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "5-ld1-res-embasamento-mata",
+          "source": "Corpo da página/5.LD1_RES Embasamento Mata.mp4",
+          "sourceSha256": "95283eb73a787f8e33d87c4b07cd3ca1c8d720b283284557a57c63382c07436f",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/5-ld1-res-embasamento-mata-poster.webp",
+          "duration": 10.0,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/5-ld1-res-embasamento-mata-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 23523700,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "81-ld1-res-jardim-de-meditacao-spa-ef",
+          "source": "Corpo da página/81.LD1_RES_Jardim_de_meditacao_-_SPA_EF.mp4",
+          "sourceSha256": "81abb50b7d42fe5eeeb0bb499b1e38633a6acf9306a9d58b1ab0efb96d2dd91e",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/81-ld1-res-jardim-de-meditacao-spa-ef-poster.webp",
+          "duration": 9.067,
+          "width": 3840,
+          "height": 2160,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": true,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/81-ld1-res-jardim-de-meditacao-spa-ef-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 11059048,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "ld1-res-tracking-manha",
+          "source": "Corpo da página/LD1_RES_Tracking_Manha.mp4",
+          "sourceSha256": "2fd5e4940eaebdfd2e9095010d372917c225bf709a1056687f2310944ac3e1ae",
+          "category": "animacoes",
+          "poster": "assets/media/ld-res/v1/posters/animacoes/ld1-res-tracking-manha-poster.webp",
+          "duration": 50.933,
+          "width": 4096,
+          "height": 2160,
+          "aspectRatio": "256:135",
+          "orientation": "landscape",
+          "hasAudio": false,
+          "loopCandidate": false,
+          "audioCodec": null,
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 19,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "720": {
+              "src": "assets/media/ld-res/v1/videos/animacoes/ld1-res-tracking-manha-720.mp4",
+              "width": 1280,
+              "height": 674,
+              "bytes": 33827855,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "ldh-res-jap-concept-film-hq",
+          "source": "Filme Conceito/LDH RES JAP_CONCEPT FILM_HQ.mp4",
+          "sourceSha256": "520bc2760971639fdbb8d1cb2935dc21b148c3db63993f11f1328fc258c168b1",
+          "category": "filmes",
+          "poster": "assets/media/ld-res/v1/posters/filmes/ldh-res-jap-concept-film-hq-poster.webp",
+          "duration": 157.783,
+          "width": 2560,
+          "height": 1440,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/filmes/ldh-res-jap-concept-film-hq-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 136281580,
+              "faststart": true
+            }
+          }
+        },
+        {
+          "id": "2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001",
+          "source": "Filme Documental/2025 LD10 RES BRA_DEP FULL_FHD_VF LEG(16x9)-001.mp4",
+          "sourceSha256": "1311118aa3e00bab4fd09b3defd4523c24b885eb041558f3746fa1b477e45b7c",
+          "category": "filmes",
+          "poster": "assets/media/ld-res/v1/posters/filmes/2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001-poster.webp",
+          "duration": 1143.142,
+          "width": 1920,
+          "height": 1080,
+          "aspectRatio": "16:9",
+          "orientation": "landscape",
+          "hasAudio": true,
+          "loopCandidate": false,
+          "audioCodec": "aac",
+          "videoCodec": "h264",
+          "profile": {
+            "crf": 21,
+            "preset": "slow",
+            "audioBitrate": "160k"
+          },
+          "pipelineVersion": 1,
+          "sources": {
+            "1080": {
+              "src": "assets/media/ld-res/v1/videos/filmes/2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001-1080.mp4",
+              "width": 1920,
+              "height": 1080,
+              "bytes": 481831205,
+              "faststart": true
+            }
+          }
+        }
+      ],
+      "posterOnly": [],
+      "errors": [],
+      "summary": {
+        "found": 38,
+        "inventoried": 38,
+        "processed": 36,
+        "skipped": 0,
+        "failed": 0,
+        "postersProcessed": 36,
+        "postersSkipped": 0,
+        "publishedVideos": 36,
+        "publishedPosterOnly": 0,
+        "publishedVariants": 36,
+        "posters": 36
+      }
     }
   }
 }

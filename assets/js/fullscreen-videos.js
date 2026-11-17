@@ -3,7 +3,9 @@
   const supportsObserver = "IntersectionObserver" in window;
 
   function initFilms() {
-    const films = Array.from(document.querySelectorAll(".case-v3-film__video, [data-service-video]"));
+    const films = Array.from(
+      document.querySelectorAll(".case-v3-film__video, [data-service-video]"),
+    );
     const observer = supportsObserver
       ? new IntersectionObserver(
           (entries) => {
@@ -24,10 +26,17 @@
       const trigger = video.parentElement.querySelector(
         "[data-case-film-play], [data-service-play]",
       );
+      const isEpisode = video.hasAttribute("data-case-episode-player");
+      const showTrigger = () => {
+        if (!trigger) return;
+        if (isEpisode) video.controls = false;
+        trigger.hidden = false;
+      };
       let wasFullscreen = false;
       if (trigger) {
-        trigger.hidden = false;
+        showTrigger();
         trigger.addEventListener("click", () => {
+          if (isEpisode) video.controls = true;
           const play = video.play();
           if (play) play.catch(() => {});
           if (video.requestFullscreen) {
@@ -52,7 +61,7 @@
       }
       const leaveFullscreen = () => {
         video.pause();
-        if (trigger) trigger.hidden = false;
+        showTrigger();
       };
       document.addEventListener("fullscreenchange", () => {
         if (document.fullscreenElement === video) wasFullscreen = true;

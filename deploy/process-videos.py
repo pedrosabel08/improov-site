@@ -41,10 +41,10 @@ def slugify(value: str) -> str:
     return value or "video"
 
 
-def category_for(path: Path, project_root: Path) -> str:
-    relative = path.relative_to(project_root)
-    top = slugify(relative.parts[0]) if relative.parts else "outros"
-    return top if top in CATEGORIES else "outros"
+def category_for(path: Path, project_root: Path, aliases: dict[str, str] | None = None) -> str:
+    top = path.relative_to(project_root).parts[0]
+    category = (aliases or {}).get(top, slugify(top))
+    return category if category in CATEGORIES else "outros"
 
 
 def command_path(explicit: str | None, name: str) -> str:
@@ -559,13 +559,14 @@ def main() -> int:
         return 2
 
     project_curation = curation_for(curation, manifest_key)
+    category_aliases = (project_curation or {}).get("categories")
 
     sources = sorted((path for path in project_root.rglob("*") if path.is_file() and path.suffix.lower() in VIDEO_EXTENSIONS), key=lambda item: item.as_posix().lower())
     print(f"[{args.slug}] Encontrados {len(sources)} videos")
     inventory: list[dict[str, Any]] = []
     errors: list[dict[str, str]] = []
     for source in sources:
-        category = category_for(source, project_root)
+        category = category_for(source, project_root, category_aliases)
         try:
             item = probe(source, ffprobe, category, project_root)
             inventory.append(item)

@@ -1635,6 +1635,410 @@
         "en": "RDO Empreendimentos Imobiliários · 3D images, 3D animations, Floor plans, Concept film",
         "es": "RDO Empreendimentos Imobiliários · Imágenes 3D, Animaciones 3D, Plantas humanizadas, Película conceptual"
       }
+    },
+    {
+      "slug": "ld-res",
+      "status": "published",
+      "order": 10,
+      "placement": "standard",
+      "showOnHome": true,
+      "homeOrder": 10,
+      "title": {
+        "pt-BR": "Reserva Japandi",
+        "en": "Reserva Japandi",
+        "es": "Reserva Japandi"
+      },
+      "location": {
+        "pt-BR": "Praia Brava - Itajaí - SC",
+        "en": "Praia Brava - Itajaí - SC",
+        "es": "Praia Brava - Itajaí - SC"
+      },
+      "media": {
+        "hero": {
+          "src": "assets/projetos/ld-res/imagens/imagem-ld-res-capa-fachada-64.jpg",
+          "width": 3840,
+          "height": 2160,
+          "alt": {
+            "pt-BR": "Torres do Reserva Japandi em meio à mata",
+            "en": "Reserva Japandi towers amid the forest",
+            "es": "Torres del Reserva Japandi en medio del bosque"
+          }
+        },
+        "animation": {
+          "manifest": "ld-res",
+          "id": "64-ld1-res-fachada-no-angulo-do-observador"
+        },
+        "gallery": [
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-02-ld-res-editorial-fotomontagem-aerea-angulo-2.jpg",
+            "width": 5280,
+            "height": 2970
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-01-ld-res-geral-fotomontagem-aerea-da-praia-brava.jpg",
+            "width": 9378,
+            "height": 6748
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-64-ld-res-geral-torres-vistas-do-observador.jpg",
+            "width": 3798,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-05-ld-res-geral-embasamento-e-acesso.jpg",
+            "width": 5000,
+            "height": 2813
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-84-ld-res-geral-beach-point.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-77-ld-res-geral-hall-principal.jpg",
+            "width": 5000,
+            "height": 3046
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-20-ld-res-geral-hall-com-cafe.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-80-ld-res-geral-caminho-com-espelhos-dagua.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg",
+            "width": 3798,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-23-ld-res-editorial-praca.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-25-ld-res-editorial-piscinas-angulo-2.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-11-ld-res-geral-salao-de-festas-principal.jpg",
+            "width": 5000,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-76-ld-res-geral-salao-de-festas-da-piscina.jpg",
+            "width": 5000,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-22-ld-res-geral-quiosque-gourmet.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-75-ld-res-geral-interior-do-quiosque.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-82-ld-res-geral-gourmet-da-piscina-externa.jpg",
+            "width": 5000,
+            "height": 2109
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-14-ld-res-geral-estar-gourmet.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-13-ld-res-geral-wine-club.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-12-ld-res-geral-poker-pub.jpg",
+            "width": 5000,
+            "height": 3760
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-72-ld-res-geral-entrada-da-boate.jpg",
+            "width": 2500,
+            "height": 1668
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-06-ld-res-geral-baladinha-com-vista-para-a-mata.jpg",
+            "width": 5000,
+            "height": 3334
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-17-ld-res-geral-academia-angulo-1.jpg",
+            "width": 5000,
+            "height": 2402
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-18-ld-res-geral-academia-angulo-2.jpg",
+            "width": 5000,
+            "height": 3336
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-15-ld-res-geral-playground.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-16-ld-res-geral-brinquedoteca-angulo-1.jpg",
+            "width": 5000,
+            "height": 4166
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-73-ld-res-geral-brinquedoteca-angulo-2.jpg",
+            "width": 5000,
+            "height": 2778
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-19-ld-res-geral-teen-space-e-quadra.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-21-ld-res-geral-jogos-e-espaco-gamer.jpg",
+            "width": 5000,
+            "height": 3760
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-27-ld-res-geral-coworking.jpg",
+            "width": 5000,
+            "height": 3644
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-66-ld-res-geral-espaco-pet.jpg",
+            "width": 5000,
+            "height": 2942
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-67-ld-res-geral-car-wash.jpg",
+            "width": 3000,
+            "height": 2186
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-78-ld-res-geral-salao-de-beleza.jpg",
+            "width": 5000,
+            "height": 3572
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-68-ld-res-editorial-spa-e-jacuzzis-vistos-de-cima.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-26-ld-res-editorial-estar-descoberto.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-24-ld-res-geral-piscinas-angulo-1.jpg",
+            "width": 5000,
+            "height": 3799
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-10-ld-res-geral-festas-com-piscina-e-vista-para-a-mata.jpg",
+            "width": 5000,
+            "height": 3572
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-79-ld-res-geral-mirante-para-a-mata.jpg",
+            "width": 5000,
+            "height": 2826
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-09-ld-res-geral-lounge-externo.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-69-ld-res-geral-spa-visto-de-fora.jpg",
+            "width": 5000,
+            "height": 2940
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-70-ld-res-geral-interior-do-spa.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-07-ld-res-geral-piscina-aquecida-com-vista-para-a-mata.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-08-ld-res-geral-ofuros-e-lounge.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-71-ld-res-geral-lounge-com-lareira.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-65-ld-res-geral-sala-de-massagem-com-vista-para-a-mata.jpg",
+            "width": 5000,
+            "height": 3840
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-83-ld-res-geral-sauna-umida.jpg",
+            "width": 5000,
+            "height": 3126
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-81-ld-res-geral-jardim-de-meditacao.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-89-ld-res-geral-piscina-na-hora-azul.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-45-ld-res-editorial-suite-da-cobertura-duplex-1.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-28-ld-res-unidade-tipo-1-living-angulo-1.jpg",
+            "width": 5000,
+            "height": 3332
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-29-ld-res-unidade-tipo-1-living-angulo-2.jpg",
+            "width": 5000,
+            "height": 3332
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-30-ld-res-unidade-tipo-1-sacada.jpg",
+            "width": 5000,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-31-ld-res-unidade-tipo-1-suite-principal.jpg",
+            "width": 5000,
+            "height": 3798
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-32-ld-res-unidade-tipo-2-living.jpg",
+            "width": 5000,
+            "height": 3648
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-33-ld-res-unidade-tipo-2-sacada.jpg",
+            "width": 5000,
+            "height": 3648
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-34-ld-res-unidade-tipo-2-suite-principal.jpg",
+            "width": 5000,
+            "height": 3172
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-35-ld-res-unidade-tipo-3-living.jpg",
+            "width": 5000,
+            "height": 2500
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-36-ld-res-unidade-tipo-3-sacada.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-37-ld-res-unidade-tipo-3-suite-principal.jpg",
+            "width": 5000,
+            "height": 4546
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-38-ld-res-unidade-duplex-1-living-angulo-1.jpg",
+            "width": 5000,
+            "height": 2272
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-39-ld-res-unidade-duplex-1-living-angulo-2.jpg",
+            "width": 5000,
+            "height": 3334
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-40-ld-res-unidade-duplex-1-sacada.jpg",
+            "width": 5000,
+            "height": 2778
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-46-ld-res-unidade-duplex-1-suite-principal-angulo-2.jpg",
+            "width": 5000,
+            "height": 2812
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-41-ld-res-unidade-duplex-2-living.jpg",
+            "width": 5000,
+            "height": 2702
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-42-ld-res-unidade-duplex-2-suite-principal.jpg",
+            "width": 5000,
+            "height": 5000
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-43-ld-res-unidade-duplex-3-living.jpg",
+            "width": 5000,
+            "height": 3846
+          },
+          {
+            "src": "assets/projetos/ld-res/imagens/imagem-44-ld-res-unidade-duplex-3-suite-principal-com-sacada.jpg",
+            "width": 5000,
+            "height": 2500
+          }
+        ]
+      },
+      "detail": {
+        "subtitle": {
+          "pt-BR": "",
+          "en": "",
+          "es": ""
+        },
+        "description": {
+          "pt-BR": [],
+          "en": [],
+          "es": []
+        },
+        "info": {
+          "client": "LDHorizon Empreendimentos",
+          "architect": "SIO2",
+          "year": ""
+        }
+      },
+      "mediaVersion": 1,
+      "cardContext": {
+        "pt-BR": "LDHorizon Empreendimentos · Imagens 3D, Animações 3D, Websérie documental, Filmes",
+        "en": "LDHorizon Empreendimentos · 3D images, 3D animations, Documentary series, Films",
+        "es": "LDHorizon Empreendimentos · Imágenes 3D, Animaciones 3D, Serie documental, Películas"
+      }
     }
   ]
 }

@@ -877,6 +877,292 @@
           "source": "projetos/rdo-val/_prepared/plantas/planta-09-rdo-val-horizontal.jpg"
         }
       ]
+    },
+    {
+      "slug": "ld-res",
+      "mediaVersion": 1,
+      "media": [
+        {
+          "name": "hero",
+          "source": "projetos/ld-res/imagens/imagem-ld-res-capa-fachada-64.jpg"
+        },
+        {
+          "name": "gallery-01",
+          "source": "projetos/ld-res/imagens/imagem-02-ld-res-editorial-fotomontagem-aerea-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-02",
+          "source": "projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg"
+        },
+        {
+          "name": "gallery-03",
+          "source": "projetos/ld-res/imagens/imagem-01-ld-res-geral-fotomontagem-aerea-da-praia-brava.jpg"
+        },
+        {
+          "name": "gallery-04",
+          "source": "projetos/ld-res/imagens/imagem-64-ld-res-geral-torres-vistas-do-observador.jpg"
+        },
+        {
+          "name": "gallery-05",
+          "source": "projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg"
+        },
+        {
+          "name": "gallery-06",
+          "source": "projetos/ld-res/imagens/imagem-05-ld-res-geral-embasamento-e-acesso.jpg"
+        },
+        {
+          "name": "gallery-07",
+          "source": "projetos/ld-res/imagens/imagem-84-ld-res-geral-beach-point.jpg"
+        },
+        {
+          "name": "gallery-08",
+          "source": "projetos/ld-res/imagens/imagem-77-ld-res-geral-hall-principal.jpg"
+        },
+        {
+          "name": "gallery-09",
+          "source": "projetos/ld-res/imagens/imagem-20-ld-res-geral-hall-com-cafe.jpg"
+        },
+        {
+          "name": "gallery-10",
+          "source": "projetos/ld-res/imagens/imagem-80-ld-res-geral-caminho-com-espelhos-dagua.jpg"
+        },
+        {
+          "name": "gallery-11",
+          "source": "projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg"
+        },
+        {
+          "name": "gallery-12",
+          "source": "projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg"
+        },
+        {
+          "name": "gallery-13",
+          "source": "projetos/ld-res/imagens/imagem-23-ld-res-editorial-praca.jpg"
+        },
+        {
+          "name": "gallery-14",
+          "source": "projetos/ld-res/imagens/imagem-25-ld-res-editorial-piscinas-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-15",
+          "source": "projetos/ld-res/imagens/imagem-11-ld-res-geral-salao-de-festas-principal.jpg"
+        },
+        {
+          "name": "gallery-16",
+          "source": "projetos/ld-res/imagens/imagem-76-ld-res-geral-salao-de-festas-da-piscina.jpg"
+        },
+        {
+          "name": "gallery-17",
+          "source": "projetos/ld-res/imagens/imagem-22-ld-res-geral-quiosque-gourmet.jpg"
+        },
+        {
+          "name": "gallery-18",
+          "source": "projetos/ld-res/imagens/imagem-75-ld-res-geral-interior-do-quiosque.jpg"
+        },
+        {
+          "name": "gallery-19",
+          "source": "projetos/ld-res/imagens/imagem-82-ld-res-geral-gourmet-da-piscina-externa.jpg"
+        },
+        {
+          "name": "gallery-20",
+          "source": "projetos/ld-res/imagens/imagem-14-ld-res-geral-estar-gourmet.jpg"
+        },
+        {
+          "name": "gallery-21",
+          "source": "projetos/ld-res/imagens/imagem-13-ld-res-geral-wine-club.jpg"
+        },
+        {
+          "name": "gallery-22",
+          "source": "projetos/ld-res/imagens/imagem-12-ld-res-geral-poker-pub.jpg"
+        },
+        {
+          "name": "gallery-23",
+          "source": "projetos/ld-res/imagens/imagem-72-ld-res-geral-entrada-da-boate.jpg"
+        },
+        {
+          "name": "gallery-24",
+          "source": "projetos/ld-res/imagens/imagem-06-ld-res-geral-baladinha-com-vista-para-a-mata.jpg"
+        },
+        {
+          "name": "gallery-25",
+          "source": "projetos/ld-res/imagens/imagem-17-ld-res-geral-academia-angulo-1.jpg"
+        },
+        {
+          "name": "gallery-26",
+          "source": "projetos/ld-res/imagens/imagem-18-ld-res-geral-academia-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-27",
+          "source": "projetos/ld-res/imagens/imagem-15-ld-res-geral-playground.jpg"
+        },
+        {
+          "name": "gallery-28",
+          "source": "projetos/ld-res/imagens/imagem-16-ld-res-geral-brinquedoteca-angulo-1.jpg"
+        },
+        {
+          "name": "gallery-29",
+          "source": "projetos/ld-res/imagens/imagem-73-ld-res-geral-brinquedoteca-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-30",
+          "source": "projetos/ld-res/imagens/imagem-19-ld-res-geral-teen-space-e-quadra.jpg"
+        },
+        {
+          "name": "gallery-31",
+          "source": "projetos/ld-res/imagens/imagem-21-ld-res-geral-jogos-e-espaco-gamer.jpg"
+        },
+        {
+          "name": "gallery-32",
+          "source": "projetos/ld-res/imagens/imagem-27-ld-res-geral-coworking.jpg"
+        },
+        {
+          "name": "gallery-33",
+          "source": "projetos/ld-res/imagens/imagem-66-ld-res-geral-espaco-pet.jpg"
+        },
+        {
+          "name": "gallery-34",
+          "source": "projetos/ld-res/imagens/imagem-67-ld-res-geral-car-wash.jpg"
+        },
+        {
+          "name": "gallery-35",
+          "source": "projetos/ld-res/imagens/imagem-78-ld-res-geral-salao-de-beleza.jpg"
+        },
+        {
+          "name": "gallery-36",
+          "source": "projetos/ld-res/imagens/imagem-68-ld-res-editorial-spa-e-jacuzzis-vistos-de-cima.jpg"
+        },
+        {
+          "name": "gallery-37",
+          "source": "projetos/ld-res/imagens/imagem-26-ld-res-editorial-estar-descoberto.jpg"
+        },
+        {
+          "name": "gallery-38",
+          "source": "projetos/ld-res/imagens/imagem-24-ld-res-geral-piscinas-angulo-1.jpg"
+        },
+        {
+          "name": "gallery-39",
+          "source": "projetos/ld-res/imagens/imagem-10-ld-res-geral-festas-com-piscina-e-vista-para-a-mata.jpg"
+        },
+        {
+          "name": "gallery-40",
+          "source": "projetos/ld-res/imagens/imagem-79-ld-res-geral-mirante-para-a-mata.jpg"
+        },
+        {
+          "name": "gallery-41",
+          "source": "projetos/ld-res/imagens/imagem-09-ld-res-geral-lounge-externo.jpg"
+        },
+        {
+          "name": "gallery-42",
+          "source": "projetos/ld-res/imagens/imagem-69-ld-res-geral-spa-visto-de-fora.jpg"
+        },
+        {
+          "name": "gallery-43",
+          "source": "projetos/ld-res/imagens/imagem-70-ld-res-geral-interior-do-spa.jpg"
+        },
+        {
+          "name": "gallery-44",
+          "source": "projetos/ld-res/imagens/imagem-07-ld-res-geral-piscina-aquecida-com-vista-para-a-mata.jpg"
+        },
+        {
+          "name": "gallery-45",
+          "source": "projetos/ld-res/imagens/imagem-08-ld-res-geral-ofuros-e-lounge.jpg"
+        },
+        {
+          "name": "gallery-46",
+          "source": "projetos/ld-res/imagens/imagem-71-ld-res-geral-lounge-com-lareira.jpg"
+        },
+        {
+          "name": "gallery-47",
+          "source": "projetos/ld-res/imagens/imagem-65-ld-res-geral-sala-de-massagem-com-vista-para-a-mata.jpg"
+        },
+        {
+          "name": "gallery-48",
+          "source": "projetos/ld-res/imagens/imagem-83-ld-res-geral-sauna-umida.jpg"
+        },
+        {
+          "name": "gallery-49",
+          "source": "projetos/ld-res/imagens/imagem-81-ld-res-geral-jardim-de-meditacao.jpg"
+        },
+        {
+          "name": "gallery-50",
+          "source": "projetos/ld-res/imagens/imagem-89-ld-res-geral-piscina-na-hora-azul.jpg"
+        },
+        {
+          "name": "gallery-51",
+          "source": "projetos/ld-res/imagens/imagem-45-ld-res-editorial-suite-da-cobertura-duplex-1.jpg"
+        },
+        {
+          "name": "gallery-52",
+          "source": "projetos/ld-res/imagens/imagem-28-ld-res-unidade-tipo-1-living-angulo-1.jpg"
+        },
+        {
+          "name": "gallery-53",
+          "source": "projetos/ld-res/imagens/imagem-29-ld-res-unidade-tipo-1-living-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-54",
+          "source": "projetos/ld-res/imagens/imagem-30-ld-res-unidade-tipo-1-sacada.jpg"
+        },
+        {
+          "name": "gallery-55",
+          "source": "projetos/ld-res/imagens/imagem-31-ld-res-unidade-tipo-1-suite-principal.jpg"
+        },
+        {
+          "name": "gallery-56",
+          "source": "projetos/ld-res/imagens/imagem-32-ld-res-unidade-tipo-2-living.jpg"
+        },
+        {
+          "name": "gallery-57",
+          "source": "projetos/ld-res/imagens/imagem-33-ld-res-unidade-tipo-2-sacada.jpg"
+        },
+        {
+          "name": "gallery-58",
+          "source": "projetos/ld-res/imagens/imagem-34-ld-res-unidade-tipo-2-suite-principal.jpg"
+        },
+        {
+          "name": "gallery-59",
+          "source": "projetos/ld-res/imagens/imagem-35-ld-res-unidade-tipo-3-living.jpg"
+        },
+        {
+          "name": "gallery-60",
+          "source": "projetos/ld-res/imagens/imagem-36-ld-res-unidade-tipo-3-sacada.jpg"
+        },
+        {
+          "name": "gallery-61",
+          "source": "projetos/ld-res/imagens/imagem-37-ld-res-unidade-tipo-3-suite-principal.jpg"
+        },
+        {
+          "name": "gallery-62",
+          "source": "projetos/ld-res/imagens/imagem-38-ld-res-unidade-duplex-1-living-angulo-1.jpg"
+        },
+        {
+          "name": "gallery-63",
+          "source": "projetos/ld-res/imagens/imagem-39-ld-res-unidade-duplex-1-living-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-64",
+          "source": "projetos/ld-res/imagens/imagem-40-ld-res-unidade-duplex-1-sacada.jpg"
+        },
+        {
+          "name": "gallery-65",
+          "source": "projetos/ld-res/imagens/imagem-46-ld-res-unidade-duplex-1-suite-principal-angulo-2.jpg"
+        },
+        {
+          "name": "gallery-66",
+          "source": "projetos/ld-res/imagens/imagem-41-ld-res-unidade-duplex-2-living.jpg"
+        },
+        {
+          "name": "gallery-67",
+          "source": "projetos/ld-res/imagens/imagem-42-ld-res-unidade-duplex-2-suite-principal.jpg"
+        },
+        {
+          "name": "gallery-68",
+          "source": "projetos/ld-res/imagens/imagem-43-ld-res-unidade-duplex-3-living.jpg"
+        },
+        {
+          "name": "gallery-69",
+          "source": "projetos/ld-res/imagens/imagem-44-ld-res-unidade-duplex-3-suite-principal-com-sacada.jpg"
+        }
+      ]
     }
   ],
   "site": [

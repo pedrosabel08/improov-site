@@ -103,6 +103,19 @@ $renderVideo = static function (array $video, string $class, string $kind, strin
     $label !== '' ? ' aria-label="' . escape($label) . '"' : '',
   );
 };
+$renderFilmPlayer = static function (array $video, array $source, string $title, string $label, bool $portrait = false) use ($caseText): string {
+  $playLabel = $caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']);
+  ob_start(); ?>
+  <div class="case-v3-film__video-wrap<?= $portrait ? ' case-v3-film__video-wrap--portrait' : '' ?>">
+    <video class="case-v3-film__video" controls playsinline preload="none"<?= $portrait ? ' data-case-episode-player' : '' ?> data-lazy-poster="<?= escape(asset((string) ($video['poster'] ?? ''))) ?>" width="<?= (int) ($source['width'] ?? $video['width'] ?? 1920) ?>" height="<?= (int) ($source['height'] ?? $video['height'] ?? 1080) ?>" aria-label="<?= escape($title) ?>">
+      <source src="<?= escape(asset((string) $source['src'])) ?>" type="video/mp4">
+    </video>
+    <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($playLabel . ' — ' . $label) ?>">
+      <span><?= site_icon('play', 'case-v3-icon') ?></span>
+    </button>
+  </div>
+  <?php return (string) ob_get_clean();
+};
 $sectionHasContent = static function (array $section) use ($environmentMap, $imageExists, $videoFor, $tourUrl): bool {
   $type = (string) ($section['type'] ?? '');
   if ($type === 'viewportAudio') {
@@ -348,6 +361,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
     $chapterKicker = (($section['navigation'] ?? true) !== false ? $number . ' / ' : '') . $chapterLabel; ?>
     <?php if ($type === 'carousel'): ?>
       <?php
+      $isEpisodeRail = ($section['layout'] ?? '') === 'episodes';
       $slides = [];
       foreach ($section['items'] ?? [] as $item) {
         if (!is_array($item)) {
@@ -366,21 +380,30 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
         }
         $video = $videoFor($item['mediaId'] ?? $item['video'] ?? null);
         if ($video !== null) {
-          $slides[] = ['type' => 'video', 'video' => $video, 'label' => $label];
+          $source = $isEpisodeRail ? case_video_source($video) : null;
+          if (!$isEpisodeRail || $source !== null) {
+            $slides[] = ['type' => 'video', 'video' => $video, 'label' => $label, 'source' => $source];
+          }
         }
       }
       ?>
       <section id="<?= escape($chapterId) ?>" class="case-v3-section case-v3-carousel" data-case-chapter="<?= escape($chapterId) ?>">
         <?php if (($section['showHeading'] ?? true) !== false): ?>
           <header class="case-v3-section__heading case-v3-shell" data-case-reveal="up">
-            <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
+            <?php if (($section['navigation'] ?? true) !== false): ?>
+              <p class="case-v3-kicker"><?= escape($chapterKicker) ?></p>
+            <?php endif; ?>
             <h2><?= escape($displaySectionLabel($section['title'] ?? $chapterLabel)) ?></h2>
           </header>
         <?php endif; ?>
-        <div class="case-v3-gallery__carousel" data-case-gallery-carousel>
+        <div class="case-v3-gallery__carousel<?= $isEpisodeRail ? ' case-v3-gallery__carousel--episodes' : '' ?>" data-case-gallery-carousel>
           <button class="case-v3-gallery__carousel-control case-v3-gallery__carousel-control--previous" type="button" data-case-gallery-previous aria-label="Mídia anterior"><?= site_icon('arrow-left', 'case-v3-icon') ?></button>
           <div class="case-v3-gallery__rail" data-case-gallery-rail tabindex="0" aria-label="<?= escape($chapterLabel) ?>. Use as setas ou deslize para explorar.">
-            <?php foreach ($slides as $slideIndex => $slide): ?>
+            <?php foreach ($slides as $slideIndex => $slide):
+              $isEpisode = $isEpisodeRail && $slide['type'] === 'video';
+              $duration = $isEpisode ? (int) round((float) ($slide['video']['duration'] ?? 0)) : 0;
+              $durationLabel = $duration > 0 ? sprintf('%d:%02d', intdiv($duration, 60), $duration % 60) : '';
+              ?>
               <figure class="case-v3-gallery__rail-item<?= !empty($slide['isPlan']) ? ' case-v3-gallery__rail-item--plan' : '' ?>" data-case-gallery-slide data-gallery-label="<?= escape($slide['label']) ?>" role="group" aria-roledescription="slide" aria-label="<?= escape(($slideIndex + 1) . ' de ' . count($slides) . ': ' . $slide['label']) ?>">
                 <div class="case-v3-gallery__media-frame">
                   <div class="case-v3-gallery__media-stage">
@@ -388,16 +411,22 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
                       <button class="case-v3-gallery__image-trigger" type="button" data-case-image-open data-image-set="<?= escape((string) $section['id']) ?>" data-image-src="<?= escape($lightboxImageUrl($slide['source'])) ?>" data-image-alt="<?= escape($caseTitle . ' — ' . $slide['label']) ?>" data-image-label="<?= escape($slide['label']) ?>" <?= !empty($slide['isPlan']) ? ' data-image-plan="true"' : '' ?> aria-label="Abrir <?= escape($slide['label']) ?> em tela cheia">
                         <?= $renderCarouselImage($slide['source'], 'case-v3-image', '(max-width: 767px) 94vw, 70vw', $slide['label']) ?>
                       </button>
+                    <?php elseif ($isEpisode): ?>
+                      <?= $renderFilmPlayer($slide['video'], $slide['source'], $slide['label'], $slide['label'], true) ?>
                     <?php else: ?>
                       <?= $renderVideo($slide['video'], 'case-v3-gallery__video', 'carousel', $slide['label']) ?>
                     <?php endif; ?>
                   </div>
                   <div class="case-v3-gallery__item-meta" aria-hidden="true">
                     <span><?= escape($slide['label']) ?></span>
-                    <span><?= str_pad((string) ($slideIndex + 1), 2, '0', STR_PAD_LEFT) ?> — <?= str_pad((string) count($slides), 2, '0', STR_PAD_LEFT) ?></span>
+                    <?php if ($isEpisode): ?>
+                      <span><?= escape($durationLabel) ?></span>
+                    <?php else: ?>
+                      <span><?= str_pad((string) ($slideIndex + 1), 2, '0', STR_PAD_LEFT) ?> — <?= str_pad((string) count($slides), 2, '0', STR_PAD_LEFT) ?></span>
+                    <?php endif; ?>
                   </div>
                 </div>
-                <figcaption><?= escape($slide['label']) ?></figcaption>
+                <figcaption><?= escape($slide['label'] . ($durationLabel !== '' ? ' · ' . $durationLabel : '')) ?></figcaption>
               </figure>
             <?php endforeach; ?>
           </div>
@@ -851,18 +880,13 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
           </header>
           <div class="case-v3-film__medias case-v3-film__medias--<?= count($films) > 1 ? 'multiple' : 'single' ?> case-v3-shell" data-case-reveal="mask">
             <?php foreach ($films as $filmIndex => $film): $filmId = $chapterId . '-film-' . ($filmIndex + 1); ?><div id="<?= escape($filmId) ?>" class="case-v3-film__media case-v3-film__media--<?= $filmIndex === 0 ? 'primary' : 'secondary' ?>">
-                <div class="case-v3-film__copy">
-                  <p class="case-v3-film__label"><?= escape($film['label']) ?></p>
-                  <p class="case-v3-film__description"><?= escape($film['title']) ?></p>
-                </div>
-                <div class="case-v3-film__video-wrap">
-                  <video class="case-v3-film__video" controls playsinline preload="none" data-lazy-poster="<?= escape(asset((string) ($film['video']['poster'] ?? ''))) ?>" width="<?= (int) ($film['source']['width'] ?? $film['video']['width'] ?? 1920) ?>" height="<?= (int) ($film['source']['height'] ?? $film['video']['height'] ?? 1080) ?>" aria-label="<?= escape($film['title']) ?>">
-                    <source src="<?= escape(asset((string) $film['source']['src'])) ?>" type="video/mp4">
-                  </video>
-                  <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']) . ' — ' . $film['label']) ?>">
-                    <span><?= site_icon('play', 'case-v3-icon') ?></span>
-                  </button>
-                </div>
+                <?php if (($section['showCopy'] ?? true) !== false): ?>
+                  <div class="case-v3-film__copy">
+                    <p class="case-v3-film__label"><?= escape($film['label']) ?></p>
+                    <p class="case-v3-film__description"><?= escape($film['title']) ?></p>
+                  </div>
+                <?php endif; ?>
+                <?= $renderFilmPlayer($film['video'], $film['source'], $film['title'], $film['label']) ?>
               </div><?php endforeach; ?>
           </div>
         </section>

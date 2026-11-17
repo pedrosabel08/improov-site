@@ -4461,6 +4461,1101 @@
           "es": "Ver todos los cases"
         }
       }
+    },
+    "ld-res": {
+      "theme": "light",
+      "motion": "slow",
+      "hero": {
+        "video": "ld1-res-tracking-manha",
+        "label": {
+          "pt-BR": "Improov / Case",
+          "en": "Improov / Case",
+          "es": "Improov / Case"
+        }
+      },
+      "services": [
+        {
+          "pt-BR": "Imagens 3D",
+          "en": "3D images",
+          "es": "Imágenes 3D"
+        },
+        {
+          "pt-BR": "Animações 3D",
+          "en": "3D animations",
+          "es": "Animaciones 3D"
+        },
+        {
+          "pt-BR": "Websérie documental",
+          "en": "Documentary series",
+          "es": "Serie documental"
+        },
+        {
+          "pt-BR": "Filmes",
+          "en": "Films",
+          "es": "Películas"
+        }
+      ],
+      "sections": [
+        {
+          "type": "closing",
+          "id": "ficha-tecnica",
+          "label": {
+            "pt-BR": "Ficha técnica",
+            "en": "Project credits",
+            "es": "Ficha técnica"
+          }
+        },
+        {
+          "type": "editorialBlock",
+          "id": "implantacao-e-fachada",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "5-ld1-res-embasamento-mata",
+              "label": {
+                "pt-BR": "Embasamento junto à mata",
+                "en": "Podium by the forest",
+                "es": "Basamento junto al bosque"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-02-ld-res-editorial-fotomontagem-aerea-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Fotomontagem aérea · ângulo 2",
+                "en": "Aerial photomontage · angle 2",
+                "es": "Fotomontaje aéreo · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-03-ld-res-editorial-fachada-vista-de-baixo.jpg",
+              "label": {
+                "pt-BR": "Fachada vista de baixo",
+                "en": "Façade from below",
+                "es": "Fachada vista desde abajo"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "fachadas-e-areas-comuns",
+          "label": {
+            "pt-BR": "Fachadas e áreas comuns",
+            "en": "Façades and shared spaces",
+            "es": "Fachadas y zonas comunes"
+          },
+          "title": {
+            "pt-BR": "Fachadas e acesso",
+            "en": "Façades and arrival",
+            "es": "Fachadas y acceso"
+          },
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-01-ld-res-geral-fotomontagem-aerea-da-praia-brava.jpg",
+              "label": {
+                "pt-BR": "Fotomontagem aérea da Praia Brava",
+                "en": "Aerial photomontage of Praia Brava",
+                "es": "Fotomontaje aéreo de Praia Brava"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-64-ld-res-geral-torres-vistas-do-observador.jpg",
+              "label": {
+                "pt-BR": "Torres vistas do observador",
+                "en": "Towers at eye level",
+                "es": "Torres a la altura del observador"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-04-ld-res-geral-fachada-no-nivel-da-rua.jpg",
+              "label": {
+                "pt-BR": "Fachada no nível da rua",
+                "en": "Street-level façade",
+                "es": "Fachada a nivel de calle"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-05-ld-res-geral-embasamento-e-acesso.jpg",
+              "label": {
+                "pt-BR": "Embasamento e acesso",
+                "en": "Podium and entrance",
+                "es": "Basamento y acceso"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-84-ld-res-geral-beach-point.jpg",
+              "label": {
+                "pt-BR": "Beach Point",
+                "en": "Beach Point",
+                "es": "Beach Point"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-77-ld-res-geral-hall-principal.jpg",
+              "label": {
+                "pt-BR": "Hall principal",
+                "en": "Main lobby",
+                "es": "Vestíbulo principal"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-20-ld-res-geral-hall-com-cafe.jpg",
+              "label": {
+                "pt-BR": "Hall com café",
+                "en": "Lobby with café",
+                "es": "Vestíbulo con café"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-80-ld-res-geral-caminho-com-espelhos-dagua.jpg",
+              "label": {
+                "pt-BR": "Caminho com espelhos-d’água",
+                "en": "Path with reflecting pools",
+                "es": "Sendero con espejos de agua"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-87-ld-res-geral-fachada-angular-na-hora-azul.jpg",
+              "label": {
+                "pt-BR": "Fachada angular na hora azul",
+                "en": "Angled view of the façade at blue hour",
+                "es": "Fachada en ángulo durante la hora azul"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-88-ld-res-geral-fachada-aerea-na-hora-azul.jpg",
+              "label": {
+                "pt-BR": "Fachada aérea na hora azul",
+                "en": "Aerial view of the façade at blue hour",
+                "es": "Vista aérea de la fachada durante la hora azul"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "praca-e-piscinas",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "25-ld1-res-piscinas-angulo-2",
+              "label": {
+                "pt-BR": "Piscinas · ângulo 2",
+                "en": "Pools · angle 2",
+                "es": "Piscinas · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-23-ld-res-editorial-praca.jpg",
+              "label": {
+                "pt-BR": "Praça",
+                "en": "Courtyard",
+                "es": "Plaza"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-25-ld-res-editorial-piscinas-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Piscinas · ângulo 2",
+                "en": "Pools · angle 2",
+                "es": "Piscinas · ángulo 2"
+              }
+            },
+            {
+              "mediaId": "26-ld1-res-estar-descoberto",
+              "label": {
+                "pt-BR": "Estar Descoberto",
+                "en": "Open-air lounge",
+                "es": "Salón al aire libre"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "convivencia-e-gastronomia",
+          "label": {
+            "pt-BR": "Convivência e gastronomia",
+            "en": "Social and dining spaces",
+            "es": "Convivencia y gastronomía"
+          },
+          "navigation": false,
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-11-ld-res-geral-salao-de-festas-principal.jpg",
+              "label": {
+                "pt-BR": "Salão de festas principal",
+                "en": "Main event room",
+                "es": "Salón de fiestas principal"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-76-ld-res-geral-salao-de-festas-da-piscina.jpg",
+              "label": {
+                "pt-BR": "Salão de festas da piscina",
+                "en": "Poolside event room",
+                "es": "Salón de fiestas junto a la piscina"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-22-ld-res-geral-quiosque-gourmet.jpg",
+              "label": {
+                "pt-BR": "Quiosque gourmet",
+                "en": "Gourmet pavilion",
+                "es": "Quiosco gourmet"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-75-ld-res-geral-interior-do-quiosque.jpg",
+              "label": {
+                "pt-BR": "Interior do quiosque",
+                "en": "Pavilion interior",
+                "es": "Interior del quiosco"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-82-ld-res-geral-gourmet-da-piscina-externa.jpg",
+              "label": {
+                "pt-BR": "Gourmet da piscina externa",
+                "en": "Outdoor pool gourmet area",
+                "es": "Área gourmet de la piscina exterior"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-14-ld-res-geral-estar-gourmet.jpg",
+              "label": {
+                "pt-BR": "Estar Gourmet",
+                "en": "Gourmet lounge",
+                "es": "Salón gourmet"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-13-ld-res-geral-wine-club.jpg",
+              "label": {
+                "pt-BR": "Wine Club",
+                "en": "Wine Club",
+                "es": "Wine Club"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-12-ld-res-geral-poker-pub.jpg",
+              "label": {
+                "pt-BR": "Poker Pub",
+                "en": "Poker Pub",
+                "es": "Poker Pub"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-72-ld-res-geral-entrada-da-boate.jpg",
+              "label": {
+                "pt-BR": "Entrada da boate",
+                "en": "Nightclub entrance",
+                "es": "Entrada de la discoteca"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-06-ld-res-geral-baladinha-com-vista-para-a-mata.jpg",
+              "label": {
+                "pt-BR": "Baladinha com vista para a mata",
+                "en": "Lounge overlooking the forest",
+                "es": "Sala de fiestas con vista al bosque"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "esporte-lazer-e-servicos",
+          "label": {
+            "pt-BR": "Esporte, lazer e serviços",
+            "en": "Sports, leisure and amenities",
+            "es": "Deporte, ocio y servicios"
+          },
+          "navigation": false,
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-17-ld-res-geral-academia-angulo-1.jpg",
+              "label": {
+                "pt-BR": "Academia · ângulo 1",
+                "en": "Gym · angle 1",
+                "es": "Gimnasio · ángulo 1"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-18-ld-res-geral-academia-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Academia · ângulo 2",
+                "en": "Gym · angle 2",
+                "es": "Gimnasio · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-15-ld-res-geral-playground.jpg",
+              "label": {
+                "pt-BR": "Playground",
+                "en": "Playground",
+                "es": "Parque infantil"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-16-ld-res-geral-brinquedoteca-angulo-1.jpg",
+              "label": {
+                "pt-BR": "Brinquedoteca · ângulo 1",
+                "en": "Playroom · angle 1",
+                "es": "Sala de juegos infantil · ángulo 1"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-73-ld-res-geral-brinquedoteca-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Brinquedoteca · ângulo 2",
+                "en": "Playroom · angle 2",
+                "es": "Sala de juegos infantil · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-19-ld-res-geral-teen-space-e-quadra.jpg",
+              "label": {
+                "pt-BR": "Teen Space e quadra",
+                "en": "Teen Space and court",
+                "es": "Teen Space y cancha"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-21-ld-res-geral-jogos-e-espaco-gamer.jpg",
+              "label": {
+                "pt-BR": "Jogos e espaço gamer",
+                "en": "Games room and gaming area",
+                "es": "Sala de juegos y zona gamer"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-27-ld-res-geral-coworking.jpg",
+              "label": {
+                "pt-BR": "Coworking",
+                "en": "Coworking",
+                "es": "Coworking"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-66-ld-res-geral-espaco-pet.jpg",
+              "label": {
+                "pt-BR": "Espaço pet",
+                "en": "Pet area",
+                "es": "Zona para mascotas"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-67-ld-res-geral-car-wash.jpg",
+              "label": {
+                "pt-BR": "Car wash",
+                "en": "Car wash",
+                "es": "Car wash"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-78-ld-res-geral-salao-de-beleza.jpg",
+              "label": {
+                "pt-BR": "Salão de beleza",
+                "en": "Beauty salon",
+                "es": "Salón de belleza"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "spa-e-mata",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "81-ld1-res-jardim-de-meditacao-spa-ef",
+              "label": {
+                "pt-BR": "Jardim de meditação",
+                "en": "Meditation garden",
+                "es": "Jardín de meditación"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-68-ld-res-editorial-spa-e-jacuzzis-vistos-de-cima.jpg",
+              "label": {
+                "pt-BR": "Spa e jacuzzis vistos de cima",
+                "en": "Spa and hot tubs from above",
+                "es": "Spa y jacuzzis vistos desde arriba"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-26-ld-res-editorial-estar-descoberto.jpg",
+              "label": {
+                "pt-BR": "Estar Descoberto",
+                "en": "Open-air lounge",
+                "es": "Salón al aire libre"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "piscinas-spa-e-paisagismo",
+          "label": {
+            "pt-BR": "Piscinas, spa e paisagismo",
+            "en": "Pools, spa and landscape",
+            "es": "Piscinas, spa y paisajismo"
+          },
+          "navigation": false,
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-24-ld-res-geral-piscinas-angulo-1.jpg",
+              "label": {
+                "pt-BR": "Piscinas · ângulo 1",
+                "en": "Pools · angle 1",
+                "es": "Piscinas · ángulo 1"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-10-ld-res-geral-festas-com-piscina-e-vista-para-a-mata.jpg",
+              "label": {
+                "pt-BR": "Festas com piscina e vista para a mata",
+                "en": "Event room with pool and forest views",
+                "es": "Salón de fiestas con piscina y vista al bosque"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-79-ld-res-geral-mirante-para-a-mata.jpg",
+              "label": {
+                "pt-BR": "Mirante para a mata",
+                "en": "Forest lookout",
+                "es": "Mirador al bosque"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-09-ld-res-geral-lounge-externo.jpg",
+              "label": {
+                "pt-BR": "Lounge externo",
+                "en": "Outdoor lounge",
+                "es": "Salón al aire libre"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-69-ld-res-geral-spa-visto-de-fora.jpg",
+              "label": {
+                "pt-BR": "Spa visto de fora",
+                "en": "Spa from outside",
+                "es": "Spa visto desde fuera"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-70-ld-res-geral-interior-do-spa.jpg",
+              "label": {
+                "pt-BR": "Interior do spa",
+                "en": "Spa interior",
+                "es": "Interior del spa"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-07-ld-res-geral-piscina-aquecida-com-vista-para-a-mata.jpg",
+              "label": {
+                "pt-BR": "Piscina aquecida com vista para a mata",
+                "en": "Heated pool overlooking the forest",
+                "es": "Piscina climatizada con vista al bosque"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-08-ld-res-geral-ofuros-e-lounge.jpg",
+              "label": {
+                "pt-BR": "Ofurôs e lounge",
+                "en": "Soaking tubs and lounge",
+                "es": "Ofuros y salón"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-71-ld-res-geral-lounge-com-lareira.jpg",
+              "label": {
+                "pt-BR": "Lounge com lareira",
+                "en": "Lounge with fireplace",
+                "es": "Salón con chimenea"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-65-ld-res-geral-sala-de-massagem-com-vista-para-a-mata.jpg",
+              "label": {
+                "pt-BR": "Sala de massagem com vista para a mata",
+                "en": "Massage room overlooking the forest",
+                "es": "Sala de masajes con vista al bosque"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-83-ld-res-geral-sauna-umida.jpg",
+              "label": {
+                "pt-BR": "Sauna úmida",
+                "en": "Steam room",
+                "es": "Baño de vapor"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-81-ld-res-geral-jardim-de-meditacao.jpg",
+              "label": {
+                "pt-BR": "Jardim de meditação",
+                "en": "Meditation garden",
+                "es": "Jardín de meditación"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-89-ld-res-geral-piscina-na-hora-azul.jpg",
+              "label": {
+                "pt-BR": "Piscina na hora azul",
+                "en": "Pool at blue hour",
+                "es": "Piscina durante la hora azul"
+              }
+            }
+          ]
+        },
+        {
+          "type": "editorialBlock",
+          "id": "interiores-das-unidades",
+          "navigation": false,
+          "items": [
+            {
+              "mediaId": "31-ld1-res-suite-master-do-apartamento-tipo-1-vista-de-fora",
+              "label": {
+                "pt-BR": "Suíte do tipo 1 vista de fora",
+                "en": "Type 1 suite from outside",
+                "es": "Suite del tipo 1 vista desde fuera"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-45-ld-res-editorial-suite-da-cobertura-duplex-1.jpg",
+              "label": {
+                "pt-BR": "Suíte da cobertura duplex 1",
+                "en": "Duplex penthouse 1 suite",
+                "es": "Suite del ático dúplex 1"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "unidades",
+          "label": {
+            "pt-BR": "Unidades",
+            "en": "Residences",
+            "es": "Unidades"
+          },
+          "title": {
+            "pt-BR": "Apartamentos",
+            "en": "Apartments",
+            "es": "Apartamentos"
+          },
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-28-ld-res-unidade-tipo-1-living-angulo-1.jpg",
+              "label": {
+                "pt-BR": "Tipo 1 · Living · ângulo 1",
+                "en": "Type 1 · Living room · angle 1",
+                "es": "Tipo 1 · Sala de estar · ángulo 1"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-29-ld-res-unidade-tipo-1-living-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Tipo 1 · Living · ângulo 2",
+                "en": "Type 1 · Living room · angle 2",
+                "es": "Tipo 1 · Sala de estar · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-30-ld-res-unidade-tipo-1-sacada.jpg",
+              "label": {
+                "pt-BR": "Tipo 1 · Sacada",
+                "en": "Type 1 · Balcony",
+                "es": "Tipo 1 · Balcón"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-31-ld-res-unidade-tipo-1-suite-principal.jpg",
+              "label": {
+                "pt-BR": "Tipo 1 · Suíte principal",
+                "en": "Type 1 · Primary suite",
+                "es": "Tipo 1 · Suite principal"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-32-ld-res-unidade-tipo-2-living.jpg",
+              "label": {
+                "pt-BR": "Tipo 2 · Living",
+                "en": "Type 2 · Living room",
+                "es": "Tipo 2 · Sala de estar"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-33-ld-res-unidade-tipo-2-sacada.jpg",
+              "label": {
+                "pt-BR": "Tipo 2 · Sacada",
+                "en": "Type 2 · Balcony",
+                "es": "Tipo 2 · Balcón"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-34-ld-res-unidade-tipo-2-suite-principal.jpg",
+              "label": {
+                "pt-BR": "Tipo 2 · Suíte principal",
+                "en": "Type 2 · Primary suite",
+                "es": "Tipo 2 · Suite principal"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-35-ld-res-unidade-tipo-3-living.jpg",
+              "label": {
+                "pt-BR": "Tipo 3 · Living",
+                "en": "Type 3 · Living room",
+                "es": "Tipo 3 · Sala de estar"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-36-ld-res-unidade-tipo-3-sacada.jpg",
+              "label": {
+                "pt-BR": "Tipo 3 · Sacada",
+                "en": "Type 3 · Balcony",
+                "es": "Tipo 3 · Balcón"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-37-ld-res-unidade-tipo-3-suite-principal.jpg",
+              "label": {
+                "pt-BR": "Tipo 3 · Suíte principal",
+                "en": "Type 3 · Primary suite",
+                "es": "Tipo 3 · Suite principal"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "coberturas-duplex",
+          "label": {
+            "pt-BR": "Coberturas duplex",
+            "en": "Duplex penthouses",
+            "es": "Áticos dúplex"
+          },
+          "navigation": false,
+          "items": [
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-38-ld-res-unidade-duplex-1-living-angulo-1.jpg",
+              "label": {
+                "pt-BR": "Duplex 1 · Living · ângulo 1",
+                "en": "Duplex 1 · Living room · angle 1",
+                "es": "Duplex 1 · Sala de estar · ángulo 1"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-39-ld-res-unidade-duplex-1-living-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Duplex 1 · Living · ângulo 2",
+                "en": "Duplex 1 · Living room · angle 2",
+                "es": "Duplex 1 · Sala de estar · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-40-ld-res-unidade-duplex-1-sacada.jpg",
+              "label": {
+                "pt-BR": "Duplex 1 · Sacada",
+                "en": "Duplex 1 · Balcony",
+                "es": "Duplex 1 · Balcón"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-46-ld-res-unidade-duplex-1-suite-principal-angulo-2.jpg",
+              "label": {
+                "pt-BR": "Duplex 1 · Suíte principal · ângulo 2",
+                "en": "Duplex 1 · Primary suite · angle 2",
+                "es": "Duplex 1 · Suite principal · ángulo 2"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-41-ld-res-unidade-duplex-2-living.jpg",
+              "label": {
+                "pt-BR": "Duplex 2 · Living",
+                "en": "Duplex 2 · Living room",
+                "es": "Duplex 2 · Sala de estar"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-42-ld-res-unidade-duplex-2-suite-principal.jpg",
+              "label": {
+                "pt-BR": "Duplex 2 · Suíte principal",
+                "en": "Duplex 2 · Primary suite",
+                "es": "Duplex 2 · Suite principal"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-43-ld-res-unidade-duplex-3-living.jpg",
+              "label": {
+                "pt-BR": "Duplex 3 · Living",
+                "en": "Duplex 3 · Living room",
+                "es": "Duplex 3 · Sala de estar"
+              }
+            },
+            {
+              "src": "assets/projetos/ld-res/imagens/imagem-44-ld-res-unidade-duplex-3-suite-principal-com-sacada.jpg",
+              "label": {
+                "pt-BR": "Duplex 3 · Suíte principal com sacada",
+                "en": "Duplex 3 · Primary suite with balcony",
+                "es": "Duplex 3 · Suite principal con balcón"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "animacoes-3d",
+          "label": {
+            "pt-BR": "Animações 3D",
+            "en": "3D animations",
+            "es": "Animaciones 3D"
+          },
+          "items": [
+            {
+              "mediaId": "ld1-res-tracking-tarde",
+              "label": {
+                "pt-BR": "Vista aérea à tarde",
+                "en": "Afternoon aerial view",
+                "es": "Vista aérea por la tarde"
+              }
+            },
+            {
+              "mediaId": "64-ld1-res-fachada-no-angulo-do-observador",
+              "label": {
+                "pt-BR": "Torres vistas do observador",
+                "en": "Towers at eye level",
+                "es": "Torres a la altura del observador"
+              }
+            },
+            {
+              "mediaId": "4-ld1-res-fachada-no-angulo-do-observador",
+              "label": {
+                "pt-BR": "Fachada no nível da rua",
+                "en": "Street-level façade",
+                "es": "Fachada a nivel de calle"
+              }
+            },
+            {
+              "mediaId": "23-ld1-res-praca",
+              "label": {
+                "pt-BR": "Praça",
+                "en": "Courtyard",
+                "es": "Plaza"
+              }
+            },
+            {
+              "mediaId": "24-ld1-res-piscinas-angulo-1",
+              "label": {
+                "pt-BR": "Piscinas · ângulo 1",
+                "en": "Pools · angle 1",
+                "es": "Piscinas · ángulo 1"
+              }
+            },
+            {
+              "mediaId": "25-ld1-res-piscinas-angulo-2-detalhe",
+              "label": {
+                "pt-BR": "Piscinas · detalhe",
+                "en": "Pools · detail",
+                "es": "Piscinas · detalle"
+              }
+            },
+            {
+              "mediaId": "26-ld1-res-estar-descoberto-detalhe",
+              "label": {
+                "pt-BR": "Estar Descoberto · detalhe",
+                "en": "Open-air lounge · detail",
+                "es": "Salón al aire libre · detalle"
+              }
+            },
+            {
+              "mediaId": "82-ld1-res-gourmet-da-piscina-externa",
+              "label": {
+                "pt-BR": "Gourmet da piscina externa",
+                "en": "Outdoor pool gourmet area",
+                "es": "Área gourmet de la piscina exterior"
+              }
+            },
+            {
+              "mediaId": "68-ld1-res-spa-vendo-de-cima",
+              "label": {
+                "pt-BR": "Spa e jacuzzis vistos de cima",
+                "en": "Spa and hot tubs from above",
+                "es": "Spa y jacuzzis vistos desde arriba"
+              }
+            },
+            {
+              "mediaId": "69-ld1-res-spa-vendo-do-vidro-de-fora-pra-dentro",
+              "label": {
+                "pt-BR": "Spa visto de fora",
+                "en": "Spa from outside",
+                "es": "Spa visto desde fuera"
+              }
+            },
+            {
+              "mediaId": "70-ld1-res-spa-vendo-do-outro-lado-interno",
+              "label": {
+                "pt-BR": "Interior do spa",
+                "en": "Spa interior",
+                "es": "Interior del spa"
+              }
+            },
+            {
+              "mediaId": "7-ld1-res-piscina-aquecida-com-vista-para-a-mata-ef",
+              "label": {
+                "pt-BR": "Piscina aquecida com vista para a mata",
+                "en": "Heated pool overlooking the forest",
+                "es": "Piscina climatizada con vista al bosque"
+              }
+            },
+            {
+              "mediaId": "7-ld1-res-piscina-aquecida-com-vista-para-a-mata-detalhe-cascata",
+              "label": {
+                "pt-BR": "Cascata da piscina aquecida",
+                "en": "Heated pool waterfall",
+                "es": "Cascada de la piscina climatizada"
+              }
+            },
+            {
+              "mediaId": "8-ld1-res-ofuros-lounge-jacuzi-ef",
+              "label": {
+                "pt-BR": "Ofurôs e lounge",
+                "en": "Soaking tubs and lounge",
+                "es": "Ofuros y salón"
+              }
+            },
+            {
+              "mediaId": "8-ld1-res-ofuros-lounge-jacuzi-detalhe",
+              "label": {
+                "pt-BR": "Ofurôs · detalhe",
+                "en": "Soaking tubs · detail",
+                "es": "Ofuros · detalle"
+              }
+            },
+            {
+              "mediaId": "17-ld1-res-academia-angulo-1-detalhe",
+              "label": {
+                "pt-BR": "Academia · detalhe",
+                "en": "Gym · detail",
+                "es": "Gimnasio · detalle"
+              }
+            },
+            {
+              "mediaId": "13-ld1-res-wine-club",
+              "label": {
+                "pt-BR": "Wine Club",
+                "en": "Wine Club",
+                "es": "Wine Club"
+              }
+            },
+            {
+              "mediaId": "13-ld1-res-wine-club-detalhe",
+              "label": {
+                "pt-BR": "Wine Club · detalhe",
+                "en": "Wine Club · detail",
+                "es": "Wine Club · detalle"
+              }
+            },
+            {
+              "mediaId": "29-ld1-res-living-do-apartamento-tipo-1-angulo-2",
+              "label": {
+                "pt-BR": "Living do tipo 1 · ângulo 2",
+                "en": "Type 1 living room · angle 2",
+                "es": "Sala del tipo 1 · ángulo 2"
+              }
+            },
+            {
+              "mediaId": "31-ld1-res-suite-master-do-apartamento-tipo-1",
+              "label": {
+                "pt-BR": "Suíte do tipo 1",
+                "en": "Type 1 primary suite",
+                "es": "Suite del tipo 1"
+              }
+            },
+            {
+              "mediaId": "46-ld1-res-suite-master-do-apartamento-cobertura-duplex-1",
+              "label": {
+                "pt-BR": "Suíte da cobertura duplex 1",
+                "en": "Duplex penthouse 1 suite",
+                "es": "Suite del ático dúplex 1"
+              }
+            },
+            {
+              "mediaId": "89-ld1-res-piscina-blue-hour",
+              "label": {
+                "pt-BR": "Piscina na hora azul",
+                "en": "Pool at blue hour",
+                "es": "Piscina durante la hora azul"
+              }
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "id": "webserie-documental",
+          "label": {
+            "pt-BR": "Websérie documental",
+            "en": "Documentary series",
+            "es": "Serie documental"
+          },
+          "items": [
+            {
+              "mediaId": "2025-ld10-ep1-2",
+              "label": {
+                "pt-BR": "Episódio 1",
+                "en": "Episode 1",
+                "es": "Episodio 1"
+              }
+            },
+            {
+              "mediaId": "2025-ld10-ep2-2",
+              "label": {
+                "pt-BR": "Episódio 2",
+                "en": "Episode 2",
+                "es": "Episodio 2"
+              }
+            },
+            {
+              "mediaId": "2025-ld10-ep3-2",
+              "label": {
+                "pt-BR": "Episódio 3",
+                "en": "Episode 3",
+                "es": "Episodio 3"
+              }
+            },
+            {
+              "mediaId": "2025-ld10-ep4-2",
+              "label": {
+                "pt-BR": "Episódio 4",
+                "en": "Episode 4",
+                "es": "Episodio 4"
+              }
+            },
+            {
+              "mediaId": "2025-ld10-ep5-2",
+              "label": {
+                "pt-BR": "Episódio 5",
+                "en": "Episode 5",
+                "es": "Episodio 5"
+              }
+            },
+            {
+              "mediaId": "2025-ld10-ep6-2",
+              "label": {
+                "pt-BR": "Episódio 6",
+                "en": "Episode 6",
+                "es": "Episodio 6"
+              }
+            }
+          ],
+          "layout": "episodes"
+        },
+        {
+          "type": "film",
+          "id": "filme-conceito",
+          "label": {
+            "pt-BR": "Filme Conceito",
+            "en": "Concept Film",
+            "es": "Película conceptual"
+          },
+          "showCopy": false,
+          "videos": [
+            {
+              "video": "ldh-res-jap-concept-film-hq",
+              "label": {
+                "pt-BR": "Filme Conceito",
+                "en": "Concept Film",
+                "es": "Película conceptual"
+              }
+            }
+          ]
+        },
+        {
+          "type": "film",
+          "id": "filme-documental",
+          "label": {
+            "pt-BR": "Filme Documental",
+            "en": "Documentary Film",
+            "es": "Película documental"
+          },
+          "showCopy": false,
+          "videos": [
+            {
+              "video": "2025-ld10-res-bra-dep-full-fhd-vf-leg-16x9-001",
+              "label": {
+                "pt-BR": "Filme Documental",
+                "en": "Documentary Film",
+                "es": "Película documental"
+              }
+            }
+          ]
+        }
+      ],
+      "credits": {
+        "items": [
+          {
+            "label": {
+              "pt-BR": "Projeto",
+              "en": "Project",
+              "es": "Proyecto"
+            },
+            "value": "Reserva Japandi"
+          },
+          {
+            "label": {
+              "pt-BR": "Cliente",
+              "en": "Client",
+              "es": "Cliente"
+            },
+            "value": "LDHorizon Empreendimentos"
+          },
+          {
+            "label": {
+              "pt-BR": "Localização",
+              "en": "Location",
+              "es": "Ubicación"
+            },
+            "value": "Praia Brava - Itajaí - SC"
+          },
+          {
+            "label": {
+              "pt-BR": "Arquitetura",
+              "en": "Architecture",
+              "es": "Arquitectura"
+            },
+            "value": "SIO2"
+          },
+          {
+            "label": {
+              "pt-BR": "Arquitetura de Fachada, áreas comuns e Interiores",
+              "en": "Façade, Common Areas and Interior Architecture",
+              "es": "Arquitectura de Fachada, zonas comunes e Interiores"
+            },
+            "value": "Vanessa Larré - Arquitetura Autoral"
+          },
+          {
+            "label": {
+              "pt-BR": "Paisagismo",
+              "en": "Landscape Architecture",
+              "es": "Paisajismo"
+            },
+            "value": "Escritório Burle Marx"
+          },
+          {
+            "label": {
+              "pt-BR": "Design Gráfico",
+              "en": "Graphic Design",
+              "es": "Diseño Gráfico"
+            },
+            "value": "AS SÓCIAS"
+          }
+        ]
+      },
+      "nextProject": {
+        "mode": "editorial"
+      }
     }
   }
 }

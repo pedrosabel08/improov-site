@@ -88,6 +88,8 @@ Em `data/cases.json`, adicione a chave do slug dentro de `cases`. Reutilize `the
 
 Para campos opcionais e layouts avançados, use uma entrada existente do mesmo tipo e confira o ramo correspondente de `partials/case-detail.php`. Não escolha layouts não suportados. `environments` relaciona `id`, `label`, `still`, `motion` e `pill`; referências de planta/hotspot existentes não tornam plantas interativas automaticamente.
 
+Para uma série de episódios verticais com áudio, o `carousel` aceita `layout: "episodes"`. As miniaturas mantêm 9:16, mostram a duração do manifesto e usam o player de filmes com reprodução por clique e controles nativos. As animações dos outros carrosséis mantêm a reprodução por visibilidade.
+
 ### Exemplos reais mínimos
 
 Hero do Alpes:
@@ -183,6 +185,8 @@ Exemplo real de regra do Alpes (a outra fonte é o filme):
 ```
 
 As chaves `sources` são caminhos relativos exatos dentro do master do projeto. O inventário inclui também fontes não publicadas, mas elas não precisam produzir arquivos públicos.
+
+Se os vídeos forem processados diretamente da pasta de entrega, indique a raiz com `--source-dir`. A chave opcional `categories` da curadoria mapeia nomes exatos das subpastas de primeiro nível para `animacoes`, `filmes` ou `pilulas`. O Reserva Japandi (`ld-res`) usa a pasta original `LD Reserva` como fonte dos vídeos e a raiz padrão de masters para as imagens.
 
 ```powershell
 & $casePython deploy/process-videos.py aya-kar --no-clean
