@@ -918,7 +918,7 @@ $filmNavigationEntries = static function (array $section) use ($caseText, $video
               <h2 data-i18n="case.testimonial"><?= escape(ui_text('case.testimonial')) ?></h2>
             </div>
             <div class="case-v3-film__video-wrap">
-              <video class="case-v3-testimonial__video case-v3-film__video" controls playsinline preload="none" data-lazy-poster="<?= escape(asset((string) ($featuredTestimonial['poster'] ?? ''))) ?>" width="<?= (int) ($featuredTestimonialSource['width'] ?? 1920) ?>" height="<?= (int) ($featuredTestimonialSource['height'] ?? 1080) ?>" aria-label="<?= escape(ui_text('case.testimonial') . ' — ' . $caseTitle) ?>">
+              <video class="case-v3-testimonial__video case-v3-film__video" controls playsinline preload="none" data-lazy-poster="<?= escape(asset((string) ($case['testimonial']['poster'] ?? $featuredTestimonial['poster'] ?? ''))) ?>" width="<?= (int) ($featuredTestimonialSource['width'] ?? 1920) ?>" height="<?= (int) ($featuredTestimonialSource['height'] ?? 1080) ?>" aria-label="<?= escape(ui_text('case.testimonial') . ' — ' . $caseTitle) ?>">
                 <source src="<?= escape(asset($featuredTestimonialSource['src'])) ?>" type="video/mp4">
               </video>
               <button class="case-v3-film__play" type="button" data-case-film-play hidden aria-label="<?= escape($caseText(['pt-BR' => 'Reproduzir em tela cheia', 'en' => 'Play fullscreen', 'es' => 'Reproducir a pantalla completa']) . ' — ' . $caseTitle) ?>"><span><?= site_icon('play', 'case-v3-icon') ?></span></button>
